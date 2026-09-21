@@ -1,0 +1,76 @@
+/* 기본 초기화 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #e8f5e9; /* 전체 배경색 */
+    color: #333;
+    /* 화면이 좁아질 때 유연하게 줄어들 수 있도록 min-width 속성 제거 */
+}
+
+/* 모든 공통 박스 디자인 */
+header, nav, main, section, article, aside, footer {
+    padding: 15px;
+    border: 1px solid #7cb342;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* 제목 여백 조정 */
+h3, h4, h5 {
+    margin-bottom: 10px;
+}
+
+/* 각 영역별 배경색 설정 */
+header {
+    background-color: #558b2f;
+    color: white;
+}
+
+nav {
+    background-color: #8bc34a;
+}
+
+/* 레이아웃 (Flexbox 사용) */
+.content-wrap {
+    display: flex;
+    gap: 10px; /* main과 aside 사이 간격 */
+    margin-bottom: 10px;
+    flex-wrap: nowrap; /* 줄바꿈을 방지하여 무조건 좌우 배치를 유지 */
+}
+
+main {
+    background-color: #c5e1a5;
+    flex: 3; /* 전체 공간의 3 비율 차지 */
+    min-width: 0; /* Flex 아이템이 텍스트 길이 때문에 팽창하는 것을 방지 */
+    word-break: keep-all; 
+    overflow-wrap: break-word; /* 텍스트가 박스를 넘어가지 않고 줄바꿈되도록 강제 */
+}
+
+section {
+    background-color: #aed581;
+}
+
+article {
+    background-color: #dcedc8;
+}
+
+aside {
+    background-color: #c5e1a5;
+    flex: 1; /* 전체 공간의 1 비율 차지 */
+    min-width: 0; /* 고정 크기를 없애서 창이 아무리 좁아져도 잘리지 않고 줄어들게 설정 */
+    word-break: keep-all; 
+    overflow-wrap: break-word; /* 창이 매우 좁아질 때 텍스트가 잘리지 않고 내부에서 줄바꿈 처리됨 */
+}
+
+footer {
+    background-color: #558b2f;
+    color: white;
+    margin-bottom: 0;
+}
