@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인적사항 - 포트폴리오</title>
+    <link rel="stylesheet" href="mportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="mintro.html" class="nav-link">자기소개</a></li>
+                <li><a href="minfo.html" class="nav-link active">인적사항</a></li>
+                <li><a href="mstudy.html" class="nav-link">학술사항</a></li>
+                <li><a href="mcareer.html" class="nav-link">경력사항</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 인적사항 Section -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">인적사항</h2>
+
+            <!-- 기본 정보 테이블 -->
+            <div class="info-card">
+                <h3 class="card-title">기본 정보</h3>
+                <table class="info-table">
+                    <tbody>
+                        <tr>
+                            <th>이름</th>
+                            <td>홍길동</td>
+                        </tr>
+                        <tr>
+                            <th>영문명</th>
+                            <td>Hong Gildong</td>
+                        </tr>
+                        <tr>
+                            <th>생년월일</th>
+                            <td>1990년 1월 1일</td>
+                        </tr>
+                        <tr>
+                            <th>거주지</th>
+                            <td>서울특별시 강남구</td>
+                        </tr>
+                        <tr>
+                            <th>국적</th>
+                            <td>대한민국</td>
+                        </tr>
+                        <tr>
+                            <th>병역사항</th>
+                            <td>군필 (육군 병장 만기제대)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 연락처 정보 -->
+            <div class="info-card">
+                <h3 class="card-title">연락처 정보</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>이메일</h4>
+                            <p>your.email@example.com</p>
+                            <a href="mailto:your.email@example.com" class="contact-link">이메일 보내기</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>전화번호</h4>
+                            <p>+82 10-1234-5678</p>
+                            <a href="tel:+821012345678" class="contact-link">전화 걸기</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>주소</h4>
+                            <p>서울특별시 강남구<br>테헤란로 123</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-details">
+                            <h4>웹사이트</h4>
+                            <p>www.yourwebsite.com</p>
+                            <a href="https://www.yourwebsite.com" target="_blank" class="contact-link">사이트 방문</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 소셜 미디어 & 링크 -->
+            <div class="info-card">
+                <h3 class="card-title">소셜 미디어 & 링크</h3>
+                <div class="social-grid">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-card">
+                        <div class="social-icon github-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>GitHub</h4>
+                            <p>@yourusername</p>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-card">
+                        <div class="social-icon linkedin-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>LinkedIn</h4>
+                            <p>@yourusername</p>
+                        </div>
+                    </a>
+
+                    <a href="https://blog.yoursite.com" target="_blank" class="social-card">
+                        <div class="social-icon blog-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6 22q-.825 0-1.412-.587Q4 20.825 4 20V4q0-.825.588-1.413Q5.175 2 6 2h8l6 6v12q0 .825-.587 1.413Q18.825 22 18 22Zm7-13V4H6v16h12V9Zm-7 7h8v-2H6Zm0-4h8v-2H6Zm0-4h5V6H6Z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>Blog</h4>
+                            <p>기술 블로그</p>
+                        </div>
+                    </a>
+
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-card">
+                        <div class="social-icon twitter-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>Twitter</h4>
+                            <p>@yourusername</p>
+                        </div>
+                    </a>
+
+                    <a href="https://notion.so/yourworkspace" target="_blank" class="social-card">
+                        <div class="social-icon notion-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>Notion</h4>
+                            <p>포트폴리오</p>
+                        </div>
+                    </a>
+
+                    <a href="mailto:your.email@example.com" class="social-card">
+                        <div class="social-icon email-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h4>Email</h4>
+                            <p>직접 연락</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 연락 폼 -->
+            <div class="info-card">
+                <h3 class="card-title">메시지 보내기</h3>
+                <p class="card-description">프로젝트 문의나 협업 제안이 있으시면 아래 폼을 통해 연락주세요.</p>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">이름 *</label>
+                            <input type="text" id="name" name="name" required placeholder="홍길동">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일 *</label>
+                            <input type="email" id="email" name="email" required placeholder="example@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">제목 *</label>
+                        <input type="text" id="subject" name="subject" required placeholder="문의 제목을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">메시지 *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="메시지 내용을 입력하세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">메시지 보내기</button>
+                </form>
+            </div>
+
+            <!-- 다운로드 섹션 -->
+            <div class="info-card download-section">
+                <h3 class="card-title">문서 다운로드</h3>
+                <div class="download-grid">
+                    <a href="#" class="download-card" download>
+                        <div class="download-icon">📄</div>
+                        <div class="download-info">
+                            <h4>이력서</h4>
+                            <p>PDF 형식 (2MB)</p>
+                        </div>
+                        <div class="download-button">다운로드</div>
+                    </a>
+                    <a href="#" class="download-card" download>
+                        <div class="download-icon">📋</div>
+                        <div class="download-info">
+                            <h4>포트폴리오</h4>
+                            <p>PDF 형식 (5MB)</p>
+                        </div>
+                        <div class="download-button">다운로드</div>
+                    </a>
+                    <a href="#" class="download-card" download>
+                        <div class="download-icon">🎓</div>
+                        <div class="download-info">
+                            <h4>자격증</h4>
+                            <p>PDF 형식 (1MB)</p>
+                        </div>
+                        <div class="download-button">다운로드</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>Made with ❤️ using HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

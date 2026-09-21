@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리 반응형 예제</title>
+    <style>
+        /* 기본 레이아웃 설정 (모든 화면 공통 적용) */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Malgun Gothic', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            /* 배경색이 바뀔 때 부드럽게 전환되도록 애니메이션 효과 추가 */
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+
+        /* 1. 화면 너비가 500px 이하일 때: 연두색 */
+        @media (max-width: 500px) {
+            body {
+                background-color: yellowgreen; /* 연두색 */
+                color: black;
+            }
+            .text-container::after {
+                content: "현재 화면: 500px 이하\A배경색: 연두색";
+                white-space: pre; /* 줄바꿈 적용 */
+            }
+        }
+
+        /* 2. 화면 너비가 501px 이상, 720px 이하일 때: 노란색 */
+        @media (min-width: 501px) and (max-width: 720px) {
+            body {
+                background-color: yellow; /* 노란색 */
+                color: black;
+            }
+            .text-container::after {
+                content: "현재 화면: 501px ~ 720px\A배경색: 노란색";
+                white-space: pre;
+            }
+        }
+
+        /* 3. 화면 너비가 721px 이상일 때: 보라색 */
+        @media (min-width: 721px) {
+            body {
+                background-color: purple; /* 보라색 */
+                color: white; /* 어두운 배경이므로 글자색을 흰색으로 변경 */
+            }
+            .text-container::after {
+                content: "현재 화면: 721px 이상\A배경색: 보라색";
+                white-space: pre;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 미디어 쿼리 조건에 따라 텍스트가 변하는 컨테이너 -->
+    <div class="text-container"></div>
+</body>
+</html>
