@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디어 목록 - 포트폴리오</title>
+    <link rel="stylesheet" href="mportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="mintro.html" class="nav-link">자기소개</a></li>
+                <li><a href="minfo.html" class="nav-link">인적사항</a></li>
+                <li><a href="mstudy.html" class="nav-link">학술사항</a></li>
+                <li><a href="mcareer.html" class="nav-link">경력사항</a></li>
+                <li><a href="idea.html" class="nav-link active">아이디어 목록</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 아이디어 목록 Section -->
+    <section class="idea-section">
+        <div class="container">
+            <h2 class="section-title">아이디어 목록</h2>
+
+            <!-- 아이디어 추가 폼 -->
+            <div class="info-card">
+                <div class="card-header-actions">
+                    <h3 class="card-title">새 아이디어 추가</h3>
+                    <div class="file-actions">
+                        <button class="btn-small btn-import" onclick="importIdeas()">📁 파일 가져오기</button>
+                        <button class="btn-small btn-export" onclick="exportIdeas()">💾 파일 저장</button>
+                    </div>
+                </div>
+                <input type="file" id="fileInput" accept=".json" style="display: none;" onchange="handleFileUpload(event)">
+                <form class="idea-form" id="ideaForm">
+                    <div class="form-group">
+                        <label for="ideaTitle">제목 *</label>
+                        <input type="text" id="ideaTitle" name="ideaTitle" required placeholder="아이디어 제목을 입력하세요">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ideaCategory">카테고리</label>
+                            <select id="ideaCategory" name="ideaCategory">
+                                <option value="웹 개발">웹 개발</option>
+                                <option value="앱 개발">앱 개발</option>
+                                <option value="디자인">디자인</option>
+                                <option value="비즈니스">비즈니스</option>
+                                <option value="마케팅">마케팅</option>
+                                <option value="기타">기타</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ideaPriority">우선순위</label>
+                            <select id="ideaPriority" name="ideaPriority">
+                                <option value="높음">높음</option>
+                                <option value="보통" selected>보통</option>
+                                <option value="낮음">낮음</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="ideaDescription">상세 내용 *</label>
+                        <textarea id="ideaDescription" name="ideaDescription" rows="4" required placeholder="아이디어에 대한 상세 설명을 입력하세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">아이디어 추가</button>
+                </form>
+            </div>
+
+            <!-- 필터 및 정렬 -->
+            <div class="idea-controls">
+                <div class="filter-group">
+                    <label for="filterCategory">카테고리:</label>
+                    <select id="filterCategory">
+                        <option value="전체">전체</option>
+                        <option value="웹 개발">웹 개발</option>
+                        <option value="앱 개발">앱 개발</option>
+                        <option value="디자인">디자인</option>
+                        <option value="비즈니스">비즈니스</option>
+                        <option value="마케팅">마케팅</option>
+                        <option value="기타">기타</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sortBy">정렬:</label>
+                    <select id="sortBy">
+                        <option value="최신순">최신순</option>
+                        <option value="오래된순">오래된순</option>
+                        <option value="우선순위">우선순위</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- 아이디어 목록 -->
+            <div class="info-card">
+                <h3 class="card-title">내 아이디어 (<span id="ideaCount">5</span>개)</h3>
+                <div class="idea-list" id="ideaList">
+                    <!-- 아이디어 아이템 1 -->
+                    <div class="idea-item" data-category="웹 개발" data-priority="높음" data-date="2024-03-20">
+                        <div class="idea-header">
+                            <div class="idea-number">1</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">포트폴리오 자동 생성 플랫폼</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-web">웹 개발</span>
+                                    <span class="idea-priority priority-high">높음</span>
+                                    <span class="idea-date">2024-03-20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">
+                            개발자와 디자이너를 위한 AI 기반 포트폴리오 자동 생성 서비스.
+                            GitHub, Dribbble 등에서 프로젝트를 자동으로 가져와 멋진 포트폴리오 웹사이트를 생성.
+                            다양한 템플릿과 커스터마이징 옵션 제공.
+                        </p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(1)">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(1)">삭제</button>
+                        </div>
+                    </div>
+
+                    <!-- 아이디어 아이템 2 -->
+                    <div class="idea-item" data-category="앱 개발" data-priority="보통" data-date="2024-03-18">
+                        <div class="idea-header">
+                            <div class="idea-number">2</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">일일 목표 관리 앱</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-app">앱 개발</span>
+                                    <span class="idea-priority priority-medium">보통</span>
+                                    <span class="idea-date">2024-03-18</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">
+                            매일 아침 하루의 목표를 설정하고, 저녁에 달성도를 체크하는 간단한 앱.
+                            통계와 분석 기능으로 생산성 향상 추적.
+                            친구들과 목표를 공유하고 서로 응원하는 소셜 기능 포함.
+                        </p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(2)">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(2)">삭제</button>
+                        </div>
+                    </div>
+
+                    <!-- 아이디어 아이템 3 -->
+                    <div class="idea-item" data-category="디자인" data-priority="낮음" data-date="2024-03-15">
+                        <div class="idea-header">
+                            <div class="idea-number">3</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">컬러 팔레트 생성기</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-design">디자인</span>
+                                    <span class="idea-priority priority-low">낮음</span>
+                                    <span class="idea-date">2024-03-15</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">
+                            AI가 이미지나 키워드를 분석해서 조화로운 컬러 팔레트를 자동 생성.
+                            다양한 컬러 조합 제안, CSS/Sass 코드 자동 생성,
+                            접근성 검사 기능으로 WCAG 가이드라인 준수 여부 확인.
+                        </p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(3)">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(3)">삭제</button>
+                        </div>
+                    </div>
+
+                    <!-- 아이디어 아이템 4 -->
+                    <div class="idea-item" data-category="비즈니스" data-priority="높음" data-date="2024-03-12">
+                        <div class="idea-header">
+                            <div class="idea-number">4</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">프리랜서 매칭 플랫폼</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-business">비즈니스</span>
+                                    <span class="idea-priority priority-high">높음</span>
+                                    <span class="idea-date">2024-03-12</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">
+                            기업과 프리랜서를 AI로 매칭해주는 플랫폼.
+                            프로젝트 요구사항과 프리랜서 스킬을 분석해 최적의 매칭 제공.
+                            안전한 결제 시스템, 계약서 자동 생성, 리뷰 시스템 포함.
+                        </p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(4)">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(4)">삭제</button>
+                        </div>
+                    </div>
+
+                    <!-- 아이디어 아이템 5 -->
+                    <div class="idea-item" data-category="마케팅" data-priority="보통" data-date="2024-03-10">
+                        <div class="idea-header">
+                            <div class="idea-number">5</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">SNS 콘텐츠 스케줄러</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-marketing">마케팅</span>
+                                    <span class="idea-priority priority-medium">보통</span>
+                                    <span class="idea-date">2024-03-10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">
+                            여러 SNS 플랫폼에 동시 예약 포스팅 가능한 도구.
+                            최적의 포스팅 시간 추천, 해시태그 분석, 성과 분석 대시보드.
+                            Instagram, Facebook, Twitter, LinkedIn 등 주요 플랫폼 지원.
+                        </p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(5)">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(5)">삭제</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 통계 정보 -->
+            <div class="idea-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">💡</div>
+                    <div class="stat-content">
+                        <div class="stat-value">5</div>
+                        <div class="stat-label">총 아이디어</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <div class="stat-content">
+                        <div class="stat-value">2</div>
+                        <div class="stat-label">높은 우선순위</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-content">
+                        <div class="stat-value">2</div>
+                        <div class="stat-label">웹 개발</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">✨</div>
+                    <div class="stat-content">
+                        <div class="stat-value">이번 주</div>
+                        <div class="stat-label">최근 추가</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>Made with ❤️ using HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // 아이디어 관리 스크립트
+        let editingId = null; // 현재 수정 중인 아이디어 ID
+        const API_URL = 'http://localhost:3000/api/ideas';
+        let useServerMode = true; // 서버 모드 사용 여부
+
+        // 서버에서 아이디어 불러오기
+        async function loadIdeasFromServer() {
+            try {
+                const response = await fetch(API_URL);
+                if (response.ok) {
+                    const ideas = await response.json();
+                    renderIdeas(ideas);
+                    updateIdeaCount();
+                    updateStats();
+                    console.log('✅ 서버에서 아이디어를 불러왔습니다.');
+                    useServerMode = true;
+                }
+            } catch (e) {
+                console.log('⚠️ 서버 연결 실패. 파일 모드로 전환합니다.');
+                useServerMode = false;
+                await loadIdeasFromFile();
+            }
+        }
+
+        // 서버에 아이디어 저장
+        async function saveIdeasToServer() {
+            const ideas = getIdeasArray();
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(ideas)
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log('✅ 서버에 저장되었습니다:', result);
+                    return true;
+                }
+            } catch (e) {
+                console.error('❌ 서버 저장 실패:', e);
+                return false;
+            }
+        }
+
+        // JSON 파일에서 아이디어 불러오기 (백업용)
+        async function loadIdeasFromFile() {
+            try {
+                const response = await fetch('ideas.json');
+                if (response.ok) {
+                    const ideas = await response.json();
+                    renderIdeas(ideas);
+                    updateIdeaCount();
+                    updateStats();
+                    console.log('✅ ideas.json 파일에서 불러왔습니다.');
+                }
+            } catch (e) {
+                console.log('ℹ️ ideas.json 파일이 없습니다. 빈 목록으로 시작합니다.');
+            }
+        }
+
+        // 아이디어 목록 렌더링
+        function renderIdeas(ideas) {
+            const list = document.getElementById('ideaList');
+            list.innerHTML = ''; // 기존 목록 초기화
+
+            ideas.sort((a, b) => a.id - b.id); // ID 순서로 정렬
+
+            ideas.forEach(idea => {
+                const ideaHTML = `
+                    <div class="idea-item" data-category="${idea.category}" data-priority="${idea.priority}" data-date="${idea.date}">
+                        <div class="idea-header">
+                            <div class="idea-number">${idea.id}</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">${idea.title}</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-${getCategoryClass(idea.category)}">${idea.category}</span>
+                                    <span class="idea-priority priority-${getPriorityClass(idea.priority)}">${idea.priority}</span>
+                                    <span class="idea-date">${idea.date}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">${idea.description}</p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(${idea.id})">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(${idea.id})">삭제</button>
+                        </div>
+                    </div>
+                `;
+                list.insertAdjacentHTML('beforeend', ideaHTML);
+            });
+        }
+
+        // 현재 아이디어 목록을 JSON 배열로 변환
+        function getIdeasArray() {
+            const items = document.querySelectorAll('.idea-item');
+            const ideas = [];
+
+            items.forEach(item => {
+                const idea = {
+                    id: parseInt(item.querySelector('.idea-number').textContent),
+                    title: item.querySelector('.idea-title').textContent,
+                    category: item.dataset.category,
+                    priority: item.dataset.priority,
+                    description: item.querySelector('.idea-description').textContent,
+                    date: item.dataset.date
+                };
+                ideas.push(idea);
+            });
+
+            // ID 순서로 정렬
+            ideas.sort((a, b) => a.id - b.id);
+            return ideas;
+        }
+
+        // 아이디어를 JSON 파일로 내보내기
+        function exportIdeas() {
+            const ideas = getIdeasArray();
+            const json = JSON.stringify(ideas, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'ideas.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            alert('ideas.json 파일이 다운로드되었습니다!\n\n이 파일을 GitHub에 커밋하면 다른 곳에서도 사용할 수 있습니다.');
+        }
+
+        // JSON 파일 가져오기 버튼 클릭
+        function importIdeas() {
+            document.getElementById('fileInput').click();
+        }
+
+        // 파일 업로드 처리
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const ideas = JSON.parse(e.target.result);
+
+                    if (confirm('현재 아이디어 목록을 가져온 파일로 교체하시겠습니까?')) {
+                        renderIdeas(ideas);
+                        updateIdeaCount();
+                        updateStats();
+                        alert('아이디어를 성공적으로 불러왔습니다!');
+                    }
+                } catch (error) {
+                    alert('파일 형식이 올바르지 않습니다. JSON 파일을 선택해주세요.');
+                }
+            };
+            reader.readAsText(file);
+
+            // 파일 입력 초기화 (같은 파일을 다시 선택할 수 있도록)
+            event.target.value = '';
+        }
+
+        // 다음 사용 가능한 번호 찾기 함수
+        function getNextAvailableNumber() {
+            const items = document.querySelectorAll('.idea-item');
+            const usedNumbers = new Set();
+
+            items.forEach(item => {
+                const num = parseInt(item.querySelector('.idea-number').textContent);
+                usedNumbers.add(num);
+            });
+
+            // 1부터 시작해서 사용되지 않은 가장 작은 번호 찾기
+            let nextNumber = 1;
+            while (usedNumbers.has(nextNumber)) {
+                nextNumber++;
+            }
+
+            return nextNumber;
+        }
+
+        // 아이디어 추가/수정
+        document.getElementById('ideaForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const title = document.getElementById('ideaTitle').value;
+            const category = document.getElementById('ideaCategory').value;
+            const priority = document.getElementById('ideaPriority').value;
+            const description = document.getElementById('ideaDescription').value;
+            const today = new Date().toISOString().split('T')[0];
+
+            if (editingId !== null) {
+                // 수정 모드
+                const items = document.querySelectorAll('.idea-item');
+                items.forEach(item => {
+                    if (item.querySelector('.idea-number').textContent == editingId) {
+                        // 기존 아이디어 업데이트
+                        item.dataset.category = category;
+                        item.dataset.priority = priority;
+                        item.dataset.date = today;
+
+                        item.querySelector('.idea-title').textContent = title;
+                        item.querySelector('.idea-description').textContent = description;
+
+                        // 카테고리 업데이트
+                        const categoryElement = item.querySelector('.idea-category');
+                        categoryElement.textContent = category;
+                        categoryElement.className = `idea-category category-${getCategoryClass(category)}`;
+
+                        // 우선순위 업데이트
+                        const priorityElement = item.querySelector('.idea-priority');
+                        priorityElement.textContent = priority;
+                        priorityElement.className = `idea-priority priority-${getPriorityClass(priority)}`;
+
+                        // 날짜 업데이트
+                        item.querySelector('.idea-date').textContent = today;
+                    }
+                });
+
+                // 수정 모드 해제
+                editingId = null;
+                document.querySelector('#ideaForm button[type="submit"]').textContent = '아이디어 추가';
+
+                // 서버에 자동 저장
+                if (useServerMode) {
+                    await saveIdeasToServer();
+                    alert('아이디어가 수정되었습니다!\n\n변경사항이 자동으로 저장되었습니다. ✅');
+                } else {
+                    alert('아이디어가 수정되었습니다!\n\n변경사항을 저장하려면 "파일 저장" 버튼을 클릭하세요.');
+                }
+            } else {
+                // 추가 모드 - 사용 가능한 가장 작은 번호 찾기
+                const newNumber = getNextAvailableNumber();
+
+                const ideaHTML = `
+                    <div class="idea-item" data-category="${category}" data-priority="${priority}" data-date="${today}">
+                        <div class="idea-header">
+                            <div class="idea-number">${newNumber}</div>
+                            <div class="idea-info">
+                                <h4 class="idea-title">${title}</h4>
+                                <div class="idea-meta">
+                                    <span class="idea-category category-${getCategoryClass(category)}">${category}</span>
+                                    <span class="idea-priority priority-${getPriorityClass(priority)}">${priority}</span>
+                                    <span class="idea-date">${today}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="idea-description">${description}</p>
+                        <div class="idea-actions">
+                            <button class="btn-small btn-edit" onclick="editIdea(${newNumber})">수정</button>
+                            <button class="btn-small btn-delete" onclick="deleteIdea(${newNumber})">삭제</button>
+                        </div>
+                    </div>
+                `;
+
+                // 번호 순서대로 삽입 위치 찾기
+                const list = document.getElementById('ideaList');
+                const items = Array.from(list.querySelectorAll('.idea-item'));
+
+                let inserted = false;
+                for (let item of items) {
+                    const itemNumber = parseInt(item.querySelector('.idea-number').textContent);
+                    if (newNumber < itemNumber) {
+                        item.insertAdjacentHTML('beforebegin', ideaHTML);
+                        inserted = true;
+                        break;
+                    }
+                }
+
+                // 가장 큰 번호인 경우 맨 뒤에 추가
+                if (!inserted) {
+                    list.insertAdjacentHTML('beforeend', ideaHTML);
+                }
+
+                // 서버에 자동 저장
+                if (useServerMode) {
+                    await saveIdeasToServer();
+                    alert('아이디어가 추가되었습니다!\n\n변경사항이 자동으로 저장되었습니다. ✅');
+                } else {
+                    alert('아이디어가 추가되었습니다!\n\n변경사항을 저장하려면 "파일 저장" 버튼을 클릭하세요.');
+                }
+            }
+
+            // 폼 초기화
+            this.reset();
+
+            // 카운트 업데이트
+            updateIdeaCount();
+
+            // 폼 상단으로 스크롤
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // 카테고리 클래스 매핑
+        function getCategoryClass(category) {
+            const map = {
+                '웹 개발': 'web',
+                '앱 개발': 'app',
+                '디자인': 'design',
+                '비즈니스': 'business',
+                '마케팅': 'marketing',
+                '기타': 'etc'
+            };
+            return map[category] || 'etc';
+        }
+
+        // 우선순위 클래스 매핑
+        function getPriorityClass(priority) {
+            const map = {
+                '높음': 'high',
+                '보통': 'medium',
+                '낮음': 'low'
+            };
+            return map[priority] || 'medium';
+        }
+
+        // 아이디어 삭제
+        async function deleteIdea(id) {
+            if (confirm('이 아이디어를 삭제하시겠습니까?')) {
+                const items = document.querySelectorAll('.idea-item');
+                items.forEach(async item => {
+                    const itemId = parseInt(item.querySelector('.idea-number').textContent);
+                    if (itemId == id) {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateX(-20px)';
+                        setTimeout(async () => {
+                            item.remove();
+                            updateIdeaCount();
+                            updateStats();
+
+                            // 서버에 자동 저장
+                            if (useServerMode) {
+                                await saveIdeasToServer();
+                                alert('아이디어가 삭제되었습니다!\n\n변경사항이 자동으로 저장되었습니다. ✅');
+                            } else {
+                                alert('아이디어가 삭제되었습니다!\n\n변경사항을 저장하려면 "파일 저장" 버튼을 클릭하세요.');
+                            }
+                        }, 300);
+                    }
+                });
+            }
+        }
+
+        // 아이디어 수정
+        function editIdea(id) {
+            const items = document.querySelectorAll('.idea-item');
+            let ideaData = null;
+
+            items.forEach(item => {
+                const itemId = parseInt(item.querySelector('.idea-number').textContent);
+                if (itemId == id) {
+                    ideaData = {
+                        id: itemId,
+                        title: item.querySelector('.idea-title').textContent,
+                        category: item.dataset.category,
+                        priority: item.dataset.priority,
+                        description: item.querySelector('.idea-description').textContent,
+                        date: item.dataset.date
+                    };
+                }
+            });
+
+            if (ideaData) {
+                // 폼에 데이터 채우기
+                document.getElementById('ideaTitle').value = ideaData.title;
+                document.getElementById('ideaCategory').value = ideaData.category;
+                document.getElementById('ideaPriority').value = ideaData.priority;
+                document.getElementById('ideaDescription').value = ideaData.description;
+
+                // 수정 모드 활성화
+                editingId = ideaData.id;
+                document.querySelector('#ideaForm button[type="submit"]').textContent = '수정 완료';
+
+                // 폼으로 스크롤
+                document.querySelector('.idea-form').scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // 폼 강조 효과
+                const formCard = document.querySelector('.idea-form').closest('.info-card');
+                formCard.style.boxShadow = '0 0 0 3px var(--primary-color)';
+                setTimeout(() => {
+                    formCard.style.boxShadow = '';
+                }, 2000);
+            }
+        }
+
+        // 아이디어 개수 업데이트
+        function updateIdeaCount() {
+            const count = document.querySelectorAll('.idea-item').length;
+            document.getElementById('ideaCount').textContent = count;
+        }
+
+        // 통계 업데이트
+        function updateStats() {
+            const items = document.querySelectorAll('.idea-item');
+            const stats = {
+                total: items.length,
+                high: 0,
+                web: 0
+            };
+
+            items.forEach(item => {
+                if (item.dataset.priority === '높음') stats.high++;
+                if (item.dataset.category === '웹 개발') stats.web++;
+            });
+
+            // 통계 카드 업데이트
+            const statCards = document.querySelectorAll('.stat-value');
+            if (statCards[0]) statCards[0].textContent = stats.total;
+            if (statCards[1]) statCards[1].textContent = stats.high;
+            if (statCards[2]) statCards[2].textContent = stats.web;
+        }
+
+        // 카테고리 필터
+        document.getElementById('filterCategory').addEventListener('change', function() {
+            const category = this.value;
+            const items = document.querySelectorAll('.idea-item');
+
+            items.forEach(item => {
+                if (category === '전체' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        // 정렬
+        document.getElementById('sortBy').addEventListener('change', function() {
+            const sortBy = this.value;
+            const list = document.getElementById('ideaList');
+            const items = Array.from(document.querySelectorAll('.idea-item'));
+
+            items.sort((a, b) => {
+                if (sortBy === '최신순') {
+                    return new Date(b.dataset.date) - new Date(a.dataset.date);
+                } else if (sortBy === '오래된순') {
+                    return new Date(a.dataset.date) - new Date(b.dataset.date);
+                } else if (sortBy === '우선순위') {
+                    const priorityOrder = {'높음': 0, '보통': 1, '낮음': 2};
+                    return priorityOrder[a.dataset.priority] - priorityOrder[b.dataset.priority];
+                }
+            });
+
+            items.forEach(item => list.appendChild(item));
+        });
+
+        // 수정 취소 기능 (ESC 키)
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && editingId !== null) {
+                editingId = null;
+                document.getElementById('ideaForm').reset();
+                document.querySelector('#ideaForm button[type="submit"]').textContent = '아이디어 추가';
+                alert('수정이 취소되었습니다.');
+            }
+        });
+
+        // 초기 통계 업데이트
+        updateStats();
+
+        // 페이지 로드 시 서버에서 아이디어 불러오기
+        window.addEventListener('load', function() {
+            loadIdeasFromServer();
+        });
+    </script>
+</body>
+</html>
