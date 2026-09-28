@@ -149,8 +149,8 @@ class ExampleUnitTest {
         }
         println("코틀린 : 중첩 if 조건문 " + result2)
 
-        var day : Int = 2
-        var result3 : String
+        var day: Int = 2
+        var result3: String
         when (day) {
             1 -> result3 = "Monday"
             2 -> result3 = "Tuesday"
@@ -163,29 +163,36 @@ class ExampleUnitTest {
         }
         println("코틀린 : when 조건문 " + result3)
 
-        for ( i in 5 downTo 1) {
+        for (i in 5 downTo 1) {
             println("코틀린 : for 반복문 반복 변수 : " + i)
         }
 
-        for ( i in 5 downTo 1 step 2 ) {
+        for (i in 5 downTo 1 step 2) {
             println("코틀린 : for 반복문 반복 변수 : " + i)
         }
 
         var numbers = arrayOf(1, 2, 3, 4, 5)
-        for ( i in numbers){    //i in [1, 2, 3, 4, 5]와 같은 의미
-            if(i % 2 == 1 ){
+        for (i in numbers) {    //i in [1, 2, 3, 4, 5]와 같은 의미
+            if (i % 2 == 1) {
                 println("코틀린 : for 반복문 반복 변수 : " + i)
             }
 
         }
-        val score : Int = 96
-        val attendanceRate : Int = 85
+        val score: Int = 96
+        val attendanceRate: Int = 85
 
         // 학점 계산 함수 호출
         val result4 = calculateGrade(score, attendanceRate)
 
         // 계산된 결과를 println으로 출력 (Logcat의 System.out에서 확인 가능)
         println("점수: $score, 출석률: $attendanceRate% -> 결과: $result4")
+
+        for (i in 10 .. 13){
+            for (j in 5 ..10) {
+                print("${i} x ${j} = ${i * j}\t")
+            }
+            println()
+        }
     }
 
     /**
@@ -213,5 +220,4 @@ class ExampleUnitTest {
             return "F 학점"
         }
     }
-
-    }
+}
