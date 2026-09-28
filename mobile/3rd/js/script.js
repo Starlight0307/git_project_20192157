@@ -312,3 +312,286 @@ console.log('%c포트폴리오 웹사이트에 오신 것을 환영합니다!',
     'color: #2563eb; font-size: 20px; font-weight: bold;');
 console.log('%c이 웹사이트는 HTML, CSS, JavaScript로 제작되었습니다.',
     'color: #64748b; font-size: 14px;');
+
+// ==================== //
+// 지도 (현재 위치 + 주소 검색)
+// ==================== //
+// Leaflet(OpenStreetMap) + Nominatim 주소 검색 - API 키 없이 사용 가능
+const mapModal = document.getElementById('mapModal');
+
+if (mapModal && window.L) {
+    const mapOpenBtn = document.getElementById('mapOpenBtn');
+    const mapCloseBtn = document.getElementById('mapCloseBtn');
+    const mapSearchForm = document.getElementById('mapSearchForm');
+    const mapSearchInput = document.getElementById('mapSearchInput');
+    const mapGpsBtn = document.getElementById('mapGpsBtn');
+    const mapResults = document.getElementById('mapResults');
+    const mapStatus = document.getElementById('mapStatus');
+
+    const DEFAULT_CENTER = [37.5509, 126.8495]; // 서울특별시 강서구
+    let map = null;
+    let searchMarker = null;
+    let gpsMarker = null;
+    let gpsCircle = null;
+
+    const setStatus = (text) => { mapStatus.textContent = text; };
+
+    const initMap = () => {
+        if (map) return;
+        map = L.map('map').setView(DEFAULT_CENTER, 14);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        searchMarker = L.marker(DEFAULT_CENTER).addTo(map).bindPopup('서울특별시 강서구').openPopup();
+        enableManualPick();
+    };
+
+    const openMap = () => {
+        mapModal.classList.add('active');
+        mapModal.setAttribute('aria-hidden', 'false');
+        initMap();
+        // 모달이 보인 뒤 지도 크기 재계산
+        setTimeout(() => map.invalidateSize(), 100);
+    };
+
+    const closeMap = () => {
+        mapModal.classList.remove('active');
+        mapModal.setAttribute('aria-hidden', 'true');
+    };
+
+    const showPlace = (lat, lon, label) => {
+        map.setView([lat, lon], 16);
+        searchMarker.setLatLng([lat, lon]).bindPopup(label).openPopup();
+    };
+
+    // 현재 위치 마커 표시
+    const showMyLocation = (lat, lon, accuracy, label) => {
+        const latlng = [lat, lon];
+        if (gpsMarker) {
+            gpsMarker.setLatLng(latlng);
+            gpsCircle.setLatLng(latlng).setRadius(accuracy);
+        } else {
+            gpsCircle = L.circle(latlng, { radius: accuracy, color: '#2563eb', fillOpacity: 0.15 }).addTo(map);
+            gpsMarker = L.circleMarker(latlng, { radius: 8, color: '#fff', weight: 3, fillColor: '#2563eb', fillOpacity: 1 }).addTo(map);
+        }
+        gpsMarker.bindPopup(label).openPopup();
+        map.setView(latlng, accuracy > 1000 ? 13 : 16);
+    };
+
+    // 브라우저 위치를 못 가져올 때: IP 기반 대략적 위치
+    const locateByIp = async (reason) => {
+        try {
+            const res = await fetch('https://ipwho.is/');
+            const data = await res.json();
+            if (!data.success) throw new Error();
+            showMyLocation(data.latitude, data.longitude, 3000, `📍 대략적 위치 (${data.city})`);
+            setStatus(`${reason} 인터넷(IP) 기준 대략적 위치를 표시합니다. (${data.city}, 수 km 오차)`);
+        } catch (e) {
+            setStatus(`${reason} 대략적 위치도 가져오지 못했습니다.`);
+        }
+    };
+
+    // 브라우저 위치 요청을 Promise로 감싸기
+    const getPosition = (options) => new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, options);
+    });
+
+    const errorNames = { 1: '권한 거부', 2: '위치 사용 불가', 3: '시간 초과' };
+
+    // GPS 현재 위치
+    const locate = async () => {
+        if (!navigator.geolocation) {
+            locateByIp('이 브라우저는 위치 정보를 지원하지 않아');
+            return;
+        }
+        if (!window.isSecureContext) {
+            locateByIp(`보안 주소(https 또는 localhost)가 아니라서(${location.protocol}) 기기 위치를 쓸 수 없어`);
+            return;
+        }
+
+        setStatus('현재 위치를 찾는 중...');
+        // 1차: Wi-Fi 기반(빠름) → 2차: 고정밀 모드로 재시도
+        const attempts = [
+            { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 },
+            { enableHighAccuracy: true, timeout: 20000, maximumAge: 0 }
+        ];
+        let lastError = null;
+
+        for (const options of attempts) {
+            try {
+                const pos = await getPosition(options);
+                const { latitude, longitude, accuracy } = pos.coords;
+                showMyLocation(latitude, longitude, accuracy, '📍 현재 위치');
+                setStatus(`현재 위치 (정확도 약 ${Math.round(accuracy)}m)`);
+                return;
+            } catch (err) {
+                lastError = err;
+                console.warn('위치 확인 실패:', err.code, err.message);
+                if (err.code === 1) break; // 권한 거부는 재시도해도 소용없음
+                setStatus('한 번 더 시도하는 중...');
+            }
+        }
+
+        if (lastError.code === 1) {
+            setStatus('위치 권한이 거부되었습니다. 주소창 왼쪽 아이콘에서 위치 권한을 허용해주세요.');
+            return;
+        }
+        // 실패 원인을 함께 표시 (예: 위치 사용 불가 = macOS가 브라우저 위치 접근을 막은 경우가 대부분)
+        await locateByIp(`기기 위치를 확인할 수 없어 [${errorNames[lastError.code] || lastError.code}: ${lastError.message}]`);
+        setStatus(mapStatus.textContent + ' 지도를 클릭하면 내 위치를 직접 지정할 수 있어요.');
+    };
+
+    // 지도를 클릭해서 내 위치를 직접 지정
+    const enableManualPick = () => {
+        map.on('click', (e) => {
+            if (!gpsMarker) return;
+            showMyLocation(e.latlng.lat, e.latlng.lng, 30, '📍 내 위치 (직접 지정)');
+            setStatus('지도에서 직접 지정한 위치입니다.');
+        });
+    };
+
+    // 주소 검색
+    const searchAddress = async (query) => {
+        setStatus('검색 중...');
+        mapResults.innerHTML = '';
+        try {
+            const url = `https://nominatim.openstreetmap.org/search?format=json&limit=5&accept-language=ko&q=${encodeURIComponent(query)}`;
+            const res = await fetch(url);
+            const results = await res.json();
+            if (results.length === 0) {
+                setStatus('검색 결과가 없습니다. 다른 주소로 검색해보세요.');
+                return;
+            }
+            setStatus(`검색 결과 ${results.length}건`);
+            showPlace(results[0].lat, results[0].lon, results[0].display_name);
+            if (results.length > 1) {
+                results.forEach((place) => {
+                    const li = document.createElement('li');
+                    li.textContent = place.display_name;
+                    li.addEventListener('click', () => showPlace(place.lat, place.lon, place.display_name));
+                    mapResults.appendChild(li);
+                });
+            }
+        } catch (error) {
+            setStatus('검색에 실패했습니다. 인터넷 연결을 확인해주세요.');
+        }
+    };
+
+    mapOpenBtn.addEventListener('click', openMap);
+    mapCloseBtn.addEventListener('click', closeMap);
+    mapModal.addEventListener('click', (e) => { if (e.target === mapModal) closeMap(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMap(); });
+    mapGpsBtn.addEventListener('click', locate);
+    mapSearchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const query = mapSearchInput.value.trim();
+        if (query) searchAddress(query);
+    });
+}
+
+// ==================== //
+// 배경음악 플레이어
+// ==================== //
+// music 폴더에 mp3 파일을 넣고 아래 목록에 추가하세요
+const BGM_PLAYLIST = [
+    { title: 'Official髭男dism - Pretender［Official Video］', src: 'music/Official髭男dism - Pretender［Official Video］.mp4' },
+    { title: '빅뱅 노래', src: 'music/videoplayback.mp4' }
+];
+
+(() => {
+    if (BGM_PLAYLIST.length === 0) return;
+
+    const STORAGE_KEY = 'bgmState';
+    const load = () => {
+        try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch (e) { return {}; }
+    };
+    const save = (state) => {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) { /* 무시 */ }
+    };
+
+    const saved = load();
+    let index = Math.min(saved.index || 0, BGM_PLAYLIST.length - 1);
+
+    const audio = new Audio();
+    audio.volume = saved.volume ?? 0.4;
+
+    const player = document.createElement('div');
+    player.className = 'bgm-player' + (saved.collapsed ? ' collapsed' : '');
+    player.innerHTML = `
+        <button type="button" class="bgm-toggle" title="플레이어 접기/펼치기"><span class="bgm-icon">🎵</span></button>
+        <div class="bgm-body">
+            <button type="button" class="bgm-prev" title="이전 곡">⏮</button>
+            <button type="button" class="bgm-play" title="재생/일시정지">▶</button>
+            <button type="button" class="bgm-next" title="다음 곡">⏭</button>
+            <span class="bgm-title"></span>
+            <input type="range" class="bgm-volume" min="0" max="1" step="0.05" title="볼륨">
+        </div>
+    `;
+    document.body.appendChild(player);
+
+    const playBtn = player.querySelector('.bgm-play');
+    const titleEl = player.querySelector('.bgm-title');
+    const volumeEl = player.querySelector('.bgm-volume');
+    volumeEl.value = audio.volume;
+
+    const persist = () => save({
+        index,
+        time: audio.currentTime,
+        volume: audio.volume,
+        playing: !audio.paused,
+        collapsed: player.classList.contains('collapsed')
+    });
+
+    const updateUI = () => {
+        const playing = !audio.paused;
+        playBtn.textContent = playing ? '⏸' : '▶';
+        player.classList.toggle('playing', playing);
+    };
+
+    const loadTrack = (i, startTime = 0) => {
+        index = (i + BGM_PLAYLIST.length) % BGM_PLAYLIST.length;
+        audio.src = BGM_PLAYLIST[index].src;
+        titleEl.textContent = BGM_PLAYLIST[index].title;
+        if (startTime) {
+            audio.addEventListener('loadedmetadata', () => { audio.currentTime = startTime; }, { once: true });
+        }
+    };
+
+    const play = () => audio.play().catch(() => {
+        titleEl.textContent = BGM_PLAYLIST[index].title;
+        updateUI();
+    });
+
+    playBtn.addEventListener('click', () => { audio.paused ? play() : audio.pause(); });
+    player.querySelector('.bgm-prev').addEventListener('click', () => { loadTrack(index - 1); play(); });
+    player.querySelector('.bgm-next').addEventListener('click', () => { loadTrack(index + 1); play(); });
+    player.querySelector('.bgm-toggle').addEventListener('click', () => {
+        player.classList.toggle('collapsed');
+        persist();
+    });
+    volumeEl.addEventListener('input', () => { audio.volume = volumeEl.value; persist(); });
+
+    audio.addEventListener('play', updateUI);
+    audio.addEventListener('pause', () => { updateUI(); persist(); });
+    audio.addEventListener('ended', () => { loadTrack(index + 1); play(); });
+    audio.addEventListener('error', () => { titleEl.textContent = '음악 파일 없음'; updateUI(); });
+
+    // 페이지 이동 시 재생 위치 저장 → 다음 페이지에서 이어서 재생
+    window.addEventListener('pagehide', persist);
+
+    loadTrack(index, saved.time || 0);
+    updateUI();
+
+    if (saved.playing) {
+        // 브라우저 자동재생 정책으로 막히면 첫 클릭/터치 때 재생
+        audio.play().catch(() => {
+            const resume = (e) => {
+                document.removeEventListener('pointerdown', resume);
+                // 플레이어 버튼을 누른 경우는 버튼 동작에 맡김
+                if (!player.contains(e.target)) play();
+            };
+            document.addEventListener('pointerdown', resume);
+        });
+    }
+})();
