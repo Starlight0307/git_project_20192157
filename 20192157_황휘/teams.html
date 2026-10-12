@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컨스트럭터 라인업 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .team-hero {
+            background: #15151e;
+            padding: 100px 0 40px 0;
+        }
+
+        .f1-team-card {
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 320px;
+            position: relative;
+            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .f1-team-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+
+        .f1-team-card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(rgba(0,0,0,0.15) 1px, transparent 1px);
+            background-size: 4px 4px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .card-logo-watermark {
+            position: absolute;
+            top: -15%;
+            right: -5%;
+            height: 80%;
+            opacity: 0.25; 
+            z-index: 1;
+            pointer-events: none;
+            filter: brightness(80) contrast(1.5);
+            transform: rotate(-15deg);
+        }
+
+        /* 레드불: 전용 실루엣 로고(img/logo/redbull-silhouette.svg) — 황소는 흰색, 해는 옅게.
+           다른 팀처럼 흰색 실루엣이지만 로고 전체가 보이게 조금 작게 */
+        .card-logo-watermark.wm-red-bull {
+            top: 4%;
+            right: 2%;
+            height: 50%;
+            opacity: 0.35;
+            filter: none;
+            transform: rotate(-10deg);
+        }
+
+        .card-team-name {
+            font-family: 'Urbanist', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #fff;
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .mini-driver-box {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .mini-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(255,255,255,0.8);
+            margin-right: 8px;
+            background: #000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+
+        .card-car-img {
+            position: absolute;
+            bottom: 10px;
+            left: 5%;
+            width: 90%;
+            z-index: 2;
+            filter: drop-shadow(0 15px 15px rgba(0,0,0,0.6));
+            transition: transform 0.4s ease;
+        }
+
+        .f1-team-card:hover .card-car-img {
+            transform: scale(1.05);
+        }
+
+        .modal-fullscreen .modal-content {
+            background-color: #111115;
+            border: none;
+        }
+
+        .modal-hero-section {
+            width: 100%;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 80px 0 40px 0;
+        }
+
+        .modal-hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(rgba(0,0,0,0.1) 1px, transparent 1px);
+            background-size: 4px 4px;
+        }
+
+       
+        .modal-hero-car {
+            max-width: 900px;
+            width: 85%;
+            max-height: 250px; 
+            object-fit: contain;
+            z-index: 2;
+            filter: drop-shadow(0 20px 20px rgba(0,0,0,0.5));
+            margin-bottom: 30px;
+        }
+
+        .official-team-title-wrapper {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            z-index: 3;
+            overflow: hidden;
+        }
+
+        .official-stripe {
+            flex-grow: 1;
+            height: 15px;
+            background-color: #fff;
+            transform: skewX(-40deg);
+        }
+
+        .official-team-name {
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 900;
+            font-size: 5.5rem;
+            color: #fff;
+            margin: 0 40px;
+            text-transform: uppercase;
+            line-height: 1;
+            letter-spacing: -3px;
+            font-style: italic;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .official-team-name { font-size: 3rem; margin: 0 15px; }
+            .official-stripe { height: 8px; }
+            .modal-hero-car { max-height: 150px; margin-bottom: 20px; }
+        }
+
+        .modal-content-wrapper {
+            background-color: #15151e;
+            padding: 50px 0;
+        }
+
+        .section-title {
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 900;
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stats-col {
+            background: #1a1a1f;
+            border-radius: 12px;
+            padding: 40px;
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .stat-row {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 15px 0;
+            margin-bottom: 15px;
+        }
+        
+        .stat-row-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 15px 0;
+            margin-bottom: 15px;
+        }
+
+        .stat-label {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-family: 'Urbanist', sans-serif;
+            font-size: 2rem;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        /* 드라이버 미니 카드 */
+        .f1-driver-card-mini {
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: none;
+            position: relative;
+            background-color: #1e1e23;
+        }
+        .f1-driver-card-mini .f1-card-top {
+            height: 200px;
+            display: flex;
+            padding: 20px;
+            position: relative;
+            background-blend-mode: multiply;
+        }
+        .f1-driver-card-mini .f1-card-top::before {
+            content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(rgba(0,0,0,0.15) 1px, transparent 1px); background-size: 4px 4px; z-index: 1;
+        }
+        .f1-driver-card-mini .f1-photo-right {
+            position: absolute; bottom: 0; right: 10px; height: 105%; z-index: 3;
+            filter: drop-shadow(-10px 10px 15px rgba(0,0,0,0.4));
+        }
+        .f1-driver-card-mini .f1-number-img { height: 35px; margin-top: 10px; opacity: 0.95; z-index: 2; position: relative;}
+        .f1-driver-card-mini .f1-flag { margin-top: auto; z-index: 2; position: relative; }
+        .f1-driver-card-mini .f1-flag img { width: 30px; border-radius: 2px; }
+        .f1-driver-card-mini .f1-card-bottom {
+            padding: 15px; background-color: #1a1a1e; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;
+        }
+        .text-nowrap { white-space: nowrap; }
+
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <header class="team-hero">
+        <div class="container">
+            <h1 class="fw-black text-white text-uppercase mb-2 font-urbanist" style="font-size: 3.5rem; letter-spacing: -1px;" id="hero-title">
+                F1 TEAMS 2026
+            </h1>
+            <p class="text-white-50 font-noto mb-0 fs-5">2026 시즌 공식 팀 프로필</p>
+        </div>
+    </header>
+
+    <section class="pb-5" style="background-color: #15151e; min-height: 50vh;">
+        <div class="container">
+            <div id="team-list-container" class="row g-4 pt-4">
+                <div class="col-12 text-center text-white-50 py-5 font-noto">
+                    <i class="fa-solid fa-spinner fa-spin fa-2x mb-3 d-block"></i>
+                    팀 정보를 불러오는 중입니다...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="teamDetailModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content text-white">
+                
+                <button type="button" class="btn-close btn-close-white position-fixed top-0 end-0 m-4 z-3" data-bs-dismiss="modal" aria-label="Close" style="width: 20px; height: 20px;"></button>
+
+                <div class="modal-hero-section" id="m-hero-bg" style="overflow: visible; padding-bottom: 60px; min-height: auto;">
+    
+    <img src="" id="m-team-car" class="modal-hero-car" alt="F1 Car" style="max-height: 250px; width: 100%; object-fit: contain; margin-bottom: 20px;">
+    
+    <div class="official-team-title-wrapper w-100 px-4 mt-3" style="display: flex; align-items: center; justify-content: center;">
+        <div class="official-stripe" style="flex-grow: 1; margin-right: 15px;"></div>
+        <h2 class="official-team-name text-center" id="m-team-name" style="white-space: normal; word-break: keep-all; font-size: clamp(2.5rem, 4vw, 5.5rem); margin: 0; line-height: 1.1;">TEAM NAME</h2>
+        <div> ㅤ </div>
+        <div class="official-stripe" style="flex-grow: 1; margin-left: 15px;"></div>
+    </div>
+
+    <div class="d-flex flex-wrap align-items-center justify-content-center gap-4 mt-4 z-3 font-noto text-white w-100 px-3">
+        <div id="m-hero-driver1" class="fs-4 text-center text-md-end" style="flex: 1; min-width: 140px;">Driver 1</div>
+        
+        <img src="" id="m-team-logo" style="max-height: 60px; max-width: 140px; object-fit: contain; flex-shrink: 0;" alt="Logo">
+        
+        <div id="m-hero-driver2" class="fs-4 text-center text-md-start" style="flex: 1; min-width: 140px;">Driver 2</div>
+    </div>
+
+</div>
+
+                <div class="modal-content-wrapper font-noto">
+                    <div class="container">
+                        
+                        <div class="mb-5 pb-4">
+                            <h2 class="section-title">Team Crew</h2>
+                            <div class="row g-4" id="m-drivers-container">
+                                </div>
+                        </div>
+
+                        <div class="stats-container">
+                            <div class="stats-col">
+                                <h2 class="section-title">2026 시즌</h2>
+                                <div class="row">
+                                    <div class="col-6 stat-row border-end border-secondary border-opacity-25 pe-3">
+                                        <span class="stat-label">시즌 순위</span>
+                                        <span class="stat-value" id="m-season-pos">-</span>
+                                    </div>
+                                    <div class="col-6 stat-row ps-4">
+                                        <span class="stat-label">시즌 획득 포인트</span>
+                                        <span class="stat-value" id="m-season-pts">-</span>
+                                    </div>
+                                    <div class="col-6 stat-row border-end border-secondary border-opacity-25 pe-3">
+                                        <span class="stat-label">그랑프리 우승</span>
+                                        <span class="stat-value" id="m-season-wins">-</span>
+                                    </div>
+                                    <div class="col-6 stat-row ps-4">
+                                        <span class="stat-label">그랑프리 포디움</span>
+                                        <span class="stat-value" id="m-season-pods">-</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stats-col">
+                                <h2 class="section-title">팀 요약 (역대 통계)</h2>
+                                <div class="stat-row-flex">
+                                    <span class="stat-label mb-0">그랑프리 출전 횟수</span>
+                                    <span class="stat-value fs-3" id="m-hist-entered">-</span>
+                                </div>
+                                <div class="stat-row-flex">
+                                    <span class="stat-label mb-0">팀 누적 포인트</span>
+                                    <span class="stat-value fs-3" id="m-hist-pts">-</span>
+                                </div>
+                                <div class="stat-row-flex">
+                                    <span class="stat-label mb-0">최고 레이스 순위</span>
+                                    <span class="stat-value fs-3" id="m-hist-highest">-</span>
+                                </div>
+                                <div class="stat-row-flex">
+                                    <span class="stat-label mb-0">총 포디움 횟수</span>
+                                    <span class="stat-value fs-3" id="m-hist-pods">-</span>
+                                </div>
+                                <div class="stat-row-flex">
+                                    <span class="stat-label mb-0">폴 포지션</span>
+                                    <span class="stat-value fs-3" id="m-hist-poles">-</span>
+                                </div>
+                                <div class="stat-row-flex border-0 mb-0 pb-0">
+                                    <span class="stat-label mb-0">월드 챔피언십 우승</span>
+                                    <span class="stat-value fs-3 text-warning" id="m-hist-champs">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/teams.js"></script>
+
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

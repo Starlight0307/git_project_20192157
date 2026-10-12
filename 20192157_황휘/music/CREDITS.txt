@@ -1,0 +1,29 @@
+배경음악 출처 (PROJECT_TELEMETRY 사이트 배경음악 플레이어 - script/bgm.js)
+
+모든 곡: Kevin MacLeod (incompetech.com)
+라이선스: Creative Commons 저작자표시 4.0 국제 (CC BY 4.0)
+          https://creativecommons.org/licenses/by/4.0/
+조건: 작곡가와 출처를 표시하면 자유롭게 사용 가능 (사이트 플레이어 안에 항상 표시됨)
+
+1. "Volatile Reaction"     - incompetech.com
+2. "Rocket"                - incompetech.com
+3. "Movement Proposition"  - incompetech.com
+4. "Power Restored"        - incompetech.com
+
+* 웹용으로 128kbps로 다시 압축했음 (원본 256~320kbps)
+* F1 공식 테마곡(Brian Tyler)이나 "The Chain"(Fleetwood Mac) 같은 곡은 저작권 때문에 넣지 않음
+
+[F1 공식 테마곡 — 파일 없음, 유튜브로 재생]
+F1 공식 테마곡(Brian Tyler 작곡, © Formula One Group)은 저작권 때문에 파일로 넣지 않고,
+공식 채널이 올린 유튜브 영상을 유튜브 플레이어로 재생한다 (임베드 허용 영상).
+  - "Formula 1 Theme Live in Concert by Brian Tyler"         Brian Tyler 공식 채널 https://www.youtube.com/watch?v=8AYy-BcjRXg
+  - "Brian Tyler - Formula 1 Theme Live in LA (OFFICIAL FI)" Brian Tyler 공식 채널 https://www.youtube.com/watch?v=JqbHg1NV4TM
+  (FORMULA 1 공식 채널 영상은 소유자가 다른 사이트 재생을 막아 두어(오류 150) 쓰지 않음)
+유튜브 정책에 따라 플레이어는 항상 화면에 200×200 이상으로 보이게 한다.
+
+[F1 THE MOVIE 사운드트랙 — 파일 없음, Spotify로 재생]
+"F1 The Album" (2025, Atlantic Records) — 플레이어의 '🎬 F1 THE MOVIE' 탭
+https://open.spotify.com/album/2HwRKkEp7jXbxXwcGyZYHK
+* 영화 OST 곡들은 아티스트·음반사 공식 유튜브 영상이 모두 다른 사이트 재생을 막아 두어(오류 150)
+  유튜브로는 넣을 수 없음 → Spotify 공식 임베드 플레이어 사용
+* Spotify 로그인 전: 곡마다 30초 미리듣기 / 로그인 후: 전곡 재생

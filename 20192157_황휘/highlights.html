@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이라이트 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .highlight-hero {
+            background: linear-gradient(rgba(17, 17, 21, 0.85), rgba(17, 17, 21, 1)), url('img/circuit/monaco.png') center/cover;
+            padding: 130px 0 70px 0;
+            border-bottom: 3px solid #FF0000; 
+        }
+
+        .youtube-btn {
+            background-color: #FF0000;
+            color: white;
+            font-weight: 800;
+            font-family: 'Urbanist', sans-serif;
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+        }
+
+        .youtube-btn:hover {
+            background-color: #CC0000;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 0, 0, 0.6);
+        }
+
+        /* 📌 비디오 카드 및 호버 애니메이션 */
+        .video-card {
+            background: rgba(30, 30, 35, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .video-card:hover {
+            transform: translateY(-10px);
+            border-color: #FF0000;
+            box-shadow: 0 15px 30px rgba(255, 0, 0, 0.2);
+        }
+
+        .thumbnail-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; 
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        .thumbnail-container img {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease, transform 0.5s ease;
+        }
+
+        /* 호버 시 유튜브 재생 버튼 스르륵 나타남 */
+        .play-overlay {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%) scale(0.8);
+            font-size: 4rem;
+            color: #FF0000;
+            opacity: 0;
+            transition: all 0.3s ease;
+            text-shadow: 0 0 20px rgba(0,0,0,0.8);
+        }
+
+        .video-card:hover .thumbnail-container img {
+            opacity: 0.5; 
+            transform: scale(1.05); 
+        }
+
+        .video-card:hover .play-overlay {
+            opacity: 1; 
+            transform: translate(-50%, -50%) scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <header class="highlight-hero text-center">
+        <div class="container">
+            <i class="fa-brands fa-youtube text-danger mb-3" style="font-size: 4.5rem; filter: drop-shadow(0 0 15px rgba(255,0,0,0.5));"></i>
+            <h1 class="fw-black text-white text-uppercase mb-2" style="font-size: 3.5rem; letter-spacing: -1px;">
+                RACE <span class="text-danger">HIGHLIGHTS</span>
+            </h1>
+            <p class="text-white-50 font-noto mb-5 fs-5">Formula 1 공식 유튜브 채널의 생생한 경기 하이라이트를 감상하세요.</p>
+            
+            <a href="https://www.youtube.com/@Formula1" target="_blank" class="btn youtube-btn text-decoration-none">
+                <i class="fa-brands fa-youtube me-2 fs-5 align-middle"></i> VISIT OFFICIAL F1 YOUTUBE
+            </a>
+        </div>
+    </header>
+
+    <section class="py-5" style="min-height: 50vh;">
+        <div class="container py-4">
+            <div class="d-flex justify-content-between align-items-end mb-4 border-bottom border-secondary pb-3">
+                <h3 class="fw-bold text-white m-0 border-start border-danger border-4 ps-3">
+                    <i class="fa-solid fa-fire text-danger me-2"></i>최신 업로드
+                </h3>
+            </div>
+            
+            <div class="row g-4" id="highlights-container">
+                </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/highlight.js"></script>
+
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팀 순위 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .standings-hero {
+            background: linear-gradient(rgba(17, 17, 21, 0.8), rgba(17, 17, 21, 1)), url('img/circuit/spa.png') center/cover;
+            padding: 130px 0 60px 0;
+            border-bottom: 2px solid #e10600;
+        }
+
+        .team-card {
+            background: rgba(30, 30, 35, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .team-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+        }
+
+        .team-color-header {
+            height: 10px;
+            width: 100%;
+        }
+
+        .team-logo-bg {
+            position: absolute;
+            right: -20px;
+            top: 20px;
+            opacity: 0.05;
+            height: 150px;
+            pointer-events: none;
+            filter: grayscale(100%)
+            drop-shadow(1px 1px 0px rgba(255,255,255,0.8)) 
+                drop-shadow(-1px -1px 0px rgba(255,255,255,0.8))
+                drop-shadow(1px -1px 0px rgba(255,255,255,0.8))
+                drop-shadow(-1px 1px 0px rgba(255,255,255,0.8));
+        }
+        .team-card:hover .team-logo-bg {
+        opacity: 0.25;
+        transform: scale(1.1) rotate(-5deg);
+        filter: brightness(1.2) invert(0); 
+    }
+
+        .points-badge {
+            background-color: #222;
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: 900;
+            font-family: 'Urbanist', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <header class="standings-hero text-center">
+        <div class="container">
+            <h1 class="fw-black text-white text-uppercase mb-2" style="font-size: 3rem; letter-spacing: -1px;">
+                CONSTRUCTOR <span class="text-danger">STANDINGS</span>
+            </h1>
+            <p class="text-white-50 font-noto mb-0 fs-5">현재 시즌 팀(컨스트럭터) 챔피언십 실시간 순위</p>
+        </div>
+    </header>
+
+    <section class="py-5" style="min-height: 50vh;">
+        <div class="container">
+            <div class="row g-4" id="team-standings-container">
+                <div class="col-12 text-center text-white-50 py-5">
+                    <i class="fa-solid fa-spinner fa-spin fa-3x mb-3"></i>
+                    <p class="font-noto">실시간 텔레메트리 데이터를 수신 중입니다...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/standings.js"></script>
+
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 대시보드 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .dashboard-header {
+            background: linear-gradient(rgba(17, 17, 21, 0.7), rgba(17, 17, 21, 1)), url('img/circuit/monza.png') center/cover;
+            padding: 120px 0 50px 0;
+            border-bottom: 2px solid #e10600;
+        }
+
+        .nav-pills .nav-link {
+            color: rgba(255, 255, 255, 0.7) !important; 
+            background-color: transparent !important;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 12px 20px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-pills .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.1) !important;
+            color: #ffffff !important;
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: #e10600 !important;
+            color: #ffffff !important;
+            box-shadow: 0 4px 15px rgba(225, 6, 0, 0.4);
+        }
+
+        .tab-pane {
+            display: none !important;
+        }
+        .tab-pane.active {
+            display: block !important;
+            opacity: 1;
+        }
+
+        .glass-panel {
+            background: rgba(30, 30, 35, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <header class="dashboard-header">
+        <div class="container text-center">
+            <i class="fa-solid fa-user-astronaut text-danger mb-3" style="font-size: 3rem;"></i>
+            <h1 class="fw-black text-white text-uppercase" style="font-size: 2.5rem;">
+                Welcome, <span class="text-danger" id="display-user-name">Driver</span>!
+            </h1>
+            <p class="text-white-50 font-noto">PROJECT_TELEMETRY 마이페이지에 오신 것을 환영합니다.</p>
+        </div>
+    </header>
+
+    <section class="py-5" style="min-height: 50vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="glass-panel p-3">
+                        <div class="nav flex-column nav-pills" id="dashboard-tabs" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link text-start" id="tab-favorites" data-bs-toggle="pill" data-bs-target="#content-favorites" type="button" role="tab">
+                                <i class="fa-solid fa-star me-2" style="width: 20px; text-align: center;"></i> 즐겨찾기 관리
+                            </button>
+                            <button class="nav-link text-start" id="tab-calendar" data-bs-toggle="pill" data-bs-target="#content-calendar" type="button" role="tab">
+                                <i class="fa-regular fa-calendar-check me-2" style="width: 20px; text-align: center;"></i> 캘린더 동기화
+                            </button>
+                            <button class="nav-link text-start" id="tab-notifications" data-bs-toggle="pill" data-bs-target="#content-notifications" type="button" role="tab">
+                                <i class="fa-solid fa-bell me-2" style="width: 20px; text-align: center;"></i> 알림 설정
+                            </button>
+                            <button class="nav-link text-start" id="tab-stats" data-bs-toggle="pill" data-bs-target="#content-stats" type="button" role="tab">
+                                <i class="fa-solid fa-chart-pie me-2" style="width: 20px; text-align: center;"></i> 나의 활동 통계
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="tab-content glass-panel" id="dashboard-content">
+                        
+                        <div class="tab-pane fade" id="content-favorites" role="tabpanel">
+                            <h4 class="fw-bold text-white mb-4 border-bottom border-secondary pb-2"><i class="fa-solid fa-star text-warning me-2"></i>즐겨찾기 관리</h4>
+                            <p class="text-white-50 font-noto">관심 있는 드라이버, 팀, 서킷을 모아보세요.</p>
+                            <div class="alert border border-secondary text-white-50 text-center py-5 font-noto" style="background: rgba(255, 255, 255, 0.04);">
+                                <i class="fa-regular fa-folder-open mb-3" style="font-size: 2rem;"></i><br>
+                                아직 추가된 즐겨찾기가 없습니다.<br>즐겨찾기 기능은 준비 중입니다. 곧 드라이버·팀·서킷을 <i class="fa-regular fa-star text-warning"></i> 별 아이콘으로 모아볼 수 있어요!
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="content-calendar" role="tabpanel">
+                            <h4 class="fw-bold text-white mb-4 border-bottom border-secondary pb-2"><i class="fa-regular fa-calendar-check text-info me-2"></i>캘린더 동기화</h4>
+                            <p class="text-white-50 font-noto mb-4"><span id="calendar-year">2026</span> 시즌 F1 경기 일정을 내 스마트폰이나 구글 캘린더에 추가하세요.</p>
+                            
+                            <div class="d-flex align-items-center mb-3 bg-dark p-3 border border-secondary rounded">
+                                <i class="fa-brands fa-google fs-3 me-3 text-white"></i>
+                                <div class="flex-grow-1">
+                                    <h6 class="text-white m-0 fw-bold">Google 캘린더 연동</h6>
+                                </div>
+                                <button type="button" id="btn-google-calendar" class="btn btn-outline-info btn-sm font-noto fw-bold px-3">연동하기</button>
+                            </div>
+
+                            <div class="d-flex align-items-center bg-dark p-3 border border-secondary rounded">
+                                <i class="fa-brands fa-apple fs-3 me-3 text-white"></i>
+                                <div class="flex-grow-1">
+                                    <h6 class="text-white m-0 fw-bold">Apple / Outlook 연동 (.ics 다운로드)</h6>
+                                </div>
+                                <button type="button" id="btn-ics-download" class="btn btn-outline-secondary btn-sm font-noto fw-bold px-3">다운로드</button>
+                            </div>
+                            <p id="calendar-status" class="small font-noto mt-3 mb-0" role="status"></p>
+                        </div>
+
+                        <div class="tab-pane fade" id="content-notifications" role="tabpanel">
+                            <h4 class="fw-bold text-white mb-4 border-bottom border-secondary pb-2"><i class="fa-solid fa-bell text-success me-2"></i>알림 설정</h4>
+                            <p class="text-white-50 font-noto mb-4">원하는 소식만 골라서 이메일이나 푸시 알림으로 받아보세요.</p>
+                            
+                            <div class="form-check form-switch mb-3">
+                                <input class="form-check-input" type="checkbox" role="switch" id="notif-race" checked>
+                                <label class="form-check-label text-white fw-bold ms-2 font-noto" for="notif-race">🏁 그랑프리 시작 1시간 전 알림</label>
+                            </div>
+                            <div class="form-check form-switch mb-3">
+                                <input class="form-check-input" type="checkbox" role="switch" id="notif-news">
+                                <label class="form-check-label text-white fw-bold ms-2 font-noto" for="notif-news">📰 속보 및 주요 뉴스 요약 이메일 (주 1회)</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="notif-ticket">
+                                <label class="form-check-label text-white fw-bold ms-2 font-noto" for="notif-ticket">🎟️ 티켓 오픈 임박 알림</label>
+                            </div>
+                            
+                            <button type="button" id="btn-save-notif" class="btn btn-danger mt-4 font-noto fw-bold px-4">변경사항 저장</button>
+                            <p id="notif-status" class="small font-noto mt-3 mb-0" role="status"></p>
+                        </div>
+
+                        <div class="tab-pane fade" id="content-stats" role="tabpanel">
+                            <h4 class="fw-bold text-white mb-4 border-bottom border-secondary pb-2"><i class="fa-solid fa-chart-pie text-danger me-2"></i>나의 활동 통계</h4>
+                            
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="stat-card">
+                                        <h2 class="text-danger fw-black mb-1">0</h2>
+                                        <p class="text-white-50 m-0 small font-noto fw-bold">작성한 댓글</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="stat-card">
+                                        <h2 class="text-warning fw-black mb-1">0</h2>
+                                        <p class="text-white-50 m-0 small font-noto fw-bold">추가한 즐겨찾기</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="stat-card">
+                                        <h2 class="text-info fw-black mb-1">1</h2>
+                                        <p class="text-white-50 m-0 small font-noto fw-bold">총 로그인 횟수</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4 p-3 bg-dark border border-secondary rounded text-center">
+                                <p class="text-white-50 m-0 font-noto small">💡 커뮤니티에서 활동을 시작하고 통계 배지를 획득해보세요!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/dashboard.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const userName = localStorage.getItem('f1_current_user') || 'Driver';
+            document.getElementById('display-user-name').innerText = userName;
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const activeTab = urlParams.get('tab') || 'favorites'; 
+            const targetButton = document.getElementById(`tab-${activeTab}`);
+            if (targetButton) {
+                const bsTab = new bootstrap.Tab(targetButton);
+                bsTab.show();
+            }
+        });
+    </script>
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

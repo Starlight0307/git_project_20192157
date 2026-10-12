@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>통계 대시보드 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .statistics-hero {
+            background: linear-gradient(rgba(17, 17, 21, 0.8), rgba(17, 17, 21, 1)), url('img/circuit/suzuka.jpg') center/cover;
+            padding: 130px 0 60px 0;
+            border-bottom: 2px solid #e10600;
+        }
+
+        .chart-card {
+            background: rgba(30, 30, 35, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 25px; /* 패딩을 살짝 늘렸습니다 */
+            height: 100%;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 350px; /* 차트 높이를 키워 시원하게 보이게 수정 */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <header class="statistics-hero text-center">
+        <div class="container">
+            <h1 class="fw-black text-white text-uppercase mb-2" style="font-size: 3rem; letter-spacing: -1px;">
+                TELEMETRY <span class="text-danger">STATISTICS</span>
+            </h1>
+            <p class="text-white-50 font-noto mb-0 fs-5">현재 시즌 데이터 시각화 분석</p>
+        </div>
+    </header>
+
+    <section class="py-5" style="min-height: 50vh;">
+        <div class="container">
+            <div id="loading-spinner" class="text-center text-white-50 py-5">
+                <i class="fa-solid fa-spinner fa-spin fa-3x mb-3"></i>
+                <p class="font-noto mt-3">데이터를 분석하여 차트를 생성 중입니다...</p>
+            </div>
+            
+            <div id="statistics-content" class="row g-4 d-none">
+                <div class="col-lg-12">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-chart-column me-2 text-danger"></i>드라이버 포인트</h4>
+                        <div class="chart-container" style="height: 450px;">
+                            <canvas id="driverPointsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-chart-pie me-2 text-danger"></i>팀 포인트</h4>
+                        <div class="chart-container">
+                            <canvas id="teamPointsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-trophy me-2 text-warning"></i>레이스 우승 비율</h4>
+                        <div class="chart-container">
+                            <canvas id="winsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/statistics.js"></script>
+
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

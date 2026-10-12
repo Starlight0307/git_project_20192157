@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELEMETRY | Creator Profile</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+</head>
+<body style="background-color: #111115;">
+    <div id="navbar-placeholder"></div>
+
+    <header class="hero-section position-relative" style="width: 100%; aspect-ratio: 21 / 9; min-height: 400px; max-height: 600px; background: url('img/about.png') no-repeat center center; background-size: cover;">
+        <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(17, 17, 21, 0.75);"></div>
+        
+        <div class="container h-100 d-flex align-items-end pb-5 position-relative z-2">
+            <div class="hero-content w-100 mt-5">
+                <span class="badge bg-danger me-2 px-2 py-1 mb-2"><i class="fa-solid fa-code me-1"></i>DEVELOPER</span>
+                <h1 class="display-4 fw-black text-white text-uppercase m-0">CREATOR <span class="text-outline">PROFILE</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mt-5 pt-3 mb-5 pb-5 font-noto about-cards">
+        <div class="row g-4">
+
+            <!-- 왼쪽: 프로필 카드 (스크롤해도 따라옴) -->
+            <div class="col-lg-4">
+                <div class="glass-card about-profile">
+                    <div class="about-photo-ring">
+                        <img src="img/Hwi.jpg" alt="Profile Picture">
+                    </div>
+                    <h2 class="fw-black text-white mb-1">황 휘</h2>
+                    <p class="text-white-50 mb-3">Student Developer</p>
+                    <div class="d-flex justify-content-center gap-2 mb-4">
+                        <a href="https://www.instagram.com/methampetam1ne/" target="_blank" rel="noopener" class="creator-sns-icon instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/starlight0307" target="_blank" rel="noopener" class="creator-sns-icon github" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:hui.hwang00@gmail.com" class="creator-sns-icon email" aria-label="이메일"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <ul class="about-info">
+                        <li><i class="fa-solid fa-cake-candles"></i><div><small>생년월일</small><span>2000년 03월 07일</span></div></li>
+                        <li><i class="fa-solid fa-phone"></i><div><small>전화번호</small><span>010-9952-7589</span></div></li>
+                        <li><i class="fa-solid fa-envelope"></i><div><small>이메일</small><span>hui.hwang00@gmail.com</span></div></li>
+                        <li><i class="fa-solid fa-location-dot"></i><div><small>거주지</small><span>서울특별시 강서구 화곡동</span></div></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 오른쪽: 내용 카드들 -->
+            <div class="col-lg-8 text-white">
+
+                <div class="glass-card about-card about-intro mb-4">
+                    <i class="fa-solid fa-quote-left about-quote-mark" aria-hidden="true"></i>
+                    <h3 class="about-card-title"><i class="fa-solid fa-user-astronaut"></i>INTRODUCTION</h3>
+                    <p class="about-lead">안녕하세요, 데이터를 기반으로 역동적인 사용자 경험을 창조하는 학생 개발자 <strong>황휘</strong>입니다.</p>
+                    <p>저는 모터스포츠, 특히 F1에 대한 깊은 열정을 가지고 있으며, 이 열정을 바탕으로 F1의 관련한 자료를 쉽게 볼수 있는 <strong class="text-danger">PROJECT_TELEMETRY</strong>를 개발하였습니다.
+                    F1은 2025년도를 기준으로 대한민국에 F1 THE Movie를 시작으로 점점 더 많은 관심이 쏟아지고 있지만, 여전히 해외 중심으로 나오는 F1 자료들을 한국어로 제공하는 사이트가 부족하다는 것을 느꼈습니다.
+                    따라서 누구나 쉽게 F1의 정보를 접할 수 있도록 다양한 문서를 한국어로 제공하는 PROJECT_TELEMETRY를 만들게 되었습니다.</p>
+                    <p>단순한 정보 제공을 넘어, 공식 API를 활용하여 실시간으로 업데이트되는 시즌 순위와 그랑프리 일정을 분석하여, 0.001초의 차이를 만들어내는 전문화 된 텔레메트리 대시보드를 구축하였습니다.
+                    이 데이터를 바탕으로 F1 팬들이 경기의 역동성과 전략적 깊이를 더 깊이 이해할 수 있도록 돕는 것을 목표로 하고 있습니다.</p>
+                    <p class="mb-0">앞으로도 지속적으로 프로젝트를 개선하고 확장하여, F1 팬들에게 최고의 데이터 경험을 제공하기 위해 노력할 것입니다. 감사합니다.</p>
+                </div>
+
+                <!-- 한눈에 보기 -->
+                <div class="row g-3 mb-4">
+                    <div class="col-4">
+                        <div class="glass-card about-fact"><i class="fa-solid fa-graduation-cap"></i><strong>컴퓨터공학</strong><span>장안대학교 재학</span></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="glass-card about-fact"><i class="fa-solid fa-person-military-rifle"></i><strong>해병대 중사</strong><span>만기 전역</span></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="glass-card about-fact"><i class="fa-solid fa-certificate"></i><strong>자격증 6개</strong><span>2010 ~ 2023</span></div>
+                    </div>
+                </div>
+
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6">
+                        <div class="glass-card about-card h-100">
+                            <h4 class="about-card-title"><i class="fa-solid fa-graduation-cap"></i>학력 사항</h4>
+                            <ul class="about-timeline">
+                                <li>
+                                    <span class="about-period">2019 ~ 현재</span>
+                                    <strong>장안대학교</strong>
+                                    <span>컴퓨터공학 전공 재학중</span>
+                                </li>
+                                <li>
+                                    <span class="about-period">2017.03 ~ 2019.02</span>
+                                    <strong>서울미디어콘텐츠고등학교</strong>
+                                    <span>화학과 졸업</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="glass-card about-card h-100">
+                            <h4 class="about-card-title"><i class="fa-solid fa-person-military-rifle"></i>병역 사항</h4>
+                            <ul class="about-timeline">
+                                <li>
+                                    <span class="about-period">2020.05 ~ 2024.08</span>
+                                    <strong>해병대 중사 만기 전역</strong>
+                                    <span>복무 기간</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card about-card mb-4">
+                    <h4 class="about-card-title"><i class="fa-solid fa-certificate"></i>자격증</h4>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2023</span>
+                                <div>
+                                    <strong class="cert-name">ICDL(International Computer Driving Licence)</strong>
+                                    <span class="cert-issuer">한국생산성본부</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2019</span>
+                                <div>
+                                    <strong class="cert-name">MOS(Microsoft Office Specialist)</strong>
+                                    <span class="cert-issuer">Microsoft</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2018</span>
+                                <div>
+                                    <strong class="cert-name">정보기술자격(ITQ) OA MASTER</strong>
+                                    <span class="cert-issuer">한국생산성본부</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2018</span>
+                                <div>
+                                    <strong class="cert-name">화학분석기능사</strong>
+                                    <span class="cert-issuer">한국산업인력공단</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2011</span>
+                                <div>
+                                    <strong class="cert-name">GTQ 2급</strong>
+                                    <span class="cert-issuer">한국생산성본부</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cert-card">
+                                <span class="cert-year">2010</span>
+                                <div>
+                                    <strong class="cert-name">문서실무사 4급</strong>
+                                    <span class="cert-issuer">(사)한국정보관리협회</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card about-card">
+                    <h4 class="about-card-title"><i class="fa-solid fa-laptop-code"></i>TECH STACK</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="stack-chip"><i class="fa-brands fa-java"></i>Java / Kotlin</span>
+                        <span class="stack-chip"><i class="fa-solid fa-leaf"></i>Spring Framework</span>
+                        <span class="stack-chip"><i class="fa-solid fa-database"></i>Oracle / MyBatis</span>
+                        <span class="stack-chip"><i class="fa-brands fa-android"></i>Android Studio</span>
+                        <span class="stack-chip"><i class="fa-brands fa-html5"></i>HTML / CSS / JS</span>
+                        <span class="stack-chip"><i class="fa-brands fa-bootstrap"></i>Bootstrap 5</span>
+                    </div>
+                </div>
+
+                <div class="mt-5" id="contact">
+                    <h4 class="about-section-title"><i class="fa-solid fa-address-card"></i>CONTACT</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="creator-contact-item h-100">
+                                <div class="creator-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="flex-grow-1">
+                                    <small class="text-danger fw-bold d-block">이메일</small>
+                                    <span class="text-white d-block mb-2">hui.hwang00@gmail.com</span>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="mailto:hui.hwang00@gmail.com" class="creator-contact-link"><i class="fa-solid fa-paper-plane me-1"></i>메일 보내기</a>
+                                        <button type="button" class="creator-contact-link" data-copy="hui.hwang00@gmail.com"><i class="fa-regular fa-copy me-1"></i>주소 복사</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="creator-contact-item h-100">
+                                <div class="creator-contact-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <div class="flex-grow-1">
+                                    <small class="text-danger fw-bold d-block">연락처</small>
+                                    <span class="text-white d-block mb-2">010-9952-7589</span>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+821099527589" class="creator-contact-link"><i class="fa-solid fa-phone me-1"></i>전화 걸기</a>
+                                        <a href="sms:+821099527589" class="creator-contact-link"><i class="fa-solid fa-comment-sms me-1"></i>문자 보내기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SNS -->
+                <div class="mt-5" id="sns">
+                    <h4 class="about-section-title"><i class="fa-solid fa-share-nodes"></i>SNS</h4>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <a href="https://www.instagram.com/methampetam1ne/" target="_blank" rel="noopener" class="creator-sns-card instagram">
+                                <span class="creator-sns-logo"><i class="fa-brands fa-instagram"></i></span>
+                                <span class="flex-grow-1">
+                                    <strong class="d-block text-white">Instagram</strong>
+                                    <small class="text-white-50">@methampetam1ne</small>
+                                </span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-white-50"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://github.com/starlight0307" target="_blank" rel="noopener" class="creator-sns-card github">
+                                <span class="creator-sns-logo"><i class="fa-brands fa-github"></i></span>
+                                <span class="flex-grow-1">
+                                    <strong class="d-block text-white">GitHub</strong>
+                                    <small class="text-white-50">@starlight0307</small>
+                                </span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-white-50"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/common.js"></script>
+    <script>
+        // 이메일 주소 복사 버튼
+        document.querySelectorAll('[data-copy]').forEach(btn => {
+            const original = btn.innerHTML;
+            btn.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(btn.dataset.copy);
+                    btn.innerHTML = '<i class="fa-solid fa-check me-1"></i>복사됨';
+                } catch (e) {
+                    btn.innerHTML = '<i class="fa-solid fa-xmark me-1"></i>복사 실패';
+                }
+                setTimeout(() => { btn.innerHTML = original; }, 1500);
+            });
+        });
+    </script>
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

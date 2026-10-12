@@ -1,0 +1,237 @@
+/* ----------------------------------------------------
+   모션 그래픽 (script/motion.js와 함께 씀)
+   - 스타트 라이트 인트로 · 스크롤 등장 · 숫자 카운트 · 히어로 · 카드 기울기 · 페이지 전환 · 진행 막대
+   - 운영체제에서 '동작 줄이기'를 켠 사람에게는 모두 꺼짐 (맨 아래)
+---------------------------------------------------- */
+
+/* ---------- 1. F1 스타트 라이트 인트로 ---------- */
+.mo-lights {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    background: #0b0b0e;
+    transition: transform 0.6s cubic-bezier(0.7, 0, 0.3, 1), opacity 0.6s ease;
+}
+
+.mo-lights.mo-out {
+    transform: translateY(-100%);
+    opacity: 0.6;
+}
+
+.mo-lights-row {
+    display: flex;
+    gap: clamp(10px, 2.5vw, 22px);
+    padding: 18px 22px;
+    background: #16161b;
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.mo-light {
+    width: clamp(34px, 8vw, 64px);
+    height: clamp(34px, 8vw, 64px);
+    border-radius: 50%;
+    background: #2a0a0a;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.8);
+    transition: background 0.12s ease, box-shadow 0.12s ease;
+}
+
+.mo-light.on {
+    background: radial-gradient(circle at 35% 35%, #ff6b5e, #e10600 55%, #8a0400);
+    box-shadow: 0 0 25px 6px rgba(225, 6, 0, 0.75), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.mo-lights-text {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: clamp(0.8rem, 2.5vw, 1.1rem);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mo-lights.mo-go .mo-lights-text {
+    opacity: 1;
+    transform: none;
+}
+
+/* ---------- 2. 스크롤하면 나타나기 ---------- */
+.mo-reveal {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: var(--mo-delay, 0s);
+}
+
+.mo-reveal.mo-in {
+    opacity: 1;
+    transform: none;
+}
+
+/* 제목 아래 빨간 줄이 왼쪽에서 그어지듯 */
+.mo-underline {
+    position: relative;
+}
+
+.mo-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, #e10600, #ff5a4f, transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) 0.2s;
+}
+
+.mo-underline.mo-in::after {
+    transform: scaleX(1);
+}
+
+/* ---------- 3. 히어로: 제목이 아래에서 올라옴 ---------- */
+.mo-hero-line {
+    display: inline-block;
+    animation: mo-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: var(--mo-delay, 0s);
+}
+
+@keyframes mo-rise {
+    from { opacity: 0; transform: translateY(60%) skewY(4deg); filter: blur(6px); }
+    to { opacity: 1; transform: none; filter: none; }
+}
+
+/* 히어로 속도선 */
+.mo-has-speed {
+    position: relative;
+    overflow: hidden;
+}
+
+.mo-speed {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.mo-speed i {
+    position: absolute;
+    left: -40%;
+    height: 2px;
+    width: 35%;
+    border-radius: 2px;
+    background: linear-gradient(90deg, transparent, rgba(225, 6, 0, 0.9), rgba(255, 255, 255, 0.8));
+    opacity: 0;
+    animation: mo-streak linear infinite;
+}
+
+@keyframes mo-streak {
+    0% { transform: translateX(0); opacity: 0; }
+    10% { opacity: 0.9; }
+    70% { opacity: 0.6; }
+    100% { transform: translateX(420%); opacity: 0; }
+}
+
+/* 히어로 안의 글자·버튼은 속도선 위로 */
+.mo-has-speed > .container,
+.mo-has-speed .hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* ---------- 4. 카드 기울기 + 빛 ---------- */
+.mo-tilt {
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.mo-tilt-glare {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: radial-gradient(circle at var(--mo-gx, 50%) var(--mo-gy, 50%), rgba(255, 255, 255, 0.22), transparent 55%);
+    mix-blend-mode: soft-light;
+}
+
+.mo-tilt:hover .mo-tilt-glare {
+    opacity: 1;
+}
+
+/* ---------- 5. 페이지 전환 (빨간 줄무늬가 지나감) ---------- */
+.mo-wipe {
+    position: fixed;
+    inset: 0;
+    z-index: 2900;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.mo-wipe span {
+    flex: 1;
+    background: #e10600;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.32s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.mo-wipe span:nth-child(2) { background: #111115; transition-delay: 0.04s; }
+.mo-wipe span:nth-child(3) { background: #e10600; transition-delay: 0.08s; }
+
+.mo-wipe.mo-cover span { transform: scaleX(1); }
+
+/* 새 페이지가 열릴 때: 덮인 상태에서 오른쪽으로 걷힘 */
+.mo-wipe.mo-reveal-page span {
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+.mo-wipe.mo-reveal-page.mo-open span {
+    transform: scaleX(0);
+}
+
+/* ---------- 6. 스크롤 진행 막대 ---------- */
+.mo-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    z-index: 2100;
+    pointer-events: none;
+    background: linear-gradient(90deg, #e10600, #ff5a4f, #ffffff);
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: 0 0 10px rgba(225, 6, 0, 0.7);
+}
+
+/* ---------- 7. 라이브·예정 배지 맥박 ---------- */
+.mo-pulse {
+    animation: mo-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes mo-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(225, 6, 0, 0.6); }
+    50% { box-shadow: 0 0 0 8px rgba(225, 6, 0, 0); }
+}
+
+/* ---------- 동작 줄이기 설정을 켠 사람 ---------- */
+@media (prefers-reduced-motion: reduce) {
+    .mo-reveal { opacity: 1; transform: none; transition: none; }
+    .mo-hero-line, .mo-speed i, .mo-pulse { animation: none; }
+    .mo-underline::after { transform: scaleX(1); transition: none; }
+    .mo-lights, .mo-wipe, .mo-progress { display: none; }
+}

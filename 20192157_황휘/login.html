@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 - PROJECT_TELEMETRY</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+    
+    <style>
+        .login-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(17, 17, 21, 0.8), rgba(17, 17, 21, 0.95)), url('img/circuit/marina.jpg') center/cover;
+            padding: 20px;
+            padding-top: 100px; 
+        }
+        
+        .login-card {
+            background: rgba(30, 30, 35, 0.85);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 4px solid #e10600;
+            border-radius: 12px;
+            padding: 40px;
+            width: 100%;
+            max-width: 480px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+
+        .login-card::-webkit-scrollbar { width: 6px; }
+        .login-card::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+
+        .login-input {
+            background: rgba(0, 0, 0, 0.3) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            color: #fff !important;
+            padding: 12px 15px;
+        }
+
+        .login-input:focus {
+            box-shadow: 0 0 0 0.25rem rgba(225, 6, 0, 0.25) !important;
+            border-color: #e10600 !important;
+        }
+
+        .login-input option {
+            background-color: #222;
+            color: #fff;
+        }
+
+        .btn-custom {
+            background-color: #e10600;
+            border: none;
+            padding: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #b00500;
+            transform: translateY(-2px);
+        }
+        
+        /* 폼 전환 애니메이션 */
+        .form-container {
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        
+        .form-container.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .form-label { margin-bottom: 4px; }
+
+        /* 하단 링크 마우스오버 효과 */
+        .login-links a {
+            transition: color 0.2s ease;
+        }
+        .login-links a:hover {
+            color: #fff !important;
+        }
+
+        /* 체크박스 커스텀 디자인 */
+        .form-check-input {
+            background-color: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.2);
+        }
+        .form-check-input:checked {
+            background-color: #e10600;
+            border-color: #e10600;
+        }
+        .form-check-input:focus {
+            box-shadow: 0 0 0 0.25rem rgba(225, 6, 0, 0.25);
+            border-color: #e10600;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <section class="login-section">
+        <div class="login-card text-center">
+            <h2 class="fw-black mb-1"><span class="text-white">PROJECT</span><span class="text-danger">_TELEMETRY</span></h2>
+            <p class="text-white-50 mb-4 font-noto" id="form-subtitle">나만의 F1 대시보드에 접속하세요.</p>
+            
+            <form id="login-form" class="form-container active">
+                <div class="mb-3 text-start">
+                    <label for="userId" class="form-label text-white-50 small fw-bold font-noto">아이디 (이메일)</label>
+                    <input type="email" class="form-control login-input" id="userId" placeholder="driver@f1.com" required>
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="userPw" class="form-label text-white-50 small fw-bold font-noto">비밀번호</label>
+                    <input type="password" class="form-control login-input" id="userPw" placeholder="••••••••" required>
+                </div>
+                
+                <div class="form-check text-start mb-4">
+                    <input class="form-check-input" type="checkbox" id="rememberId">
+                    <label class="form-check-label text-white-50 small font-noto ms-1" for="rememberId" style="cursor: pointer;">
+                        아이디 기억하기
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn btn-custom btn-danger w-100 text-white rounded-3 mb-3">ACCESS DASHBOARD</button>
+                
+                <div class="d-flex justify-content-between align-items-center font-noto small mt-4 login-links">
+                    <div>
+                        <a href="#" class="text-white-50 text-decoration-none" onclick="toggleForm('find-id')">아이디 찾기</a>
+                        <span class="text-secondary mx-2">|</span>
+                        <a href="#" class="text-white-50 text-decoration-none" onclick="toggleForm('find-pw')">비밀번호 찾기</a>
+                    </div>
+                    <a href="#" class="text-white text-decoration-none fw-bold" onclick="toggleForm('register')">회원가입 <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                </div>
+            </form>
+
+            <form id="register-form" class="form-container text-start">
+                <div class="mb-3">
+                    <label for="regId" class="form-label text-white-50 small fw-bold font-noto">아이디 (이메일)</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control login-input" id="regId" placeholder="사용할 이메일 입력" required>
+                        <button class="btn btn-outline-danger fw-bold" type="button" id="btn-check-id">중복확인</button>
+                    </div>
+                    <small id="id-check-msg" class="text-danger mt-1 d-block" style="display:none;"></small>
+                </div>
+                <div class="mb-3">
+                    <label for="regPw" class="form-label text-white-50 small fw-bold font-noto">비밀번호</label>
+                    <input type="password" class="form-control login-input" id="regPw" placeholder="비밀번호 설정" required>
+                </div>
+                <div class="mb-3">
+                    <label for="regPwConfirm" class="form-label text-white-50 small fw-bold font-noto">비밀번호 확인</label>
+                    <input type="password" class="form-control login-input" id="regPwConfirm" placeholder="비밀번호 재입력" required>
+                </div>
+                <div class="mb-3">
+                    <label for="regName" class="form-label text-white-50 small fw-bold font-noto">성함</label>
+                    <input type="text" class="form-control login-input" id="regName" placeholder="실명 입력" required>
+                </div>
+                <div class="mb-3">
+                    <label for="regPhone" class="form-label text-white-50 small fw-bold font-noto">전화번호</label>
+                    <input type="tel" class="form-control login-input" id="regPhone" placeholder="010-0000-0000 (하이픈 포함)" required>
+                </div>
+                <div class="mb-4">
+                    <label for="regGender" class="form-label text-white-50 small fw-bold font-noto">성별</label>
+                    <select class="form-select login-input" id="regGender" required>
+                        <option value="" disabled selected>성별 선택</option>
+                        <option value="M">남성</option>
+                        <option value="F">여성</option>
+                        <option value="O">선택 안 함</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-custom btn-danger w-100 text-white rounded-3 mb-3">CREATE ACCOUNT</button>
+                
+                <div class="text-center font-noto small mt-4 login-links">
+                    <a href="#" class="text-white-50 text-decoration-none fw-bold" onclick="toggleForm('login')"><i class="fa-solid fa-arrow-left me-1"></i> 로그인으로 돌아가기</a>
+                </div>
+            </form>
+
+            <form id="find-id-form" class="form-container text-start">
+                <div class="mb-3">
+                    <label for="findIdName" class="form-label text-white-50 small fw-bold font-noto">가입하신 성함</label>
+                    <input type="text" class="form-control login-input" id="findIdName" placeholder="실명 입력" required>
+                </div>
+                <div class="mb-4">
+                    <label for="findIdPhone" class="form-label text-white-50 small fw-bold font-noto">가입하신 전화번호</label>
+                    <input type="tel" class="form-control login-input" id="findIdPhone" placeholder="010-0000-0000" required>
+                </div>
+                
+                <button type="submit" class="btn btn-custom btn-secondary w-100 text-white rounded-3 mb-3">아이디 찾기</button>
+                
+                <div class="d-flex justify-content-between font-noto small mt-4 login-links">
+                    <a href="#" class="text-white-50 text-decoration-none fw-bold" onclick="toggleForm('login')"><i class="fa-solid fa-arrow-left me-1"></i> 로그인으로</a>
+                    <a href="#" class="text-white-50 text-decoration-none" onclick="toggleForm('find-pw')">비밀번호 찾기 <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                </div>
+            </form>
+
+            <form id="find-pw-form" class="form-container text-start">
+                <div class="mb-3">
+                    <label for="findPwId" class="form-label text-white-50 small fw-bold font-noto">아이디 (이메일)</label>
+                    <input type="email" class="form-control login-input" id="findPwId" placeholder="driver@f1.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="findPwName" class="form-label text-white-50 small fw-bold font-noto">가입하신 성함</label>
+                    <input type="text" class="form-control login-input" id="findPwName" placeholder="실명 입력" required>
+                </div>
+                <div class="mb-4">
+                    <label for="findPwPhone" class="form-label text-white-50 small fw-bold font-noto">가입하신 전화번호</label>
+                    <input type="tel" class="form-control login-input" id="findPwPhone" placeholder="010-0000-0000" required>
+                </div>
+                
+                <button type="submit" class="btn btn-custom btn-secondary w-100 text-white rounded-3 mb-3">비밀번호 찾기</button>
+                
+                <div class="d-flex justify-content-between font-noto small mt-4 login-links">
+                    <a href="#" class="text-white-50 text-decoration-none fw-bold" onclick="toggleForm('login')"><i class="fa-solid fa-arrow-left me-1"></i> 로그인으로</a>
+                    <a href="#" class="text-white-50 text-decoration-none" onclick="toggleForm('find-id')">아이디 찾기 <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    
+    <script>
+        if (!localStorage.getItem('f1_users_db')) {
+            localStorage.setItem('f1_users_db', JSON.stringify([]));
+        }
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedId = localStorage.getItem('f1_saved_id');
+            if (savedId) {
+                document.getElementById('userId').value = savedId;
+                document.getElementById('rememberId').checked = true;
+            }
+        });
+
+        let isIdChecked = false;
+        let checkedIdValue = "";
+        function toggleForm(type) {
+            document.querySelectorAll('.form-container').forEach(form => form.classList.remove('active'));
+            const subtitle = document.getElementById('form-subtitle');
+            
+            if (type === 'register') {
+                document.getElementById('register-form').classList.add('active');
+                subtitle.innerText = "새로운 레이싱 팀원이 되어주세요.";
+                isIdChecked = false;
+                checkedIdValue = "";
+                document.getElementById('id-check-msg').innerText = "";
+            } else if (type === 'find-id') {
+                document.getElementById('find-id-form').classList.add('active');
+                subtitle.innerText = "가입 정보를 입력하여 아이디를 찾으세요.";
+            } else if (type === 'find-pw') {
+                document.getElementById('find-pw-form').classList.add('active');
+                subtitle.innerText = "계정 정보를 확인하여 비밀번호를 찾으세요.";
+            } else {
+                document.getElementById('login-form').classList.add('active');
+                subtitle.innerText = "나만의 F1 대시보드에 접속하세요.";
+            }
+        }
+
+        // -----------------------------------------
+        // 기능 1. 아이디 중복 확인
+        // -----------------------------------------
+        document.getElementById('btn-check-id').addEventListener('click', function() {
+            const idInput = document.getElementById('regId').value.trim();
+            const msgObj = document.getElementById('id-check-msg');
+            msgObj.style.display = 'block';
+
+            if (!idInput) {
+                msgObj.className = 'text-danger mt-1 d-block small';
+                msgObj.innerText = "아이디(이메일)를 입력해주세요.";
+                return;
+            }
+
+            let users = JSON.parse(localStorage.getItem('f1_users_db'));
+            const isDuplicate = users.some(user => user.id === idInput);
+
+            if (isDuplicate) {
+                msgObj.className = 'text-danger mt-1 d-block small';
+                msgObj.innerText = "이미 사용 중인 아이디입니다.";
+                isIdChecked = false;
+            } else {
+                msgObj.className = 'text-success mt-1 d-block small fw-bold';
+                msgObj.innerText = "사용 가능한 아이디입니다!";
+                isIdChecked = true;
+                checkedIdValue = idInput; // 중복확인 통과한 아이디 기억
+            }
+        });
+
+        // -----------------------------------------
+        // 기능 2. 회원가입 제출
+        // -----------------------------------------
+        document.getElementById('register-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const id = document.getElementById('regId').value.trim();
+            const pw = document.getElementById('regPw').value.trim();
+            const pwConfirm = document.getElementById('regPwConfirm').value.trim();
+            const name = document.getElementById('regName').value.trim();
+            const phone = document.getElementById('regPhone').value.trim();
+            const gender = document.getElementById('regGender').value;
+
+            if (!isIdChecked || id !== checkedIdValue) {
+                alert("아이디 중복확인을 다시 진행해주세요.");
+                return;
+            }
+            if (pw !== pwConfirm) {
+                alert("비밀번호가 서로 일치하지 않습니다.");
+                return;
+            }
+
+            let users = JSON.parse(localStorage.getItem('f1_users_db'));
+            users.push({
+                id: id,
+                password: pw,
+                name: name,
+                phone: phone,
+                gender: gender
+            });
+            localStorage.setItem('f1_users_db', JSON.stringify(users));
+            
+            alert(`${name}님, 회원가입이 완료되었습니다! 생성된 계정으로 로그인해주세요.`);
+            document.getElementById('register-form').reset();
+            toggleForm('login');
+        });
+
+        // -----------------------------------------
+        // 기능 3. 로그인 처리
+        // -----------------------------------------
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            
+            const inputId = document.getElementById('userId').value.trim();
+            const inputPw = document.getElementById('userPw').value.trim();
+            const isRememberChecked = document.getElementById('rememberId').checked;
+            
+            let users = JSON.parse(localStorage.getItem('f1_users_db'));
+            const matchedUser = users.find(user => user.id === inputId && user.password === inputPw);
+            
+            if (matchedUser) {
+                localStorage.setItem('f1_logged_in', 'true');
+                localStorage.setItem('f1_current_user', matchedUser.name); 
+                
+                if (isRememberChecked) {
+                    localStorage.setItem('f1_saved_id', inputId); // 아이디 저장
+                } else {
+                    localStorage.removeItem('f1_saved_id'); // 아이디 저장 해제
+                }
+                
+                alert(`${matchedUser.name}님 환영합니다!`);
+                window.location.href = 'index.html'; 
+            } else {
+                alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+            }
+        });
+
+        // -----------------------------------------
+        // 기능 4. 아이디 찾기
+        // -----------------------------------------
+        document.getElementById('find-id-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const inputName = document.getElementById('findIdName').value.trim();
+            const inputPhone = document.getElementById('findIdPhone').value.trim();
+            
+            let users = JSON.parse(localStorage.getItem('f1_users_db'));
+            const foundUser = users.find(user => user.name === inputName && user.phone === inputPhone);
+            
+            if (foundUser) {
+                alert(`고객님의 아이디는 [ ${foundUser.id} ] 입니다.\n확인을 누르시면 로그인 화면으로 이동합니다.`);
+                
+                // 찾은 아이디를 로그인 창에 바로 꽂아주는 센스
+                document.getElementById('userId').value = foundUser.id;
+                toggleForm('login');
+            } else {
+                alert("입력하신 정보로 가입된 계정을 찾을 수 없습니다.");
+            }
+        });
+
+        // -----------------------------------------
+        // 기능 5. 비밀번호 찾기
+        // -----------------------------------------
+        document.getElementById('find-pw-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const inputId = document.getElementById('findPwId').value.trim();
+            const inputName = document.getElementById('findPwName').value.trim();
+            const inputPhone = document.getElementById('findPwPhone').value.trim();
+            
+            let users = JSON.parse(localStorage.getItem('f1_users_db'));
+            const foundUser = users.find(user => user.id === inputId && user.name === inputName && user.phone === inputPhone);
+            
+            if (foundUser) {
+                alert(`본인 확인이 완료되었습니다.\n고객님의 비밀번호는 [ ${foundUser.password} ] 입니다.\n로그인 화면으로 이동합니다.`);
+                
+                // 편의를 위해 로그인 창으로 이동하며 아이디 채워넣기
+                document.getElementById('userId').value = foundUser.id;
+                document.getElementById('userPw').value = ""; // 비밀번호는 초기화
+                toggleForm('login');
+            } else {
+                alert("입력하신 정보와 일치하는 계정을 찾을 수 없습니다.");
+            }
+        });
+    </script>
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

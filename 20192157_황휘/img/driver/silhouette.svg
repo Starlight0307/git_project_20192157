@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 사진이 없을 때 쓰는 기본 인물 그림 -->
+  <rect width="200" height="200" fill="#2a2a32"/>
+  <circle cx="100" cy="78" r="38" fill="#4a4a55"/>
+  <path d="M30 200c4-48 34-76 70-76s66 28 70 76z" fill="#4a4a55"/>
+</svg>

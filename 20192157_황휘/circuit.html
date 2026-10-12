@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELEMETRY | Circuit Guide</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link rel="stylesheet" href="css/bgm.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <header class="py-5" style="background: #111115; margin-top: 80px; border-bottom: 2px solid #e10600;">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <div class="text-md-start text-center">
+                    <h1 class="display-5 fw-black text-white m-0"><span id="display-year-circuit">2026</span> CIRCUIT <span class="text-danger">GUIDE</span></h1>
+                    <p class="text-white-50 mt-2">해당 시즌 캘린더에 포함된 서킷 정보를 제공합니다.</p>
+                </div>
+                <div class="year-selector-wrapper">
+                    <label class="text-white-50 small d-block mb-1">SEASON SELECT</label>
+                    <select id="year-select-circuit" class="form-select bg-dark text-white border-secondary" style="width: 150px;">
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 그랑프리 개최지 지도 -->
+    <section class="container mt-5 font-noto" id="circuit-map-section">
+        <div class="glass-card p-3 p-md-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 mb-3">
+                <h3 class="fw-black text-white m-0"><i class="fa-solid fa-map-location-dot text-danger me-2"></i>GRAND PRIX <span class="text-danger">MAP</span></h3>
+                <div class="d-flex flex-wrap gap-2">
+                    <select id="circuit-map-select" class="form-select form-select-sm bg-dark text-white border-secondary" style="width: 240px;" aria-label="그랑프리 선택">
+                        <option value="">그랑프리를 선택하세요</option>
+                    </select>
+                    <button type="button" id="circuit-map-all" class="btn btn-sm btn-outline-light"><i class="fa-solid fa-earth-asia me-1"></i>전체 보기</button>
+                </div>
+            </div>
+            <div id="circuit-map" class="circuit-map" aria-label="그랑프리 개최지 지도"></div>
+            <p class="text-white-50 small mt-2 mb-0">빨간 번호는 라운드 순서예요. 표시를 누르거나 아래 카드의 <strong class="text-white">지도에서 보기</strong>를 누르면 위치로 이동합니다.</p>
+        </div>
+    </section>
+
+    <section class="container my-5 font-noto">
+        <div class="row g-4" id="circuit-guide-container">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script/circuitData.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/circuit.js"></script>
+    <script src="script/hover-en.js"></script>
+    <script src="script/motion.js"></script>
+    <script src="script/bgm.js"></script>
+</body>
+</html>

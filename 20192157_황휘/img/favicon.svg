@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- PROJECT_TELEMETRY 파비콘: 어두운 바탕 + 기울어진 흰 T(속도감) + 로고의 빨간 밑줄(_) -->
+  <rect width="64" height="64" rx="14" fill="#111115"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#e10600" stroke-width="2.5"/>
+  <polygon points="15,13 54,13 51,23 12,23" fill="#ffffff"/>
+  <polygon points="28,23 39,23 32,51 21,51" fill="#ffffff"/>
+  <polygon points="38,43 55,43 53,51 36,51" fill="#e10600"/>
+</svg>
