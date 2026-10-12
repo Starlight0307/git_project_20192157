@@ -51,12 +51,58 @@ window.addEventListener('scroll', () => {
         }
     });
 
+    // 같은 페이지 안의 #링크만 바꾼다 (다른 페이지 링크의 active는 그대로 둠)
     navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}`) {
-            link.classList.add('active');
-        }
+        const href = link.getAttribute('href') || '';
+        if (!href.startsWith('#')) return;
+        link.classList.toggle('active', href === `#${current}`);
     });
+});
+
+// ==================== //
+// 마우스를 올리면 글자가 바뀌는 효과
+// ==================== //
+// 사용법: <a data-hover-text="About">자기소개</a>
+// 원래 글자와 바뀔 글자를 겹쳐 두고, 마우스를 올리면 위로 굴러가듯 바뀐다.
+// 두 글자 중 긴 쪽에 맞춰 폭이 정해져서 메뉴가 들썩이지 않는다.
+document.querySelectorAll('[data-hover-text]').forEach(el => {
+    const front = document.createElement('span');
+    front.className = 'ht-front';
+    front.append(...el.childNodes);
+
+    const back = document.createElement('span');
+    back.className = 'ht-back';
+    back.setAttribute('aria-hidden', 'true');
+    back.textContent = el.dataset.hoverText;
+
+    const wrap = document.createElement('span');
+    wrap.className = 'ht-wrap';
+    wrap.append(front, back);
+    el.appendChild(wrap);
+    el.classList.add('hover-text');
+});
+
+// ==================== //
+// 마우스를 올리면 이미지가 바뀌는 효과
+// ==================== //
+// 사용법: <img src="a.svg" data-hover-src="b.svg">
+// 바뀔 이미지를 원래 이미지 위에 겹쳐 두고, 마우스를 올리면 서서히 나타난다.
+// 카드(.project-card) 안에 있으면 카드 어디에 올려도 바뀐다.
+document.querySelectorAll('img[data-hover-src]').forEach(img => {
+    const box = img.parentElement;
+    const alt = document.createElement('img');
+    alt.src = img.dataset.hoverSrc;   // 미리 불러 둬서 처음 올릴 때도 바로 바뀜
+    alt.alt = '';
+    alt.className = 'hover-swap-img';
+    alt.setAttribute('aria-hidden', 'true');
+    box.classList.add('hover-swap');
+    img.after(alt);
+
+    const trigger = img.closest('.project-card') || box;
+    trigger.addEventListener('mouseenter', () => box.classList.add('is-hovered'));
+    trigger.addEventListener('mouseleave', () => box.classList.remove('is-hovered'));
+    // 휴대폰처럼 마우스가 없는 화면은 눌러서 바꿔 보기
+    trigger.addEventListener('touchstart', () => box.classList.toggle('is-hovered'), { passive: true });
 });
 
 // ==================== //
@@ -160,7 +206,8 @@ animateElements.forEach(el => {
 // ==================== //
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
+// 연락처 폼이 없는 페이지에서는 건너뛴다 (없으면 여기서 멈춰 아래 기능이 동작하지 않음)
+contactForm?.addEventListener('submit', (e) => {
     e.preventDefault();
 
     // 폼 데이터 가져오기

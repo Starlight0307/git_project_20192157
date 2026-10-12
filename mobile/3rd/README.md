@@ -14,18 +14,38 @@
 ### 파일 구조
 ```
 mobile/3rd/
-├── index.html          # 메인 HTML 파일
-├── css/
-│   └── style.css       # 스타일시트
+├── mintro.html          # 자기소개 (첫 페이지)
+├── minfo.html           # 인적사항 (지도·연락처)
+├── mstudy.html          # 학술사항
+├── mcareer.html         # 경력사항
+├── idea.html            # 아이디어 목록 (ideas.json 사용)
+├── mcommunity.html      # 커뮤니티 게시판 (js/community.js)
+├── mportfolio.css       # 모든 페이지가 쓰는 스타일시트
 ├── js/
-│   └── script.js       # JavaScript 파일
-├── images/             # 이미지 폴더
-│   └── README.md       # 이미지 가이드
-└── README.md           # 이 파일
+│   ├── script.js        # 공통 JavaScript (메뉴·마우스 올림 효과·위치·배경음악)
+│   └── community.js     # 게시판 글쓰기·댓글·좋아요·삭제
+├── images/              # 프로필·프로젝트 그림 (*-hover.svg는 마우스를 올렸을 때 그림)
+├── music/               # 배경음악 (mp4)
+├── ideas.json           # 아이디어 데이터
+├── server.js            # 아이디어·게시글 저장 서버 (IDEA_README.md 참고)
+├── package.json         # 서버 패키지 목록 (npm install로 node_modules 생성)
+├── 3rd_media_query.html # 3주차 실습: 미디어 쿼리 예제
+└── README.md            # 이 파일
 ```
 
+> 아래 안내의 `index.html`은 지금의 `mintro.html` 등 각 페이지로, `css/style.css`는 `mportfolio.css`로 바꿔 읽으면 됩니다.
+
+### 마우스 올림 효과
+- 글자 바꾸기: 태그에 `data-hover-text="바뀔 글자"`를 붙이면 됩니다. 예) `<a class="nav-link" data-hover-text="About">자기소개</a>`
+- 이미지 바꾸기: `<img>`에 `data-hover-src="바뀔 이미지 경로"`를 붙이면 됩니다. 예) `<img src="images/about.svg" data-hover-src="images/about-hover.svg">`
+
+### 커뮤니티 게시판
+- `npm start`로 서버를 켜고 http://localhost:3000/mcommunity.html 로 접속하면 글이 `posts.json`에 저장되어 접속한 모두가 함께 봅니다.
+- 서버 없이 파일을 바로 열면 글이 그 브라우저(localStorage)에만 저장됩니다.
+- 글 비밀번호는 삭제할 때만 쓰는 간단한 확인용이라, 중요한 비밀번호를 쓰지 않도록 안내하세요.
+
 ### 브라우저에서 열기
-1. `index.html` 파일을 더블클릭하거나
+1. `mintro.html` 파일을 더블클릭하거나
 2. 브라우저로 드래그 앤 드롭
 
 ---

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#667eea"/><stop offset="1" stop-color="#764ba2"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="660" cy="90" r="140" fill="#fff" opacity=".12"/>
+<circle cx="120" cy="440" r="110" fill="#fff" opacity=".10"/>
+<text x="400" y="230" text-anchor="middle" font-size="96">🛒</text>
+<text x="400" y="320" text-anchor="middle" font-family="'Poppins','Noto Sans KR',sans-serif" font-size="44" font-weight="700" fill="#fff">E-Commerce Platform</text>
+</svg>

@@ -7,15 +7,15 @@
 ### 1. 프로필 이미지
 - **파일명**: `profile.jpg`
 - **권장 크기**: 500x500px (정사각형)
-- **용도**: Hero 섹션의 프로필 사진
+- **용도**: Hero 섹션의 프로필 사진 (마우스 올림: `profile-hover.svg`)
 
 ### 2. About 이미지
-- **파일명**: `about.jpg`
+- **파일명**: `about.svg` (마우스 올림: `about-hover.svg`)
 - **권장 크기**: 800x600px (4:3 비율)
 - **용도**: About 섹션의 보조 이미지
 
 ### 3. 프로젝트 이미지
-- **파일명**: `project1.jpg`, `project2.jpg`, `project3.jpg`, `project4.jpg`
+- **파일명**: `project1.svg` ~ `project4.svg` (마우스 올림: `project1-hover.svg` ~ `project4-hover.svg`)
 - **권장 크기**: 800x500px (16:10 비율)
 - **용도**: Projects 섹션의 각 프로젝트 썸네일
 
@@ -36,3 +36,5 @@
 - TinyPNG: https://tinypng.com
 - ImageOptim (Mac): https://imageoptim.com
 - Squoosh: https://squoosh.app
+
+> 지금 들어 있는 svg 그림은 임시 그림입니다. 실제 사진으로 바꾸려면 같은 이름의 jpg를 넣고 HTML의 경로만 바꾸세요.

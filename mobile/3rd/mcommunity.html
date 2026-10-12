@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio [커뮤니티]</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="mportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="mintro.html" class="nav-brand" data-hover-text="Hwang Hwi">Portfolio</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="mintro.html" class="nav-link" data-hover-text="About">자기소개</a></li>
+                <li><a href="minfo.html" class="nav-link" data-hover-text="Profile">인적사항</a></li>
+                <li><a href="mstudy.html" class="nav-link" data-hover-text="Study">학술사항</a></li>
+                <li><a href="mcareer.html" class="nav-link" data-hover-text="Career">경력사항</a></li>
+                <li><a href="idea.html" class="nav-link" data-hover-text="Ideas">아이디어 목록</a></li>
+                <li><a href="mcommunity.html" class="nav-link active" data-hover-text="Community">커뮤니티</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 커뮤니티 게시판 Section -->
+    <section class="community-section">
+        <div class="container">
+            <h2 class="section-title" data-hover-text="Community">커뮤니티 게시판</h2>
+            <p class="cm-intro">방문해 주신 분들이 자유롭게 글을 남기는 공간입니다. 질문, 응원, 정보 모두 환영해요!</p>
+
+            <div class="info-card cm-board">
+                <!-- 위쪽 도구: 분류 · 검색 · 정렬 · 글쓰기 -->
+                <div class="cm-toolbar">
+                    <div class="cm-tabs" id="cmTabs" role="tablist">
+                        <button type="button" class="cm-tab active" data-category="전체">전체</button>
+                        <button type="button" class="cm-tab" data-category="자유">자유</button>
+                        <button type="button" class="cm-tab" data-category="질문">질문</button>
+                        <button type="button" class="cm-tab" data-category="정보">정보</button>
+                        <button type="button" class="cm-tab" data-category="응원">응원</button>
+                    </div>
+                    <div class="cm-tools">
+                        <input type="search" id="cmSearch" class="cm-search" placeholder="제목·내용·작성자 검색" aria-label="게시글 검색">
+                        <select id="cmSort" class="cm-sort" aria-label="정렬">
+                            <option value="new">최신순</option>
+                            <option value="views">조회순</option>
+                            <option value="likes">좋아요순</option>
+                            <option value="comments">댓글순</option>
+                        </select>
+                        <button type="button" class="btn btn-primary cm-write-btn" id="cmWriteBtn" data-hover-text="Write ✏️">글쓰기</button>
+                    </div>
+                </div>
+
+                <p class="cm-status" id="cmStatus"></p>
+
+                <!-- 게시글 목록 -->
+                <ul class="cm-list" id="cmList"></ul>
+                <p class="cm-empty" id="cmEmpty" hidden>조건에 맞는 글이 없어요. 첫 글을 남겨 보세요!</p>
+
+                <!-- 페이지 번호 -->
+                <nav class="cm-pagination" id="cmPagination" aria-label="페이지"></nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- 글쓰기 창 -->
+    <dialog class="cm-dialog" id="cmWriteDialog">
+        <form class="cm-form" id="cmWriteForm" novalidate>
+            <div class="cm-dialog-head">
+                <h3>새 글 쓰기</h3>
+                <button type="button" class="cm-close" data-close aria-label="닫기">✕</button>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="cmAuthor">닉네임 *</label>
+                    <input type="text" id="cmAuthor" maxlength="12" placeholder="최대 12자" autocomplete="nickname">
+                </div>
+                <div class="form-group">
+                    <label for="cmPassword">비밀번호 * <small>(글 삭제할 때 필요)</small></label>
+                    <input type="password" id="cmPassword" maxlength="20" placeholder="4자 이상" autocomplete="new-password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cmCategory">분류</label>
+                <select id="cmCategory" class="cm-select">
+                    <option value="자유">자유</option>
+                    <option value="질문">질문</option>
+                    <option value="정보">정보</option>
+                    <option value="응원">응원</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cmTitle">제목 *</label>
+                <input type="text" id="cmTitle" maxlength="60" placeholder="제목을 입력하세요 (최대 60자)">
+            </div>
+            <div class="form-group">
+                <label for="cmContent">내용 * <small id="cmContentCount">0 / 2000</small></label>
+                <textarea id="cmContent" rows="8" maxlength="2000" placeholder="내용을 입력하세요"></textarea>
+            </div>
+            <p class="cm-error" id="cmWriteError" role="alert"></p>
+            <div class="cm-dialog-actions">
+                <button type="button" class="btn btn-secondary" data-close>취소</button>
+                <button type="submit" class="btn btn-primary">등록하기</button>
+            </div>
+        </form>
+    </dialog>
+
+    <!-- 글 보기 창 -->
+    <dialog class="cm-dialog cm-detail" id="cmDetailDialog">
+        <div class="cm-dialog-head">
+            <span class="cm-badge" id="cmDetailCategory"></span>
+            <button type="button" class="cm-close" data-close aria-label="닫기">✕</button>
+        </div>
+        <h3 class="cm-detail-title" id="cmDetailTitle"></h3>
+        <div class="cm-detail-meta" id="cmDetailMeta"></div>
+        <div class="cm-detail-content" id="cmDetailContent"></div>
+
+        <div class="cm-detail-actions">
+            <button type="button" class="cm-like" id="cmLikeBtn" aria-pressed="false">🤍 좋아요 <span id="cmLikeCount">0</span></button>
+            <button type="button" class="btn-small btn-delete" id="cmDeleteToggle">삭제</button>
+        </div>
+        <form class="cm-delete-form" id="cmDeleteForm" hidden>
+            <input type="password" id="cmDeletePassword" placeholder="글 비밀번호" aria-label="글 비밀번호" autocomplete="current-password">
+            <button type="submit" class="btn-small btn-delete">삭제 확인</button>
+            <span class="cm-error" id="cmDeleteError" role="alert"></span>
+        </form>
+
+        <div class="cm-comments">
+            <h4>댓글 <span id="cmCommentCount">0</span></h4>
+            <ul class="cm-comment-list" id="cmCommentList"></ul>
+            <form class="cm-comment-form" id="cmCommentForm" novalidate>
+                <input type="text" id="cmCommentAuthor" maxlength="12" placeholder="닉네임" aria-label="댓글 닉네임">
+                <input type="text" id="cmCommentContent" maxlength="300" placeholder="댓글을 남겨 주세요" aria-label="댓글 내용">
+                <button type="submit" class="btn-small btn-edit">등록</button>
+            </form>
+            <p class="cm-error" id="cmCommentError" role="alert"></p>
+        </div>
+    </dialog>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hwang Hwi. All rights reserved.</p>
+            <p>Made with ❤️ using HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/community.js"></script>
+</body>
+</html>

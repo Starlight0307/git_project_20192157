@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // 미들웨어
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '2mb' }));
 app.use(express.static(__dirname));
 
 const IDEAS_FILE = path.join(__dirname, 'ideas.json');
@@ -50,6 +50,40 @@ app.post('/api/ideas', (req, res) => {
     }
 });
 
+// ==================== //
+// 커뮤니티 게시판 (mcommunity.html)
+// ==================== //
+const POSTS_FILE = path.join(__dirname, 'posts.json');
+
+// 게시글 목록 가져오기
+app.get('/api/posts', (req, res) => {
+    try {
+        if (fs.existsSync(POSTS_FILE)) {
+            res.json(JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8')));
+        } else {
+            res.json([]);
+        }
+    } catch (error) {
+        console.error('게시글 읽기 실패:', error);
+        res.status(500).json({ error: '게시글을 불러올 수 없습니다.' });
+    }
+});
+
+// 게시글 목록 저장하기
+app.post('/api/posts', (req, res) => {
+    try {
+        const posts = req.body;
+        if (!Array.isArray(posts)) {
+            return res.status(400).json({ error: '잘못된 데이터 형식입니다.' });
+        }
+        fs.writeFileSync(POSTS_FILE, JSON.stringify(posts, null, 2), 'utf8');
+        res.json({ success: true, count: posts.length });
+    } catch (error) {
+        console.error('게시글 저장 실패:', error);
+        res.status(500).json({ error: '게시글을 저장할 수 없습니다.' });
+    }
+});
+
 // 서버 시작
 app.listen(PORT, () => {
     console.log(`
@@ -59,6 +93,7 @@ app.listen(PORT, () => {
 
 🌐 서버 주소: http://localhost:${PORT}
 📝 아이디어 페이지: http://localhost:${PORT}/idea.html
+💬 커뮤니티 게시판: http://localhost:${PORT}/mcommunity.html
 
 💡 사용 방법:
    1. 브라우저에서 위 주소로 접속

@@ -1,1 +1,6 @@
 mobile/3rd/music/videoplayback.mp4
+
+# 설치하면 다시 생기는 파일·Mac 시스템 파일
+node_modules/
+.DS_Store
+mobile/3rd/posts.json
