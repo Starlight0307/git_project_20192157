@@ -89,7 +89,7 @@ function discountPercent(product) {
     return old > now ? Math.round((1 - now / old) * 100) : 0;
 }
 
-const escapeHtml = (t) => String(t ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+// escapeHtml → common.js
 
 function teamStyle(product) {
     // 드라이버 컬렉션은 상품 이름의 드라이버로 팀 색을 찾음 (예: "Lando Norris 캡" → McLaren 주황)

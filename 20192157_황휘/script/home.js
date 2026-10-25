@@ -314,8 +314,8 @@ async function fetchStandingsData() {
             if (card) {
                 card.style.setProperty('--team-color', leaderTeam.color);
                 const photo = driverImages[leader.Driver.driverId];
-                if (photo && !card.querySelector('.driver-photo')) {
-                    card.insertAdjacentHTML('afterbegin', `<img class="driver-photo" src="${photo}" alt="${leader.Driver.familyName}" onerror="this.remove()">`);
+                if (photo && !card.querySelector('.leader-photo')) {
+                    card.insertAdjacentHTML('afterbegin', `<img class="leader-photo" src="${photo}" alt="${leader.Driver.familyName}" onerror="this.remove()">`);
                 }
             }
 
@@ -335,11 +335,11 @@ async function fetchStandingsData() {
                     <div class="pts">${leader.points}<small>점</small></div>
                     ${gap > 0 ? `<div class="gap">2위와 <b class="text-white">${gap}점</b> 차</div>` : ''}
                 </div>
-                <div class="driver-rows">
+                <div class="champ-rows">
                     ${standings.slice(1, 5).map((d, i) => {
                         const t = teamOf(d);
                         return `
-                            <div class="driver-row">
+                            <div class="champ-row">
                                 <span class="rank">${i + 2}위</span>
                                 <span class="num" style="color: ${t.color};">${numberImg(d)}</span>
                                 <span class="name text-truncate">${d.Driver.familyName}</span>

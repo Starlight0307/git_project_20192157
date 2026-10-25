@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/motion.css">
     <link rel="stylesheet" href="css/bgm.css">
+    <link rel="stylesheet" href="css/polish.css">
     
     <style>
         .statistics-hero {
@@ -31,6 +32,38 @@
             box-shadow: 0 10px 20px rgba(0,0,0,0.3);
         }
         
+        .kpi-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+        .kpi {
+            position: relative; overflow: hidden; border-radius: 12px; padding: 18px;
+            background: linear-gradient(145deg, rgba(40,40,46,0.9), rgba(22,22,27,0.9));
+            border: 1px solid rgba(255,255,255,0.08); border-top: 3px solid var(--kpi-color, #e10600);
+        }
+        .kpi::after { content: ""; position: absolute; right: -30px; top: -30px; width: 110px; height: 110px; border-radius: 50%;
+            background: radial-gradient(circle, color-mix(in srgb, var(--kpi-color, #e10600) 35%, transparent), transparent 70%); }
+        .kpi-label { font-size: 0.75rem; color: rgba(255,255,255,0.55); letter-spacing: 1px; font-weight: 700; }
+        .kpi-value { font-size: 2rem; font-weight: 900; font-style: italic; color: #fff; line-height: 1.1; margin-top: 6px; }
+        .kpi-value small { font-size: 0.85rem; font-style: normal; color: rgba(255,255,255,0.5); font-weight: 400; margin-left: 4px; }
+        .kpi-sub { font-size: 0.8rem; color: var(--kpi-color, #e10600); font-weight: 700; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .teammate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 40px; }
+        .tm-row .tm-team { font-size: 0.8rem; font-weight: 800; letter-spacing: 1px; margin-bottom: 6px; }
+        .tm-names { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 4px; }
+        .tm-names b { font-weight: 800; }
+        .tm-bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: rgba(255,255,255,0.06); }
+        .tm-bar i { display: block; height: 100%; transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1); }
+        .tm-bar i + i { opacity: 0.45; }
+        .tm-sub { display: flex; justify-content: space-between; font-size: 0.72rem; color: rgba(255,255,255,0.45); margin-top: 3px; }
+        .stats-table { --bs-table-bg: transparent; font-size: 0.92rem; }
+        .stats-table th { cursor: pointer; white-space: nowrap; color: rgba(255,255,255,0.6); font-weight: 700; font-size: 0.8rem; border-color: rgba(255,255,255,0.1); user-select: none; }
+        .stats-table th:hover, .stats-table th.sorted { color: #fff; }
+        .stats-table th.sorted::after { content: " ▼"; color: #e10600; font-size: 0.7rem; }
+        .stats-table th.sorted.asc::after { content: " ▲"; }
+        .stats-table td { border-color: rgba(255,255,255,0.06); white-space: nowrap; }
+        .stats-table tbody tr:hover td { background: rgba(255,255,255,0.04); }
+        .stats-table .num-img { height: 18px; max-width: 32px; object-fit: contain; }
+        .stats-table .best { color: #ffd166; font-weight: 900; }
+        @media (max-width: 1200px) { .kpi-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+        @media (max-width: 768px) { .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .teammate-grid { grid-template-columns: 1fr; } }
+
         .chart-container {
             position: relative;
             height: 350px; /* 차트 높이를 키워 시원하게 보이게 수정 */
@@ -59,6 +92,22 @@
             </div>
             
             <div id="statistics-content" class="row g-4 d-none">
+                <!-- 시즌 핵심 지표 (statistics.js renderKpis) -->
+                <div class="col-12">
+                    <div class="kpi-grid" id="kpi-grid"></div>
+                </div>
+
+                <div class="col-12">
+                    <div class="chart-card">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-2">
+                            <h4 class="text-white font-noto fw-bold m-0"><i class="fa-solid fa-chart-line me-2 text-danger"></i>챔피언십 포인트 추이 <small class="text-white-50 fs-6 fw-normal">상위 6명 · 경기별 누적 (스프린트 포함)</small></h4>
+                        </div>
+                        <div class="chart-container" style="height: 420px;">
+                            <canvas id="progressChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-12">
                     <div class="chart-card">
                         <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-chart-column me-2 text-danger"></i>드라이버 포인트</h4>
@@ -82,6 +131,43 @@
                         <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-trophy me-2 text-warning"></i>레이스 우승 비율</h4>
                         <div class="chart-container">
                             <canvas id="winsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-medal me-2 text-warning"></i>포디움 횟수 <small class="text-white-50 fs-6 fw-normal">1·2·3위</small></h4>
+                        <div class="chart-container" style="height: 380px;">
+                            <canvas id="podiumChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-arrow-trend-up me-2 text-success"></i>순위 끌어올리기 <small class="text-white-50 fs-6 fw-normal">출발 → 완주 평균 순위 변화</small></h4>
+                        <div class="chart-container" style="height: 380px;">
+                            <canvas id="gainChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="chart-card">
+                        <h4 class="text-white font-noto fw-bold mb-4"><i class="fa-solid fa-people-arrows me-2 text-danger"></i>팀 동료 대결 <small class="text-white-50 fs-6 fw-normal">팀 안 포인트 비율</small></h4>
+                        <div class="teammate-grid" id="teammate-grid"></div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="chart-card">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
+                            <h4 class="text-white font-noto fw-bold m-0"><i class="fa-solid fa-table-list me-2 text-danger"></i>드라이버 시즌 기록</h4>
+                            <small class="text-white-50">제목을 누르면 정렬됩니다</small>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-dark stats-table align-middle mb-0" id="stats-table"></table>
                         </div>
                     </div>
                 </div>

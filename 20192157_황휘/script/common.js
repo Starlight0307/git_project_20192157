@@ -51,9 +51,9 @@ function loadNewsData() {
     return newsDataPromise;
 }
 
-// 기사 글자를 HTML에 넣기 전에 특수문자를 바꾼다 (제목 속 < > " 때문에 화면이 깨지지 않게)
+// 글자를 HTML에 넣기 전에 특수문자를 바꾼다 (제목 속 < > " 때문에 화면이 깨지지 않게) — 뉴스·샵·서킷 페이지 공통
 function escapeHtml(text) {
-    return String(text || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    return String(text ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
 // "3시간 전" · "2일 전" · 오래되면 날짜

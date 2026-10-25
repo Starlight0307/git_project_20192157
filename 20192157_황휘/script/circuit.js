@@ -119,9 +119,7 @@ async function renderCircuitGuideData(year) {
 let circuitMap = null;
 const circuitMarkers = {};   // circuitId → Leaflet 표시
 
-function escapeHtml(text) {
-    return String(text).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
-}
+// escapeHtml → common.js
 
 function getCircuitMap() {
     if (circuitMap) return circuitMap;

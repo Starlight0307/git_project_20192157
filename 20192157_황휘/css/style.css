@@ -852,7 +852,7 @@ button .ko-en,
     pointer-events: none;
     transition: opacity 0.6s;
 }
-.showcase-card > *:not(.constructor-watermark):not(.gp-card-bg):not(.driver-photo) { position: relative; z-index: 1; }
+.showcase-card > *:not(.constructor-watermark):not(.gp-card-bg):not(.leader-photo) { position: relative; z-index: 1; }
 .constructor-watermark {      /* 뒤에 크게 깔리는 팀 로고 */
     position: absolute;
     right: -30px;
@@ -947,15 +947,15 @@ button .ko-en,
 .gp-session time { font-variant-numeric: tabular-nums; }
 
 /* 드라이버 챔피언십 카드: 1위 드라이버 사진 + 2~5위 */
-.driver-photo {
+.leader-photo {
     position: absolute; right: -18px; top: 34px; width: 190px;
     filter: drop-shadow(0 0 22px color-mix(in srgb, var(--team-color) 55%, transparent));
     -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
             mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
-    animation: driver-photo-in 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: leader-photo-in 1s cubic-bezier(0.16, 1, 0.3, 1) both;
     pointer-events: none;
 }
-@keyframes driver-photo-in { from { transform: translateX(30px); opacity: 0; } }
+@keyframes leader-photo-in { from { transform: translateX(30px); opacity: 0; } }
 .driver-leader { max-width: 62%; min-height: 168px; }
 .driver-leader .leader-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1px; color: #111; background: var(--team-color); border-radius: 4px; padding: 1px 7px; }
 .driver-leader .number { height: 30px; margin: 8px 0 2px; display: block; }
@@ -966,18 +966,18 @@ button .ko-en,
     text-shadow: 0 0 22px color-mix(in srgb, var(--team-color) 70%, transparent); }
 .driver-leader .pts small { font-size: 0.85rem; font-style: normal; color: rgba(255,255,255,0.55); font-weight: 400; margin-left: 3px; }
 .driver-leader .gap { font-size: 0.78rem; color: rgba(255,255,255,0.6); }
-.driver-rows { margin-top: 12px; }
-.driver-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.9rem; }
-.driver-row .rank { width: 26px; color: rgba(255,255,255,0.45); font-weight: 700; }
-.driver-row .num { width: 34px; height: 20px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-style: italic; }
-.driver-row .num img { max-height: 18px; max-width: 34px; object-fit: contain; }
-.driver-row .name { flex-grow: 1; font-weight: 800; text-transform: uppercase; }
-.driver-row .bar { width: 52px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; }
-.driver-row .bar i { display: block; height: 100%; width: var(--w); animation: constructor-bar-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.driver-row .p { width: 36px; text-align: right; font-weight: 800; }
+.champ-rows { margin-top: 12px; }
+.champ-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.9rem; }
+.champ-row .rank { width: 26px; color: rgba(255,255,255,0.45); font-weight: 700; }
+.champ-row .num { width: 34px; height: 20px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-style: italic; }
+.champ-row .num img { max-height: 18px; max-width: 34px; object-fit: contain; }
+.champ-row .name { flex-grow: 1; font-weight: 800; text-transform: uppercase; }
+.champ-row .bar { width: 52px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; }
+.champ-row .bar i { display: block; height: 100%; width: var(--w); animation: constructor-bar-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.champ-row .p { width: 36px; text-align: right; font-weight: 800; }
 
 @media (prefers-reduced-motion: reduce) {
-    .gp-card-bg, .gp-live, .gp-session.next span::before, .driver-photo, .driver-row .bar i { animation: none; }
+    .gp-card-bg, .gp-live, .gp-session.next span::before, .leader-photo, .champ-row .bar i { animation: none; }
 }
 
 /* 첫 화면 '최신 하이라이트' (F1 공식 유튜브) */
