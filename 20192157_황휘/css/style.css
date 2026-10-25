@@ -834,3 +834,234 @@ button .ko-en,
 @media (prefers-reduced-motion: reduce) {
     .about-photo-ring, .about-photo-ring img { animation: none; }
 }
+
+/* ---------- 첫 화면 카드 3개 (다음 그랑프리 · 드라이버 · 컨스트럭터) ---------- */
+/* --team-color는 home.js가 넣는다 (1위 드라이버·팀 색, 그랑프리는 빨강) */
+.showcase-card {
+    position: relative;
+    overflow: hidden;
+    --team-color: #e10600;
+}
+.showcase-card::before {   /* 팀 색으로 번지는 빛 */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(120% 70% at 100% 0%, color-mix(in srgb, var(--team-color) 38%, transparent), transparent 60%),
+        linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--team-color) 12%, transparent));
+    pointer-events: none;
+    transition: opacity 0.6s;
+}
+.showcase-card > *:not(.constructor-watermark):not(.gp-card-bg):not(.driver-photo) { position: relative; z-index: 1; }
+.constructor-watermark {      /* 뒤에 크게 깔리는 팀 로고 */
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    opacity: 0.07;
+    filter: grayscale(1) brightness(3);
+    pointer-events: none;
+}
+.constructor-leader { display: flex; align-items: center; gap: 12px; }
+.constructor-leader .leader-logo {
+    width: 48px; height: 48px; object-fit: contain; flex-shrink: 0;
+    background: rgba(255,255,255,0.08); border-radius: 12px; padding: 8px;
+    box-shadow: 0 0 18px color-mix(in srgb, var(--team-color) 55%, transparent);
+}
+.constructor-leader .leader-name { font-weight: 900; font-size: 1.35rem; line-height: 1.1; text-transform: uppercase; }
+.constructor-leader .leader-badge {
+    display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1px;
+    color: #111; background: var(--team-color); border-radius: 4px; padding: 1px 7px; margin-bottom: 4px;
+}
+.constructor-points { font-size: 2.6rem; font-weight: 900; line-height: 1; color: #fff; font-style: italic;
+    text-shadow: 0 0 24px color-mix(in srgb, var(--team-color) 70%, transparent); }
+.constructor-points small { font-size: 0.9rem; font-style: normal; color: rgba(255,255,255,0.55); font-weight: 400; margin-left: 4px; }
+.constructor-gap { font-size: 0.8rem; color: rgba(255,255,255,0.6); }
+.constructor-car {            /* 1위 팀 차량이 오른쪽에서 달려 들어옴 */
+    display: block;
+    width: 112%;
+    max-width: none;
+    margin: 6px -6% 10px auto;
+    filter: drop-shadow(0 12px 14px rgba(0,0,0,0.6));
+    animation: constructor-car-in 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes constructor-car-in {
+    from { transform: translateX(70%); opacity: 0; filter: blur(6px) drop-shadow(0 12px 14px rgba(0,0,0,0.6)); }
+    to   { transform: translateX(0); opacity: 1; }
+}
+.constructor-bars { display: flex; flex-direction: column; gap: 7px; }
+.constructor-bar { display: grid; grid-template-columns: 16px 74px 1fr 38px; align-items: center; gap: 8px; font-size: 0.78rem; }
+.constructor-bar .rank { color: rgba(255,255,255,0.45); font-weight: 700; }
+.constructor-bar .name { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.constructor-bar .track { height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; overflow: hidden; }
+.constructor-bar .fill {
+    height: 100%; border-radius: 3px; width: var(--w);
+    box-shadow: 0 0 8px currentColor;
+    animation: constructor-bar-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.constructor-bar .pts { text-align: right; font-weight: 800; }
+@keyframes constructor-bar-grow { from { width: 0; } }
+@media (prefers-reduced-motion: reduce) {
+    .constructor-car, .constructor-bar .fill { animation: none; }
+}
+
+/* 다음 그랑프리 카드: 서킷 사진 배경 + 카운트다운 + 주말 일정 */
+.gp-card-bg {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+    opacity: 0.32;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 45%, transparent 85%);
+            mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 45%, transparent 85%);
+    transform: scale(1.06);
+    animation: gp-bg-drift 18s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+@keyframes gp-bg-drift { to { transform: scale(1.14) translateX(-3%); } }
+.gp-meta { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; color: rgba(255,255,255,0.75); }
+.gp-round { background: #e10600; color: #fff; font-weight: 900; letter-spacing: 1px; border-radius: 4px; padding: 1px 8px; font-size: 0.72rem; }
+.gp-flag { width: 24px; height: 16px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.2); }
+.gp-name { font-weight: 900; font-size: 1.7rem; line-height: 1.05; text-transform: uppercase; margin: 10px 0 2px; }
+.gp-name span { display: block; color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,0.8); font-size: 1.25rem; letter-spacing: 1px; }
+.gp-circuit { font-size: 0.8rem; color: rgba(255,255,255,0.55); }
+.gp-count-label { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin: 16px 0 6px; letter-spacing: 1px; }
+.gp-countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.gp-countdown div {
+    background: rgba(0,0,0,0.45); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;
+    text-align: center; padding: 6px 0 4px;
+}
+.gp-countdown b { display: block; font-size: 1.45rem; font-weight: 900; font-style: italic; line-height: 1; font-variant-numeric: tabular-nums; }
+.gp-countdown small { font-size: 0.65rem; color: rgba(255,255,255,0.5); }
+.gp-live {
+    margin-top: 16px; padding: 12px; border-radius: 8px; text-align: center; font-weight: 900; letter-spacing: 2px;
+    background: rgba(225,6,0,0.2); border: 1px solid rgba(225,6,0,0.6); color: #ff4d4d;
+    animation: gp-live-pulse 1.4s ease-in-out infinite;
+}
+@keyframes gp-live-pulse { 50% { box-shadow: 0 0 22px rgba(225,6,0,0.55); } }
+.gp-sessions { margin-top: 14px; display: flex; flex-direction: column; gap: 4px; font-size: 0.78rem; }
+.gp-session { display: flex; justify-content: space-between; color: rgba(255,255,255,0.75); padding: 3px 0; border-bottom: 1px dashed rgba(255,255,255,0.08); }
+.gp-session.done { color: rgba(255,255,255,0.3); text-decoration: line-through; }
+.gp-session.next { color: #fff; font-weight: 800; }
+.gp-session.next span::before { content: "●"; color: #e10600; margin-right: 6px; animation: gp-live-pulse 1.4s infinite; }
+.gp-session time { font-variant-numeric: tabular-nums; }
+
+/* 드라이버 챔피언십 카드: 1위 드라이버 사진 + 2~5위 */
+.driver-photo {
+    position: absolute; right: -18px; top: 34px; width: 190px;
+    filter: drop-shadow(0 0 22px color-mix(in srgb, var(--team-color) 55%, transparent));
+    -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
+            mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
+    animation: driver-photo-in 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    pointer-events: none;
+}
+@keyframes driver-photo-in { from { transform: translateX(30px); opacity: 0; } }
+.driver-leader { max-width: 62%; min-height: 168px; }
+.driver-leader .leader-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1px; color: #111; background: var(--team-color); border-radius: 4px; padding: 1px 7px; }
+.driver-leader .number { height: 30px; margin: 8px 0 2px; display: block; }
+.driver-leader .given { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+.driver-leader .family { font-size: 1.6rem; font-weight: 900; text-transform: uppercase; line-height: 1; }
+.driver-leader .team { font-size: 0.75rem; color: var(--team-color); font-weight: 700; margin-top: 2px; }
+.driver-leader .pts { font-size: 2.3rem; font-weight: 900; font-style: italic; line-height: 1; margin-top: 10px;
+    text-shadow: 0 0 22px color-mix(in srgb, var(--team-color) 70%, transparent); }
+.driver-leader .pts small { font-size: 0.85rem; font-style: normal; color: rgba(255,255,255,0.55); font-weight: 400; margin-left: 3px; }
+.driver-leader .gap { font-size: 0.78rem; color: rgba(255,255,255,0.6); }
+.driver-rows { margin-top: 12px; }
+.driver-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.9rem; }
+.driver-row .rank { width: 26px; color: rgba(255,255,255,0.45); font-weight: 700; }
+.driver-row .num { width: 34px; height: 20px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-style: italic; }
+.driver-row .num img { max-height: 18px; max-width: 34px; object-fit: contain; }
+.driver-row .name { flex-grow: 1; font-weight: 800; text-transform: uppercase; }
+.driver-row .bar { width: 52px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; }
+.driver-row .bar i { display: block; height: 100%; width: var(--w); animation: constructor-bar-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.driver-row .p { width: 36px; text-align: right; font-weight: 800; }
+
+@media (prefers-reduced-motion: reduce) {
+    .gp-card-bg, .gp-live, .gp-session.next span::before, .driver-photo, .driver-row .bar i { animation: none; }
+}
+
+/* 첫 화면 '최신 하이라이트' (F1 공식 유튜브) */
+.home-video { display: flex; gap: 12px; align-items: center; padding: 8px; border-radius: 8px; background: rgba(255,255,255,0.03); border-left: 3px solid var(--f1-red); transition: background 0.2s; }
+.home-video:hover { background: rgba(255,255,255,0.08); }
+.home-video-thumb { position: relative; width: 132px; aspect-ratio: 16 / 9; flex-shrink: 0; border-radius: 6px; overflow: hidden; background: #000; }
+.home-video-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+.home-video:hover .home-video-thumb img { transform: scale(1.08); }
+.home-video-thumb i { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; color: rgba(255,255,255,0.9); text-shadow: 0 2px 10px rgba(0,0,0,0.6); }
+
+/* ---------- 첫 화면 히어로: 라운드 칩 · 보조 버튼 · 텔레메트리 HUD ---------- */
+.hero-round-chip:empty { display: none; }
+.hero-round-chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 0.75rem; font-weight: 800; letter-spacing: 2px; color: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.25); border-radius: 4px; padding: 2px 8px; background: rgba(0,0,0,0.3);
+}
+.hero-round-chip img { width: 20px; height: 13px; object-fit: cover; border-radius: 2px; }
+.hero-btn-ghost { border-width: 2px; backdrop-filter: blur(6px); background: rgba(255,255,255,0.04); }
+.hero-btn-ghost:hover { background: #fff; color: #111 !important; }
+
+.hero-hud {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 980px;
+    background: rgba(15, 15, 19, 0.55); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.1); border-left: 3px solid var(--f1-red); border-radius: 6px;
+    animation: hud-in 0.9s 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes hud-in { from { opacity: 0; transform: translateY(16px); } }
+.hud-cell { padding: 14px 18px; min-width: 0; }
+.hud-cell + .hud-cell { border-left: 1px solid rgba(255,255,255,0.08); }
+.hud-label { font-size: 0.7rem; letter-spacing: 1.5px; color: rgba(255,255,255,0.55); font-weight: 700; text-transform: uppercase; white-space: nowrap; }
+.hud-label i { color: var(--f1-red); margin-right: 6px; }
+.hud-value { font-size: 1.35rem; font-weight: 900; color: #fff; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 8px; }
+.hud-value img { height: 22px; max-width: 40px; object-fit: contain; }
+.hud-mono { font-variant-numeric: tabular-nums; font-style: italic; letter-spacing: 1px; }
+.hud-sub { font-size: 0.75rem; color: rgba(255,255,255,0.55); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hud-progress { height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+.hud-progress i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #e10600, #ff5a4f); box-shadow: 0 0 10px #e10600; transition: width 1.4s cubic-bezier(0.16, 1, 0.3, 1); }
+.hud-live { color: #ff4d4d; animation: gp-live-pulse 1.4s ease-in-out infinite; border-radius: 4px; }
+
+@media (max-width: 992px) {
+    .hero-hud { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .hud-cell:nth-child(3) { border-left: 0; }
+    .hud-cell:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,0.08); }
+}
+@media (max-width: 768px) {
+    .hero-hud { text-align: left; margin-left: auto; margin-right: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .hero-hud, .hud-live { animation: none; }
+}
+@media (max-width: 576px) {
+    .hud-cell { padding: 12px 12px; }
+    .hud-value { font-size: 1.1rem; gap: 6px; }
+    .hud-value img { height: 18px; }
+}
+
+/* 생중계 시청 버튼 (세션 진행 중 · 시작 30분 전) */
+.hero-watch:empty { display: none; }
+.hero-watch { max-width: 980px; margin: 4px 0 12px; animation: hud-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.watch-head { font-size: 0.9rem; color: rgba(255,255,255,0.85); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+.watch-head b { letter-spacing: 2px; }
+.watch-head.is-live b { color: #ff3b30; }
+.watch-live-dot { width: 10px; height: 10px; border-radius: 50%; background: #ff3b30; box-shadow: 0 0 0 0 rgba(255,59,48,0.7); animation: watch-ping 1.4s infinite; }
+@keyframes watch-ping { 70% { box-shadow: 0 0 0 10px rgba(255,59,48,0); } 100% { box-shadow: 0 0 0 0 rgba(255,59,48,0); } }
+.watch-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.watch-btn {
+    display: flex; align-items: center; gap: 12px; padding: 10px 16px; min-width: 220px;
+    color: #fff; text-decoration: none; border-radius: 6px;
+    background: rgba(15,15,19,0.6); border: 1px solid rgba(255,255,255,0.15); backdrop-filter: blur(10px);
+    transition: transform 0.2s, background 0.2s, border-color 0.2s;
+}
+.watch-btn:hover { color: #fff; transform: translateY(-2px); border-color: rgba(255,255,255,0.4); background: rgba(40,40,46,0.7); }
+.watch-btn > i:first-child { font-size: 1.2rem; width: 22px; text-align: center; }
+.watch-btn span { display: flex; flex-direction: column; line-height: 1.2; flex-grow: 1; }
+.watch-btn small { font-size: 0.72rem; color: rgba(255,255,255,0.6); }
+.watch-btn .ext { font-size: 0.75rem; opacity: 0.5; }
+.watch-btn.main { background: #e10600; border-color: #e10600; box-shadow: 0 0 24px rgba(225,6,0,0.45); }
+.watch-btn.main:hover { background: #ff1a10; }
+.watch-btn.main small { color: rgba(255,255,255,0.85); }
+.gp-watch {
+    display: block; margin-top: 8px; text-align: center; padding: 9px; border-radius: 8px;
+    background: #e10600; color: #fff; font-weight: 800; text-decoration: none; font-size: 0.9rem;
+}
+.gp-watch:hover { background: #ff1a10; color: #fff; }
+@media (max-width: 576px) { .watch-btn { min-width: 0; flex: 1 1 100%; } }
+@media (prefers-reduced-motion: reduce) { .hero-watch, .watch-live-dot { animation: none; } }

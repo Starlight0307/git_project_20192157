@@ -154,6 +154,30 @@
             gap: 5px;
             font-family: 'Noto Sans KR', sans-serif;
         }
+        /* 번역 제목 아래 영어 원문 제목 */
+        .news-original {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.35);
+            margin: -8px 0 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        /* 사진이 없거나 깨졌을 때 */
+        .news-img-empty {
+            background: #16161b url('img/favicon.svg') no-repeat center / 64px;
+            opacity: 0.25;
+        }
+        /* 경기 리포트: 위키백과 서킷 지도(흰 바탕 그림)는 잘리지 않게 */
+        .news-img.news-img-map { object-fit: contain; background: #f2f2f4; padding: 14px; }
+        /* 탭 위 출처·업데이트 시각 */
+        .news-source-line {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.45);
+            font-family: 'Noto Sans KR', sans-serif;
+            margin-bottom: -8px;
+        }
+        .news-source-line a { color: rgba(255,255,255,0.75); }
 
         .loading-spinner {
             text-align: center;
@@ -183,6 +207,9 @@
                     <button class="nav-link active" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button" role="tab">최신 소식</button>
                 </li>
                 <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="report-tab" data-bs-toggle="tab" data-bs-target="#report" type="button" role="tab">경기 리포트</button>
+                </li>
+                <li class="nav-item" role="presentation">
                     <button class="nav-link" id="tech-tab" data-bs-toggle="tab" data-bs-target="#tech" type="button" role="tab">테크 토크</button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -198,6 +225,12 @@
                 <div class="tab-pane fade show active" id="latest" role="tabpanel">
                     <div class="row g-4" id="latest-news-container">
                         <div class="col-12 loading-spinner"><i class="fa-solid fa-circle-notch fa-spin fs-2"></i><p class="mt-3 font-noto">실시간 최신 소식을 불러오는 중입니다...</p></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="report" role="tabpanel">
+                    <div class="row g-4" id="report-news-container">
+                        <div class="col-12 loading-spinner"><i class="fa-solid fa-circle-notch fa-spin fs-2"></i><p class="mt-3 font-noto">그랑프리 경기 리포트를 불러오는 중입니다...</p></div>
                     </div>
                 </div>
 

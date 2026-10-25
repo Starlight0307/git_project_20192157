@@ -13,7 +13,7 @@
         "순위/데이터": "Standings", "드라이버 순위": "Driver Standings", "팀 순위": "Team Standings",
         "통계 대시보드": "Stats Dashboard", "역대 기록": "History",
         "드라이버/팀": "Drivers", "드라이버 목록": "Drivers", "팀 목록": "Teams",
-        "뉴스/분석": "News", "최신 소식": "Latest", "테크 토크": "Tech Talk",
+        "뉴스/분석": "News", "최신 소식": "Latest", "경기 리포트": "Race Report", "테크 토크": "Tech Talk",
         "칼럼/블로그": "Column / Blog", "영상 뉴스": "Video News",
         "F1 굿즈 샵": "F1 Store", "공식 굿즈": "Official Store", "팀 상품": "Team Goods",
         "드라이버 컬렉션": "Driver Collection", "한정판/세일": "Limited / Sale", "한정판 / 세일": "Limited / Sale",

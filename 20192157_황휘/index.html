@@ -26,6 +26,7 @@
                 <div class="d-flex align-items-center mb-3" id="live-status-container">
                     <span id="live-badge" class="badge bg-danger me-2 px-2 py-1"><i class="fa-regular fa-clock me-1"></i>다가오는 경기</span>
                     <h2 class="text-white fw-bold mb-0 tracking-widest text-uppercase" style="font-size: 0.9rem;" id="hero-sub-title">일정 확인 중...</h2>
+                    <span class="hero-round-chip ms-3" id="hero-round"></span>
                 </div>
                 
                 <h1 class="display-1 fw-black text-white main-title">
@@ -42,6 +43,36 @@
                     <a href="#detailed-dashboard" class="btn btn-danger btn-lg rounded-0 me-3 mb-3 px-4 py-3 fw-bold text-decoration-none">
                         대시보드 보기 <i class="fa-solid fa-arrow-down ms-2"></i>
                     </a>
+                    <a href="news.html#report" class="btn btn-outline-light btn-lg rounded-0 me-3 mb-3 px-4 py-3 fw-bold text-decoration-none hero-btn-ghost">
+                        경기 리포트 <i class="fa-solid fa-flag-checkered ms-2"></i>
+                    </a>
+                </div>
+
+                <!-- 세션 생중계 중(또는 30분 안에 시작)일 때만 home.js가 시청 버튼을 채움 -->
+                <div class="hero-watch" id="hero-watch"></div>
+
+                <!-- 텔레메트리 HUD: 시즌 진행 · 다음 세션까지 · 서킷 날씨 · 챔피언십 1위 (home.js가 채움) -->
+                <div class="hero-hud mt-3" id="hero-hud">
+                    <div class="hud-cell">
+                        <div class="hud-label"><i class="fa-solid fa-flag-checkered"></i>시즌 진행</div>
+                        <div class="hud-value" id="hud-season">-</div>
+                        <div class="hud-progress"><i id="hud-season-bar"></i></div>
+                    </div>
+                    <div class="hud-cell">
+                        <div class="hud-label"><i class="fa-solid fa-stopwatch"></i><span id="hud-countdown-label">다음 세션까지</span></div>
+                        <div class="hud-value hud-mono" id="hud-countdown">-</div>
+                        <div class="hud-sub" id="hud-countdown-sub"></div>
+                    </div>
+                    <div class="hud-cell">
+                        <div class="hud-label"><i class="fa-solid fa-temperature-half"></i>서킷 날씨</div>
+                        <div class="hud-value" id="hud-weather">-</div>
+                        <div class="hud-sub" id="hud-weather-sub"></div>
+                    </div>
+                    <div class="hud-cell">
+                        <div class="hud-label"><i class="fa-solid fa-crown"></i>챔피언십 1위</div>
+                        <div class="hud-value" id="hud-leader">-</div>
+                        <div class="hud-sub" id="hud-leader-sub"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,39 +82,33 @@
         <div class="container">
             <div class="row g-4 floating-cards">
                 <div class="col-md-4">
-                    <div class="feature-card glass-card text-white p-5 h-100">
-                        <span class="small-title text-danger"><i class="fa-solid fa-flag-checkered me-2"></i>다음 그랑프리</span>
-                        <div class="mt-3 mb-4">
+                    <div class="feature-card glass-card showcase-card gp-card text-white p-5 h-100" id="gp-card">
+                        <span class="small-title text-danger position-relative"><i class="fa-solid fa-flag-checkered me-2"></i>다음 그랑프리</span>
+                        <div class="mt-3 mb-4 position-relative" id="gp-card-body">
                             <p class="fs-3 fw-black mb-1 text-uppercase" id="race-name">데이터 로딩 중...</p>
-                            <p class="opacity-75 font-noto" id="race-date">일정 확인 중...</p>
+                            <p class="opacity-75 font-noto mb-0">일정 확인 중...</p>
                         </div>
-                        <a href="schedule.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link">전체 일정 보기 <i class="fa-solid fa-angle-right ms-1"></i></a>
+                        <a href="schedule.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link position-relative">전체 일정 보기 <i class="fa-solid fa-angle-right ms-1"></i></a>
                     </div>
                 </div>
                 
                 <div class="col-md-4">
-                    <div class="feature-card glass-card text-white p-5 h-100">
-                        <span class="small-title text-danger"><i class="fa-solid fa-trophy me-2"></i>드라이버 챔피언십</span>
-                        <div class="mt-3 mb-4" id="driver-list">
-                            <div class="d-flex justify-content-between align-items-center mb-2 pb-2 border-bottom border-secondary">
-                                <span><span class="text-danger fw-bold me-2">1위</span><span id="driver-1" class="fw-bold fs-5">데이터 로딩 중...</span></span>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span><span class="text-secondary fw-bold me-2">2위</span><span id="driver-2" class="fw-bold fs-5">데이터 로딩 중...</span></span>
-                            </div>
+                    <div class="feature-card glass-card showcase-card driver-card text-white p-5 h-100" id="driver-card">
+                        <span class="small-title text-danger position-relative"><i class="fa-solid fa-trophy me-2"></i>드라이버 챔피언십</span>
+                        <div class="mt-3 mb-4 position-relative" id="driver-list">
+                            <p class="opacity-75 font-noto mb-0">데이터 로딩 중...</p>
                         </div>
-                        <a href="driver_standings.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link">전체 순위 보기 <i class="fa-solid fa-angle-right ms-1"></i></a>
+                        <a href="driver_standings.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link position-relative">전체 순위 보기 <i class="fa-solid fa-angle-right ms-1"></i></a>
                     </div>
                 </div>
                 
                 <div class="col-md-4">
-                    <div class="feature-card glass-card text-white p-5 h-100">
-                        <span class="small-title text-danger"><i class="fa-solid fa-users-gear me-2"></i>컨스트럭터 챔피언십</span>
-                        <div class="mt-3 mb-4">
-                            <p class="fs-3 fw-black mb-1 text-uppercase" id="top-team">데이터 로딩 중...</p>
-                            <p class="text-white-50 small font-noto">현재 1위 팀</p>
+                    <div class="feature-card glass-card showcase-card constructor-card text-white p-5 h-100" id="constructor-card">
+                        <span class="small-title text-danger position-relative"><i class="fa-solid fa-users-gear me-2"></i>컨스트럭터 챔피언십</span>
+                        <div class="mt-3 mb-4 position-relative" id="top-team">
+                            <p class="opacity-75 font-noto mb-0">데이터 로딩 중...</p>
                         </div>
-                        <a href="team_standings.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link">팀 상세 정보 <i class="fa-solid fa-angle-right ms-1"></i></a>
+                        <a href="team_standings.html" class="text-white text-decoration-none fw-bold mt-auto d-inline-block custom-link position-relative">팀 상세 정보 <i class="fa-solid fa-angle-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -103,17 +128,19 @@
 
             <div class="col-lg-4">
                 <div class="d-flex align-items-center justify-content-between mb-4 border-bottom border-danger pb-2">
-                    <h3 class="fw-black m-0 text-white"><i class="fa-solid fa-trophy me-2 text-danger"></i>드라이버 순위 TOP 5</h3>
+                    <h3 class="fw-black m-0 text-white"><i class="fa-solid fa-flag-checkered me-2 text-danger"></i>경기 리포트</h3>
+                    <a href="news.html#report" class="text-white-50 text-decoration-none small font-noto">더보기 +</a>
                 </div>
-                <div id="detailed-drivers" class="d-flex flex-column gap-2">
+                <div id="home-reports" class="d-flex flex-column gap-3 font-noto">
                     </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="d-flex align-items-center justify-content-between mb-4 border-bottom border-danger pb-2">
-                    <h3 class="fw-black m-0 text-white"><i class="fa-solid fa-car-side me-2 text-danger"></i>팀 순위 TOP 5</h3>
+                    <h3 class="fw-black m-0 text-white"><i class="fa-brands fa-youtube me-2 text-danger"></i>최신 하이라이트</h3>
+                    <a href="news.html#video" class="text-white-50 text-decoration-none small font-noto">더보기 +</a>
                 </div>
-                <div id="detailed-constructors" class="d-flex flex-column gap-2">
+                <div id="home-videos" class="d-flex flex-column gap-3 font-noto">
                     </div>
             </div>
         </div>

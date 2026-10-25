@@ -2,30 +2,10 @@
 // 서브 페이지: 실시간 뉴스 및 분석 (news.js)
 // ----------------------------------------------------
 
-const RSS2JSON_API = "https://api.rss2json.com/v1/api.json?rss_url=";
-
-const FEED_URLS = {
-    latest: "https://www.motorsport.com/rss/f1/news/", // Motorsport.com (최신 소식)
-    tech: "https://the-race.com/category/formula-1/feed/", // The Race (테크 전문)
-    column: "https://www.autosport.com/rss/f1/news/", // Autosport (칼럼/블로그 대용)
-    video: "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg" // 공식 유튜브
-};
-
+// 뉴스는 data/news.json에서 읽는다 (loadNewsData — common.js). 탭마다 출처가 다르다:
+//   최신 소식 = Motorsport.com · 경기 리포트 = 위키백과 그랑프리 문서(전문 번역, CC BY-SA)
+//   테크 토크 = The Race · 칼럼 = RaceFans 'Comment' · 영상 = F1 공식 유튜브
 const loadedTabs = {};
-async function translateToKorean(text) {
-    if (!text) return "";
-    const cleanText = text.replace(/<[^>]+>/g, "").trim(); 
-    if (cleanText.length === 0) return "";
-    
-    try {
-        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${encodeURIComponent(cleanText)}`;
-        const res = await fetch(url);
-        const data = await res.json();
-        return data[0].map(item => item[0]).join(" ");
-    } catch (e) {
-        return cleanText; 
-    }
-}
 
 document.addEventListener('DOMContentLoaded', () => {
     
@@ -51,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (loadedTabs[targetHash]) return;
 
-        fetchRealTimeNews(FEED_URLS[targetHash.replace('#', '')], containerId, badgeName, isVideo);
         loadedTabs[targetHash] = true;
+        renderNewsTab(targetHash.replace('#', ''), containerId, badgeName, isVideo);
     };
 
     const initialHash = window.location.hash || '#latest';
@@ -98,8 +78,9 @@ function updateHeroText(targetId) {
     const subtitle = document.getElementById('hero-subtitle');
     const textMap = {
         '#latest': ['최신 <span class="text-danger">소식</span>', 'Motorsport.com의 실시간 F1 소식입니다.'],
-        '#tech': ['테크 <span class="text-danger">토크</span>', 'The Race의 심층 기술 분석을 전해드립니다.'],
-        '#column': ['칼럼 / <span class="text-danger">블로그</span>', 'Autosport가 전하는 패독 안팎의 깊은 시선.'],
+        '#report': ['경기 <span class="text-danger">리포트</span>', '위키백과 그랑프리 문서를 한국어로 옮긴 경기 리포트 전문입니다.'],
+        '#tech': ['테크 <span class="text-danger">토크</span>', 'The Race의 심층 분석과 기술 이야기를 전해드립니다.'],
+        '#column': ['칼럼 / <span class="text-danger">블로그</span>', 'RaceFans 칼럼이 전하는 패독 안팎의 깊은 시선.'],
         '#video': ['영상 <span class="text-danger">뉴스</span>', 'F1 공식 채널의 최신 비디오를 시청하세요.']
     };
     if (textMap[targetId]) {
@@ -108,104 +89,54 @@ function updateHeroText(targetId) {
     }
 }
 
-async function fetchRealTimeNews(rssUrl, containerId, badgeText, isVideo) {
+async function renderNewsTab(key, containerId, badgeText, isVideo) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
+    let tab;
     try {
-        const response = await fetch(RSS2JSON_API + encodeURIComponent(rssUrl));
-        const data = await response.json();
-
-        if (data.status === "ok") {
-            container.innerHTML = ''; 
-            const items = data.items.slice(0, 6); 
-
-            for (let index = 0; index < items.length; index++) {
-                const item = items[index];
-                const uniqueImgId = `img-${containerId}-${index}`;
-                const spinnerId = `spinner-${containerId}-${index}`;
-                
-                let imageUrl = "";
-                if (isVideo && item.link) {
-                    const videoIdMatch = item.link.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([^&?]+)/);
-                    if (videoIdMatch && videoIdMatch[1]) {
-                        imageUrl = `https://img.youtube.com/vi/${videoIdMatch[1]}/maxresdefault.jpg`;
-                    }
-                } 
-
-                if (!imageUrl) imageUrl = item.thumbnail || (item.enclosure && item.enclosure.link);
-                if (!imageUrl && (item.description || item.content)) {
-                    const match = (item.description || item.content).match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i);
-                    if (match && match[1]) imageUrl = match[1];
-                }
-
-                if (!imageUrl || imageUrl.trim() === "") imageUrl = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="; 
-
-                const pubDate = new Date(item.pubDate.replace(' ', 'T'));
-                let dateStr = `${pubDate.getFullYear()}년 ${pubDate.getMonth() + 1}월 ${pubDate.getDate()}일`;
-
-                let finalTitle = item.title;
-                if(!isVideo && finalTitle.includes(" - ")) finalTitle = finalTitle.split(" - ")[0];
-                
-                // 🔥 실시간 번역
-                let translatedTitle = isVideo ? finalTitle : await translateToKorean(finalTitle);
-                let cleanDesc = item.description.replace(/<[^>]+>/g, "").substring(0, 150);
-                let translatedDesc = isVideo ? "F1 공식 유튜브 채널의 최신 업데이트 영상입니다." : await translateToKorean(cleanDesc);
-
-                const actionText = isVideo ? "유튜브에서 시청하기" : "기사 전문 읽기";
-                const actionIcon = isVideo ? "fa-youtube" : "fa-arrow-right-long";
-
-                const cardHtml = `
-                    <div class="col-md-6 col-lg-4">
-                        <a href="${item.link}" target="_blank" class="news-card">
-                            <div class="news-img-wrapper" style="background-color: #111115;">
-                                <span class="news-category-badge">${badgeText}</span>
-                                ${isVideo ? '<div class="video-play-overlay"><i class="fa-solid fa-circle-play"></i></div>' : ''}
-                                ${imageUrl.startsWith('data:') ? `<div id="${spinnerId}" class="position-absolute top-50 start-50 translate-middle"><i class="fa-solid fa-spinner fa-spin text-white-50 fs-3"></i></div>` : ''}
-                                <img src="${imageUrl}" id="${uniqueImgId}" class="news-img" style="${imageUrl.startsWith('data:') ? 'display: none;' : ''}">
-                            </div>
-                            <div class="news-content">
-                                <div class="news-date"><i class="fa-regular fa-clock me-1"></i> ${dateStr}</div>
-                                <h3 class="news-title">${translatedTitle}</h3>
-                                <p class="news-desc">${translatedDesc}...</p>
-                                <div class="news-read-more text-danger">${actionText} <i class="${isVideo ? 'fa-brands' : 'fa-solid'} ${actionIcon} ms-1"></i></div>
-                            </div>
-                        </a>
-                    </div>
-                `;
-                container.insertAdjacentHTML('beforeend', cardHtml);
-
-                if (!isVideo && imageUrl.startsWith('data:')) {
-                    scrapeOriginalImage(item.link, uniqueImgId, spinnerId);
-                }
-            }
-        }
+        const data = await loadNewsData();
+        tab = data.tabs[key];
+        if (!tab || !tab.items || tab.items.length === 0) throw new Error("기사 없음");
+        tab.updated = data.updated;
     } catch (error) {
-        container.innerHTML = `<div class="col-12 text-center py-5"><p class="text-white-50">데이터를 불러오는 데 실패했습니다.</p></div>`;
+        loadedTabs['#' + key] = false;  // 다음에 탭을 다시 누르면 재시도
+        container.innerHTML = `<div class="col-12 text-center py-5"><p class="text-white-50 mb-3">뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>
+            <button class="btn btn-outline-danger btn-sm" onclick="loadedTabs['#${key}']=true; renderNewsTab('${key}','${containerId}','${badgeText}',${isVideo})">다시 시도</button></div>`;
+        return;
     }
-}
 
-async function scrapeOriginalImage(articleUrl, imgId, spinnerId) {
-    try {
-        const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(articleUrl)}`);
-        const data = await response.json();
-        const html = data.contents;
-        let imgSrc = null;
-        const match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || 
-                      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-        if (match) imgSrc = match[1];
+    const actionText = isVideo ? "영상 보기" : key === "report" ? "리포트 전문 읽기" : "번역 기사 읽기";
+    const actionIcon = isVideo ? "fa-solid fa-circle-play" : "fa-solid fa-arrow-right-long";
+    const cards = tab.items.map(item => {
+        const title = escapeHtml(item.titleKo || item.title);
+        const desc = isVideo ? "F1 공식 유튜브 채널의 최신 영상입니다." : escapeHtml(item.descKo || item.desc);
+        const original = item.titleKo ? `<p class="news-original">${escapeHtml(item.title)}</p>` : "";
+        const img = item.image
+            ? `<img src="${escapeHtml(item.image)}" class="news-img${key === "report" ? " news-img-map" : ""}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'news-img news-img-empty'}))">`
+            : `<div class="news-img news-img-empty"></div>`;
+        return `
+            <div class="col-md-6 col-lg-4">
+                <a href="article.html?tab=${key}&id=${item.id}" class="news-card">
+                    <div class="news-img-wrapper" style="background-color: #111115;">
+                        <span class="news-category-badge">${badgeText}</span>
+                        ${isVideo ? '<div class="video-play-overlay"><i class="fa-solid fa-circle-play"></i></div>' : ''}
+                        ${img}
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date"><i class="fa-regular fa-clock me-1"></i> ${timeAgo(item.date)} · ${escapeHtml(tab.source)}</div>
+                        <h3 class="news-title">${title}</h3>
+                        ${original}
+                        <p class="news-desc">${desc}</p>
+                        <div class="news-read-more text-danger">${actionText} <i class="${actionIcon} ms-1"></i></div>
+                    </div>
+                </a>
+            </div>`;
+    }).join('');
 
-        const imgEl = document.getElementById(imgId);
-        const spinnerEl = document.getElementById(spinnerId);
-        if (imgSrc && imgEl) {
-            imgEl.src = imgSrc.startsWith('//') ? 'https:' + imgSrc : imgSrc;
-            imgEl.style.display = 'block';
-        } else if (imgEl) {
-            imgEl.src = "https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg";
-            imgEl.style.opacity = "0.05"; imgEl.style.display = 'block'; imgEl.style.padding = "40px";
-        }
-        if(spinnerEl) spinnerEl.remove();
-    } catch (e) {
-        if(document.getElementById(spinnerId)) document.getElementById(spinnerId).remove();
-    }
+    container.innerHTML = `
+        <div class="col-12 news-source-line">
+            <i class="fa-solid fa-rss me-1 text-danger"></i> 출처 <a href="${escapeHtml(tab.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(tab.source)}</a>
+            · ${tab.license ? `전문 자동 번역 · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">${escapeHtml(tab.license)}</a>` : "제목과 요약은 자동 번역"} · 업데이트 ${timeAgo(tab.updated)}
+        </div>` + cards;
 }
