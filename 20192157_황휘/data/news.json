@@ -1,8 +1,6 @@
 {
- "updated": "2026-10-26T06:18:10+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-10-26T14:19:38+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -20,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-10-26T05:31:18Z",
+     "date": "2026-10-26T09:23:41Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1382041274,
+     "revid": 1382058601,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -151,10 +149,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Marina_Bay_circuit_2023.svg/1280px-Marina_Bay_circuit_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Marina_Bay_circuit_2023.svg",
-     "date": "2026-10-26T00:30:37Z",
+     "date": "2026-10-26T09:06:54Z",
      "raceDate": "2026-10-11",
      "author": "위키백과 편집자들",
-     "revid": 1382003212,
+     "revid": 1382057218,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1844,13 +1842,162 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Why Monza win from 19th still isn't the best of Kimi Antonelli's dominant F1 2026 season",
+     "desc": "Kimi Antonelli pulled off a sensational victory from 19th at the Italian Grand Prix, but Formula 1’s champion-elect reckons his dominant performance from pole in Austin was even…",
+     "link": "https://www.motorsport.com/f1/news/why-monza-win-from-19th-still-isnt-the-best-of-kimi-antonellis-dominant-f1-2026-season/10868448/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/YN7vZqm6/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "date": "2026-10-26T13:29:54+00:00",
+     "author": "",
+     "id": "5732f506e3",
+     "lead": [
+      "Kimi Antonelli pulled off a sensational victory from 19th at the Italian Grand Prix, but Formula 1’s champion-elect reckons his dominant performance from pole in Austin was even better.",
+      "The Mercedes driver was forced into a back row start at Monza in September due to a change of power unit, yet the rapid Italian still scythed through the field to take victory.",
+      "That gave Antonelli his seventh win of a dominant 2026 campaign, with his eighth coming at the next race in Madrid before waiting until October to take his ninth at Circuit of the Americas."
+     ],
+     "leadKo": [
+      "키미 안토넬리(Kimi Antonelli)는 이탈리아 그랑프리에서 19위부터 놀라운 승리를 거두었지만, 포뮬러 1의 챔피언 당선자는 오스틴에서의 폴에서의 그의 지배적인 퍼포먼스가 훨씬 더 좋았다고 생각합니다.",
+      "Mercedes 드라이버는 동력 장치 변경으로 인해 9월 Monza에서 뒷줄 출발을 강요받았지만, 빠른 이탈리아인은 여전히 ​​필드를 가르며 승리를 거두었습니다.",
+      "이로 인해 Antonelli는 지배적인 2026년 캠페인에서 7번째 우승을 거두었고, 마드리드에서 열리는 다음 레이스에서 8번째 우승을 차지한 후 10월까지 기다려 Circuit of the Americas에서 9번째 우승을 차지했습니다."
+     ],
+     "titleKo": "Monza가 19위부터 승리한 것이 Kimi Antonelli의 지배적인 F1 2026 시즌 중 최고가 아닌 이유",
+     "descKo": "키미 안토넬리(Kimi Antonelli)는 이탈리아 그랑프리에서 19위부터 놀라운 승리를 거두었지만, 포뮬러 1의 챔피언 당선자는 오스틴에서 폴에서 보여준 그의 지배적인 활약이 심지어…"
+    },
+    {
+     "title": "Mercedes pokes fun at Kimi Antonelli after awkward Austin mishap",
+     "desc": "Mercedes has poked fun at Kimi Antonelli's awkward reversing mishap in Austin, sharing in-car footage of the moment on its TikTok account with the caption, \"Championship leader…",
+     "link": "https://www.motorsport.com/f1/news/mercedes-pokes-fun-at-kimi-antonelli-after-awkward-austin-mishap/10868627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YWKA1geY/s6/motorsport-com-graphics-16.jpg",
+     "date": "2026-10-26T12:39:00+00:00",
+     "author": "",
+     "id": "2dd8301474",
+     "lead": [
+      "Mercedes has poked fun at Kimi Antonelli's awkward reversing mishap in Austin, sharing in-car footage of the moment on its TikTok account with the caption, \"Championship leader BTW.\"",
+      "The short clip shows the 20-year-old at the wheel of a Mercedes-AMG GT 4-Door Coupé. As he backed up the electric vehicle, he misjudged the space and made contact with the wooden fencing behind him.",
+      "The video, which shows Antonelli and his team-mate George Russell's immediate reactions, had already been viewed over 9 million times and received more than 1.3 million likes at the time of writing."
+     ],
+     "leadKo": [
+      "메르세데스는 오스틴에서 발생한 키미 안토넬리(Kimi Antonelli)의 어색한 후진 사고를 비웃으며 그 순간의 차량 내 영상을 TikTok 계정에 \"챔피언십 리더 BTW\"라는 캡션과 함께 공유했습니다.",
+      "짧은 영상에는 Mercedes-AMG GT 4-Door Coupé를 운전하는 20세의 남자의 모습이 담겨 있습니다. 전기차를 후진하다 공간을 잘못 판단해 뒤에 있는 나무펜스와 접촉했다.",
+      "안토넬리와 그의 팀 동료 조지 러셀의 즉각적인 반응을 보여주는 이 영상은 글을 쓰는 시점에 이미 900만 회 이상 조회되었으며 130만 개 이상의 좋아요를 받았습니다."
+     ],
+     "titleKo": "Mercedes는 어색한 오스틴 사고 이후 Kimi Antonelli를 조롱했습니다.",
+     "descKo": "메르세데스는 오스틴에서 발생한 키미 안토넬리(Kimi Antonelli)의 어색한 후진 사고를 조롱하며 그 순간의 차량 내 영상을 틱톡 계정에 공유하며 \"챔피언십 리더…"
+    },
+    {
+     "title": "Franco Colapinto responds to Jeremy Clarkson’s controversial comment about him",
+     "desc": "Franco Colapinto has responded to Jeremy Clarkson’s comment that he would give the Alpine Formula 1 driver a grid penalty for being Argentinian. Clarkson was a guest of Alpine’s…",
+     "link": "https://www.motorsport.com/f1/news/franco-colapinto-responds-to-jeremy-clarksons-controversial-comment-about-him/10868562/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/6VyKX7dY/s6/franco-colapinto-alpine.jpg",
+     "date": "2026-10-26T11:35:03+00:00",
+     "author": "",
+     "id": "7c66279d1f",
+     "lead": [
+      "Franco Colapinto has responded to Jeremy Clarkson’s comment that he would give the Alpine Formula 1 driver a grid penalty for being Argentinian.",
+      "Clarkson was a guest of Alpine’s at the United States Grand Prix and gave an interview to Sky Sports F1 on Saturday, in which he joked: “Franco’s got a grid penalty for being Argentinian. Probably. Well, I’d give him one for that. But anyway, that’s just because of what happened when we went there.”",
+      "Clarkson was referring to Colapinto’s actual grid penalty for exceeding his power unit parts quota and, most likely, to his Top Gear show’s 2014 Patagonia special. At the time, tensions emerged due to a contentious license plate that Argentinian protesters interpreted as a reference to the Falklands War, cutting the filming short."
+     ],
+     "leadKo": [
+      "Franco Colapinto는 Alpine Formula 1 드라이버에게 아르헨티나 출신이라는 이유로 그리드 페널티를 주겠다는 Jeremy Clarkson의 발언에 응답했습니다.",
+      "클락슨은 미국 그랑프리 알파인스의 게스트였으며 토요일 스카이 스포츠 F1과의 인터뷰에서 \"프랑코는 아르헨티나인이라는 이유로 그리드 페널티를 받았을 것입니다. 아마도 그에게 하나를 줄 것입니다. 하지만 어쨌든 그것은 우리가 그곳에 갔을 때 일어난 일 때문입니다.\"라고 농담했습니다.",
+      "Clarkson은 자신의 동력 장치 부품 할당량을 초과한 것에 대한 Colapinto의 실제 그리드 페널티를 언급했으며 아마도 그의 Top Gear 쇼의 2014 Patagonia 스페셜을 언급했을 가능성이 높습니다. 당시 아르헨티나 시위대가 포클랜드 전쟁에 대한 언급으로 해석한 논란의 여지가 있는 번호판으로 인해 긴장감이 고조되어 촬영이 중단되었습니다."
+     ],
+     "titleKo": "Franco Colapinto는 Jeremy Clarkson의 논란의 여지가 있는 자신에 대한 발언에 응답합니다.",
+     "descKo": "Franco Colapinto는 Alpine Formula 1 드라이버에게 아르헨티나 출신이라는 이유로 그리드 페널티를 주겠다는 Jeremy Clarkson의 발언에 응답했습니다. Clarkson은 Alpine 's의 손님이었습니다…"
+    },
+    {
+     "title": "Juan Pablo Montoya questions George Russell's F1 United States GP penalty",
+     "desc": "Former Formula 1 driver Juan Pablo Montoya was \"surprised\" by George Russell's penalty at the United States Grand Prix, claiming the Mercedes driver did not gain an advantage from…",
+     "link": "https://www.motorsport.com/f1/news/juan-pablo-montoya-questions-george-russells-f1-united-states-gp-penalty/10868603/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/6lmANE80/s6/motorsport-com-graphics-15.jpg",
+     "date": "2026-10-26T11:25:23+00:00",
+     "author": "",
+     "id": "cd0af82130",
+     "lead": [
+      "Former Formula 1 driver Juan Pablo Montoya was \"surprised\" by George Russell's penalty at the United States Grand Prix, claiming the Mercedes driver did not gain an advantage from the incident.",
+      "Russell was handed a five-second penalty for leaving the track at Turn 12 and rejoining ahead of McLaren's Oscar Piastri on the opening lap at the Circuit of the Americas. He went on to finish eighth, while his Mercedes team-mate Kimi Antonelli won the race.",
+      "Speaking on F1 TV's post-race show in Austin, Montoya argued that Russell's move did not result in an advantage."
+     ],
+     "leadKo": [
+      "전 포뮬러 1 드라이버 후안 파블로 몬토야(Juan Pablo Montoya)는 미국 그랑프리에서 조지 러셀(George Russell)의 페널티킥에 \"놀랐다\"며 메르세데스 드라이버가 이 사건으로 이득을 얻지 못했다고 주장했습니다.",
+      "Russell은 Turn 12에서 트랙을 떠났다가 Circuit of the Americas의 오프닝 랩에서 McLaren의 Oscar Piastri보다 앞서 다시 합류한 것에 대해 5초의 페널티를 받았습니다. 그는 계속해서 8위를 차지했고, 그의 Mercedes 팀 동료인 Kimi Antonelli가 경주에서 우승했습니다.",
+      "오스틴에서 열린 F1 TV의 경주 후 쇼에서 Montoya는 Russell의 움직임이 이점을 가져오지 못했다고 주장했습니다."
+     ],
+     "titleKo": "Juan Pablo Montoya는 George Russell의 F1 United States GP 페널티에 대해 질문합니다.",
+     "descKo": "전 F1 드라이버 후안 파블로 몬토야(Juan Pablo Montoya)는 미국 그랑프리에서 조지 러셀(George Russell)의 페널티킥에 \"놀랐다\"며 메르세데스 드라이버가 이점을 얻지 못했다고 주장했습니다."
+    },
+    {
+     "title": "Who slept worst last night: Lando Norris",
+     "desc": "Amid all the admiration for Kimi Antonelli, whose world championship celebrations in Austin on Sunday evening had to be put on ice until Mexico, one rather significant development…",
+     "link": "https://www.motorsport.com/f1/news/who-slept-worst-last-night-lando-norris-10868577/10868577/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/6b8ZgVp2/s6/lando-norris-mclaren.jpg",
+     "date": "2026-10-26T10:40:11+00:00",
+     "author": "",
+     "id": "ba5ab40da5",
+     "lead": [
+      "Amid all the admiration for Kimi Antonelli, whose world championship celebrations in Austin on Sunday evening had to be put on ice until Mexico, one rather significant development in the 2026 Formula 1 season almost slipped under the radar: the first major verdict has been delivered.",
+      "George Russell and Lewis Hamilton may still be in the title race, at least mathematically. But one driver has officially been eliminated.",
+      "After 18 of the 23 scheduled Grands Prix, Lando Norris trails Antonelli, the champion-in-waiting beyond any reasonable doubt, by 154 points. Yet with Mexico, Brazil, Las Vegas, Qatar and Abu Dhabi still to come, there are only 125 points left on the table for any individual driver."
+     ],
+     "leadKo": [
+      "일요일 저녁 오스틴에서 열린 세계 선수권 축하 행사가 멕시코까지 보류되어야 했던 키미 안토넬리(Kimi Antonelli)에 대한 모든 찬사 속에서, 2026년 포뮬러 1 시즌의 다소 중요한 발전 중 하나가 거의 주목을 받지 못했습니다: 첫 번째 주요 판결이 내려졌습니다.",
+      "조지 러셀과 루이스 해밀턴은 적어도 수학적으로는 여전히 타이틀 경쟁에 있을 수 있습니다. 그러나 한 명의 드라이버가 공식적으로 제거되었습니다.",
+      "예정된 23개의 그랑프리 중 18개를 마친 후 Lando Norris는 의심의 여지 없이 대기 중인 챔피언인 Antonelli를 154점 차로 뒤지고 있습니다. 그러나 멕시코, 브라질, 라스베가스, 카타르, 아부다비가 아직 남아 있기 때문에 개인 운전자의 승점은 125점밖에 남지 않았습니다."
+     ],
+     "titleKo": "어젯밤에 가장 잠을 많이 못 잔 사람: 랜도 노리스",
+     "descKo": "일요일 저녁 오스틴에서 열린 세계 선수권 축하 행사가 멕시코까지 보류되어야 했던 키미 안토넬리(Kimi Antonelli)에 대한 모든 찬사 속에서, 상당히 중요한 발전 중 하나는…"
+    },
+    {
+     "title": "Who slept best last night: Liam Lawson",
+     "desc": "Jolyon Palmer wasn't trying to be creative when he asked Liam Lawson about his future during F1 TV's live post-race coverage. It was simply a question anyone would ask – perhaps…",
+     "link": "https://www.motorsport.com/f1/news/who-slept-best-last-night-liam-lawson-10868533/10868533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/2jEANDb0/s6/liam-lawson-racing-bulls.jpg",
+     "date": "2026-10-26T08:35:20+00:00",
+     "author": "",
+     "id": "273890b9d3",
+     "lead": [
+      "Jolyon Palmer wasn't trying to be creative when he asked Liam Lawson about his future during F1 TV's live post-race coverage. It was simply a question anyone would ask – perhaps even Lawson himself. The sort of question you ask without really expecting an answer, more out of wonderment as to why the answer isn't already an obvious yes.",
+      "\"Another race, another win, in the race that you were in, really, the midfield battle,\" the former Renault driver and now one of F1's top analysts put to Lawson after a couple of questions from his colleagues. And then added: \"When are you going to be announced for next year?\"",
+      "There shouldn't really be any questions about whether Lawson deserves to stay in F1, and with his current team. Any team on its way to securing the best result in its F1 history would surely have already tied down the driver responsible for the biggest share of its points. Any such team wouldn't want him to become impatient or feel insecure."
+     ],
+     "leadKo": [
+      "Jolyon Palmer는 F1 TV의 경주 후 생방송 중 Liam Lawson에게 자신의 미래에 대해 물었을 때 창의적이려고 노력하지 않았습니다. 그것은 누구나 묻고 싶은 질문일 뿐이었습니다. 어쩌면 로슨 자신도 그랬을 것입니다. 실제로 대답을 기대하지 않고 묻는 종류의 질문은 왜 대답이 이미 명백한 '예'가 아닌지에 대해 더 이상 궁금하지 않습니다.",
+      "전직 르노 드라이버이자 현재 F1의 최고 분석가 중 한 명이 동료들로부터 몇 가지 질문을 받은 후 로슨에게 \"당신이 속해 있던 경주, 실제로 미드필더 전투에서 또 다른 경주, 또 다른 승리입니다.\"라고 말했습니다. 그리고 \"내년에는 언제 발표되나요?\"라고 덧붙였습니다.",
+      "Lawson이 F1과 그의 현재 팀에 남을 자격이 있는지에 대해서는 실제로 어떤 질문도 있어서는 안 됩니다. F1 역사상 최고의 결과를 얻으려는 팀은 이미 포인트의 가장 큰 부분을 차지한 드라이버를 묶어두었을 것입니다. 그러한 팀은 그가 참을성이 없거나 불안감을 느끼는 것을 원하지 않을 것입니다."
+     ],
+     "titleKo": "어젯밤에 가장 잘 잤던 사람 : 리암 로슨",
+     "descKo": "Jolyon Palmer는 F1 TV의 경주 후 생방송 중 Liam Lawson에게 자신의 미래에 대해 물었을 때 창의적이려고 노력하지 않았습니다. 그것은 누구나 물어볼 질문이었습니다. 아마도…"
+    },
+    {
+     "title": "Max Verstappen pinpoints two recurring Red Bull problems: \"We should use sign language!\"",
+     "desc": "Max Verstappen secured his tenth podium finish of the 2026 Formula 1 season in Austin, his sixth in succession since his crash at Zandvoort. It is an impressive statistic,…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-pinpoints-two-recurring-red-bull-problems-we-should-use-sign-language/10868474/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YN7vZZj6/s6/max-verstappen-red-bull-racing.jpg",
+     "date": "2026-10-26T06:55:30+00:00",
+     "author": "",
+     "id": "3065e58a48",
+     "lead": [
+      "Max Verstappen secured his tenth podium finish of the 2026 Formula 1 season in Austin, his sixth in succession since his crash at Zandvoort. It is an impressive statistic, although it did little to satisfy him at the Circuit of the Americas.",
+      "On Saturday, the pace appeared to be there to take pole position – at least judging by Verstappen's impressive Q2 lap – but he inexplicably lost grip in Q3. Based on the practice sessions, his race pace still appeared good enough to challenge for the win, but according to Verstappen, too many small things went wrong during the race.",
+      "\"It was pretty frustrating, to be honest, just not a really good race for us\", Verstappen said in the post-race press conference."
+     ],
+     "leadKo": [
+      "Max Verstappen은 오스틴에서 열린 2026년 Formula 1 시즌에서 10번째 포디움 피니시를 달성했습니다. 이는 Zandvoort에서의 추락 이후 6번째 연속 포디움이었습니다. 비록 아메리카 순회 대회에서 그를 만족시키는 데는 거의 도움이 되지 않았지만 이는 인상적인 통계입니다.",
+      "토요일에는 Verstappen의 인상적인 2분기 랩으로 판단할 때 폴 포지션을 취할 수 있는 페이스가 있는 것처럼 보였지만 3분기에는 설명할 수 없을 정도로 그립력을 잃었습니다. 연습 세션에 따르면 그의 레이스 페이스는 여전히 승리에 도전할 만큼 좋은 것처럼 보였지만 Verstappen에 따르면 레이스 중에 작은 문제가 너무 많이 발생했습니다.",
+      "Verstappen은 경주 후 기자 회견에서 \"솔직히 말해서 꽤 실망스러웠지만 우리에게 정말 좋은 경주는 아니었습니다\"라고 말했습니다."
+     ],
+     "titleKo": "Max Verstappen은 Red Bull에서 반복적으로 발생하는 두 가지 문제를 정확히 지적합니다. \"우리는 수화를 사용해야 합니다!\"",
+     "descKo": "Max Verstappen은 오스틴에서 열린 2026년 Formula 1 시즌에서 10번째 포디움 피니시를 달성했습니다. 이는 Zandvoort에서의 추락 이후 6번째 연속 포디움이었습니다. 이는 인상적인 통계입니다."
+    },
+    {
      "title": "Fernando Alonso blasts driving standards of bottom half of F1 grid",
      "desc": "Fernando Alonso let rip at Williams' Alex Albon after contact between their cars on the opening lap of the Formula 1 United States Grand Prix. It cost the Aston Martin driver four…",
      "link": "https://www.motorsport.com/f1/news/fernando-alonso-blasts-driving-standards-of-bottom-half-of-f1-grid/10868467/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2jEANmN0/s6/fernando-alonso-aston-martin-r.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/2jEANmN0/s6/fernando-alonso-aston-martin-r.jpg",
      "date": "2026-10-26T06:10:52+00:00",
      "author": "",
      "id": "54ea213523",
+     "titleKo": "페르난도 알론소(Fernando Alonso), F1 그리드 하위 절반의 주행 기준을 폭파하다",
+     "descKo": "페르난도 알론소(Fernando Alonso)는 포뮬러 1 미국 그랑프리(F1 United States Grand Prix)의 오프닝 랩에서 차량들 사이에 접촉한 후 윌리엄스의 알렉스 앨본(Alex Albon)을 찢었습니다. Aston Martin 운전자의 비용은 4입니다…",
      "lead": [
       "Fernando Alonso let rip at Williams' Alex Albon after contact between their cars on the opening lap of the Formula 1 United States Grand Prix. It cost the Aston Martin driver four places in Austin and left him with floor damage, which compromised the AMR26 for the rest of the race.",
       "The two-time world champion lost one position at the start from 12th on the grid as Esteban Ocon surged from 15th to 11th. Albon picked up three places with a clean launch to run 14th and challenged Alonso for position all the way through the Esses on the opening lap.",
@@ -1860,18 +2007,18 @@
       "페르난도 알론소(Fernando Alonso)는 포뮬러 1 미국 그랑프리(F1 United States Grand Prix)의 오프닝 랩에서 차량들 사이에 접촉한 후 윌리엄스의 알렉스 앨본(Alex Albon)을 찢었습니다. 이로 인해 Aston Martin 드라이버는 오스틴에서 4곳의 손실을 입었고 바닥에 손상을 입게 되었으며 이로 인해 나머지 레이스 동안 AMR26이 손상되었습니다.",
       "두 차례 세계 챔피언을 차지한 그는 Esteban Ocon이 15위에서 11위로 급등하면서 그리드에서 12위부터 시작하여 한 자리를 잃었습니다. Albon은 깔끔한 런치로 3위를 차지해 14위를 기록했고 오프닝 랩에서 Esses를 통과하는 동안 Alonso에게 위치를 놓고 도전했습니다.",
       "11번 코너에서 Alonso는 내부 라인에서 말다툼을 벌이는 Haas 차량을 왼손잡이에게 패스하려고 시도했지만 Albon도 비슷한 궤적을 시작했습니다. Williams는 간격이 좁아지면서 이미 투입되었고 Albon의 오른쪽 앞바퀴가 Alonso의 왼쪽 바지선과 바닥 가장자리에 부딪혔습니다."
-     ],
-     "titleKo": "페르난도 알론소(Fernando Alonso), F1 그리드 하위 절반의 주행 기준을 폭파하다",
-     "descKo": "페르난도 알론소(Fernando Alonso)는 포뮬러 1 미국 그랑프리(F1 United States Grand Prix)의 오프닝 랩에서 차량들 사이에 접촉한 후 윌리엄스의 알렉스 앨본(Alex Albon)을 찢었습니다. Aston Martin 운전자의 비용은 4입니다…"
+     ]
     },
     {
      "title": "Winners and losers from F1's United States Grand Prix",
      "desc": "Austin's Formula 1 race was no instant classic, which was somewhat unfortunate because a lot of the ingredients were there. Four teams were relatively closely matched, and all…",
      "link": "https://www.motorsport.com/f1/news/winners-and-losers-from-f1s-united-states-grand-prix/10868465/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YvKBRRZ6/s6/andrea-kimi-antonelli-mercedes-2.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/YvKBRRZ6/s6/andrea-kimi-antonelli-mercedes-2.jpg",
      "date": "2026-10-26T01:48:25+00:00",
      "author": "",
      "id": "073a6e0be3",
+     "titleKo": "F1 미국 그랑프리 승자와 패자",
+     "descKo": "오스틴의 포뮬러 1 경주는 즉각적인 클래식이 아니었습니다. 이는 많은 요소가 있었기 때문에 다소 불행한 일이었습니다. 4개 팀이 비교적 촘촘하게 매치됐고, 모두…",
      "lead": [
       "Austin's Formula 1 race was no instant classic, which was somewhat unfortunate because a lot of the ingredients were there. Four teams were relatively closely matched, and all three tyre compounds were in play to prompt a battle between different strategies.",
       "But there was little the Circuit of the Americas could throw at winner Kimi Antonelli to unsettle the 20-year-old as he is now all but guaranteed to write history next Sunday in Mexico.",
@@ -1881,155 +2028,6 @@
       "오스틴의 포뮬러 1 경주는 즉각적인 클래식이 아니었습니다. 이는 많은 요소가 있었기 때문에 다소 불행한 일이었습니다. 4개 팀은 비교적 긴밀하게 매치되었으며, 3개 타이어 컴파운드가 모두 플레이되어 서로 다른 전략 간의 전투를 촉발했습니다.",
       "그러나 미주 순회 대회에서 우승자 키미 안토넬리(Kimi Antonelli)에게 20세의 선수를 불안하게 만들 수 있는 일은 거의 없었습니다. 그가 다음 주 일요일 멕시코에서 역사를 쓸 것이 거의 보장되었기 때문입니다.",
       "루이스 해밀턴과 조지 러셀 모두 이론적 소유권 경쟁에 머물 만큼만 하고 있기 때문에 텍사스에서 Antonelli가 했던 것보다 거래를 성사시키는 데 훨씬 더 가까워질 수는 없습니다."
-     ],
-     "titleKo": "F1 미국 그랑프리 승자와 패자",
-     "descKo": "오스틴의 포뮬러 1 경주는 즉각적인 클래식이 아니었습니다. 이는 많은 요소가 있었기 때문에 다소 불행한 일이었습니다. 4개 팀이 비교적 촘촘하게 매치됐고, 모두…"
-    },
-    {
-     "title": "Red Bull admits frustrating F1 problem will not be fully fixed until 2027",
-     "desc": "Red Bull team principal Laurent Mekies has admitted that the issue the team has faced at the start of races won't be fixed until next season. This comes after Isack Hadjar called…",
-     "link": "https://www.motorsport.com/f1/news/red-bull-admits-frustrating-f1-problem-will-not-be-fully-solved-this-season/10868457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0arENNk2/s6/motorsport-com-graphics-27.jpg",
-     "date": "2026-10-26T00:54:02+00:00",
-     "author": "",
-     "id": "0e42832d11",
-     "lead": [
-      "Red Bull team principal Laurent Mekies has admitted that the issue the team has faced at the start of races won't be fixed until next season. This comes after Isack Hadjar called for the clutch to be redesigned following a difficult start to his United States Grand Prix.",
-      "The Red Bull driver dropped from third to fifth as the lights turned off at the start of the Austin race, with Hadjar blaming \"clutch over delivery\". To make matters worse, both he and team-mate Max Verstappen suffered from radio issues, with the latter joking that the team should \"start communicating in sign language\".",
-      "Mekies was asked whether Hadjar was right when he said his team was good at fixing complex issues, but not \"silly things\"."
-     ],
-     "leadKo": [
-      "Red Bull 팀장 Laurent Mekies는 팀이 레이스 시작 시 직면한 문제는 다음 시즌까지 해결되지 않을 것이라고 인정했습니다. 이는 Isack Hadjar가 미국 그랑프리의 어려운 출발 이후 클러치를 재설계할 것을 요청한 이후에 나온 것입니다.",
-      "Red Bull 드라이버는 오스틴 레이스가 시작될 때 조명이 꺼지면서 3위에서 5위로 떨어졌고 Hadjar는 \"클러치 오버 딜리버리\"를 비난했습니다. 설상가상으로 그와 팀 동료인 Max Verstappen은 라디오 문제로 어려움을 겪었고 후자는 팀이 \"수화로 의사소통을 시작해야 한다\"고 농담했습니다.",
-      "Mekies는 Hadjar가 자신의 팀이 복잡한 문제를 해결하는 데 능숙하지만 \"어리석은 문제\"는 해결하지 못한다고 말했을 때 Hadjar가 옳은지 질문을 받았습니다."
-     ],
-     "titleKo": "Red Bull은 실망스러운 F1 문제가 2027년까지 완전히 해결되지 않을 것임을 인정합니다.",
-     "descKo": "Red Bull 팀장 Laurent Mekies는 팀이 레이스 시작 시 직면한 문제는 다음 시즌까지 해결되지 않을 것이라고 인정했습니다. 이것은 Isack Hadjar가 전화한 후에 나온 것입니다…"
-    },
-    {
-     "title": "Kimi Antonelli reveals biggest mistakes of 2026 as Max Verstappen takes playful dig",
-     "desc": "Current Formula 1 championship leader Kimi Antonelli has listed the mistakes he wants to learn from this season as he closes in on the title, prompting a playful dig from Max…",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-reveals-biggest-mistakes-of-2026-as-max-verstappen-takes-playful-dig/10868452/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/24QGooPY/s6/motorsport-com-graphics-14.jpg",
-     "date": "2026-10-26T00:29:03+00:00",
-     "author": "",
-     "id": "18986597b1",
-     "lead": [
-      "Current Formula 1 championship leader Kimi Antonelli has listed the mistakes he wants to learn from this season as he closes in on the title, prompting a playful dig from Max Verstappen .",
-      "The Mercedes driver won the United States Grand Prix at the Circuit of the Americas from pole position, claiming his ninth grand prix victory of the season. His win in Austin means he can now clinch the championship with a top-nine finish at the upcoming Mexican Grand Prix.",
-      "Asked about the highs and lows of his campaign, Antonelli said there is still work to be done."
-     ],
-     "leadKo": [
-      "현재 포뮬러 1 챔피언십 리더인 키미 안토넬리(Kimi Antonelli)는 타이틀 획득이 가까워지면서 이번 시즌에서 배우고 싶은 실수를 나열했고, 이는 막스 베르스타펜(Max Verstappen)의 유쾌한 이야기를 불러일으켰습니다.",
-      "Mercedes 드라이버는 미국 서킷 오브 아메리카 그랑프리에서 폴 포지션으로 우승하며 시즌 9번째 그랑프리 우승을 차지했습니다. 오스틴에서의 우승은 이제 그가 다가오는 멕시코 그랑프리에서 상위 9위로 우승을 차지할 수 있다는 것을 의미합니다.",
-      "그의 캠페인의 최고점과 최저점에 대한 질문에 Antonelli는 아직 해야 할 일이 있다고 말했습니다."
-     ],
-     "titleKo": "Kimi Antonelli는 Max Verstappen이 장난스럽게 발굴하면서 2026년의 가장 큰 실수를 밝힙니다.",
-     "descKo": "현재 포뮬러 1 챔피언십 리더인 키미 안토넬리(Kimi Antonelli)는 타이틀 획득이 가까워지면서 이번 시즌에서 배우고 싶은 실수를 나열했고, 맥스는 장난스럽게 이야기를 나눴습니다."
-    },
-    {
-     "title": "Lando Norris delivers harsh reality check as McLaren's F1 struggles continue",
-     "desc": "Reigning champion Lando Norris has admitted it's \"pretty obvious\" that McLaren has slipped from championship leaders to being the fourth-fastest team in Formula 1 after he…",
-     "link": "https://www.motorsport.com/f1/news/lando-norris-delivers-harsh-reality-check-as-mclarens-f1-struggles-continue/10868450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6DGg4o9Y/s6/motorsport-com-graphics-26-2.jpg",
-     "date": "2026-10-26T00:24:29+00:00",
-     "author": "",
-     "id": "f03010637a",
-     "lead": [
-      "Reigning champion Lando Norris has admitted it's \"pretty obvious\" that McLaren has slipped from championship leaders to being the fourth-fastest team in Formula 1 after he finished fifth at the United States Grand Prix.",
-      "He finished the race behind Kimi Antonelli, Charles Leclerc , Max Verstappen and Lewis Hamilton at the Circuit of the Americas, with team-mate Oscar Piastri finishing two places behind him in seventh. While this is a disappointing result for a team that less than a year ago was fighting for titles, Norris confirmed that the upgrades are working.",
-      "“Yeah, I’m just hoping you put something on and it’s magical and you go a lot quicker and you’re fighting for a podium all of a sudden. Things are all working as they should, but you know, all the teams, Ferrari brought upgrades and all the teams are still bringing upgrades, so they’re delivering. Just not, I guess, just not really in all the places that we need them to, like the slow speed corners, we’re just nowhere near at the level we need…"
-     ],
-     "leadKo": [
-      "현 챔피언 Lando Norris는 McLaren이 미국 그랑프리에서 5위를 차지한 후 챔피언십 선두에서 Formula 1에서 4번째로 빠른 팀으로 밀려난 것이 \"매우 명백하다\"고 인정했습니다.",
-      "그는 미주 서킷에서 Kimi Antonelli, Charles Leclerc, Max Verstappen, Lewis Hamilton의 뒤를 이어 레이스를 마쳤으며, 팀 동료인 Oscar Piastri는 7위로 2계단 뒤처졌습니다. 이는 1년도 채 되지 않아 타이틀을 놓고 경쟁하던 팀에게는 실망스러운 결과이지만 Norris는 업그레이드가 효과가 있음을 확인했습니다.",
-      "\"그래, 나는 단지 네가 무언가를 입으면 마술적일 것이고 훨씬 더 빨리 가고 갑자기 시상대를 위해 싸우게 되기를 바랄 뿐이다. 모든 것이 예상대로 작동하고 있지만 알다시피 모든 팀, 페라리는 업그레이드를 가져왔고 모든 팀은 여전히 ​​업그레이드를 가져와서 제공하고 있다. 다만 내 생각에는 저속 코너처럼 우리가 필요로 하는 모든 장소에서는 실제로는 아니지만 우리가 필요로 하는 수준에는 전혀 미치지 못하는 것 같다..."
-     ],
-     "titleKo": "Lando Norris는 McLaren의 F1 투쟁이 계속됨에 따라 가혹한 현실 점검을 제공합니다.",
-     "descKo": "현 챔피언 Lando Norris는 McLaren이 챔피언십 선두에서 Formula 1에서 네 번째로 빠른 팀으로 밀려난 것이 \"매우 명백하다\"고 인정했습니다."
-    },
-    {
-     "title": "Max Verstappen jokes Red Bull should abandon radios after United States GP struggles",
-     "desc": "Max Verstappen has complained about Red Bull's repeated radio issues, calling them \"a disaster\" and joking that they should start communicating in sign language instead. The…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-jokes-red-bull-should-abandon-radios-after-united-states-gp-struggles/10868443/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YMXbEvg2/s6/motorsport-com-graphics-25.jpg",
-     "date": "2026-10-26T00:05:32+00:00",
-     "author": "",
-     "id": "f9dfbac3f7",
-     "titleKo": "Max Verstappen은 미국 GP가 어려움을 겪은 후 Red Bull이 라디오를 포기해야 한다고 농담합니다.",
-     "descKo": "Max Verstappen은 Red Bull의 반복되는 라디오 문제에 대해 불평하면서 이를 \"재앙\"이라고 부르며 대신 수화로 의사소통을 시작해야 한다고 농담했습니다. 그만큼…",
-     "lead": [
-      "Max Verstappen has complained about Red Bull's repeated radio issues, calling them \"a disaster\" and joking that they should start communicating in sign language instead.",
-      "The four-time champion finished third behind winner Kimi Antonelli and Charles Leclerc at the United States Grand Prix after what was a frustrating and issue-ridden race. And to make things even more difficult, the Dutchman suffered radio issues that made communication with the pitwall much harder than it should have been.",
-      "Asked in the press conference following the race how frustrating it is to have those types of issues for a second time, Verstappen was keen to correct the journalist."
-     ],
-     "leadKo": [
-      "Max Verstappen은 Red Bull의 반복되는 라디오 문제에 대해 불평하면서 이를 \"재앙\"이라고 부르며 대신 수화로 의사소통을 시작해야 한다고 농담했습니다.",
-      "4회 우승을 차지한 그는 미국 그랑프리에서 실망스럽고 문제가 많은 경주를 마친 후 우승자 Kimi Antonelli와 Charles Leclerc에 이어 3위를 차지했습니다. 그리고 상황을 더욱 어렵게 만든 것은 네덜란드인이 피트월과의 통신을 예상보다 훨씬 어렵게 만드는 무선 문제를 겪었다는 것입니다.",
-      "경주 후 기자 회견에서 이러한 유형의 문제가 두 번째로 발생하는 것이 얼마나 실망스러운지 묻는 질문에 Verstappen은 기자를 정정하고 싶어했습니다."
-     ]
-    },
-    {
-     "title": "Charles Leclerc reveals Ferrari breakthrough after United States GP podium",
-     "desc": "Charles Leclerc believes he has \"unlocked something\" in his driving with Ferrari in recent races and is confident he will have a shot at victory before the end of the 2026 Formula…",
-     "link": "https://www.motorsport.com/f1/news/charles-leclerc-reveals-ferrari-breakthrough-after-united-states-gp-podium/10868441/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/63Qaoe82/s6/motorsport-com-graphics-13.jpg",
-     "date": "2026-10-26T00:04:36+00:00",
-     "author": "",
-     "id": "4d9cfe8f4c",
-     "titleKo": "Charles Leclerc, 미국 GP 포디엄 이후 페라리의 돌파구 공개",
-     "descKo": "샤를 르클레르(Charles Leclerc)는 최근 경주에서 페라리와 함께 운전하면서 \"뭔가를 발견했다\"고 믿으며 2026년 포뮬러가 끝나기 전에 승리를 거둘 수 있을 것이라고 확신합니다.",
-     "lead": [
-      "Charles Leclerc believes he has \"unlocked something\" in his driving with Ferrari in recent races and is confident he will have a shot at victory before the end of the 2026 Formula 1 season.",
-      "The Monegasque driver finished second in the United States Grand Prix, 13 seconds behind race winner and championship leader Kimi Antonelli, after battling Max Verstappen and Lando Norris .",
-      "It followed another second-place in Singapore, and Leclerc said his feeling with the car had improved over the last few race weekends."
-     ],
-     "leadKo": [
-      "찰스 르클레르(Charles Leclerc)는 최근 경주에서 페라리와 함께 운전하면서 \"뭔가를 풀었다\"고 믿으며 2026년 포뮬러 1 시즌이 끝나기 전에 승리를 거둘 수 있을 것이라고 확신합니다.",
-      "Monegasque 드라이버는 Max Verstappen 및 Lando Norris와 싸운 후 레이스 우승자이자 챔피언십 리더인 Kimi Antonelli보다 13초 뒤진 미국 그랑프리에서 2위를 차지했습니다.",
-      "이는 싱가포르에서 또 다른 2위를 차지했으며 Leclerc는 지난 몇 번의 경주 주말 동안 자동차에 대한 느낌이 좋아졌다고 말했습니다."
-     ]
-    },
-    {
-     "title": "George Russell confused by lack of pace at F1 US GP despite upgraded W17",
-     "desc": "George Russell is desperately searching for answers after “not being quick enough” at the United States Grand Prix as team-mate Kimi Antonelli closes in on the Formula 1 world…",
-     "link": "https://www.motorsport.com/f1/news/george-russell-confused-by-lack-of-pace-at-f1-us-gp-despite-upgraded-w17/10868418/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2GdK4RzY/s6/george-russell-mercedes.jpg",
-     "date": "2026-10-25T23:42:10+00:00",
-     "author": "",
-     "id": "052c631356",
-     "titleKo": "George Russell은 업그레이드된 W17에도 불구하고 F1 US GP에서 속도 부족으로 혼란스러워했습니다.",
-     "descKo": "팀 동료인 키미 안토넬리(Kimi Antonelli)가 포뮬러 1 세계에 가까워지는 동안 조지 러셀(George Russell)은 미국 그랑프리에서 \"충분히 빠르지 못한\" 후 필사적으로 답을 찾고 있습니다.",
-     "lead": [
-      "George Russell is desperately searching for answers after “not being quick enough” at the United States Grand Prix as team-mate Kimi Antonelli closes in on the Formula 1 world title.",
-      "Antonelli dominated Sunday’s race at Austin from pole , whereas Russell started sixth but finished eighth, having received a five-second penalty for gaining an advantage by running off-track on the opening lap.",
-      "It came on lap one when the Briton was defending from Oscar Piastri heading into Turn 12, where he left the track and rejoined ahead of the McLaren to keep his position."
-     ],
-     "leadKo": [
-      "팀 동료인 키미 안토넬리(Kimi Antonelli)가 포뮬러 1 월드 타이틀을 노리는 동안 조지 러셀(George Russell)은 미국 그랑프리에서 \"충분히 빠르지 못한\" 후 필사적으로 답을 찾고 있습니다.",
-      "Antonelli는 오스틴에서 열린 일요일 레이스를 폴에서 지배한 반면, Russell은 6위로 출발했지만 오프닝 랩에서 트랙을 벗어나 우위를 점한 것에 대해 5초의 페널티를 받아 8위를 차지했습니다.",
-      "영국인이 12번 코너로 향하는 Oscar Piastri를 방어하고 있을 때 랩 1에서 나왔고, 그곳에서 그는 트랙을 떠나 자신의 위치를 ​​유지하기 위해 McLaren보다 앞서 다시 합류했습니다."
-     ]
-    },
-    {
-     "title": "Lewis Hamilton reveals the Ferrari setup mistake that cost him US GP podium",
-     "desc": "Lewis Hamilton believes the set-up he ran on his Ferrari during the United States Grand Prix left much to be desired, with his front wing being \"12 clicks down\" for much of the…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-reveals-the-ferrari-setup-mistake-that-cost-him-us-gp-podium/10868416/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/01QNoaq0/s6/motorsport-com-graphics-24-2.jpg",
-     "date": "2026-10-25T23:33:18+00:00",
-     "author": "",
-     "id": "b6a47f24f7",
-     "titleKo": "루이스 해밀턴은 미국 GP 시상대를 희생시킨 페라리 설정 실수를 폭로했습니다.",
-     "descKo": "루이스 해밀턴은 미국 그랑프리 기간 동안 자신의 페라리에서 실행한 설정이 많은 부분에서 아쉬운 점을 남겼다고 믿습니다. 그의 프론트 윙은 대부분의 기간 동안 \"12클릭 다운\"되었습니다.",
-     "lead": [
-      "Lewis Hamilton believes the set-up he ran on his Ferrari during the United States Grand Prix left much to be desired, with his front wing being \"12 clicks down\" for much of the race. According to the seven-time champion, this is what caused the performance gap between him and team-mate Charles Leclerc .",
-      "Hamilton started fifth at the Circuit of the Americas and crossed the line fourth. Despite what could be seen as a mildly successful race for the driver, he wrestled with heavy understeer in the opening two stints as the leaders drove away.",
-      "“I was lacking pace in the first two stints basically,\" he said. \"I just couldn’t turn the car. And I think ultimately it all kind of started on Friday. Wrong set-up really for P1 and then went the wrong direction in P2. Reverted back and got to a better place for P3."
-     ],
-     "leadKo": [
-      "루이스 해밀턴은 미국 그랑프리 기간 동안 자신의 페라리에서 실행한 설정이 많은 레이스에서 그의 프론트 윙이 \"12번 클릭 다운\"되는 등 아쉬운 점이 많았다고 믿습니다. 7회 챔피언에 따르면 이것이 그와 팀 동료 샤를 르끌레르 사이의 성적 격차를 초래한 원인이라고 합니다.",
-      "해밀턴은 아메리카 서킷에서 5위로 출발하여 4위를 넘었습니다. 드라이버로서는 어느 정도 성공적인 레이스로 보일 수 있음에도 불구하고 그는 선두가 차를 몰아가는 동안 첫 두 차례의 심한 언더스티어와 씨름했습니다.",
-      "“기본적으로 처음 두 번의 경기에서는 속도가 부족했습니다.”라고 그는 말했습니다. \"그냥 차를 돌릴 수가 없었어요. 그리고 결국 모든 일이 금요일에 시작된 것 같아요. P1에 대한 설정이 잘못되었고 P2에서는 잘못된 방향으로 갔죠. 다시 되돌아가서 P3에 더 나은 위치에 도달했습니다."
      ]
     }
    ]
@@ -2039,6 +2037,69 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Everything we learned from F1's 2026 United States Grand Prix",
+     "desc": "There was no four-team fight for F1 victory at the US GP as predicted, but that told us plenty about teams' strengths and weaknesses right now",
+     "link": "https://www.the-race.com/formula-1/f1-2026-united-states-grand-prix-everything-we-learned/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1447296_HiRes.jpg",
+     "date": "2026-10-26T13:30:00+00:00",
+     "author": "Jack Cozens",
+     "id": "ec6f79646f",
+     "lead": [
+      "The United States Grand Prix didn't end up producing the kind of four-car fight for Formula 1 victory that Friday and parts of Saturday hinted might happen, but that in itself told us plenty about teams' and drivers' strengths and weaknesses right now.",
+      "Of all of the charges levied against Red Bull by Max Verstappen and Isack Hadjar after the US GP, it's one from Hadjar's dejected media appearances that seems most fundamental.",
+      "\"The clutch. It needs a redesign because at the moment it's too fragile, it's not coping well with temperatures. It's a real struggle.\""
+     ],
+     "leadKo": [
+      "미국 그랑프리는 금요일과 토요일의 일부가 암시했던 Formula 1 승리를 위한 4대의 자동차 싸움을 만들어내지는 못했지만, 그 자체로 현재 팀과 드라이버의 강점과 약점에 대해 많은 것을 알려주었습니다.",
+      "미국 GP 이후 Max Verstappen과 Isack Hadjar가 Red Bull에 대해 부과한 모든 혐의 중에서 가장 근본적으로 보이는 것은 Hadjar의 낙담한 언론 출연에서 나온 것입니다.",
+      "\"클러치입니다. 지금은 너무 약해서 온도에 잘 견디지 못하기 때문에 재설계가 필요합니다. 정말 힘든 일입니다.\""
+     ],
+     "titleKo": "F1의 2026 미국 그랑프리에서 배운 모든 것",
+     "descKo": "예상대로 US GP에서 F1 승리를 위한 4개 팀의 싸움은 없었지만, 이는 현재 팀의 강점과 약점에 대해 많은 것을 말해주었습니다."
+    },
+    {
+     "title": "US GP struggled before. Now Austin is the image of F1's growth",
+     "desc": "The United States Grand Prix and the lead-up to the race in Austin is a case study in Formula 1’s now-unshakeable foundation in North America.",
+     "link": "https://www.the-race.com/formula-1/us-gp-struggled-before-now-austin-week-is-the-image-of-f1s-growth/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446586_HiRes.jpg",
+     "date": "2026-10-26T12:23:51+00:00",
+     "author": "Samarth Kanal",
+     "id": "471ce637f3",
+     "lead": [
+      "The United States Grand Prix and the lead-up to the race in Austin is a case study in Formula 1’s now-unshakeable foundation in North America.",
+      "Packed grandstands and a three-day attendance of 467,000 are of course proof of that. But it was the bevy of announcements pre-Austin that underlined why the US GP and F1 are in the rudest health they’ve ever been, even amidst ongoing threats of global market shocks.",
+      "New US team Cadillac brought on Houston-based energy company Fronteiras, while Audi announced AI-forward software company Elastic will be on the team’s books from 2027 and showed off its activations with Revolut that will land in Sao Paulo."
+     ],
+     "leadKo": [
+      "미국 그랑프리와 오스틴 경주에 대한 준비 과정은 현재 흔들리지 않는 북미 지역 Formula 1의 기반을 보여주는 사례 연구입니다.",
+      "붐비는 관중석과 3일간의 467,000명의 관중이 이를 증명합니다. 그러나 미국 GP와 F1이 글로벌 시장 충격의 지속적인 위협 속에서도 그 어느 때보다 건전한 상태에 있는 이유를 강조한 것은 오스틴 이전 발표의 무리였습니다.",
+      "새로운 미국 팀 Cadillac은 휴스턴에 본사를 둔 에너지 회사 Fronteiras를 데려왔고, Audi는 AI를 지향하는 소프트웨어 회사 Elastic이 2027년부터 팀 장부에 포함될 것이라고 발표하고 상파울루에 상륙할 Revolut와의 활성화를 선보였습니다."
+     ],
+     "titleKo": "미국 GP는 전에 어려움을 겪었습니다. 이제 오스틴은 F1 성장의 이미지",
+     "descKo": "미국 그랑프리와 오스틴 경주에 대한 준비 과정은 현재 흔들리지 않는 북미 지역 Formula 1의 기반을 보여주는 사례 연구입니다."
+    },
+    {
+     "title": "What time is F1's 2026 Mexican Grand Prix? Full weekend schedule",
+     "desc": "All the times you need to know for Formula 1's next race - the 2026 UMexican Grand Prix",
+     "link": "https://www.the-race.com/promoted/what-time-is-f1-2026-mexican-grand-prix-full-weekend-schedule/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1382986_HiRes.jpg",
+     "date": "2026-10-26T10:09:51+00:00",
+     "author": "The Race Team",
+     "id": "76b09de0eb",
+     "lead": [
+      "The Formula 1® Gran Premio De La Ciudad De Mexico is overwhelmingly likely to play host to a first-time coronation in 2026 - and is a fittingly beloved and exuberant event for such an occasion.",
+      "Kimi Antonelli needs just two points - the equivalent of a ninth-place finish - to become F1 champion aged 20. George Russell and Lewis Hamilton failing to win the race would also do the trick for Antonelli.",
+      "But even if the title race is almost ceremonial at this point, there's every reason to expect a good race from the Autodromo Hermanos Rodriguez - which always taxes cars in unusual ways and wreaks havoc with the competitive order, due to being F1's highest-altitude race by a massive margin."
+     ],
+     "leadKo": [
+      "Formula 1® Gran Premio De La Ciudad De Mexico는 2026년에 처음으로 대관식을 개최할 가능성이 압도적으로 높으며 그러한 행사에 걸맞게 사랑받고 활기 넘치는 행사입니다.",
+      "키미 안토넬리(Kimi Antonelli)가 20세에 F1 챔피언이 되려면 9위에 해당하는 2점만 있으면 됩니다. 조지 러셀(George Russell)과 루이스 해밀턴(Lewis Hamilton)이 경주에서 우승하지 못하더라도 안토넬리에게는 좋은 일이 될 것입니다.",
+      "그러나 현 시점에서 타이틀 경주가 거의 의례적이라고 해도 Autodromo Hermanos Rodriguez에서 좋은 경주를 기대할 이유는 충분합니다. Autodromo Hermanos Rodriguez는 F1의 최고 고도 경주이기 때문에 항상 특이한 방식으로 자동차에 세금을 부과하고 경쟁 질서를 혼란에 빠뜨리고 있습니다."
+     ],
+     "titleKo": "F1의 2026년 멕시코 그랑프리는 몇시입니까? 주말 전체 일정",
+     "descKo": "Formula 1의 다음 경주인 2026 UMexican Grand Prix에 대해 알아야 할 모든 시간"
+    },
+    {
      "title": "Why US GP has left Verstappen and Hadjar furious with Red Bull",
      "desc": "Max Verstappen and Isack Hadjar let rip at Red Bull after F1's US GP for a series of problems that left them unable to fully capitalise on their car's potential",
      "link": "https://www.the-race.com/formula-1/why-verstappen-hadjar-furious-red-bull-f1-us-gp/",
@@ -2046,6 +2107,8 @@
      "date": "2026-10-26T02:22:01+00:00",
      "author": "Jon Noble",
      "id": "c5f63a0da3",
+     "titleKo": "US GP가 Verstappen과 Hadjar를 Red Bull에 분노하게 만든 이유",
+     "descKo": "Max Verstappen과 Isack Hadjar는 F1의 US GP 이후 Red Bull이 자동차의 잠재력을 완전히 활용하지 못하게 만드는 일련의 문제로 인해 비난을 받았습니다.",
      "lead": [
       "Max Verstappen and Isack Hadjar let rip at Red Bull after Formula 1's United States Grand Prix for a series of avoidable problems that left them unable to fully capitalise on the potential of their car.",
       "Things went wrong at the start as Verstappen and Hadjar in particular made poor getaways from second and third on the grid.",
@@ -2055,9 +2118,7 @@
       "Max Verstappen과 Isack Hadjar는 Formula 1의 미국 그랑프리 이후 Red Bull에서 자동차의 잠재력을 완전히 활용하지 못하게 만드는 일련의 피할 수 있는 문제에 대해 비난했습니다.",
       "특히 Verstappen과 Hadjar가 그리드에서 2위와 3위에서 부진한 탈출을 기록했기 때문에 처음에는 상황이 잘못되었습니다.",
       "두 사람은 피트월과의 통신을 어렵게 만드는 무선 문제로 인해 레이스 내내 방해를 받았고, Verstappen은 원스톱 Kimi Antonelli가 지배적인 승리를 거둘 수 있도록 문을 열어둔 투스톱 전략 선택에 짜증을 냈습니다."
-     ],
-     "titleKo": "US GP가 Verstappen과 Hadjar를 Red Bull에 분노하게 만든 이유",
-     "descKo": "Max Verstappen과 Isack Hadjar는 F1의 US GP 이후 Red Bull이 자동차의 잠재력을 완전히 활용하지 못하게 만드는 일련의 문제로 인해 비난을 받았습니다."
+     ]
     },
     {
      "title": "Winners and losers from F1's 2026 United States Grand Prix",
@@ -2067,6 +2128,8 @@
      "date": "2026-10-26T00:26:10+00:00",
      "author": "Jack Cozens",
      "id": "09167178f7",
+     "titleKo": "2026년 F1 미국 그랑프리 승자와 패자",
+     "descKo": "미주 서킷에서 열린 F1 미국 그랑프리의 승자와 패자",
      "lead": [
       "Winners and losers from F1's 2026 United States Grand Prix",
       "All eyes were on if Formula 1 would have a new youngest ever champion after the United States Grand Prix, and it won't - yet - but that was not for a lack of a stellar performance from runaway points leader Kimi Antonelli.",
@@ -2076,9 +2139,7 @@
       "2026년 F1 미국 그랑프리 승자와 패자",
       "포뮬러 1이 미국 그랑프리 이후 역대 최연소 챔피언을 탄생시킬 수 있을지 모두의 관심이 쏠렸지만, 아직은 그럴 수 없을 것입니다. 그러나 이는 가출 포인트 리더인 키미 안토넬리(Kimi Antonelli)의 뛰어난 활약이 부족했기 때문이 아닙니다.",
       "당연히 나머지 필드에서 활동에 방해가 되는 새로운 챔피언이 나올지 지켜보는 것은 당연합니다. 일요일에 열리는 미주 서킷에서 그리드 위아래로 승자와 패자를 선택해 보겠습니다."
-     ],
-     "titleKo": "2026년 F1 미국 그랑프리 승자와 패자",
-     "descKo": "미주 서킷에서 열린 F1 미국 그랑프리의 승자와 패자"
+     ]
     },
     {
      "title": "Alonso calls 33% of the F1 grid 'low quality'",
@@ -2162,69 +2223,6 @@
       "2026년 포뮬러 1 시즌에서는 각 드라이버가 전체 예선 트림에서 자신을 팀 동료와 최대 30회(그랑프리 예선에서 24회, 스프린트 예선에서 6회) 비교할 수 있습니다.",
       "올해의 팀 동료 페어링이 지금까지 한 바퀴 이상 쌓인 방법은 다음과 같습니다.",
       "*현재는 원시 데이터입니다. 한 명의 드라이버가 예선에서 경쟁할 수 없는 경우에만 비교를 할인했습니다. 이상치를 설명하기 위해 큰 표본 크기를 사용하여 추가 조정이 이루어질 것입니다."
-     ]
-    },
-    {
-     "title": "Why F1 is so sure its Apple TV deal is working",
-     "desc": "Formula 1’s pivot to Apple TV in the United States has been one of the biggest shifts in F1’s broadcast landscape in recent times - but is it paying off?",
-     "link": "https://www.the-race.com/business/why-f1-is-so-sure-its-apple-tv-deal-is-working/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446804_HiRes.jpg",
-     "date": "2026-10-25T09:42:12+00:00",
-     "author": "Josh Suttill",
-     "id": "baf4696d19",
-     "titleKo": "F1이 Apple TV 거래가 성공할 것이라고 확신하는 이유",
-     "descKo": "미국에서 Formula 1이 Apple TV로 전환한 것은 최근 F1 방송 환경에서 가장 큰 변화 중 하나였습니다. 하지만 성과가 있을까요?",
-     "lead": [
-      "Formula 1’s pivot to Apple TV in the United States has been one of the biggest shifts in F1’s broadcast landscape in recent times - but is it paying off?",
-      "Apple became the exclusive F1 broadcaster in the US this year with a five-year deal, marking a major shift from linear TV to a streaming service in arguably F1’s biggest market.",
-      "F1 said Apple was delivering \"excellent viewership and engagement\" in its mid-season report earlier this year, while Apple vice president Eddy Cue claimed viewership was \"up by significant double-digit percentage growth on the race day, and more importantly on Saturdays\" versus the previous season on ESPN."
-     ],
-     "leadKo": [
-      "미국에서 Formula 1이 Apple TV로 전환한 것은 최근 F1 방송 환경에서 가장 큰 변화 중 하나였습니다. 하지만 성과가 있을까요?",
-      "Apple은 올해 5년 계약을 통해 미국에서 독점적인 F1 방송사가 되었으며, 이는 틀림없이 F1의 가장 큰 시장인 선형 TV에서 스트리밍 서비스로의 대대적인 전환을 의미합니다.",
-      "F1은 올해 초 시즌 중반 보고서에서 애플이 \"뛰어난 시청률과 참여도\"를 보이고 있다고 밝혔고, 애플 부사장 에디 큐(Eddy Cue)는 ESPN의 이전 시즌에 비해 \"경주 당일, 특히 토요일에 시청률이 두 자릿수 증가율로 크게 증가했다\"고 주장했습니다."
-     ]
-    },
-    {
-     "title": "How Verstappen lost pole to Antonelli - and nearly got beaten by Hadjar",
-     "desc": "Either Red Bull driver could have been on pole for F1's US GP were they not thwarted by Kimi Antonelli turning the tables through a crucial sequence of corners",
-     "link": "https://www.the-race.com/formula-1/how-verstappen-lost-pole-to-antonelli-and-nearly-got-beaten-by-hadjar/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1447116_HiRes.jpg",
-     "date": "2026-10-25T02:07:25+00:00",
-     "author": "Scott Mitchell-Malm",
-     "id": "22c8afb7b5",
-     "titleKo": "Verstappen이 Antonelli에게 폴을 뺏기고 Hadjar에게 거의 패할 뻔한 방법",
-     "descKo": "Red Bull 드라이버 중 어느 쪽이든 F1의 US GP에서 폴에 오를 수 있었을 것입니다. Kimi Antonelli가 중요한 코너 시퀀스를 통해 테이블을 돌리는 것에 의해 좌절되지 않았다면 말이죠.",
-     "lead": [
-      "Either Red Bull driver could have been on pole position for Formula 1’s United States Grand Prix were they not thwarted by Kimi Antonelli turning the tables through a crucial sequence of corners.",
-      "An intense qualifying fight came down to Antonelli versus Max Verstappen and Isack Hadjar in Q3, and especially their opening runs - on which the Mercedes and the Red Bull traded dominance across the lap.",
-      "Sunday is Antonelli’s first chance to wrap up the world championship. It’s a mathematical long shot but he is in the best place to do it after a qualifying lap worthy of the cause."
-     ],
-     "leadKo": [
-      "Red Bull 드라이버 중 어느 쪽이든 Formula 1의 미국 그랑프리에서 극 위치에 있을 수 있었습니다. Kimi Antonelli가 중요한 코너 시퀀스를 통해 테이블을 뒤집는 것에 의해 좌절되지 않았습니다.",
-      "3분기에는 Antonelli와 Max Verstappen 및 Isack Hadjar의 치열한 예선전이 벌어졌으며 특히 오프닝 경기에서는 Mercedes와 Red Bull이 랩 전반에 걸쳐 우위를 교환했습니다.",
-      "일요일은 안토넬리에게 세계 챔피언십을 마무리할 첫 번째 기회입니다. 그것은 수학적으로 어려운 일이지만 그는 그 목적에 합당한 예선 랩을 마친 후에 그것을 할 수 있는 가장 좋은 위치에 있습니다."
-     ]
-    },
-    {
-     "title": "The two weaknesses conspiring against Ferrari at Austin",
-     "desc": "Two familiar weaknesses contributed to Ferrari's 18th unsuccessful bid for an F1 2026 pole, at a track where it's appeared to have the fastest car",
-     "link": "https://www.the-race.com/formula-1/why-another-ferrari-f1-pole-bid-faltered-us-gp-2026/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/261024_R18_USA_DP_XB3_6937_510af0f5-362a-41b8-b3f1-eaf88620a333.jpg",
-     "date": "2026-10-25T01:35:47+00:00",
-     "author": "Josh Suttill",
-     "id": "1306909756",
-     "titleKo": "오스틴에서 페라리를 상대로 음모를 꾸미는 두 가지 약점",
-     "descKo": "두 가지 익숙한 약점으로 인해 페라리는 가장 빠른 차가 있는 것으로 보이는 트랙에서 F1 2026 폴에 대한 18번째 입찰에 실패했습니다.",
-     "lead": [
-      "Friday Formula 1 pacesetter Ferrari fell short of a grand prix pole position for the 18th time in 2026, this time at Austin, because of two familiar weaknesses and unfortunate timing.",
-      "Charles Leclerc and Lewis Hamilton ended up fourth and fifth but had slightly different views on why they could not match Kimi Antonelli's Mercedes and the two Red Bulls.",
-      "This year's Ferrari has battled a single-lap tyre weakness that has left it weaker on Saturdays than Sundays for much of the year."
-     ],
-     "leadKo": [
-      "Friday Formula 1의 페이스세터 Ferrari는 두 가지 익숙한 약점과 불행한 타이밍 때문에 2026년에 18번째로 그랑프리 폴 포지션에 미치지 못했습니다. 이번에는 오스틴에서였습니다.",
-      "Charles Leclerc와 Lewis Hamilton은 4위와 5위를 차지했지만 Kimi Antonelli의 Mercedes와 두 Red Bulls를 상대할 수 없는 이유에 대해 약간 다른 견해를 가지고 있었습니다.",
-      "올해 페라리는 일년 내내 일요일보다 토요일에 타이어 성능이 약해지는 단일 랩 타이어 약점과 싸워왔습니다."
      ]
     }
    ]
@@ -2429,6 +2427,42 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Kimi On The Brink, George At A Crossroads? | US GP Review | F1 Nation Podcast",
+     "desc": "This episode is sponsored by AWS - Global AI Partner of Formula 1.",
+     "link": "https://www.youtube.com/watch?v=IHwMzV6t2lk",
+     "image": "https://i.ytimg.com/vi/IHwMzV6t2lk/hqdefault.jpg",
+     "date": "2026-10-26T12:00:11+00:00",
+     "author": "FORMULA 1",
+     "videoId": "IHwMzV6t2lk",
+     "id": "275fd73b0b",
+     "titleKo": "위기에 처한 키미, 교차로에 있는 조지? | 미국 GP 검토 | F1 Nation 팟캐스트",
+     "descKo": ""
+    },
+    {
+     "title": "Bono Gets Drenched! 🍾",
+     "desc": "Kimi Antonelli and Bono celebrate after Kimi's win in Austin!",
+     "link": "https://www.youtube.com/watch?v=Cx3tGlLxcCs",
+     "image": "https://i.ytimg.com/vi/Cx3tGlLxcCs/hqdefault.jpg",
+     "date": "2026-10-26T02:44:42+00:00",
+     "author": "FORMULA 1",
+     "videoId": "Cx3tGlLxcCs",
+     "id": "5716f82522",
+     "titleKo": "보노가 흠뻑 젖다! 🍾",
+     "descKo": ""
+    },
+    {
+     "title": "Drivers React After The Race | 2026 United States Grand Prix",
+     "desc": "Hear from championship leader Kimi Antonelli, podium-finishers Charles Leclerc and Max Verstappen, along with the rest of the grid following the United States Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=q03CkMtY9CE",
+     "image": "https://i.ytimg.com/vi/q03CkMtY9CE/hqdefault.jpg",
+     "date": "2026-10-26T02:34:20+00:00",
+     "author": "FORMULA 1",
+     "videoId": "q03CkMtY9CE",
+     "id": "7a05dd1042",
+     "titleKo": "경주 후 운전자의 반응 | 2026 미국 그랑프리",
+     "descKo": ""
+    },
+    {
      "title": "LIVE: United States Grand Prix Post-Race Show",
      "desc": "Join us from Austin as the team discuss the 2026 United States Grand Prix!",
      "link": "https://www.youtube.com/watch?v=1-YT9_ywVZo",
@@ -2498,42 +2532,6 @@
      "videoId": "W0Y8OoRRtVE",
      "id": "f7c9867b68",
      "titleKo": "Charles & Lewis를 위한 건전한 한 해 🥹",
-     "descKo": ""
-    },
-    {
-     "title": "LIVE: United States Build-Up & Drivers' Parade",
-     "desc": "Join us in Austin as we build up to the United States Grand Prix! 🇺🇸",
-     "link": "https://www.youtube.com/watch?v=uFeiZ1r7PPc",
-     "image": "https://i.ytimg.com/vi/uFeiZ1r7PPc/hqdefault.jpg",
-     "date": "2026-10-25T18:20:46+00:00",
-     "author": "FORMULA 1",
-     "videoId": "uFeiZ1r7PPc",
-     "id": "5412a00ec2",
-     "titleKo": "라이브: 미국 빌드업 및 드라이버 퍼레이드",
-     "descKo": ""
-    },
-    {
-     "title": "Kimi Antonelli's Pole Lap | 2026 United States Grand Prix | Pirelli",
-     "desc": "Ride onboard with championship leader Kimi Antonelli as he claims his seventh pole position of the season.",
-     "link": "https://www.youtube.com/watch?v=kxDTghRx_VA",
-     "image": "https://i.ytimg.com/vi/kxDTghRx_VA/hqdefault.jpg",
-     "date": "2026-10-25T01:15:23+00:00",
-     "author": "FORMULA 1",
-     "videoId": "kxDTghRx_VA",
-     "id": "6ad521d4dc",
-     "titleKo": "Kimi Antonelli의 폴 랩 | 2026 미국 그랑프리 | 피렐리",
-     "descKo": ""
-    },
-    {
-     "title": "Drivers React After Qualifying | 2026 United States Grand Prix",
-     "desc": "The grid react to Qualifying in Austin, as Kimi Antonelli takes pole position for the United States Grand Prix on a weekend where he could secure the World Drivers' Championship!",
-     "link": "https://www.youtube.com/watch?v=F3aaTsKR1hM",
-     "image": "https://i.ytimg.com/vi/F3aaTsKR1hM/hqdefault.jpg",
-     "date": "2026-10-25T01:07:59+00:00",
-     "author": "FORMULA 1",
-     "videoId": "F3aaTsKR1hM",
-     "id": "6066800b93",
-     "titleKo": "예선 통과 후 드라이버의 반응 | 2026 미국 그랑프리",
      "descKo": ""
     }
    ]
