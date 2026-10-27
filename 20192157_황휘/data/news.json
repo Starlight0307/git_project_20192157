@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T20:32:52+00:00",
+ "updated": "2026-10-27T00:29:11+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -7,6 +7,102 @@
    "sourceUrl": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
    "license": "CC BY-SA 4.0",
    "items": [
+    {
+     "id": "77d758cc35",
+     "wikiTitle": "2026 Mexico City Grand Prix",
+     "title": "2026 Mexico City Grand Prix",
+     "titleKo": "2026 멕시코시티 그랑프리",
+     "desc": "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de las Ciudad de Mexico 2026) is an upcoming Formula One motor race to be held on 1 November 2026 at…",
+     "descKo": "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de las Ciudad de Mexico 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autodromo Hermanos Rodriguez에서 열리는 Formula One 자동차 경주입니다. 이번 대회는 2026년 포뮬러 원…",
+     "link": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+     "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
+     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+     "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
+     "date": "2026-10-26T22:07:22Z",
+     "raceDate": "2026-11-01",
+     "author": "위키백과 편집자들",
+     "revid": 1382145770,
+     "license": "CC BY-SA 4.0",
+     "body": [
+      {
+       "h": "",
+       "level": 1,
+       "p": [
+        "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de las Ciudad de Mexico 2026) is an upcoming Formula One motor race to be held on 1 November 2026 at the Autodromo Hermanos Rodriguez in Mexico City, Mexico. It will be the ninteenth round of the 2026 Formula One World Championship."
+       ],
+       "hKo": "",
+       "pKo": [
+        "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de las Ciudad de Mexico 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autodromo Hermanos Rodriguez에서 열리는 Formula One 자동차 경주입니다. 이번 대회는 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드가 됩니다."
+       ]
+      },
+      {
+       "h": "Background",
+       "level": 2,
+       "p": [
+        "The event will be held at the Autodromo Hermanos Rodriguez in Mexico City for the 26th time in the circuit's history, having previously held twenty editions of the Mexican Grand Prix, across the weekend of 30-31 October-1 November. The Grand Prix will be the nineteenth round of the 2026 Formula One World Championship and the fifth held under the name of the Mexico City Grand Prix, having previously been titled the Mexican Grand Prix."
+       ],
+       "hKo": "배경",
+       "pKo": [
+        "이번 행사는 10월 30~31일부터 11월 1일까지 주말 동안 멕시코 그랑프리 20회를 개최한 이후 서킷 역사상 26번째로 멕시코 시티의 Autodromo Hermanos Rodriguez에서 개최됩니다. 그랑프리는 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드가 되며, 이전에는 멕시코 그랑프리(Mexico Grand Prix)라는 명칭을 사용했으나 멕시코시티 그랑프리(Mexico City Grand Prix)라는 이름으로 열리는 5번째 라운드가 됩니다."
+       ]
+      },
+      {
+       "h": "Championship standings before the race",
+       "level": 3,
+       "p": [
+        "Going into the weekend, Kimi Antonelli leads the Drivers' Championship with 365 points, 123 points ahead of teammate George Russell in second and 124 ahead of Lewis Hamilton in third. Mercedes, with 607 points, leads the Constructors' Championship from Ferrari, who are second with 474 points and Red Bull Racing-Red Bull Ford and McLaren, who are tied for third with 355 points, respectively."
+       ],
+       "hKo": "경기 전 챔피언십 순위",
+       "pKo": [
+        "주말에 접어들면서 Kimi Antonelli는 365점으로 드라이버 챔피언십 선두를 달리고 있습니다. 2위는 팀 동료인 George Russell보다 123점 앞서고 3위는 Lewis Hamilton보다 124점 앞서 있습니다. 메르세데스는 607점으로 컨스트럭터 챔피언십에서 474점으로 2위인 페라리, 각각 355점으로 공동 3위인 레드불 레이싱-레드불 포드, 맥라렌에 이어 컨스트럭터 챔피언십을 이끌고 있다."
+       ]
+      },
+      {
+       "h": "Tyre choices",
+       "level": 3,
+       "p": [
+        "Tyre supplier Pirelli will bring the C3, C4, and C5 tyre compounds (the softest three in their range) designated hard, medium, and soft, respectively, for teams to use at the event."
+       ],
+       "hKo": "타이어 선택",
+       "pKo": [
+        "타이어 공급업체 Pirelli는 팀이 이벤트에서 사용할 수 있도록 각각 하드, 미디엄, 소프트로 지정된 C3, C4 및 C5 타이어 컴파운드(해당 제품군에서 가장 부드러운 3개)를 가져올 예정입니다."
+       ]
+      },
+      {
+       "h": "Practice",
+       "level": 2,
+       "p": [
+        "Three free practice sessions will be held for the event. The first free practice session will be held on 30 October 2026, at 12:30 local time (UTC-6). The second free practice session will be held on the same day, at 16:00 local time. The third practice session will be held on 31 October 2026, at 11:30 local time."
+       ],
+       "hKo": "연습 주행",
+       "pKo": [
+        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 10월 30일 현지 시간(UTC-6) 12:30에 개최됩니다. 두 번째 무료 연습 세션은 같은 날 현지 시간 16:00에 진행됩니다. 세 번째 연습 세션은 2026년 10월 31일 현지 시간 11시 30분에 진행됩니다."
+       ]
+      },
+      {
+       "h": "Qualifying",
+       "level": 2,
+       "p": [
+        "Qualifying will be held on 31 October 2026, at 15:00 local time (UTC-6)."
+       ],
+       "hKo": "예선",
+       "pKo": [
+        "예선은 2026년 10월 31일 현지 시간(UTC-6) 15:00에 진행됩니다."
+       ]
+      },
+      {
+       "h": "Race",
+       "level": 2,
+       "p": [
+        "The race will be held on 1 November 2026, at 14:00 Local time (UTC-6), and will be run for 71 laps."
+       ],
+       "hKo": "결승",
+       "pKo": [
+        "경주는 2026년 11월 1일 현지 시간(UTC-6) 14:00에 개최되며 71랩 동안 진행됩니다."
+       ]
+      }
+     ]
+    },
     {
      "id": "3fb1ad91c2",
      "wikiTitle": "2026 United States Grand Prix",
@@ -18,10 +114,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-10-26T20:29:08Z",
+     "date": "2026-10-26T23:02:43Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1382133348,
+     "revid": 1382151748,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -107,17 +203,26 @@
        "h": "Qualifying",
        "level": 2,
        "p": [
-        "Qualifying was held on October 24, 2026, at 16:00 local time (UTC–5), and determined the starting grid order for the race.",
-        "In the first Qualifying segment (Q1), both Mercedes drivers Kimi Antonelli and George Russell as well as McLaren's Oscar Piastri opted to start the qualifying phase with the medium compound as opposed to the remaining nineteen drivers on the grid, with Leclerc setting the early pace ahead of Verstappen and Isack Hadjar, whilst Antonelli initially settled for fifth position by a margin of nearly a second behind Leclerc. Meanwhile, Pierre Gasly's initial lap has later been deleted due to track limits, leaving the Frenchman without a banker lap only five minutes before the end of the first segment, whilst teammate Franco Colapinto only settled for seventeenth place, with Liam Lawson putting it in sixth position following his first attempt. On their second run, Mercedes remained on their strategy to set faster times on medium tyres in order to save the softer compound for the final two segments. Russell went on to set a personal best time, however, he saw his attempt hampered by understeering heading into turn 20, enabling him only to finish seventh even behind Lawson. Despite setting absolute best times in both opening sectors, Antonelli saw himself qualifying in fifth with an disadvantage of roughly two tenths behind reigning champion Lando Norris, who topped the first segment after a significant improvement in his second run, setting the fastest intermediate sector. Meanwhile, Esteban Ocon (Haas) was eliminated in 17th ahead of Lance Stroll and both Williams drivers (Carlos Sainz Jr. and Alex Albon), with both Cadillac drivers occupying the last two places.",
-        "Going into the second Qualifying segment (Q2), Max Verstappen initially went fastest by setting a lap time of 1:34.471, with Norris being his closest challenger, only being 0.068s slower compared to Verstappen, whilst Antonelli and Russell settled for third and fourth initially. At Audi, Gabriel Bortoleto who had already amassed a grid penalty total of 80 places for changing multiple power unit elements, planned to give his teammate Nico Hülkenberg a tow on both of his runs, which turned out not to be sufficient, as Hülkenberg was later eliminated from the intermediate segment alongside Bortoleto (who has not set a time in Q2), both Alpine drivers, Haas' Oliver Bearman and Fernando Alonso. During their second runs, Russell and Antonelli managed to set fastest sector times in both the first and second one, respectively, leading them to top the time sheets with only 0.027s separating each other as Antonelli got the upper hand compared to Russell, before Leclerc went even quicker due to a superb final sector, ultimately creating a 0.080s-advantage towards Antonelli in order to top the Q2 segment.",
-        "The initial benchmark of the final segment (Q3) has been set by Russell, before Antonelli topped the timing sheets by being four tenths quicker compared to the Brit, before Verstappen was able to separate both Mercedes in order to settle for second ahead of Hadjar and Leclerc, as Russell dropped down to fifth after he set a provisional lap time initially being good enough for a top three spot. During their final runs, no driver was able to improve their respective lap times significantly. Ferrari, who were considered a favourite for pole position after topping all free practice sessions prior, saw their drivers Leclerc and Lewis Hamilton making errors going into turn 20 due to understeer, securing fourth and fifth for the Italian squad as Antonelli took pole position ahead of both Verstappen and Hadjar. It was Antonelli's seventh pole of the season, Mercedes' 155th as a constructor and its 264th as an engine manufacturer, whilst Verstappen managed to qualify on the front row for the third consecutive time. Notably, Norris set a lap time of 1:34.379 which put him into sixth. However, his lap time was deleted shortly after due to track limit violations, dropping him down to eighth behind Russell and Piastri, whilst both Racing Bulls drivers Arvid Lindblad and Lawson completed the top ten, with Lawson setting no time in order to save soft tyres for Sunday's race."
+        "Qualifying was held on October 24, 2026, at 16:00 local time (UTC–5), and determined the starting grid order for the race."
        ],
        "hKo": "예선",
        "pKo": [
-        "예선은 2026년 10월 24일 현지 시간(UTC–5) 16:00에 진행되었으며, 레이스의 스타팅 그리드 순서가 결정되었습니다.",
-        "첫 번째 예선 부문(Q1)에서 Mercedes 드라이버 Kimi Antonelli와 George Russell 그리고 McLaren의 Oscar Piastri는 그리드에 남아 있는 19명의 드라이버와 달리 중간 컴파운드로 예선 단계를 시작하기로 결정했습니다. Leclerc는 Verstappen과 Isack Hadjar보다 빠른 속도를 설정했고 Antonelli는 처음에 Leclerc보다 거의 1초 뒤진 차이로 5위를 차지했습니다. 한편, Pierre Gasly의 초기 랩은 나중에 트랙 제한으로 인해 삭제되어 첫 번째 세그먼트가 끝나기 불과 5분 전에 프랑스인은 뱅커 랩을 하지 못하게 되었으며, 팀 동료인 Franco Colapinto는 17위에 그쳤고 Liam Lawson은 첫 번째 시도 이후 6위에 올랐습니다. 두 번째 경기에서 Mercedes는 마지막 두 구간을 위해 더 부드러운 타이어를 절약하기 위해 중간 타이어에 더 빠른 시간을 설정하는 전략을 유지했습니다. Russell은 계속해서 개인 최고 기록을 세웠지만 20번 코너로 향하는 언더스티어로 인해 자신의 시도가 방해를 받아 Lawson에 이어 7위를 기록하는 데 그쳤습니다. 두 오프닝 부문 모두에서 절대적인 최고 기록을 세웠음에도 불구하고 Antonelli는 두 번째 실행에서 상당한 개선을 거쳐 첫 번째 부문에서 가장 빠른 중급 부문을 설정한 후 첫 번째 부문 1위를 차지한 현재 챔피언 Lando Norris보다 약 2/10의 불리한 점으로 5위 자격을 얻었습니다. 한편, Esteban Ocon(Haas)은 Lance Stroll과 두 Williams 드라이버(Carlos Sainz Jr. 및 Alex Albon)에 앞서 17위로 탈락했으며, 두 Cadillac 드라이버 모두 마지막 두 자리를 차지했습니다.",
-        "두 번째 예선 세그먼트(Q2)에 진입하면서 Max Verstappen은 처음에 랩 타임 1:34.471을 설정하여 가장 빠르게 달렸습니다. Norris는 그의 가장 가까운 도전자였으며 Verstappen에 비해 0.068초만 느린 반면 Antonelli와 Russell은 처음에 3위와 4위를 차지했습니다. Audi에서 여러 동력 장치 요소를 변경하여 이미 총 80자리의 그리드 페널티를 모은 Gabriel Bortoleto는 그의 팀 동료인 Nico Hülkenberg에게 두 번의 주행을 모두 견인할 계획을 세웠지만 충분하지 않은 것으로 판명되었습니다. Hülkenberg는 나중에 Bortoleto(2분기에 시간을 정하지 않은), 두 알파인 드라이버인 Haas의 Oliver Bearman 및 Fernando Alonso와 함께 중간 부문에서 탈락했기 때문입니다. 두 번째 실행 동안 Russell과 Antonelli는 각각 첫 번째와 두 번째 부문에서 가장 빠른 섹터 시간을 설정하여 Antonelli가 Russell에 비해 우위를 점하면서 서로 단 0.027초 차이로 타임시트 1위를 차지했으며, Leclerc는 뛰어난 최종 섹터로 인해 훨씬 ​​더 빠르게 진행되어 궁극적으로 Q2 부문에서 1위를 차지하기 위해 Antonelli에게 0.080초 이점을 제공했습니다.",
-        "마지막 세그먼트(Q3)의 초기 벤치마크는 Antonelli가 영국인에 비해 4/10 더 빠르게 타이밍 시트에서 1위를 차지하기 전 Russell에 의해 설정되었으며, Verstappen은 Hadjar와 Leclerc보다 앞서 2위를 차지하기 위해 두 Mercedes를 분리할 수 있었습니다. Russell은 초기에 상위 3위 자리에 충분할 정도로 잠정 랩 타임을 설정한 후 5위로 떨어졌습니다. 최종 주행 중에는 어떤 드라이버도 각자의 랩 타임을 크게 향상시키지 못했습니다. 이전의 모든 무료 연습 세션에서 1위를 차지한 후 폴 포지션에서 가장 유력한 것으로 간주되었던 Ferrari는 드라이버 Leclerc와 Lewis Hamilton이 언더스티어로 인해 20턴에서 실수를 하는 것을 보았고 Antonelli가 Verstappen과 Hadjar보다 앞서 폴 포지션을 차지하면서 이탈리아 팀에서 4위와 5위를 확보했습니다. 이는 Antonelli의 시즌 7번째 폴이었고, Mercedes는 생성자로서 155번째, 엔진 제조업체로서 264번째였으며, Verstappen은 3회 연속 선두 자리에 올랐습니다. 특히 Norris는 랩타임을 1분 34초 379로 설정하여 6위에 올랐습니다. 그러나 트랙 제한 위반으로 인해 그의 랩 타임이 삭제되어 Russell과 Piatri에 이어 8위로 떨어졌고, Racing Bulls 드라이버 Arvid Lindblad와 Lawson은 모두 상위 10위권을 완료했으며 Lawson은 일요일 경주를 위해 소프트 타이어를 절약하기 위해 시간을 설정하지 않았습니다."
+        "예선은 2026년 10월 24일 현지 시간(UTC–5) 16:00에 진행되었으며, 레이스의 스타팅 그리드 순서가 결정되었습니다."
+       ]
+      },
+      {
+       "h": "Qualifying report",
+       "level": 3,
+       "p": [
+        "In the first qualifying segment (Q1), both Mercedes drivers Kimi Antonelli and George Russell as well as McLaren's Oscar Piastri opted to start the qualifying phase with the medium compound as opposed to the remaining nineteen drivers on the grid, with Leclerc setting the early pace ahead of Verstappen and Isack Hadjar, whilst Antonelli initially settled for fifth position by a margin of nearly a second behind Leclerc. Meanwhile, Pierre Gasly's initial lap has later been deleted due to track limits, leaving the Frenchman without a banker lap only five minutes before the end of the first segment, whilst teammate Franco Colapinto only settled for seventeenth place, with Liam Lawson putting it in sixth position following his first attempt. On their second run, Mercedes remained on their strategy to set faster times on medium tyres in order to save the softer compound for the final two segments. Russell went on to set a personal best time, however, he saw his attempt hampered by understeering heading into turn 20, enabling him only to finish seventh even behind Lawson. Despite setting absolute best times in both opening sectors, Antonelli saw himself qualifying in fifth with an disadvantage of roughly two tenths behind reigning champion Lando Norris, who topped the first segment after a significant improvement in his second run, setting the fastest intermediate sector. Meanwhile, Esteban Ocon (Haas) was eliminated in 17th ahead of Lance Stroll and both Williams drivers (Carlos Sainz Jr. and Alexander Albon), with both Cadillac drivers occupying the last two places.",
+        "Going into the second qualifying segment (Q2), Max Verstappen initially went fastest, with Norris being his closest challenger, whilst Antonelli and Russell settled for third and fourth initially. At Audi, Gabriel Bortoleto who had already amassed a grid penalty total of 80 places for changing multiple power unit elements, planned to give his teammate Nico Hülkenberg a tow on both of his runs, which turned out not to be sufficient, as Hülkenberg was later eliminated from the intermediate segment alongside Bortoleto, both Alpine drivers, Haas' Oliver Bearman and Fernando Alonso. During their second runs, Russell and Antonelli managed to set fastest sector times in both the first and second one, respectively, leading them to top the time sheets, separating each other as Antonelli got the upper hand compared to Russell, before Leclerc went even quicker due to a superb final sector, ultimately creating an advantage towards Antonelli in order to top the Q2 segment.",
+        "The initial benchmark of the final segment (Q3) has been set by Russell, before Antonelli topped the timing sheets by being four tenths quicker compared to the Brit, before Verstappen was able to separate both Mercedes in order to settle for second ahead of Hadjar and Leclerc, as Russell dropped down to fifth after he set a provisional lap time initially being good enough for a top three spot. During their final runs, no driver was able to improve their respective lap times significantly. Ferrari, who were considered a favourite for pole position after topping all free practice sessions prior, saw their drivers Leclerc and Lewis Hamilton making errors going into turn 20 due to understeer, securing fourth and fifth for the Italian squad as Antonelli took pole position ahead of both Verstappen and Hadjar. It was Antonelli's seventh pole of the season, Mercedes' 155th as a constructor and its 264th as an engine manufacturer, whilst Verstappen managed to qualify on the front row for the third consecutive time. Notably, Norris set a lap time which put him into sixth. However, his lap time was deleted shortly after due to track limit violations, dropping him down to eighth behind Russell and Piastri, whilst both Racing Bulls drivers Arvid Lindblad and Lawson completed the top ten, with Lawson setting no time in order to save soft tyres for Sunday's race."
+       ],
+       "hKo": "예선 리포트",
+       "pKo": [
+        "첫 번째 예선 부문(Q1)에서 Mercedes 드라이버 Kimi Antonelli와 George Russell 그리고 McLaren의 Oscar Piastri는 그리드에 남아 있는 19명의 드라이버와 달리 중간 컴파운드로 예선 단계를 시작하기로 결정했습니다. Leclerc는 Verstappen과 Isack Hadjar보다 빠른 속도를 설정했고 Antonelli는 처음에 Leclerc보다 거의 1초 뒤진 차이로 5위를 차지했습니다. 한편, Pierre Gasly의 초기 랩은 나중에 트랙 제한으로 인해 삭제되어 첫 번째 세그먼트가 끝나기 불과 5분 전에 프랑스인은 뱅커 랩을 하지 못하게 되었으며, 팀 동료인 Franco Colapinto는 17위에 그쳤고 Liam Lawson은 첫 번째 시도 이후 6위에 올랐습니다. 두 번째 경기에서 Mercedes는 마지막 두 구간을 위해 더 부드러운 타이어를 절약하기 위해 중간 타이어에 더 빠른 시간을 설정하는 전략을 유지했습니다. Russell은 계속해서 개인 최고 기록을 세웠지만 20번 코너로 향하는 언더스티어로 인해 자신의 시도가 방해를 받아 Lawson에 이어 7위를 기록하는 데 그쳤습니다. 두 오프닝 부문 모두에서 절대적인 최고 기록을 세웠음에도 불구하고 Antonelli는 두 번째 실행에서 상당한 개선을 거쳐 첫 번째 부문에서 가장 빠른 중급 부문을 설정한 후 첫 번째 부문 1위를 차지한 현재 챔피언 Lando Norris보다 약 2/10의 불리한 점으로 5위 자격을 얻었습니다. 한편, Esteban Ocon(Haas)은 Lance Stroll과 두 Williams 드라이버(Carlos Sainz Jr. 및 Alexander Albon)에 앞서 17위로 탈락했으며, 두 Cadillac 드라이버 모두 마지막 두 자리를 차지했습니다.",
+        "두 번째 예선 부문(Q2)에 진입하면서 Max Verstappen은 처음에는 가장 빠른 속도로 나아갔고 Norris는 그의 가장 가까운 도전자였으며 Antonelli와 Russell은 처음에 3위와 4위를 차지했습니다. Audi에서는 여러 동력 장치 요소를 변경하여 이미 총 80자리의 그리드 페널티를 모은 Gabriel Bortoleto는 팀 동료인 Nico Hülkenberg에게 두 번의 주행을 모두 견인할 계획을 세웠지만 Hülkenberg는 나중에 Bortoleto와 함께 알파인 드라이버인 Haas의 Oliver Bearman 및 Fernando Alonso와 함께 중간 부문에서 탈락했기 때문에 충분하지 않은 것으로 나타났습니다. 두 번째 실행 동안 Russell과 Antonelli는 각각 첫 번째와 두 번째 부문에서 가장 빠른 섹터 시간을 설정하여 시간 기록표 1위에 올랐으며, Antonelli가 Russell에 비해 우위를 점하면서 서로 분리되었고, Leclerc는 뛰어난 최종 섹터로 인해 훨씬 ​​더 빠르게 진행되어 궁극적으로 Q2 부문에서 1위를 차지하기 위해 Antonelli에게 이점을 제공했습니다.",
+        "최종 세그먼트(Q3)의 초기 벤치마크는 Antonelli가 영국인에 비해 4/10 더 빠르게 타이밍 시트에서 1위를 차지하기 전 Russell에 의해 설정되었으며, Verstappen은 Hadjar와 Leclerc보다 앞서 2위를 차지하기 위해 두 Mercedes를 분리할 수 있었습니다. Russell은 처음에 상위 3위 자리에 충분할 정도로 잠정 랩 타임을 설정한 후 5위로 떨어졌습니다. 최종 주행 중에는 어떤 드라이버도 각자의 랩 타임을 크게 향상시키지 못했습니다. 이전의 모든 무료 연습 세션에서 1위를 차지한 후 폴 포지션에서 가장 유력한 것으로 간주되었던 Ferrari는 드라이버 Leclerc와 Lewis Hamilton이 언더스티어로 인해 20턴에서 실수를 하는 것을 보았고 Antonelli가 Verstappen과 Hadjar보다 앞서 폴 포지션을 차지하면서 이탈리아 팀에서 4위와 5위를 확보했습니다. 이는 Antonelli의 시즌 7번째 폴이었고, Mercedes는 생성자로서 155번째, 엔진 제조업체로서 264번째였으며, Verstappen은 3회 연속 선두 자리에 올랐습니다. 특히 Norris는 랩 타임을 설정하여 6위에 올랐습니다. 그러나 트랙 제한 위반으로 인해 그의 랩 타임이 삭제되어 Russell과 Piatri에 이어 8위로 떨어졌고, Racing Bulls 드라이버 Arvid Lindblad와 Lawson은 모두 상위 10위권을 완료했으며 Lawson은 일요일 경주를 위해 소프트 타이어를 절약하기 위해 시간을 설정하지 않았습니다."
        ]
       },
       {
@@ -132,14 +237,52 @@
        ]
       },
       {
+       "h": "Race report",
+       "level": 3,
+       "p": [
+        "Pole sitter Kimi Antonelli got off his starting position brilliantly, with both Red Bull drivers Max Verstappen and Isack Hadjar having a rather subpar getaway off the line, allowing Charles Leclerc to immediately sweep past Hadjar for third before overtaking Verstappen spectacularly through the fast sweeping chicanes in order to take second. Meanwhile, Lewis Hamilton also had a good start, overtaking Hadjar for fourth in the process. While Antonelli had already build a huge gap in the opening stages, the battle for the further spots were highly contested, even through lap 1 as Verstappen was set for a counterattack towards Leclerc by divebombing him successfully at the entry of turn 16 ahead of the multi-apex right-handed corner complex. George Russell, who tried to make amends after a disappointing qualfying session, attacked Hadjar en route to the hairpin, but went wide after locking up, causing him to leave the track upon rejoining, which the stewards has deemed as an unfair advantage and thus giving him a five-second time penalty.",
+        "Further down the order, a couple of battles in the midfield were occurring as well, as Oliver Bearman and Pierre Gasly were fighting for tenth position, which ended in a slight collision between the two and them. The stewards deemed the former as fully responsible for the accident and therefore handed him a ten-second time penalty. Notably, Fernando Alonso and Alex Albon were involved in another midfield scramble for sixteenth place. The battle between the pair went across multiple laps, which found its conclusion in a collision between both, leaving Alonso with severe damage on the floor which was later revealed in the post-race interviews. This caused Alonso to critisize the Thai driver for his on-track behaviour, stating that \"the quality of drivers at the bottom is very low\".",
+        "During the first sequence of pit stops, Verstappen was the first to come in for an early tyre change on lap 14, opting for an aggressive two-stop-strategy by using another set of soft tyres, with Leclerc and Hamilton covering him by opting for the same strategy, whilst both Lando Norris and Oscar Piastri decided to box for the hard compound. During their second stints, both Verstappen and Leclerc decided to increase the pressure towards Antonelli, who stayed out on his medium compound tyre, with which he started the race. Hadjar and Russell stayed out as well in order to delay their respective pit stops onto a later period. However, Verstappen and Leclerc easily got past both drivers, with Red Bull instructing Hadjar to let Verstappen through in order to avoid Leclerc coming closer to the Dutchman, which worked briefly before he himself was summonded to the pit lane for his mandatory pit stop.",
+        "On lap 25, Mercedes decided to pit Antonelli for his mandatory pit stop, putting him on the hard compound tyre as well, which subsequently demoted him to third. Shortly after, Verstappen reported an imbalanced feeling in the car, stating that the car felt undriveable on those set of medium tyres, causing him to pit for the second time for prime tyres seven laps later. This put Antonelli into a great position for the race victory as he got past Leclerc, before the Monégasque driver opted for a second pit stop after serving his second stint on medium tyres. Whilst Antonelli maintained his comfortable lead, the battle for second position reached its climax, with Norris trying to make the one-stop-strategy work. However, it left him exposed at the final stages as both Verstappen and Leclerc closed the gap to the reigning champion by setting fast lap times on fresher rubber.",
+        "With ten laps to go, Leclerc successfully caught up to both Norris and Verstappen. In order to defend himself from Leclerc, Verstappen opted for a divebomb on Norris heading into turn 1, catching Norris off guard and allowing himself to take second, with Leclerc subsequently attacking Norris ahead of the fast sweeping chichanes before overtaking him later at the entry of turn 13 after Norris locked up. The Ferrari driver would then catch up to Verstappen and overtake him in the process, two laps later. Norris paid tribute for a risky strategy as he got overtaken by Hamilton, who himself tried to close the gap to Verstappen in order to snatch away third place from him, before a late Virtual Safety Car phase has been triggered following a late retirement of Cadillac's Valtteri Bottas due to an engine issue, neutralizing the race for several race laps before it was restarted under green flag conditions.",
+        "Antonelli then crossed the line to convert pole position into a comfortable ninth career victory and his first one since the 2026 Spanish Grand Prix. Leclerc and Verstappen rounded up the podium, with Leclerc finishing on the podium for the 56th time in his career which put him second in Ferrari's all-time podium scorer list. Verstappen marginally hung onto third place from Hamilton, with Norris settling for fifth position ahead of Hadjar. Piastri, Russell, Lawson and Gasly completed the top ten."
+       ],
+       "hKo": "결승 리포트",
+       "pKo": [
+        "폴 시터인 Kimi Antonelli는 Red Bull 드라이버인 Max Verstappen과 Isack Hadjar가 다소 수준 이하의 도주를 하면서 출발 위치를 훌륭하게 벗어났습니다. Charles Leclerc는 즉시 Hadjar를 제치고 3위를 차지한 후 빠른 속도로 치케인을 통과하여 Verstappen을 눈부시게 추월하여 2위를 차지했습니다. 한편 루이스 해밀턴(Lewis Hamilton)도 좋은 출발을 보이며 Hadjar를 제치고 4위를 차지했습니다. Antonelli는 이미 오프닝 단계에서 큰 격차를 벌렸지만, Verstappen은 다중 정점 오른쪽 코너 컴플렉스에 앞서 16번째 턴 진입에서 Leclerc를 성공적으로 폭격하여 Leclerc를 향한 반격을 준비했기 때문에 랩 1을 통해서도 추가 지점을 위한 전투가 치열했습니다. 실망스러운 예선 세션 후 수정을 시도한 George Russell은 머리핀으로가는 도중 Hadjar를 공격했지만 잠긴 후 폭이 넓어서 다시 합류하자마자 트랙을 떠나게 만들었고, 스튜어드는 이를 불공정한 이점으로 간주하여 그에게 5초의 시간 페널티를 제공했습니다.",
+        "더 나아가 미드필더에서도 몇 차례의 싸움이 벌어지고 있었는데, 올리버 베어먼과 피에르 가슬리가 10위 자리를 놓고 다투다가 둘 사이의 약간의 충돌로 끝났습니다. 청지기들은 전자가 사고에 대해 전적으로 책임이 있다고 판단하여 그에게 10초의 벌금을 부과했습니다. 특히 페르난도 알론소(Fernando Alonso)와 알렉스 알본(Alex Albon)이 16위를 놓고 또 다른 미드필더 쟁탈전을 벌였습니다. 두 사람 사이의 전투는 여러 바퀴에 걸쳐 진행되었으며, 둘 사이의 충돌로 결론을 내렸고 Alonso는 바닥에 심각한 손상을 입혔으며 나중에 경주 후 인터뷰에서 공개되었습니다. 이로 인해 Alonso는 \"바닥에 있는 운전자의 자질이 매우 낮다\"고 말하면서 트랙에서의 행동에 대해 태국 운전자를 비판했습니다.",
+        "첫 번째 피트 스탑 시퀀스 동안 Verstappen은 랩 14에서 조기 타이어 교체를 위해 가장 먼저 들어와 다른 소프트 타이어 세트를 사용하여 공격적인 2스톱 전략을 선택했습니다. Leclerc와 Hamilton은 동일한 전략을 선택하여 그를 덮었고 Lando Norris와 Oscar Piatri는 하드 컴파운드를 위해 박스를 선택하기로 결정했습니다. 두 번째 기간 동안 Verstappen과 Leclerc는 미디엄 컴파운드 타이어를 사용하지 않고 레이스를 시작한 Antonelli에 대한 압력을 높이기로 결정했습니다. Hadjar와 Russell도 각자의 피트 스탑을 나중으로 연기하기 위해 자리를 비웠습니다. 그러나 Verstappen과 Leclerc는 Leclerc가 더치맨에게 가까이 다가가는 것을 피하기 위해 Hadjar에게 Verstappen을 통과시키라고 지시하면서 두 드라이버를 쉽게 추월했습니다. 이는 Leclerc가 필수 피트 스탑을 위해 피트 레인으로 소환되기 전에 잠시 작동했습니다.",
+        "랩 25에서 Mercedes는 Antonelli에게 피트 스탑을 의무적으로 적용하기로 결정하고 하드 컴파운드 타이어도 장착했으며 그 결과 3위로 강등되었습니다. 얼마 지나지 않아 Verstappen은 차 안에서 불균형한 느낌을 받았다고 보고했으며, 중형 타이어 세트에서는 차가 운전할 수 없다고 느꼈고, 이로 인해 7바퀴 후에 두 번째로 프라임 타이어를 구하게 되었습니다. 이로 인해 Antonelli는 Leclerc를 통과하면서 레이스 승리를 위한 좋은 위치에 놓이게 되었고, Monégasque 드라이버는 두 번째로 미디엄 타이어를 장착한 후 두 번째 피트 스탑을 선택했습니다. Antonelli가 편안한 선두를 유지하는 동안 Norris가 원스톱 전략을 실행하려고 시도하면서 2위 위치를 위한 전투가 절정에 달했습니다. 그러나 Verstappen과 Leclerc는 더 새로운 고무에 빠른 랩 타임을 설정하여 현재 챔피언과의 격차를 좁히면서 마지막 단계에서 그를 노출시켰습니다.",
+        "10바퀴를 돌린 상태에서 Leclerc는 Norris와 Verstappen을 모두 성공적으로 따라잡았습니다. Leclerc로부터 자신을 방어하기 위해 Verstappen은 1턴으로 향하는 Norris에 다이브밤을 선택하여 Norris를 방심하고 2위를 차지하도록 허용했습니다. Leclerc는 이후 빠른 속도로 휩쓸고 있는 치찬보다 앞서 Norris를 공격한 후 Norris가 잠긴 후 13턴 진입에서 그를 추월했습니다. 그런 다음 Ferrari 드라이버는 Verstappen을 따라 잡고 2 바퀴 후에 그 과정에서 그를 추월했습니다. Norris는 엔진 문제로 인해 Cadillac의 Valtteri Bottas가 늦게 은퇴한 후 늦은 Virtual Safety Car 단계가 시작되기 전에 Verstappen과의 격차를 좁히려고 시도한 Hamilton에게 추월당하면서 위험한 전략에 경의를 표했습니다. 이는 녹색 깃발 조건에서 다시 시작되기 전에 여러 경주 랩에 대한 경주를 무력화시켰습니다.",
+        "그런 다음 Antonelli는 선을 넘어 폴 포지션을 편안한 통산 9번째 승리이자 2026년 스페인 그랑프리 이후 첫 승리로 전환했습니다. Leclerc와 Verstappen은 포디움에 올랐고, Leclerc는 자신의 경력 중 56번째로 포디움에 올랐으며, 이로써 그는 Ferrari의 역대 포디움 득점자 목록에서 2위를 차지했습니다. Verstappen은 Hamilton에서 3위를 차지했으며 Norris는 Hadjar보다 5위를 차지했습니다. Piatri, Russell, Lawson 및 Gasly가 상위 10위권을 차지했습니다."
+       ]
+      },
+      {
+       "h": "Post-race and championship impact",
+       "level": 3,
+       "p": [
+        "Despite winning the Grand Prix, the championship was not decided at this race as both Hamilton and Russell finished better than fifth and ninth, respectively. Antonelli was praised by several media outlets and experts for his commanding win, especially by team principal and CEO Toto Wolff, who described Antonelli's performance as “the best race that he’s delivered so far. Getting off the start with the inferior tire, and then controlling it at all times. The race of a champion who isn’t the champion yet. Exceptional.”",
+        "His victory allowed him to extend his points advantage in the championship to 123 and 124 points to Russell and Hamilton, respectively. This meant that a ninth-place finish at the next round in Mexico City would be sufficient in order to claim his maiden Drivers' Championship. Following the result, it meant that Verstappen, Leclerc and Norris were mathematically eliminated from championship contention, with Verstappen being out of contention for the Drivers' title for the first time in six years.",
+        "The Constructors' Championship leaves Mercedes and Ferrari as the remaining contenders. However, Ferrari cut the points advantage towards Mercedes by just a single point, meaning that Mercedes leads the standings by 133 points with a total of 215 still to be awarded with five rounds to go. In the battle for third in the standings, both Red Bull and McLaren moved to 355 points, but Red Bull claimed third on countback by virtue of having the better individual statistics as both teams won two races each."
+       ],
+       "hKo": "레이스 후 및 챔피언십에 미치는 영향",
+       "pKo": [
+        "이번 레이스에서는 그랑프리 우승에도 불구하고 해밀턴과 러셀이 각각 5위와 9위를 기록해 우승이 결정되지 않았다. Antonelli는 자신의 압도적인 승리에 대해 여러 언론 매체와 전문가들로부터 칭찬을 받았으며, 특히 Antonelli의 성과를 \"지금까지 제공한 최고의 레이스. 열등한 타이어로 출발한 다음 항상 이를 제어합니다. 아직 챔피언이 아닌 챔피언의 레이스. 예외적입니다.\"라고 묘사한 팀장이자 CEO인 Toto Wolff로부터 칭찬을 받았습니다.",
+        "그의 승리를 통해 그는 챔피언십에서 러셀과 해밀턴에게 각각 123점과 124점으로 포인트 이점을 확장할 수 있었습니다. 이는 멕시코 시티에서 열리는 다음 라운드에서 9위를 차지하면 그의 첫 번째 드라이버 챔피언십을 획득하기에 충분하다는 것을 의미했습니다. 결과에 따라 Verstappen, Leclerc 및 Norris는 수학적으로 챔피언십 경쟁에서 제외되었으며 Verstappen은 6년 만에 처음으로 드라이버 타이틀 경쟁에서 벗어났습니다.",
+        "컨스트럭터 챔피언십에서는 메르세데스와 페라리가 남은 경쟁자로 남았습니다. 그러나 Ferrari는 Mercedes에 대한 포인트 우위를 단 1포인트만 줄였습니다. 이는 Mercedes가 133포인트 차로 선두를 달리고 있으며 총 215포인트가 남아 있으며 5라운드가 남아 있다는 의미입니다. 3위 경쟁에서 Red Bull과 McLaren은 모두 355점으로 올라갔지만 Red Bull은 두 팀 모두 2번의 레이스에서 승리하면서 더 나은 개인 통계를 바탕으로 카운트백에서 3위를 차지했습니다."
+       ]
+      },
+      {
        "h": "Championship standings after the race",
        "level": 2,
        "p": [
-        "Note: Only the top five positions are included for both sets of standings."
+        "Note: Only the top five positions are included for both sets of standings.",
+        "Competitor marked in bold and with an asterisk still has a theoretical chance of becoming World Champion."
        ],
        "hKo": "경기 후 챔피언십 순위",
        "pKo": [
-        "참고: 두 세트의 순위에는 상위 5개 순위만 포함됩니다."
+        "참고: 두 세트의 순위에는 상위 5개 순위만 포함됩니다.",
+        "굵은 글씨와 별표로 표시된 경쟁자는 이론적으로 세계 챔피언이 될 가능성이 있습니다."
        ]
       }
      ]
@@ -1625,189 +1768,6 @@
        ]
       }
      ]
-    },
-    {
-     "id": "3acd0e360e",
-     "wikiTitle": "2026 Belgian Grand Prix",
-     "title": "2026 Belgian Grand Prix",
-     "titleKo": "2026 벨기에 그랑프리",
-     "desc": "The 2026 Belgian Grand Prix (officially known as the Formula 1 Moët & Chandon Belgian Grand Prix 2026) is a Formula One motor race that took place on 19 July 2026 at the Circuit…",
-     "descKo": "2026 벨기에 그랑프리(공식 명칭: Formula 1 Moët & Chandon Belgian Grand Prix 2026)는 2026년 7월 19일 벨기에 Stavelot의 Circuit de Spa-Francorchamps에서 열린 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의…",
-     "link": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix",
-     "historyUrl": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix?action=history",
-     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Spa-Francorchamps_of_Belgium.svg/1280px-Spa-Francorchamps_of_Belgium.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-     "imageFile": "Spa-Francorchamps_of_Belgium.svg",
-     "date": "2026-10-19T14:41:59Z",
-     "raceDate": "2026-07-19",
-     "author": "위키백과 편집자들",
-     "revid": 1381024873,
-     "license": "CC BY-SA 4.0",
-     "body": [
-      {
-       "h": "",
-       "level": 1,
-       "p": [
-        "The 2026 Belgian Grand Prix (officially known as the Formula 1 Moët & Chandon Belgian Grand Prix 2026) is a Formula One motor race that took place on 19 July 2026 at the Circuit de Spa-Francorchamps in Stavelot, Belgium. It was the tenth round of the 2026 Formula One World Championship.",
-        "Kimi Antonelli (Mercedes) converted pole position into his sixth victory of both the season and his Formula One career. Antonelli briefly lost the lead to Max Verstappen (Red Bull) on the opening lap and later to Charles Leclerc (Ferrari) after the latter benefited from a virtual safety car-assisted pit stop. He recovered to pass Leclerc on lap 34 and won by just under two seconds, with Leclerc finishing second and Verstappen completing the podium. Antonelli's championship rival and teammate George Russell retired following an opening-lap collision with Lewis Hamilton, enabling Antonelli to extend his championship lead to 45 points over Hamilton and 50 over Russell."
-       ],
-       "hKo": "",
-       "pKo": [
-        "2026 벨기에 그랑프리(공식 명칭: Formula 1 Moët & Chandon Belgian Grand Prix 2026)는 2026년 7월 19일 벨기에 Stavelot의 Circuit de Spa-Francorchamps에서 열린 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 10번째 라운드였습니다.",
-        "키미 안토넬리(Mercedes)는 폴 포지션을 시즌과 Formula One 경력 모두에서 6번째 승리로 전환했습니다. Antonelli는 오프닝 랩에서 Max Verstappen(Red Bull)에게 잠시 선두를 잃었고 나중에 Charles Leclerc(Ferrari)가 버추얼 세이프티카 지원 피트 스탑의 혜택을 받은 후 선두를 잃었습니다. 그는 회복하여 랩 34에서 Leclerc를 추월했고 2초도 안 되는 차이로 승리했으며 Leclerc는 2위를 차지했고 Verstappen은 포디엄을 완료했습니다. Antonelli의 챔피언십 라이벌이자 팀 동료인 George Russell은 Lewis Hamilton과의 오프닝 랩 충돌 후 은퇴하여 Antonelli가 챔피언십 선두를 Hamilton보다 45점, Russell보다 50점으로 연장할 수 있었습니다."
-       ]
-      },
-      {
-       "h": "Background",
-       "level": 2,
-       "p": [
-        "The event was held at the Circuit de Spa-Francorchamps in Stavelot for the 59th time in the circuit's history, across the weekend of 17–19 July. The Grand Prix was the tenth round of the 2026 Formula One World Championship and the 71st running of the Belgian Grand Prix as a round of the Formula One World Championship."
-       ],
-       "hKo": "배경",
-       "pKo": [
-        "이 행사는 7월 17일부터 19일까지 주말 동안 서킷 역사상 59번째로 Stavelot의 Circuit de Spa-Francorchamps에서 열렸습니다. 그랑프리는 2026년 포뮬러 원 월드 챔피언십의 10번째 라운드이자 포뮬러 원 월드 챔피언십의 한 라운드로서 벨기에 그랑프리의 71번째 대회였습니다."
-       ]
-      },
-      {
-       "h": "Championship standings before the race",
-       "level": 3,
-       "p": [
-        "Going into the weekend, Kimi Antonelli led the Drivers' Championship with 179 points, 25 points ahead of his teammate George Russell in second, and 32 ahead of Lewis Hamilton in third. Mercedes, with 333 points, led the Constructors' Championship from Ferrari and McLaren, who were second and third with 255 and 179 points, respectively."
-       ],
-       "hKo": "경기 전 챔피언십 순위",
-       "pKo": [
-        "주말에 접어들면서 Kimi Antonelli는 179점으로 드라이버 챔피언십 1위를 차지했습니다. 2위는 팀 동료인 George Russell보다 25점 앞서고, 3위는 Lewis Hamilton보다 32점 앞선 것입니다. Mercedes는 333점으로 컨스트럭터 챔피언십에서 각각 255점과 179점으로 2위와 3위를 차지한 Ferrari와 McLaren에 이어 1위를 차지했습니다."
-       ]
-      },
-      {
-       "h": "Entrants",
-       "level": 3,
-       "p": [
-        "The drivers and teams were the same as published in the season entry list, with no additional stand-in drivers for the race. During the first practice session Fernando Alonso (Aston Martin) was replaced by Jak Crawford, a driver who had not raced in more than two Grands Prix, as required by the Formula One regulations."
-       ],
-       "hKo": "출전 명단",
-       "pKo": [
-        "드라이버와 팀은 시즌 참가 목록에 게시된 것과 동일했으며 레이스에 대한 추가 대기 드라이버는 없었습니다. 첫 번째 연습 세션에서 Fernando Alonso(Aston Martin)는 Formula One 규정에 따라 두 번 이상 그랑프리에 출전하지 않은 드라이버 Jak Crawford로 교체되었습니다."
-       ]
-      },
-      {
-       "h": "Tyre choices",
-       "level": 3,
-       "p": [
-        "Tyre supplier Pirelli brought the C2, C3 and C4 tyre compounds, designated hard, medium and soft, respectively, for teams to use at the event."
-       ],
-       "hKo": "타이어 선택",
-       "pKo": [
-        "타이어 공급업체인 Pirelli는 팀이 행사에서 사용할 수 있도록 각각 하드, 미디엄, 소프트로 지정된 C2, C3 및 C4 타이어 컴파운드를 가져왔습니다."
-       ]
-      },
-      {
-       "h": "Practice",
-       "level": 2,
-       "p": [
-        "Three free practice sessions were held for the event. The first free practice session was held on 17 July 2026, at 13:30 local time (UTC+2), and was topped by Max Verstappen (Red Bull) ahead of Lewis Hamilton (Ferrari) and his teammate Charles Leclerc. The second free practice session was held on the same day, at 17:00 local time, and was topped by Kimi Antonelli (Mercedes) ahead of Lando Norris (McLaren) and Verstappen. The third free practice session was held on 18 July 2026, at 12:30 local time, and was topped by Antonelli ahead of Norris and Verstappen. The session was most notable for Hamilton crashing at the tail end of the session and breaking his right-rear suspension."
-       ],
-       "hKo": "연습 주행",
-       "pKo": [
-        "행사를 위해 세 번의 무료 연습 세션이 열렸습니다. 첫 번째 무료 연습 세션은 2026년 7월 17일 현지 시간(UTC+2) 13시 30분에 열렸으며, 루이스 해밀턴(페라리)과 그의 팀 동료인 찰스 르클레르(Charles Leclerc)를 앞지르고 막스 베르스타펜(Red Bull)이 1위를 차지했습니다. 같은 날 현지시간 17시 2차 자유연습 세션이 진행됐는데, 란도 노리스(맥라렌)와 베르스타펜에 앞서 키미 안토넬리(메르세데스)가 1위를 차지했다. 세 번째 무료 연습 세션은 2026년 7월 18일 현지 시간 12시 30분에 열렸으며 Antonelli가 Norris와 Verstappen을 앞지르며 1위를 차지했습니다. 이 세션은 해밀턴이 세션이 끝날 때 충돌하고 오른쪽 후면 서스펜션을 깨뜨린 것으로 가장 주목할 만했습니다."
-       ]
-      },
-      {
-       "h": "Qualifying",
-       "level": 2,
-       "p": [
-        "Qualifying was held on 18 July 2026, at 16:00 local time (UTC+2), and determined the starting grid order for the race."
-       ],
-       "hKo": "예선",
-       "pKo": [
-        "예선은 2026년 7월 18일 현지 시간(UTC+2) 16:00에 진행되었으며 레이스의 스타팅 그리드 순서가 결정되었습니다."
-       ]
-      },
-      {
-       "h": "Qualifying report",
-       "level": 3,
-       "p": [
-        "Qualifying was held in dry conditions. Kimi Antonelli (Mercedes) entered the session as the favourite for pole position after setting the fastest time in both the second and third practice sessions, while Mercedes had taken pole at each of the opening nine rounds of the season. Ferrari had repaired Lewis Hamilton's car following his crash at Les Fagnes near the end of final practice, with the suspension, floor and rear assembly having sustained damage. Lando Norris, Isack Hadjar, Lance Stroll and Fernando Alonso were due to receive grid penalties for exceeding their permitted allocations of power unit components.",
-        "The opening part of qualfying (Q1), began slowly, with Stroll and the Cadillac drivers Valtteri Bottas and Sergio Pérez initially the only cars on the circuit. Pérez set the first representative time before the remainder of the field emerged on the soft compound tyres. Max Verstappen (Red Bull) became the first frontrunner to lead the session, with Arvid Lindblad (Racing Bulls) initially his closest challenger. Hadjar then moved behind Verstappen before Norris (McLaren) set the fastest time of Q1. Norris, Verstappen and Hadjar remained in the pits during the final runs. Franco Colapinto (Alpine) escaped the elimination zone by improving to thirteenth, while teammate Pierre Gasly also improved and set the fastest final sector of the session. Their laps dropped Alexander Albon (Williams) to seventeenth behind Oliver Bearman (Haas), resulting in Albon's sixth Q1 elimination in ten events. Esteban Ocon was eliminated in eighteenth, ahead of Bottas, Pérez and the two Aston Martin drivers Alonso and Stroll.",
-        "Unlike Q1, a queue formed immediately at the start of the second part of qualifying (Q2). Colapinto established the first benchmark before Antonelli moved to the top ahead of Charles Leclerc and teammate George Russell. Lindblad placed sixth after the first runs, ahead of Oscar Piastri and Russell. Antonelli, Norris, Hamilton and Verstappen elected not to complete another timed lap, while Leclerc joined the drivers attempting a second run despite occupying second position. Gabriel Bortoleto (Audi) secured the final position for Q3 (the final part of qualifying) over Liam Lawson, who was eliminated in eleventh. Gasly and Colapinto followed in twelfth and thirteenth, while Nico Hülkenberg qualified fourteenth before being instructed to stop his Audi on the circuit with a hydraulic leak. The recovery of Hülkenberg's car delayed the beginning of Q3. Carlos Sainz Jr. placed fifteenth, ahead of Bearman, who completed the Q2 elimination positions.",
-        "In Q3, Hadjar abandoned the pursuit of a representative lap and was instead used by Red Bull to provide Verstappen with a slipstream through the final sector. Verstappen initially moved to the top, before Antonelli went quickest, but soon Norris improved to claim provisional pole position. The session was then red-flagged after Piastri ran through the gravel at Stavelot, leaving debris on the racing line that had to be cleared by the marshals. Hadjar again led his teammate onto the circuit for the final attempts, enabling Verstappen to improve. Antonelli immediately responded by improving in all three sectors, beating Verstappen. Norris ran through the gravel at turn 13 and abandoned his final attempt, leaving him third. Russell improved to fourth, while Leclerc remained fifth after lifting at the final chicane when a yellow flag intended for the pit entry was displayed within his line of sight. Leclerc finished behind Russell and ahead of Hamilton. Piastri qualified seventh ahead of Lindblad and Bortoleto, while Hadjar was classified tenth without setting a lap time.",
-        "After qualifying, Norris received a ten-place grid penalty for using a fourth control electronics unit, while Stroll received the same penalty for taking a fourth motor generator unit–kinetic. Hadjar accumulated a 30-place penalty after Red Bull installed a fifth internal combustion engine, turbocharger and exhaust set, while Alonso received a 20-place penalty for taking a fifth energy store, fifth control electronics unit and seventh power unit ancillary component. Norris was consequently demoted from third to thirteenth, promoting Russell, Leclerc, Hamilton, Piastri, Lindblad, Bortoleto, Lawson, Gasly, Colapinto and Hülkenberg by one position. Although Stroll had qualified last, he was placed twentieth on the provisional grid, ahead of Hadjar and Alonso, who were allocated twenty-first and twenty-second respectively after their larger penalties. Antonelli's result was his sixth pole position of the season and extended Mercedes' unbeaten qualifying run to all ten rounds held in 2026. His margin over Verstappen was the largest pole-position advantage of the season, while the result placed Antonelli on the front row alongside Verstappen and Russell directly behind his teammate, with Antonelli holding a 25-point lead over Russell in the Drivers' Championship."
-       ],
-       "hKo": "예선 리포트",
-       "pKo": [
-        "예선은 건조한 환경에서 진행되었습니다. 키미 안토넬리(메르세데스)는 두 번째와 세 번째 연습 세션 모두에서 가장 빠른 기록을 세운 후 폴 포지션 후보로 세션에 참가했으며, 메르세데스는 시즌 개막 9라운드에서 각각 폴 포지션을 차지했습니다. Ferrari는 마지막 연습이 끝나갈 무렵 Les Fagnes에서 충돌한 루이스 해밀턴의 차를 수리했으며 서스펜션, 바닥 및 후면 어셈블리가 손상을 입었습니다. Lando Norris, Isack Hadjar, Lance Stroll 및 Fernando Alonso는 허용된 전력 장치 구성 요소 할당을 초과하여 그리드 페널티를 받을 예정이었습니다.",
-        "예선(Q1)의 시작 부분은 Stroll과 Cadillac 드라이버 Valtteri Bottas 및 Sergio Pérez가 처음에는 서킷의 유일한 차량으로 천천히 시작되었습니다. Pérez는 필드의 나머지 부분이 소프트 컴파운드 타이어로 나타나기 전에 첫 번째 대표 시간을 설정했습니다. Max Verstappen(Red Bull)이 세션을 이끄는 최초의 선두 주자가 되었으며, Arvid Lindblad(Racing Bulls)가 처음에는 가장 가까운 도전자가 되었습니다. Hadjar는 Norris(McLaren)가 Q1의 가장 빠른 기록을 설정하기 전에 Verstappen 뒤로 이동했습니다. Norris, Verstappen 및 Hadjar는 최종 실행 동안 구덩이에 남아있었습니다. Franco Colapinto(Alpine)는 13위로 향상하여 제거 영역을 탈출했으며, 팀 동료인 Pierre Gasly도 향상되어 세션의 가장 빠른 최종 구간을 설정했습니다. 그들의 랩은 Alexander Albon(Williams)을 Oliver Bearman(Haas)에 이어 17위로 떨어뜨렸고, 그 결과 Albon은 10개 이벤트에서 6번째 Q1 탈락을 기록했습니다. Esteban Ocon은 Bottas, Pérez 및 두 명의 Aston Martin 드라이버 Alonso와 Stroll을 앞지르며 18위로 탈락했습니다.",
-        "Q1과 달리 2차 예선(Q2) 시작과 동시에 대기열이 형성됩니다. Colapinto는 Antonelli가 Charles Leclerc와 팀 동료인 George Russell보다 앞서 정상에 오르기 전에 첫 번째 벤치마크를 확립했습니다. Lindblad는 첫 번째 실행 후 Oscar Piatri와 Russell에 앞서 6위를 차지했습니다. Antonelli, Norris, Hamilton 및 Verstappen은 또 다른 시간 제한 랩을 완료하지 않기로 결정했으며 Leclerc는 2위 위치를 차지했음에도 불구하고 두 번째 실행을 시도하는 드라이버에 합류했습니다. Gabriel Bortoleto(Audi)는 11위로 탈락한 Liam Lawson을 제치고 3분기(예선 마지막 부분) 최종 순위를 확보했습니다. Gasly와 Colapinto는 12위와 13위를 차지했고, Nico Hülkenberg는 유압 누출로 서킷에서 Audi를 정지하라는 지시를 받기 전에 14위를 차지했습니다. Hülkenberg의 차량 복구로 인해 3분기 시작이 지연되었습니다. Carlos Sainz Jr.는 2분기 탈락 순위를 완료한 Bearman보다 앞서 15위를 차지했습니다.",
-        "3분기에 Hadjar는 대표 랩 추구를 포기하고 대신 Red Bull에서 Verstappen에게 최종 섹터를 통한 슬립스트림을 제공하는 데 사용되었습니다. Verstappen은 처음에는 Antonelli가 가장 빨리 가기 전에 정상으로 올라갔지만 곧 Norris는 향상되어 임시 폴 위치를 차지했습니다. Piastri가 Stavelot의 자갈을 통과하여 경주 라인에 잔해를 남기고 보안관이 제거해야 했던 후 세션은 레드 플래그로 표시되었습니다. Hadjar는 최종 시도를 위해 팀 동료를 다시 서킷으로 이끌었고 Verstappen의 실력이 향상되었습니다. Antonelli는 Verstappen을 제치고 세 부문 모두에서 개선하여 즉시 대응했습니다. Norris는 13번째 턴에서 자갈을 뚫고 달려가 마지막 시도를 포기하고 3위를 차지했습니다. Russell은 4위로 향상되었고 Leclerc는 피트 진입을 위한 노란색 깃발이 시야 내에 표시되었을 때 마지막 시케인에서 들어 올린 후 5위를 유지했습니다. Leclerc는 Russell의 뒤를 잇고 Hamilton보다 앞섰습니다. Piastri는 Lindblad와 Bortoleto보다 앞서 7위를 차지했으며 Hadjar는 랩 타임을 설정하지 않고 10위로 분류되었습니다.",
-        "자격을 얻은 후 Norris는 네 번째 제어 전자 장치를 사용하여 10위 그리드 페널티를 받았고 Stroll은 네 번째 모터 제너레이터 장치(Kinetic)를 사용하여 동일한 페널티를 받았습니다. Hadjar는 Red Bull이 다섯 번째 내연 기관, 터보차저 및 배기 장치 세트를 설치한 후 30위 벌점을 받았고, Alonso는 다섯 번째 에너지 저장 장치, 다섯 번째 제어 전자 장치 및 일곱 번째 동력 장치 보조 구성 요소를 가져와 20위 벌점을 받았습니다. 결과적으로 Norris는 3위에서 13위로 강등되었으며 Russell, Leclerc, Hamilton, Piatri, Lindblad, Bortoleto, Lawson, Gasly, Colapinto 및 Hülkenberg가 한 자리씩 승격되었습니다. Stroll은 마지막 자격을 얻었지만 임시 그리드에서 더 큰 페널티를 받은 후 각각 21위와 22위를 할당받은 Hadjar와 Alonso보다 앞서 20위를 차지했습니다. Antonelli의 결과는 시즌 6번째 폴 포지션이었으며 Mercedes의 무패 예선 경기를 2026년 개최되는 10개 라운드 모두로 연장했습니다. Verstappen에 대한 그의 마진은 시즌의 가장 큰 폴 포지션 이점이었으며, 그 결과 Antonelli는 Verstappen과 함께 맨 앞줄에 배치되었고 Russell은 팀 동료 바로 뒤를 따랐으며 Antonelli는 드라이버 챔피언십에서 Russell보다 25점 앞서고 있습니다."
-       ]
-      },
-      {
-       "h": "Race",
-       "level": 2,
-       "p": [
-        "The race was held on 19 July 2026, at 15:00 local time (UTC+2), and was run for 44 laps."
-       ],
-       "hKo": "결승",
-       "pKo": [
-        "경주는 2026년 7월 19일 현지 시간(UTC+2) 15:00에 열렸으며 44바퀴를 돌았습니다."
-       ]
-      },
-      {
-       "h": "Race report",
-       "level": 3,
-       "p": [
-        "The 44-lap race began in cool, overcast but dry conditions, despite reports during the formation lap that rain was approaching the circuit. Pirelli had expected thermal degradation to make a two-stop strategy the preferred option. The majority of the field started on the medium-compound tyres, while Lando Norris, Sergio Pérez, Lance Stroll, Isack Hadjar and Fernando Alonso selected the hard compound. Valtteri Bottas and Carlos Sainz Jr. were the only drivers to begin on soft tyres. Kimi Antonelli (Mercedes) started from pole position alongside Max Verstappen (Red Bull), with Antonelli's teammate George Russell and Charles Leclerc (Ferrari) on the second row.",
-        "Antonelli retained the lead through La Source, but Verstappen obtained a better run on the descent towards Eau Rouge and briefly moved ahead. Antonelli used Verstappen's slipstream and the straight-line speed of his Mercedes to regain first place along the Kemmel Straight before Les Combes, while Leclerc also passed Verstappen to take second. Russell suffered a loss of electrical deployment after La Source and was passed by both Ferrari drivers. He attempted to recover a position from Lewis Hamilton around the outside at the first part of Les Combes, but Hamilton understeered into the Mercedes, with his left-front wheel making contact with Russell's right-rear. Russell spun into the gravel and became stranded, bringing out the safety car at the beginning of lap two. Elsewhere on the opening lap, Esteban Ocon (Haas) made contact with Sainz and subsequently teammate Oliver Bearman in separate incidents, sustaining a front-left puncture and dropping to the rear of the field.",
-        "The stewards determined that Russell had established sufficient overlap and had remained within the available racing room. Although Hamilton had attempted to avoid the contact, the stewards considered him wholly responsible because he had been unable to maintain sufficient separation. His loss of front-end grip, his attempt to take avoiding action and the fact that the collision occurred during the compressed conditions of the opening lap were treated as mitigating factors. Hamilton consequently received a five-second time penalty instead of the standard ten-second sanction and was not given any penalty points.",
-        "Several drivers stopped during the safety car period, including Hadjar, Bearman and both Cadillac drivers. Red Bull used the interruption to cycle Hadjar, who had started twenty-first on hard tyres, onto mediums and then back onto another set of hards. Racing resumed at the beginning of lap five, with Antonelli accelerating early and retaining the lead ahead of Leclerc and Verstappen. Hamilton passed Oscar Piastri (McLaren) at La Source, with Piastri immediately reclaiming fourth place through Eau Rouge and Raidillon. Verstappen used the tow along the Kemmel Straight to pass Leclerc for second at Les Combes on lap six. Behind the leading five, the Racing Bulls drivers Liam Lawson and Arvid Lindblad had advanced to sixth and seventh respectively, with Franco Colapinto (Alpine) involved in their midfield battle.",
-        "Piastri challenged Leclerc around the outside at Les Combes on lap eight, but the two made side-to-side contact as Leclerc moved towards the racing line. The collision dislodged a piece of bodywork and damaged Piastri's McLaren. The stewards took no further action, ruling that Piastri's front axle had not drawn ahead of Leclerc's and that there had been no realistic possibility of completing the overtake from the outside. They also determined that Leclerc had followed the normal racing line rather than deliberately forcing Piastri off the circuit. Hamilton passed the damaged McLaren shortly afterwards and moved into fourth. Norris used the durability of his hard tyres to advance from thirteenth to seventh by lap 11 and then passed Lindblad for sixth. Hamilton repeatedly informed Ferrari that he had more pace than Leclerc, but the team did not exchange their positions. Pérez retired on lap 14 after reporting a suspension failure, while Sainz made an early stop for a new front wing after damage sustained during his opening-lap contact with Ocon.",
-        "Antonelli managed his tyres during the first stint before increasing his pace as the first pit stop window approached. He extended his advantage over Verstappen from approximately two seconds to more than three seconds before Verstappen became the first of the leaders to stop, changing from mediums to hards. A brief virtual safety car period was called shortly afterwards while debris was removed from the circuit, it ended before Antonelli could benefit. Mercedes stopped him on the following lap to cover Verstappen's strategy, with Antonelli rejoining in fifth place but retaining the net lead over Verstappen.",
-        "A second virtual safety car period was called around lap 20 while marshals were on the circuit. Ferrari took advantage by pitting both its drivers. Leclerc's reduced-loss pitstop enabled him to emerge ahead of Antonelli, while Hamilton served his five-second penalty before leaving the pit box. Hamilton was shown the signal to depart while a mechanic was still positioned beside the right-front corner of the car, and his front-right wheel made low-speed contact with the mechanic, knocking him down. The mechanic was uninjured. The premature release prevented Ferrari from completing the front-wing adjustment Hamilton had requested. The incident was referred for a post-race investigation.",
-        "Norris, who had not yet stopped, led at the halfway point from Leclerc, Antonelli, Verstappen, Piastri and Hamilton. Leclerc passed Norris along the Kemmel Straight on lap 23, while Antonelli initially lost time behind the McLaren before overtaking it three laps later. Verstappen, who complained that his hard tyres lacked grip, passed Norris for third on lap 29. Piastri then closed on his teammate, prompting McLaren to instruct the drivers not to lose time battling one another. Norris remained on his original hard tyres until lap 31 because the second virtual safety car had occurred too early for a set of mediums to comfortably reach the finish. His eventual change to the medium compound was delayed by a problem with the left-rear wheel, dropping him to eighth before he passed Gabriel Bortoleto (Audi) for seventh.",
-        "Leclerc initially held an advantage of approximately three seconds over Antonelli, but began to struggle with front-axle grip on the hard tyres and reported harsh downshifts from his Ferrari. Antonelli steadily reduced the gap and caught up to Leclerc on lap 33, with traffic involving Bottas further reducing the Leclerc's advantage. On lap 34, Antonelli used the Mercedes' straight-line speed and overtake deployment to pass Leclerc along the Kemmel Straight to reclaim the lead. Leclerc remained within approximately one second for several laps and continued to apply pressure, but was unable to attempt a pass. Mercedes warned Antonelli that he had already exceeded track limits twice, requiring him to avoid another infringement during the closing laps. Antonelli maintained his advantage and won by securing his sixth victory of the season.",
-        "Verstappen finished a distant third after being unable to match the leading pair on the hard compound. Hamilton recovered from his penalty and the incomplete front-wing adjustment to pass Piastri during the closing laps and finish fourth, with Piastri fifth. Hadjar completed his recovery from twenty-first on the grid in sixth following his three-stop strategy. Norris suffered a slow pit stop and tried to get close to Hadjar but was unable to pass before the finish; he set the race's fastest lap on the final lap.",
-        "Bortoleto took eighth, ahead of Lindblad in ninth. The final point was decided during a three-way fight involving Colapinto, teammate Pierre Gasly and Lawson. When Lawson attempted to pass Gasly along the Kemmel Straight, Colapinto overtook both drivers and retained tenth place to the finish. Gasly finished eleventh ahead of Lawson and Nico Hülkenberg, with Bearman, Alexander Albon, Sainz, Ocon, Bottas and Alonso completing the classified finishers. Stroll retired after 25 laps with a suspected gearbox problem, joining Pérez and Russell as the race's three retirements."
-       ],
-       "hKo": "결승 리포트",
-       "pKo": [
-        "44랩 경주는 포메이션 랩 동안 비가 서킷에 접근하고 있다는 보고에도 불구하고 시원하고 흐리지만 건조한 조건에서 시작되었습니다. Pirelli는 열적 저하로 인해 2스톱 전략이 선호되는 옵션이 될 것으로 예상했습니다. 대부분의 필드는 미디엄 타이어로 시작되었고 Lando Norris, Sergio Pérez, Lance Stroll, Isack Hadjar 및 Fernando Alonso는 하드 타이어를 선택했습니다. Valtteri Bottas와 Carlos Sainz Jr.는 소프트 타이어를 사용하기 시작한 유일한 드라이버였습니다. Kimi Antonelli(Mercedes)는 Max Verstappen(Red Bull)과 함께 폴 포지션에서 출발했으며 Antonelli의 팀 동료인 George Russell과 Charles Leclerc(Ferrari)는 두 번째 줄에 앉았습니다.",
-        "Antonelli는 La Source를 통해 선두를 유지했지만 Verstappen은 Eau Rouge를 향한 하강에서 더 나은 달리기를 얻었고 잠시 앞으로 나아갔습니다. Antonelli는 Verstappen의 슬립스트림과 Mercedes의 직선 속도를 사용하여 Les Combes 이전에 Kemmel Straight에서 1위를 되찾았으며 Leclerc도 Verstappen을 제치고 2위를 차지했습니다. Russell은 La Source 이후 전기 배치 손실을 겪었고 두 Ferrari 드라이버 모두가 통과했습니다. 그는 Les Combes의 첫 번째 부분에서 루이스 해밀턴의 바깥쪽 위치를 회복하려고 시도했지만 해밀턴은 왼쪽 앞바퀴가 Russell의 오른쪽 후면과 접촉하면서 Mercedes로 언더스티어했습니다. Russell은 자갈 속으로 회전하여 좌초되어 랩 2가 시작될 때 세이프티카을 꺼냈습니다. 오프닝 랩의 다른 곳에서는 Esteban Ocon(Haas)이 Sainz 및 이후 팀 동료인 Oliver Bearman과 별도의 사고로 접촉하여 전면 왼쪽 펑크를 유지하고 필드 뒤쪽으로 떨어졌습니다.",
-        "관리인은 Russell이 충분한 중첩을 설정했으며 사용 가능한 레이싱 룸 내에 남아 있다고 판단했습니다. 해밀턴은 접촉을 피하려고 시도했지만 관리인은 그가 충분한 분리를 유지할 수 없었기 때문에 전적인 책임이 있다고 생각했습니다. 그의 프론트 엔드 그립 상실, 회피 조치 시도 및 오프닝 랩의 압축 조건에서 충돌이 발생했다는 사실은 완화 요소로 간주되었습니다. 결과적으로 해밀턴은 표준 10초 제재 대신 5초의 시간 페널티를 받았고 어떤 페널티 포인트도 주어지지 않았습니다.",
-        "Hadjar, Bearman 및 두 Cadillac 운전자를 포함하여 여러 운전자가 세이프티카 기간 동안 정차했습니다. Red Bull은 중단 시간을 이용하여 21일에 하드 타이어로 시작한 Hadjar를 미디엄 타이어로, 그리고 다시 다른 하드 타이어 세트로 순환했습니다. 경주는 랩 5가 시작될 때 재개되었으며 Antonelli는 일찍 가속하고 Leclerc 및 Verstappen보다 앞서 선두를 유지했습니다. 해밀턴은 La Source에서 Oscar Piastri(McLaren)를 제치고 Piatri는 Eau Rouge와 Raidillon을 통해 즉시 4위를 되찾았습니다. Verstappen은 Kemmel Straight를 따라 견인을 사용하여 랩 6의 Les Combes에서 2위로 Leclerc를 통과했습니다. 선두 5명에 이어 Racing Bulls의 드라이버인 Liam Lawson과 Arvid Lindblad가 각각 6위와 7위에 올랐으며, Franco Colapinto(Alpine)가 미드필드 전투에 참여했습니다.",
-        "Piatri는 랩 8에서 Les Combes의 바깥쪽에서 Leclerc에게 도전했지만 Leclerc가 레이싱 라인을 향해 이동하면서 두 사람은 좌우로 접촉했습니다. 충돌로 인해 차체 일부가 떨어져 나갔고 Piastri의 McLaren이 손상되었습니다. 승무원은 Piastri의 앞차축이 Leclerc보다 앞서지 않았으며 외부에서 추월을 완료할 현실적인 가능성이 없다고 판단하면서 더 이상의 조치를 취하지 않았습니다. 그들은 또한 Leclerc가 의도적으로 Piatri를 서킷에서 강제로 쫓아내기보다는 일반적인 레이싱 라인을 따랐다고 판단했습니다. 해밀턴은 손상된 McLaren을 곧 통과하고 4위로 진입했습니다. Norris는 하드 타이어의 내구성을 활용하여 랩 11에서 13위에서 7위로 올라간 다음 Lindblad를 6위로 추월했습니다. 해밀턴은 페라리에게 자신이 르클레르보다 속도가 더 빠르다고 반복해서 알렸지만 팀은 입장을 바꾸지 않았습니다. Pérez는 서스펜션 실패를 보고한 후 랩 14에서 은퇴했고 Sainz는 Ocon과의 오프닝 랩 접촉 중에 손상을 입은 후 새로운 프론트 윙을 위해 조기에 중지했습니다.",
-        "Antonelli는 첫 번째 피트 스톱 창이 다가옴에 따라 속도를 높이기 전에 첫 번째 시간 동안 타이어를 관리했습니다. 그는 Verstappen이 선두에서 정지한 첫 번째 선수가 되기 전에 Verstappen에 대한 이점을 약 2초에서 3초 이상으로 확장하여 미디엄에서 하드로 변경했습니다. 회로에서 잔해물을 제거하는 동안 짧은 버추얼 세이프티카 기간이 호출되었으며 Antonelli가 혜택을 받기 전에 종료되었습니다. Mercedes는 Verstappen의 전략을 커버하기 위해 다음 랩에서 그를 막았고 Antonelli는 5위에 다시 합류했지만 Verstappen에 대한 순 선두를 유지했습니다.",
-        "보안관들이 서킷에 있는 동안 랩 20쯤에 두 번째 버추얼 세이프티카 기간이 호출되었습니다. 페라리는 두 드라이버 모두를 구덩이로 활용했습니다. Leclerc의 감소된 손실 피트스톱 덕분에 그는 Antonelli보다 앞서 나갈 수 있었고 Hamilton은 피트 박스를 떠나기 전에 5초의 페널티를 받았습니다. 해밀턴은 정비공이 여전히 차량의 오른쪽 앞 모서리 옆에 있는 동안 출발하라는 신호를 받았고, 그의 앞 우측 바퀴가 정비공과 저속으로 접촉하여 그를 쓰러뜨렸습니다. 정비공은 부상을 입지 않았습니다. 조기 출시로 인해 페라리는 해밀턴이 요청한 프론트 윙 조정을 완료하지 못했습니다. 이 사건은 경주 후 조사를 위해 회부되었습니다.",
-        "아직 멈추지 않은 노리스는 르클레르, 안토넬리, 베르스타펜, 피아스트리, 해밀턴의 중간 지점을 이끌었다. Leclerc는 랩 23에서 Kemmel Straight를 따라 Norris를 통과했고 Antonelli는 처음에 McLaren보다 뒤쳐져 시간을 잃고 3 바퀴 후에 추월했습니다. 딱딱한 타이어의 접지력이 부족하다고 불평한 Verstappen은 랩 29에서 Norris를 3위로 추월했습니다. Piastri는 팀 동료에게 접근을 막았고 McLaren은 드라이버들에게 서로 싸우는 데 시간을 허비하지 말라고 지시했습니다. Norris는 랩 31까지 원래 하드 타이어를 사용했습니다. 두 번째 버추얼 세이프티카이 미디엄 세트가 편안하게 결승점에 도달하기에는 너무 일찍 발생했기 때문입니다. 결국 중형 컴파운드로의 변경은 왼쪽 뒷바퀴 문제로 인해 지연되어 Gabriel Bortoleto(Audi)를 7위로 제치고 8위로 떨어졌습니다.",
-        "Leclerc는 처음에는 Antonelli에 비해 약 3초의 우위를 점했지만 단단한 타이어의 앞차축 그립에 어려움을 겪기 시작했고 그의 Ferrari에서 가혹한 저단 변속을 보고했습니다. Antonelli는 꾸준히 격차를 줄이고 랩 33에서 Leclerc를 따라잡았으며 Bottas와 관련된 트래픽은 Leclerc의 이점을 더욱 감소시켰습니다. 랩 34에서 Antonelli는 Mercedes의 직선 속도와 추월 배치를 사용하여 Kemmel Straight를 따라 Leclerc를 통과하여 선두를 되찾았습니다. 르클레르는 여러 바퀴를 돌며 약 1초 이내에 머물며 계속해서 압력을 가했지만 패스를 시도하지 못했습니다. Mercedes는 Antonelli에게 자신이 이미 트랙 제한을 두 번 초과했기 때문에 마지막 랩 동안 또 다른 위반을 피해야 한다고 경고했습니다. Antonelli는 자신의 우위를 유지하며 시즌 6번째 승리를 거두며 승리했습니다.",
-        "Verstappen은 하드 컴파운드에서 선두 쌍을 맞추지 못한 후 먼 3위를 차지했습니다. 해밀턴은 페널티킥과 불완전한 프론트 윙 조정에서 회복하여 마지막 랩 동안 Piastri를 통과하고 4위, Piastri가 5위를 차지했습니다. Hadjar는 3스톱 전략에 따라 6위 그리드에서 21위에서 회복을 완료했습니다. Norris는 느린 피트 스탑을 겪었고 Hadjar에 가까워지려고 노력했지만 결승점 전에 통과할 수 없었습니다. 그는 마지막 랩에서 레이스의 가장 빠른 랩을 설정했습니다.",
-        "Bortoleto는 9위 Lindblad에 앞서 8위를 차지했습니다. 최종 승점은 콜라핀토, 팀 동료 피에르 가슬리, 로슨이 참여한 3자 대결에서 결정됐다. Lawson이 Kemmel Straight를 따라 Gasly를 패스하려고 시도했을 때 Colapinto는 두 드라이버를 모두 추월하고 결승점까지 10위를 유지했습니다. Gasly는 Lawson과 Nico Hülkenberg보다 앞서 11위를 차지했으며 Bearman, Alexander Albon, Sainz, Ocon, Bottas 및 Alonso가 등급 분류를 완료했습니다. Stroll은 의심되는 기어박스 문제로 25바퀴를 돌린 후 은퇴했고, Pérez와 Russell이 레이스의 세 번의 은퇴자로 합류했습니다."
-       ]
-      },
-      {
-       "h": "Post-race and championship impact",
-       "level": 4,
-       "p": [
-        "Antonelli's victory was the sixth of both his Formula One career and the season. He increased his championship total to 204 points and reversed the reduction in his lead that had occurred during the preceding three rounds. Having entered the event 25 points ahead of Russell, Antonelli left Belgium 45 points ahead of Hamilton, who moved into second place on 159 points. Russell dropped to third on 154 points, 50 behind Antonelli, while Leclerc remained fourth with 126 and Norris fifth with 103. Despite Russell's retirement, Mercedes retained the lead of the Constructors' Championship with 358 points, 73 ahead of Ferrari on 285. McLaren remained third with 195 points and Red Bull fourth with 151. Colapinto's point and Lindblad's ninth-place finish left Alpine and Racing Bulls level on 61 points in the contest for fifth place.",
-        "Russell stated after the race that the electrical system had failed to recharge after La Source, leaving his battery approximately 35 per cent below its expected level and without usable deployment by the top of Eau Rouge. The associated loss of boost left him vulnerable to Leclerc and Hamilton along the Kemmel Straight. Shortly after the incident, Russell, on an unbroadcast piece of team radio, angrily admonished his battery's faulty charging state, which left him with no usable battery deployment down the straight. Although the stewards penalised Hamilton, Russell regarded their contact as a racing incident and said that he did not blame Hamilton, instead focusing his criticism on the technical problem that had placed him in the battle. The failure was separate from the straight-line performance issue Mercedes had investigated earlier in the weekend."
-       ],
-       "hKo": "레이스 후 및 챔피언십에 미치는 영향",
-       "pKo": [
-        "Antonelli의 승리는 Formula One 경력과 시즌 모두에서 여섯 번째 승리였습니다. 그는 챔피언십 총점을 204점으로 늘렸고 이전 3라운드 동안 발생한 리드 감소를 역전시켰습니다. Russell보다 25점 앞서 이벤트에 참가한 Antonelli는 벨기에를 떠나 159점으로 2위를 차지한 Hamilton보다 45점 앞서게 되었습니다. Russell은 154점으로 Antonelli에 50점 뒤진 3위로 떨어졌고 Leclerc는 126점으로 4위, Norris는 103점으로 5위를 기록했습니다. Russell의 은퇴에도 불구하고 Mercedes는 358점으로 컨스트럭터 챔피언십 선두를 유지했으며 285점의 Ferrari보다 73점 앞섰습니다. McLaren은 195점으로 3위를 유지했고 Red Bull은 151점으로 4위를 유지했습니다. Colapinto의 점수와 Lindblad는 9위를 기록했습니다. 5위 경쟁에서 알파인과 레이싱 불스는 61점을 기록했습니다.",
-        "Russell은 경주가 끝난 후 La Source 이후 전기 시스템이 재충전되지 않아 배터리가 예상 수준보다 약 35% 낮았으며 Eau Rouge 상단에서 사용할 수 없게 배치되었다고 말했습니다. 관련된 부스트 손실로 인해 그는 Kemmel Straight를 따라 Leclerc와 Hamilton에게 취약해졌습니다. 사건 직후 Russell은 방송되지 않은 팀 라디오에서 자신의 배터리 충전 상태가 잘못되어 사용할 수 있는 배터리를 직선으로 배치할 수 없게 되었다고 화를 내며 훈계했습니다. 청지기들은 해밀턴에게 불이익을 주었지만 러셀은 그들의 접촉을 경주 사건으로 간주하고 해밀턴을 비난하지 않고 대신 그를 전투에 참여하게 만든 기술적 문제에 비판을 집중했다고 말했습니다. 이 실패는 메르세데스가 주말 초에 조사한 직선 성능 문제와 별개였습니다."
-       ]
-      },
-      {
-       "h": "Championship standings after the race",
-       "level": 2,
-       "p": [
-        "Note: Only the top five positions are included for both sets of standings."
-       ],
-       "hKo": "경기 후 챔피언십 순위",
-       "pKo": [
-        "참고: 두 세트의 순위에는 상위 5개 순위만 포함됩니다."
-       ]
-      }
-     ]
     }
    ]
   },
@@ -1816,13 +1776,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Naomi Schiff warns Red Bull over \"knife's edge\" F1 car after US GP struggles",
+     "desc": "Broadcaster Naomi Schiff has warned that Red Bull's narrow set-up window could be compromising Max Verstappen and Isack Hadjar's 2026 Formula 1 campaigns. At the United States…",
+     "link": "https://www.motorsport.com/f1/news/naomi-schiff-warns-red-bull-over-knifes-edge-f1-car-after-us-gp-struggles/10868723/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/6O7zDlW6/s6/motorsport-com-graphics-20.jpg",
+     "date": "2026-10-26T22:06:43+00:00",
+     "author": "",
+     "id": "072f7348b4",
+     "lead": [
+      "Broadcaster Naomi Schiff has warned that Red Bull's narrow set-up window could be compromising Max Verstappen and Isack Hadjar's 2026 Formula 1 campaigns.",
+      "At the United States Grand Prix, both drivers' races were derailed in the opening stages. Hadjar suffered a launch issue that prompted him to demand a clutch redesign, while Verstappen lacked electrical deployment out of Turn 1, which instantly dropped him into a race-long battle with the Ferraris.",
+      "Speaking on the Up To Speed podcast , Schiff argued that the problems at the start of the race are indicative of wider issues for the Milton Keynes outfit."
+     ],
+     "leadKo": [
+      "방송인 Naomi Schiff는 Red Bull의 좁은 설정 기간이 Max Verstappen과 Isack Hadjar의 2026 Formula 1 캠페인을 손상시킬 수 있다고 경고했습니다.",
+      "미국 그랑프리에서는 두 드라이버 경주 모두 오프닝 단계에서 탈선했습니다. Hadjar는 클러치 재설계를 요구하게 된 발사 문제를 겪었고, Verstappen은 1턴에서 전기 배치가 부족하여 즉시 Ferraris와의 긴 경주 전투에 빠졌습니다.",
+      "Up To Speed ​​팟캐스트에서 Schiff는 경주 시작 시의 문제는 Milton Keynes 팀의 더 넓은 문제를 암시한다고 주장했습니다."
+     ],
+     "titleKo": "나오미 쉬프(Naomi Schiff)는 미국 GP가 어려움을 겪은 후 레드불에게 \"칼날\" F1 자동차에 대해 경고했습니다.",
+     "descKo": "방송인 Naomi Schiff는 Red Bull의 좁은 설정 기간이 Max Verstappen과 Isack Hadjar의 2026 Formula 1 캠페인을 손상시킬 수 있다고 경고했습니다. 미국에서는…"
+    },
+    {
+     "title": "Fred Vasseur reveals two costly moments that denied Ferrari US GP double podium",
+     "desc": "The United States Grand Prix was a wildly successful weekend for Ferrari, if you strictly go off the timing sheets. The newly upgraded car possessed blazing-fast race pace, tyre…",
+     "link": "https://www.motorsport.com/f1/news/fred-vasseur-blames-a-q3-disaster-and-a-broken-cadillac-for-robbing-ferrari-of-a-us-gp-win/10868569/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/6x7L59jY/s6/motorsport-com-graphics-23-2.jpg",
+     "date": "2026-10-26T21:37:48+00:00",
+     "author": "",
+     "id": "313e098b6f",
+     "lead": [
+      "The United States Grand Prix was a wildly successful weekend for Ferrari , if you strictly go off the timing sheets. The newly upgraded car possessed blazing-fast race pace, tyre degradation was fully under control, and Charles Leclerc dragged his machine to a brilliant second-place finish behind Mercedes ’ Kimi Antonelli.",
+      "But inside the Scuderia garage, there is a lingering feeling of \"what if.\"",
+      "If just two things had gone slightly differently this weekend at the Circuit of the Americas, Ferrari boss Fred Vasseur is convinced they would have secured a massive double podium—and potentially even the outright race victory."
+     ],
+     "leadKo": [
+      "미국 그랑프리는 시간표를 엄밀히 따지면 페라리에게는 매우 성공적인 주말이었습니다. 새로 업그레이드된 자동차는 눈부시게 빠른 레이스 속도를 자랑했고, 타이어 성능 저하도 완전히 통제되었으며, Charles Leclerc는 자신의 머신을 Mercedes의 Kimi Antonelli에 이어 눈부신 2위를 차지했습니다.",
+      "하지만 스쿠데리아 차고 내부에는 '만약'이라는 여운이 남는다.",
+      "이번 주말 아메리카 서킷에서 두 가지 일만 조금 달라졌더라면 페라리의 사장 프레드 바쇠르(Fred Vasseur)는 거대한 더블 포디움을 확보했을 것이며 잠재적으로 완전한 레이스 승리를 거둘 수도 있었을 것이라고 확신합니다."
+     ],
+     "titleKo": "Fred Vasseur는 Ferrari US GP 더블 포디움을 거부한 두 가지 값진 순간을 공개합니다.",
+     "descKo": "미국 그랑프리는 시간표를 엄격하게 따지면 페라리에게는 매우 성공적인 주말이었습니다. 새롭게 업그레이드된 차량은 눈부시게 빠른 경주 속도와 타이어..."
+    },
+    {
+     "title": "Red Bull reveals damage behind Max Verstappen's US GP struggles",
+     "desc": "When your star driver gets out of the car after grabbing a podium and immediately tells the global broadcast that the pitstops, tyres, and engine braking were all complete…",
+     "link": "https://www.motorsport.com/f1/news/mekies-explains-the-invisible-debris-that-cost-max-verstappen-2nd-place-in-austin/10868579/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YpbABzW0/s6/motorsport-com-graphics-22-2.jpg",
+     "date": "2026-10-26T21:16:47+00:00",
+     "author": "",
+     "id": "7985e9f784",
+     "lead": [
+      "When your star driver gets out of the car after grabbing a podium and immediately tells the global broadcast that the pitstops, tyres, and engine braking were all complete garbage, it is up to the team principal to jump on the nearest microphone and put out the fire.",
+      "Following Verstappen's radio meltdown at the United States Grand Prix, Red Bull Racing CEO and team principal Laurent Mekies went into full PR damage control mode. Instead of blaming the engineering department for botching the set-up, Mekies pointed the finger at some rogue carbon fibre.",
+      "While Max Verstappen complained about picking the wrong tyre compounds and dealing with awful engine braking, Mekies claimed the car was actually wounded just a few minutes after the lights went out."
+     ],
+     "leadKo": [
+      "당신의 스타 드라이버가 시상대를 잡고 차에서 내려 즉시 글로벌 방송에 피트 스톱, 타이어, 엔진 브레이크가 모두 완전한 쓰레기였다고 알릴 때, 가장 가까운 마이크에 뛰어들어 불을 끄는 것은 팀 교장에게 달려 있습니다.",
+      "미국 그랑프리에서 Verstappen의 무선 통신이 중단된 후 Red Bull Racing CEO이자 팀장인 Laurent Mekies는 완전한 PR 피해 통제 모드에 들어갔습니다. Mekies는 설정을 잘못한 것에 대해 엔지니어링 부서를 비난하는 대신 일부 불량 탄소 섬유를 비난했습니다.",
+      "Max Verstappen은 잘못된 타이어 컴파운드를 선택하고 끔찍한 엔진 제동을 처리하는 것에 대해 불평했지만 Mekies는 조명이 꺼진 지 불과 몇 분 만에 자동차가 실제로 부상을 입었다고 주장했습니다."
+     ],
+     "titleKo": "Red Bull은 Max Verstappen의 미국 GP 투쟁 뒤에 숨은 피해를 밝힙니다.",
+     "descKo": "당신의 스타 드라이버가 포디움에 올라 차에서 내리자마자 글로벌 방송에 피트스톱, 타이어, 엔진 브레이크가 모두 완료되었음을 알릴 때…"
+    },
+    {
      "title": "David Coulthard rejects F1 regulation excuses with Ayrton Senna and Michael Schumacher comparison",
      "desc": "Former Formula 1 driver David Coulthard has dismissed the narrative that drivers can blame poor performance on the championship's new 2026 regulations, insisting the all-time…",
      "link": "https://www.motorsport.com/f1/news/david-coulthard-rejects-f1-regulation-excuses-with-ayrton-senna-and-michael-schumacher-comparison/10868708/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/Y9lN4ZZ2/s6/motorsport-com-graphics-19.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/Y9lN4ZZ2/s6/motorsport-com-graphics-19.jpg",
      "date": "2026-10-26T18:48:29+00:00",
      "author": "",
      "id": "e570bda1a5",
+     "titleKo": "David Coulthard는 Ayrton Senna와 Michael Schumacher 비교를 통해 F1 규제 변명을 거부합니다.",
+     "descKo": "전 포뮬러 1 드라이버 데이비드 쿨사드는 드라이버들이 저조한 성적을 챔피언십의 새로운 2026 규정 탓으로 돌릴 수 있다는 이야기를 일축하며 역대 최고치를 주장했습니다.",
      "lead": [
       "Former Formula 1 driver David Coulthard has dismissed the narrative that drivers can blame poor performance on the championship's new 2026 regulations, insisting the all-time greats successfully adapt to any machinery.",
       "F1 introduced a major regulation change in 2026. While several drivers have struggled to extract consistent pace from the new generation of cars, Coulthard argued that a driver's baseline performance should remain unaffected by the rulebook.",
@@ -1832,18 +1857,18 @@
       "전 포뮬러 1 드라이버 데이비드 쿨사드는 드라이버들이 저조한 성적을 챔피언십의 새로운 2026 규정 탓으로 돌릴 수 있다는 이야기를 일축하고 역대 최고의 드라이버들이 어떤 기계에도 성공적으로 적응한다고 주장했습니다.",
       "F1은 2026년에 주요 규정 변경을 도입했습니다. 여러 운전자가 차세대 자동차에서 일관된 속도를 추출하기 위해 고군분투하는 동안 Coulthard는 운전자의 기본 성능이 규칙서의 영향을 받지 않아야 한다고 주장했습니다.",
       "미국 그랑프리 이후 Up To Speed ​​팟캐스트에서 13회 그랑프리 우승을 차지한 그는 특정 자동차가 특정 운전자에게 적합하지 않다는 생각을 거부하기 위해 자신의 경력을 쌓았습니다."
-     ],
-     "titleKo": "David Coulthard는 Ayrton Senna와 Michael Schumacher 비교를 통해 F1 규제 변명을 거부합니다.",
-     "descKo": "전 포뮬러 1 드라이버 데이비드 쿨사드는 드라이버들이 저조한 성적을 챔피언십의 새로운 2026 규정 탓으로 돌릴 수 있다는 이야기를 일축하며 역대 최고치를 주장했습니다."
+     ]
     },
     {
      "title": "George Russell's Mercedes F1 future discussed amid Kimi Antonelli's success",
      "desc": "George Russell's long-term future at Mercedes has been questioned following the United States Grand Prix. Russell entered the 2026 Formula 1 season as one of the favourites for…",
      "link": "https://www.motorsport.com/f1/news/george-russells-mercedes-f1-future-discussed-amid-kimi-antonellis-success/10868689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/2y7QVRp6/s6/motorsport-com-graphics-18.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/2y7QVRp6/s6/motorsport-com-graphics-18.jpg",
      "date": "2026-10-26T17:16:28+00:00",
      "author": "",
      "id": "d51047a7a7",
+     "titleKo": "키미 안토넬리(Kimi Antonelli)의 성공 속에서 조지 러셀(George Russell)의 메르세데스 F1 미래 논의",
+     "descKo": "메르세데스에서의 조지 러셀의 장기적인 미래는 미국 그랑프리 이후 의문의 여지가 있었습니다. Russell은 가장 좋아하는 선수 중 하나로 2026 Formula 1 시즌에 들어갔습니다.",
      "lead": [
       "George Russell's long-term future at Mercedes has been questioned following the United States Grand Prix.",
       "Russell entered the 2026 Formula 1 season as one of the favourites for the title. But after winning the season-opening Australian Grand Prix and the Chinese sprint race, the Briton watched as his team-mate Kimi Antonelli became the youngest driver to lead the championship.",
@@ -1853,18 +1878,18 @@
       "메르세데스에서의 조지 러셀의 장기적인 미래는 미국 그랑프리 이후 의문의 여지가 있었습니다.",
       "Russell은 타이틀 후보 중 하나로 2026 Formula 1 시즌에 진입했습니다. 그러나 시즌 개막식 호주 그랑프리와 중국 스프린트 레이스에서 우승한 후, 영국인은 그의 팀 동료인 키미 안토넬리(Kimi Antonelli)가 챔피언십을 이끄는 최연소 드라이버가 되는 것을 지켜보았습니다.",
       "오스틴에서 열린 미국 그랑프리에서 우승한 후 Antonelli는 현재 365점으로 선두를 달리고 있으며 Russell은 242점으로 2위를 차지하고 있습니다. 이 이탈리아 드라이버는 아메리카 서킷에서는 우승을 차지하지 못했지만 멕시코 그랑프리에서는 또 다른 기회를 얻었습니다."
-     ],
-     "titleKo": "키미 안토넬리(Kimi Antonelli)의 성공 속에서 조지 러셀(George Russell)의 메르세데스 F1 미래 논의",
-     "descKo": "메르세데스에서의 조지 러셀의 장기적인 미래는 미국 그랑프리 이후 의문의 여지가 있었습니다. Russell은 가장 좋아하는 선수 중 하나로 2026 Formula 1 시즌에 들어갔습니다."
+     ]
     },
     {
      "title": "Why McLaren gave team order to Oscar Piastri in F1 US GP",
      "desc": "McLaren team principal Andrea Stella has explained the reasoning behind asking Oscar Piastri to wave Lando Norris past in Formula 1’s United States Grand Prix. Piastri and Norris…",
      "link": "https://www.motorsport.com/f1/news/why-mclaren-oscar-piastri-team-order-us-gp/10868686/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg",
      "date": "2026-10-26T17:15:33+00:00",
      "author": "",
      "id": "9bcb69f17a",
+     "titleKo": "맥라렌이 F1 US GP에서 오스카 피아스트리에게 팀 명령을 내린 이유",
+     "descKo": "McLaren 팀장인 Andrea Stella는 Oscar Piastri에게 Formula 1의 미국 그랑프리에서 Lando Norris를 제쳐달라고 요청한 이유를 설명했습니다. 피아스트리와 노리스…",
      "lead": [
       "McLaren team principal Andrea Stella has explained the reasoning behind asking Oscar Piastri to wave Lando Norris past in Formula 1’s United States Grand Prix.",
       "Piastri and Norris locked out the fourth row of the grid at the Circuit of The Americas, having failed to challenge the Mercedes , Red Bulls and Ferraris in Q3.",
@@ -1874,15 +1899,13 @@
       "McLaren 팀장인 Andrea Stella는 Oscar Piastri에게 Formula 1의 미국 그랑프리에서 Lando Norris를 제쳐달라고 요청한 이유를 설명했습니다.",
       "Piatri와 Norris는 3분기에 Mercedes, Red Bulls, Ferraris에 도전하지 못한 채 Circuit of The Americas에서 네 번째 줄의 그리드를 폐쇄했습니다.",
       "그러나 레이스의 첫 7랩 동안 Piastri는 레이스 리더인 Kimi Antonelli에게 랩당 1초(평균적으로 정확히 0.997초, 1랩을 할인함)를 잃었고, 랩당 2/10 차이로 멀어지는 고군분투하는 George Russell도 따라잡을 수 없었습니다."
-     ],
-     "titleKo": "맥라렌이 F1 US GP에서 오스카 피아스트리에게 팀 명령을 내린 이유",
-     "descKo": "McLaren 팀장인 Andrea Stella는 Oscar Piastri에게 Formula 1의 미국 그랑프리에서 Lando Norris를 제쳐달라고 요청한 이유를 설명했습니다. 피아스트리와 노리스…"
+     ]
     },
     {
      "title": "Why Monza win from 19th still isn't the best of Kimi Antonelli's dominant F1 2026 season",
      "desc": "Kimi Antonelli pulled off a sensational victory from 19th at the Italian Grand Prix, but Formula 1’s champion-elect reckons his dominant performance from pole in Austin was even…",
      "link": "https://www.motorsport.com/f1/news/why-monza-win-from-19th-still-isnt-the-best-of-kimi-antonellis-dominant-f1-2026-season/10868448/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YN7vZqm6/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YN7vZqm6/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-10-26T13:29:54+00:00",
      "author": "",
      "id": "5732f506e3",
@@ -1903,7 +1926,7 @@
      "title": "Mercedes pokes fun at Kimi Antonelli after awkward Austin mishap",
      "desc": "Mercedes has poked fun at Kimi Antonelli's awkward reversing mishap in Austin, sharing in-car footage of the moment on its TikTok account with the caption, \"Championship leader…",
      "link": "https://www.motorsport.com/f1/news/mercedes-pokes-fun-at-kimi-antonelli-after-awkward-austin-mishap/10868627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YWKA1geY/s6/motorsport-com-graphics-16.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/YWKA1geY/s6/motorsport-com-graphics-16.jpg",
      "date": "2026-10-26T12:39:00+00:00",
      "author": "",
      "id": "2dd8301474",
@@ -1940,69 +1963,6 @@
       "클락슨은 미국 그랑프리 알파인스의 게스트였으며 토요일 스카이 스포츠 F1과의 인터뷰에서 \"프랑코는 아르헨티나인이라는 이유로 그리드 페널티를 받았을 것입니다. 아마도 그에게 하나를 줄 것입니다. 하지만 어쨌든 그것은 우리가 그곳에 갔을 때 일어난 일 때문입니다.\"라고 농담했습니다.",
       "Clarkson은 자신의 동력 장치 부품 할당량을 초과한 것에 대한 Colapinto의 실제 그리드 페널티를 언급했으며 아마도 그의 Top Gear 쇼의 2014 Patagonia 스페셜을 언급했을 가능성이 높습니다. 당시 아르헨티나 시위대가 포클랜드 전쟁에 대한 언급으로 해석한 논란의 여지가 있는 번호판으로 인해 긴장감이 고조되어 촬영이 중단되었습니다."
      ]
-    },
-    {
-     "title": "Juan Pablo Montoya questions George Russell's F1 United States GP penalty",
-     "desc": "Former Formula 1 driver Juan Pablo Montoya was \"surprised\" by George Russell's penalty at the United States Grand Prix, claiming the Mercedes driver did not gain an advantage from…",
-     "link": "https://www.motorsport.com/f1/news/juan-pablo-montoya-questions-george-russells-f1-united-states-gp-penalty/10868603/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6lmANE80/s6/motorsport-com-graphics-15.jpg",
-     "date": "2026-10-26T11:25:23+00:00",
-     "author": "",
-     "id": "cd0af82130",
-     "titleKo": "Juan Pablo Montoya는 George Russell의 F1 United States GP 페널티에 대해 질문합니다.",
-     "descKo": "전 F1 드라이버 후안 파블로 몬토야(Juan Pablo Montoya)는 미국 그랑프리에서 조지 러셀(George Russell)의 페널티킥에 \"놀랐다\"며 메르세데스 드라이버가 이점을 얻지 못했다고 주장했습니다.",
-     "lead": [
-      "Former Formula 1 driver Juan Pablo Montoya was \"surprised\" by George Russell's penalty at the United States Grand Prix, claiming the Mercedes driver did not gain an advantage from the incident.",
-      "Russell was handed a five-second penalty for leaving the track at Turn 12 and rejoining ahead of McLaren's Oscar Piastri on the opening lap at the Circuit of the Americas. He went on to finish eighth, while his Mercedes team-mate Kimi Antonelli won the race.",
-      "Speaking on F1 TV's post-race show in Austin, Montoya argued that Russell's move did not result in an advantage."
-     ],
-     "leadKo": [
-      "전 포뮬러 1 드라이버 후안 파블로 몬토야(Juan Pablo Montoya)는 미국 그랑프리에서 조지 러셀(George Russell)의 페널티킥에 \"놀랐다\"며 메르세데스 드라이버가 이 사건으로 이득을 얻지 못했다고 주장했습니다.",
-      "Russell은 Turn 12에서 트랙을 떠났다가 Circuit of the Americas의 오프닝 랩에서 McLaren의 Oscar Piastri보다 앞서 다시 합류한 것에 대해 5초의 페널티를 받았습니다. 그는 계속해서 8위를 차지했고, 그의 Mercedes 팀 동료인 Kimi Antonelli가 경주에서 우승했습니다.",
-      "오스틴에서 열린 F1 TV의 경주 후 쇼에서 Montoya는 Russell의 움직임이 이점을 가져오지 못했다고 주장했습니다."
-     ]
-    },
-    {
-     "title": "Who slept worst last night: Lando Norris",
-     "desc": "Amid all the admiration for Kimi Antonelli, whose world championship celebrations in Austin on Sunday evening had to be put on ice until Mexico, one rather significant development…",
-     "link": "https://www.motorsport.com/f1/news/who-slept-worst-last-night-lando-norris-10868577/10868577/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/6b8ZgVp2/s6/lando-norris-mclaren.jpg",
-     "date": "2026-10-26T10:40:11+00:00",
-     "author": "",
-     "id": "ba5ab40da5",
-     "titleKo": "어젯밤에 가장 잠을 많이 못 잔 사람: 랜도 노리스",
-     "descKo": "일요일 저녁 오스틴에서 열린 세계 선수권 축하 행사가 멕시코까지 보류되어야 했던 키미 안토넬리(Kimi Antonelli)에 대한 모든 찬사 속에서, 상당히 중요한 발전 중 하나는…",
-     "lead": [
-      "Amid all the admiration for Kimi Antonelli, whose world championship celebrations in Austin on Sunday evening had to be put on ice until Mexico, one rather significant development in the 2026 Formula 1 season almost slipped under the radar: the first major verdict has been delivered.",
-      "George Russell and Lewis Hamilton may still be in the title race, at least mathematically. But one driver has officially been eliminated.",
-      "After 18 of the 23 scheduled Grands Prix, Lando Norris trails Antonelli, the champion-in-waiting beyond any reasonable doubt, by 154 points. Yet with Mexico, Brazil, Las Vegas, Qatar and Abu Dhabi still to come, there are only 125 points left on the table for any individual driver."
-     ],
-     "leadKo": [
-      "일요일 저녁 오스틴에서 열린 세계 선수권 축하 행사가 멕시코까지 보류되어야 했던 키미 안토넬리(Kimi Antonelli)에 대한 모든 찬사 속에서, 2026년 포뮬러 1 시즌의 다소 중요한 발전 중 하나가 거의 주목을 받지 못했습니다: 첫 번째 주요 판결이 내려졌습니다.",
-      "조지 러셀과 루이스 해밀턴은 적어도 수학적으로는 여전히 타이틀 경쟁에 있을 수 있습니다. 그러나 한 명의 드라이버가 공식적으로 제거되었습니다.",
-      "예정된 23개의 그랑프리 중 18개를 마친 후 Lando Norris는 의심의 여지 없이 대기 중인 챔피언인 Antonelli를 154점 차로 뒤지고 있습니다. 그러나 멕시코, 브라질, 라스베가스, 카타르, 아부다비가 아직 남아 있기 때문에 개인 운전자의 승점은 125점밖에 남지 않았습니다."
-     ]
-    },
-    {
-     "title": "Who slept best last night: Liam Lawson",
-     "desc": "Jolyon Palmer wasn't trying to be creative when he asked Liam Lawson about his future during F1 TV's live post-race coverage. It was simply a question anyone would ask – perhaps…",
-     "link": "https://www.motorsport.com/f1/news/who-slept-best-last-night-liam-lawson-10868533/10868533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/2jEANDb0/s6/liam-lawson-racing-bulls.jpg",
-     "date": "2026-10-26T08:35:20+00:00",
-     "author": "",
-     "id": "273890b9d3",
-     "titleKo": "어젯밤에 가장 잘 잤던 사람 : 리암 로슨",
-     "descKo": "Jolyon Palmer는 F1 TV의 경주 후 생방송 중 Liam Lawson에게 자신의 미래에 대해 물었을 때 창의적이려고 노력하지 않았습니다. 그것은 누구나 물어볼 질문이었습니다. 아마도…",
-     "lead": [
-      "Jolyon Palmer wasn't trying to be creative when he asked Liam Lawson about his future during F1 TV's live post-race coverage. It was simply a question anyone would ask – perhaps even Lawson himself. The sort of question you ask without really expecting an answer, more out of wonderment as to why the answer isn't already an obvious yes.",
-      "\"Another race, another win, in the race that you were in, really, the midfield battle,\" the former Renault driver and now one of F1's top analysts put to Lawson after a couple of questions from his colleagues. And then added: \"When are you going to be announced for next year?\"",
-      "There shouldn't really be any questions about whether Lawson deserves to stay in F1, and with his current team. Any team on its way to securing the best result in its F1 history would surely have already tied down the driver responsible for the biggest share of its points. Any such team wouldn't want him to become impatient or feel insecure."
-     ],
-     "leadKo": [
-      "Jolyon Palmer는 F1 TV의 경주 후 생방송 중 Liam Lawson에게 자신의 미래에 대해 물었을 때 창의적이려고 노력하지 않았습니다. 그것은 누구나 묻고 싶은 질문일 뿐이었습니다. 어쩌면 로슨 자신도 그랬을 것입니다. 실제로 대답을 기대하지 않고 묻는 종류의 질문은 왜 대답이 이미 명백한 '예'가 아닌지에 대해 더 이상 궁금하지 않습니다.",
-      "전직 르노 드라이버이자 현재 F1의 최고 분석가 중 한 명이 동료들로부터 몇 가지 질문을 받은 후 로슨에게 \"당신이 속해 있던 경주, 실제로 미드필더 전투에서 또 다른 경주, 또 다른 승리입니다.\"라고 말했습니다. 그리고 \"내년에는 언제 발표되나요?\"라고 덧붙였습니다.",
-      "Lawson이 F1과 그의 현재 팀에 남을 자격이 있는지에 대해서는 실제로 어떤 질문도 있어서는 안 됩니다. F1 역사상 최고의 결과를 얻으려는 팀은 이미 포인트의 가장 큰 부분을 차지한 드라이버를 묶어두었을 것입니다. 그러한 팀은 그가 참을성이 없거나 불안감을 느끼는 것을 원하지 않을 것입니다."
-     ]
     }
    ]
   },
@@ -2018,6 +1978,8 @@
      "date": "2026-10-26T17:23:35+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "a1260cbb70",
+     "titleKo": "잔인한 메르세데스는 러셀의 '쓰레기' 속도와 대조를 이룬다.",
+     "descKo": "혼란스러운 조지 러셀(George Russell)은 미국 그랑프리에서 자신의 \"쓰레기 같은\" 속도에 대한 답변이 부족했으며 이는 그의 팀 동료인 키미 안토넬리(Kimi Antonelli)와 잔인하게 대조되었습니다.",
      "lead": [
       "A confused George Russell lacked answers for his “rubbish” pace at the United States Grand Prix, which contrasted brutally with his championship-bound Formula 1 team-mate Kimi Antonelli.",
       "Russell finished eighth and 54 seconds behind race winner Antonelli, who is now all but guaranteed to become F1 world champion in next Sunday’s Mexican Grand Prix.",
@@ -2027,9 +1989,7 @@
       "혼란스러운 조지 러셀(George Russell)은 미국 그랑프리에서의 자신의 \"쓰레기 같은\" 페이스에 대한 답변이 부족했습니다. 이는 그의 챔피언십에 도전하는 포뮬러 1 팀 동료인 키미 안토넬리(Kimi Antonelli)와 잔인하게 대조되는 것이었습니다.",
       "Russell은 레이스 우승자 Antonelli보다 8위와 54초 뒤쳐져 경기를 마쳤습니다. Antonelli는 이제 다음 일요일 멕시코 그랑프리에서 F1 세계 챔피언이 될 것이 거의 보장되어 있습니다.",
       "Antonelli가 오스틴에서 거래를 성사시킬 가능성은 거의 없었지만 Mercedes 드라이버 사이의 행운의 차이가 있었기 때문에 그는 거의 성사시킬 뻔했습니다."
-     ],
-     "titleKo": "잔인한 메르세데스는 러셀의 '쓰레기' 속도와 대조를 이룬다.",
-     "descKo": "혼란스러운 조지 러셀(George Russell)은 미국 그랑프리에서 자신의 \"쓰레기 같은\" 속도에 대한 답변이 부족했으며 이는 그의 팀 동료인 키미 안토넬리(Kimi Antonelli)와 잔인하게 대조되었습니다."
+     ]
     },
     {
      "title": "Edd Straw's brand new tier list US GP F1 driver rankings",
@@ -2039,6 +1999,8 @@
      "date": "2026-10-26T14:37:34+00:00",
      "author": "Edd Straw",
      "id": "94badbc8c0",
+     "titleKo": "Edd Straw의 새로운 티어 목록 US GP F1 드라이버 순위",
+     "descKo": "US GP 주말부터 새로운 F1 드라이버 순위 형식이 시작됩니다. Edd가 오스틴에서 해당 필드를 어떻게 평가했는지 알아보세요.",
      "lead": [
       "A new Formula 1 driver rankings format is here starting from the United States Grand Prix weekend - with a tier list version (from Tier S to Tier F) instead of the 1-22 ranking.",
       "Every tier but one is limited to five drivers, with Tier S fit for just one name - and it wasn't a particularly complicated choice to make this time.",
@@ -2048,9 +2010,7 @@
       "새로운 Formula 1 드라이버 순위 형식은 미국 그랑프리 주말부터 시작됩니다. 1-22 순위 대신 계층 목록 버전(계층 S에서 계층 F까지)이 사용됩니다.",
       "한 티어를 제외한 모든 티어는 5명의 드라이버로 제한되며, 티어 S는 단 하나의 이름에 적합하며 이번에는 특별히 복잡한 선택이 아니었습니다.",
       "평소와 마찬가지로 The Race Members' Club의 이 게시물에 댓글을 달아 Edd의 순위에 대해 질문할 수 있으며 편리한 시각적 도구를 사용하여 자신만의 US GP 티어 목록을 컴파일할 수 있습니다!"
-     ],
-     "titleKo": "Edd Straw의 새로운 티어 목록 US GP F1 드라이버 순위",
-     "descKo": "US GP 주말부터 새로운 F1 드라이버 순위 형식이 시작됩니다. Edd가 오스틴에서 해당 필드를 어떻게 평가했는지 알아보세요."
+     ]
     },
     {
      "title": "Everything we learned from F1's 2026 United States Grand Prix",
@@ -2401,6 +2361,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "What Track Limits? 🤷‍♂️",
+     "desc": "After receiving several track limit strikes in Singapore last time out, Kimi Antonelli kept his car firmly between the white lines in Austin!",
+     "link": "https://www.youtube.com/watch?v=IZ_KbbJDjrk",
+     "image": "https://i.ytimg.com/vi/IZ_KbbJDjrk/hqdefault.jpg",
+     "date": "2026-10-26T21:00:04+00:00",
+     "author": "FORMULA 1",
+     "videoId": "IZ_KbbJDjrk",
+     "id": "7149b24e85",
+     "titleKo": "트랙 제한은 무엇입니까? 🤷‍♂️",
+     "descKo": ""
+    },
+    {
      "title": "This Wasn’t Optional 😅",
      "desc": "Isack Hadjar and Max Verstappen were on different strategies in Austin, even if the Frenchman wasn't quite prepared to let him past at the twisty stadium sector!",
      "link": "https://www.youtube.com/watch?v=bykNUisF2dA",
@@ -2494,18 +2466,6 @@
      "videoId": "srLm23RUAH0",
      "id": "57d1132c80",
      "titleKo": "레이스 하이라이트 | 2026 미국 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "What A View Of The Race Start 😍",
-     "desc": "Racing is underway at the Circuit of the Americas!",
-     "link": "https://www.youtube.com/watch?v=a_mmSEIVFLk",
-     "image": "https://i.ytimg.com/vi/a_mmSEIVFLk/hqdefault.jpg",
-     "date": "2026-10-25T21:13:07+00:00",
-     "author": "FORMULA 1",
-     "videoId": "a_mmSEIVFLk",
-     "id": "60f0ca1c37",
-     "titleKo": "경주 시작의 멋진 풍경 😍",
      "descKo": ""
     }
    ]
