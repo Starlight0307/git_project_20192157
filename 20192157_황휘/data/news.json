@@ -1,6 +1,8 @@
 {
- "updated": "2026-10-27T22:58:38+00:00",
- "failed": [],
+ "updated": "2026-10-28T02:19:13+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1772,13 +1774,99 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Toto Wolff reveals how Williams' surprise victory helped him secure Mercedes role",
+     "desc": "Mercedes chief Toto Wolff revealed a jibe at Pastor Maldonado that helped him get his place on the team, as the Austrian businessman gave a comparison between the star Mercedes…",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-reveals-how-williams-surprise-victory-helped-him-secure-mercedes-role/10868959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/6zoDX4a0/s6/motorsport-com-graphics-31.jpg",
+     "date": "2026-10-28T01:40:02+00:00",
+     "author": "",
+     "id": "29d453bd3b",
+     "lead": [
+      "Mercedes chief Toto Wolff revealed a jibe at Pastor Maldonado that helped him get his place on the team, as the Austrian businessman gave a comparison between the star Mercedes drivers and the then-Williams driver.",
+      "Wolff was a shareholder and executive at Williams in 2012, when Maldonado took a surprising victory in the Spanish Grand Prix. At the time, Mercedes had won just once since returning as a works team in 2010, with Nico Rosberg ’s victory in China earlier that season.",
+      "Speaking on the Cheeky Pint podcast with Stripe co-founder John Collison, Wolff said that the win with Williams was followed by a call from the Mercedes parent company."
+     ],
+     "leadKo": [
+      "Mercedes 수석 토토 울프(Toto Wolff)는 오스트리아 사업가가 스타 메르세데스 드라이버와 당시 윌리엄스 드라이버를 비교하면서 말도나도 목사가 팀에서 자리를 잡는 데 도움이 된 비웃음을 공개했습니다.",
+      "Wolff는 Maldonado가 스페인 그랑프리에서 놀라운 승리를 거둔 2012년 Williams의 주주이자 임원이었습니다. 당시 메르세데스는 2010년 워크팀으로 복귀한 뒤 시즌 초 중국에서 니코 로즈버그의 승리를 거두며 단 한 차례 우승을 차지했다.",
+      "Wolff는 Stripe의 공동 창립자인 John Collison과 함께 Cheeky Pint 팟캐스트에서 Williams와의 승리에 이어 Mercedes 모회사로부터 전화를 받았다고 말했습니다."
+     ],
+     "titleKo": "Toto Wolff는 Williams의 놀라운 승리가 Mercedes 역할을 확보하는 데 어떻게 도움이 되었는지 밝힙니다.",
+     "descKo": "메르세데스 수장인 토토 울프(Toto Wolff)는 말도나도 목사가 팀에 합류하는 데 도움이 된 비웃음을 공개했습니다. 오스트리아 사업가는 스타 메르세데스를 비교했습니다."
+    },
+    {
+     "title": "George Russell F1 title chances defended by Toto Wolff after Helmut Marko comments",
+     "desc": "Mercedes Formula 1 team chief Toto Wolff has rejected former Red Bull motorsport adviser Helmut Marko's claim that George Russell will never get another shot at the F1 title.…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-f1-title-chances-defended-by-toto-wolff-after-helmut-marko-comments/10868961/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/0rVPZeJ0/s6/motorsport-com-graphics-26.jpg",
+     "date": "2026-10-28T00:51:35+00:00",
+     "author": "",
+     "id": "9fcbfbd41d",
+     "lead": [
+      "Mercedes Formula 1 team chief Toto Wolff has rejected former Red Bull motorsport adviser Helmut Marko's claim that George Russell will never get another shot at the F1 title.",
+      "Russell currently sits 123 points behind his team-mate and current championship leader Kimi Antonelli in the drivers' standings.",
+      "While speaking to Sky Sports Deutschland ahead of the United States Grand Prix at the Circuit of the Americas, Marko said Antonelli had taken over as the Brackley outfit's lead driver."
+     ],
+     "leadKo": [
+      "메르세데스 포뮬러 1(Mercedes Formula 1) 팀장 토토 울프(Toto Wolff)는 조지 러셀(George Russell)이 F1 타이틀에 다시 도전할 수 없을 것이라는 전 레드불(Red Bull) 모터스포츠 고문 헬무트 마르코(Helmut Marko)의 주장을 일축했습니다.",
+      "Russell은 현재 드라이버 순위에서 팀 동료이자 현재 챔피언십 리더인 Kimi Antonelli보다 123점 뒤쳐져 있습니다.",
+      "Marko는 Americas Circuit의 미국 그랑프리를 앞두고 Sky Sports Deutschland와 대화하면서 Antonelli가 Brackley 팀의 리드 드라이버를 맡았다고 말했습니다."
+     ],
+     "titleKo": "Helmut Marko의 발언 이후 Toto Wolff가 방어한 George Russell F1 타이틀 기회",
+     "descKo": "메르세데스 포뮬러 1(Mercedes Formula 1) 팀장 토토 울프(Toto Wolff)는 조지 러셀(George Russell)이 다시는 F1 타이틀을 노릴 수 없을 것이라는 전 레드불(Red Bull) 모터스포츠 고문 헬무트 마르코(Helmut Marko)의 주장을 일축했습니다.…"
+    },
+    {
+     "title": "Helmut Marko invests in AI start-up after Red Bull F1 exit",
+     "desc": "Former Red Bull motorsport adviser Helmut Marko has become an investor in an Austrian artificial intelligence start-up that lets people leave personal messages to be delivered to…",
+     "link": "https://www.motorsport.com/f1/news/helmut-marko-invests-in-ai-start-up-after-red-bull-f1-exit/10868955/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/6grQKVVY/s6/motorsport-com-graphics-25.jpg",
+     "date": "2026-10-28T00:26:33+00:00",
+     "author": "",
+     "id": "a305e12a9b",
+     "lead": [
+      "Former Red Bull motorsport adviser Helmut Marko has become an investor in an Austrian artificial intelligence start-up that lets people leave personal messages to be delivered to loved ones after they die.",
+      "The 83-year-old, who stepped down from his role at the Milton Keynes outfit at the end of last season after more than two decades with the company, was unveiled as a backer of Lebensstimmen GmbH at a launch event at the Mandarin Oriental hotel in Vienna on 20 October.",
+      "The Graz-based company, which will operate internationally under the name Words That Remain, describes its platform as a form of digital end-of-life planning. Users record or write messages during their lifetime, which are then passed on to chosen recipients after their death."
+     ],
+     "leadKo": [
+      "전 레드불(Red Bull) 모터스포츠 고문이었던 헬무트 마르코(Helmut Marko)는 사람들이 사망한 후 사랑하는 사람에게 개인 메시지를 전달할 수 있도록 하는 오스트리아 인공지능 스타트업에 투자했습니다.",
+      "회사에서 20년 이상 근무한 후 지난 시즌을 끝으로 밀턴 케인스의 자리에서 물러난 83세의 그는 10월 20일 비엔나의 만다린 오리엔탈 호텔에서 열린 출시 행사에서 Lebensstimmen GmbH의 후원자로 공개되었습니다.",
+      "Words That Remain이라는 이름으로 국제적으로 운영될 그라츠에 본사를 둔 이 회사는 자사의 플랫폼을 디지털 임종 계획의 한 형태로 설명합니다. 사용자는 평생 동안 메시지를 기록하거나 작성하며, 사망 후 선택한 수신자에게 전달됩니다."
+     ],
+     "titleKo": "헬무트 마르코(Helmut Marko), 레드불 F1 퇴장 후 AI 스타트업에 투자",
+     "descKo": "전 레드불(Red Bull) 모터스포츠 고문이었던 헬무트 마르코(Helmut Marko)는 개인 메시지를 남길 수 있는 오스트리아 인공지능 스타트업에 투자했습니다."
+    },
+    {
+     "title": "Red Bull responds to Aston Martin F1 power unit rumours",
+     "desc": "Red Bull team principal Laurent Mekies has confirmed that the team is not in \"serious conversations\" when it comes to supplying another Formula 1 team with power units. This…",
+     "link": "https://www.motorsport.com/f1/news/red-bull-responds-to-aston-martin-f1-power-unit-rumours/10868957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0arENDG2/s6/motorsport-com-graphics-30.jpg",
+     "date": "2026-10-28T00:24:29+00:00",
+     "author": "",
+     "id": "f86ad323fd",
+     "lead": [
+      "Red Bull team principal Laurent Mekies has confirmed that the team is not in \"serious conversations\" when it comes to supplying another Formula 1 team with power units. This includes Aston Martin.",
+      "The Silverstone-based team has struggled with its power unit performance all season as its works partnership with Honda has been strained. Now, there are reports of Aston Martin potentially looking elsewhere, including Red Bull and Ford.",
+      "Red Bull's powertrain this season has been a huge surprise, with the internal combustion engine being defined as the benchmark by the FIA, and it already securing two victories in the hands of Max Verstappen . It wouldn't come as a surprise to hear that customer teams across the grid would be interested in such a thing. Talking at the United States Grand Prix, Mekies admitted that there certainly is interest, but the power unit isn't for sale."
+     ],
+     "leadKo": [
+      "Red Bull 팀장 Laurent Mekies는 다른 Formula 1 팀에 동력 장치를 공급하는 것과 관련하여 팀이 \"진지한 대화\"를 하고 있지 않음을 확인했습니다. 여기에는 애스턴 마틴이 포함됩니다.",
+      "Silverstone에 기반을 둔 팀은 Honda와의 작업 파트너십이 긴장되면서 시즌 내내 동력 장치 성능에 어려움을 겪었습니다. 이제 Aston Martin이 잠재적으로 Red Bull 및 Ford를 포함한 다른 곳을 찾고 있다는 보고가 있습니다.",
+      "이번 시즌 Red Bull의 파워트레인은 FIA가 내연 기관을 벤치마크로 정의하고 이미 Max Verstappen의 손에서 두 번의 승리를 거두는 등 큰 놀라움을 안겨주었습니다. 그리드 전반에 걸쳐 고객 팀이 그런 일에 관심을 가질 것이라는 말을 듣는 것은 놀라운 일이 아닙니다. 미국 그랑프리에서 이야기하면서 Mekies는 확실히 관심이 있지만 동력 장치는 판매용이 아니라고 인정했습니다."
+     ],
+     "titleKo": "Red Bull은 Aston Martin F1 동력 장치 소문에 응답합니다.",
+     "descKo": "Red Bull 팀장 Laurent Mekies는 다른 Formula 1 팀에 동력 장치를 공급하는 것과 관련하여 팀이 \"진지한 대화\"를 하고 있지 않음을 확인했습니다. 이것…"
+    },
+    {
      "title": "Kimi Antonelli extends F1 title lead with US GP win Mercedes didn’t expect",
      "desc": "The telemetry inside the Mercedes garage after Friday practice at the Circuit of the Americas pointed towards the Brackley squad waiting to pack up for a miserable, point-less…",
      "link": "https://www.motorsport.com/f1/news/mercedes-admits-they-were-clueless-before-kimi-antonellis-austin-miracle-a-remarkable-turnaround/10868571/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0JXRrDpY/s6/motorsport-com-graphics-29-2.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/0JXRrDpY/s6/motorsport-com-graphics-29-2.jpg",
      "date": "2026-10-27T22:05:19+00:00",
      "author": "",
      "id": "60f4fe3d80",
+     "titleKo": "키미 안토넬리(Kimi Antonelli), 메르세데스가 예상하지 못한 US GP 우승으로 F1 타이틀 선두 연장",
+     "descKo": "미주 서킷에서 금요일 연습을 마친 후 메르세데스 차고 내부의 원격 측정은 비참하고 무의미한 경기를 위해 짐을 꾸리기를 기다리고 있는 브래클리 선수단을 가리켰습니다.",
      "lead": [
       "The telemetry inside the Mercedes garage after Friday practice at the Circuit of the Americas pointed towards the Brackley squad waiting to pack up for a miserable, point-less weekend. The car was off the pace, the drivers were complaining about the balance, and the recent aerodynamic upgrades looked like a massive misstep.",
       "Fast forward to Sunday afternoon, and 19-year-old Andrea Kimi Antonelli is standing on the top step of the podium, spraying champagne and casually extending his world championship lead.",
@@ -1788,15 +1876,13 @@
       "미주 서킷에서 금요일 연습을 마친 후 메르세데스 차고 내부의 원격 측정은 비참하고 의미 없는 주말을 위해 짐을 꾸리기 위해 기다리고 있는 브래클리 선수단을 가리켰습니다. 차가 속도를 잃었고, 운전자들이 균형에 대해 불평했고, 최근의 공기역학적 업그레이드는 엄청난 실수처럼 보였습니다.",
       "일요일 오후가 되자 19세의 안드레아 키미 안토넬리(Andrea Kimi Antonelli)가 시상대 꼭대기에 서서 샴페인을 뿌리며 자연스럽게 세계 챔피언십 선두를 연장했습니다.",
       "Mercedes의 트랙사이드 엔지니어링 디렉터인 Andrew Shovlin에 따르면, 금요일의 다소 트랙터 같은 속도에서 일요일의 지배적인 승리로 나아간 순전한 채찍질은 기적에 지나지 않았습니다."
-     ],
-     "titleKo": "키미 안토넬리(Kimi Antonelli), 메르세데스가 예상하지 못한 US GP 우승으로 F1 타이틀 선두 연장",
-     "descKo": "미주 서킷에서 금요일 연습을 마친 후 메르세데스 차고 내부의 원격 측정은 비참하고 무의미한 경기를 위해 짐을 꾸리기를 기다리고 있는 브래클리 선수단을 가리켰습니다."
+     ]
     },
     {
      "title": "Toto Wolff takes blame for George Russell's US GP struggles",
      "desc": "If you looked at the two sides of the Mercedes garage after Sunday's United States Grand Prix, you would assume they were running completely different machinery. On one side,…",
      "link": "https://www.motorsport.com/f1/news/wolff-admits-its-painful-watching-george-russell-struggle-while-kimi-antonelli-walks-on-water/10868566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/6n7br3o0/s6/motorsport-com-graphics-28-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/6n7br3o0/s6/motorsport-com-graphics-28-2.jpg",
      "date": "2026-10-27T17:58:01+00:00",
      "author": "",
      "id": "13e5fb30b8",
@@ -1817,7 +1903,7 @@
      "title": "Valtteri Bottas denies he might lose his Cadillac seat for F1 2027",
      "desc": "Valtteri Bottas insists Cadillac is happy with him and his contract is “all OK” for 2027, amid recent rumours about his Formula 1 future. Bottas’ recent lack of both qualifying…",
      "link": "https://www.motorsport.com/f1/news/valtteri-bottas-denies-he-might-lose-his-cadillac-seat-for-f1-2027/10868664/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg",
      "date": "2026-10-27T17:29:14+00:00",
      "author": "",
      "id": "2f48415290",
@@ -1838,7 +1924,7 @@
      "title": "Franco Colapinto, George Russell to sit out FP1 at F1 Mexico GP",
      "desc": "Gabriele Mini is set to make his Formula 1 race weekend debut, driving Franco Colapinto’s Alpine in Free Practice 1 at the Mexico Grand Prix. The erstwhile Formula 2 championship…",
      "link": "https://www.motorsport.com/f1/news/franco-colapinto-george-russell-to-sit-out-fp1-at-f1-mexico-gp/10868889/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/YBVjKMKY/s6/franco-colapinto-alpine.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YBVjKMKY/s6/franco-colapinto-alpine.jpg",
      "date": "2026-10-27T15:50:28+00:00",
      "author": "",
      "id": "4d4c5b3fd2",
@@ -1859,7 +1945,7 @@
      "title": "The mistakes that cost Lewis Hamilton a podium at F1’s US GP",
      "desc": "Lewis Hamilton has explained the reasons why the podium narrowly eluded him in Formula 1’s United States Grand Prix. The Ferrari driver started from fifth on the grid and jumped…",
      "link": "https://www.motorsport.com/f1/news/the-mistakes-that-cost-lewis-hamilton-a-podium-at-f1s-us-gp/10868845/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg",
      "date": "2026-10-27T15:01:07+00:00",
      "author": "",
      "id": "8edf61709d",
@@ -1874,90 +1960,6 @@
       "루이스 해밀턴은 포뮬러 1 미국 그랑프리에서 시상대가 아슬아슬하게 자신을 피한 이유를 설명했습니다.",
       "Ferrari 드라이버는 그리드에서 5위부터 출발했고, 개막전 동안 중고(소프트) 타이어를 사용한 유일한 드라이버였음에도 불구하고 소등 상태에서 Isack Hadjar를 4위로 뛰어올랐습니다.",
       "그러나 해밀턴은 그 기간 동안 팀 동료인 Charles Leclerc에게 랩당 0.277초를 잃었고, 새로운 소프트 타이어를 장착한 Max Verstappen에게도 0.422초를 잃었습니다. 그 몇 초는 오스틴 경주가 끝날 때 영국인이 Verstappen을 3위로 이기고 아마도 Leclerc를 2위로 앞지르지 못한 시간에 해당합니다."
-     ]
-    },
-    {
-     "title": "McLaren boss claims the MCL40 had podium pace despite a “disappointing” P5 and P7",
-     "desc": "In modern Formula 1, raw race pace means absolutely nothing if you completely bottle your qualifying laps on Saturday afternoon. Without track position, you are simply burning up…",
-     "link": "https://www.motorsport.com/f1/news/mclaren-boss-claims-the-mcl40-had-podium-pace-despite-a-disappointing-5th-and-7th/10868598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6b8ZNwr2/s6/motorsport-com-graphics-21-2.jpg",
-     "date": "2026-10-27T14:27:14+00:00",
-     "author": "",
-     "id": "75367ed3e7",
-     "titleKo": "McLaren 상사는 MCL40이 \"실망스러운\" P5 및 P7에도 불구하고 포디엄 속도를 유지했다고 주장합니다.",
-     "descKo": "현대 Formula 1에서 토요일 오후에 적격 랩을 완전히 완주한다면 원시 레이스 속도는 전혀 의미가 없습니다. 트랙 위치가 없으면 단순히 불타 오르는 것입니다…",
-     "lead": [
-      "In modern Formula 1, raw race pace means absolutely nothing if you completely bottle your qualifying laps on Saturday afternoon. Without track position, you are simply burning up your tyres in dirty air while the race leaders cruise off into the distance.",
-      "That is the reality McLaren faced at the United States Grand Prix.",
-      "Despite bringing a highly effective upgrade package to the Circuit of the Americas, Lando Norris and Oscar Piastri were forced to settle for fifth and seventh, respectively. Following the race, McLaren team principal Andrea Stella couldn't hide his annoyance over the team squandering a massive opportunity."
-     ],
-     "leadKo": [
-      "현대 Formula 1에서 토요일 오후에 적격 랩을 완전히 완주한다면 원시 레이스 속도는 전혀 의미가 없습니다. 트랙 위치가 없으면 경주 선두가 멀리 순항하는 동안 더러운 공기 속에서 타이어를 태워버릴 뿐입니다.",
-      "그것이 맥라렌이 미국 그랑프리에서 직면한 현실이다.",
-      "Circuit of the Americas에 매우 효과적인 업그레이드 패키지를 제공했음에도 불구하고 Lando Norris와 Oscar Piatri는 각각 5위와 7위에 안주해야 했습니다. 경주가 끝난 후 McLaren 팀장인 Andrea Stella는 팀이 막대한 기회를 낭비하는 것에 대한 짜증을 숨길 수 없었습니다."
-     ]
-    },
-    {
-     "title": "“I couldn’t disappear” – Oliver Bearman rues “crazy” penalty for Pierre Gasly clash",
-     "desc": "Oliver Bearman says he was “pretty shocked” to land a 10-second penalty for his collision with Pierre Gasly in Formula 1’s United States Grand Prix. Bearman gained two spots on…",
-     "link": "https://www.motorsport.com/f1/news/i-just-couldnt-disappear-oliver-bearman-rues-crazy-10s-penalty-for-pierre-gasly-clash/10868777/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0LdeBMv0/s6/oliver-bearman-haas-f1-team.jpg",
-     "date": "2026-10-27T13:51:23+00:00",
-     "author": "",
-     "id": "31b2c8f595",
-     "titleKo": "“나는 사라질 수 없었다” – 올리버 베어먼은 피에르 가슬리 충돌에 대해 “미친” 페널티를 받았다고 비난했다",
-     "descKo": "올리버 베어먼(Oliver Bearman)은 포뮬러 1 미국 그랑프리에서 피에르 가슬리(Pierre Gasly)와 충돌해 10초의 페널티를 받고 \"매우 충격을 받았다\"고 말했습니다. Bearman은 두 단계를 얻었습니다…",
-     "lead": [
-      "Oliver Bearman says he was “pretty shocked” to land a 10-second penalty for his collision with Pierre Gasly in Formula 1’s United States Grand Prix.",
-      "Bearman gained two spots on the opening lap of the Austin race and made a move on 10th-placed Gasly on the next tour, down the inside in Turn 13.",
-      "Realising the gap was disappearing, Bearman put two wheels on the yellow inside kerb, but his front-left wheel still touched the Alpine ’s sidepod; the contact, albeit tenuous, caused significant damage to both cars, and FIA stewards hit the Briton with that 10-second penalty."
-     ],
-     "leadKo": [
-      "올리버 베어먼(Oliver Bearman)은 포뮬러 1 미국 그랑프리에서 피에르 가슬리(Pierre Gasly)와 충돌해 10초의 페널티를 받고 \"매우 충격을 받았다\"고 말했습니다.",
-      "Bearman은 오스틴 레이스의 오프닝 랩에서 2계단을 얻었고 다음 투어에서는 13번째 턴에서 안쪽으로 내려가 10위인 Gasly를 제쳤습니다.",
-      "간격이 사라지고 있음을 깨달은 Bearman은 노란색 안쪽 연석에 바퀴 두 개를 달았지만 왼쪽 앞바퀴는 여전히 Alpine의 사이드포드에 닿았습니다. 비록 미약했지만 접촉은 두 차량 모두에 심각한 손상을 입혔고 FIA 관리인은 10초의 페널티로 영국인을 공격했습니다."
-     ]
-    },
-    {
-     "title": "Toto Wolff dismisses Helmut Marko's Russell theory: \"He still has what it takes\"",
-     "desc": "Mercedes F1 boss Toto Wolff has dismissed suggestions from former Red Bull advisor Helmut Marko that there's no coming back for George Russell from being beaten to the world title…",
-     "link": "https://www.motorsport.com/f1/news/toto-wolff-dismisses-helmut-marko--george-russell-theory/10868811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/6AlvqxNY/s6/george-russell-mercedes-2.jpg",
-     "date": "2026-10-27T12:22:44+00:00",
-     "author": "",
-     "id": "4095e6a366",
-     "titleKo": "토토 울프(Toto Wolff)는 헬무트 마르코(Helmut Marko)의 러셀 이론을 일축했습니다. \"그는 여전히 필요한 것을 갖고 있습니다.\"",
-     "descKo": "메르세데스 F1의 토토 울프(Toto Wolff) 감독은 조지 러셀(George Russell)이 월드 타이틀을 차지한 뒤 다시는 돌아올 수 없을 것이라는 전 레드불(Red Bull) 고문 헬무트 마르코(Helmut Marko)의 제안을 일축했습니다.",
-     "lead": [
-      "Mercedes F1 boss Toto Wolff has dismissed suggestions from former Red Bull advisor Helmut Marko that there's no coming back for George Russell from being beaten to the world title by Kimi Antonelli.",
-      "Antonelli is set to be crowned in the upcoming Mexico City Grand Prix barring exceptional circumstances delaying his coronation by one week.",
-      "As Mercedes hit the front with the all-new 2026 regulations, it provided long-time Mercedes driver Russell with a golden chance to fight for the world title, but the Briton has been largely overshadowed by his less experienced team-mate, who won five consecutive races at the start of the year to take charge of the standings."
-     ],
-     "leadKo": [
-      "Mercedes F1의 토토 울프(Toto Wolff) 감독은 조지 러셀(George Russell)이 키미 안토넬리(Kimi Antonelli)에게 패배하면 돌아올 수 없을 것이라는 전 레드불 고문 헬무트 마르코(Helmut Marko)의 제안을 일축했습니다.",
-      "안토넬리는 대관식을 일주일 정도 연기하는 예외적인 상황을 제외하고 다가오는 멕시코시티 그랑프리에서 즉위할 예정입니다.",
-      "메르세데스가 완전히 새로운 2026년 규정으로 선두를 달리자, 오랜 기간 메르세데스 드라이버 러셀에게 세계 타이틀을 놓고 싸울 수 있는 절호의 기회가 주어졌지만, 영국인은 연초에 5회 연속 레이스에서 우승하여 순위를 차지한 경험이 적은 그의 팀 동료에 의해 크게 가려졌습니다."
-     ]
-    },
-    {
-     "title": "Red Bull reveals when 'silly' problems affecting Max Verstappen and Isack Hadjar can be fixed",
-     "desc": "Although Max Verstappen once again secured a podium finish, something that seemed to be the maximum achievable for much of this Formula 1 season, there was certainly little…",
-     "link": "https://www.motorsport.com/f1/news/red-bull-reveals-when-silly-problems-affecting-max-verstappen-and-isack-hadjar-can-be-fixed/10868773/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0rVPqXy0/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-10-27T09:34:32+00:00",
-     "author": "",
-     "id": "e4916f6d80",
-     "titleKo": "Red Bull은 Max Verstappen과 Isack Hadjar에 영향을 미치는 '어리석은' 문제를 언제 해결할 수 있는지 밝힙니다.",
-     "descKo": "Max Verstappen이 다시 한 번 포디엄 피니시를 달성했지만, 이는 이번 Formula 1 시즌의 대부분에서 달성할 수 있는 최대치인 것처럼 보였지만 확실히 적은 성과를 거두었습니다.",
-     "lead": [
-      "Although Max Verstappen once again secured a podium finish, something that seemed to be the maximum achievable for much of this Formula 1 season, there was certainly little satisfaction in the Red Bull hospitality on Sunday evening. Several team members acknowledged in the paddock that Kimi Antonelli's race pace was impossible to match, although both Red Bull drivers were frustrated that the team had failed to extract the full potential from its…",
-      "This was partly due to problems specific to this race, such as strategic decisions Verstappen was unhappy with – particularly the insistence on sticking with the softer compounds while the harder ones seemed to work better – and inconsistent behaviour from the power unit. But the difficult Sunday afternoon at the Circuit of the Americas was also caused by two problems that have repeatedly cropped up this year: poor starts and technical issues…",
-      "All of this led to frustration for Isack Hadjar , who summed it up as follows in the media pen, speaking to media including Motorsport.com:“At the moment, it's the little things we can’t do."
-     ],
-     "leadKo": [
-      "Max Verstappen이 다시 한 번 포디움 피니시를 달성했지만, 이는 이번 Formula 1 시즌의 대부분에서 달성할 수 있는 최대치인 것처럼 보였지만, 일요일 저녁 Red Bull의 환대에는 확실히 만족감이 거의 없었습니다. 몇몇 팀원들은 Kimi Antonelli의 레이스 속도가 일치할 수 없다는 점을 패독에서 인정했지만, 두 Red Bull 드라이버는 팀이 레이스 속도에서 잠재력을 최대한 끌어내지 못한 것에 좌절했습니다.",
-      "이는 부분적으로 Verstappen이 만족하지 못한 전략적 결정(특히 더 단단한 화합물이 더 잘 작동하는 것처럼 보이는 반면 더 부드러운 화합물을 고수하려는 고집)과 동력 장치의 일관되지 않은 동작과 같은 이 경주에 특정한 문제 때문이었습니다. 그러나 미주 서킷의 힘든 일요일 오후는 올해 반복적으로 발생한 두 가지 문제, 즉 시동 불량과 기술 문제로 인해 발생했습니다.",
-      "이 모든 것이 Isack Hadjar에게 좌절감을 안겨주었습니다. 그는 미디어 펜에 다음과 같이 요약했습니다. 그는 Motorsport.com을 포함한 언론과의 인터뷰에서 다음과 같이 말했습니다. “지금은 우리가 할 수 없는 작은 일들입니다."
      ]
     }
    ]
