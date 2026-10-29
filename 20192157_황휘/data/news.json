@@ -1,6 +1,8 @@
 {
- "updated": "2026-10-28T21:41:23+00:00",
- "failed": [],
+ "updated": "2026-10-29T01:50:25+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -158,10 +160,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-10-28T21:29:48Z",
+     "date": "2026-10-28T21:50:27Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1382468653,
+     "revid": 1382472134,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1782,13 +1784,99 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Daniel Ricciardo opens door to racing return with Max Verstappen at Le Mans",
+     "desc": "Former Formula 1 driver Daniel Ricciardo has revealed he would consider a one-off appearance at the Le Mans 24 Hours and named his former Red Bull team-mate Max Verstappen as his…",
+     "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-opens-door-to-racing-return-with-max-verstappen-at-le-mans/10869169/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/6Alv4NNY/s6/motorsport-com-graphics-28.jpg",
+     "date": "2026-10-29T00:41:02+00:00",
+     "author": "",
+     "id": "c5de41046b",
+     "lead": [
+      "Former Formula 1 driver Daniel Ricciardo has revealed he would consider a one-off appearance at the Le Mans 24 Hours and named his former Red Bull team-mate Max Verstappen as his first choice to share a car with.",
+      "The Australian driver has not raced since his F1 exit after the 2024 Singapore Grand Prix, but during an appearance on the F1 Beyond the Grid , the eight-time grand prix winner said he would like the chance to end his racing career on his own terms.",
+      "“A year ago, I would have said I will never put a helmet on again. I’m done. That’s it. But there is something there where I’m like, it’d be nice for me to also finish a racing career a bit more on my terms."
+     ],
+     "leadKo": [
+      "전 포뮬러 1 드라이버 다니엘 리카르도(Daniel Ricciardo)는 르망 24시간 경주에 일회성 출전을 고려할 것이라고 밝혔으며, 전 레드불 팀 동료인 막스 베르스타펜(Max Verstappen)을 함께 차를 공유할 첫 번째 선택자로 지명했습니다.",
+      "호주 드라이버인 이 호주 드라이버는 2024년 싱가포르 그랑프리 이후 F1을 떠난 이후로 경주에 출전하지 않았지만 F1 Beyond the Grid에 출연하는 동안 8회 그랑프리 우승을 차지한 그는 자신의 조건에 따라 경주 경력을 마무리할 기회를 갖고 싶다고 말했습니다.",
+      "\"1년 전에는 다시는 헬멧을 쓰지 않겠다고 말했을 거에요. 이제 됐어요. 그게 다예요. 하지만 제 마음대로 레이싱 경력을 좀 더 마무리하면 좋겠다는 생각도 있어요.\""
+     ],
+     "titleKo": "다니엘 리카르도(Daniel Ricciardo)가 르망(Le Mans)에서 막스 베르스타펜(Max Verstappen)과 함께 경주 복귀의 문을 열었습니다.",
+     "descKo": "전 포뮬러 1 드라이버 다니엘 리카르도(Daniel Ricciardo)는 르망 24시(Le Mans 24 Hours)에 한 번 출전하는 것을 고려할 것이라고 밝혔으며 그의 전 레드불 팀 동료인 막스 베르스타펜(Max Verstappen)을 자신의 선수로 지명했습니다."
+    },
+    {
+     "title": "Daniel Ricciardo reveals major regret over 2018 Red Bull departure",
+     "desc": "Daniel Ricciardo has admitted he wishes he had stayed at the Red Bull Formula 1 team rather than leaving at the end of the 2018 season. The Australian won seven grands prix with…",
+     "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-reveals-major-regret-over-2018-red-bull-departure/10869167/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/0o5A8JaY/s6/motorsport-com-graphics-38-2.jpg",
+     "date": "2026-10-29T00:26:45+00:00",
+     "author": "",
+     "id": "ac09ceea80",
+     "lead": [
+      "Daniel Ricciardo has admitted he wishes he had stayed at the Red Bull Formula 1 team rather than leaving at the end of the 2018 season.",
+      "The Australian won seven grands prix with Red Bull, but shocked everyone when he left the team and joined Renault for 2019, leaving Max Verstappen as the team’s undisputed lead driver. The Dutchman went on to win four consecutive world titles from 2021, while Ricciardo won just one more race - for McLaren at Monza in 2021 - before his F1 career ended in 2024.",
+      "Speaking on the Beyond The Grid podcast, the Australian confirmed the team had wanted him to stay, and admitted that, looking back, he would have done things differently."
+     ],
+     "leadKo": [
+      "다니엘 리카르도(Daniel Ricciardo)는 2018년 시즌이 끝날 때 Red Bull Formula 1 팀을 떠나는 것보다 Red Bull Formula 1 팀에 머물고 싶었다고 인정했습니다.",
+      "이 호주인은 Red Bull과 함께 7번의 그랑프리를 획득했지만, 팀을 떠나 2019년 르노에 합류하면서 모두를 놀라게 했고, Max Verstappen을 팀의 확실한 리드 드라이버로 남겨 두었습니다. 더치맨은 2021년부터 4년 연속 월드 타이틀을 획득했고, 리카르도는 2024년 F1 경력이 끝나기 전까지 2021년 몬자에서 열린 맥라렌 경주에서 단 한 번만 더 우승했습니다.",
+      "Beyond The Grid 팟캐스트에서 이 호주인은 팀이 자신이 머물기를 원했음을 확인했으며, 되돌아보면 자신이 다르게 행동했을 것이라고 인정했습니다."
+     ],
+     "titleKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 레드불 떠난 것에 대한 큰 후회를 밝혔습니다.",
+     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 시즌이 끝날 때 Red Bull Formula 1 팀을 떠나는 것보다 Red Bull Formula 1 팀에 머물고 싶었다고 인정했습니다. 호주인은 7개의 그랑프리를 획득했습니다."
+    },
+    {
+     "title": "FIA to use AI to help shape future F1 regulations in new AWS partnership",
+     "desc": "The Fédération Internationale de l'Automobile (FIA) will use artificial intelligence from Amazon Web Services (AWS) to help draw up the rules for Formula 1's next era of cars,…",
+     "link": "https://www.motorsport.com/f1/news/fia-to-use-ai-to-help-shape-future-f1-regulations-in-new-aws-partnership/10869165/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YK1589z0/s6/motorsport-com-graphics-27.jpg",
+     "date": "2026-10-29T00:16:47+00:00",
+     "author": "",
+     "id": "76dd64ea88",
+     "lead": [
+      "The Fédération Internationale de l'Automobile (FIA) will use artificial intelligence from Amazon Web Services (AWS) to help draw up the rules for Formula 1's next era of cars, after signing a new global partnership with the tech giant.",
+      "Under the deal, AWS becomes the governing body's official AI and cloud computing partner, with its technology to be used across motorsport, including F1.",
+      "The biggest change will be felt in how future rules are written. The FIA already uses AWS computing power to run its aerodynamic simulations. Now, AWS will also give the FIA's technical and engineering staff access to AI tools to help them draw up regulations."
+     ],
+     "leadKo": [
+      "FIA(Fédération Internationale de l'Automobile)는 거대 기술 기업과 새로운 글로벌 파트너십을 체결한 후 Amazon Web Services(AWS)의 인공 지능을 사용하여 Formula 1의 차세대 자동차에 대한 규칙을 작성하는 데 도움을 줄 예정입니다.",
+      "이번 계약에 따라 AWS는 F1을 포함한 모터스포츠 전반에 걸쳐 사용되는 기술을 갖춘 관리 기관의 공식 AI 및 클라우드 컴퓨팅 파트너가 됩니다.",
+      "가장 큰 변화는 향후 규칙이 작성되는 방식에서 느껴질 것입니다. FIA는 이미 AWS 컴퓨팅 성능을 사용하여 공기 역학 시뮬레이션을 실행하고 있습니다. 이제 AWS는 FIA의 기술 및 엔지니어링 직원이 규정을 작성하는 데 도움이 되는 AI 도구에 대한 액세스 권한도 제공합니다."
+     ],
+     "titleKo": "FIA, AI를 사용하여 새로운 AWS 파트너십을 통해 향후 F1 규정 수립 지원",
+     "descKo": "FIA(Fédération Internationale de l'Automobile)는 Amazon Web Services(AWS)의 인공 지능을 사용하여 Formula 1의 차세대 자동차에 대한 규칙을 작성하는 데 도움을 줄 예정입니다."
+    },
+    {
+     "title": "Christian Horner addresses past misconduct allegations in new interview",
+     "desc": "The allegations surrounding Christian Horner's final months at Red Bull Racing still draw questions from fans despite him being cleared of any wrongdoing. Now, 15 months after his…",
+     "link": "https://www.motorsport.com/f1/news/christian-horner-finally-speaks-on-the-leaked-whatsapp-file-and-coercion-allegations/10869049/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/0qgKEJEY/s6/motorsport-com-graphics-34-2.jpg",
+     "date": "2026-10-28T23:51:51+00:00",
+     "author": "",
+     "id": "bf9ed8c47d",
+     "lead": [
+      "The allegations surrounding Christian Horner's final months at Red Bull Racing still draw questions from fans despite him being cleared of any wrongdoing. Now, 15 months after his exit from the team, Horner has finally broken his silence on that time.",
+      "Sitting down with 60 Minutes Australia , the former team principal addressed the allegations with uncompromising defiance.",
+      "In December 2023, a female employee lodged a formal grievance against Horner regarding inappropriate and controlling behaviour. Following a massive independent investigation by an external specialist barrister, Red Bull GmbH officially cleared Horner of any wrongdoing on 28 February 2024."
+     ],
+     "leadKo": [
+      "Red Bull Racing에서 Christian Horner의 마지막 달을 둘러싼 주장은 그가 어떠한 잘못도 없어졌음에도 불구하고 여전히 팬들로부터 질문을 받고 있습니다. 이제 팀을 떠난 지 15개월이 지난 지금, 호너는 마침내 그 당시 침묵을 깨뜨렸습니다.",
+      "60 Minutes Australia와 함께 앉은 전 팀장은 타협하지 않는 반항으로 혐의를 다루었습니다.",
+      "2023년 12월, 한 여성 직원이 부적절하고 통제적인 행동에 대해 Horner에 대해 공식적인 불만을 제기했습니다. 외부 전문 변호사의 대규모 독립적 조사에 이어 Red Bull GmbH는 2024년 2월 28일 Horner의 모든 잘못을 공식적으로 정리했습니다."
+     ],
+     "titleKo": "Christian Horner는 새로운 인터뷰에서 과거 위법 행위 혐의를 언급합니다.",
+     "descKo": "Red Bull Racing에서 Christian Horner의 마지막 달을 둘러싼 주장은 그가 어떠한 잘못도 없어졌음에도 불구하고 여전히 팬들로부터 질문을 받고 있습니다. 그로부터 15개월이 지난 지금,…"
+    },
+    {
      "title": "Christian Horner reveals details of Red Bull exit in emotional interview",
      "desc": "Ever since Red Bull unceremoniously dropped Christian Horner on 9 July 2025, the Formula 1 paddock has been buzzing with endless speculation about what actually triggered the…",
      "link": "https://www.motorsport.com/f1/news/christian-horner-drops-a-124-win-reality-check-on-the-execs-who-fired-him/10869043/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0R7BR3g2/s6/motorsport-com-graphics-33-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0R7BR3g2/s6/motorsport-com-graphics-33-2.jpg",
      "date": "2026-10-28T18:30:18+00:00",
      "author": "",
      "id": "f07518df4b",
+     "titleKo": "크리스티안 호너(Christian Horner)는 감정적인 인터뷰에서 레드불 탈퇴에 대한 세부 사항을 밝혔습니다.",
+     "descKo": "2025년 7월 9일 Red Bull이 Christian Horner를 무의식적으로 탈락시킨 이후로 Formula 1 패독은 실제로 무엇이 문제를 촉발시켰는지에 대한 끝없는 추측으로 떠들썩해졌습니다.",
      "lead": [
       "Ever since Red Bull unceremoniously dropped Christian Horner on 9 July 2025, the Formula 1 paddock has been buzzing with endless speculation about what actually triggered the guillotine.",
       "Was it the early-2024 allegations? Was it the fact that Red Bull only managed to win two grand prix races in the first half of 2025? Or was it Max Verstappen ’s camp finally forcing a hard ultimatum?",
@@ -1798,18 +1886,18 @@
       "2025년 7월 9일 Red Bull이 Christian Horner를 무의식적으로 탈락시킨 이후로 Formula 1 패독은 실제로 단두대를 촉발한 원인에 대한 끝없는 추측으로 떠들썩해졌습니다.",
       "2024년 초 의혹이었나요? Red Bull이 2025년 상반기에 그랑프리 경주에서 2번만 우승했다는 사실이 사실인가요? 아니면 Max Verstappen의 진영이 마침내 강력한 최후통첩을 강요한 것일까요?",
       "이제 60 Minutes Australia 덕분에 Horner의 이야기가 마침내 밝혀졌습니다. 그리고 그는 자신을 문 밖으로 밀어낸 경영진을 주저하지 않았습니다."
-     ],
-     "titleKo": "크리스티안 호너(Christian Horner)는 감정적인 인터뷰에서 레드불 탈퇴에 대한 세부 사항을 밝혔습니다.",
-     "descKo": "2025년 7월 9일 Red Bull이 Christian Horner를 무의식적으로 탈락시킨 이후로 Formula 1 패독은 실제로 무엇이 문제를 촉발시켰는지에 대한 끝없는 추측으로 떠들썩해졌습니다."
+     ]
     },
     {
      "title": "Five things to look out for at the F1 Mexico GP",
      "desc": "Formula 1 is back again this weekend with the highly popular Mexico Grand Prix, which comes just seven days after Kimi Antonelli romped to victory in Austin. That was the Mercedes…",
      "link": "https://www.motorsport.com/f1/news/five-things-to-look-out-for-at-the-f1-mexico-gp/10868922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0arKKow2/s6/charles-leclerc-ferrari-lewis-.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0arKKow2/s6/charles-leclerc-ferrari-lewis-.jpg",
      "date": "2026-10-28T16:51:15+00:00",
      "author": "",
      "id": "b0bc7cf97e",
+     "titleKo": "F1 멕시코 GP에서 주의해야 할 5가지",
+     "descKo": "포뮬러 1은 이번 주말 매우 인기 있는 멕시코 그랑프리와 함께 다시 돌아왔습니다. 이는 키미 안토넬리(Kimi Antonelli)가 오스틴에서 우승을 차지한 지 불과 7일 만에 열리는 것입니다. 그게 메르세데스였군요...",
      "lead": [
       "Formula 1 is back again this weekend with the highly popular Mexico Grand Prix, which comes just seven days after Kimi Antonelli romped to victory in Austin.",
       "That was the Mercedes driver’s ninth win of the 2026 season after dominating from pole in a race largely defined by strategy with Antonelli nailing a one-stopper.",
@@ -1819,15 +1907,13 @@
       "포뮬러 1은 이번 주말 매우 인기 있는 멕시코 그랑프리와 함께 다시 돌아왔습니다. 이는 키미 안토넬리(Kimi Antonelli)가 오스틴에서 우승을 차지한 지 불과 7일 만에 열리는 것입니다.",
       "그것은 안토넬리가 원 스토퍼를 성공시키는 등 주로 전략으로 정의되는 레이스에서 폴에서 우위를 점한 후 2026 시즌 메르세데스 드라이버의 9번째 승리였습니다.",
       "그는 시즌 18라운드에서 투 스톱 듀오 Charles Leclerc와 Max Verstappen과 함께 포디움에 올랐습니다."
-     ],
-     "titleKo": "F1 멕시코 GP에서 주의해야 할 5가지",
-     "descKo": "포뮬러 1은 이번 주말 매우 인기 있는 멕시코 그랑프리와 함께 다시 돌아왔습니다. 이는 키미 안토넬리(Kimi Antonelli)가 오스틴에서 우승을 차지한 지 불과 7일 만에 열리는 것입니다. 그게 메르세데스였군요..."
+     ]
     },
     {
      "title": "Max Verstappen sits out for Red Bull in Mexico GP FP1",
      "desc": "Max Verstappen will step aside during first practice at the Mexico City Grand Prix as Red Bull continues to complete its quota of rookie runs in FP1 sessions. Teams are required…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-sits-out-for-red-bull-in-mexico-gp-fp1/10869125/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YP74y4o2/s6/max-verstappen-red-bull-racing.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YP74y4o2/s6/max-verstappen-red-bull-racing.jpg",
      "date": "2026-10-28T16:17:13+00:00",
      "author": "",
      "id": "d10a0affce",
@@ -1869,7 +1955,7 @@
      "title": "Sergio Perez signs fresh Cadillac F1 deal until 2029",
      "desc": "Sergio Perez has committed to the Cadillac F1 project until at least 2029 as the Mexican signed fresh terms with the US-owned outfit. Perez joined F1's expansion team for its 2026…",
      "link": "https://www.motorsport.com/f1/news/sergio-perez-signs-fresh-cadillac-f1-deal-until-2029/10869093/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg",
      "date": "2026-10-28T15:02:59+00:00",
      "author": "",
      "id": "e614fc3b93",
@@ -1884,90 +1970,6 @@
       "Sergio Perez는 멕시코인이 미국 소유 회사와 새로운 계약을 체결함에 따라 최소 2029년까지 Cadillac F1 프로젝트에 전념했습니다.",
       "페레즈는 지난해 레드불 퇴장으로 인해 F1의 2026년 데뷔를 위해 확장 팀에 합류했습니다.",
       "미국 팀의 일관성 없는 데뷔 시즌의 우여곡절을 겪었음에도 불구하고, 36세의 이 선수는 이번 시즌 동료 베테랑 팀 동료인 발테리 보타스(Valtteri Bottas)와 비교하여 최고의 폼을 찾았습니다."
-     ]
-    },
-    {
-     "title": "Oliver Bearman explains why Haas’ 2026 F1 car is ‘hitting its ceiling’",
-     "desc": "Oliver Bearman believes Haas cannot extract much more performance from its 2026 Formula 1 car, following the United States Grand Prix. Bearman displayed encouraging Friday pace at…",
-     "link": "https://www.motorsport.com/f1/news/oliver-bearman-explains-why-haas-2026-f1-car-is-hitting-its-ceiling/10868899/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/0R7BA1O2/s6/oliver-bearman-haas-f1-team.jpg",
-     "date": "2026-10-28T12:57:38+00:00",
-     "author": "",
-     "id": "0809d6d1b6",
-     "titleKo": "Oliver Bearman이 Haas의 2026 F1 자동차가 '천장에 도달'한 이유를 설명합니다.",
-     "descKo": "Oliver Bearman은 Haas가 미국 그랑프리에 이어 2026년 Formula 1 자동차에서 더 많은 성능을 끌어낼 수 없다고 믿습니다. Bearman은 금요일에 고무적인 속도를 보였습니다…",
-     "lead": [
-      "Oliver Bearman believes Haas cannot extract much more performance from its 2026 Formula 1 car, following the United States Grand Prix.",
-      "Bearman displayed encouraging Friday pace at the Circuit of The Americas, with 11th and 10th in the opening two free practice sessions, before slipping down the order – to the extent that he qualified just 16th.",
-      "The Briton explained this was down to finding a near-perfect set-up as early as FP1, meaning his VF-26 lost pace relative to the competition as his rivals made inroads on that front."
-     ],
-     "leadKo": [
-      "Oliver Bearman은 Haas가 미국 그랑프리에 이어 2026년 Formula 1 자동차에서 더 많은 성능을 끌어낼 수 없다고 믿습니다.",
-      "Bearman은 미주 서킷(Circuit of The Americas)에서 열린 두 번의 무료 연습 세션에서 11위와 10위를 기록하며 금요일에 고무적인 페이스를 보인 후 순위가 하락하여 16위에 그쳤습니다.",
-      "영국인은 이것이 FP1 초기에 거의 완벽한 설정을 찾은 결과라고 설명했는데, 이는 그의 VF-26이 그의 라이벌이 그 전선에 진출함에 따라 경쟁에 비해 속도를 잃었다는 것을 의미합니다."
-     ]
-    },
-    {
-     "title": "Yet another DNF for Cadillac’s Valtteri Bottas: ‘Sometimes we don’t quite understand it’",
-     "desc": "Valtteri Bottas described the Cadillac Formula 1 team as struggling to understand its issues, after he retired from Sunday’s United States Grand Prix. Bottas suffered his ninth…",
-     "link": "https://www.motorsport.com/f1/news/yet-another-dnf-for-cadillacs-valtteri-bottas-sometimes-we-dont-quite-understand-it/10868669/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/0Zq8pvb6/s6/valtteri-bottas-cadillac-racin.jpg",
-     "date": "2026-10-28T11:33:56+00:00",
-     "author": "",
-     "id": "606dacf17f",
-     "titleKo": "Cadillac의 Valtteri Bottas에 대한 또 다른 DNF: '때때로 우리는 그것을 잘 이해하지 못합니다.'",
-     "descKo": "Valtteri Bottas는 Cadillac Formula 1 팀이 일요일 미국 그랑프리에서 은퇴한 후 문제를 이해하기 위해 고심하고 있다고 설명했습니다. 보타스는 9번째 고통을 겪었다.",
-     "lead": [
-      "Valtteri Bottas described the Cadillac Formula 1 team as struggling to understand its issues, after he retired from Sunday’s United States Grand Prix.",
-      "Bottas suffered his ninth retirement of the season at the Circuit of The Americas, a surprisingly high number for a driver whose pre-2026 DNF rate was 11%.",
-      "Of those nine, eight were linked to technical problems, and that was the case again with a suspected power-unit issue in Austin. “It's always disappointing not to finish, but it didn't sound great from the engine side, like physically,” the Finn commented."
-     ],
-     "leadKo": [
-      "Valtteri Bottas는 Cadillac Formula 1 팀이 일요일 미국 그랑프리에서 은퇴한 후 문제를 이해하기 위해 고심하고 있다고 설명했습니다.",
-      "Bottas는 Circuit of The Americas에서 시즌 9번째 은퇴를 겪었습니다. 이는 2026년 이전 DNF 비율이 11%였던 드라이버로서는 놀라울 정도로 높은 수치입니다.",
-      "그 9개 중 8개는 기술적 문제와 관련이 있었고, 오스틴의 동력 장치 문제로 의심되는 경우도 마찬가지였습니다. \"끝나지 못하는 것은 항상 실망스럽습니다. 그러나 물리적으로 엔진 측면에서는 소리가 좋지 않았습니다.\"라고 Finn은 말했습니다."
-     ]
-    },
-    {
-     "title": "Why Aston Martin and Red Bull were asked about an unlikely F1 engine partnership",
-     "desc": "One of the most remarkable moments on Sunday in Austin did not take place on the track itself, but rather in the Formula 1 paddock after the US Grand Prix. During the usual…",
-     "link": "https://www.motorsport.com/f1/news/why-aston-martin-and-red-bull-were-asked-about-an-unlikely-f1-engine-partnership/10869014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/2y7QwDy6/s6/fernando-alonso-aston-martin-r-2.jpg",
-     "date": "2026-10-28T09:39:24+00:00",
-     "author": "",
-     "id": "200a605ff5",
-     "titleKo": "Aston Martin과 Red Bull이 F1 엔진 파트너십에 관해 질문을 받은 이유",
-     "descKo": "일요일 오스틴에서 가장 주목할만한 순간 중 하나는 트랙 자체가 아니라 미국 그랑프리가 끝난 후 포뮬러 1 패독에서 일어났습니다. 평소에는…",
-     "lead": [
-      "One of the most remarkable moments on Sunday in Austin did not take place on the track itself, but rather in the Formula 1 paddock after the US Grand Prix. During the usual post-race media sessions, both Aston Martin and Red Bull’s representatives were asked about a subject that had very little to do with the race at the Circuit of the Americas – quite the opposite, in fact.",
-      "Both Aston Martin's chief trackside officer Mike Krack and Red Bull team principal Laurent Mekies were asked whether they could rule out a potential partnership between the two brands in the future. It seems rather extraordinary, and both men understandably looked surprised when that question randomly came up during their media rounds, which is why the matter requires some context.",
-      "It all goes back to a BBC article and a somewhat unfortunate interpretation of it. In the regular Q&A column of F1 correspondent Andrew Benson, he was asked whether customer teams might be interested in the Red Bull Ford power unit, given that it appears to be more than competitive in its first year."
-     ],
-     "leadKo": [
-      "일요일 오스틴에서 가장 주목할만한 순간 중 하나는 트랙 자체가 아니라 미국 그랑프리가 끝난 후 포뮬러 1 패독에서 일어났습니다. 일반적인 레이스 후 미디어 세션에서 Aston Martin과 Red Bull의 대표자들은 아메리카 서킷의 레이스와 거의 관련이 없는 주제에 대한 질문을 받았습니다. 실제로는 그 반대였습니다.",
-      "Aston Martin의 최고 트랙사이드 책임자인 Mike Krack과 Red Bull 팀장 Laurent Mekies는 향후 두 브랜드 간의 잠재적인 파트너십을 배제할 수 있는지 질문을 받았습니다. 그것은 다소 특별해 보이며, 미디어 라운드 중에 그 질문이 무작위로 나왔을 때 두 사람 모두 당연히 놀란 표정을 지었습니다. 이것이 바로 이 문제에 약간의 맥락이 필요한 이유입니다.",
-      "이 모든 것은 BBC 기사에 대한 다소 불행한 해석으로 거슬러 올라갑니다. F1 특파원 Andrew Benson의 정기 Q&A 칼럼에서 그는 Red Bull Ford 동력 장치가 첫해에 경쟁력이 더 높아 보인다는 점을 고려할 때 고객 팀이 Red Bull Ford 동력 장치에 관심이 있는지에 대한 질문을 받았습니다."
-     ]
-    },
-    {
-     "title": "Audi F1 power unit division brings back CEO role",
-     "desc": "Audi has announced Thomas Fuhr will become CEO of Audi Formula Racing GmbH, the Neuburg-based division developing its F1 power units. Fuhr will sit at the head of the Neuburg…",
-     "link": "https://www.motorsport.com/f1/news/audi-f1-power-unit-division-brings-back-ceo-role/10869006/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6Al7119Y/s6/gabriel-bortoleto-audi-f1-team.jpg",
-     "date": "2026-10-28T08:54:54+00:00",
-     "author": "",
-     "id": "ef2a9dc3ba",
-     "titleKo": "아우디 F1 동력장치 사업부, CEO 역할 복귀",
-     "descKo": "아우디는 토마스 푸어(Thomas Fuhr)가 노이부르크에 본사를 두고 F1 동력 장치를 개발하는 부서인 아우디 포뮬러 레이싱(Audi Formula Racing GmbH)의 CEO가 될 것이라고 발표했습니다. Fuhr는 Neuburg의 수장에 앉을 것입니다…",
-     "lead": [
-      "Audi has announced Thomas Fuhr will become CEO of Audi Formula Racing GmbH, the Neuburg-based division developing its F1 power units.",
-      "Fuhr will sit at the head of the Neuburg plant as an addition to the current team, which Audi says will allow chief technical director Stefan Dreyer to \"focus fully on leading the technical development of Audi’s Formula 1 power unit\".",
-      "Meanwhile, COO Christian Foyer will continue to oversee Neuburg's day-to-day operations."
-     ],
-     "leadKo": [
-      "아우디는 토마스 푸어(Thomas Fuhr)가 노이부르크에 본사를 두고 F1 동력 장치를 개발하는 부서인 아우디 포뮬러 레이싱(Audi Formula Racing GmbH)의 CEO가 될 것이라고 발표했습니다.",
-      "Fuhr는 현재 팀에 추가로 노이부르크 공장장을 맡을 예정이며, 아우디는 이를 통해 최고 기술 이사인 스테판 드레이어(Stefan Dreyer)가 \"아우디의 포뮬러 1 동력 장치의 기술 개발을 주도하는 데 전적으로 집중\"할 수 있게 될 것이라고 말했습니다.",
-      "한편, COO Christian Foyer는 Neuburg의 일상적인 운영을 계속 감독하게 됩니다."
      ]
     }
    ]
