@@ -1,8 +1,6 @@
 {
- "updated": "2026-10-29T01:50:25+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-10-29T08:33:05+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1784,13 +1782,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Christian Horner admits he doesn't need F1 return after £67 million Red Bull payout",
+     "desc": "When a high-profile Formula 1 executive is shown the door, the rumour mill immediately shifts to where they will land next. But in the case of Christian Horner, his departure from…",
+     "link": "https://www.motorsport.com/f1/news/will-christian-horner-buy-his-own-f1-team-the-sacked-boss-speaks-out/10869059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/2GdK4E1Y/s6/motorsport-com-graphics-37-2.jpg",
+     "date": "2026-10-29T07:05:02+00:00",
+     "author": "",
+     "id": "48186c5c68",
+     "lead": [
+      "When a high-profile Formula 1 executive is shown the door, the rumour mill immediately shifts to where they will land next. But in the case of Christian Horner, his departure from Red Bull Racing in 2025 came with a golden parachute so immense that it completely rewrote his career trajectory.",
+      "Rather than scrambling to secure a new role on the pitwall, the 52-year-old is navigating his post-F1 reality as a highly liquid free agent. During a recent feature on 60 Minutes Australia , the focus pivoted away from the corporate politics that caused his downfall and honed in on the pure economics of a potential comeback. With a bank account heavily reinforced by an early contract termination, Horner is calculating his next move from a…",
+      "When Red Bull GmbH terminated his employment, Horner still had over four years remaining on his contract. The financial toll of severing that agreement was recently laid bare. According to Red Bull Technology Limited's 2025 financial reports, Horner received a staggering payout of £67million (approximately $88.5million), with some paddock sources estimating the total package closer to $100million once additional contractual fees were settled."
+     ],
+     "leadKo": [
+      "세간의 이목을 끄는 포뮬러 1의 임원이 문을 열자, 소문은 즉시 그들이 다음에 착륙할 곳으로 옮겨졌습니다. 하지만 크리스티안 호너의 경우, 2025년 레드불 레이싱을 떠나면서 그의 경력 궤적을 완전히 바꿔 놓을 정도로 엄청난 황금 낙하산이 생겼습니다.",
+      "52세의 이 선수는 피트월에서 새로운 역할을 확보하기 위해 안간힘을 쓰는 대신 유동성이 높은 FA로서 F1 이후의 현실을 탐색하고 있습니다. 60 Minutes Australia의 최근 특집에서는 그의 몰락을 초래한 기업 정치에서 초점을 옮겨 잠재적인 복귀에 대한 순수한 경제학에 초점을 맞췄습니다. 조기 계약 종료로 인해 은행 계좌가 크게 강화된 Horner는 다음 행보를 계획하고 있습니다.",
+      "Red Bull GmbH가 고용을 종료했을 때 Horner의 계약 기간은 여전히 ​​4년 이상 남아 있었습니다. 그 계약을 파기함으로써 발생한 재정적 피해가 최근에 드러났습니다. Red Bull Technology Limited의 2025년 재무 보고서에 따르면 Horner는 6,700만 파운드(약 8,850만 달러)라는 엄청난 배당금을 받았으며, 일부 패독 소식통은 추가 계약 수수료가 정산되면 총 패키지 금액이 1억 달러에 가까워질 것으로 추정합니다."
+     ],
+     "titleKo": "Christian Horner는 £67M의 Red Bull 지불금 이후 F1 복귀가 필요하지 않다고 인정했습니다.",
+     "descKo": "세간의 이목을 끄는 포뮬러 1의 임원이 문을 열자, 소문은 즉시 그들이 다음에 착륙할 곳으로 옮겨졌습니다. 하지만 크리스티안 호너의 경우, 그의 출발은…"
+    },
+    {
+     "title": "Mark Webber's Red Bull exit branded \"disrespectful\" as Daniel Ricciardo praised",
+     "desc": "Red Bull Racing has a long, highly complicated history with Australian drivers. Mark Webber helped build the team's winning foundation during Sebastian Vettel's championship…",
+     "link": "https://www.motorsport.com/f1/news/horner-reflects-on-ricciardos-prime-red-bull-era-he-never-stopped-overtaking/10869056/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/0kZXNJv6/s6/motorsport-com-graphics-36-2.jpg",
+     "date": "2026-10-29T05:05:03+00:00",
+     "author": "",
+     "id": "7a7aee01d7",
+     "lead": [
+      "Red Bull Racing has a long, highly complicated history with Australian drivers. Mark Webber helped build the team's winning foundation during Sebastian Vettel's championship years, while Daniel Ricciardo took the baton and led the garage at the dawn of the turbo-hybrid era.",
+      "In a recent 60 Minutes Australia interview, Christian Horner offered a look back at how both men operated within his team. Free from the standard corporate PR lines, Horner did not hold back when comparing the bitter end of Webber's tenure to the explosive arrival of Ricciardo.",
+      "By 2013, the relationship between Mark Webber and Red Bull was thoroughly fractured. The infamous \"Multi 21\" saga at the Malaysian Grand Prix had pushed the intense rivalry between Webber and Sebastian Vettel to a breaking point."
+     ],
+     "leadKo": [
+      "Red Bull Racing은 호주 드라이버와 관련하여 길고 매우 복잡한 역사를 가지고 있습니다. Mark Webber는 Sebastian Vettel의 챔피언십 기간 동안 팀의 승리 기반을 구축하는 데 도움을 주었고 Daniel Ricciardo는 터보 하이브리드 시대가 시작될 때 지휘봉을 잡고 차고를 이끌었습니다.",
+      "최근 60 Minutes Australia 인터뷰에서 Christian Horner는 두 사람이 팀 내에서 어떻게 활동했는지 되돌아보았습니다. 표준적인 기업 PR 라인에서 벗어난 Horner는 Webber 임기의 쓰라린 종말을 Ricciardo의 폭발적인 등장과 비교할 때 주저하지 않았습니다.",
+      "2013년까지 Mark Webber와 Red Bull의 관계는 완전히 단절되었습니다. 말레이시아 그랑프리의 악명 높은 \"Multi 21\" 사가는 Webber와 Sebastian Vettel 사이의 치열한 경쟁을 한계점까지 밀어붙였습니다."
+     ],
+     "titleKo": "Mark Webber의 Red Bull 퇴장은 Daniel Ricciardo가 칭찬 한 것처럼 \"무례\"라는 브랜드가 붙었습니다.",
+     "descKo": "Red Bull Racing은 호주 드라이버와 관련하여 길고 매우 복잡한 역사를 가지고 있습니다. Mark Webber는 Sebastian Vettel의 챔피언십 기간 동안 팀의 승리 기반을 구축하는 데 도움을 주었습니다..."
+    },
+    {
+     "title": "Christian Horner reveals why Netflix made him the villain of \"Drive to Survive\"",
+     "desc": "Before Netflix brought its cameras into the Formula 1 paddock, team principals were largely viewed as calculating, stoic directors operating quietly from the pitwall. By the time…",
+     "link": "https://www.motorsport.com/f1/news/christian-horner-admits-netflix-hijacked-his-f1-reputation-i-was-the-villain/10869051/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/2eZxNJbY/s6/motorsport-com-graphics-35-2.jpg",
+     "date": "2026-10-29T03:05:03+00:00",
+     "author": "",
+     "id": "fb25f42a2b",
+     "lead": [
+      "Before Netflix brought its cameras into the Formula 1 paddock, team principals were largely viewed as calculating, stoic directors operating quietly from the pitwall. By the time Christian Horner left, the role had evolved into something entirely different. He was no longer just a racing executive; he was one of the most recognisable and fiercely debated antagonists in global television.",
+      "Talking with 60 Minutes Australia , Horner addressed the massive cultural shift that completely transformed his public reputation. While some former paddock figures heavily resent their portrayal on Drive to Survive , the 52-year-old takes a highly pragmatic view of his infamous \"villain\" edit.",
+      "Over its multi-season run, the Netflix docuseries struck gold by showing Formula 1 not just as a motorsport, but as a high-stakes corporate soap opera."
+     ],
+     "leadKo": [
+      "Netflix가 Formula 1 패독에 카메라를 가져오기 전에 팀장은 대체로 피트월에서 조용히 일하는 계산적이고 금욕적인 감독으로 간주되었습니다. Christian Horner가 떠날 무렵, 역할은 완전히 다른 것으로 발전했습니다. 그는 더 이상 단순한 경주 임원이 아니었습니다. 그는 전 세계 텔레비전에서 가장 잘 알려져 있고 치열하게 논쟁을 벌이는 적대자 중 한 명이었습니다.",
+      "60 Minutes Australia와 대화하면서 Horner는 자신의 대중적 명성을 완전히 변화시킨 대규모 문화적 변화에 대해 언급했습니다. 일부 이전 방목장 인물은 Drive to Survive에서 자신의 묘사를 크게 분개했지만 52세의 그는 그의 악명 높은 \"악당\" 편집에 대해 매우 실용적인 견해를 취합니다.",
+      "여러 시즌에 걸쳐 진행된 Netflix 다큐 시리즈는 Formula 1을 모터스포츠뿐만 아니라 고위험 기업 연속극으로 보여주면서 금상을 받았습니다."
+     ],
+     "titleKo": "크리스티안 호너가 넷플릭스가 자신을 '드라이브 투 서바이브'의 악당으로 만든 이유를 밝혔습니다.",
+     "descKo": "Netflix가 Formula 1 패독에 카메라를 가져오기 전에 팀장은 대체로 피트월에서 조용히 일하는 계산적이고 금욕적인 감독으로 간주되었습니다. 그때쯤에는…"
+    },
+    {
      "title": "Daniel Ricciardo opens door to racing return with Max Verstappen at Le Mans",
      "desc": "Former Formula 1 driver Daniel Ricciardo has revealed he would consider a one-off appearance at the Le Mans 24 Hours and named his former Red Bull team-mate Max Verstappen as his…",
      "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-opens-door-to-racing-return-with-max-verstappen-at-le-mans/10869169/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/6Alv4NNY/s6/motorsport-com-graphics-28.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/6Alv4NNY/s6/motorsport-com-graphics-28.jpg",
      "date": "2026-10-29T00:41:02+00:00",
      "author": "",
      "id": "c5de41046b",
+     "titleKo": "다니엘 리카르도(Daniel Ricciardo)가 르망(Le Mans)에서 막스 베르스타펜(Max Verstappen)과 함께 경주 복귀의 문을 열었습니다.",
+     "descKo": "전 포뮬러 1 드라이버 다니엘 리카르도(Daniel Ricciardo)는 르망 24시(Le Mans 24 Hours)에 한 번 출전하는 것을 고려할 것이라고 밝혔으며 그의 전 레드불 팀 동료인 막스 베르스타펜(Max Verstappen)을 자신의 선수로 지명했습니다.",
      "lead": [
       "Former Formula 1 driver Daniel Ricciardo has revealed he would consider a one-off appearance at the Le Mans 24 Hours and named his former Red Bull team-mate Max Verstappen as his first choice to share a car with.",
       "The Australian driver has not raced since his F1 exit after the 2024 Singapore Grand Prix, but during an appearance on the F1 Beyond the Grid , the eight-time grand prix winner said he would like the chance to end his racing career on his own terms.",
@@ -1800,18 +1863,18 @@
       "전 포뮬러 1 드라이버 다니엘 리카르도(Daniel Ricciardo)는 르망 24시간 경주에 일회성 출전을 고려할 것이라고 밝혔으며, 전 레드불 팀 동료인 막스 베르스타펜(Max Verstappen)을 함께 차를 공유할 첫 번째 선택자로 지명했습니다.",
       "호주 드라이버인 이 호주 드라이버는 2024년 싱가포르 그랑프리 이후 F1을 떠난 이후로 경주에 출전하지 않았지만 F1 Beyond the Grid에 출연하는 동안 8회 그랑프리 우승을 차지한 그는 자신의 조건에 따라 경주 경력을 마무리할 기회를 갖고 싶다고 말했습니다.",
       "\"1년 전에는 다시는 헬멧을 쓰지 않겠다고 말했을 거에요. 이제 됐어요. 그게 다예요. 하지만 제 마음대로 레이싱 경력을 좀 더 마무리하면 좋겠다는 생각도 있어요.\""
-     ],
-     "titleKo": "다니엘 리카르도(Daniel Ricciardo)가 르망(Le Mans)에서 막스 베르스타펜(Max Verstappen)과 함께 경주 복귀의 문을 열었습니다.",
-     "descKo": "전 포뮬러 1 드라이버 다니엘 리카르도(Daniel Ricciardo)는 르망 24시(Le Mans 24 Hours)에 한 번 출전하는 것을 고려할 것이라고 밝혔으며 그의 전 레드불 팀 동료인 막스 베르스타펜(Max Verstappen)을 자신의 선수로 지명했습니다."
+     ]
     },
     {
      "title": "Daniel Ricciardo reveals major regret over 2018 Red Bull departure",
      "desc": "Daniel Ricciardo has admitted he wishes he had stayed at the Red Bull Formula 1 team rather than leaving at the end of the 2018 season. The Australian won seven grands prix with…",
      "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-reveals-major-regret-over-2018-red-bull-departure/10869167/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0o5A8JaY/s6/motorsport-com-graphics-38-2.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/0o5A8JaY/s6/motorsport-com-graphics-38-2.jpg",
      "date": "2026-10-29T00:26:45+00:00",
      "author": "",
      "id": "ac09ceea80",
+     "titleKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 레드불 떠난 것에 대한 큰 후회를 밝혔습니다.",
+     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 시즌이 끝날 때 Red Bull Formula 1 팀을 떠나는 것보다 Red Bull Formula 1 팀에 머물고 싶었다고 인정했습니다. 호주인은 7개의 그랑프리를 획득했습니다.",
      "lead": [
       "Daniel Ricciardo has admitted he wishes he had stayed at the Red Bull Formula 1 team rather than leaving at the end of the 2018 season.",
       "The Australian won seven grands prix with Red Bull, but shocked everyone when he left the team and joined Renault for 2019, leaving Max Verstappen as the team’s undisputed lead driver. The Dutchman went on to win four consecutive world titles from 2021, while Ricciardo won just one more race - for McLaren at Monza in 2021 - before his F1 career ended in 2024.",
@@ -1821,18 +1884,18 @@
       "다니엘 리카르도(Daniel Ricciardo)는 2018년 시즌이 끝날 때 Red Bull Formula 1 팀을 떠나는 것보다 Red Bull Formula 1 팀에 머물고 싶었다고 인정했습니다.",
       "이 호주인은 Red Bull과 함께 7번의 그랑프리를 획득했지만, 팀을 떠나 2019년 르노에 합류하면서 모두를 놀라게 했고, Max Verstappen을 팀의 확실한 리드 드라이버로 남겨 두었습니다. 더치맨은 2021년부터 4년 연속 월드 타이틀을 획득했고, 리카르도는 2024년 F1 경력이 끝나기 전까지 2021년 몬자에서 열린 맥라렌 경주에서 단 한 번만 더 우승했습니다.",
       "Beyond The Grid 팟캐스트에서 이 호주인은 팀이 자신이 머물기를 원했음을 확인했으며, 되돌아보면 자신이 다르게 행동했을 것이라고 인정했습니다."
-     ],
-     "titleKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 레드불 떠난 것에 대한 큰 후회를 밝혔습니다.",
-     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 2018년 시즌이 끝날 때 Red Bull Formula 1 팀을 떠나는 것보다 Red Bull Formula 1 팀에 머물고 싶었다고 인정했습니다. 호주인은 7개의 그랑프리를 획득했습니다."
+     ]
     },
     {
      "title": "FIA to use AI to help shape future F1 regulations in new AWS partnership",
      "desc": "The Fédération Internationale de l'Automobile (FIA) will use artificial intelligence from Amazon Web Services (AWS) to help draw up the rules for Formula 1's next era of cars,…",
      "link": "https://www.motorsport.com/f1/news/fia-to-use-ai-to-help-shape-future-f1-regulations-in-new-aws-partnership/10869165/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/YK1589z0/s6/motorsport-com-graphics-27.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/YK1589z0/s6/motorsport-com-graphics-27.jpg",
      "date": "2026-10-29T00:16:47+00:00",
      "author": "",
      "id": "76dd64ea88",
+     "titleKo": "FIA, AI를 사용하여 새로운 AWS 파트너십을 통해 향후 F1 규정 수립 지원",
+     "descKo": "FIA(Fédération Internationale de l'Automobile)는 Amazon Web Services(AWS)의 인공 지능을 사용하여 Formula 1의 차세대 자동차에 대한 규칙을 작성하는 데 도움을 줄 예정입니다.",
      "lead": [
       "The Fédération Internationale de l'Automobile (FIA) will use artificial intelligence from Amazon Web Services (AWS) to help draw up the rules for Formula 1's next era of cars, after signing a new global partnership with the tech giant.",
       "Under the deal, AWS becomes the governing body's official AI and cloud computing partner, with its technology to be used across motorsport, including F1.",
@@ -1842,18 +1905,18 @@
       "FIA(Fédération Internationale de l'Automobile)는 거대 기술 기업과 새로운 글로벌 파트너십을 체결한 후 Amazon Web Services(AWS)의 인공 지능을 사용하여 Formula 1의 차세대 자동차에 대한 규칙을 작성하는 데 도움을 줄 예정입니다.",
       "이번 계약에 따라 AWS는 F1을 포함한 모터스포츠 전반에 걸쳐 사용되는 기술을 갖춘 관리 기관의 공식 AI 및 클라우드 컴퓨팅 파트너가 됩니다.",
       "가장 큰 변화는 향후 규칙이 작성되는 방식에서 느껴질 것입니다. FIA는 이미 AWS 컴퓨팅 성능을 사용하여 공기 역학 시뮬레이션을 실행하고 있습니다. 이제 AWS는 FIA의 기술 및 엔지니어링 직원이 규정을 작성하는 데 도움이 되는 AI 도구에 대한 액세스 권한도 제공합니다."
-     ],
-     "titleKo": "FIA, AI를 사용하여 새로운 AWS 파트너십을 통해 향후 F1 규정 수립 지원",
-     "descKo": "FIA(Fédération Internationale de l'Automobile)는 Amazon Web Services(AWS)의 인공 지능을 사용하여 Formula 1의 차세대 자동차에 대한 규칙을 작성하는 데 도움을 줄 예정입니다."
+     ]
     },
     {
      "title": "Christian Horner addresses past misconduct allegations in new interview",
      "desc": "The allegations surrounding Christian Horner's final months at Red Bull Racing still draw questions from fans despite him being cleared of any wrongdoing. Now, 15 months after his…",
      "link": "https://www.motorsport.com/f1/news/christian-horner-finally-speaks-on-the-leaked-whatsapp-file-and-coercion-allegations/10869049/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0qgKEJEY/s6/motorsport-com-graphics-34-2.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0qgKEJEY/s6/motorsport-com-graphics-34-2.jpg",
      "date": "2026-10-28T23:51:51+00:00",
      "author": "",
      "id": "bf9ed8c47d",
+     "titleKo": "Christian Horner는 새로운 인터뷰에서 과거 위법 행위 혐의를 언급합니다.",
+     "descKo": "Red Bull Racing에서 Christian Horner의 마지막 달을 둘러싼 주장은 그가 어떠한 잘못도 없어졌음에도 불구하고 여전히 팬들로부터 질문을 받고 있습니다. 그로부터 15개월이 지난 지금,…",
      "lead": [
       "The allegations surrounding Christian Horner's final months at Red Bull Racing still draw questions from fans despite him being cleared of any wrongdoing. Now, 15 months after his exit from the team, Horner has finally broken his silence on that time.",
       "Sitting down with 60 Minutes Australia , the former team principal addressed the allegations with uncompromising defiance.",
@@ -1863,15 +1926,13 @@
       "Red Bull Racing에서 Christian Horner의 마지막 달을 둘러싼 주장은 그가 어떠한 잘못도 없어졌음에도 불구하고 여전히 팬들로부터 질문을 받고 있습니다. 이제 팀을 떠난 지 15개월이 지난 지금, 호너는 마침내 그 당시 침묵을 깨뜨렸습니다.",
       "60 Minutes Australia와 함께 앉은 전 팀장은 타협하지 않는 반항으로 혐의를 다루었습니다.",
       "2023년 12월, 한 여성 직원이 부적절하고 통제적인 행동에 대해 Horner에 대해 공식적인 불만을 제기했습니다. 외부 전문 변호사의 대규모 독립적 조사에 이어 Red Bull GmbH는 2024년 2월 28일 Horner의 모든 잘못을 공식적으로 정리했습니다."
-     ],
-     "titleKo": "Christian Horner는 새로운 인터뷰에서 과거 위법 행위 혐의를 언급합니다.",
-     "descKo": "Red Bull Racing에서 Christian Horner의 마지막 달을 둘러싼 주장은 그가 어떠한 잘못도 없어졌음에도 불구하고 여전히 팬들로부터 질문을 받고 있습니다. 그로부터 15개월이 지난 지금,…"
+     ]
     },
     {
      "title": "Christian Horner reveals details of Red Bull exit in emotional interview",
      "desc": "Ever since Red Bull unceremoniously dropped Christian Horner on 9 July 2025, the Formula 1 paddock has been buzzing with endless speculation about what actually triggered the…",
      "link": "https://www.motorsport.com/f1/news/christian-horner-drops-a-124-win-reality-check-on-the-execs-who-fired-him/10869043/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/0R7BR3g2/s6/motorsport-com-graphics-33-2.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/0R7BR3g2/s6/motorsport-com-graphics-33-2.jpg",
      "date": "2026-10-28T18:30:18+00:00",
      "author": "",
      "id": "f07518df4b",
@@ -1892,7 +1953,7 @@
      "title": "Five things to look out for at the F1 Mexico GP",
      "desc": "Formula 1 is back again this weekend with the highly popular Mexico Grand Prix, which comes just seven days after Kimi Antonelli romped to victory in Austin. That was the Mercedes…",
      "link": "https://www.motorsport.com/f1/news/five-things-to-look-out-for-at-the-f1-mexico-gp/10868922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/0arKKow2/s6/charles-leclerc-ferrari-lewis-.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/0arKKow2/s6/charles-leclerc-ferrari-lewis-.jpg",
      "date": "2026-10-28T16:51:15+00:00",
      "author": "",
      "id": "b0bc7cf97e",
@@ -1908,69 +1969,6 @@
       "그것은 안토넬리가 원 스토퍼를 성공시키는 등 주로 전략으로 정의되는 레이스에서 폴에서 우위를 점한 후 2026 시즌 메르세데스 드라이버의 9번째 승리였습니다.",
       "그는 시즌 18라운드에서 투 스톱 듀오 Charles Leclerc와 Max Verstappen과 함께 포디움에 올랐습니다."
      ]
-    },
-    {
-     "title": "Max Verstappen sits out for Red Bull in Mexico GP FP1",
-     "desc": "Max Verstappen will step aside during first practice at the Mexico City Grand Prix as Red Bull continues to complete its quota of rookie runs in FP1 sessions. Teams are required…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-sits-out-for-red-bull-in-mexico-gp-fp1/10869125/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YP74y4o2/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-10-28T16:17:13+00:00",
-     "author": "",
-     "id": "d10a0affce",
-     "titleKo": "Max Verstappen은 멕시코 GP FP1에서 Red Bull에 출전합니다.",
-     "descKo": "Red Bull이 FP1 세션에서 신인 할당량을 계속해서 완료함에 따라 Max Verstappen은 멕시코 시티 그랑프리의 첫 번째 연습에서 물러날 것입니다. 팀은 필수입니다…",
-     "lead": [
-      "Max Verstappen will step aside during first practice at the Mexico City Grand Prix as Red Bull continues to complete its quota of rookie runs in FP1 sessions.",
-      "Teams are required to give rookies - designated as drivers to have raced in two or fewer races - at least four opportunities to run during practice sessions across the season, with that quota split between two watching briefs per race-contracted driver.",
-      "Four-time world champion Verstappen will be replaced at the Autodromo Hermanos Rodriguez by Ayumu Iwasa, who has already made three FP1 appearances this term."
-     ],
-     "leadKo": [
-      "Red Bull이 FP1 세션에서 신인 할당량을 계속해서 완료함에 따라 Max Verstappen은 멕시코 시티 그랑프리의 첫 번째 연습에서 물러날 것입니다.",
-      "팀은 2개 이하의 레이스에 참가한 드라이버로 지정된 신인에게 시즌 전체의 연습 세션 동안 최소 4번의 달릴 기회를 제공해야 하며, 해당 할당량은 레이스와 계약한 드라이버당 2개의 관찰 브리핑으로 나뉩니다.",
-      "4회 세계 챔피언인 Verstappen은 Autodromo Hermanos Rodriguez에서 이번 시즌 이미 3번의 FP1 출전을 기록한 Ayumu Iwasa로 교체될 예정입니다."
-     ]
-    },
-    {
-     "title": "F1 publishes first Social Impact Report; key student scholarship renewed",
-     "desc": "Formula 1 has published its first sport-wide Social Impact Report, with over half a million young people across the world having beneffited from F1 programmes last year. In…",
-     "link": "https://www.motorsport.com/f1/news/f1-publishes-first-social-impact-report-key-student-scholarship-renewed/10869086/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/0arE7LG2/s6/stem-racing-world-final-2026-s.jpg",
-     "date": "2026-10-28T15:03:47+00:00",
-     "author": "",
-     "id": "0282eaf94b",
-     "titleKo": "F1은 최초의 사회적 영향 보고서를 발행합니다. 핵심 학생 장학금이 갱신되었습니다",
-     "descKo": "Formula 1은 스포츠 전반에 걸친 최초의 사회적 영향 보고서를 발표했으며, 지난해 전 세계 50만 명이 넘는 젊은이들이 F1 프로그램의 혜택을 받았습니다. 안에…",
-     "lead": [
-      "Formula 1 has published its first sport-wide Social Impact Report, with over half a million young people across the world having beneffited from F1 programmes last year.",
-      "In initiatives designed to educate, inspire and open pathways into the sport in 2025, youngsters from across 71 countries were able to take a step closer to F1.",
-      "F1 has also renewed its now-established Engineering Scholarship programme, which was founded in 2021, for three academic years, promising more than £2.4 million in funding. The initiative helps relieve students who would otherwise face key barriers to higher education, including financial and accessibility obstacles. 48 students have already been supported by the programme."
-     ],
-     "leadKo": [
-      "Formula 1은 스포츠 전반에 걸친 최초의 사회적 영향 보고서를 발표했으며, 지난해 전 세계 50만 명이 넘는 젊은이들이 F1 프로그램의 혜택을 받았습니다.",
-      "2025년에 스포츠에 대한 교육, 영감 및 길을 열기 위해 고안된 이니셔티브를 통해 71개국의 젊은이들이 F1에 한 걸음 더 다가갈 수 있었습니다.",
-      "F1은 또한 2021년에 설립된 현재 확립된 엔지니어링 장학금 프로그램을 3학년 동안 갱신하여 240만 파운드 이상의 자금을 약속했습니다. 이 계획은 재정 및 접근성 장애를 포함하여 고등 교육에 대한 주요 장벽에 직면하게 될 학생들을 구제하는 데 도움이 됩니다. 이미 48명의 학생들이 이 프로그램의 지원을 받았습니다."
-     ]
-    },
-    {
-     "title": "Sergio Perez signs fresh Cadillac F1 deal until 2029",
-     "desc": "Sergio Perez has committed to the Cadillac F1 project until at least 2029 as the Mexican signed fresh terms with the US-owned outfit. Perez joined F1's expansion team for its 2026…",
-     "link": "https://www.motorsport.com/f1/news/sergio-perez-signs-fresh-cadillac-f1-deal-until-2029/10869093/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg",
-     "date": "2026-10-28T15:02:59+00:00",
-     "author": "",
-     "id": "e614fc3b93",
-     "titleKo": "세르히오 페레즈, 2029년까지 캐딜락 F1과 새로운 계약 체결",
-     "descKo": "Sergio Perez는 멕시코인이 미국 소유 회사와 새로운 계약을 체결함에 따라 최소 2029년까지 Cadillac F1 프로젝트에 전념했습니다. 페레즈는 2026년 F1 확장팀에 합류했습니다.",
-     "lead": [
-      "Sergio Perez has committed to the Cadillac F1 project until at least 2029 as the Mexican signed fresh terms with the US-owned outfit.",
-      "Perez joined F1's expansion team for its 2026 debut after his Red Bull exit left him on the sidelines last year.",
-      "Despite going through the ups and downs of an inconsistent debut season for the American team, the 36-year-old has found his best form this season, comparing favourably to fellow veteran team-mate Valtteri Bottas ."
-     ],
-     "leadKo": [
-      "Sergio Perez는 멕시코인이 미국 소유 회사와 새로운 계약을 체결함에 따라 최소 2029년까지 Cadillac F1 프로젝트에 전념했습니다.",
-      "페레즈는 지난해 레드불 퇴장으로 인해 F1의 2026년 데뷔를 위해 확장 팀에 합류했습니다.",
-      "미국 팀의 일관성 없는 데뷔 시즌의 우여곡절을 겪었음에도 불구하고, 36세의 이 선수는 이번 시즌 동료 베테랑 팀 동료인 발테리 보타스(Valtteri Bottas)와 비교하여 최고의 폼을 찾았습니다."
-     ]
     }
    ]
   },
@@ -1978,6 +1976,27 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "'Superpower' neutered - Piastri's fresh F1 struggles explained",
+     "desc": "Oscar Piastri is experiencing new difficulties with the 2026 McLaren compared to team-mate Lando Norris",
+     "link": "https://www.the-race.com/formula-1/superpower-neutered-piastris-fresh-f1-struggles-explained/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446853_HiRes.jpg",
+     "date": "2026-10-29T07:16:47+00:00",
+     "author": "Josh Suttill",
+     "id": "89c835048d",
+     "lead": [
+      "Oscar Piastri is experiencing new difficulties with the 2026 McLaren compared to team-mate Lando Norris, including a weekend that neutered what team boss Andrea Stella calls his ‘superpower’.",
+      "In qualifying, Norris has had the upper hand as he leads Piastri 16-8, but the actual average gap between them has only been 0.040s.",
+      "The more stark gap has been in a good number of grands prix, including Austin. Piastri (green line) is on average half a second slower than Norris (orange line), through the race on the same strategy, and ends up 22 seconds behind. This follows other weekends with big deficits like Barcelona (35 seconds) and Zandvoort (32 seconds), where he admitted there were “too many [races] now that have been really a long way off”."
+     ],
+     "leadKo": [
+      "오스카 피아스트리(Oscar Piastri)는 팀 보스인 안드레아 스텔라(Andrea Stella)가 자신의 '초능력'이라고 부르는 것을 무력화시킨 주말을 포함하여 팀 동료인 란도 노리스(Lando Norris)와 비교할 때 2026년 맥라렌과 관련해 새로운 어려움을 겪고 있습니다.",
+      "예선에서는 노리스가 피아스트리를 16-8로 앞서며 우위를 점했지만 실제 평균 격차는 0.040초에 불과했다.",
+      "더 뚜렷한 격차는 오스틴을 포함한 많은 그랑프리에서 나타났습니다. Piatri(녹색 선)는 동일한 전략으로 경주를 진행하면서 Norris(주황색 선)보다 평균 0.5초 느리며 결국 22초 뒤쳐집니다. 이것은 바르셀로나(35초)와 잔드보르트(32초)와 같이 적자가 큰 다른 주말에 뒤따르는 것인데, 그는 \"이제 정말 멀리 떨어져 있는 [경주]가 너무 많다\"고 인정했습니다."
+     ],
+     "titleKo": "'슈퍼파워' 거세 - 피아스트리의 새로운 F1 고군분투 설명",
+     "descKo": "Oscar Piastri는 팀 동료 Lando Norris와 비교하여 2026년 McLaren에서 새로운 어려움을 겪고 있습니다."
+    },
     {
      "title": "F1 renews scholarships as first social impact report published",
      "desc": "F1 has renewed its Engineering Scholarships with a three-year commitment via £2.4m of funding, as its releases its first social impact report",
@@ -2144,27 +2163,6 @@
       "FIA와 Amazon Web Services 간의 새로운 파트너십의 일환으로 더욱 강력한 AI 도구가 Formula 1의 공기역학적 규칙 개발에 더 큰 역할을 하게 될 것입니다.",
       "AWS는 FIA의 공식 인공 지능, 클라우드 컴퓨팅, 기계 학습 및 클라우드 인프라 파트너가 되어 더 나은 항공 시뮬레이션을 통해 미래 규정을 구체화하고 전 세계적으로 FIA 라이선스 시스템 개선을 지원하며 FIA 내부 운영 방식에 더욱 통합될 수 있습니다.",
       "AWS에서 CFD 테스트를 실행하는 것은 해당 시뮬레이션 위에 AI 단축키를 계층화한 다음 AI가 규칙서 자체를 확인하는 방식으로 최신 하드웨어에서 더 빠르고 충실도가 높은 시뮬레이션을 실행하기 위한 것입니다."
-     ]
-    },
-    {
-     "title": "Why one team let Sky breach F1's 'most sacred' connection",
-     "desc": "Driver-team communication is not to be messed with. That's what made Alpine allowing Sky Sports F1 in during US GP practice so significant",
-     "link": "https://www.the-race.com/formula-1/why-one-team-let-sky-breach-f1s-most-sacred-connection/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446459_HiRes--1--1.jpg",
-     "date": "2026-10-27T17:12:39+00:00",
-     "author": "Scott Mitchell-Malm",
-     "id": "6b87af7140",
-     "titleKo": "한 팀이 Sky가 F1의 '가장 신성한' 연결을 위반하도록 허용한 이유",
-     "descKo": "드라이버-팀 커뮤니케이션이 엉망이 되어서는 안 됩니다. 이것이 Alpine이 미국 GP 연습 중에 Sky Sports F1을 허용한 이유입니다.",
-     "lead": [
-      "Formula 1 driver-team communication is not to be messed with. And yet this special connection was willingly broken by one team during the United States Grand Prix weekend to facilitate a modern F1 first.",
-      "\"The driver-engineer radio is the most sacred communication within the team,\" Alpine's IT race communications engineer Rob Gulliver explains.",
-      "\"It is the most important, it's the most controlled and it is the most policed. So for someone to come in and have free rein to talk to the driver is a big deal.\""
-     ],
-     "leadKo": [
-      "포뮬러 1 드라이버-팀 커뮤니케이션은 엉망이 되어서는 안 됩니다. 그러나 미국 그랑프리 주말 동안 한 팀이 현대적인 F1을 먼저 촉진하기 위해 이 특별한 연결을 기꺼이 깨뜨렸습니다.",
-      "\"드라이버-엔지니어 무선은 팀 내에서 가장 신성한 통신입니다.\"라고 Alpine의 IT 레이스 통신 엔지니어 Rob Gulliver는 설명합니다.",
-      "\"가장 중요하고, 가장 통제되고, 가장 단속이 잘 되는 곳입니다. 따라서 누군가가 들어와서 운전자와 자유롭게 대화할 수 있다는 것은 큰 일입니다.\""
      ]
     }
    ]
@@ -2369,6 +2367,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "¡Checo Pérez Elige Y Rankea Sus Mejores Carreras!",
+     "desc": "Sergio \"Checo\" Pérez recorre sus carreras más significativos en estos 25 años años en la F1, en el umbral de celebrar sus 300 Grandes Premios junto a Cadillac, en casa, frente al…",
+     "link": "https://www.youtube.com/watch?v=8RplCxqKSmc",
+     "image": "https://i.ytimg.com/vi/8RplCxqKSmc/hqdefault.jpg",
+     "date": "2026-10-28T23:00:03+00:00",
+     "author": "FORMULA 1",
+     "videoId": "8RplCxqKSmc",
+     "id": "0d82e211d8",
+     "titleKo": "",
+     "descKo": ""
+    },
+    {
      "title": "Checo Does Donuts In Mexico City! 🇲🇽",
      "desc": "Sergio Perez took to the streets for a showrun ahead of the Mexico City Grand Prix!",
      "link": "https://www.youtube.com/watch?v=HoBoufGdtEU",
@@ -2462,18 +2472,6 @@
      "videoId": "u_J8IDANWJs",
      "id": "4cd8278883",
      "titleKo": "상위 10개 온보드 | 2026 미국 그랑프리 | 카타르항공",
-     "descKo": ""
-    },
-    {
-     "title": "What Track Limits? 🤷‍♂️",
-     "desc": "After receiving several track limit strikes in Singapore last time out, Kimi Antonelli kept his car firmly between the white lines in Austin!",
-     "link": "https://www.youtube.com/watch?v=IZ_KbbJDjrk",
-     "image": "https://i.ytimg.com/vi/IZ_KbbJDjrk/hqdefault.jpg",
-     "date": "2026-10-26T21:00:04+00:00",
-     "author": "FORMULA 1",
-     "videoId": "IZ_KbbJDjrk",
-     "id": "7149b24e85",
-     "titleKo": "트랙 제한은 무엇입니까? 🤷‍♂️",
      "descKo": ""
     }
    ]
