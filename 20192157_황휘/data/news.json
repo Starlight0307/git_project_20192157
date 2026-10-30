@@ -1,6 +1,9 @@
 {
- "updated": "2026-10-30T19:27:15+00:00",
- "failed": [],
+ "updated": "2026-10-30T23:51:32+00:00",
+ "failed": [
+  "column",
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -18,10 +21,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-10-30T17:46:40Z",
+     "date": "2026-10-30T23:07:10Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1382856196,
+     "revid": 1382906142,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -83,7 +86,7 @@
         "Freddie Slater for Audi in place of Gabriel Bortoleto.",
         "Colton Herta for Cadillac in place of Valtteri Bottas.",
         "Nikola Tsolov for Racing Bulls in place of Liam Lawson.",
-        "Minì, Slater and Tsolov will make their Formula One practice debut."
+        "Minì, Slater and Tsolov made their Formula One practice debut."
        ],
        "hKo": "출전 명단",
        "pKo": [
@@ -98,7 +101,7 @@
         "Gabriel Bortoleto를 대신하여 Audi의 Freddie Slater가 탄생했습니다.",
         "Valtteri Bottas 대신 Cadillac의 Colton Herta가 탄생했습니다.",
         "Liam Lawson을 대신하여 Racing Bulls의 Nikola Tsolov.",
-        "Minì, Slater 및 Tsolov는 Formula One 연습 데뷔를 하게 됩니다."
+        "Minì, Slater 및 Tsolov는 Formula One 연습 데뷔를 했습니다."
        ]
       },
       {
@@ -116,11 +119,11 @@
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions will be held for the event. The first free practice session will be held on 30 October 2026, at 12:30 local time (UTC–6). The second free practice session will be held on the same day, at 16:00 local time. The third practice session will be held on 31 October 2026, at 11:30 local time."
+        "Three free practice sessions are being held for the event. The first free practice session was held on 30 October 2026, at 12:30 local time (UTC–6), and was topped by Charles Leclerc (Ferrari) ahead of Kimi Antonelli (Mercedes) and his teammate Frederik Vesti. The second free practice was held on the same day, at 16:00 local time, and was also topped by Leclerc ahead of Lando Norris (McLaren) and George Russell (Mercedes).  The third practice session will be held on 31 October 2026, at 11:30 local time."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 10월 30일 현지 시간(UTC–6) 12:30에 개최됩니다. 두 번째 무료 연습 세션은 같은 날 현지 시간 16:00에 진행됩니다. 세 번째 연습 세션은 2026년 10월 31일 현지 시간 11시 30분에 진행됩니다."
+        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 10월 30일 현지 시간(UTC–6) 12시 30분에 열렸으며, 샤를 르클레르(페라리)가 키미 안토넬리(메르세데스)와 그의 팀 동료 프레데릭 베스티를 앞지르며 1위를 차지했습니다. 같은 날 현지시간 16시 2차 자유연습이 진행됐는데, 역시 르클레르가 란도 노리스(맥라렌), 조지 러셀(메르세데스)에 앞서 1위를 차지했다.  세 번째 연습 세션은 2026년 10월 31일 현지 시간 11시 30분에 진행됩니다."
        ]
       },
       {
@@ -1782,13 +1785,183 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Oscar Piastri: McLaren handled Mexico altitude “better than I was expecting”",
+     "desc": "McLaren driver Oscar Piastri walks away from FP2 in Mexico City's circuit with optimism as he confirms his car coped better with the high altitude than he expected it to. This…",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-mclaren-handled-mexico-altitude-better-than-i-was-expecting/10869868/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/YpbA9ej0/s6/motorsport-com-graphics-49.jpg",
+     "date": "2026-10-30T23:39:07+00:00",
+     "author": "",
+     "id": "c7ecadaf4b",
+     "lead": [
+      "McLaren driver Oscar Piastri walks away from FP2 in Mexico City's circuit with optimism as he confirms his car coped better with the high altitude than he expected it to. This comes despite the driver having a \"pretty messy\" qualifying simulation.",
+      "The Autodromo Hermanos Rodriguez circuit sits more than 2,200 metres above sea level. The thin air leaves teams running with very little downforce and poor cooling, making it one of the most challenging weekends of the calendar.",
+      "Speaking after FP2, Piastri said the conditions had not been as tricky as he had feared."
+     ],
+     "leadKo": [
+      "McLaren 드라이버 오스카 피아스트리(Oscar Piastri)는 자신의 차가 예상했던 것보다 높은 고도에 더 잘 대처했음을 확인하면서 낙관적인 태도로 멕시코시티 서킷의 FP2를 떠났습니다. 이는 운전자가 \"매우 지저분한\" 자격 시뮬레이션을 하고 있음에도 불구하고 발생합니다.",
+      "Autodromo Hermanos Rodriguez 서킷은 해발 2,200m 이상에 위치해 있습니다. 공기가 희박하여 다운포스가 거의 없고 냉각 성능도 좋지 않은 상태로 팀을 운영하게 되어 달력에서 가장 힘든 주말 중 하나가 되었습니다.",
+      "FP2 이후에 Piastri는 상황이 그가 걱정했던 것만큼 까다롭지는 않았다고 말했습니다."
+     ],
+     "titleKo": "Oscar Piastri: McLaren은 멕시코 고도를 \"기대했던 것보다 더 잘\" 처리했습니다.",
+     "descKo": "McLaren 드라이버 오스카 피아스트리(Oscar Piastri)는 자신의 차가 예상했던 것보다 높은 고도에 더 잘 대처했음을 확인하면서 낙관적인 태도로 멕시코시티 서킷의 FP2를 떠났습니다. 이것…"
+    },
+    {
+     "title": "Colton Herta's F1 superlicence confusion explained: why he's still one point short",
+     "desc": "After completing more than 100 kilometres during the first free practice session at the Mexico Grand Prix, Colton Herta appeared to have 40 superlicence points to his name, which…",
+     "link": "https://www.motorsport.com/f1/news/colton-hertas-f1-superlicence-confusion-explained-why-hes-still-one-point-short/10869856/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/0Zq8vxd6/s6/colton-herta-hitech.jpg",
+     "date": "2026-10-30T23:20:30+00:00",
+     "author": "",
+     "id": "43485b7098",
+     "lead": [
+      "After completing more than 100 kilometres during the first free practice session at the Mexico Grand Prix, Colton Herta appeared to have 40 superlicence points to his name, which would be enough to qualify for the document required to secure a Formula 1 seat.",
+      "The reality, however, has proved far more complicated than that. According to the FIA, Herta is currently still one point short.",
+      "First, back to basics. There are two ways to accumulate the required 40 points from other championships. The FIA can either look at all the points accumulated over the previous three calendar years or consider all the points earned over the previous two years plus the current season."
+     ],
+     "leadKo": [
+      "멕시코 그랑프리의 첫 번째 무료 연습 세션에서 100km 이상을 완주한 후 Colton Herta는 자신의 이름에 40개의 슈퍼 라이센스 포인트를 보유한 것으로 나타났습니다. 이는 Formula 1 좌석을 확보하는 데 필요한 서류를 획득하기에 충분할 것입니다.",
+      "그러나 현실은 그보다 훨씬 더 복잡한 것으로 판명되었습니다. FIA에 따르면 헤르타는 현재 승점 1점 부족하다.",
+      "먼저, 기본으로 돌아가세요. 다른 챔피언십에서 필요한 40점을 축적하는 방법에는 두 가지가 있습니다. FIA는 지난 3년 동안 누적된 모든 포인트를 확인하거나 지난 2년과 현재 시즌 동안 획득한 모든 포인트를 고려할 수 있습니다."
+     ],
+     "titleKo": "Colton Herta의 F1 슈퍼 라이선스 혼란에 대한 설명: 왜 그에게 여전히 1포인트 부족한지",
+     "descKo": "멕시코 그랑프리의 첫 번째 자유 연습 세션에서 100km 이상을 완주한 콜튼 헤르타(Colton Herta)는 자신의 이름에 40개의 슈퍼 라이선스 포인트를 부여한 것으로 나타났습니다."
+    },
+    {
+     "title": "F1 Mexico GP: Charles Leclerc pips McLaren and Mercedes to top FP2",
+     "desc": "Charles Leclerc completed a perfect Friday at the Mexico Grand Prix after topping the second Formula 1 practice session, in spite of Ferrari team-mate Lewis Hamilton retiring. The…",
+     "link": "https://www.motorsport.com/f1/news/f1-mexico-gp-fp2-report-10869841/10869841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg",
+     "date": "2026-10-30T23:07:33+00:00",
+     "author": "",
+     "id": "d38c63cd44",
+     "lead": [
+      "Charles Leclerc completed a perfect Friday at the Mexico Grand Prix after topping the second Formula 1 practice session, in spite of Ferrari team-mate Lewis Hamilton retiring.",
+      "The Monegasque topped FP1 with a 1m18.128s before lowering that to a 1m17.827s in FP2 at Autodromo Hermanos Rodriguez, pipping McLaren ’s Lando Norris in second.",
+      "Norris was one of 10 drivers to have handed their car to a ‘rookie’ in opening practice, but the entry list returned to normal for FP2, with it no surprise to see many out early for the second one-hour session."
+     ],
+     "leadKo": [
+      "찰스 르클레르(Charles Leclerc)는 페라리 팀 동료인 루이스 해밀턴(Lewis Hamilton)이 은퇴했음에도 불구하고 두 번째 포뮬러 1 연습 세션에서 1위를 차지한 후 멕시코 그랑프리에서 완벽한 금요일을 마쳤습니다.",
+      "Monegasque는 1분 18초 128초로 FP1을 제치고 Autodromo Hermanos Rodriguez에서 FP2에서 1분 17초 827초로 낮추어 McLaren의 Lando Norris를 제치고 2위에 올랐습니다.",
+      "Norris는 오프닝 연습에서 '신인'에게 차를 건네준 10명의 드라이버 중 한 명이었지만 FP2의 참가 목록은 정상으로 돌아왔고 두 번째 1시간 세션에서 많은 사람들이 일찍 나가는 것은 놀라운 일이 아닙니다."
+     ],
+     "titleKo": "F1 멕시코 GP: 찰스 르클레르 (Charles Leclerc) 가 맥라렌 (McLaren) 과 메르세데스 (Mercedes) 를 FP",
+     "descKo": "찰스 르클레르(Charles Leclerc)는 페라리 팀 동료인 루이스 해밀턴(Lewis Hamilton)이 은퇴했음에도 불구하고 두 번째 포뮬러 1 연습 세션에서 1위를 차지한 후 멕시코 그랑프리에서 완벽한 금요일을 마쳤습니다. 그만큼…"
+    },
+    {
+     "title": "What's behind \"absolute nonsense\" Oliver Bearman contract rumours",
+     "desc": "Formula 1's driver-contract season was thought to be long over, but a bizarre claim about one of the few remaining out-of-contract drivers has gained surprising traction in the…",
+     "link": "https://www.motorsport.com/f1/news/whats-behind-absolute-nonsense-bearman-contract-rumours/10869831/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/2y7QpQp6/s6/oliver-bearman-haas-f1-team.jpg",
+     "date": "2026-10-30T22:12:06+00:00",
+     "author": "",
+     "id": "aeb4886890",
+     "lead": [
+      "Formula 1's driver-contract season was thought to be long over, but a bizarre claim about one of the few remaining out-of-contract drivers has gained surprising traction in the run-up to the Mexico Grand Prix weekend.",
+      "The Haas F1 team has already announced Esteban Ocon's exit in favour of Formula 2 frontrunner Rafael Camara next season, but an apparent delay in confirming Oliver Bearman for 2027 has prompted speculation to fill the vacuum. Among the more outlandish claims has been that Bearman's management is demanding a fee of €6million.",
+      "It's understood the source of this figure is an amateur blogger purporting to have inside information on F1 business matters, and the claim has then been amplified without substantiation by other websites and social media ‘influencers'. As with many such stories, it then passed a threshold of repetition where it became accepted as fact."
+     ],
+     "leadKo": [
+      "Formula 1의 드라이버 계약 시즌은 이미 끝난 것으로 여겨졌으나, 몇 안 되는 계약 해지 드라이버 중 한 명에 대한 기괴한 주장이 멕시코 그랑프리 주말을 앞두고 놀라운 관심을 끌었습니다.",
+      "Haas F1 팀은 이미 다음 시즌 Formula 2의 선두 주자인 Rafael Camara를 위해 Esteban Ocon의 퇴장을 발표했지만, 2027년 Oliver Bearman 확정이 명백히 지연되면서 공백을 메우려는 추측이 촉발되었습니다. 더 이상한 주장 중에는 Bearman의 경영진이 600만 유로의 수수료를 요구하고 있다는 것입니다.",
+      "이 수치의 출처는 F1 비즈니스 문제에 대한 내부 정보를 갖고 있다고 주장하는 아마추어 블로거이며, 이 주장은 다른 웹사이트와 소셜 미디어 '인플루언서'에 의해 입증 없이 증폭되었습니다. 그러한 많은 이야기와 마찬가지로, 그것은 반복의 문턱을 지나 사실로 받아들여지게 되었습니다."
+     ],
+     "titleKo": "\"완전히 말도 안 되는\" 올리버 베어먼의 계약 루머 뒤에 숨겨진 것은 무엇인가?",
+     "descKo": "Formula 1의 드라이버 계약 시즌은 이미 끝난 것으로 생각되었지만, 계약이 만료된 몇 안 되는 드라이버 중 한 명에 대한 기괴한 주장이 놀라운 관심을 끌었습니다."
+    },
+    {
+     "title": "Red Bull F1 boss Laurent Mekies hits back at Christian Horner's \"lost its mojo\" claim",
+     "desc": "Red Bull Racing CEO and team principal Laurent Mekies has rejected Christian Horner's claim that the Milton Keynes outfit has \"lost its mojo\" since his exit, insisting its spirit…",
+     "link": "https://www.motorsport.com/f1/news/red-bull-f1-boss-laurent-mekies-hits-back-at-christian-horners-lost-its-mojo-claim/10869825/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/0Zq8Zro6/s6/motorsport-com-graphics-34.jpg",
+     "date": "2026-10-30T21:30:38+00:00",
+     "author": "",
+     "id": "e32e53f3ed",
+     "lead": [
+      "Red Bull Racing CEO and team principal Laurent Mekies has rejected Christian Horner's claim that the Milton Keynes outfit has \"lost its mojo\" since his exit, insisting its spirit has driven a \"very remarkable\" turnaround.",
+      "Horner, who left the team in July 2025 after two decades in charge, has been promoting his memoir Drive , which was published last week. During an interview with The Times , the Briton claimed the team had \"lost its mojo, its presence, its vibe\" since he left.",
+      "Asked about the comments in Friday's team principals' press conference in Mexico City, Mekies said: \"Look, first of all, Christian is entitled to his opinion. He obviously has spent a lot of time in this team and I respect his point of view."
+     ],
+     "leadKo": [
+      "Red Bull Racing의 CEO이자 팀장인 Laurent Mekies는 Milton Keynes 팀이 퇴사 이후 \"기발함을 잃었다\"는 Christian Horner의 주장을 일축하고 그 정신이 \"매우 놀라운\" 전환을 주도했다고 주장했습니다.",
+      "20년 동안 집권한 후 2025년 7월 팀을 떠난 호너는 지난 주에 출판된 회고록 Drive 를 홍보해 왔습니다. The Times와의 인터뷰에서 영국인은 그가 떠난 이후 팀이 \"기발함, 존재감, 분위기를 잃었다\"고 주장했습니다.",
+      "금요일 멕시코 시티에서 열린 팀장 기자회견에서 언급된 내용에 대해 Mekies는 다음과 같이 말했습니다. \"먼저 Christian은 자신의 의견을 가질 자격이 있습니다. 그는 분명히 이 팀에서 많은 시간을 보냈으며 저는 그의 관점을 존중합니다."
+     ],
+     "titleKo": "Red Bull F1의 감독 Laurent Mekies는 Christian Horner의 \"모조를 잃었다\"는 주장에 반격했습니다.",
+     "descKo": "Red Bull Racing의 CEO이자 팀장인 Laurent Mekies는 Milton Keynes 팀이 퇴사 이후 \"기발함을 잃었다\"는 Christian Horner의 주장을 일축하고 그 정신을 주장했습니다."
+    },
+    {
+     "title": "Red Bull reveals when its long-awaited new F1 wind tunnel will be operational",
+     "desc": "Red Bull has been waiting for its new wind tunnel for a long time now, but, ahead of the Mexican Grand Prix, team principal Laurent Mekies has confirmed that it will not come…",
+     "link": "https://www.motorsport.com/f1/news/red-bull-reveals-when-its-long-awaited-new-f1-wind-tunnel-will-be-operational/10869820/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/68VwReX2/s6/motorsport-com-graphics-48.jpg",
+     "date": "2026-10-30T21:28:32+00:00",
+     "author": "",
+     "id": "30d8121722",
+     "lead": [
+      "Red Bull has been waiting for its new wind tunnel for a long time now, but, ahead of the Mexican Grand Prix, team principal Laurent Mekies has confirmed that it will not come online until some point during the 2027 season.",
+      "This new facility in Milton Keynes will replace its current tunnel sat in Bedford. With it once being described by former Red Bull chief Christian Horner as a \"Cold War relic\", the squad is very much looking forward to enjoying the fruits it will surely bear.",
+      "It was originally meant to be online for the 2026 season, so fans of the team will appreciate the update."
+     ],
+     "leadKo": [
+      "Red Bull은 오랫동안 새로운 풍동을 기다려왔지만 멕시코 그랑프리를 앞두고 팀장 Laurent Mekies는 2027 시즌 중 어느 시점까지는 온라인에 나오지 않을 것이라고 확인했습니다.",
+      "Milton Keynes에 있는 이 새로운 시설은 Bedford에 있는 현재 터널을 대체할 것입니다. 한때 레드불의 수석 수장이었던 크리스티안 호너(Christian Horner)가 \"냉전의 유물\"이라고 묘사한 만큼, 팀은 반드시 맺게 될 결실을 즐기기를 매우 기대하고 있습니다.",
+      "원래는 2026년 시즌에 온라인으로 제공될 예정이었으므로 팀 팬들은 이 업데이트를 높이 평가할 것입니다."
+     ],
+     "titleKo": "Red Bull은 오랫동안 기다려온 새로운 F1 풍동이 언제 운영될지 공개합니다.",
+     "descKo": "Red Bull은 오랫동안 새로운 풍동을 기다리고 있었지만 멕시코 그랑프리를 앞두고 팀장 Laurent Mekies가 오지 않을 것이라고 확인했습니다…"
+    },
+    {
+     "title": "Guenther Steiner warns Mercedes will make \"changes\" if George Russell struggles in 2027",
+     "desc": "Former Haas Formula 1 team principal Guenther Steiner has warned that Mercedes could make changes to its driver line-up if George Russell is still struggling by the end of next…",
+     "link": "https://www.motorsport.com/f1/news/guenther-steiner-warns-mercedes-will-make-changes-if-george-russell-struggles-in-2027/10869809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/2wlKOABY/s6/motorsport-com-graphics-33.jpg",
+     "date": "2026-10-30T20:53:39+00:00",
+     "author": "",
+     "id": "29a7a4a89c",
+     "lead": [
+      "Former Haas Formula 1 team principal Guenther Steiner has warned that Mercedes could make changes to its driver line-up if George Russell is still struggling by the end of next season.",
+      "While Russell entered the 2026 season as a clear favourite, his team-mate Kimi Antonelli became the youngest driver to lead the standings after back-to-back wins at the Chinese and Japanese Grands Prix. He has since gone on to win nine grands prix in total this season and is on the verge of claiming his maiden F1 title.",
+      "Heading into this weekend's Mexican Grand Prix, Russell sits second in the championship, 123 points behind Antonelli. The Briton also faces pressure from those behind him in the standings. Ferrari's Lewis Hamilton is just one point behind in third, and only nine points separate P2 and P5 in the standings."
+     ],
+     "leadKo": [
+      "전 Haas Formula 1 팀장 Guenther Steiner는 George Russell이 다음 시즌이 끝날 때까지 여전히 어려움을 겪고 있다면 Mercedes가 드라이버 라인업을 변경할 수 있다고 경고했습니다.",
+      "Russell이 확실한 우승 후보로 2026 시즌에 진입한 반면, 그의 팀 동료인 Kimi Antonelli는 중국과 일본 그랑프리에서 연속 우승을 차지한 후 순위를 이끄는 최연소 드라이버가 되었습니다. 이후 그는 올 시즌 통산 9번의 그랑프리 우승을 차지하며 생애 첫 F1 타이틀 획득을 눈앞에 두고 있다.",
+      "이번 주말 멕시코 그랑프리를 앞두고 러셀은 챔피언십에서 안토넬리보다 123점 뒤진 2위를 기록했습니다. 영국인은 또한 순위에서 그의 뒤를 잇는 사람들로부터 압력을 받고 있습니다. Ferrari의 루이스 해밀턴(Lewis Hamilton)은 3위에서 단 1점 뒤쳐져 있으며 순위에서는 P2와 P5 사이에 불과 9점 차이가 납니다."
+     ],
+     "titleKo": "Guenther Steiner는 George Russell이 2027년에 어려움을 겪는다면 Mercedes가 \"변화\"를 할 것이라고 경고합니다.",
+     "descKo": "전 Haas Formula 1 팀장인 Guenther Steiner는 George Russell이 내년 말까지 여전히 어려움을 겪고 있다면 Mercedes가 드라이버 라인업을 변경할 수 있다고 경고했습니다."
+    },
+    {
+     "title": "F1 Mexico GP: Charles Leclerc beats Kimi Antonelli to top FP1",
+     "desc": "Charles Leclerc was comfortably fastest in opening practice for the Formula 1 Mexico Grand Prix, beating runner-up Kimi Antonelli in a session 10 rookies took part in. The Ferrari…",
+     "link": "https://www.motorsport.com/f1/news/f1-mexico-gp-fp1-report-10869780/10869780/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YN7vVy36/s6/charles-leclerc-ferrari-3.jpg",
+     "date": "2026-10-30T19:38:35+00:00",
+     "author": "",
+     "id": "f284b24281",
+     "lead": [
+      "Charles Leclerc was comfortably fastest in opening practice for the Formula 1 Mexico Grand Prix, beating runner-up Kimi Antonelli in a session 10 rookies took part in.",
+      "The Ferrari driver set a 1m18.128s that was six tenths faster than Formula 1’s champion-elect, whose Mercedes stablemate Frederik Vesti completed the top three with a 1m18.861s.",
+      "Vesti – in for George Russell – was one of 10 rookies contesting FP1 with all teams bar Ferrari fielding a youngster, as Mexico is a good place to do so due to the session happening in unrepresentative conditions."
+     ],
+     "leadKo": [
+      "Charles Leclerc는 Formula 1 Mexico Grand Prix의 오프닝 연습에서 10명의 신인이 참가한 세션에서 2위인 Kimi Antonelli를 제치고 가장 빠른 속도를 기록했습니다.",
+      "페라리 드라이버는 1분 18초 128을 기록했는데, 이는 포뮬러 1의 챔피언 당선자보다 6분의 1 빠른 기록이며, 메르세데스의 동료 프레데릭 베스티(Frederik Vesti)가 1분 18초 861로 3위를 차지했습니다.",
+      "George Russell의 후보인 Vesti는 페라리의 모든 팀이 젊은 선수를 출전시키는 가운데 FP1에 참가하는 10명의 신인 선수 중 한 명이었습니다. 멕시코는 대표성이 없는 조건에서 세션이 진행되기 때문에 그렇게 하기 좋은 곳이기 때문입니다."
+     ],
+     "titleKo": "F1 멕시코 GP: Charles Leclerc가 Kimi Antonelli를 제치고 FP1 1위로 올라섰습니다.",
+     "descKo": "Charles Leclerc는 10명의 신인 선수가 참가한 세션에서 Formula 1 Mexico Grand Prix의 오프닝 연습에서 준우승자인 Kimi Antonelli를 제치고 가장 빠른 속도를 기록했습니다. Ferrari…"
+    },
+    {
      "title": "What Fernando Alonso is getting wrong about F1 driving standards",
      "desc": "When Fernando Alonso declared \"the quality of the drivers in the lower third of the grid is very low\" in the aftermath of last weekend's United States Grand Prix in Austin, he…",
      "link": "https://www.motorsport.com/f1/news/what-alonso-is-getting-wrong-about-f1-driving-standards/10869771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg",
      "date": "2026-10-30T18:28:52+00:00",
      "author": "",
      "id": "135cf48353",
+     "titleKo": "페르난도 알론소(Fernando Alonso)가 F1 운전 기준에 대해 잘못 알고 있는 것",
+     "descKo": "페르난도 알론소(Fernando Alonso)는 지난 주말 오스틴에서 열린 미국 그랑프리(United States Grand Prix)의 여파로 \"그리드의 하위 3분의 1에 있는 드라이버의 자질이 매우 낮다\"고 선언했을 때 그는…",
      "lead": [
       "When Fernando Alonso declared \"the quality of the drivers in the lower third of the grid is very low\" in the aftermath of last weekend's United States Grand Prix in Austin, he inadvertently poked a hornets' nest.",
       "While Alonso doubled down on his criticism this week in Mexico, singling out Alex Albon , many other drivers have spoken up in the Williams driver's defence. Albon himself said, \" We don't have pay drivers anymore . If anything, I would say the grid's the strongest it's been in a while.\"",
@@ -1798,176 +1971,6 @@
       "지난 주말 오스틴에서 열린 미국 그랑프리의 여파로 페르난도 알론소(Fernando Alonso)가 \"그리드의 하위 3분의 1에 있는 드라이버의 자질이 매우 낮다\"고 선언했을 때 그는 무심코 말벌의 둥지를 찔렀습니다.",
       "Alonso가 이번 주 멕시코에서 Alex Albon을 지목하면서 그의 비판을 두 배로 줄이는 동안, 많은 다른 운전자들이 Williams 운전자의 수비에 대해 목소리를 냈습니다. Albon 자신은 \"우리는 더 이상 유료 드라이버가 없습니다. 어쨌든 그리드가 한동안 가장 강력하다고 말하고 싶습니다.\"라고 말했습니다.",
       "특정 드라이버가 Formula 1에 참여할 자격이 있는지 여부에 대한 문제는 보이는 것보다 더 복잡합니다. 운전자의 능력과 그들이 가져오는 예산 사이에 반드시 역의 관계가 있는 것은 아닙니다. 예를 들어 Sergio Perez는 Cadillac 팀에 상당한 후원을 제공하지만 최근 그의 최근 사례에서 알 수 있듯이 올해 성과를 통해 자신의 위치를 ​​정당화하지 못했다고 주장하기는 어려울 것입니다."
-     ],
-     "titleKo": "페르난도 알론소(Fernando Alonso)가 F1 운전 기준에 대해 잘못 알고 있는 것",
-     "descKo": "페르난도 알론소(Fernando Alonso)는 지난 주말 오스틴에서 열린 미국 그랑프리(United States Grand Prix)의 여파로 \"그리드의 하위 3분의 1에 있는 드라이버의 자질이 매우 낮다\"고 선언했을 때 그는…"
-    },
-    {
-     "title": "Sergio Perez to skip F1 Mexico GP fan forum due to illness",
-     "desc": "Sergio Perez will skip the fan forum for this weekend’s Mexico Grand Prix, but is still expected to contest both Friday practice sessions at Autodromo Hermanos Rodriguez. The…",
-     "link": "https://www.motorsport.com/f1/news/serio-perez-to-skip-f1-mexico-gp-fan-forum-due-to-illness/10869750/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg",
-     "date": "2026-10-30T17:10:40+00:00",
-     "author": "",
-     "id": "e32eb41a87",
-     "lead": [
-      "Sergio Perez will skip the fan forum for this weekend’s Mexico Grand Prix, but is still expected to contest both Friday practice sessions at Autodromo Hermanos Rodriguez.",
-      "The Cadillac driver is confirmed to be feeling unwell ahead of his home race, and this also comes after team-mate Valtteri Bottas skipped Thursday’s media day due to illness .",
-      "Bottas is supposed to be at the track as normal on Friday though, but his car will be given to test driver Colton Herta for opening practice as part of the American's bid to obtain a super licence."
-     ],
-     "leadKo": [
-      "세르히오 페레즈는 이번 주말 멕시코 그랑프리 팬 포럼에 참가하지 않을 예정이지만, 여전히 Autodromo Hermanos Rodriguez에서 두 금요일 연습 세션에 모두 참가할 것으로 예상됩니다.",
-      "캐딜락 드라이버는 홈 레이스를 앞두고 몸 상태가 좋지 않은 것으로 확인되었으며 이는 팀 동료인 발테리 보타스(Valtteri Bottas)가 질병으로 인해 목요일 미디어 데이를 건너뛴 이후에도 발생했습니다.",
-      "Bottas는 평소와 같이 금요일에 선로에 있기로 되어 있지만 그의 차는 슈퍼 면허를 취득하려는 미국인의 입찰의 일환으로 오프닝 연습을 위해 테스트 드라이버 Colton Herta에게 주어질 것입니다."
-     ],
-     "titleKo": "세르히오 페레스, 질병으로 인해 F1 멕시코 GP 팬 포럼 불참",
-     "descKo": "세르히오 페레즈는 이번 주말 멕시코 그랑프리 팬 포럼에 참가하지 않을 예정이지만, 여전히 Autodromo Hermanos Rodriguez에서 두 금요일 연습 세션에 모두 참가할 것으로 예상됩니다. 그만큼…"
-    },
-    {
-     "title": "Lewis Hamilton on why he is “built differently” to stay in F1 for the “foreseeable future”",
-     "desc": "Lewis Hamilton intends to continue racing in Formula 1 “for the foreseeable future” if he can remain competitive, having been asked if he can realistically expect to race in the…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-on-why-he-is-built-differently-to-stay-in-f1-for-the-foreseeable-future/10869704/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YvKBmn16/s6/lewis-hamilton-ferrari.jpg",
-     "date": "2026-10-30T16:32:13+00:00",
-     "author": "",
-     "id": "4f5a185218",
-     "lead": [
-      "Lewis Hamilton intends to continue racing in Formula 1 “for the foreseeable future” if he can remain competitive, having been asked if he can realistically expect to race in the newly-announced African Grand Prix.",
-      "Earlier this month F1 revealed its plan for a new race in Rwanda, which will hold the title of the African GP, from 2030 at the earliest.",
-      "Hamilton, a long-standing figure who pushed for F1 to return to Africa, would therefore need to remain in the series well into his 40s to compete in the inaugural race in Rwanda."
-     ],
-     "leadKo": [
-      "루이스 해밀턴은 새로 발표된 아프리카 그랑프리에 참가할 수 있는지 현실적으로 기대할 수 있는지 묻는 질문에 경쟁력을 유지할 수 있다면 \"가까운 미래에\" 포뮬러 1에서 계속 경주할 계획입니다.",
-      "이달 초 F1은 이르면 2030년부터 아프리카 GP라는 타이틀을 차지하게 될 르완다에서 새로운 경주 계획을 밝혔습니다.",
-      "따라서 F1의 아프리카 복귀를 추진해 온 오랜 인물인 해밀턴은 르완다에서 열리는 첫 경주에 참가하려면 40대까지 시리즈에 남아 있어야 합니다."
-     ],
-     "titleKo": "루이스 해밀턴이 \"가까운 미래\"에 F1에 머물기 위해 \"다르게 구성\"된 이유에 대해 설명합니다.",
-     "descKo": "루이스 해밀턴은 경쟁력을 유지할 수 있다면 \"가까운 미래에\" 포뮬러 1에서 계속 경주할 계획입니다."
-    },
-    {
-     "title": "\"Slippery as hell\" – Max Verstappen and Isack Hadjar explain the \"extreme\" challenge of Mexico",
-     "desc": "The Formula 1 weekend at the Autodromo Hermanos Rodriguez promises to be a considerable challenge in several respects for drivers, engine manufacturers and teams. During…",
-     "link": "https://www.motorsport.com/f1/news/slippery-as-hell-max-verstappen-and-isack-hadjar-explain-the-extreme-challenge-of-mexico/10869483/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/2y7Q4e96/s6/isack-hadjar-red-bull-racing.jpg",
-     "date": "2026-10-30T15:30:02+00:00",
-     "author": "",
-     "id": "e10b3dff15",
-     "lead": [
-      "The Formula 1 weekend at the Autodromo Hermanos Rodriguez promises to be a considerable challenge in several respects for drivers, engine manufacturers and teams.",
-      "During Thursday’s media day in Mexico City, there was plenty of discussion about the role of turbo lag, especially now that the MGU-H can no longer help the turbo at high altitude - the Mexico City track is 2,286 metres above sea level.",
-      "The altitude also affects the downforce and grip levels that drivers experience, and that is precisely why they are expecting a difficult weekend. That is always the case in Mexico, of course, but in previous years it could still be compensated for to some extent through wing choices."
-     ],
-     "leadKo": [
-      "Autodromo Hermanos Rodriguez에서 열리는 Formula 1 주말은 드라이버, 엔진 제조업체 및 팀에게 여러 측면에서 상당한 도전이 될 것입니다.",
-      "목요일 멕시코 시티의 미디어 데이 동안 터보 지연의 역할에 대해 많은 논의가 있었습니다. 특히 MGU-H가 더 이상 높은 고도에서 터보를 도울 수 없기 때문에 멕시코 시티 트랙은 해발 2,286m입니다.",
-      "고도는 운전자가 경험하는 다운포스와 그립 수준에도 영향을 미치며, 이것이 바로 운전자가 어려운 주말을 예상하는 이유입니다. 물론 멕시코에서는 항상 그렇습니다. 하지만 이전에는 날개 선택을 통해 어느 정도 보상받을 수 있었습니다."
-     ],
-     "titleKo": "\"지옥같이 미끄러운\" – Max Verstappen과 Isack Hadjar가 멕시코의 \"극단적인\" 도전에 대해 설명합니다.",
-     "descKo": "Autodromo Hermanos Rodriguez에서 열리는 Formula 1 주말은 드라이버, 엔진 제조업체 및 팀에게 여러 측면에서 상당한 도전이 될 것입니다. 동안…"
-    },
-    {
-     "title": "Sergio Perez praises Colton Herta impact - but has no say over 2027 Cadillac F1 team-mate choice",
-     "desc": "Sergio Perez has insisted he will have no say on his Cadillac Formula 1 team-mate for 2027 after signing a new contract ahead of the Mexican Grand Prix. The Mexican's spot on the…",
-     "link": "https://www.motorsport.com/f1/news/sergio-perez-praises-colton-herta-impact-but-has-no-say-over-2027-cadillac-team-mate-choice/10869487/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0kZXl3D6/s6/valtteri-bottas-cadillac-sergi.jpg",
-     "date": "2026-10-30T14:30:02+00:00",
-     "author": "",
-     "id": "b7edb91fff",
-     "lead": [
-      "Sergio Perez has insisted he will have no say on his Cadillac Formula 1 team-mate for 2027 after signing a new contract ahead of the Mexican Grand Prix.",
-      "The Mexican's spot on the grid was confirmed through to 2029 ahead of his return to the Autodromo Hermanos Rogriguez - which will also mark his 300th F1 race - having watched on from the sidelines last term following his departure from Red Bull.",
-      "But the future of current team-mate Valtteri Bottas is far from certain; though the Finn denies that his place with the debutant Cadillac squad is in danger, team principal Marcin Budkowski refused to confirm the incumbent duo would remain unchanged next season when speaking at the United States GP."
-     ],
-     "leadKo": [
-      "세르히오 페레즈는 멕시코 그랑프리를 앞두고 새로운 계약을 체결한 후 2027년 캐딜락 포뮬러 1 팀 동료에 대해 어떠한 발언도 하지 않을 것이라고 주장했습니다.",
-      "이 멕시코 선수의 그리드 위 자리는 Autodromo Hermanos Rogriguez로의 복귀를 앞두고 2029년까지 확정되었습니다. 이번 대회는 또한 그의 300번째 F1 경주가 될 것입니다. 그는 Red Bull을 떠난 후 지난 시즌을 옆에서 지켜봤습니다.",
-      "그러나 현재 팀 동료인 발테리 보타스의 미래는 확실하지 않습니다. Finn은 데뷔 캐딜락 팀에서 자신의 자리가 위험하다는 사실을 부인했지만 팀장 Marcin Budkowski는 미국 GP에서 연설할 때 현 듀오가 다음 시즌에도 변하지 않을 것인지 확인하는 것을 거부했습니다."
-     ],
-     "titleKo": "Sergio Perez는 Colton Herta의 영향력을 칭찬하지만 2027 Cadillac F1 팀 동료 선택에 대해서는 언급하지 않았습니다.",
-     "descKo": "세르히오 페레즈는 멕시코 그랑프리를 앞두고 새로운 계약을 체결한 후 2027년 캐딜락 포뮬러 1 팀 동료에 대해 어떠한 발언도 하지 않을 것이라고 주장했습니다. 멕시코인의 자리는…"
-    },
-    {
-     "title": "Why “ignorance is a superpower” for Kimi Antonelli, according to Daniel Ricciardo",
-     "desc": "Daniel Ricciardo believes Kimi Antonelli’s age and innocence are what have made him so successful in the 2026 Formula 1 season. Nine victories so far in his sophomore F1 campaign…",
-     "link": "https://www.motorsport.com/f1/news/why-ignorance-is-a-superpower-for-kimi-antonelli-according-to-daniel-ricciardo/10869339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/2wlKjwqY/s6/andrea-kimi-antonelli-mercedes.jpg",
-     "date": "2026-10-30T13:30:04+00:00",
-     "author": "",
-     "id": "dd580e13de",
-     "titleKo": "다니엘 리카르도(Daniel Ricciardo)에 따르면 키미 안토넬리(Kimi Antonelli)에게 “무지가 초능력”인 이유",
-     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 키미 안토넬리(Kimi Antonelli)의 나이와 순수함 덕분에 2026년 포뮬러 1 시즌에서 성공할 수 있었다고 믿습니다. 2년차 F1 캠페인에서 지금까지 9승을 거두었습니다.",
-     "lead": [
-      "Daniel Ricciardo believes Kimi Antonelli ’s age and innocence is what has made him so successful in the 2026 Formula 1 season.",
-      "Nine victories so far in his sophomore F1 campaign have taken Antonelli to the brink of his maiden world title. All the Mercedes driver needs to be crowned in Sunday’s Mexican Grand Prix is ninth place, or for neither George Russell nor Lewis Hamilton to win.",
-      "This would make the 20-year-old F1’s youngest-ever champion, beating Sebastian Vettel ’s current record by more than three years."
-     ],
-     "leadKo": [
-      "다니엘 리카르도(Daniel Ricciardo)는 키미 안토넬리(Kimi Antonelli)의 나이와 순수함 덕분에 2026 포뮬러 1 시즌에서 그토록 성공할 수 있었다고 믿습니다.",
-      "Antonelli는 2년차 F1 캠페인에서 지금까지 9승을 거두며 첫 세계 타이틀을 눈앞에 두고 있습니다. 모든 메르세데스 드라이버는 일요일 멕시코 그랑프리에서 9위를 차지해야 합니다. 그렇지 않으면 조지 러셀이나 루이스 해밀턴이 우승하지 못합니다.",
-      "이로써 20세 F1의 최연소 챔피언이 되어 세바스찬 베텔(Sebastian Vettel)의 현재 기록을 3년 이상 앞지르게 됩니다."
-     ]
-    },
-    {
-     "title": "Isack Hadjar admits after criticising Red Bull: \"There's stuff that I should have kept for myself\"",
-     "desc": "After the United States Grand Prix, Isack Hadjar was critical of Red Bull's execution, as was Max Verstappen. Both drivers were unhappy with the strategy and, on top of that, were…",
-     "link": "https://www.motorsport.com/f1/news/isack-hadjar-admits-after-criticising-red-bull-theres-stuff-that-i-should-have-kept-for-myself/10869496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/2GdK4w1Y/s6/isack-hadjar-red-bull-racing.jpg",
-     "date": "2026-10-30T10:47:31+00:00",
-     "author": "",
-     "id": "a32b89fe16",
-     "titleKo": "Isack Hadjar는 Red Bull을 비판한 후 다음과 같이 인정했습니다. \"나 혼자만 간직했어야 했던 것들이 있습니다.\"",
-     "descKo": "미국 그랑프리 이후 Isack Hadjar는 Max Verstappen과 마찬가지로 Red Bull의 처형에 대해 비판적이었습니다. 두 운전자 모두 전략에 불만이 있었고, 게다가…",
-     "lead": [
-      "After the United States Grand Prix, Isack Hadjar was critical of Red Bull's execution, as was Max Verstappen . Both drivers were unhappy with the strategy and, on top of that, were hampered by two problems that have been troubling the Formula 1 team for a long time: technical issues with the team radio and problematic starts.",
-      "\"I have poor radio, I don't even know what's happening. And whenever I drop the clutch, it's going into a nightmare,” Hadjar said in the media pen on Sunday night. “If we fix these two issues, we might already be on the podium. It seems like we can do the hardest things, but we can’t do the silly things.”",
-      "When asked about those comments during the media day in Mexico, Hadjar acknowledged that he is perfectly entitled to speak his mind about the team – which is, after all, exactly what Red Bull wants: drivers with character and opinions of their own – but that he perhaps could have worded certain things a little differently."
-     ],
-     "leadKo": [
-      "미국 그랑프리 이후 Isack Hadjar는 Max Verstappen과 마찬가지로 Red Bull의 처형에 대해 비판적이었습니다. 두 드라이버 모두 전략에 만족하지 못했고, 무엇보다도 오랫동안 Formula 1 팀을 괴롭혀온 두 가지 문제, 즉 팀 라디오의 기술적 문제와 문제 있는 시동으로 인해 어려움을 겪었습니다.",
-      "Hadjar는 일요일 밤 미디어 펜에서 \"무선 상태가 좋지 않아 무슨 일이 일어나고 있는지조차 모릅니다. 클러치를 떨어뜨릴 때마다 악몽에 빠지게 됩니다\"라고 말했습니다. \"이 두 가지 문제를 해결한다면 우리는 이미 시상대에 올랐을 것입니다. 가장 어려운 일은 할 수 있을 것 같지만 어리석은 일은 할 수 없습니다.\"",
-      "멕시코에서 열린 미디어 데이에서 이러한 논평에 대해 질문을 받았을 때, Hadjar는 팀에 대해 자신의 생각을 말할 자격이 있다고 인정했습니다. 결국 Red Bull이 원하는 것은 바로 Red Bull이 원하는 것입니다. 자신만의 개성과 의견을 가진 드라이버입니다. 그러나 특정 사항을 조금 다르게 표현했을 수도 있었습니다."
-     ]
-    },
-    {
-     "title": "Why F1's new regulations make the Mexican GP an even bigger challenge",
-     "desc": "At 2,286 metres above sea level, the Autodromo Hermanos Rodriguez is by far the highest-altitude venue on the Formula 1 calendar. This naturally means thinner air, which presents…",
-     "link": "https://www.motorsport.com/f1/news/why-f1s-new-regulations-make-the-mexican-gp-an-even-bigger-challenge/10869622/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6b8jjxw2/s6/oscar-piastri-mclaren.jpg",
-     "date": "2026-10-30T09:55:11+00:00",
-     "author": "",
-     "id": "78faddf1d6",
-     "titleKo": "F1의 새로운 규정이 멕시코 GP를 더욱 큰 도전으로 만드는 이유",
-     "descKo": "해발 2,286m에 위치한 아우토드로모 에르마노스 로드리게스(Autodromo Hermanos Rodriguez)는 포뮬러 1 일정에서 단연 가장 높은 고도의 경기장입니다. 이는 자연스럽게 공기가 더 얇아진다는 것을 의미하며, 이는…",
-     "lead": [
-      "At 2,286 metres above sea level, the Autodromo Hermanos Rodriguez is by far the highest-altitude venue on the Formula 1 calendar. This naturally means thinner air, which presents a unique challenge at the Mexican Grand Prix for teams and manufacturers in two ways.",
-      "Firstly, the lower air density means that the power unit, and particularly the turbo, is put under considerable strain in Mexico. At altitude, there are fewer oxygen molecules per cubic metre, meaning the turbo has to work harder to get the same amount of oxygen into the engine as it would at sea level.",
-      "The turbo has to spin considerably faster to achieve the required boost pressure and airflow, which presents a challenge not only in terms of outright performance but also reliability, with the turbo operating at significantly higher temperatures than under normal conditions."
-     ],
-     "leadKo": [
-      "해발 2,286m에 위치한 아우토드로모 에르마노스 로드리게스(Autodromo Hermanos Rodriguez)는 포뮬러 1 일정에서 단연 가장 높은 고도의 경기장입니다. 이는 당연히 공기가 더 얇아진다는 것을 의미하며, 이는 두 가지 측면에서 팀과 제조업체에게 멕시코 그랑프리에서 독특한 도전을 제시합니다.",
-      "첫째, 낮은 공기 밀도는 동력 장치, 특히 터보가 멕시코에서 상당한 부담을 받는다는 것을 의미합니다. 고도에서는 입방미터당 산소 분자 수가 적습니다. 즉, 터보는 해수면에서와 동일한 양의 산소를 엔진에 공급하기 위해 더 열심히 작동해야 합니다.",
-      "터보는 필요한 부스트 압력과 공기 흐름을 달성하기 위해 훨씬 더 빠르게 회전해야 하며, 이는 터보가 정상적인 조건에서보다 훨씬 더 높은 온도에서 작동하면서 완전한 성능뿐만 아니라 신뢰성 측면에서도 문제를 제시합니다."
-     ]
-    },
-    {
-     "title": "Audi pays tribute as F1 stalwart Beat Zehnder set for exit",
-     "desc": "The Audi Formula 1 team has announced that former team manager Beat Zehnder is leaving the organisation at the end of the 2026 season after a 34-year stint at Hinwil. Zehnder was…",
-     "link": "https://www.motorsport.com/f1/news/audi-pays-tribute-as-f1-stalwart-beat-zehnder-set-for-exit/10869594/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0ZRQVJN0/s6/beat-zehnder-sporting-director.jpg",
-     "date": "2026-10-30T09:08:04+00:00",
-     "author": "",
-     "id": "a223de0c35",
-     "titleKo": "F1의 충실한 비트 젠더(Beat Zehnder)가 퇴장을 앞두고 아우디는 경의를 표합니다",
-     "descKo": "아우디 포뮬러 1(Audi Formula 1) 팀은 전 팀 매니저인 비트 젠더(Beat Zehnder)가 34년간의 힌윌(Hinwil)에서 근무한 후 2026년 시즌을 끝으로 조직을 떠난다고 발표했습니다. 젠더는…",
-     "lead": [
-      "The Audi Formula 1 team has announced that former team manager Beat Zehnder is leaving the organisation at the end of the 2026 season after a 34-year stint at Hinwil.",
-      "Zehnder was hired by founder Peter Sauber in 1988 as a mechanic for its sportscar programme and moved with Sauber to F1 at the start of the 1993 season, quickly becoming an integral part of the Swiss outfit.",
-      "He became team manager the following year and was there for 601 consecutive grands prix. In his hands-on role as team manager and sporting director, Zehnder was at the heart of Sauber's many highs and lows through its various stints as an independent team and its period as a BMW works squad, which yielded Hinwil's only grand prix win with Roberto Kubica at the 2008 Canadian Grand Prix."
-     ],
-     "leadKo": [
-      "아우디 포뮬러 1(Audi Formula 1) 팀은 전 팀 매니저인 비트 젠더(Beat Zehnder)가 34년간의 힌윌(Hinwil)에서 근무한 후 2026년 시즌을 끝으로 조직을 떠난다고 발표했습니다.",
-      "Zehnder는 1988년 창립자 Peter Sauber에 의해 스포츠카 프로그램의 정비사로 고용되었고 1993년 시즌이 시작될 때 Sauber와 함께 F1으로 이적하여 빠르게 스위스 조직의 필수적인 부분이 되었습니다.",
-      "그는 이듬해 팀 매니저가 되었고 601회 연속 그랑프리에 참가했습니다. 팀 매니저이자 스포츠 디렉터로서의 실무 역할을 맡은 Zehnder는 독립 팀으로서의 다양한 활동과 BMW 작업 팀으로서의 기간을 통해 Sauber의 많은 우여곡절의 중심에 있었으며, Hinwil은 2008 캐나다 그랑프리에서 Roberto Kubica와 함께 그랑프리 우승을 차지했습니다."
      ]
     }
    ]
@@ -1976,6 +1979,90 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "Verstappen collides with Lawson as Leclerc tops Mexico FP2",
+     "desc": "Charles Leclerc topped FP2 for Ferrarri as Max Verstappen and Liam Lawson collided, and Lewis Hamilton broke down on track.",
+     "link": "https://www.the-race.com/formula-1/verstappen-collides-with-lawson-as-leclerc-tops-mexico-fp2/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448903_HiRes.jpg",
+     "date": "2026-10-30T23:09:09+00:00",
+     "author": "Ben Anderson",
+     "id": "a1e8993352",
+     "lead": [
+      "Charles Leclerc kept Ferrari on top in second practice for Formula 1’s 2026 Mexican Grand Prix, despite a messy session in which he twice went off the track and team-mate Lewis Hamilton broke down on track with an engine problem and Max Verstappen collided with Red Bull stablemate Liam Lawson.",
+      "The Ferraris established a comfortable advantage during the early running on the harder Pirelli tyre compounds, despite a lurid slide through the esses from Leclerc, with him and Hamilton 1-2 using the medium tyre and six tenths clear of Oscar Piastri’s hard-tyred McLaren.",
+      "Having sat out first practice, Verstappen decided to head straight out on the soft tyre but was only fifth fastest and a full second off the pace before a bizarre incident with Lawson that caused a red flag."
+     ],
+     "leadKo": [
+      "Charles Leclerc는 Formula 1의 2026년 멕시코 그랑프리의 두 번째 연습에서 페라리를 1위로 유지했습니다. 두 번이나 트랙을 이탈하고 팀 동료인 루이스 해밀턴이 엔진 문제로 궤도를 이탈하고 Max Verstappen이 Red Bull의 마구간 동료인 Liam Lawson과 충돌하는 지저분한 세션에도 불구하고 말이죠.",
+      "Ferraris는 Leclerc의 에세스를 통과하는 무서운 미끄러짐에도 불구하고 더 단단한 Pirelli 타이어 컴파운드를 사용하여 초기 주행 동안 편안한 이점을 확보했습니다. 그와 Hamilton은 중형 타이어를 사용하고 Oscar Piastri의 단단한 타이어 McLaren보다 6/10을 확보했습니다.",
+      "첫 번째 연습을 마친 후 Verstappen은 소프트 타이어를 타고 곧장 나가기로 결정했지만 Lawson과의 기괴한 사고로 인해 위험 신호가 발생하기 전까지 다섯 번째로 빠르며 속도가 1초나 늦었습니다."
+     ],
+     "titleKo": "Verstappen은 Leclerc가 멕시코 FP2에서 우승하면서 Lawson과 충돌합니다.",
+     "descKo": "Charles Leclerc는 Max Verstappen과 Liam Lawson이 충돌하면서 Ferrarri의 FP2에서 1위를 차지했고 Lewis Hamilton은 궤도에서 무너졌습니다."
+    },
+    {
+     "title": "Why Herta's actually still one point off F1 superlicence",
+     "desc": "Colton Herta is actually still one point short of acquiring the FIA superlicence he would need to make his F1 debut because of a bizarre error in the publication of IndyCar's…",
+     "link": "https://www.the-race.com/formula-1/why-colton-herta-still-one-point-off-f1-superlicence/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448550_HiRes.jpg",
+     "date": "2026-10-30T22:38:54+00:00",
+     "author": "Josh Suttill",
+     "id": "43ec0c2c37",
+     "lead": [
+      "Colton Herta is actually still one point short of acquiring the FIA superlicence he would need to make his Formula 1 debut because of a bizarre error in the publication of IndyCar's standings.",
+      "Cadillac ran Herta in FP1 in Mexico as it believed he was one qualifying point away from the 40 needed for a superlicence and Herta completing at least 100 kilometres would ensure he gets that final point.",
+      "Cadillac had verified its calculations with the FIA beforehand in July, hence the team's belief that it was only one point adrift."
+     ],
+     "leadKo": [
+      "Colton Herta는 실제로 IndyCar 순위 공개 시 발생한 이상한 오류로 인해 Formula 1 데뷔에 필요한 FIA 슈퍼 라이선스를 획득하기에는 아직 1점 부족합니다.",
+      "Cadillac은 멕시코의 FP1에서 Herta가 슈퍼 면허를 취득하는 데 필요한 40점에서 1점 떨어져 있다고 믿었고 Herta가 최소 100km를 완주하면 최종 점수를 얻을 수 있다고 믿었습니다.",
+      "캐딜락은 7월에 사전에 FIA를 통해 계산을 검증했기 때문에 팀은 단 1점만 표류할 뿐이라고 믿었습니다."
+     ],
+     "titleKo": "Herta가 실제로 F1 슈퍼 라이센스에서 여전히 1점 차이가 나는 이유",
+     "descKo": "Colton Herta는 실제로 IndyCar 출판의 이상한 오류로 인해 F1 데뷔에 필요한 FIA 슈퍼 라이선스를 획득하기에는 아직 1점 부족합니다."
+    },
+    {
+     "title": "What happened in Mexican GP FP1 with 10 rookies",
+     "desc": "Charles Leclerc led F1 drivers' championship leader Kimi Antonelli in first practice for the 2026 Mexico GP as 10 rookie drivers took to the track",
+     "link": "https://www.the-race.com/formula-1/what-happened-f1-2026-mexican-gp-first-practice/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448601_HiRes.jpg",
+     "date": "2026-10-30T19:49:08+00:00",
+     "author": "Samarth Kanal",
+     "id": "96b827f76c",
+     "lead": [
+      "Ferrari’s Charles Leclerc led Mercedes’ Formula 1 drivers’ championship leader Kimi Antonelli in first practice for the 2026 Mexico Grand Prix as 10 rookie drivers took to the track.",
+      "Leclerc set the benchmark of 1m18.128s to go 0.659 seconds faster than Antonelli, whose stand-in team-mate Fred Vesti was just 0.074s slower in third.",
+      "Mercedes’ Vesti was the fastest rookie in FP1, with every team bar Ferrari fielding a substitute for FP1."
+     ],
+     "leadKo": [
+      "Ferrari의 Charles Leclerc는 10명의 신인 드라이버가 트랙에 참가하는 동안 Mercedes의 Formula 1 드라이버 챔피언십 리더 Kimi Antonelli를 2026 멕시코 그랑프리의 첫 연습으로 이끌었습니다.",
+      "Leclerc는 1m18.128s의 벤치마크를 Antonelli보다 0.659초 더 빠르게 설정했습니다. Antonelli의 대기 팀 동료인 Fred Vesti는 3위에서 0.074초만 더 느렸습니다.",
+      "Mercedes의 Vesti는 FP1에서 가장 빠른 신인이었습니다. 모든 팀 바 Ferrari는 FP1의 대체 선수를 배치했습니다."
+     ],
+     "titleKo": "신인 10명이 있던 멕시코 GP FP1에서 일어난 일",
+     "descKo": "Charles Leclerc는 10명의 신인 드라이버가 트랙에 진입하는 동안 2026년 멕시코 GP의 첫 연습에서 F1 드라이버 챔피언십 리더인 Kimi Antonelli를 이끌었습니다."
+    },
+    {
+     "title": "F1 2026 Mexican Grand Prix practice results",
+     "desc": "Practice results from Formula 1's Mexican Grand Prix, where 10 drivers swapped in for regulars in FP1",
+     "link": "https://www.the-race.com/formula-1/f1-2026-mexican-grand-prix-practice-results/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448513_HiRes.jpg",
+     "date": "2026-10-30T19:32:55+00:00",
+     "author": "The Race Team",
+     "id": "64c40f4afb",
+     "lead": [
+      "Almost half of the grid were stand-in drivers for the Mexican Grand Prix's first practice session - with 10 of the 11 teams only fielding their complete line-ups in FP2.",
+      "Obviously that has implications for the drivers having to sit out that session, too. And that's before you consider the complexity of the high altitude and new lower-downforce 2026 cars at a track where that downforce is so crucial.",
+      "1 Charles Leclerc (Ferrari) 1m17.827s 2 Lando Norris (McLaren) +0.103s 3 George Russell (Mercedes) +0.106s 4 Kimi Antonelli (Mercedes) +0.217s 5 Max Verstappen (Red Bull) +0.311s 6 Isack Hadjar (Red Bull) +0.410s 7 Arvid Lindblad (Racing Bulls) +0.562s 8 Pierre Gasly (Alpine) +0.580s 9 Liam Lawson (Racing Bulls) +0.628s 10 Oscar Piastri (McLaren) +0.642s 11 Lewis Hamilton (Ferrari) +0.685s 12 Fernando Alonso (Aston Martin) +0.769s 13 Esteban…"
+     ],
+     "leadKo": [
+      "그리드의 거의 절반은 멕시코 그랑프리의 첫 번째 연습 세션을 위한 예비 드라이버였으며, 11개 팀 중 10개 팀은 FP2에서 전체 라인업을 구성했습니다.",
+      "분명히 이는 운전자가 해당 세션에 참여하지 않아도 된다는 의미를 갖습니다. 그리고 그것은 다운포스가 매우 중요한 트랙에서 높은 고도와 새로운 저다운포스 2026 차량의 복잡성을 고려하기 전의 이야기입니다.",
+      "1 Charles Leclerc(페라리) 1m17.827s 2 Lando Norris(맥라렌) +0.103s 3 George Russell(메르세데스) +0.106s 4 Kimi Antonelli(메르세데스) +0.217s 5 Max Verstappen(레드불) +0.311s 6 Isack Hadjar(레드불) +0.410s 7 Arvid Lindblad(레이싱 불스) +0.562s 8 Pierre Gasly(알파인) +0.580s 9 Liam Lawson(레이싱 불스) +0.628s 10 Oscar Piastri(맥라렌) +0.642s 11 Lewis Hamilton(페라리) +0.685s 12 Fernando Alonso(Aston Martin) +0.769s 13 Esteban…"
+     ],
+     "titleKo": "F1 2026 멕시코 그랑프리 연습 결과",
+     "descKo": "FP1에서 10명의 드라이버가 정규 드라이버로 교체된 Formula 1 멕시코 그랑프리의 연습 결과"
+    },
     {
      "title": "Three Mexico FP1 changes with high driver market stakes",
      "desc": "There's a lot riding on Mexico FP1 for three of the rookies getting try-outs",
@@ -2079,90 +2166,6 @@
       "Formula 1 최고 고도 경주의 독특하고 까다로운 도전은 올해 멕시코에서 더욱 어려워지고 있으며 지난 주말 미국에서 열린 그랑프리에서도 약간의 좌절감이 남아 있습니다.",
       "올해 멕시코 그랑프리는 F1의 하이브리드 V6 엔진이 MGU-H 없이 작동되는 현대 시대의 첫 번째 대회가 될 것입니다.",
       "멕시코 시티의 고도는 전통적으로 공기 밀도가 부족하여 모든 것이 더 높은 RPM에서 작동해야 하기 때문에 터보차저에 추가적인 부담을 가해 왔습니다."
-     ]
-    },
-    {
-     "title": "Rivals reject Alonso's brutal 'low quality' F1 drivers claim",
-     "desc": "Fernando Alonso’s rivals have pushed back against his claims that the quality of drivers in the lower third of the F1 field is “very low”",
-     "link": "https://www.the-race.com/formula-1/rivals-reject-alonsos-brutal-low-quality-f1-drivers-claim/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448198_HiRes.jpg",
-     "date": "2026-10-29T21:50:32+00:00",
-     "author": "Jon Noble",
-     "id": "d0367526a6",
-     "titleKo": "라이벌들은 Alonso의 잔인한 '낮은 품질' F1 드라이버 주장을 거부합니다.",
-     "descKo": "페르난도 알론소의 라이벌들은 F1 분야 하위 3분의 1 드라이버의 자질이 \"매우 낮다\"는 그의 주장을 반박했다.",
-     "lead": [
-      "Fernando Alonso’s Formula 1 rivals have pushed back against the Spaniard’s claims that the quality of drivers in the lower third of the field is “very low”.",
-      "The Aston Martin driver spoke out after the United States Grand Prix following a first corner clash with Alex Albon that damaged his car and cost him the opportunity to take points.",
-      "Alonso's annoyance was still clear in the F1 paddock on Thursday in Mexico, as he doubled down on his remarks, but other drivers did not concur with his view that standards were lacking."
-     ],
-     "leadKo": [
-      "페르난도 알론소(Fernando Alonso)의 포뮬러 1 라이벌들은 하위 3분의 1 드라이버의 자질이 \"매우 낮다\"는 스페인 사람의 주장에 반발했습니다.",
-      "Aston Martin 드라이버는 미국 그랑프리가 끝난 후 Alex Albon과의 첫 번째 코너 충돌로 인해 차량이 손상되고 점수를 얻을 기회가 손실된 후 이렇게 말했습니다.",
-      "Alonso의 성가심은 목요일 멕시코의 F1 패독에서 여전히 분명했습니다. 그는 자신의 발언을 두 배로 늘렸지만 다른 운전자들은 표준이 부족하다는 그의 견해에 동의하지 않았습니다."
-     ]
-    },
-    {
-     "title": "'Superpower' neutered - Piastri's fresh F1 struggles explained",
-     "desc": "Oscar Piastri is experiencing new difficulties with the 2026 McLaren compared to team-mate Lando Norris",
-     "link": "https://www.the-race.com/formula-1/superpower-neutered-piastris-fresh-f1-struggles-explained/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446853_HiRes.jpg",
-     "date": "2026-10-29T07:16:47+00:00",
-     "author": "Josh Suttill",
-     "id": "89c835048d",
-     "titleKo": "'슈퍼파워' 거세 - 피아스트리의 새로운 F1 고군분투 설명",
-     "descKo": "Oscar Piastri는 팀 동료 Lando Norris와 비교하여 2026년 McLaren에서 새로운 어려움을 겪고 있습니다.",
-     "lead": [
-      "Oscar Piastri is experiencing new difficulties with the 2026 McLaren compared to team-mate Lando Norris, including a weekend that neutered what team boss Andrea Stella calls his ‘superpower’.",
-      "In qualifying, Norris has had the upper hand as he leads Piastri 16-8, but the actual average gap between them has only been 0.040s.",
-      "The more stark gap has been in a good number of grands prix, including Austin. Piastri (green line) is on average half a second slower than Norris (orange line), through the race on the same strategy, and ends up 22 seconds behind. This follows other weekends with big deficits like Barcelona (35 seconds) and Zandvoort (32 seconds), where he admitted there were “too many [races] now that have been really a long way off”."
-     ],
-     "leadKo": [
-      "오스카 피아스트리(Oscar Piastri)는 팀 보스인 안드레아 스텔라(Andrea Stella)가 자신의 '초능력'이라고 부르는 것을 무력화시킨 주말을 포함하여 팀 동료인 란도 노리스(Lando Norris)와 비교할 때 2026년 맥라렌과 관련해 새로운 어려움을 겪고 있습니다.",
-      "예선에서는 노리스가 피아스트리를 16-8로 앞서며 우위를 점했지만 실제 평균 격차는 0.040초에 불과했다.",
-      "더 뚜렷한 격차는 오스틴을 포함한 많은 그랑프리에서 나타났습니다. Piatri(녹색 선)는 동일한 전략으로 경주를 진행하면서 Norris(주황색 선)보다 평균 0.5초 느리며 결국 22초 뒤쳐집니다. 이것은 바르셀로나(35초)와 잔드보르트(32초)와 같이 적자가 큰 다른 주말에 뒤따르는 것인데, 그는 \"이제 정말 멀리 떨어져 있는 [경주]가 너무 많다\"고 인정했습니다."
-     ]
-    },
-    {
-     "title": "F1 renews scholarships as first social impact report published",
-     "desc": "F1 has renewed its Engineering Scholarships with a three-year commitment via £2.4m of funding, as its releases its first social impact report",
-     "link": "https://www.the-race.com/business/f1-renews-engineering-scholarships-first-social-impact-report-published/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1447423_HiRes-1.jpg",
-     "date": "2026-10-28T15:12:01+00:00",
-     "author": "The Race Team",
-     "id": "d51ab2b676",
-     "titleKo": "F1, 최초의 사회 영향 보고서 발행으로 장학금 갱신",
-     "descKo": "F1은 첫 번째 사회적 영향 보고서를 발표하면서 £240만 자금을 통해 3년 약정으로 공학 장학금을 갱신했습니다.",
-     "lead": [
-      "Formula 1 has renewed its Engineering Scholarships with a clear three-year commitment via £2.4 million of funding.",
-      "That was announced alongside the publication of F1's first social impact report, which said more than 500,000 young people from 71 countries had accessed and benefitted from F1's educational programmes.",
-      "F1's scholarship programme was launched in 2021 and covers full higher-education tuition fees and living costs for students from underrepresented backgrounds."
-     ],
-     "leadKo": [
-      "Formula 1은 £240만 자금을 통해 3년 간의 명확한 약속으로 엔지니어링 장학금을 갱신했습니다.",
-      "이는 71개국에서 50만 명 이상의 젊은이들이 F1의 교육 프로그램에 접근하고 혜택을 받았다는 F1의 첫 번째 사회적 영향 보고서 출판과 함께 발표되었습니다.",
-      "F1의 장학금 프로그램은 2021년에 시작되었으며 소외 계층의 학생들에게 고등 교육 수업료와 생활비 전액을 지원합니다."
-     ]
-    },
-    {
-     "title": "Cadillac gives Perez new F1 deal through 2029",
-     "desc": "Sergio Perez has secured a contract extension with F1's newest team, Cadillac, and is set to keep his seat through to the end of the decade",
-     "link": "https://www.the-race.com/formula-1/cadillac-gives-perez-new-f1-deal-through-2029/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1446526_HiRes.jpg",
-     "date": "2026-10-28T15:00:26+00:00",
-     "author": "Valentin Khorounzhiy",
-     "id": "82f049a63b",
-     "titleKo": "캐딜락, 페레즈에게 2029년까지 새로운 F1 계약 제안",
-     "descKo": "세르히오 페레스(Sergio Perez)는 F1의 최신 팀인 캐딜락(Cadillac)과 계약 연장을 확보했으며 2010년대 말까지 자리를 유지할 예정입니다.",
-     "lead": [
-      "Sergio Perez has secured a contract extension with Formula 1's newest team Cadillac, meaning he is set to keep his seat through to the end of the decade.",
-      "Perez and fellow veteran team-mate Valtteri Bottas had joined the upstart F1 team for this season on \"multi-year\" contracts, though these weren't thought to go beyond 2027.",
-      "Unlike for his team-mate Bottas , there has not been any question of Perez keeping the seat for next year - but Cadillac has now emphasised its commitment to and satisfaction with Perez by announcing a new deal on the eve of his home race, the Mexican Grand Prix."
-     ],
-     "leadKo": [
-      "Sergio Perez는 Formula 1의 최신 팀인 Cadillac과 계약 연장을 확보했습니다. 이는 그가 10년이 끝날 때까지 자리를 유지할 예정이라는 것을 의미합니다.",
-      "페레즈와 동료 베테랑 팀 동료인 발테리 보타스(Valtteri Bottas)는 이번 시즌에 \"다년\" 계약으로 신생 F1 팀에 합류했지만, 이 계약은 2027년을 넘을 것으로 생각되지 않았습니다.",
-      "그의 팀 동료인 보타스와는 달리 페레즈가 내년에도 자리를 지킬 것이라는 의문의 여지가 없었지만 캐딜락은 이제 그의 홈 레이스인 멕시코 그랑프리 전날 새로운 계약을 발표함으로써 페레즈에 대한 헌신과 만족을 강조했습니다."
      ]
     }
    ]
