@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:10:48+00:00",
+ "updated": "2026-10-30T14:13:36+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -18,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-10-29T12:42:33Z",
+     "date": "2026-10-30T12:55:30Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1382604470,
+     "revid": 1382814547,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -138,11 +138,11 @@
        "h": "Race",
        "level": 2,
        "p": [
-        "The race will be held on 1 November 2026, at 14:00 local time (UTC–6), and will be run for 71 laps."
+        "The race will be held on 1 November 2026, at 14:00 local time (UTC–6), and is set to be run for 71 laps."
        ],
        "hKo": "결승",
        "pKo": [
-        "경주는 2026년 11월 1일 14:00 현지 시간(UTC–6)에 개최되며 71랩 동안 진행됩니다."
+        "경주는 2026년 11월 1일 14:00(현지 시간)(UTC–6)에 열릴 예정이며, 71랩을 주행할 예정입니다."
        ]
       }
      ]
@@ -1782,10 +1782,115 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Why “ignorance is a superpower” for Kimi Antonelli, according to Daniel Ricciardo",
+     "desc": "Daniel Ricciardo believes Kimi Antonelli’s age and innocence is what has made him so successful in the 2026 Formula 1 season. Nine victories so far in his sophomore F1 campaign…",
+     "link": "https://www.motorsport.com/f1/news/why-ignorance-is-a-superpower-for-kimi-antonelli-according-to-daniel-ricciardo/10869339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/2wlKjwqY/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "date": "2026-10-30T13:30:04+00:00",
+     "author": "",
+     "id": "dd580e13de",
+     "lead": [
+      "Daniel Ricciardo believes Kimi Antonelli ’s age and innocence is what has made him so successful in the 2026 Formula 1 season.",
+      "Nine victories so far in his sophomore F1 campaign have taken Antonelli to the brink of his maiden world title. All the Mercedes driver needs to be crowned in Sunday’s Mexican Grand Prix is ninth place, or for neither George Russell nor Lewis Hamilton to win.",
+      "This would make the 20-year-old F1’s youngest-ever champion, beating Sebastian Vettel ’s current record by more than three years."
+     ],
+     "leadKo": [
+      "다니엘 리카르도(Daniel Ricciardo)는 키미 안토넬리(Kimi Antonelli)의 나이와 순수함 덕분에 2026 포뮬러 1 시즌에서 그토록 성공할 수 있었다고 믿습니다.",
+      "Antonelli는 2년차 F1 캠페인에서 지금까지 9승을 거두며 첫 세계 타이틀을 눈앞에 두고 있습니다. 모든 메르세데스 드라이버는 일요일 멕시코 그랑프리에서 9위를 차지해야 합니다. 그렇지 않으면 조지 러셀이나 루이스 해밀턴이 우승하지 못합니다.",
+      "이로써 20세 F1의 최연소 챔피언이 되어 세바스찬 베텔(Sebastian Vettel)의 현재 기록을 3년 이상 앞지르게 됩니다."
+     ],
+     "titleKo": "다니엘 리카르도(Daniel Ricciardo)에 따르면 키미 안토넬리(Kimi Antonelli)에게 “무지가 초능력”인 이유",
+     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 키미 안토넬리(Kimi Antonelli)의 나이와 순수함 덕분에 2026년 포뮬러 1 시즌에서 성공할 수 있었다고 믿습니다. 2년차 F1 캠페인에서 지금까지 9승을 거두었습니다."
+    },
+    {
+     "title": "Isack Hadjar admits after criticising Red Bull: \"There's stuff that I should have kept for myself\"",
+     "desc": "After the United States Grand Prix, Isack Hadjar was critical of Red Bull's execution, as was Max Verstappen. Both drivers were unhappy with the strategy and, on top of that, were…",
+     "link": "https://www.motorsport.com/f1/news/isack-hadjar-admits-after-criticising-red-bull-theres-stuff-that-i-should-have-kept-for-myself/10869496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/2GdK4w1Y/s6/isack-hadjar-red-bull-racing.jpg",
+     "date": "2026-10-30T10:47:31+00:00",
+     "author": "",
+     "id": "a32b89fe16",
+     "lead": [
+      "After the United States Grand Prix, Isack Hadjar was critical of Red Bull's execution, as was Max Verstappen . Both drivers were unhappy with the strategy and, on top of that, were hampered by two problems that have been troubling the Formula 1 team for a long time: technical issues with the team radio and problematic starts.",
+      "\"I have poor radio, I don't even know what's happening. And whenever I drop the clutch, it's going into a nightmare,” Hadjar said in the media pen on Sunday night. “If we fix these two issues, we might already be on the podium. It seems like we can do the hardest things, but we can’t do the silly things.”",
+      "When asked about those comments during the media day in Mexico, Hadjar acknowledged that he is perfectly entitled to speak his mind about the team – which is, after all, exactly what Red Bull wants: drivers with character and opinions of their own – but that he perhaps could have worded certain things a little differently."
+     ],
+     "leadKo": [
+      "미국 그랑프리 이후 Isack Hadjar는 Max Verstappen과 마찬가지로 Red Bull의 처형에 대해 비판적이었습니다. 두 드라이버 모두 전략에 만족하지 못했고, 무엇보다도 오랫동안 Formula 1 팀을 괴롭혀온 두 가지 문제, 즉 팀 라디오의 기술적 문제와 문제 있는 시동으로 인해 어려움을 겪었습니다.",
+      "Hadjar는 일요일 밤 미디어 펜에서 \"무선 상태가 좋지 않아 무슨 일이 일어나고 있는지조차 모릅니다. 클러치를 떨어뜨릴 때마다 악몽에 빠지게 됩니다\"라고 말했습니다. \"이 두 가지 문제를 해결한다면 우리는 이미 시상대에 올랐을 것입니다. 가장 어려운 일은 할 수 있을 것 같지만 어리석은 일은 할 수 없습니다.\"",
+      "멕시코에서 열린 미디어 데이에서 이러한 논평에 대해 질문을 받았을 때, Hadjar는 팀에 대해 자신의 생각을 말할 자격이 있다고 인정했습니다. 결국 Red Bull이 원하는 것은 바로 Red Bull이 원하는 것입니다. 자신만의 개성과 의견을 가진 드라이버입니다. 그러나 특정 사항을 조금 다르게 표현했을 수도 있었습니다."
+     ],
+     "titleKo": "Isack Hadjar는 Red Bull을 비판한 후 다음과 같이 인정했습니다. \"나 혼자만 간직했어야 했던 것들이 있습니다.\"",
+     "descKo": "미국 그랑프리 이후 Isack Hadjar는 Max Verstappen과 마찬가지로 Red Bull의 처형에 대해 비판적이었습니다. 두 운전자 모두 전략에 불만이 있었고, 게다가…"
+    },
+    {
+     "title": "Why F1's new regulations make the Mexican GP an even bigger challenge",
+     "desc": "At 2,286 metres above sea level, the Autodromo Hermanos Rodriguez is by far the highest-altitude venue on the Formula 1 calendar. This naturally means thinner air, which presents…",
+     "link": "https://www.motorsport.com/f1/news/why-f1s-new-regulations-make-the-mexican-gp-an-even-bigger-challenge/10869622/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/6b8jjxw2/s6/oscar-piastri-mclaren.jpg",
+     "date": "2026-10-30T09:55:11+00:00",
+     "author": "",
+     "id": "78faddf1d6",
+     "lead": [
+      "At 2,286 metres above sea level, the Autodromo Hermanos Rodriguez is by far the highest-altitude venue on the Formula 1 calendar. This naturally means thinner air, which presents a unique challenge at the Mexican Grand Prix for teams and manufacturers in two ways.",
+      "Firstly, the lower air density means that the power unit, and particularly the turbo, is put under considerable strain in Mexico. At altitude, there are fewer oxygen molecules per cubic metre, meaning the turbo has to work harder to get the same amount of oxygen into the engine as it would at sea level.",
+      "The turbo has to spin considerably faster to achieve the required boost pressure and airflow, which presents a challenge not only in terms of outright performance but also reliability, with the turbo operating at significantly higher temperatures than under normal conditions."
+     ],
+     "leadKo": [
+      "해발 2,286m에 위치한 아우토드로모 에르마노스 로드리게스(Autodromo Hermanos Rodriguez)는 포뮬러 1 일정에서 단연 가장 높은 고도의 경기장입니다. 이는 당연히 공기가 더 얇아진다는 것을 의미하며, 이는 두 가지 측면에서 팀과 제조업체에게 멕시코 그랑프리에서 독특한 도전을 제시합니다.",
+      "첫째, 낮은 공기 밀도는 동력 장치, 특히 터보가 멕시코에서 상당한 부담을 받는다는 것을 의미합니다. 고도에서는 입방미터당 산소 분자 수가 적습니다. 즉, 터보는 해수면에서와 동일한 양의 산소를 엔진에 공급하기 위해 더 열심히 작동해야 합니다.",
+      "터보는 필요한 부스트 압력과 공기 흐름을 달성하기 위해 훨씬 더 빠르게 회전해야 하며, 이는 터보가 정상적인 조건에서보다 훨씬 더 높은 온도에서 작동하면서 완전한 성능뿐만 아니라 신뢰성 측면에서도 문제를 제시합니다."
+     ],
+     "titleKo": "F1의 새로운 규정이 멕시코 GP를 더욱 큰 도전으로 만드는 이유",
+     "descKo": "해발 2,286m에 위치한 아우토드로모 에르마노스 로드리게스(Autodromo Hermanos Rodriguez)는 포뮬러 1 일정에서 단연 가장 높은 고도의 경기장입니다. 이는 자연스럽게 공기가 더 얇아진다는 것을 의미하며, 이는…"
+    },
+    {
+     "title": "Audi pays tribute as F1 stalwart Beat Zehnder set for exit",
+     "desc": "The Audi Formula 1 team has announced that former team manager Beat Zehnder is leaving the organisation at the end of the 2026 season after a 34-year stint at Hinwil. Zehnder was…",
+     "link": "https://www.motorsport.com/f1/news/audi-pays-tribute-as-f1-stalwart-beat-zehnder-set-for-exit/10869594/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/0ZRQVJN0/s6/beat-zehnder-sporting-director.jpg",
+     "date": "2026-10-30T09:08:04+00:00",
+     "author": "",
+     "id": "a223de0c35",
+     "lead": [
+      "The Audi Formula 1 team has announced that former team manager Beat Zehnder is leaving the organisation at the end of the 2026 season after a 34-year stint at Hinwil.",
+      "Zehnder was hired by founder Peter Sauber in 1988 as a mechanic for its sportscar programme and moved with Sauber to F1 at the start of the 1993 season, quickly becoming an integral part of the Swiss outfit.",
+      "He became team manager the following year and was there for 601 consecutive grands prix. In his hands-on role as team manager and sporting director, Zehnder was at the heart of Sauber's many highs and lows through its various stints as an independent team and its period as a BMW works squad, which yielded Hinwil's only grand prix win with Roberto Kubica at the 2008 Canadian Grand Prix."
+     ],
+     "leadKo": [
+      "아우디 포뮬러 1(Audi Formula 1) 팀은 전 팀 매니저인 비트 젠더(Beat Zehnder)가 34년간의 힌윌(Hinwil)에서 근무한 후 2026년 시즌을 끝으로 조직을 떠난다고 발표했습니다.",
+      "Zehnder는 1988년 창립자 Peter Sauber에 의해 스포츠카 프로그램의 정비사로 고용되었고 1993년 시즌이 시작될 때 Sauber와 함께 F1으로 이적하여 빠르게 스위스 조직의 필수적인 부분이 되었습니다.",
+      "그는 이듬해 팀 매니저가 되었고 601회 연속 그랑프리에 참가했습니다. 팀 매니저이자 스포츠 디렉터로서의 실무 역할을 맡은 Zehnder는 독립 팀으로서의 다양한 활동과 BMW 작업 팀으로서의 기간을 통해 Sauber의 많은 우여곡절의 중심에 있었으며, Hinwil은 2008 캐나다 그랑프리에서 Roberto Kubica와 함께 그랑프리 우승을 차지했습니다."
+     ],
+     "titleKo": "F1의 충실한 비트 젠더(Beat Zehnder)가 퇴장을 앞두고 아우디는 경의를 표합니다",
+     "descKo": "아우디 포뮬러 1(Audi Formula 1) 팀은 전 팀 매니저인 비트 젠더(Beat Zehnder)가 34년간의 힌윌(Hinwil)에서 근무한 후 2026년 시즌을 끝으로 조직을 떠난다고 발표했습니다. 젠더는…"
+    },
+    {
+     "title": "George Russell predicts key Ferrari \"advantage\" at F1 Mexican GP",
+     "desc": "Mercedes driver George Russell reckons Ferrari has \"quite an advantage\" at F1's Mexican Grand Prix with its turbo design, while Charles Leclerc still believes Mercedes has the…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-predicts-key-ferrari-advantage-at-f1-mexico-gp/10869473/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg",
+     "date": "2026-10-30T08:12:07+00:00",
+     "author": "",
+     "id": "ec864f428c",
+     "lead": [
+      "Mercedes driver George Russell reckons Ferrari has \"quite an advantage\" at F1's Mexican Grand Prix with its turbo design, while Charles Leclerc still believes Mercedes has the best car \"wherever we go\".",
+      "Mexico's capital megalopolis sits on a 2250m plateau, which gives the Autodromo Hermanos Rodriguez one of the most unique engineering challenges. The lower-density air reduces aerodynamic performance and has major cooling headaches, but it may also reward Ferrari for some of the design decisions it made with its 2026 power unit.",
+      "Boasting a smaller diameter turbocharger compared to its rivals, the turbo's lower inertia allows it to spool up quicker, which has a compound effect when the air is much thinner at altitude and there is less exhaust energy available to begin with. The trade-off is a limit on peak horsepower compared to larger diameter turbines."
+     ],
+     "leadKo": [
+      "메르세데스 드라이버 조지 러셀(George Russell)은 페라리가 터보 디자인으로 F1 멕시코 그랑프리에서 \"상당한 이점\"을 갖고 있다고 생각하는 반면, 찰스 르클레르(Charles Leclerc)는 여전히 메르세데스가 \"어디를 가든지\" 최고의 차를 갖고 있다고 믿고 있습니다.",
+      "멕시코의 수도 거대 도시는 2,250m 고원에 위치해 있어 Autodromo Hermanos Rodriguez는 가장 독특한 엔지니어링 과제 중 하나를 제공합니다. 밀도가 낮은 공기는 공기 역학적 성능을 감소시키고 심각한 냉각 문제를 안고 있지만 2026년형 동력 장치로 내린 일부 설계 결정에 대해 페라리에게 보상을 줄 수도 있습니다.",
+      "경쟁사에 비해 더 작은 직경의 터보차저를 자랑하는 터보의 낮은 관성은 더 빠르게 스풀링할 수 있게 하며, 이는 고도에서 공기가 훨씬 얇아지고 처음부터 사용할 수 있는 배기 에너지가 적을 때 복합적인 효과가 있습니다. 트레이드 오프는 더 큰 직경의 터빈에 비해 최대 마력에 대한 제한입니다."
+     ],
+     "titleKo": "조지 러셀(George Russell)은 F1 멕시코 GP에서 페라리의 주요 \"장점\"을 예측합니다.",
+     "descKo": "메르세데스 드라이버 조지 러셀(George Russell)은 페라리가 F1 멕시코 그랑프리에서 터보 디자인으로 \"상당한 이점\"을 갖고 있다고 생각하는 반면, 찰스 르클레르(Charles Leclerc)는 여전히 메르세데스가…"
+    },
+    {
      "title": "\"Two steps forward, one step back\" – Oscar Piastri explains the route out of McLaren's car woes",
      "desc": "Oscar Piastri has no skin in the game so far as the 2026 drivers' championship is concerned, but he reckons there is still plenty to fight for in the final rounds of the season.…",
      "link": "https://www.motorsport.com/f1/news/two-steps-forward-one-step-back-piastri-explains-the-route-out-of-mclarens-car-woes/10869477/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg",
      "date": "2026-10-30T00:11:38+00:00",
      "author": "",
      "id": "fa0df4503e",
@@ -1806,7 +1911,7 @@
      "title": "Remembering Sir Patrick Stewart's unforgettable moment on the F1 podium with Daniel Ricciardo",
      "desc": "While Sir Patrick Stewart made his name in franchises such as Star Trek and X-Men, he'll be remembered by Formula 1 fans as an unforgettable lover of motorsport. And in Montreal…",
      "link": "https://www.motorsport.com/f1/news/remembering-sir-patrick-stewarts-unforgettable-moment-on-the-f1-podium-with-daniel-ricciardo/10869481/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/24QGoJdY/s6/motorsport-com-graphics-47.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/24QGoJdY/s6/motorsport-com-graphics-47.jpg",
      "date": "2026-10-30T00:10:28+00:00",
      "author": "",
      "id": "8a9e5a81af",
@@ -1827,7 +1932,7 @@
      "title": "Lewis Hamilton: “I’m built differently” as he eyes F1 career into 2030s",
      "desc": "Seven-time Formula 1 world champion Lewis Hamilton insists he is “built differently” as he discusses the idea of extending his career long enough to race at the new African Grand…",
      "link": "https://www.motorsport.com/f1/news/lewis-hamilton-im-built-differently-as-he-eyes-f1-career-into-2030s/10869464/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/2Qed9J32/s6/motorsport-com-graphics-46.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/2Qed9J32/s6/motorsport-com-graphics-46.jpg",
      "date": "2026-10-29T22:52:21+00:00",
      "author": "",
      "id": "d78fbccd45",
@@ -1848,7 +1953,7 @@
      "title": "Max Verstappen discusses toll of F1 calendar after two drivers fall ill",
      "desc": "Four-time Formula 1 champion Max Verstappen says it is \"normal\" for F1 drivers and team members to fall ill at this stage of the season after two drivers missed Thursday's media…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-discusses-hidden-toll-of-f1-calendar-after-two-drivers-fall-ill/10869459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/6Alv4JEY/s6/motorsport-com-graphics-32.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/6Alv4JEY/s6/motorsport-com-graphics-32.jpg",
      "date": "2026-10-29T22:38:57+00:00",
      "author": "",
      "id": "4f2439b633",
@@ -1864,111 +1969,6 @@
       "챔피언십 리더인 키미 안토넬리(Kimi Antonelli)는 바이러스 질병에서 회복하는 동안 언론 업무에서 면제되었으며, 메르세데스는 이탈리아 드라이버가 금요일 연습을 위해 트랙으로 돌아올 것으로 예상했습니다. 캐딜락의 발테리 보타스(Valtteri Bottas)도 질병으로 인해 미디어 데이를 놓쳤는데, 미국 복장은 이를 예방 조치라고 설명했습니다.",
       "멕시코는 지난주 미국 그랑프리에 이어 두 번째 트리플헤더 대회이자 다음주 브라질 그랑프리를 앞두고 있다. 2026년 시즌의 마지막 9번의 레이스 주말은 3개의 트리플헤더로 구성되며 그 사이에 1주간의 휴식 시간이 있습니다."
      ]
-    },
-    {
-     "title": "Max Verstappen jokes about Daniel Ricciardo's Le Mans ambition: \"He's a smart man picking me!\"",
-     "desc": "Max Verstappen has joked that former Red Bull team-mate Daniel Ricciardo is a \"smart man\" for picking him in a potential trio for a future Le Mans 24 Hour challenge. Ricciardo has…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-jokes-about-daniel-ricciardos-le-mans-ambition-hes-a-smart-man-picking-me/10869461/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6D19opJ0/s6/daniel-ricciardo-third-driver-.jpg",
-     "date": "2026-10-29T22:36:58+00:00",
-     "author": "",
-     "id": "777fe2043b",
-     "titleKo": "Max Verstappen은 Daniel Ricciardo의 Le Mans 야망에 대해 농담을 했습니다. \"그는 나를 선택하는 똑똑한 사람이에요!\"",
-     "descKo": "Max Verstappen은 전 Red Bull 팀 동료인 Daniel Ricciardo가 향후 Le Mans 24 Hour 챌린지를 위한 잠재적인 트리오에 그를 선택한 것에 대해 \"똑똑한 사람\"이라고 농담했습니다. 리카르도는…",
-     "lead": [
-      "Max Verstappen has joked that former Red Bull team-mate Daniel Ricciardo is a \"smart man\" for picking him in a potential trio for a future Le Mans 24 Hour challenge.",
-      "Ricciardo has not taken part in any racing series since leaving F1 for the second time having raced for Red Bull's sister RB squad in 2024.",
-      "However, speaking on the Beyond the Grid podcast, the Australian race winner suggested that he would be tempted to take part in a future edition of the 24-hour race around La Circuit de la Sarthe in France, highlighting Verstappen and another former Red Bull team-mate in Sebastian Vettel as a dream line-up."
-     ],
-     "leadKo": [
-      "Max Verstappen은 전 Red Bull 팀 동료인 Daniel Ricciardo가 향후 Le Mans 24 Hour 챌린지를 위한 잠재적인 트리오에 그를 선택한 것에 대해 \"똑똑한 사람\"이라고 농담했습니다.",
-      "Ricciardo는 2024년 Red Bull의 자매 RB 팀에 참가한 후 두 번째로 F1을 떠난 이후 어떤 레이싱 시리즈에도 참가하지 않았습니다.",
-      "그러나 Beyond the Grid 팟캐스트에서 호주의 경주 우승자는 프랑스의 La Circuit de la Sarthe 주변의 24시간 경주에 향후 참가하고 싶은 유혹을 느낄 것이라고 제안했으며, Verstappen과 Sebastian Vettel의 또 다른 전 Red Bull 팀 동료를 꿈의 라인업으로 강조했습니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen responds to Daniel Ricciardo’s Le Mans dream team call",
-     "desc": "Max Verstappen has joked that his former team-mate Daniel Ricciardo is \"a smart man\" for picking him for his dream Le Mans line-up. In fact, he revealed that the pair of them had…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-responds-to-daniel-ricciardos-le-mans-dream-team-call/10869457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0o5A8GxY/s6/motorsport-com-graphics-45.jpg",
-     "date": "2026-10-29T22:36:10+00:00",
-     "author": "",
-     "id": "954253152a",
-     "titleKo": "Max Verstappen은 Daniel Ricciardo의 Le Mans 드림팀 요청에 응답합니다.",
-     "descKo": "Max Verstappen은 그의 전 팀 동료인 Daniel Ricciardo가 자신의 꿈의 Le Mans 라인업에 그를 선택한 것에 대해 \"똑똑한 사람\"이라고 농담했습니다. 실제로 그는 두 사람이…",
-     "lead": [
-      "Max Verstappen has joked that his former team-mate Daniel Ricciardo is \"a smart man\" for picking him for his dream Le Mans line-up. In fact, he revealed that the pair of them had already discussed the possibility of it.",
-      "In a recent interview with the Beyond the Grid podcast, the Australian talked about his time at Red Bull and his exit from Formula 1. While he discussed what was next for him, he said that a Le Mans entry could be on the list. When asked who he'd team up with, Max Verstappen was the first name on his list. Sebastian Vettel was also an option, making something he called a \"nice little Red Bull reunion\" of sorts.",
-      "“He’s a smart man to choose me in the car,\" Verstappen joked. \"But we have to see. It just depends on a lot of things.”"
-     ],
-     "leadKo": [
-      "Max Verstappen은 그의 전 팀 동료인 Daniel Ricciardo가 자신의 꿈의 Le Mans 라인업에 그를 선택한 것에 대해 \"똑똑한 사람\"이라고 농담했습니다. 실제로 그는 두 사람이 이미 그럴 가능성에 대해 논의한 적이 있다고 밝혔다.",
-      "최근 Beyond the Grid 팟캐스트와의 인터뷰에서 호주인인 그는 Red Bull에서의 시절과 Formula 1에서 탈퇴한 것에 대해 이야기했습니다. 그는 자신의 다음 계획에 대해 논의하는 동안 Le Mans 참가가 목록에 포함될 수 있다고 말했습니다. 누구와 팀을 이룰 것인지 물었을 때 Max Verstappen이 그의 목록의 첫 번째 이름이었습니다. Sebastian Vettel도 선택 사항이었는데, 일종의 \"멋진 작은 레드불 재결합\"이라고 부르는 것을 만들었습니다.",
-      "Verstappen은 \"그는 나를 차에 태운 현명한 사람입니다\"라고 농담했습니다. \"하지만 우리는 봐야 해요. 많은 것에 달려 있을 뿐입니다.\""
-     ]
-    },
-    {
-     "title": "Alex Albon dismisses Fernando Alonso criticism: 'F1 has no more pay drivers'",
-     "desc": "Alex Albon says Fernando Alonso's criticism on his clash in Austin was \"not nice to hear\" but dismisses the Spaniard's claims that the bottom third of the grid is lacking quality.…",
-     "link": "https://www.motorsport.com/f1/news/alex-albon-dismisses-fernando-alonso-criticism-f1-has-no-more-pay-drivers/10869451/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0o5A8v7Y/s6/alexander-albon-williams-ferna.jpg",
-     "date": "2026-10-29T22:21:29+00:00",
-     "author": "",
-     "id": "df7cc32237",
-     "titleKo": "Alex Albon은 Fernando Alonso의 비판을 일축했습니다. 'F1에는 더 이상 급여 운전자가 없습니다'",
-     "descKo": "Alex Albon은 오스틴에서의 충돌에 대한 Fernando Alonso의 비판이 \"듣기 좋지 않았다\"고 말했지만 그리드의 하단 1/3의 품질이 부족하다는 스페인 사람의 주장을 일축했습니다.…",
-     "lead": [
-      "Alex Albon says Fernando Alonso's criticism on his clash in Austin was \"not nice to hear\" but dismisses the Spaniard's claims that the bottom third of the grid is lacking quality.",
-      "Alonso was furious after a first-lap clash with Albon at the Circuit of the Americas left him with permanent damage to his floor, leaving him with less downforce and unable to capitalise on a more competitive weekend for Aston Martin.",
-      "\"When you start at the back, there is always this risk. I think the quality of the drivers in the low third of the grid is very low, as we saw today with Alex. We need to improve the car and start a little bit higher up\", Alonso said after the race."
-     ],
-     "leadKo": [
-      "Alex Albon은 오스틴에서의 충돌에 대한 Fernando Alonso의 비판이 \"듣기 좋지 않았다\"고 말했지만 그리드의 하단 3분의 1의 품질이 부족하다는 스페인 사람의 주장을 일축했습니다.",
-      "Alonso는 Circuit of the Americas에서 Albon과의 첫 번째 랩 충돌로 인해 바닥에 영구적인 손상을 입어 다운포스가 줄어들고 Aston Martin의 더욱 경쟁적인 주말을 활용할 수 없게 된 후 분노했습니다.",
-      "\"뒤에서 출발할 때는 항상 이런 위험이 따릅니다. 오늘 Alex의 경우처럼 그리드의 낮은 3분의 1에 있는 드라이버의 품질이 매우 낮다고 생각합니다. 우리는 차를 개선하고 조금 더 높은 곳에서 출발해야 ​​합니다\"라고 Alonso는 경주가 끝난 후 말했습니다."
-     ]
-    },
-    {
-     "title": "Charles Leclerc defends Alex Albon after Fernando Alonso's scathing criticism",
-     "desc": "Ferrari Formula 1 driver Charles Leclerc has rejected Fernando Alonso's claim that the standard of driving at the back of the grid is low, insisting the level is \"very, very high\"…",
-     "link": "https://www.motorsport.com/f1/news/charles-leclerc-defends-alex-albon-after-fernando-alonsos-scathing-criticism/10869433/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YK158Jb0/s6/motorsport-com-graphics-31.jpg",
-     "date": "2026-10-29T21:40:35+00:00",
-     "author": "",
-     "id": "fc65ed0f02",
-     "titleKo": "Charles Leclerc는 Fernando Alonso의 신랄한 비판 이후 Alex Albon을 변호했습니다.",
-     "descKo": "페라리 포뮬러 1(F1) 드라이버 샤를 르클레르(Charles Leclerc)는 그리드 뒤에서 주행하는 수준이 낮다는 페르난도 알론소(Fernando Alonso)의 주장을 일축하며 그 수준이 \"매우, 매우 높다\"고 주장했다.",
-     "lead": [
-      "Ferrari Formula 1 driver Charles Leclerc has rejected Fernando Alonso's claim that the standard of driving at the back of the grid is low, insisting the level is \"very, very high\" across the field.",
-      "Alonso criticised the lower third of the grid after his battle with Williams driver Alex Albon at last weekend's United States Grand Prix and stood by his comments while speaking to the media in Mexico City.",
-      "\"I think the quality of the drivers in the lower third of the grid is very low, as we saw today with Alex,\" Alonso said after a collision with Albon on the opening lap at the Circuit of the Americas."
-     ],
-     "leadKo": [
-      "페라리 포뮬러 1(F1) 드라이버 샤를 르클레르(Charles Leclerc)는 그리드 뒤쪽에서의 주행 수준이 낮다는 페르난도 알론소(Fernando Alonso)의 주장을 일축하고 필드 전체의 수준이 \"매우, 매우 높다\"고 주장했습니다.",
-      "Alonso는 지난 주말 미국 그랑프리에서 Williams 드라이버 Alex Albon과의 경기 후 그리드의 하단 3분의 1을 비판했으며 멕시코시티에서 언론과 인터뷰하는 동안 그의 발언을 옹호했습니다.",
-      "Alonso는 Circuit of the Americas의 오프닝 랩에서 Albon과 충돌한 후 \"오늘 Alex의 경우처럼 그리드의 하위 3분의 1에 있는 드라이버의 품질이 매우 낮다고 생각합니다.\"라고 말했습니다."
-     ]
-    },
-    {
-     "title": "Charles Leclerc reveals what he really wants from final five F1 races of 2026",
-     "desc": "Ferrari's Charles Leclerc says he is “not obsessed” with finishing second in the Formula 1 drivers’ championship, despite being just nine points off the position with five races…",
-     "link": "https://www.motorsport.com/f1/news/charles-leclerc-reveals-what-he-really-wants-from-final-five-f1-races-of-2026/10869431/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/2GdK4JKY/s6/motorsport-com-graphics-44.jpg",
-     "date": "2026-10-29T21:34:31+00:00",
-     "author": "",
-     "id": "67bbf9117e",
-     "titleKo": "Charles Leclerc가 2026년 F1 최종 5개 레이스에서 정말로 원하는 것이 무엇인지 밝혔습니다.",
-     "descKo": "페라리의 찰스 르클레르(Charles Leclerc)는 5번의 경주에서 단 9점 차이밖에 나지 않았음에도 불구하고 포뮬러 1 드라이버 챔피언십에서 2위를 하는 데 \"집착하지 않는다\"고 말했습니다.",
-     "lead": [
-      "Ferrari's Charles Leclerc says he is “not obsessed” with finishing second in the Formula 1 drivers’ championship, despite being just nine points off the position with five races to go.",
-      "While Kimi Antonelli is expected to wrap up his championship campaign this weekend at the Mexican Grand Prix, the fight for second place is alive and well between a number of drivers. Leclerc is well and truly in the mix. Russell currently leads the best of the rest on 242 points, just one point ahead of Lewis Hamilton , while Max Verstappen is fourth on 236 points. Leclerc is a close fifth on 233.",
-      "The Monegasque finished second in both Singapore and Austin, so enters the Mexico City race with momentum. Therefore he's not just looking for a second-place finish, he's looking for a win before the end of the season."
-     ],
-     "leadKo": [
-      "페라리의 찰스 르클레르(Charles Leclerc)는 5번의 경주가 남은 상황에서 불과 9점 차이밖에 나지 않음에도 불구하고 포뮬러 1 드라이버 챔피언십에서 2위를 하는 데 \"집착하지 않는다\"고 말했습니다.",
-      "키미 안토넬리(Kimi Antonelli)는 이번 주말 멕시코 그랑프리에서 챔피언십 캠페인을 마무리할 것으로 예상되지만, 2위를 위한 경쟁은 여러 드라이버들 사이에서 활발하게 진행되고 있습니다. Leclerc는 정말 잘 혼합되어 있습니다. 현재 Russell은 242점으로 선두를 달리고 있으며 Lewis Hamilton보다 1점 앞서 있으며 Max Verstappen은 236점으로 4위를 차지하고 있습니다. Leclerc는 233에서 5위를 기록했습니다.",
-      "Monegasque는 싱가포르와 오스틴에서 모두 2위를 차지해 탄력을 받아 멕시코시티 경주에 돌입합니다. 따라서 그는 단지 2위를 노리는 것이 아니라 시즌이 끝나기 전에 승리를 노리고 있습니다."
-     ]
     }
    ]
   },
@@ -1976,6 +1976,90 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "Three Mexico FP1 changes with high driver market stakes",
+     "desc": "There's a lot riding on Mexico FP1 for three of the rookies getting try-outs",
+     "link": "https://www.the-race.com/formula-1/three-mexico-fp1-changes-with-high-driver-market-stakes/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1445795_HiRes.jpg",
+     "date": "2026-10-30T11:30:15+00:00",
+     "author": "Josh Suttill",
+     "id": "14d481d56f",
+     "lead": [
+      "All but one of the 11 Formula 1 teams will be fielding an FP1-only rookie in Mexico, but some of those changes have particularly high stakes for F1's driver market.",
+      "Ferrari is the only team not making a change to its driver line-up. Here's the full list of the swaps elsewhere, including three F1 weekend debuts (for Gabriele Mini, Nikola Tsolov and Freddie Slater).",
+      "McLaren: Leonardo Fornaroli for Lando Norris Red Bull: Ayumu Iwasa for Max Verstappen Mercedes: Frederik Vesti for George Russell Alpine: Gabriele Mini for Franco Colapinto Williams: Luke Browning for Alex Albon Racing Bulls: Nikola Tsolov for Liam Lawson Haas: Ryo Hirakawa for Esteban Ocon Audi: Freddie Slater for Gabriel Bortoleto Aston Martin: Jak Crawford for Lance Stroll Cadillac: Colton Herta for Valtteri Bottas"
+     ],
+     "leadKo": [
+      "11개의 Formula 1 팀 중 하나를 제외한 모든 팀이 멕시코에서 FP1 전용 신인 선수를 영입하게 되지만, 이러한 변경 사항 중 일부는 특히 F1의 드라이버 시장에 큰 영향을 미칩니다.",
+      "페라리는 드라이버 라인업을 변경하지 않은 유일한 팀입니다. 세 번의 F1 주말 데뷔(Gabriele Mini, Nikola Tsolov 및 Freddie Slater의 경우)를 포함하여 다른 곳에서의 전체 스왑 목록은 다음과 같습니다.",
+      "McLaren: Lando Norris의 Leonardo Fornaroli Red Bull: Max Verstappen Mercedes의 Ayumu Iwasa: George Russell Alpine의 Frederik Vesti: Franco Colapinto의 Gabriele Mini Williams: Alex Albon Racing Bulls의 Luke Browning: Liam Lawson Haas의 Nikola Tsolov: Esteban Ocon의 Ryo Hirakawa Audi: Gabriel Bortoleto의 Freddie Slater Aston Martin: Lance Stroll의 Freddie Slater 캐딜락: Valtteri Bottas를 위한 Colton Herta"
+     ],
+     "titleKo": "드라이버 시장 지분이 높은 세 가지 멕시코 FP1 변경 사항",
+     "descKo": "세 명의 신인이 트라이아웃을 하기 위해 멕시코 FP1에서 많은 라이딩을 하고 있습니다."
+    },
+    {
+     "title": "The 'bummer' hurdle to a Verstappen-Ricciardo Le Mans reunion",
+     "desc": "Daniel Ricciardo fancies finishing his racing career at Le Mans with Max Verstappen as his team-mate. Verstappen's not sure it's viable",
+     "link": "https://www.the-race.com/formula-1/the-bummer-hurdle-to-a-verstappen-ricciardo-le-mans-reunion/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1286977_HiRes.jpg",
+     "date": "2026-10-30T11:15:07+00:00",
+     "author": "Edd Straw",
+     "id": "431215e941",
+     "lead": [
+      "Max Verstappen has suggested the lack of time to prepare properly is \"a little bit of a bummer\" and a hurdle against any potential reunion with his ex-Formula 1 team-mate Daniel Ricciardo at the Le Mans 24 Hours.",
+      "Ricciardo declared his racing days were behind him in September last year when he described himself as having \"retired\" upon becoming a Global Ford Racing Ambassador.",
+      "The eight-time grand prix winner left McLaren a year early at the end of 2022, rejoined Red Bull as a third driver and got back onto the grid in mid-2023 in place of Nyck de Vries at the sister Racing Bulls team."
+     ],
+     "leadKo": [
+      "막스 페르스타펜(Max Verstappen)은 적절하게 준비할 시간이 부족한 것이 \"조금 안타까운 일\"이며 르망 24시에서 전 포뮬러 1 팀 동료인 다니엘 리카르도(Daniel Ricciardo)와의 재회 가능성에 대한 장애물이라고 말했습니다.",
+      "Ricciardo는 작년 9월 글로벌 포드 레이싱 앰버서더가 된 후 자신이 \"은퇴\"했다고 설명하면서 경주 시절이 끝났다고 선언했습니다.",
+      "8회 그랑프리 우승자인 그는 1년 전인 2022년 말에 McLaren을 떠나 세 번째 드라이버로 Red Bull에 다시 합류했으며, 2023년 중반 자매 Racing Bulls 팀의 Nyck de Vries를 대신해 다시 그리드에 복귀했습니다."
+     ],
+     "titleKo": "Verstappen-Ricciardo Le Mans 재결합에 대한 '불쾌한' 장애물",
+     "descKo": "다니엘 리카르도(Daniel Ricciardo)는 막스 베르스타펜(Max Verstappen)을 팀 동료로 삼아 르망에서 레이싱 경력을 마무리하는 것을 좋아합니다. Verstappen은 그것이 실행 가능한지 확신하지 못합니다"
+    },
+    {
+     "title": "Key Sauber-era figure to leave Audi F1 team",
+     "desc": "The Audi Formula 1 team has announced that veteran engineer and director Beat Zehnder will leave the operation at the end of 2026",
+     "link": "https://www.the-race.com/formula-1/key-sauber-era-figure-to-leave-audi-f1-team/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_895881_HiRes.jpg",
+     "date": "2026-10-30T10:03:12+00:00",
+     "author": "Valentin Khorounzhiy",
+     "id": "e894d399ad",
+     "lead": [
+      "The Audi Formula 1 team has announced that veteran engineer and director Beat Zehnder will leave the operation at the end of 2026.",
+      "The 60-year-old Swiss was part of the Sauber organisation - which Audi took over to enter F1 - since even before its grand prix debut in 1993.",
+      "He went from being a mechanic there, with its factory-backed Mercedes operation in World Sportscars, to serving as team manager for much of Sauber's time in F1."
+     ],
+     "leadKo": [
+      "아우디 포뮬러 1 팀은 베테랑 엔지니어이자 디렉터인 비트 젠더(Beat Zehnder)가 2026년 말에 팀을 떠날 것이라고 발표했습니다.",
+      "60세의 스위스 선수는 1993년 그랑프리 데뷔 전부터 아우디가 F1에 참가하기 위해 인수한 자우버 조직의 일원이었습니다.",
+      "그는 World Sportscars에서 공장 지원 Mercedes 운영을 통해 그곳의 기계공으로 일하다가 F1에서 Sauber의 대부분의 시간 동안 팀 매니저로 일했습니다."
+     ],
+     "titleKo": "아우디 F1 팀을 떠나는 자우버 시대의 핵심 인물",
+     "descKo": "아우디 포뮬러 1 팀은 베테랑 엔지니어이자 디렉터인 비트 젠더(Beat Zehnder)가 2026년 말에 회사를 떠날 것이라고 발표했습니다."
+    },
+    {
+     "title": "'Built different' Hamilton claims he could still race in F1 in 2030",
+     "desc": "Lewis Hamilton feels \"still all in\" to continue in Formula 1 beyond his current Ferrari contract, as he toys with racing into the 2030s",
+     "link": "https://www.the-race.com/formula-1/hamilton-f1-career-plans-2030-retirement-ferrari/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448302_HiRes.jpg",
+     "date": "2026-10-30T08:48:55+00:00",
+     "author": "Josh Suttill",
+     "id": "2a4e22c49a",
+     "lead": [
+      "Lewis Hamilton feels \"still all in\" to continue in Formula 1 beyond his current Ferrari contract, as he toys with racing into the 2030s.",
+      "The seven-time F1 champion's present deal with Ferrari runs until the end of next year, but there are understood to be options to extend it through 2028 as well.",
+      "Hamilton's future beyond that was always going to be linked to how he was performing on track, and this year he has proved he is still at a race-winning level at the age of 41."
+     ],
+     "leadKo": [
+      "루이스 해밀턴은 2030년대 경주를 준비하면서 현재의 페라리 계약을 넘어서 Formula 1에 계속 참여하고 싶다는 생각을 갖고 있습니다.",
+      "7번의 F1 챔피언인 페라리와의 현재 계약은 내년 말까지이지만 2028년까지 연장할 수 있는 옵션도 있는 것으로 이해됩니다.",
+      "그 이후의 해밀턴의 미래는 항상 그가 트랙에서 어떻게 수행하는지와 연결될 것이며 올해 그는 41세의 나이에도 여전히 레이스 우승 수준에 있음을 증명했습니다."
+     ],
+     "titleKo": "'다르게 만들어진' 해밀턴은 2030년에도 여전히 F1에서 경주할 수 있다고 주장합니다.",
+     "descKo": "루이스 해밀턴은 2030년대 경주에 도전하면서 현재의 페라리 계약을 넘어서 Formula 1에 계속 참여하고 싶다고 생각합니다."
+    },
     {
      "title": "Everything we learned on day one of F1's Mexican GP",
      "desc": "Unique Mexico demands get even tougher this year, while some frustrations from the US GP linger",
@@ -2079,90 +2163,6 @@
       "Sergio Perez는 Formula 1의 최신 팀인 Cadillac과 계약 연장을 확보했습니다. 이는 그가 10년이 끝날 때까지 자리를 유지할 예정이라는 것을 의미합니다.",
       "페레즈와 동료 베테랑 팀 동료인 발테리 보타스(Valtteri Bottas)는 이번 시즌에 \"다년\" 계약으로 신생 F1 팀에 합류했지만, 이 계약은 2027년을 넘을 것으로 생각되지 않았습니다.",
       "그의 팀 동료인 보타스와는 달리 페레즈가 내년에도 자리를 지킬 것이라는 의문의 여지가 없었지만 캐딜락은 이제 그의 홈 레이스인 멕시코 그랑프리 전날 새로운 계약을 발표함으로써 페레즈에 대한 헌신과 만족을 강조했습니다."
-     ]
-    },
-    {
-     "title": "When does each 2026 F1 driver's contract expire?",
-     "desc": "Here's the contract status of every driver on the 2026 F1 grid",
-     "link": "https://www.the-race.com/formula-1/f1-driver-contracts-when-do-they-expire/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1445210_HiRes-1.jpg",
-     "date": "2026-10-28T15:00:00+00:00",
-     "author": "The Race Team",
-     "id": "329e9a1794",
-     "titleKo": "2026 F1 드라이버 계약은 언제 만료되나요?",
-     "descKo": "2026 F1 그리드에 참가하는 모든 드라이버의 계약 상태는 다음과 같습니다.",
-     "lead": [
-      "Save for the significant arrival of a new Formula 1 team and two returning drivers, there were scarcely any changes to the grid for 2026.",
-      "But that could all change over the remainder of the season, as more than 50% of the field are due to be out of contract come the end of the year.",
-      "Here's what you need to know about when each driver's contract ends."
-     ],
-     "leadKo": [
-      "새로운 Formula 1 팀과 두 명의 복귀 드라이버의 등장을 제외하고 2026년 그리드에는 거의 변화가 없었습니다.",
-      "그러나 필드의 50% 이상이 연말에 계약이 종료될 예정이므로 남은 시즌 동안 모든 것이 바뀔 수 있습니다.",
-      "각 운전자의 계약이 종료되는 시기에 대해 알아야 할 사항은 다음과 같습니다."
-     ]
-    },
-    {
-     "title": "What is different about a modern F1 classic",
-     "desc": "Culture, gastronomy, museums and more - the Mexican GP organiser tells The Race why thinking local is at the heart of its F1 race",
-     "link": "https://www.the-race.com/formula-1/what-is-different-about-a-modern-f1-classic/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1383091_HiRes-1.jpg",
-     "date": "2026-10-28T13:17:19+00:00",
-     "author": "Jon Noble",
-     "id": "a1e27ba45b",
-     "titleKo": "현대 F1 클래식의 차이점",
-     "descKo": "문화, 요리법, 박물관 등 - 멕시코 GP 주최자가 The Race에 설명합니다. 지역적 사고가 F1 경주의 핵심인 이유",
-     "lead": [
-      "With another bumper 400,000-plus sell-out crowd expected at the Mexican Grand Prix this weekend, and an economic impact benefit on Mexico city assessed at $1 billion each year, you could easily forgive the race organiser for feeling content about the Formula 1 race's big-picture success.",
-      "But instead, the obsession of its race promoter, Federico Gonzalez, is on making the small details better.",
-      "That means spurning suggestions to have a world-famous act sing the national anthem before the race, and instead choosing locals."
-     ],
-     "leadKo": [
-      "이번 주말 멕시코 그랑프리에서는 또 다른 40만 명 이상의 매진 군중이 예상되고 멕시코 시티에 대한 경제적 영향 혜택은 매년 10억 달러로 평가되므로 포뮬러 1 경주의 큰 그림 성공에 대해 만족감을 느끼는 경주 주최측을 쉽게 용서할 수 있습니다.",
-      "그러나 경주 프로모터인 페데리코 곤잘레스(Federico Gonzalez)는 작은 세부 사항을 더 좋게 만드는 데 집착합니다.",
-      "이는 세계적으로 유명한 공연이 경주 전에 국가를 부르도록 제안을 거부하고 대신 현지인을 선택한다는 것을 의미합니다."
-     ]
-    },
-    {
-     "title": "Norris's new team gets F2 entry for its first year",
-     "desc": "The LN4 Fusion team co-founded by F1 champion Lando Norris has succeeded in getting on the F2 grid as early as 2027",
-     "link": "https://www.the-race.com/junior/lando-norris-new-team-f2-2027-entry-ln4-fusion/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/HVtaUxVWMAER1oS-1.jpeg",
-     "date": "2026-10-28T10:56:11+00:00",
-     "author": "Valentin Khorounzhiy",
-     "id": "c1845d99da",
-     "titleKo": "Norris의 새 팀은 첫해에 F2 참가 자격을 얻었습니다.",
-     "descKo": "F1 챔피언 Lando Norris가 공동 창립한 LN4 Fusion 팀은 이르면 2027년 F2 그리드 진출에 성공했습니다.",
-     "lead": [
-      "The LN4 Fusion team co-founded by Formula 1 champion Lando Norris has succeeded in getting on the Formula 2 grid as early as 2027.",
-      "F1's main feeder series F2 has named LN4 Fusion as one of 11 teams selected for the 2027-29 cycle of the championship.",
-      "It will compete against 10 established F2 teams, having taken over the entry slot that belonged to race-winning squad AIX Racing (which had sold selected assets to LN4 Fusion and had already handed over its Formula 3 entry slot to the new project)."
-     ],
-     "leadKo": [
-      "Formula 1 챔피언 Lando Norris가 공동 창립한 LN4 Fusion 팀은 이르면 2027년에 Formula 2 그리드에 진출하는 데 성공했습니다.",
-      "F1의 메인 피더 시리즈인 F2는 LN4 Fusion을 2027-29 챔피언십 주기에 선정된 11개 팀 중 하나로 선정했습니다.",
-      "이는 레이스 우승팀 AIX Racing(선택한 자산을 LN4 Fusion에 판매하고 이미 Formula 3 참가 슬롯을 새 프로젝트에 넘겨준)에 속한 참가 슬롯을 인수한 10개의 기존 F2 팀과 경쟁하게 됩니다."
-     ]
-    },
-    {
-     "title": "The first step in a major Verstappen F1 change",
-     "desc": "Max Verstappen will be missing a key part of his F1 championship-winning make up in 2027. Here's how the first step of that handover played out",
-     "link": "https://www.the-race.com/formula-1/how-first-step-in-verstappens-big-f1-2027-transition-really-went/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/SI202610240835.jpg",
-     "date": "2026-10-28T10:17:21+00:00",
-     "author": "Jon Noble",
-     "id": "ece08db938",
-     "titleKo": "Verstappen F1의 주요 변경의 첫 번째 단계",
-     "descKo": "Max Verstappen은 2027년 F1 챔피언십 우승 구성의 핵심 부분을 놓칠 것입니다. 인수인계의 첫 번째 단계가 어떻게 진행되었는지는 다음과 같습니다.",
-     "lead": [
-      "Max Verstappen's first step towards life away from long-serving Formula 1 race engineer Gianpiero Lambiase was not straightforward, thanks to a messy United States Grand Prix.",
-      "A middling start, radio communication problems that were labelled a \"disaster\", and annoyance over the strategy had, however, nothing to do with his future engineer Tom Hart being at his side for the first time.",
-      "As part of Red Bull's preparations to phase Lambiase out ahead of his switch to McLaren, by 2028 at the latest, the team has begun handing his replacement Hart more responsibilities."
-     ],
-     "leadKo": [
-      "Max Verstappen이 오랫동안 F1 레이스 엔지니어로 일해온 Gianpiero Lambiase로부터 벗어나 인생을 향한 첫 걸음은 지저분한 미국 그랑프리 덕분에 순탄하지 않았습니다.",
-      "중간 시작, \"재난\"으로 분류되는 무선 통신 문제 및 전략에 대한 성가심은 미래의 엔지니어 Tom Hart가 처음으로 그의 곁에 있는 것과는 아무런 관련이 없었습니다.",
-      "늦어도 2028년까지 McLaren으로 전환하기 전에 Lambiase를 단계적으로 퇴출시키려는 Red Bull의 준비의 일환으로 팀은 그의 교체 Hart에게 더 많은 책임을 맡기기 시작했습니다."
      ]
     }
    ]
@@ -2367,6 +2367,30 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "When George Went Undercover 🤣",
+     "desc": "George Russell went undercover in 2025, heading up to the stands to watch the session in amongst the fans.",
+     "link": "https://www.youtube.com/watch?v=gmkJBKiE77Q",
+     "image": "https://i.ytimg.com/vi/gmkJBKiE77Q/hqdefault.jpg",
+     "date": "2026-10-30T12:00:23+00:00",
+     "author": "FORMULA 1",
+     "videoId": "gmkJBKiE77Q",
+     "id": "2aaf0f9fb5",
+     "titleKo": "조지가 잠복했을 때 🤣",
+     "descKo": ""
+    },
+    {
+     "title": "Lewis' Two Championship Wins In Mexico 🥹🏆",
+     "desc": "A look back to Lewis Hamilton's two Championship victories in Mexico City in 2017 and 2018!",
+     "link": "https://www.youtube.com/watch?v=oCN0cP1RnFc",
+     "image": "https://i.ytimg.com/vi/oCN0cP1RnFc/hqdefault.jpg",
+     "date": "2026-10-30T11:00:05+00:00",
+     "author": "FORMULA 1",
+     "videoId": "oCN0cP1RnFc",
+     "id": "3f7d6812f0",
+     "titleKo": "루이스의 멕시코에서 두 번의 챔피언십 우승 🥹🏆",
+     "descKo": ""
+    },
+    {
      "title": "Drivers Look Ahead To Race Weekend | 2026 Mexico City Grand Prix",
      "desc": "Hear the latest from the F1 grid as they prepare for round 19 in Mexico City.",
      "link": "https://www.youtube.com/watch?v=eqqPu4Wr0Tc",
@@ -2448,30 +2472,6 @@
      "videoId": "N5lOGVMeHK8",
      "id": "8a8912b875",
      "titleKo": "확장된 하이라이트 | 2021 멕시코시티 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "Making An Impact At The Track & Beyond ❤️",
-     "desc": "For more F1® videos, visit: https://www.Formula1.com",
-     "link": "https://www.youtube.com/watch?v=zPeA7qYmzvE",
-     "image": "https://i.ytimg.com/vi/zPeA7qYmzvE/hqdefault.jpg",
-     "date": "2026-10-28T16:00:12+00:00",
-     "author": "FORMULA 1",
-     "videoId": "zPeA7qYmzvE",
-     "id": "75e8b33e62",
-     "titleKo": "트랙과 그 너머에서 영향력을 발휘하세요 ❤️",
-     "descKo": ""
-    },
-    {
-     "title": "Daniel Ricciardo: 'Refinding Myself After F1' | F1 Beyond The Grid Podcast",
-     "desc": "Daniel Ricciardo: 'Refinding Myself After F1' | F1 Beyond The Grid Podcast",
-     "link": "https://www.youtube.com/watch?v=wGTdDLoAWT0",
-     "image": "https://i.ytimg.com/vi/wGTdDLoAWT0/hqdefault.jpg",
-     "date": "2026-10-28T13:30:32+00:00",
-     "author": "FORMULA 1",
-     "videoId": "wGTdDLoAWT0",
-     "id": "954a01d8db",
-     "titleKo": "Daniel Ricciardo: 'F1 이후의 나 자신을 되돌아보기' | F1 비욘드 더 그리드 팟캐스트",
      "descKo": ""
     }
    ]
