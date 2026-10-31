@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:47:10+00:00",
+ "updated": "2026-10-31T21:39:25+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -13,37 +13,37 @@
      "title": "2026 Mexico City Grand Prix",
      "titleKo": "2026 멕시코시티 그랑프리",
      "desc": "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de la Ciudad de México 2026) is an upcoming Formula One motor race set to be held on 1 November 2026…",
-     "descKo": "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autodromo Hermanos Rodriguez에서 개최될 예정인 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드…",
+     "descKo": "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autódromo Hermanos Rodríguez에서 개최될 예정인 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드…",
      "link": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-10-31T16:59:11Z",
+     "date": "2026-10-31T21:34:36Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1383033895,
+     "revid": 1383077209,
      "license": "CC BY-SA 4.0",
      "body": [
       {
        "h": "",
        "level": 1,
        "p": [
-        "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de la Ciudad de México 2026) is an upcoming Formula One motor race set to be held on 1 November 2026 at the Autodromo Hermanos Rodriguez in Mexico City, Mexico. It is the ninteenth round of the 2026 Formula One World Championship."
+        "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de la Ciudad de México 2026) is an upcoming Formula One motor race set to be held on 1 November 2026 at the Autódromo Hermanos Rodríguez in Mexico City, Mexico. It is the ninteenth round of the 2026 Formula One World Championship."
        ],
        "hKo": "",
        "pKo": [
-        "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autodromo Hermanos Rodriguez에서 개최될 예정인 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드입니다."
+        "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autódromo Hermanos Rodríguez에서 개최될 예정인 Formula One 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드입니다."
        ]
       },
       {
        "h": "Background",
        "level": 2,
        "p": [
-        "The event will be held at the Autódromo Hermanos Rodríguez in Mexico City for the 26th time in the circuit's history, having previously held twenty editions of the Mexican Grand Prix, across the weekend of 30 October – 1 November. The Grand Prix will be the ninteenth round of the 2026 Formula One World Championship and the sixth held under the name of the Mexico City Grand Prix, having previously been titled the Mexican Grand Prix."
+        "The event will be held at the Autódromo Hermanos Rodríguez in Mexico City for the 26th time in the circuit's history, across the weekend of 30 October – 1 November, having previously held twenty editions of the Mexican Grand Prix. The Grand Prix will be the ninteenth round of the 2026 Formula One World Championship and the sixth held under the name of the Mexico City Grand Prix, having previously been titled the Mexican Grand Prix."
        ],
        "hKo": "배경",
        "pKo": [
-        "이번 행사는 이전에 10월 30일부터 11월 1일까지 주말 동안 20회의 멕시코 그랑프리를 개최한 이후 서킷 역사상 26번째로 멕시코 시티의 Autódromo Hermanos Rodríguez에서 개최됩니다. 그랑프리는 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드가 되며, 이전에는 멕시코 그랑프리(Mexico Grand Prix)라는 명칭으로 불렸던 멕시코시티 그랑프리(Mexico City Grand Prix)라는 이름으로 열리는 6번째 라운드가 됩니다."
+        "이 이벤트는 이전에 20회에 걸쳐 멕시코 그랑프리를 개최한 데 이어 10월 30일부터 11월 1일까지 주말 동안 서킷 역사상 26번째로 멕시코시티의 Autódromo Hermanos Rodríguez에서 개최됩니다. 그랑프리는 2026년 포뮬러 원 월드 챔피언십의 19번째 라운드가 되며, 이전에는 멕시코 그랑프리(Mexico Grand Prix)라는 명칭으로 불렸던 멕시코시티 그랑프리(Mexico City Grand Prix)라는 이름으로 열리는 6번째 라운드가 됩니다."
        ]
       },
       {
@@ -61,7 +61,7 @@
        "h": "Championship permutations",
        "level": 4,
        "p": [
-        "Going into the race, there are 125 points available across the five remaining scheduled rounds. With Antonelli leading the Drivers' Championship by 123 points, he has a chance to secure the title at this event. In order to do so, Antonelli must finish in the top nine if either Russell or Hamilton win the Grand Prix. If neither Russell nor Hamilton win, then Antonelli is automatically champion regardless of what they both do. In the Constructors' Championship, there are 215 points available across the five remaining scheduled rounds. With Mercedes leading the Constructors' Championship by 123 points, Mercedes can secure the title at this event if they outscore Ferrari by 39 points."
+        "Going into the race, there are 125 points available across the five remaining scheduled rounds. With Antonelli leading the Drivers' Championship by 123 points, he has a chance to secure the title at this event. In order to do so, Antonelli must finish in the top nine if either Russell or Hamilton wins the Grand Prix. If neither Russell nor Hamilton win, then Antonelli is automatically champion regardless of what they both do. In the Constructors' Championship, there are 215 points available across the five remaining scheduled rounds. With Mercedes leading the Constructors' Championship by 123 points, Mercedes can secure the title at this event if they outscore Ferrari by 39 points."
        ],
        "hKo": "챔피언십 경우의 수",
        "pKo": [
@@ -72,7 +72,7 @@
        "h": "Entrants",
        "level": 3,
        "p": [
-        "The drivers and teams are the same as published in the season entry list. The only exception is Esteban Ocon (Haas), who was replaced ahead of the third free practice session by the reserve driver Ryo Hirakawa for an unknown reason, who made his Formula One Grand Prix debut.",
+        "The drivers and teams are the same as published in the season entry list. The only exception is Esteban Ocon (Haas), who was replaced for an unknown reason ahead of the third free practice session by the reserve driver Ryo Hirakawa, who made his Formula One Grand Prix debut.",
         "During the first practice session, ten teams fielded alternate drivers who had not raced in more than two Grands Prix, as required by the Formula One regulations:",
         "Leonardo Fornaroli for McLaren in place of Lando Norris.",
         "Frederik Vesti for Mercedes in place of George Russell.",
@@ -88,7 +88,7 @@
        ],
        "hKo": "출전 명단",
        "pKo": [
-        "드라이버와 팀은 시즌 참가 목록에 게시된 것과 동일합니다. 유일한 예외는 Esteban Ocon (Haas)입니다. 그는 세 번째 프리 연습 세션을 앞두고 알 수 없는 이유로 예비 드라이버 Ryo Hirakawa로 교체되어 Formula One 그랑프리 데뷔를 했습니다.",
+        "드라이버와 팀은 시즌 참가 목록에 게시된 것과 동일합니다. 유일한 예외는 에스테반 오콘(하스)으로, 3차 프리 연습 세션을 앞두고 알 수 없는 이유로 포뮬러 원 그랑프리 데뷔전을 치른 리저브 드라이버 히라카와 료와 교체됐다.",
         "첫 번째 연습 세션 동안 10개 팀은 Formula One 규정에 따라 두 번 이상 그랑프리에 출전하지 않은 대체 드라이버를 배치했습니다.",
         "Lando Norris를 대신하여 McLaren을 위한 Leonardo Fornaroli.",
         "조지 러셀 대신 메르세데스의 프레데릭 베스티.",
@@ -118,11 +118,11 @@
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions are being held for the event. The first free practice session was held on 30 October 2026, at 12:30 local time (UTC–6), and was topped by Charles Leclerc (Ferrari) ahead of Kimi Antonelli (Mercedes) and his teammate Frederik Vesti. The second free practice was held on the same day, at 16:00 local time, and was topped by Leclerc ahead of Lando Norris (McLaren) and George Russell (Mercedes). A red flag was observed due to debris from an incident between Max Verstappen (Red Bull) and Liam Lawson (Racing Bulls), both received a one-place grid penalty after investigation.  The third practice session will be held on 31 October 2026, at 11:30 local time."
+        "Three free practice sessions were held for the event. The first free practice session was held on 30 October 2026, at 12:30 local time (UTC–6), and was topped by Charles Leclerc (Ferrari) ahead of Kimi Antonelli (Mercedes) and his teammate Frederik Vesti. The second free practice was held on the same day, at 16:00 local time, and was topped by Leclerc ahead of Lando Norris (McLaren) and George Russell (Mercedes). A red flag was observed due to debris from an incident between Max Verstappen (Red Bull) and Liam Lawson (Racing Bulls). The third practice session was held on 31 October 2026, at 11:30 local time, and was topped by Norris ahead of Antonelli and Leclerc."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 10월 30일 현지 시간(UTC–6) 12시 30분에 열렸으며, 샤를 르클레르(페라리)가 키미 안토넬리(메르세데스)와 그의 팀 동료 프레데릭 베스티를 앞지르며 1위를 차지했습니다. 같은 날 현지시간 16시 20분에 열린 두 번째 자유연습에서는 르클레르가 란도 노리스(맥라렌), 조지 러셀(메르세데스)에 앞서 1위를 차지했다. Max Verstappen(Red Bull)과 Liam Lawson(Racing Bulls) 사이의 사고로 인한 잔해로 인해 레드 플래그가 관찰되었으며, 둘 다 조사 후 한 자리 그리드 페널티를 받았습니다.  세 번째 연습 세션은 2026년 10월 31일 현지 시간 11시 30분에 진행됩니다."
+        "행사를 위해 세 번의 무료 연습 세션이 열렸습니다. 첫 번째 무료 연습 세션은 2026년 10월 30일 현지 시간(UTC–6) 12시 30분에 열렸으며, 샤를 르클레르(페라리)가 키미 안토넬리(메르세데스)와 그의 팀 동료 프레데릭 베스티를 앞지르며 1위를 차지했습니다. 같은 날 현지시간 16시 20분에 열린 두 번째 자유연습에서는 르클레르가 란도 노리스(맥라렌), 조지 러셀(메르세데스)에 앞서 1위를 차지했다. Max Verstappen(Red Bull)과 Liam Lawson(Racing Bulls) 사이의 사고로 인한 잔해로 인해 적기가 관찰되었습니다. 세 번째 연습 세션은 2026년 10월 31일 현지 시간 11시 30분에 열렸으며, Antonelli와 Leclerc를 제치고 Norris가 1위를 차지했습니다."
        ]
       },
       {
@@ -1784,13 +1784,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Max Verstappen will have no say in 2027 Racing Bulls driver line-up, says Red Bull boss",
+     "desc": "Red Bull Racing CEO and team principal Laurent Mekies has explained that Racing Bulls alone will decide its Formula 1 driver line-up for 2027 and that Max Verstappen will not have…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-will-have-no-say-in-2027-racing-bulls-driver-line-up-says-red-bull-boss/10870282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/2y7QprX6/s6/motorsport-com-graphics-37.jpg",
+     "date": "2026-10-31T21:24:15+00:00",
+     "author": "",
+     "id": "579c2d57ae",
+     "lead": [
+      "Red Bull Racing CEO and team principal Laurent Mekies has explained that Racing Bulls alone will decide its Formula 1 driver line-up for 2027 and that Max Verstappen will not have a say despite his clash with Liam Lawson in Mexico.",
+      "Both Verstappen and Lawson were handed a one-place grid penalty for the Mexican Grand Prix after making contact during the second practice session on Friday.",
+      "The four-time champion argued it was \"not very smart behaviour\" from Lawson while speaking to the media after the session."
+     ],
+     "leadKo": [
+      "Red Bull Racing의 CEO이자 팀장인 Laurent Mekies는 Racing Bulls만이 2027년 Formula 1 드라이버 라인업을 결정할 것이며 Max Verstappen은 멕시코에서 Liam Lawson과의 충돌에도 불구하고 발언권을 갖지 못할 것이라고 설명했습니다.",
+      "Verstappen과 Lawson은 금요일 두 번째 연습 세션에서 접촉한 후 멕시코 그랑프리에서 한 자리 그리드 페널티를 받았습니다.",
+      "4회 우승을 차지한 그는 세션이 끝난 후 언론과의 인터뷰에서 로슨의 행동이 \"별로 현명하지 못한 행동\"이라고 주장했습니다."
+     ],
+     "titleKo": "Max Verstappen은 2027년 Racing Bulls 드라이버 라인업에 대해 언급하지 않을 것이라고 Red Bull 사장이 말했습니다.",
+     "descKo": "Red Bull Racing CEO이자 팀장인 Laurent Mekies는 Racing Bulls만이 2027년 Formula 1 드라이버 라인업을 결정할 것이며 Max Verstappen은 결정하지 않을 것이라고 설명했습니다."
+    },
+    {
+     "title": "F1 Mexico GP: Lando Norris tops final practice by 0.001s from Kimi Antonelli",
+     "desc": "Reigning world champion Lando Norris has topped third and final practice at Formula 1's Mexico Grand Prix, beating championship leader Kimi Antonelli in a tight session at the…",
+     "link": "https://www.motorsport.com/f1/news/f1-mexico-gp-fp3-report/10870217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/6VyKrydY/s6/lando-norris-mclaren.jpg",
+     "date": "2026-10-31T18:42:30+00:00",
+     "author": "",
+     "id": "8465d8778c",
+     "lead": [
+      "Reigning world champion Lando Norris has topped third and final practice at Formula 1's Mexico Grand Prix, beating championship leader Kimi Antonelli in a tight session at the Autodromo Hermanos Rodriguez.",
+      "Norris dipped just 0.001s under Antonelli 's initial benchmark as all four top teams looked in the mix on the tricky high-altitude circuit, with several midfield running into power unit trouble.",
+      "A quiet opening phase saw Ryo Hirakawa get a lot of airtime in the Haas. Having covered FP1, the Toyota-backed driver returned to the Haas as a substitute for Esteban Ocon for the remainder of the Mexico weekend."
+     ],
+     "leadKo": [
+      "현재 세계 챔피언인 Lando Norris는 Formula 1 멕시코 그랑프리에서 Autodromo Hermanos Rodriguez의 치열한 세션에서 챔피언십 선두인 Kimi Antonelli를 제치고 3위이자 마지막 연습에서 1위를 차지했습니다.",
+      "Norris는 Antonelli의 초기 벤치마크에서 단 0.001초만 낮췄습니다. 상위 4개 팀 모두 까다로운 고지대 서킷에서 믹스를 살펴보고 몇몇 미드필더가 전원 장치 문제에 부딪혔기 때문입니다.",
+      "조용한 오프닝 단계에서 Ryo Hirakawa는 Haas에서 많은 방송 시간을 얻었습니다. FP1을 다룬 후 Toyota 지원 운전자는 멕시코 주말의 남은 기간 동안 Esteban Ocon을 대신하여 Haas로 돌아왔습니다."
+     ],
+     "titleKo": "F1 멕시코 GP: Lando Norris, 최종 연습에서 Kimi Antonelli보다 0.001초 앞서",
+     "descKo": "현재 세계 챔피언인 Lando Norris는 Formula 1 멕시코 그랑프리에서 3위이자 마지막 연습에서 3위를 차지했으며, 챔피언십 선두인 Kimi Antonelli를 꺾었습니다."
+    },
+    {
+     "title": "When Red Bull expects to start using its long-awaited new F1 wind tunnel",
+     "desc": "Although Red Bull has turned its 2026 Formula 1 season around in impressive fashion, the technical team led by Pierre Wache is still dealing with several limitations behind the…",
+     "link": "https://www.motorsport.com/f1/news/when-red-bull-expects-to-start-using-its-long-awaited-new-f1-wind-tunnel/10870210/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/YK15Rvz0/s6/isack-hadjar-red-bull-racing.jpg",
+     "date": "2026-10-31T18:00:06+00:00",
+     "author": "",
+     "id": "1aab202313",
+     "lead": [
+      "Although Red Bull has turned its 2026 Formula 1 season around in impressive fashion, the technical team led by Pierre Wache is still dealing with several limitations behind the scenes. One of the main ones is perhaps the wind tunnel, the oldest on the entire F1 grid.",
+      "Former team principal Christian Horner repeatedly described Red Bull's wind tunnel as \"a Cold War relic\" and said working with the 70-year-old facility near Bedford was like looking at \"two different watches\", highlighting that the correlation had more than once failed to match what happened on track.",
+      "Red Bull has seemingly suffered little from that while improving its 2026 challenger, although Mekies acknowledges that the new facility should, in theory, provide the team with a competitive advantage."
+     ],
+     "leadKo": [
+      "Red Bull이 2026년 Formula 1 시즌을 인상적인 방식으로 전환했지만 Pierre Wache가 이끄는 기술 팀은 여전히 ​​이면에서 몇 가지 제한 사항을 처리하고 있습니다. 주요한 것 중 하나는 아마도 전체 F1 그리드에서 가장 오래된 풍동일 것입니다.",
+      "전 팀장인 크리스티안 호너(Christian Horner)는 레드불의 풍동을 \"냉전의 유물\"이라고 반복해서 묘사했으며 베드포드 근처의 70년 된 시설에서 일하는 것은 \"두 개의 다른 시계\"를 보는 것과 같다고 말하면서 상관관계가 궤도에서 일어난 일과 한 번 이상 일치하지 않았음을 강조했습니다.",
+      "Red Bull은 2026년 챌린저를 개선하는 동안 그로 인해 거의 고통을 겪지 않은 것 같지만 Mekies는 새로운 시설이 이론적으로 팀에 경쟁 우위를 제공해야 한다는 점을 인정합니다."
+     ],
+     "titleKo": "Red Bull이 오랫동안 기다려온 새로운 F1 풍동을 사용할 것으로 예상되는 경우",
+     "descKo": "Red Bull이 2026년 Formula 1 시즌을 인상적인 방식으로 전환했지만 Pierre Wache가 이끄는 기술 팀은 여전히 ​​그 뒤에 있는 몇 가지 한계를 다루고 있습니다."
+    },
+    {
      "title": "Isack Hadjar formally warned for fan incident in F1 Mexico GP paddock",
      "desc": "Isack Hadjar has been given a formal warning by the Mexico Grand Prix stewards for shoving a fan in the Formula 1 paddock ahead of opening practice. The Red Bull driver was…",
      "link": "https://www.motorsport.com/f1/news/isack-hadjar-warned-for-fan-incident-in-f1-mexico-gp-paddock/10870033/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg",
      "date": "2026-10-31T17:17:48+00:00",
      "author": "",
      "id": "ffe186c88f",
+     "titleKo": "Isack Hadjar는 F1 멕시코 GP 목장에서 발생한 팬 사고에 대해 공식적으로 경고했습니다.",
+     "descKo": "Isack Hadjar는 오프닝 연습을 앞두고 포뮬러 1 경기장에 팬을 밀어넣었다는 이유로 멕시코 그랑프리 스튜어드로부터 공식적인 경고를 받았습니다. 레드불 드라이버는…",
      "lead": [
       "Isack Hadjar has been given a formal warning by the Mexico Grand Prix stewards for shoving a fan in the Formula 1 paddock ahead of opening practice.",
       "The Red Bull driver was initially summoned for an alleged incident of “misconduct” at Autodromo Hermanos Rodriguez on Friday.",
@@ -1800,18 +1865,18 @@
       "Isack Hadjar는 오프닝 연습을 앞두고 포뮬러 1 경기장에 팬을 밀어넣었다는 이유로 멕시코 그랑프리 스튜어드로부터 공식적인 경고를 받았습니다.",
       "Red Bull 드라이버는 금요일 Autodromo Hermanos Rodriguez에서 \"위법 행위\" 혐의로 처음 소환되었습니다.",
       "사진을 찍으려는 팬이 하자르에게 접근했으나 두 번이나 밀쳐졌고 그 프랑스인은 결과적으로 국제 스포츠 규약 12.2.1.l항을 위반했습니다."
-     ],
-     "titleKo": "Isack Hadjar는 F1 멕시코 GP 목장에서 발생한 팬 사고에 대해 공식적으로 경고했습니다.",
-     "descKo": "Isack Hadjar는 오프닝 연습을 앞두고 포뮬러 1 경기장에 팬을 밀어넣었다는 이유로 멕시코 그랑프리 스튜어드로부터 공식적인 경고를 받았습니다. 레드불 드라이버는…"
+     ]
     },
     {
      "title": "Mercedes out of performance window at Mexico GP - George Russell",
      "desc": "George Russell is enduring further difficulties with the upgraded Mercedes Formula 1 car, as it was outside the optimum set-up in Friday practice at the Mexico Grand Prix. The…",
      "link": "https://www.motorsport.com/f1/news/george-russell-mercedes-out-of-performance-window-at-mexico-gp/10870173/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0R7Bb9M2/s6/george-russell-mercedes.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/0R7Bb9M2/s6/george-russell-mercedes.jpg",
      "date": "2026-10-31T15:52:10+00:00",
      "author": "",
      "id": "9edd80ceff",
+     "titleKo": "멕시코 GP에서 메르세데스의 성능 창밖 - 조지 러셀",
+     "descKo": "조지 러셀(George Russell)은 업그레이드된 메르세데스 포뮬러 1(Mercedes Formula 1) 자동차로 인해 금요일 멕시코 그랑프리 연습에서 최적의 설정을 벗어났기 때문에 더 많은 어려움을 겪고 있습니다. 그만큼…",
      "lead": [
       "George Russell is enduring further difficulties with the upgraded Mercedes Formula 1 car, as it was outside the optimum set-up in Friday practice at the Mexico Grand Prix.",
       "The championship-leading squad introduced an updated W17 for Malaysia this month, but it was easily beaten by Red Bull’s Max Verstappen before a similar story in Singapore.",
@@ -1821,18 +1886,18 @@
       "조지 러셀(George Russell)은 업그레이드된 메르세데스 포뮬러 1(Mercedes Formula 1) 자동차로 인해 금요일 멕시코 그랑프리 연습에서 최적의 설정을 벗어났기 때문에 더 많은 어려움을 겪고 있습니다.",
       "챔피언십 선두 팀은 이번 달 말레이시아에 업데이트된 W17을 선보였지만 싱가포르에서 비슷한 이야기가 나오기 전에 Red Bull의 Max Verstappen에게 쉽게 패배했습니다.",
       "Kimi Antonelli는 Austin의 폴에서 승리하여 Verstappen의 경기를 끝냈지만 그의 Mercedes 팀 동료인 Russell은 지난 3라운드 동안 DNF, P9 및 P8로 어려움을 겪고 있습니다."
-     ],
-     "titleKo": "멕시코 GP에서 메르세데스의 성능 창밖 - 조지 러셀",
-     "descKo": "조지 러셀(George Russell)은 업그레이드된 메르세데스 포뮬러 1(Mercedes Formula 1) 자동차로 인해 금요일 멕시코 그랑프리 연습에서 최적의 설정을 벗어났기 때문에 더 많은 어려움을 겪고 있습니다. 그만큼…"
+     ]
     },
     {
      "title": "Haas drops Esteban Ocon for F1 Mexico GP",
      "desc": "The Haas Formula 1 team has made the shock decision to replace Esteban Ocon with reserve driver Ryo Hirakawa for the remainder of the Mexico Grand Prix weekend. Hirakawa will act…",
      "link": "https://www.motorsport.com/f1/news/haas-drops-esteban-ocon-for-f1-mexico-gp/10870158/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg",
      "date": "2026-10-31T14:52:55+00:00",
      "author": "",
      "id": "3524f6e4ab",
+     "titleKo": "Haas, F1 Mexico GP에 Esteban Ocon을 낙점",
+     "descKo": "Haas Formula 1 팀은 남은 멕시코 그랑프리 주말 동안 Esteban Ocon을 예비 드라이버 Ryo Hirakawa로 교체하기로 충격적인 결정을 내렸습니다. 히라카와가 출연합니다…",
      "lead": [
       "The Haas Formula 1 team has made the shock decision to replace Esteban Ocon with reserve driver Ryo Hirakawa for the remainder of the Mexico Grand Prix weekend.",
       "Hirakawa will act as Oliver Bearman ’s team-mate for final practice, qualifying and Sunday’s race, having also taken Ocon’s VF-26 on Friday morning as part of the rookie mandate for FP1 sessions.",
@@ -1842,9 +1907,7 @@
       "Haas Formula 1 팀은 남은 멕시코 그랑프리 주말 동안 Esteban Ocon을 예비 드라이버 Ryo Hirakawa로 교체하기로 충격적인 결정을 내렸습니다.",
       "Hirakawa는 최종 연습, 예선 및 일요일 경주에서 Oliver Bearman의 팀 동료 역할을 할 예정이며, 금요일 아침에는 FP1 세션의 신인 임무의 일환으로 Ocon의 VF-26을 가져갔습니다.",
       "Ocon은 두 번째 연습을 위해 돌아와 13위를 기록했지만, 레이스 엔지니어인 Laura Mueller와 소프트 타이어를 사용할지 아니면 미디엄 고무로 바꿀지 놓고 말다툼을 벌인 후 큰 논란을 불러일으켰습니다."
-     ],
-     "titleKo": "Haas, F1 Mexico GP에 Esteban Ocon을 낙점",
-     "descKo": "Haas Formula 1 팀은 남은 멕시코 그랑프리 주말 동안 Esteban Ocon을 예비 드라이버 Ryo Hirakawa로 교체하기로 충격적인 결정을 내렸습니다. 히라카와가 출연합니다…"
+     ]
     },
     {
      "title": "Ferrari downplays expectations for F1 Mexico GP despite blistering Friday",
@@ -1854,6 +1917,8 @@
      "date": "2026-10-31T14:00:05+00:00",
      "author": "",
      "id": "39ed4edae7",
+     "titleKo": "페라리, 금요일 물집에도 불구하고 F1 멕시코 GP에 대한 기대를 경시",
+     "descKo": "Ferrari Formula 1의 사장 Fred Vasseur는 Charles Leclerc가 금요일 연습 세션에서 모두 1위를 차지했음에도 불구하고 멕시코 그랑프리에 대한 기대를 경시했습니다. 페라리 운전자가 설정한 것은…",
      "lead": [
       "Ferrari Formula 1 boss Fred Vasseur has downplayed expectations for the Mexico Grand Prix despite Charles Leclerc topping both Friday practice sessions.",
       "The Ferrari driver set the pace with a 1m18.128s in FP1 , before lowering that benchmark to 1m17.827s for FP2 at Autodromo Hermanos Rodriguez.",
@@ -1863,18 +1928,18 @@
       "Ferrari Formula 1의 사장 Fred Vasseur는 Charles Leclerc가 금요일 연습 세션에서 모두 1위를 차지했음에도 불구하고 멕시코 그랑프리에 대한 기대를 경시했습니다.",
       "Ferrari 드라이버는 FP1에서 1m18.128s로 속도를 설정한 후 Autodromo Hermanos Rodriguez에서 FP2의 벤치마크를 1m17.827s로 낮췄습니다.",
       "팀 동료인 루이스 해밀턴(Lewis Hamilton)도 경쟁적이었습니다. 오프닝 연습에서 Leclerc보다 0.738초 뒤진 4위를 기록했고, FP2 중간에 엔진이 고장날 때까지 상위 5위 안에 들었습니다."
-     ],
-     "titleKo": "페라리, 금요일 물집에도 불구하고 F1 멕시코 GP에 대한 기대를 경시",
-     "descKo": "Ferrari Formula 1의 사장 Fred Vasseur는 Charles Leclerc가 금요일 연습 세션에서 모두 1위를 차지했음에도 불구하고 멕시코 그랑프리에 대한 기대를 경시했습니다. 페라리 운전자가 설정한 것은…"
+     ]
     },
     {
      "title": "George Russell tips Frederik Vesti for F1 2027 Cadillac seat",
      "desc": "George Russell has labelled Mercedes reserve driver Frederik Vesti as a shock contender to join Cadillac for the 2027 Formula 1 campaign. The American outfit is yet to confirm…",
      "link": "https://www.motorsport.com/f1/news/george-russell-frederik-vesti-deserves-cadillac-seat-for-f1-2027/10870111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YpbAB5A0/s6/frederik-vesti-mercedes.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/YpbAB5A0/s6/frederik-vesti-mercedes.jpg",
      "date": "2026-10-31T13:00:03+00:00",
      "author": "",
      "id": "3fdeb40442",
+     "titleKo": "George Russell이 Frederik Vesti에게 F1 2027 Cadillac 시트에 대한 조언을 전했습니다.",
+     "descKo": "조지 러셀(George Russell)은 메르세데스 예비 드라이버 프레데릭 베스티(Frederik Vesti)를 2027년 포뮬러 1 캠페인을 위해 캐딜락에 합류할 충격적인 경쟁자로 분류했습니다. 미국 의상은 아직 확인되지 않았습니다…",
      "lead": [
       "George Russell has labelled Mercedes reserve driver Frederik Vesti as a shock contender to join Cadillac for the 2027 Formula 1 campaign.",
       "The American outfit is yet to confirm Valtteri Bottas as a team-mate to Sergio Perez - who signed a contract extension on Wednesday - for next year, with various contenders emerging.",
@@ -1884,15 +1949,13 @@
       "조지 러셀(George Russell)은 메르세데스 예비 드라이버 프레데릭 베스티(Frederik Vesti)를 2027년 포뮬러 1 캠페인을 위해 캐딜락에 합류할 충격적인 경쟁자로 분류했습니다.",
       "미국 팀은 수요일 계약 연장에 서명한 세르히오 페레즈의 팀 동료로 발테리 보타스를 아직 확정하지 않았으며, 다양한 경쟁자들이 등장하고 있습니다.",
       "Cadillac의 테스트 드라이버 Colton Herta는 현재 우수한 라이센스가 부족하고 매우 실망스러운 Formula 2 시즌에도 불구하고 옵션이며, 퇴임하는 Haas 남자 Esteban Ocon도 사용할 수 있습니다."
-     ],
-     "titleKo": "George Russell이 Frederik Vesti에게 F1 2027 Cadillac 시트에 대한 조언을 전했습니다.",
-     "descKo": "조지 러셀(George Russell)은 메르세데스 예비 드라이버 프레데릭 베스티(Frederik Vesti)를 2027년 포뮬러 1 캠페인을 위해 캐딜락에 합류할 충격적인 경쟁자로 분류했습니다. 미국 의상은 아직 확인되지 않았습니다…"
+     ]
     },
     {
      "title": "Red Bull finds ‘disconnect’ in RB22 in F1 Mexico GP practice",
      "desc": "Red Bull admits it still has work to do after Friday's Formula 1 practice sessions in Mexico City. Max Verstappen ended the day fifth, three tenths off the pace, but that was…",
      "link": "https://www.motorsport.com/f1/news/red-bull-finds-disconnect-in-rb22-in-f1-mexico-gp-practice/10870035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0LdejdJ0/s6/max-verstappen-red-bull-racing.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/0LdejdJ0/s6/max-verstappen-red-bull-racing.jpg",
      "date": "2026-10-31T12:00:04+00:00",
      "author": "",
      "id": "b304a92635",
@@ -1908,69 +1971,6 @@
       "Max Verstappen은 속도가 10분의 3 떨어진 5일차를 마쳤지만 이는 Liam Lawson과의 사고로 입은 피해에도 불구하고 이루어졌습니다. Verstappen은 Lawson이 여전히 자리를 놓고 싸우고 있다는 점을 감안할 때 Racing Bulls 드라이버의 미디어 펜에서 그 순간을 '별로 똑똑하지 않다'고 설명했습니다.",
       "스튜어드는 두 드라이버 모두에게 한 자리 그리드 페널티를 주었는데 이는 당연히 Red Bull에게 가장 실망스러운 결과였습니다. 비록 이 사건이 Verstappen의 연습일에도 영향을 미쳤지만 특히 이 세션은 네덜란드인의 유일한 세션이었고 Ayumu Iwasa가 첫 번째 연습에서 RB22에서 자신의 자리를 차지했기 때문입니다."
      ]
-    },
-    {
-     "title": "Lewis Hamilton \"praying\" for Ferrari power unit after Mexico FP2 failure",
-     "desc": "Lewis Hamilton has been left “praying” for his Ferrari power unit after it caused an early retirement in second practice for the Formula 1 Mexico Grand Prix. The seven-time world…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-praying-for-ferrari-power-unit-after-mexico-fp2-failure/10870069/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0arEV9G2/s6/lewis-hamilton-ferrari-2.jpg",
-     "date": "2026-10-31T10:41:19+00:00",
-     "author": "",
-     "id": "147adb733b",
-     "titleKo": "루이스 해밀턴, 멕시코 FP2 실패 후 페라리 동력 장치를 위해 \"기도\"",
-     "descKo": "루이스 해밀턴(Lewis Hamilton)은 포뮬러 1 멕시코 그랑프리(F1 Mexico Grand Prix)의 두 번째 연습 중 조기 은퇴를 초래한 페라리 동력 장치를 위해 “기도”하고 있습니다. 일곱 번의 세계…",
-     "lead": [
-      "Lewis Hamilton has been left “praying” for his Ferrari power unit after it caused an early retirement in second practice for the Formula 1 Mexico Grand Prix.",
-      "The seven-time world champion suddenly lost power down the start-finish straight after 28 minutes , leading to him stopping at the exit of Turn 3 at Autodromo Hermanos Rodriguez.",
-      "Hamilton was enjoying a competitive FP2 until then as he was quickest on the hard tyre and sat amongst the top five, before eventually dropping to 11th in the final leaderboard."
-     ],
-     "leadKo": [
-      "루이스 해밀턴(Lewis Hamilton)은 포뮬러 1 멕시코 그랑프리(F1 Mexico Grand Prix)의 두 번째 연습 중 조기 은퇴를 초래한 페라리 동력 장치를 위해 “기도”하고 있습니다.",
-      "7차례 세계 챔피언에 오른 이 선수는 28분 만에 스타트-피니시 구간에서 갑자기 힘을 잃어 Autodromo Hermanos Rodriguez의 Turn 3 출구에서 멈춰 섰습니다.",
-      "해밀턴은 그때까지 경쟁적인 FP2를 즐겼습니다. 하드 타이어에서 가장 빨랐고 상위 5위 안에 들다가 결국 최종 순위표에서 11위로 떨어졌습니다."
-     ]
-    },
-    {
-     "title": "F1 fans rush to defend Isack Hadjar after controversial Mexican GP incident",
-     "desc": "Formula 1 fans have jumped to the defence of Isack Hadjar after the Red Bull driver was summoned to the stewards for alleged misconduct during the Mexican Grand Prix race weekend.…",
-     "link": "https://www.motorsport.com/f1/news/f1-fans-defend-isack-hadjar-after-paddock-selfie-row-leads-to-fia-summons/10870067/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0Zq8Zdb6/s6/motorsport-com-graphics-51.jpg",
-     "date": "2026-10-31T10:34:30+00:00",
-     "author": "",
-     "id": "ad8550aea0",
-     "titleKo": "논란의 여지가 있는 멕시코 GP 사건 이후 F1 팬들은 Isack Hadjar를 방어하기 위해 서두르고 있습니다.",
-     "descKo": "포뮬러 1 팬들은 멕시코 그랑프리 경주 주말 동안 위법 행위를 한 혐의로 레드불 드라이버가 스튜어드에게 소환되자 Isack Hadjar를 옹호하기 위해 뛰어들었습니다.",
-     "lead": [
-      "Formula 1 fans have jumped to the defence of Isack Hadjar after the Red Bull driver was summoned to the stewards for alleged misconduct during the Mexican Grand Prix race weekend. This comes after he was filmed pushing a fan as they tried to get a selfie with the driver.",
-      "The video spread quickly on social media on Friday, appearing to show Hadjar pushing away a fan who was launching himself at the driver in an attempt to get a photo with him. In the footage, the fan attempts to put his arm around Hadjar as he walks through the paddock. The driver pushed him back at arm's length before giving him a forceful shove as the relentless fan continued.",
-      "This took place between the two practice sessions on Friday. FP1 was a struggle for Hadjar, who suffered from power unit problems limiting his runtime. He finished 11th fastest, but jumped up the timesheets to sixth by the end of FP2."
-     ],
-     "leadKo": [
-      "포뮬러 1 팬들은 멕시코 그랑프리 경주 주말 동안 위법 행위를 한 혐의로 레드불 드라이버가 청지기에게 소환되자 Isack Hadjar를 옹호하기 위해 뛰어들었습니다. 이는 그가 운전자와 셀카를 찍으려고 할 때 팬을 밀어내는 장면이 촬영된 이후에 나온 것입니다.",
-      "해당 영상은 지난 금요일 소셜미디어에 빠르게 퍼졌고, 하자르가 자신과 사진을 찍기 위해 운전자에게 몸을 던진 팬을 밀어내는 모습이 담겨 있었습니다. 영상에서 팬은 방목장을 통과하는 동안 하자르에게 팔을 두르려고 시도합니다. 운전자는 그를 팔 길이만큼 뒤로 밀어낸 후 끈질긴 팬이 계속되는 동안 그를 강하게 밀어냈습니다.",
-      "이것은 금요일에 두 번의 연습 세션 사이에 일어났습니다. FP1은 실행 시간을 제한하는 전원 장치 문제로 고통받는 Hadjar에게 어려움을 겪었습니다. 그는 11위로 가장 빨리 마쳤지만 FP2가 끝날 무렵에는 시간표를 6위로 올렸습니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen, Liam Lawson handed F1 Mexico GP grid penalties after practice clash",
-     "desc": "One of the most remarkable moments of Friday's Formula 1 practice sessions took place in the Foro Sol, otherwise known as the stadium section of the Autodromo Hermanos Rodriguez.…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-and-liam-lawson-both-handed-grid-penalties-after-clash-in-mexico-f1-practice/10869933/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/2eZxbVKY/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-10-31T03:15:47+00:00",
-     "author": "",
-     "id": "dc41a5051b",
-     "titleKo": "Max Verstappen, Liam Lawson은 연습 충돌 후 F1 멕시코 GP 그리드 패널티를 받았습니다.",
-     "descKo": "금요일 포뮬러 1 연습 세션 중 가장 주목할만한 순간 중 하나는 Autodromo Hermanos Rodriguez의 경기장 섹션으로도 알려진 Foro Sol에서 일어났습니다.…",
-     "lead": [
-      "One of the most remarkable moments of Friday's Formula 1 practice sessions took place in the Foro Sol, otherwise known as the stadium section of the Autodromo Hermanos Rodriguez. Max Verstappen tried to overtake Liam Lawson heading towards Turn 12 during the second session of the day, but the Racing Bulls driver defended, leaving both drivers side by side going into the stadium.",
-      "Verstappen was on the outside of Turn 13, where he felt he was forced off the track by his former team-mate. The Dutchman then went over the kerbs at Turn 14, after which the drivers from the two Red Bull teams made contact.",
-      "The incident caused damage to Verstappen's barge boards, which he had to contend with for the remainder of the session, already compromising his day."
-     ],
-     "leadKo": [
-      "금요일 포뮬러 1 연습 세션 중 가장 주목할만한 순간 중 하나는 Autodromo Hermanos Rodriguez의 경기장 섹션으로도 알려진 Foro Sol에서 일어났습니다. Max Verstappen은 오늘의 두 번째 세션에서 Turn 12를 향해 향하는 Liam Lawson을 추월하려 했으나 Racing Bulls 드라이버가 방어하여 두 드라이버가 나란히 경기장으로 들어가게 했습니다.",
-      "Verstappen은 Turn 13의 바깥쪽에 있었는데, 그곳에서 이전 팀 동료에 의해 트랙에서 강제로 벗어났다고 느꼈습니다. 그 네덜란드인은 14번 코너에서 연석을 넘어갔고, 그 후 두 Red Bull 팀의 드라이버들이 접촉했습니다.",
-      "이 사건으로 인해 Verstappen의 바지선 보드가 손상되었으며, 그는 남은 세션 동안 이 문제로 인해 이미 하루를 망쳤습니다."
-     ]
     }
    ]
   },
@@ -1979,6 +1979,48 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "What happened in F1 Mexican GP final practice",
+     "desc": "Lando Norris and Kimi Antonelli were near-inseparable in final practice for F1's Mexican GP as Ferrari's pace faltered ahead of qualifying",
+     "link": "https://www.the-race.com/formula-1/f1-mexican-gp-final-practice-what-happened/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1449453_HiRes.jpg",
+     "date": "2026-10-31T18:53:23+00:00",
+     "author": "Jack Cozens",
+     "id": "9e7a90fc82",
+     "lead": [
+      "Lando Norris and Kimi Antonelli were near-inseparable in final practice for Formula 1's Mexican Grand Prix as Ferrari's pace faltered ahead of qualifying.",
+      "Friday pacesetter Charles Leclerc ultimately ended up third for Ferrari, but only at the end of the session following aborted attempts at his qualifying simulation on soft tyres.",
+      "He and team-mate Lewis Hamilton - whose session played out in a similar way - had traded fastest times at the beginning of FP3 as the top teams all chose to start the session on medium tyres."
+     ],
+     "leadKo": [
+      "Lando Norris와 Kimi Antonelli는 Formula 1의 멕시코 그랑프리 최종 연습에서 Ferrari의 속도가 예선을 앞두고 흔들리면서 거의 분리될 수 없었습니다.",
+      "금요일의 선두 주자인 Charles Leclerc는 궁극적으로 Ferrari에서 3위를 차지했지만, 소프트 타이어에 대한 예선 시뮬레이션 시도가 중단된 후 세션이 끝날 무렵에야 했습니다.",
+      "비슷한 방식으로 세션이 진행된 그와 팀 동료인 루이스 해밀턴(Lewis Hamilton)은 상위 팀이 모두 중형 타이어로 세션을 시작하기로 결정했기 때문에 FP3 시작 시 가장 빠른 기록을 거래했습니다."
+     ],
+     "titleKo": "F1 멕시코 GP 최종 연습에서 일어난 일",
+     "descKo": "F1의 멕시코 GP 최종 연습에서 란도 노리스(Lando Norris)와 키미 안토넬리(Kimi Antonelli)는 예선을 앞두고 페라리의 속도가 주춤하면서 거의 분리될 수 없었습니다."
+    },
+    {
+     "title": "F1 2026 Mexican Grand Prix practice results",
+     "desc": "Practice results from Formula 1's Mexican Grand Prix, where 10 drivers swapped in for regulars in FP1",
+     "link": "https://www.the-race.com/formula-1/f1-2026-mexican-grand-prix-practice-results/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448513_HiRes.jpg",
+     "date": "2026-10-31T18:31:00+00:00",
+     "author": "The Race Team",
+     "id": "64c40f4afb",
+     "lead": [
+      "Almost half of the grid were stand-in drivers for the Mexican Grand Prix's first practice session - with 10 of the 11 teams only fielding their complete line-ups in FP2.",
+      "One of those line-ups then changed again come Saturday, following Haas's decision to replace Esteban Ocon with Ryo Hirakawa - who drove in FP1 - for the remainder of the weekend, starting with final practice.",
+      "1 Lando Norris (McLaren) 1m17.600s 2 Kimi Antonelli (Mercedes) +0.001s 3 Charles Leclerc (Ferrari) +0.117s 4 Oscar Piastri (McLaren) +0.195s 5 Max Verstappen (Red Bull) +0.351s 6 Lewis Hamilton (Ferrari) +0.469s 7 George Russell (Mercedes) +0.507s 8 Isack Hadjar (Red Bull) +0.509s 9 Liam Lawson (Racing Bulls) +0.513s 10 Arvid Lindblad (Racing Bulls) +0.537s 11 Nico Hulkenberg (Audi) +0.960s 12 Franco Colapinto (Alpine) +1.052s 13 Pierre Gasly…"
+     ],
+     "leadKo": [
+      "그리드의 거의 절반은 멕시코 그랑프리의 첫 번째 연습 세션을 위한 예비 드라이버였으며, 11개 팀 중 10개 팀은 FP2에서 전체 라인업을 구성했습니다.",
+      "그런 다음 라인업 중 하나가 토요일에 다시 변경되었습니다. Haas가 Esteban Ocon을 최종 연습부터 시작하여 남은 주말 동안 FP1에서 운전한 Ryo Hirakawa로 교체하기로 결정한 후 다시 변경되었습니다.",
+      "1 란도 노리스(맥라렌) 1분17.600초 2 키미 안토넬리(메르세데스) +0.001초 3 찰스 르클레르(페라리) +0.117초 4 오스카 피아스트리(맥라렌) +0.195초 5 맥스 베르스타펜(레드불) +0.351초 6 루이스 해밀턴(페라리) +0.469초 7 조지 러셀 (메르세데스) +0.507초 8 Isack Hadjar(레드 불) +0.509초 9 Liam Lawson(레이싱 불스) +0.513초 10 Arvid Lindblad(레이싱 불스) +0.537초 11 Nico Hulkenberg(아우디) +0.960초 12 Franco Colapinto(알파인) +1.052초 13 Pierre Gasly…"
+     ],
+     "titleKo": "F1 2026 멕시코 그랑프리 연습 결과",
+     "descKo": "FP1에서 10명의 드라이버가 정규 드라이버로 교체된 Formula 1 멕시코 그랑프리의 연습 결과"
+    },
+    {
      "title": "Hadjar escapes with warning for pushing Mexico F1 paddock guest",
      "desc": "Isack Hadjar has been given a formal warning for pushing a guest in the paddock ahead of the first F1 practice session at the Mexican GP",
      "link": "https://www.the-race.com/formula-1/isack-hadjar-warning-pushing-mexico-f1-paddock-guest/",
@@ -1986,6 +2028,8 @@
      "date": "2026-10-31T17:12:41+00:00",
      "author": "Jack Cozens",
      "id": "11906863d3",
+     "titleKo": "Hadjar는 멕시코 F1 목장 손님을 밀었다는 경고를 받고 탈출했습니다.",
+     "descKo": "Isack Hadjar는 멕시코 GP에서 열리는 첫 번째 F1 연습 세션을 앞두고 게스트를 방목장으로 밀었다는 이유로 공식 경고를 받았습니다.",
      "lead": [
       "Isack Hadjar has been given a formal warning for pushing a guest in the paddock ahead of the first Formula 1 practice session at the Mexican Grand Prix.",
       "Footage circulated on social media on Friday that appeared to show Hadjar pushing someone who had tried to take a selfie with him.",
@@ -1995,9 +2039,7 @@
       "Isack Hadjar는 멕시코 그랑프리에서 열리는 첫 번째 포뮬러 1 연습 세션을 앞두고 게스트를 방목장으로 밀었다는 이유로 공식적인 경고를 받았습니다.",
       "금요일에 소셜 미디어에 유포된 영상에는 하자르가 자신과 함께 셀카를 찍으려던 누군가를 밀어내는 모습이 담겨 있었습니다.",
       "레드불 드라이버는 소환 문서에 '위법 행위 혐의'로 기술된 내용에 대해 토요일 아침 F1 스튜어드를 만나도록 호출되었습니다."
-     ],
-     "titleKo": "Hadjar는 멕시코 F1 목장 손님을 밀었다는 경고를 받고 탈출했습니다.",
-     "descKo": "Isack Hadjar는 멕시코 GP에서 열리는 첫 번째 F1 연습 세션을 앞두고 게스트를 방목장으로 밀었다는 이유로 공식 경고를 받았습니다."
+     ]
     },
     {
      "title": "All the reasons the Ocon-Haas relationship fell apart",
@@ -2007,6 +2049,8 @@
      "date": "2026-10-31T15:05:00+00:00",
      "author": "Ben Anderson",
      "id": "420bdcd483",
+     "titleKo": "Ocon-Haas 관계가 무너진 모든 이유",
+     "descKo": "Haas가 만든 가장 큰 드라이버 움직임이 왜 신랄하지 않게 되었는지에 대해 다양한 견해가 있습니다. 실제로 일어난 일은 다음과 같습니다.",
      "lead": [
       "Haas is staying tight-lipped, but its sudden decision to replace Esteban Ocon with Ryo Hirakawa at Formula 1's Mexican Grand Prix suggests its regular (and soon-to-be-former) driver has been benched.",
       "In this piece, first published at the end of September when Ocon's end-of-2026 exit was announced, Ben Anderson and Scott Mitchell-Malm look at how the move turned sour.",
@@ -2016,9 +2060,7 @@
       "Haas는 입을 다물고 있지만 Formula 1의 멕시코 그랑프리에서 Esteban Ocon을 Ryo Hirakawa로 교체하기로 한 갑작스러운 결정은 정규(그리고 곧 전직) 드라이버가 벤치에 앉았음을 의미합니다.",
       "Ocon의 2026년 말 종료가 발표된 9월 말에 처음 발표된 이 글에서 Ben Anderson과 Scott Mitchell-Malm은 이러한 움직임이 어떻게 악화되었는지 살펴봅니다.",
       "Esteban Ocon이 자신이 통제할 수 없는 요소에 대해 또 다른 언급을 하면서 Haas Formula 1 팀에서 탈퇴했음을 표시했을 때, 이는 드라이버-팀 관계가 점진적이고 복잡하게 악화되고 있다는 그다지 미묘하지 않은 힌트 역할을 했습니다."
-     ],
-     "titleKo": "Ocon-Haas 관계가 무너진 모든 이유",
-     "descKo": "Haas가 만든 가장 큰 드라이버 움직임이 왜 신랄하지 않게 되었는지에 대해 다양한 견해가 있습니다. 실제로 일어난 일은 다음과 같습니다."
+     ]
     },
     {
      "title": "Ocon suddenly replaced at Haas for rest of Mexico F1 weekend",
@@ -2028,6 +2070,8 @@
      "date": "2026-10-31T14:58:23+00:00",
      "author": "Josh Suttill",
      "id": "4c92df4e80",
+     "titleKo": "Ocon은 멕시코 F1 주말의 나머지 기간 동안 Haas에서 갑자기 교체되었습니다.",
+     "descKo": "Haas F1 팀은 멕시코 GP 주말의 남은 기간 동안 갑자기 Esteban Ocon을 Ryo Hirakawa로 교체했습니다.",
      "lead": [
       "Esteban Ocon will sit out the rest of Formula 1's Mexican Grand Prix with Haas reserve driver Ryo Hirakawa replacing him.",
       "Haas unexpectedly released a short statement on Saturday morning announcing the switch.",
@@ -2037,9 +2081,7 @@
       "Esteban Ocon은 Haas 예비 드라이버 Ryo Hirakawa가 그를 대신하여 Formula 1의 멕시코 그랑프리의 나머지 부분에 참여할 것입니다.",
       "Haas는 예기치 않게 토요일 아침에 스위치 전환을 알리는 짧은 성명을 발표했습니다.",
       "성명서는 \"TGR Haas F1 팀의 예비 드라이버 히라카와 료(Ryo Hirakawa)가 주말 멕시코 시티 그랑프리의 남은 기간 동안 에스테반 오콘(Esteban Ocon)을 대신하게 될 것\"이라고 밝혔습니다."
-     ],
-     "titleKo": "Ocon은 멕시코 F1 주말의 나머지 기간 동안 Haas에서 갑자기 교체되었습니다.",
-     "descKo": "Haas F1 팀은 멕시코 GP 주말의 남은 기간 동안 갑자기 Esteban Ocon을 Ryo Hirakawa로 교체했습니다."
+     ]
     },
     {
      "title": "What F1 teams have done to tackle Mexico's altitude challenge",
@@ -2049,6 +2091,8 @@
      "date": "2026-10-31T14:06:54+00:00",
      "author": "Gary Anderson",
      "id": "a70c64f922",
+     "titleKo": "멕시코의 고도 문제를 해결하기 위해 F1 팀이 한 일",
+     "descKo": "멕시코시티의 해발 2000미터가 넘는 고도에는 F1 차량이 많이 필요합니다. 게리 앤더슨(Gary Anderson)은 최고의 팀들이 합의한 공기역학적 타협에 대해 설명합니다.",
      "lead": [
       "The Mexico City track is one of the outliers of the Formula 1 season, mainly because of the altitude: it is 2240 meters above sea level, which equates to roughly 25% less dense air, so it makes everything just that bit more difficult.",
       "For the drivers it's basically harder work, but for the cars it's a very different story, because at that altitude the cars will produce less downforce and with that less drag. In the past, teams would use more or less Monaco-specification wings but this season with the change in wing regulations and active aero they don't have that possibility.",
@@ -2058,9 +2102,7 @@
       "멕시코 시티 트랙은 주로 고도 때문에 포뮬러 1 시즌의 특이점 중 하나입니다. 해발 2,240m에 달하며 이는 공기 밀도가 약 25% 낮기 때문에 모든 것이 조금 더 어려워집니다.",
       "운전자에게는 기본적으로 더 힘든 작업이지만 자동차의 경우에는 매우 다른 이야기입니다. 왜냐하면 해당 고도에서는 자동차가 더 적은 다운포스와 저항을 생성하기 때문입니다. 과거에는 팀들이 어느 정도 모나코 사양의 윙을 사용했지만 이번 시즌에는 윙 규정과 액티브 에어로의 변화로 인해 그럴 가능성이 없습니다.",
       "따라서 기본적으로 ars는 더 많이 미끄러지지만 감소된 항력은 최고 속도가 평소보다 훨씬 빠르다는 것을 의미합니다. 이는 긴 직선의 끝에 더 빨리 도달하게 되고 더 긴 제동 시간이 필요하게 되어 브레이크에 더 많은 열이 발생한다는 것을 의미합니다."
-     ],
-     "titleKo": "멕시코의 고도 문제를 해결하기 위해 F1 팀이 한 일",
-     "descKo": "멕시코시티의 해발 2000미터가 넘는 고도에는 F1 차량이 많이 필요합니다. 게리 앤더슨(Gary Anderson)은 최고의 팀들이 합의한 공기역학적 타협에 대해 설명합니다."
+     ]
     },
     {
      "title": "Why F1's 2026 cars are unusually quick in Mexico",
@@ -2123,48 +2165,6 @@
       "결국 페라리의 라이벌은 옳았지만 아마도 잘못된 이유가 있었을 것입니다.",
       "멕시코 그랑프리를 앞두고 페라리의 더 작은 터보 디자인은 이론적으로 공기가 희박할 때 덜 힘들기 때문에 고지대 트랙에서 분명한 이점을 제공할 것이라는 이야기가 있었습니다.",
       "그래서 Charles Leclerc가 금요일에 FP1과 FP2 모두에서 가장 빠른 랩을 깔끔하게 휩쓸었을 때 방목장에서는 놀랄 일이 거의 없었습니다. 이는 Prancing Horse가 이길 팀임을 확인시켜 주었습니다."
-     ]
-    },
-    {
-     "title": "Hadjar summoned for alleged paddock misconduct",
-     "desc": "Red Bull driver Isack Hadjar has been summoned by the stewards after alleged misconduct in the F1 paddock in Mexico",
-     "link": "https://www.the-race.com/formula-1/isack-hadjar-summoned-alleged-f1-paddock-misconduct/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448399_HiRes.jpg",
-     "date": "2026-10-31T03:20:35+00:00",
-     "author": "Samarth Kanal",
-     "id": "4c0bbb3ff3",
-     "titleKo": "방목장 위법 행위 혐의로 하자르 소환",
-     "descKo": "레드불(Red Bull) 드라이버 이삭 하자르(Isack Hadjar)가 멕시코 F1 목장에서 위법 행위를 한 혐의로 관리진에 의해 소환됐다.",
-     "lead": [
-      "Isack Hadjar has been summoned by the stewards after alleged misconduct in the Formula 1 paddock at the Mexican Grand Prix.",
-      "The FIA stewards called the Red Bull driver to see them for \"misconduct relating to an incident in the Formula 1 paddock\".",
-      "The summons does not specify why Hadjar has been summoned."
-     ],
-     "leadKo": [
-      "Isack Hadjar는 멕시코 그랑프리의 Formula 1 목장에서 위법 행위를 한 혐의로 관리진에 의해 소환되었습니다.",
-      "FIA 스튜어드는 \"F1 패독에서 발생한 사건과 관련된 위법 행위\"에 대해 Red Bull 드라이버에게 전화를 걸어 확인했습니다.",
-      "소환장에는 하자르가 소환된 이유가 명시되어 있지 않습니다."
-     ]
-    },
-    {
-     "title": "Verstappen and Lawson get grid drops for 'clumsy' Mexico clash",
-     "desc": "Max Verstappen and Liam Lawson have each been given one-place grid penalties for their \"clumsy\" Mexico clash",
-     "link": "https://www.the-race.com/formula-1/verstappen-and-lawson-get-grid-drops-for-clumsy-mexico-clash/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/10/XPB_1448902_HiRes--1-.jpg",
-     "date": "2026-10-31T03:20:08+00:00",
-     "author": "Jack Cozens",
-     "id": "8b69be4d14",
-     "titleKo": "베르스타펜과 로슨은 '서투른' 멕시코 충돌로 그리드 드롭을 받았습니다.",
-     "descKo": "Max Verstappen과 Liam Lawson은 \"서투른\" 멕시코 충돌로 인해 각각 한 자리 그리드 페널티를 받았습니다.",
-     "lead": [
-      "Max Verstappen and Liam Lawson have each been given one-place grid penalties for their \"clumsy\" clash during second Formula 1 practice at the Mexican Grand Prix.",
-      "That incident occurred early in FP2 when Verstappen, on a prep lap, tried to lunge past Lawson - on a cooldown lap before another push - into the 90-degree Turn 12 right-hander.",
-      "Lawson stayed on the outside of Verstappen through that corner, which became the inside line for the Turn 13 switchback in the stadium section, before Verstappen cut across the track at Turn 14 and got ahead of the Racing Bulls driver, though only via contact that shattered the Red Bull's left-side bargeboard, with the resulting debris prompting a red flag."
-     ],
-     "leadKo": [
-      "Max Verstappen과 Liam Lawson은 멕시코 그랑프리에서 열린 두 번째 포뮬러 1 연습 중 \"서투른\" 충돌로 인해 각각 한 자리 그리드 페널티를 받았습니다.",
-      "이 사건은 FP2 초반에 Verstappen이 준비 랩에서 Lawson을 지나서(또 다른 푸시 전 쿨다운 랩에서) 90도 턴 12의 오른 손잡이로 돌진하려고 시도했을 때 발생했습니다.",
-      "Lawson은 경기장 구역의 13번째 스위치백을 위한 내부 라인이 된 해당 코너를 통해 Verstappen의 외부에 머물렀고, Verstappen은 14번째 턴에서 트랙을 가로질러 Racing Bulls 드라이버보다 앞서갔습니다. 그러나 접촉을 통해서만 Red Bull의 왼쪽 바지선이 부서졌고 그 결과 잔해가 위험 신호를 촉발했습니다."
      ]
     }
    ]
@@ -2369,6 +2369,30 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Ryo Hirakawa's Opening Titles Shoot! 🤩",
+     "desc": "Go behind the scenes with Haas driver, Ryo Hirakawa, as he shoot his opening titles sequence for his F1 debut weekend!",
+     "link": "https://www.youtube.com/watch?v=RqhtDx6KEhU",
+     "image": "https://i.ytimg.com/vi/RqhtDx6KEhU/hqdefault.jpg",
+     "date": "2026-10-31T21:19:49+00:00",
+     "author": "FORMULA 1",
+     "videoId": "RqhtDx6KEhU",
+     "id": "128387988e",
+     "titleKo": "히라카와 료의 오프닝 타이틀 촬영! 😋",
+     "descKo": ""
+    },
+    {
+     "title": "FP3 Highlights | 2026 Mexico City Grand Prix",
+     "desc": "The final hour of practice got underway in Mexico City, as the teams made their final adjustments ahead of Qualifying.",
+     "link": "https://www.youtube.com/watch?v=BH33XWkjtBI",
+     "image": "https://i.ytimg.com/vi/BH33XWkjtBI/hqdefault.jpg",
+     "date": "2026-10-31T19:54:25+00:00",
+     "author": "FORMULA 1",
+     "videoId": "BH33XWkjtBI",
+     "id": "0a0ea24a50",
+     "titleKo": "FP3 하이라이트 | 2026 멕시코시티 그랑프리",
+     "descKo": ""
+    },
+    {
      "title": "Checo blind ranks his best career moments!",
      "desc": "Sergio Perez will mark 300 Grands Prix starts at his home race in Mexico, here he blind ranks some of his most memorable career moments",
      "link": "https://www.youtube.com/watch?v=IamR22idnIQ",
@@ -2450,30 +2474,6 @@
      "videoId": "akpACN_9Sps",
      "id": "587ad770bb",
      "titleKo": "이력서 | Todos Los Grandes Premios que Checo Pérez corrió en el Hermanos Rodríguez de México",
-     "descKo": ""
-    },
-    {
-     "title": "Checo guesses the 300 club members! 🏁",
-     "desc": "Sergio Perez will mark 300 Grands Prix starts this weekend in Mexico! Can he guess who he will be joining in the 300 club?",
-     "link": "https://www.youtube.com/watch?v=dIBvRTqUkN0",
-     "image": "https://i.ytimg.com/vi/dIBvRTqUkN0/hqdefault.jpg",
-     "date": "2026-10-30T15:15:31+00:00",
-     "author": "FORMULA 1",
-     "videoId": "dIBvRTqUkN0",
-     "id": "82d6b3b1de",
-     "titleKo": "체코가 동호회 회원 300명을 추측하다! 🏁",
-     "descKo": ""
-    },
-    {
-     "title": "When George Went Undercover 🤣",
-     "desc": "George Russell went undercover in 2025, heading up to the stands to watch the session in amongst the fans.",
-     "link": "https://www.youtube.com/watch?v=gmkJBKiE77Q",
-     "image": "https://i.ytimg.com/vi/gmkJBKiE77Q/hqdefault.jpg",
-     "date": "2026-10-30T12:00:23+00:00",
-     "author": "FORMULA 1",
-     "videoId": "gmkJBKiE77Q",
-     "id": "2aaf0f9fb5",
-     "titleKo": "조지가 잠복했을 때 🤣",
      "descKo": ""
     }
    ]
