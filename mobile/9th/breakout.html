@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>네온 벽돌깨기</title>
+  <style>
+    :root {
+      --cyan: #00e5ff; --pink: #ff4fd8; --purple: #8a5cff; --yellow: #ffe45c;
+      --muted: #9aa0c8; --glass: rgba(255,255,255,.06); --border: rgba(255,255,255,.15);
+      --game-w: min(96vw, 900px, calc((100vh - 170px) * 4 / 3));
+    }
+    @property --angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      color: #f2f3ff; background: #05060f; min-height: 100vh; overflow: hidden; padding: 12px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+    }
+    /* 회전하는 오로라 배경 + 스캔라인 */
+    body::before {
+      content: ""; position: fixed; inset: -50%; z-index: -1; animation: rotate 30s linear infinite;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(138,92,255,.35), transparent 40%),
+        radial-gradient(circle at 70% 60%, rgba(0,229,255,.25), transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(255,79,216,.25), transparent 40%);
+    }
+    body::after {
+      content: ""; position: fixed; inset: 0; z-index: 10; pointer-events: none;
+      background: repeating-linear-gradient(0deg, rgba(255,255,255,.025) 0 1px, transparent 1px 3px);
+    }
+
+    /* 네온 제목 */
+    h1 {
+      font-size: clamp(26px, 6vw, 44px); font-weight: 900; letter-spacing: 4px;
+      text-shadow: 0 0 6px var(--pink), 0 0 18px var(--pink), 0 0 40px var(--purple);
+      animation: flicker 4s infinite, popIn 1s both;
+    }
+    h1 span { color: var(--cyan); text-shadow: 0 0 6px var(--cyan), 0 0 30px var(--cyan); }
+
+    /* HUD */
+    .hud { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+    .pill {
+      padding: 8px 14px; font-size: clamp(12px, 3vw, 15px); border-radius: 999px;
+      background: var(--glass); border: 1px solid var(--border); backdrop-filter: blur(10px);
+      animation: popIn .6s both;
+    }
+    .pill:nth-child(2) { animation-delay: .1s; } .pill:nth-child(3) { animation-delay: .2s; } .pill:nth-child(4) { animation-delay: .3s; }
+    .pill label { color: var(--muted); margin-right: 6px; }
+    .pill b { display: inline-block; font-variant-numeric: tabular-nums; }
+    .bump { animation: bump .35s; }
+    #lives span { display: inline-block; color: #ff5a7a; text-shadow: 0 0 8px #ff5a7a; animation: beat 1.2s infinite; }
+
+    /* 게임 화면 + 회전하는 네온 테두리 */
+    .stage { position: relative; width: var(--game-w); aspect-ratio: 4 / 3; animation: popIn .9s .2s both; }
+    .stage::before {
+      content: ""; position: absolute; inset: -3px; z-index: -1; border-radius: 20px; filter: blur(6px);
+      background: conic-gradient(from var(--angle), var(--cyan), var(--purple), var(--pink), var(--yellow), var(--cyan));
+      animation: spin 5s linear infinite;
+    }
+    canvas { display: block; width: 100%; height: 100%; border-radius: 16px; touch-action: none; cursor: none; }
+
+    /* 오버레이 (시작/일시정지/게임오버/클리어) */
+    .overlay {
+      position: absolute; inset: 0; border-radius: 16px; text-align: center;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+      background: rgba(5,6,20,.55); backdrop-filter: blur(6px);
+      opacity: 0; pointer-events: none; transition: opacity .4s;
+    }
+    .overlay.show { opacity: 1; pointer-events: auto; }
+    .big { font-size: clamp(30px, 8vw, 64px); font-weight: 900; }
+    .big span {
+      display: inline-block; color: transparent; background-clip: text; -webkit-background-clip: text;
+      background-image: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink), var(--yellow), var(--cyan));
+      background-size: 400% 100%; filter: drop-shadow(0 0 12px rgba(138,92,255,.8));
+      animation: dropIn .7s both, wave 2s infinite, shine 5s linear infinite;
+    }
+    .sub { color: var(--muted); font-size: clamp(13px, 3.2vw, 17px); line-height: 1.6; animation: fadeUp .6s .4s both; }
+    .sub b { color: var(--yellow); }
+    .btn {
+      position: relative; overflow: hidden; padding: 14px 38px; border: none; border-radius: 999px; cursor: pointer;
+      font-size: clamp(15px, 3.6vw, 18px); font-weight: 800; color: #fff;
+      background: linear-gradient(135deg, var(--purple), var(--pink), var(--cyan)); background-size: 200% 200%;
+      animation: fadeUp .6s .6s both, shine 3s ease infinite alternate, glow 1.6s infinite; transition: transform .15s;
+    }
+    .btn:hover { transform: translateY(-3px) scale(1.06); }
+    .btn::after { /* 버튼 위를 지나가는 빛 */
+      content: ""; position: absolute; inset: 0 auto 0 -60%; width: 40%;
+      background: linear-gradient(100deg, transparent, rgba(255,255,255,.6), transparent); animation: sweep 2.4s infinite;
+    }
+    .help { font-size: clamp(11px, 2.8vw, 13px); color: var(--muted); text-align: center; }
+    .help kbd { padding: 2px 7px; border: 1px solid var(--border); border-radius: 6px; font-family: inherit; }
+    @media (max-width: 520px) { .help .desktop { display: none; } }
+
+    @keyframes rotate { to { transform: rotate(360deg); } }
+    @keyframes spin { to { --angle: 360deg; } }
+    @keyframes flicker { 20%, 24%, 55% { opacity: .4; } 0%, 22%, 26%, 53%, 57%, 100% { opacity: 1; } }
+    @keyframes popIn { from { opacity: 0; transform: translateY(-30px) scale(.7); filter: blur(8px); } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } }
+    @keyframes dropIn { from { opacity: 0; transform: translateY(-80px) rotate(-30deg) scale(.3); } }
+    @keyframes wave { 50% { translate: 0 -8px; } }
+    @keyframes shine { to { background-position: 400% 0; } }
+    @keyframes bump { 50% { transform: scale(1.5); color: var(--yellow); } }
+    @keyframes beat { 15% { transform: scale(1.3); } 30% { transform: scale(1); } }
+    @keyframes glow { 0%, 100% { box-shadow: 0 0 20px rgba(255,79,216,.6); } 50% { box-shadow: 0 0 40px rgba(0,229,255,.8); } }
+    @keyframes sweep { 60%, 100% { left: 130%; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+  </style>
+</head>
+<body>
+  <h1>NEON <span>BREAKER</span></h1>
+
+  <div class="hud">
+    <div class="pill"><label>점수</label><b id="score">0</b></div>
+    <div class="pill"><label>최고</label><b id="best">0</b></div>
+    <div class="pill"><label>레벨</label><b id="level">1</b></div>
+    <div class="pill"><label>생명</label><b id="lives"></b></div>
+  </div>
+
+  <div class="stage">
+    <canvas id="game"></canvas>
+    <div class="overlay" id="overlay">
+      <div class="big" id="ovTitle"></div>
+      <div class="sub" id="ovSub"></div>
+      <button class="btn" id="ovBtn"></button>
+    </div>
+  </div>
+
+  <p class="help">
+    <span class="desktop">마우스 / <kbd>←</kbd><kbd>→</kbd> 이동 · <kbd>Space</kbd> 발사 · <kbd>P</kbd> 일시정지</span>
+    <span>· 드래그로 이동, 탭으로 발사</span>
+  </p>
+
+  <script>
+    /* =====================================================================
+       네온 벽돌깨기 - 전체 흐름
+       1) loop()가 1초에 약 60번 반복 실행된다.
+       2) 매 반복마다 update()로 "위치·점수 같은 값"을 바꾸고,
+       3) draw()로 바뀐 값을 캔버스에 다시 그린다.
+       이 "계산 → 그리기" 반복이 게임 애니메이션의 기본 원리다.
+       ===================================================================== */
+
+    // =====================================================================
+    // 1. 캔버스 설정
+    // =====================================================================
+    const cvs = document.getElementById("game"); // 게임이 그려질 <canvas> 요소
+    const ctx = cvs.getContext("2d");            // 캔버스에 그림을 그리는 "붓" 객체
+    const W = 800;                               // 게임 화면의 논리적 가로 크기 (모든 좌표 계산은 이 기준)
+    const H = 600;                               // 게임 화면의 논리적 세로 크기
+    const dpr = Math.min(devicePixelRatio || 1, 2); // 화면 픽셀 밀도 (레티나 화면에서 선명하게 보이도록, 최대 2배)
+
+    cvs.width = W * dpr;  // 실제 캔버스 픽셀 수를 밀도만큼 늘리고
+    cvs.height = H * dpr;
+    ctx.scale(dpr, dpr);  // 그릴 때는 다시 800×600 기준 좌표를 쓰도록 배율 보정
+
+    // =====================================================================
+    // 2. 자주 쓰는 작은 도구 함수
+    // =====================================================================
+
+    // id로 HTML 요소를 찾는다. 예) $("score") → <b id="score">
+    const $ = (id) => document.getElementById(id);
+
+    // a 이상 b 미만의 랜덤 실수를 돌려준다. 예) rand(1, 3) → 2.37
+    const rand = (a, b) => a + Math.random() * (b - a);
+
+    // 값 v가 a~b 범위를 벗어나지 않게 잘라준다. 예) clamp(15, 0, 10) → 10
+    const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+    // 0→1로 가는 진행률 t를 "살짝 넘쳤다가 돌아오는" 탄성 곡선으로 바꾼다 (튕기는 등장 효과용)
+    const easeOutBack = (t) => 1 + 2.7 * (t - 1) ** 3 + 1.7 * (t - 1) ** 2;
+
+    // 색상(h: 0~360), 밝기(l: %), 투명도(a: 0~1)로 CSS 색 문자열을 만든다
+    const hsl = (h, l = 65, a = 1) => `hsla(${h},100%,${l}%,${a})`;
+
+    // 모서리가 둥근 사각형 "경로"를 만든다 (만든 뒤 fill/stroke로 칠함)
+    const roundRect = (x, y, w, h, r) => { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); };
+
+    // =====================================================================
+    // 3. 게임 상태 변수
+    // =====================================================================
+
+    // 현재 게임 단계
+    //  start: 첫 화면 | ready: 공이 패들 위에서 발사 대기 | play: 게임 중
+    //  pause: 일시정지 | clear: 레벨 클리어 | over: 게임 오버
+    let state = "start";
+
+    let score = 0;     // 현재 점수
+    let lives = 3;     // 남은 생명 수
+    let level = 1;     // 현재 레벨 (오를수록 벽돌 줄 수·공 속도 증가)
+    let combo = 0;     // 패들에 닿지 않고 연속으로 맞힌 벽돌 수
+    let time = 0;      // 게임 시작 후 흐른 시간(초) - 모든 반복 애니메이션의 기준
+    let shake = 0;     // 화면 흔들림 세기 (0이면 안 흔들림, 점점 줄어듦)
+    let slowTimer = 0; // 슬로우 아이템 남은 시간(초)
+    let fwTimer = 0;   // 다음 불꽃놀이까지 남은 시간(초) - 레벨 클리어 화면에서 사용
+
+    // 최고 점수: 브라우저 저장소(localStorage)에서 불러오고, 없으면 0
+    let best = Number(localStorage.getItem("neonBreakerBest")) || 0;
+
+    // 화면에 있는 물체들을 담는 배열 (각 원소는 하나의 물체 객체)
+    let bricks = [];    // 벽돌들
+    let balls = [];     // 공들 (멀티볼이면 여러 개)
+    let items = [];     // 떨어지고 있는 아이템들
+    let particles = []; // 파편·불꽃 같은 작은 입자들
+    let texts = [];     // 떠오르는 글자 ("+10", "COMBO x3" 등)
+    let rings = [];     // 퍼져나가는 원형 충격파
+
+    // 화면 전체 번쩍임 효과 (a: 투명도 0~1, rgb: 색)
+    const flash = { a: 0, rgb: "255,255,255" };
+
+    // 현재 눌려 있는 키 목록. 예) keys.ArrowLeft === true 이면 ← 키를 누르는 중
+    const keys = {};
+
+    // 플레이어가 조종하는 패들
+    const paddle = {
+      x: W / 2,      // 현재 가운데 x 좌표
+      target: W / 2, // 마우스·키보드가 가리키는 목표 x 좌표 (x가 이 값을 부드럽게 따라감)
+      y: H - 36,     // 가운데 y 좌표 (고정)
+      w: 110,        // 가로 길이 (확장 아이템을 먹으면 170으로 늘어남)
+      h: 14,         // 세로 두께
+      squash: 0,     // 공에 맞았을 때 찌그러지는 정도 (1 → 0으로 줄어듦)
+      vx: 0,         // 가로 이동 속도 (기울어지는 효과에 사용)
+      wideTimer: 0,  // 패들 확장 아이템 남은 시간(초)
+    };
+
+    // 배경에 흘러가는 별 120개
+    //  x, y: 위치 | z: 깊이(0.2~1, 클수록 가깝고 크고 빠름) | tw: 반짝이는 타이밍을 별마다 다르게 하는 값
+    const stars = Array.from({ length: 120 }, () => ({ x: rand(0, W), y: rand(0, H), z: rand(0.2, 1), tw: rand(0, 6) }));
+
+    // 아이템 종류별 정보 (color: 색, label: 캡슐에 쓰인 글자, name: 먹었을 때 뜨는 문구)
+    const ITEMS = {
+      wide:  { color: "#00e5ff", label: "W", name: "패들 확장!" },
+      multi: { color: "#ff4fd8", label: "M", name: "멀티볼!" },
+      slow:  { color: "#7cff6b", label: "S", name: "슬로우!" },
+      life:  { color: "#ff5a7a", label: "♥", name: "생명 +1" },
+    };
+
+    // =====================================================================
+    // 4. 화면 위쪽 정보(HUD)와 안내창(오버레이)
+    // =====================================================================
+
+    // 점수·최고점수·레벨·생명 표시를 최신 값으로 바꾼다.
+    // bumpId를 주면 그 숫자가 "톡" 튀어 오르는 애니메이션을 실행한다.
+    function updateHUD(bumpId) {
+      $("score").textContent = score;
+      $("best").textContent = best = Math.max(best, score); // 최고점수 갱신
+      $("level").textContent = level;
+      $("lives").innerHTML = "<span>♥</span>".repeat(lives); // 생명 수만큼 하트 표시
+      localStorage.setItem("neonBreakerBest", best);          // 최고점수 저장
+      if (bumpId) {
+        const el = $(bumpId);
+        el.classList.remove("bump");
+        void el.offsetWidth; // 브라우저가 변화를 인식하게 해서 애니메이션을 처음부터 다시 실행시키는 요령
+        el.classList.add("bump");
+      }
+    }
+
+    // 안내창을 띄운다. title: 큰 제목, sub: 설명 문구, btn: 버튼 글자
+    function showOverlay(title, sub, btn) {
+      // 제목을 한 글자씩 <span>으로 감싸고, 글자마다 등장 시간을 조금씩 늦춰서 하나씩 떨어지게 함
+      $("ovTitle").innerHTML = [...title].map((c, i) =>
+        c === " " ? "&nbsp;" : `<span style="animation-delay:${i * 0.06}s,${0.7 + i * 0.08}s,0s">${c}</span>`).join("");
+      $("ovSub").innerHTML = sub;
+      $("ovBtn").textContent = btn;
+      const ov = $("overlay");
+      // 안내창 안의 애니메이션들을 처음부터 다시 재생
+      [...ov.children].forEach((el) => { el.style.animation = "none"; void el.offsetWidth; el.style.animation = ""; });
+      ov.classList.add("show");
+    }
+
+    // =====================================================================
+    // 5. 게임 진행 (레벨 만들기, 시작, 발사, 일시정지)
+    // =====================================================================
+
+    // 현재 레벨에 맞게 벽돌을 배치한다
+    function buildLevel() {
+      const cols = 10;                        // 가로 벽돌 개수
+      const rows = Math.min(4 + level, 8);    // 세로 줄 수 (레벨 1은 5줄, 최대 8줄)
+      const pad = 40;                         // 화면 좌우 여백
+      const gap = 8;                          // 벽돌 사이 간격
+      const bh = 22;                          // 벽돌 높이
+      const bw = (W - pad * 2 - gap * (cols - 1)) / cols; // 화면 폭에 딱 맞게 계산한 벽돌 너비
+
+      bricks = [];
+      for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+        // 레벨 2부터는 규칙적으로 빈칸을 만들어 모양을 다르게 함
+        if (level > 1 && (r * 3 + c * 7 + level) % (level % 2 ? 5 : 4) === 0) continue;
+        // 체력: 레벨 4부터 맨 윗줄은 3번, 위쪽 몇 줄은 2번, 나머지는 1번 맞아야 깨짐
+        const hp = level >= 4 && r === 0 ? 3 : r < Math.min(level - 1, 3) ? 2 : 1;
+        bricks.push({
+          x: pad + c * (bw + gap), // 왼쪽 위 x
+          y: 64 + r * (bh + gap),  // 왼쪽 위 y
+          w: bw, h: bh,            // 크기
+          hp, maxHp: hp,           // 남은 체력 / 처음 체력
+          hue: (r * 38 + level * 40 + 180) % 360, // 색상 (줄마다, 레벨마다 다르게)
+          flash: 0,                // 맞았을 때 하얗게 번쩍이는 정도 (1 → 0)
+          wobble: 0,               // 맞았을 때 출렁이는 정도 (1 → 0)
+          born: time + (r + c) * 0.04 + rand(0, 0.08), // 등장 시작 시각 (대각선 순서로 차례차례 떨어짐)
+        });
+      }
+    }
+
+    // 레벨을 시작한다. fresh가 true면 새 게임(점수·생명·레벨 초기화), false면 다음 레벨
+    function startLevel(fresh) {
+      if (fresh) { score = 0; lives = 3; level = 1; }
+      $("overlay").classList.remove("show");
+      buildLevel();
+      resetRound();
+      updateHUD(fresh ? null : "level");
+    }
+
+    // 공 하나를 패들 위에 올려 두고(발사 대기), 콤보·아이템 효과를 초기화한다
+    function resetRound() {
+      combo = 0; paddle.wideTimer = 0; slowTimer = 0; items = [];
+      balls = [{
+        x: paddle.x, y: paddle.y - 20, // 위치
+        vx: 0, vy: 0,                  // 속도 (1초에 움직이는 픽셀 수)
+        r: 8,                          // 반지름
+        stuck: true,                   // true면 패들에 붙어 있음 (발사 전)
+        trail: [],                     // 지나온 위치 기록 (빛나는 꼬리 그리기용)
+      }];
+      state = "ready";
+    }
+
+    // 현재 레벨의 기본 공 속도 (초당 픽셀). 레벨이 오를수록 빨라짐
+    const baseSpeed = () => 380 + level * 28;
+
+    // 패들 위의 공을 위쪽으로 발사한다
+    function launch() {
+      for (const b of balls) {
+        const a = rand(-0.45, 0.45);       // 발사 각도 (라디안, 0이면 정확히 위쪽)
+        b.stuck = false;
+        b.vx = baseSpeed() * Math.sin(a);  // 각도를 가로·세로 속도로 나눔
+        b.vy = -baseSpeed() * Math.cos(a); // 화면 좌표는 위로 갈수록 y가 작아지므로 음수
+        burst(b.x, b.y, "#fff", 14, 220);
+        rings.push({ x: b.x, y: b.y, r: 4, life: 1 });
+      }
+      state = "play";
+    }
+
+    // 일시정지 ↔ 계속하기 전환
+    function togglePause() {
+      if (state === "play" || state === "ready") {
+        state = "pause";
+        showOverlay("PAUSE", "잠시 쉬어가는 중...", "계속하기");
+      } else if (state === "pause") {
+        $("overlay").classList.remove("show");
+        state = balls[0]?.stuck ? "ready" : "play"; // 발사 전에 멈췄으면 다시 대기 상태로
+      }
+    }
+
+    // 안내창 버튼·스페이스바를 눌렀을 때, 현재 상태에 맞는 행동을 한다
+    function action() {
+      if (state === "ready") launch();                                  // 발사
+      else if (state === "start" || state === "over") startLevel(true); // 새 게임
+      else if (state === "clear") { level++; startLevel(false); }       // 다음 레벨
+      else if (state === "pause") togglePause();                        // 계속하기
+    }
+
+    // =====================================================================
+    // 6. 시각 효과 만들기
+    //    입자(particle)는 공통으로 x, y(위치) · vx, vy(속도) · life(남은 수명) ·
+    //    max(처음 수명) · size(크기) · color(색) · type(모양) 값을 가진다.
+    // =====================================================================
+
+    // (x, y)에서 사방으로 입자 n개를 터뜨린다. power: 퍼지는 속도, type: "dot"(점) 또는 "shard"(파편)
+    function burst(x, y, color, n, power, type = "dot") {
+      for (let i = 0; i < n; i++) {
+        const a = rand(0, 6.28);              // 랜덤 방향 (0~2π 라디안 = 0~360도)
+        const s = rand(power * 0.3, power);   // 랜덤 속력
+        particles.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: rand(0.5, 1.1), max: 1,
+          size: rand(1.5, 4), color, type,
+          rot: rand(0, 6), vr: rand(-12, 12) }); // rot: 회전 각도, vr: 회전 속도 (파편용)
+      }
+    }
+
+    // (x, y)에서 dir 방향(라디안) 주변으로 짧은 선 모양 불꽃 n개를 튀긴다
+    function sparks(x, y, color, n, dir) {
+      for (let i = 0; i < n; i++) {
+        const a = dir + rand(-0.9, 0.9), s = rand(150, 450);
+        particles.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: rand(0.25, 0.5), max: 0.5, size: 2, color, type: "spark" });
+      }
+    }
+
+    // (x, y)에 떠오르는 글자를 추가한다
+    const popText = (x, y, text, color, size = 20) => texts.push({ x, y, text, color, size, life: 1 });
+
+    // 화면 전체를 a 세기로 번쩍이게 한다. rgb: 번쩍임 색 (기본 흰색)
+    const setFlash = (a, rgb = "255,255,255") => Object.assign(flash, { a, rgb });
+
+    // 화면 위쪽 랜덤 위치에 불꽃놀이 하나를 터뜨린다
+    function firework() {
+      const x = rand(100, W - 100), y = rand(80, H * 0.55);
+      burst(x, y, hsl(rand(0, 360)), 50, 320);
+      rings.push({ x, y, r: 5, life: 1 });
+    }
+
+    // =====================================================================
+    // 7. 충돌·이벤트 결과 처리
+    // =====================================================================
+
+    // 공(ball)이 벽돌(b)에 맞았을 때: 체력 감소, 점수, 효과, 아이템 생성
+    function hitBrick(b, ball) {
+      b.hp--; b.flash = 1; b.wobble = 1; combo++;
+      const cx = b.x + b.w / 2, cy = b.y + b.h / 2; // 벽돌 중심
+      const color = hsl(b.hue);
+
+      if (b.hp <= 0) {
+        // 완전히 부서짐: 콤보가 높을수록 점수가 커짐
+        score += 10 * combo;
+        burst(cx, cy, color, 26, 300);
+        burst(cx, cy, color, 10, 220, "shard");
+        rings.push({ x: cx, y: cy, r: 6, life: 1 });
+        popText(cx, cy, "+" + 10 * combo, color, 18 + Math.min(combo, 10) * 1.5);
+        shake = Math.min(shake + 5, 16);
+        // 15% 확률로 4종류 중 하나의 아이템을 떨어뜨림
+        if (Math.random() < 0.15) items.push({ x: cx, y: cy, t: 0, type: Object.keys(ITEMS)[Math.floor(rand(0, 4))] });
+      } else {
+        // 아직 안 깨짐: 작은 점수와 불꽃만
+        score += 5;
+        sparks(ball.x, ball.y, color, 10, Math.atan2(ball.vy, ball.vx) + Math.PI);
+        shake = Math.min(shake + 2, 16);
+      }
+
+      // 3콤보마다 화면 가운데에 콤보 글자 + 노란 번쩍임
+      if (combo >= 3 && combo % 3 === 0) {
+        popText(W / 2, H / 2, "COMBO x" + combo, "#ffe45c", 34 + Math.min(combo, 15) * 2);
+        setFlash(0.12, "255,228,92");
+      }
+
+      // 맞을수록 공이 0.6%씩 빨라짐 (기본 속도의 1.6배까지만)
+      const k = Math.min(1.006, (baseSpeed() * 1.6) / Math.hypot(ball.vx, ball.vy));
+      ball.vx *= k; ball.vy *= k;
+      updateHUD("score");
+    }
+
+    // 패들이 아이템(p)을 받았을 때 효과 적용
+    function applyItem(p) {
+      const info = ITEMS[p.type];
+      popText(p.x, paddle.y - 30, info.name, info.color, 22);
+      burst(p.x, paddle.y, info.color, 30, 260);
+      rings.push({ x: p.x, y: paddle.y, r: 10, life: 1 });
+      setFlash(0.18);
+
+      if (p.type === "wide") paddle.wideTimer = 12;                         // 12초간 패들 확장
+      if (p.type === "slow") slowTimer = 8;                                 // 8초간 공 속도 60%
+      if (p.type === "life" && lives < 5) { lives++; updateHUD("lives"); } // 생명 +1 (최대 5)
+      if (p.type === "multi") {
+        // 날아가는 공마다, 진행 방향을 좌우로 0.5라디안(약 29도) 돌린 공 2개를 추가 (최대 12개 추가)
+        const extra = balls.filter((b) => !b.stuck).flatMap((b) => [-0.5, 0.5].map((a) => ({
+          x: b.x, y: b.y, r: b.r, trail: [],
+          vx: b.vx * Math.cos(a) - b.vy * Math.sin(a), // 속도 벡터를 a만큼 회전시키는 공식
+          vy: b.vx * Math.sin(a) + b.vy * Math.cos(a) })));
+        balls.push(...extra.slice(0, 12));
+      }
+    }
+
+    // 공을 모두 놓쳤을 때: 생명 감소, 남은 생명이 없으면 게임 오버
+    function loseLife() {
+      lives--; shake = 22;
+      setFlash(0.45, "255,60,90"); // 빨간 번쩍임
+      burst(paddle.x, paddle.y, "#ff5a7a", 60, 380);
+      rings.push({ x: paddle.x, y: paddle.y, r: 10, life: 1 });
+      updateHUD("lives");
+      if (lives > 0) return resetRound(); // 생명이 남았으면 같은 레벨에서 다시 발사 대기
+      state = "over";
+      showOverlay("GAME OVER", `최종 점수 <b>${score}</b><br>최고 기록 <b>${best}</b>`, "다시 하기");
+    }
+
+    // 벽돌을 모두 부쉈을 때: 보너스 점수 + 불꽃놀이 + 클리어 안내창
+    function levelClear() {
+      state = "clear"; balls = []; items = [];
+      score += 100 * level; // 레벨 × 100점 보너스
+      updateHUD("score");
+      setFlash(0.5);
+      for (let i = 0; i < 4; i++) firework();
+      showOverlay("LEVEL CLEAR", `클리어 보너스 <b>+${100 * level}</b><br>다음 레벨은 더 빨라집니다!`, `레벨 ${level + 1} 시작`);
+    }
+
+    // =====================================================================
+    // 8. 매 프레임 값 계산 (update)
+    //    dt = 지난 프레임부터 흐른 시간(초, 약 0.016).
+    //    "속도 × dt"만큼 움직이면 컴퓨터 성능과 상관없이 같은 빠르기로 움직인다.
+    // =====================================================================
+
+    // 배경 별, 입자, 글자, 충격파 등 "꾸미기 효과"를 움직이고 수명이 끝난 것을 지운다
+    function updateEffects(dt) {
+      // 별을 아래로 흘려보내고, 화면 밖으로 나가면 맨 위로 다시 올림
+      for (const s of stars) if ((s.y += (20 + s.z * 60) * dt) > H) { s.y = 0; s.x = rand(0, W); }
+      for (const p of particles) {
+        p.x += p.vx * dt; p.y += p.vy * dt; p.life -= dt;
+        if (p.type === "shard") { p.vy += 600 * dt; p.rot += p.vr * dt; } // 파편: 중력으로 떨어지며 회전
+        else { p.vx *= 0.96; p.vy *= 0.96; }                              // 나머지: 점점 느려짐 (공기 저항 느낌)
+      }
+      for (const t of texts) { t.y -= 40 * dt; t.life -= dt * 0.9; } // 글자는 위로 떠오르며 사라짐
+      for (const r of rings) { r.r += 260 * dt; r.life -= dt * 2; }  // 충격파는 커지며 사라짐
+      for (const b of bricks) { b.flash = Math.max(0, b.flash - dt * 5); b.wobble = Math.max(0, b.wobble - dt * 4); }
+      // 수명이 다한 효과 제거
+      particles = particles.filter((p) => p.life > 0);
+      texts = texts.filter((t) => t.life > 0);
+      rings = rings.filter((r) => r.life > 0);
+      shake *= 0.002 ** dt;                     // 흔들림은 빠르게 줄어듦
+      flash.a = Math.max(0, flash.a - dt * 1.5); // 번쩍임도 서서히 사라짐
+      // 클리어 화면에서는 0.25~0.6초마다 불꽃놀이
+      if (state === "clear" && (fwTimer -= dt) <= 0) { firework(); fwTimer = rand(0.25, 0.6); }
+    }
+
+    // 키보드 입력과 목표 위치에 따라 패들을 움직이고, 아이템 타이머를 줄인다
+    function updatePaddle(dt) {
+      // → 키면 +1, ← 키면 -1, 둘 다 아니면 0
+      const dir = (keys.ArrowRight || keys.d ? 1 : 0) - (keys.ArrowLeft || keys.a ? 1 : 0);
+      paddle.target = clamp(paddle.target + dir * 720 * dt, paddle.w / 2, W - paddle.w / 2); // 화면 밖으로 못 나가게
+      const prevX = paddle.x;
+      paddle.x += (paddle.target - paddle.x) * Math.min(1, dt * 18); // 목표까지 남은 거리의 일부만 이동 → 부드러운 움직임
+      paddle.vx = (paddle.x - prevX) / dt;
+      paddle.squash = Math.max(0, paddle.squash - dt * 5);
+      paddle.wideTimer = Math.max(0, paddle.wideTimer - dt);
+      paddle.w += ((paddle.wideTimer > 0 ? 170 : 110) - paddle.w) * Math.min(1, dt * 8); // 길이도 부드럽게 변함
+      slowTimer = Math.max(0, slowTimer - dt);
+      // 패들 양 끝에서 아래로 뿜어지는 엔진 불꽃 (왼쪽 하늘색, 오른쪽 분홍색)
+      for (const side of [-1, 1]) if (Math.random() < 0.6) particles.push({
+        x: paddle.x + side * paddle.w / 2, y: paddle.y + 4, vx: rand(-20, 20), vy: rand(40, 120),
+        life: rand(0.2, 0.4), max: 0.4, size: rand(1.5, 3), color: side < 0 ? "#00e5ff" : "#ff4fd8", type: "dot" });
+    }
+
+    // 공 하나를 움직이고 벽·패들·벽돌과의 충돌을 처리한다
+    function moveBall(ball, dt) {
+      // 발사 전에는 패들 위에서 위아래로 살짝 떠 있음
+      if (ball.stuck) {
+        ball.x = paddle.x;
+        ball.y = paddle.y - paddle.h / 2 - ball.r - 2 + Math.sin(time * 6) * 2;
+        return;
+      }
+      // 꼬리용으로 최근 위치 16개만 기억
+      ball.trail.push({ x: ball.x, y: ball.y });
+      if (ball.trail.length > 16) ball.trail.shift();
+
+      // 빠른 공이 벽돌을 뚫고 지나가지 않도록, 한 프레임 이동을 4px 단위 여러 걸음(steps)으로 나눠서 검사
+      const steps = Math.ceil(Math.hypot(ball.vx, ball.vy) * dt / 4); // 걸음 수
+      const sdt = dt / steps;                                         // 한 걸음당 시간
+      for (let i = 0; i < steps && !ball.dead; i++) {
+        ball.x += ball.vx * sdt;
+        ball.y += ball.vy * sdt;
+
+        // 왼쪽·오른쪽 벽: 가로 방향 반대로
+        if (ball.x < ball.r || ball.x > W - ball.r) {
+          ball.x = clamp(ball.x, ball.r, W - ball.r); ball.vx *= -1;
+          sparks(ball.x, ball.y, "#8a5cff", 6, ball.vx > 0 ? 0 : Math.PI);
+        }
+        // 천장: 아래 방향으로
+        if (ball.y < ball.r) { ball.y = ball.r; ball.vy = Math.abs(ball.vy); sparks(ball.x, ball.y, "#8a5cff", 6, Math.PI / 2); }
+        // 바닥 아래로 떨어지면 공 제거 표시
+        if (ball.y > H + 30) ball.dead = true;
+
+        // 패들: 공이 내려오는 중이고 패들과 겹치면 튕겨냄
+        const pw = paddle.w / 2, ph = paddle.h / 2; // 패들 너비·높이의 절반
+        if (ball.vy > 0 && Math.abs(ball.y - paddle.y) < ph + ball.r && Math.abs(ball.x - paddle.x) < pw + ball.r) {
+          // 패들 가운데에 맞으면 위로 곧게, 끝에 맞을수록 옆으로 비스듬히 (최대 약 60도)
+          const ang = clamp((ball.x - paddle.x) / pw, -1, 1) * 1.05;
+          const sp = Math.hypot(ball.vx, ball.vy); // 현재 속력 유지
+          ball.vx = sp * Math.sin(ang);
+          ball.vy = -sp * Math.cos(ang);
+          ball.y = paddle.y - ph - ball.r; // 패들 안에 파묻히지 않게 위로 꺼냄
+          paddle.squash = 1; combo = 0;    // 패들에 닿으면 콤보 초기화
+          sparks(ball.x, ball.y, "#00e5ff", 12, -Math.PI / 2);
+          rings.push({ x: ball.x, y: paddle.y - ph, r: 4, life: 0.8 });
+        }
+
+        // 벽돌: 사각형 위에서 공 중심과 가장 가까운 점까지의 거리가 반지름보다 작으면 충돌
+        const b = bricks.find((b) => {
+          const dx = ball.x - clamp(ball.x, b.x, b.x + b.w), dy = ball.y - clamp(ball.y, b.y, b.y + b.h);
+          return dx * dx + dy * dy < ball.r * ball.r;
+        });
+        if (b) {
+          // 가로·세로 중 덜 겹친 쪽이 "부딪힌 면" → 그 방향으로 반사
+          const ox = Math.min(ball.x + ball.r - b.x, b.x + b.w - ball.x + ball.r); // 가로로 겹친 양
+          const oy = Math.min(ball.y + ball.r - b.y, b.y + b.h - ball.y + ball.r); // 세로로 겹친 양
+          if (ox < oy) ball.vx = Math.abs(ball.vx) * (ball.x < b.x + b.w / 2 ? -1 : 1); // 옆면에 맞음
+          else ball.vy = Math.abs(ball.vy) * (ball.y < b.y + b.h / 2 ? -1 : 1);         // 윗면·아랫면에 맞음
+          hitBrick(b, ball);
+          if (b.hp <= 0) bricks.splice(bricks.indexOf(b), 1); // 부서진 벽돌은 배열에서 제거
+        }
+      }
+    }
+
+    // 한 프레임 동안의 모든 계산을 담당하는 함수
+    function update(dt) {
+      time += dt;
+      updateEffects(dt);
+      if (state !== "play" && state !== "ready") return; // 게임 중이 아니면 효과만 움직임
+
+      updatePaddle(dt);
+      balls.forEach((b) => moveBall(b, dt * (slowTimer > 0 ? 0.6 : 1))); // 슬로우 중이면 시간을 60%만 흐르게
+      balls = balls.filter((b) => !b.dead);
+      if (!balls.length) return loseLife(); // 공을 전부 놓침
+
+      // 아이템을 떨어뜨리고, 패들에 닿으면 효과 적용
+      for (const p of items) {
+        p.y += 170 * dt; p.t += dt; // t: 떨어진 시간 (흔들림 애니메이션용)
+        if (Math.abs(p.y - paddle.y) < paddle.h && Math.abs(p.x - paddle.x) < paddle.w / 2 + 14) { p.got = true; applyItem(p); }
+      }
+      items = items.filter((p) => !p.got && p.y < H + 30); // 받았거나 화면 밖으로 나간 아이템 제거
+      if (!bricks.length) levelClear();                    // 벽돌이 하나도 없으면 클리어
+    }
+
+    // =====================================================================
+    // 9. 그리기 (draw)
+    //    캔버스는 매 프레임 전체를 새로 그린다. 먼저 그린 것이 뒤에 깔린다.
+    //    ctx.save() / ctx.restore(): 이동·회전·투명도 같은 붓 설정을 저장했다가 되돌림
+    // =====================================================================
+
+    // 배경: 그라데이션 → 성운 → 별 → 바닥 그리드 순서로 그림
+    function drawBackground() {
+      const g = ctx.createLinearGradient(0, 0, 0, H); // 위(남색) → 아래(보라) 그라데이션
+      g.addColorStop(0, "#070818"); g.addColorStop(1, "#160a2e");
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, W, H);
+
+      // 원을 그리며 떠다니고 색이 바뀌는 흐릿한 성운 3개
+      for (let i = 0; i < 3; i++) {
+        const x = W / 2 + Math.cos(time * 0.15 + i * 2.1) * 260, y = H / 2 + Math.sin(time * 0.2 + i * 2.1) * 160;
+        const ng = ctx.createRadialGradient(x, y, 0, x, y, 260), hue = (time * 10 + i * 120) % 360;
+        ng.addColorStop(0, hsl(hue, 55, 0.13)); ng.addColorStop(1, hsl(hue, 55, 0));
+        ctx.fillStyle = ng;
+        ctx.fillRect(0, 0, W, H);
+      }
+
+      // 별: sin 값으로 밝기가 깜빡이고, 가까운 별(z가 큰)일수록 크고 밝음
+      for (const s of stars) {
+        ctx.fillStyle = `rgba(255,255,255,${(0.3 + 0.7 * Math.abs(Math.sin(time * 2 + s.tw))) * s.z})`;
+        ctx.fillRect(s.x, s.y, s.z * 2.2, s.z * 2.2);
+      }
+
+      // 바닥 레트로 그리드: 지평선(hz)에서 퍼지는 세로줄 + 다가오는 가로줄
+      const hz = H * 0.62; // 지평선 높이
+      ctx.strokeStyle = "rgba(255,79,216,.18)";
+      ctx.beginPath();
+      for (let i = -10; i <= 10; i++) { ctx.moveTo(W / 2 + i * 20, hz); ctx.lineTo(W / 2 + i * 140, H); }
+      for (let i = 0; i < 10; i++) {
+        // 제곱을 써서 아래로 갈수록 줄 간격이 넓어짐 → 원근감
+        const y = hz + (H - hz) * ((i + (time * 0.6) % 1) / 10) ** 2;
+        ctx.moveTo(0, y); ctx.lineTo(W, y);
+      }
+      ctx.stroke();
+    }
+
+    // 벽돌: 등장 애니메이션, 둥실거림, 빛줄기, 맞았을 때 번쩍임
+    function drawBricks() {
+      // 왼쪽에서 오른쪽으로 계속 지나가는 하얀 빛줄기 (sx: 빛줄기 중심 x)
+      const sx = (time * 380) % (W + 600) - 300;
+      const shine = ctx.createLinearGradient(sx - 70, 0, sx + 70, 40);
+      shine.addColorStop(0, "rgba(255,255,255,0)");
+      shine.addColorStop(0.5, "rgba(255,255,255,.45)");
+      shine.addColorStop(1, "rgba(255,255,255,0)");
+
+      bricks.forEach((b, i) => {
+        const t = clamp((time - b.born) / 0.7, 0, 1); // 등장 진행률 (0: 아직 안 나옴 → 1: 완전히 자리 잡음)
+        if (!t) return;
+        const e = easeOutBack(t);                                // 튕기듯 자리 잡는 곡선
+        const s = 1 + b.wobble * 0.18 * Math.sin(b.wobble * 20); // 맞았을 때 출렁이는 크기 배율
+        const y = b.y + (1 - e) * -220 + Math.sin(time * 2 + i * 0.5) * 1.5; // 위에서 떨어짐 + 둥실 효과
+
+        ctx.save();
+        ctx.globalAlpha = t; // 등장하면서 점점 선명해짐
+        // 벽돌 중심을 기준으로 크기·회전을 바꾸기 위해, 중심으로 이동 → 변형 → 다시 왼쪽 위로 이동
+        ctx.translate(b.x + b.w / 2, y + b.h / 2);
+        ctx.scale(s * (0.4 + 0.6 * e), s);
+        ctx.rotate((1 - e) * 0.6);
+        ctx.translate(-b.w / 2, -b.h / 2);
+
+        // 몸체: 체력이 줄수록 어두워지는 세로 그라데이션 + 같은 색의 빛 번짐(shadow)
+        const l = 45 + 15 * (b.hp / b.maxHp);
+        const g = ctx.createLinearGradient(0, 0, 0, b.h);
+        g.addColorStop(0, hsl(b.hue, l + 18)); g.addColorStop(1, hsl(b.hue, l - 12));
+        ctx.shadowColor = hsl(b.hue, 60);
+        ctx.shadowBlur = 14;
+        roundRect(0, 0, b.w, b.h, 6);
+        ctx.fillStyle = g;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+
+        // 빛줄기: 벽돌 모양으로 잘라낸(clip) 영역 안에만 그림.
+        // 빛줄기는 화면 전체 기준 좌표라서, 잠시 원래 좌표계로 되돌려(translate) 그림
+        ctx.save();
+        ctx.clip();
+        ctx.translate(-b.x, -y);
+        ctx.fillStyle = shine;
+        ctx.fillRect(b.x, y, b.w, b.h);
+        ctx.restore();
+
+        // 맞았을 때 하얗게 번쩍임
+        if (b.flash) { ctx.fillStyle = `rgba(255,255,255,${b.flash})`; ctx.fill(); }
+
+        // 단단한 벽돌: 반짝이는 흰 테두리 + 남은 체력만큼 작은 네모 점
+        if (b.maxHp > 1) {
+          ctx.strokeStyle = `rgba(255,255,255,${0.4 + 0.3 * Math.sin(time * 5 + i)})`;
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          ctx.fillStyle = "#fff";
+          for (let k = 0; k < b.hp; k++) ctx.fillRect(b.w / 2 + (k - (b.hp - 1) / 2) * 9 - 2, b.h / 2, 4, 4);
+        }
+        ctx.restore();
+      });
+    }
+
+    // 패들: 찌그러짐, 기울기, 색이 흐르는 그라데이션, 아이템 게이지
+    function drawPaddle() {
+      const w = paddle.w * (1 + paddle.squash * 0.15); // 맞으면 옆으로 넓어지고
+      const h = paddle.h * (1 - paddle.squash * 0.4);  // 위아래로 납작해짐
+      ctx.save();
+      ctx.translate(paddle.x, paddle.y);
+      ctx.rotate(clamp(paddle.vx / 4000, -0.12, 0.12)); // 움직이는 방향으로 살짝 기울기
+
+      // 하늘색 → 보라 → 분홍 그라데이션 (가운데 보라색 위치가 좌우로 흔들림)
+      const g = ctx.createLinearGradient(-w / 2, 0, w / 2, 0);
+      g.addColorStop(0, "#00e5ff");
+      g.addColorStop(0.5 + Math.sin(time * 3) * 0.3, "#8a5cff");
+      g.addColorStop(1, "#ff4fd8");
+      ctx.shadowColor = paddle.wideTimer ? "#00e5ff" : "#ff4fd8";
+      ctx.shadowBlur = 24 + Math.sin(time * 8) * 6; // 빛 번짐이 숨쉬듯 커졌다 작아짐
+      roundRect(-w / 2, -h / 2, w, h, h / 2);
+      ctx.fillStyle = g;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+
+      // 아이템 남은 시간 게이지 (패들 아래 얇은 선, 시간이 줄면 짧아짐)
+      ctx.fillStyle = "#00e5ff"; ctx.fillRect(-w / 2, h / 2 + 5, w * paddle.wideTimer / 12, 2);
+      ctx.fillStyle = "#7cff6b"; ctx.fillRect(-w / 2, h / 2 + 9, w * slowTimer / 8, 2);
+      ctx.restore();
+    }
+
+    // 공: 빛나는 꼬리 + 주변 빛 + 흰 중심
+    function drawBalls() {
+      // 공 색상: 슬로우 중이면 초록, 아니면 콤보가 오를수록 하늘색 → 보라 → 붉은색
+      const hue = slowTimer ? 120 : 190 - Math.min(combo, 12) * 15;
+      ctx.globalCompositeOperation = "lighter"; // 겹치는 부분이 더 밝아지는 "빛 더하기" 모드
+      for (const b of balls) {
+        // 꼬리: 오래된 위치일수록 작고 투명하게
+        b.trail.forEach((p, i) => {
+          const k = i / b.trail.length;
+          ctx.fillStyle = hsl(hue, 60, k * 0.5);
+          ctx.beginPath(); ctx.arc(p.x, p.y, b.r * k, 0, 7); ctx.fill(); // 0~7라디안: 원 한 바퀴(2π≈6.28)보다 조금 크게
+        });
+        // 공 주변 은은한 빛
+        const g = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r * 3.5);
+        g.addColorStop(0, hsl(hue, 70, 0.8)); g.addColorStop(1, hsl(hue, 60, 0));
+        ctx.fillStyle = g;
+        ctx.beginPath(); ctx.arc(b.x, b.y, b.r * 3.5, 0, 7); ctx.fill();
+      }
+      ctx.globalCompositeOperation = "source-over"; // 기본 그리기 모드로 복구
+      ctx.fillStyle = "#fff";
+      for (const b of balls) { ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, 7); ctx.fill(); }
+    }
+
+    // 떨어지는 아이템 캡슐: 커졌다 작아지고 좌우로 흔들림
+    function drawItems() {
+      ctx.font = "bold 14px sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      for (const p of items) {
+        const info = ITEMS[p.type];
+        const s = 1 + Math.sin(p.t * 10) * 0.12; // 두근거리는 크기 배율
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.scale(s, s);
+        ctx.rotate(Math.sin(p.t * 4) * 0.3);
+        ctx.shadowColor = ctx.fillStyle = info.color;
+        ctx.shadowBlur = 20;
+        roundRect(-20, -11, 40, 22, 11);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+        ctx.fillStyle = "#0b0d1a";
+        ctx.fillText(info.label, 0, 1);
+        ctx.restore();
+      }
+    }
+
+    // 입자·충격파·떠오르는 글자 그리기
+    function drawEffects() {
+      ctx.globalCompositeOperation = "lighter";
+      for (const p of particles) {
+        const a = clamp(p.life / p.max, 0, 1); // 남은 수명 비율 = 투명도 (수명이 줄수록 흐려짐)
+        ctx.globalAlpha = a;
+        ctx.fillStyle = ctx.strokeStyle = p.color;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        if (p.type === "spark") {
+          // 불꽃: 진행 방향 반대로 짧은 선을 그어 빠르게 날아가는 느낌
+          ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * 0.04, p.y - p.vy * 0.04); ctx.stroke();
+        } else if (p.type === "shard") {
+          // 파편: 회전하는 가느다란 사각형
+          ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+          ctx.fillRect(-p.size * 1.5, -p.size / 2, p.size * 3, p.size); ctx.restore();
+        } else {
+          // 점: 수명이 줄수록 작아지는 원
+          ctx.arc(p.x, p.y, p.size * a + 0.5, 0, 7); ctx.fill();
+        }
+      }
+      // 충격파: 커지면서 선이 가늘어지고 투명해짐
+      ctx.strokeStyle = "#fff";
+      for (const r of rings) {
+        ctx.globalAlpha = r.life;
+        ctx.lineWidth = 3 * r.life;
+        ctx.beginPath(); ctx.arc(r.x, r.y, r.r, 0, 7); ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+      ctx.globalCompositeOperation = "source-over";
+
+      // 떠오르는 글자: 처음 0.15초 동안 튀어나오듯 커지고, 이후 위로 떠오르며 사라짐
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      for (const t of texts) {
+        const age = 1 - t.life; // 생긴 지 얼마나 됐는지
+        const s = age < 0.15 ? easeOutBack(age / 0.15) : 1;
+        ctx.save();
+        ctx.globalAlpha = clamp(t.life * 1.5, 0, 1);
+        ctx.translate(t.x, t.y);
+        ctx.scale(s, s);
+        ctx.font = `900 ${t.size}px sans-serif`;
+        ctx.shadowColor = ctx.fillStyle = t.color;
+        ctx.shadowBlur = 16;
+        ctx.fillText(t.text, 0, 0);
+        ctx.restore();
+      }
+    }
+
+    // 한 프레임 화면 전체를 그리는 함수 (뒤에서 앞 순서)
+    function draw() {
+      ctx.save();
+      // 흔들림: 화면 전체를 랜덤하게 조금씩 밀어서 그림
+      if (shake > 0.3) ctx.translate(rand(-shake, shake), rand(-shake, shake));
+      drawBackground();
+      drawBricks();
+      drawItems();
+      if (state !== "start" && state !== "over") drawPaddle(); // 첫 화면·게임 오버에서는 패들 숨김
+      drawBalls();
+      drawEffects();
+      ctx.restore();
+
+      // 발사 대기 중 안내 문구 (깜빡임)
+      if (state === "ready") {
+        ctx.globalAlpha = 0.55 + Math.sin(time * 4) * 0.45;
+        ctx.font = "bold 20px sans-serif";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#fff";
+        ctx.fillText("클릭 · 탭 · 스페이스로 발사!", W / 2, H * 0.72);
+        ctx.globalAlpha = 1;
+      }
+      // 화면 번쩍임은 맨 위에 덮어 그림
+      if (flash.a) { ctx.fillStyle = `rgba(${flash.rgb},${flash.a})`; ctx.fillRect(0, 0, W, H); }
+    }
+
+    // =====================================================================
+    // 10. 입력 처리 (마우스·터치·키보드)
+    // =====================================================================
+
+    // 브라우저 화면의 x 좌표를 게임 좌표(0~800)로 바꾼다 (캔버스가 화면에 맞춰 늘어나거나 줄어들기 때문)
+    const toLocalX = (cx) => { const r = cvs.getBoundingClientRect(); return (cx - r.left) / r.width * W; };
+
+    // 마우스/손가락을 움직이면 패들 목표 위치 변경 (pointer 이벤트는 마우스와 터치를 모두 처리)
+    cvs.addEventListener("pointermove", (e) => (paddle.target = toLocalX(e.clientX)));
+    // 클릭/탭: 패들 이동 + 발사 대기 중이면 발사
+    cvs.addEventListener("pointerdown", (e) => { paddle.target = toLocalX(e.clientX); if (state === "ready") launch(); });
+    // 안내창 버튼
+    $("ovBtn").addEventListener("click", action);
+
+    // 키를 누르면 keys에 기록, 스페이스는 상황별 행동, P·Esc는 일시정지
+    addEventListener("keydown", (e) => {
+      keys[e.key] = true;
+      if (e.key === " ") { e.preventDefault(); action(); } // preventDefault: 스페이스로 페이지가 스크롤되는 것 방지
+      if (["p", "P", "Escape"].includes(e.key)) togglePause();
+    });
+    // 키를 떼면 keys에서 해제
+    addEventListener("keyup", (e) => (keys[e.key] = false));
+    // 다른 탭으로 이동하면 자동 일시정지
+    document.addEventListener("visibilitychange", () => document.hidden && state !== "pause" && togglePause());
+
+    // =====================================================================
+    // 11. 메인 루프와 게임 시작
+    // =====================================================================
+    let last = performance.now(); // 직전 프레임 시각(밀리초)
+
+    // 브라우저가 화면을 새로 그릴 때마다(보통 1초 60번) 호출되는 함수
+    function loop(now) {
+      // dt를 최대 1/30초로 제한: 탭 전환 등으로 오래 멈췄다가 돌아와도 공이 순간이동하지 않게
+      update(Math.min((now - last) / 1000, 1 / 30));
+      draw();
+      last = now;
+      requestAnimationFrame(loop); // 다음 프레임에 다시 loop 실행 예약
+    }
+
+    buildLevel(); // 첫 화면 뒤에 장식용으로 벽돌을 깔아둠
+    updateHUD();
+    showOverlay("NEON BREAKER", "벽돌을 모두 부수세요!<br>떨어지는 아이템을 받으면 <b>특수 능력</b>이 생깁니다.", "게임 시작");
+    requestAnimationFrame(loop); // 게임 루프 시작
+  </script>
+</body>
+</html>

@@ -5,90 +5,540 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>구구단 만들기</title>
   <style>
+    :root {
+      --bg: #0b0d1a;
+      --glass: rgba(255, 255, 255, 0.06);
+      --glass-border: rgba(255, 255, 255, 0.14);
+      --text: #f3f4ff;
+      --muted: #a3a8c9;
+      --accent1: #7c5cff;
+      --accent2: #00d4ff;
+      --accent3: #ff5ca8;
+      --error: #ff6b7a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      font-family: sans-serif;
-      background: #f4f6fb;
-      margin: 0;
-      padding: 30px 16px;
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: clamp(20px, 5vw, 60px) 16px;
+    }
+
+    /* ===== 배경: 움직이는 그라데이션 블롭 ===== */
+    .blob {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.55;
+      z-index: -2;
+      animation: float 18s ease-in-out infinite alternate;
+    }
+    .blob.b1 { width: 45vmax; height: 45vmax; background: var(--accent1); top: -15vmax; left: -10vmax; }
+    .blob.b2 { width: 38vmax; height: 38vmax; background: var(--accent2); bottom: -15vmax; right: -10vmax; animation-delay: -6s; }
+    .blob.b3 { width: 28vmax; height: 28vmax; background: var(--accent3); top: 40%; left: 55%; animation-delay: -12s; opacity: 0.35; }
+
+    @keyframes float {
+      0%   { transform: translate(0, 0) scale(1); }
+      50%  { transform: translate(8vw, 6vh) scale(1.15); }
+      100% { transform: translate(-6vw, -4vh) scale(0.95); }
+    }
+
+    /* 배경에 떠다니는 숫자들 */
+    .floating-nums {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .floating-nums span {
+      position: absolute;
+      bottom: -60px;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 0.07);
+      animation: rise linear infinite;
+    }
+    @keyframes rise {
+      from { transform: translateY(0) rotate(0deg); }
+      to   { transform: translateY(-120vh) rotate(360deg); }
+    }
+
+    /* ===== 메인 카드 (글래스모피즘) ===== */
+    .card {
+      position: relative;
+      width: 100%;
+      max-width: 640px;
+      padding: clamp(24px, 5vw, 44px);
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+      animation: cardIn 0.9s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+    }
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(40px) scale(0.95); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    /* 제목: 글자별 등장 + 흐르는 그라데이션 */
+    h1 {
+      font-size: clamp(30px, 7vw, 48px);
+      font-weight: 800;
+      letter-spacing: -1px;
       text-align: center;
     }
-    h1 { color: #333; }
+    h1 .ch {
+      display: inline-block;
+      background: linear-gradient(90deg, var(--accent2), var(--accent1), var(--accent3), var(--accent2));
+      background-size: 300% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      opacity: 0;
+      transform: translateY(30px) rotate(-8deg);
+      animation:
+        letterIn 0.6s cubic-bezier(0.2, 0.9, 0.3, 1.4) forwards,
+        shine 6s linear infinite;
+    }
+    @keyframes letterIn {
+      to { opacity: 1; transform: translateY(0) rotate(0); }
+    }
+    @keyframes shine {
+      to { background-position: 300% 0; }
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      text-align: center;
+      color: var(--muted);
+      font-size: clamp(13px, 3.4vw, 15px);
+      opacity: 0;
+      animation: fadeUp 0.6s 0.6s forwards;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== 입력 영역 ===== */
     .input-box {
-      margin: 20px auto;
+      display: flex;
+      gap: 10px;
+      margin-top: 28px;
+      opacity: 0;
+      animation: fadeUp 0.6s 0.75s forwards;
     }
+    .input-wrap {
+      position: relative;
+      flex: 1;
+    }
+    .input-wrap::before {
+      /* 포커스 시 회전하는 테두리 빛 */
+      content: "";
+      position: absolute;
+      inset: -2px;
+      border-radius: 16px;
+      background: conic-gradient(from var(--angle, 0deg), var(--accent1), var(--accent2), var(--accent3), var(--accent1));
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: -1;
+      animation: spin 3s linear infinite;
+    }
+    .input-wrap:focus-within::before { opacity: 1; }
+    @property --angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+    }
+    @keyframes spin { to { --angle: 360deg; } }
+
     input {
-      width: 120px;
-      padding: 8px;
-      font-size: 16px;
-      text-align: center;
-      border: 1px solid #aaa;
-      border-radius: 6px;
+      width: 100%;
+      padding: 16px 18px;
+      font-size: 17px;
+      color: var(--text);
+      background: #14172b;
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      outline: none;
     }
-    button {
-      padding: 9px 18px;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      background: #4a6cf7;
+    input::placeholder { color: #6b7096; }
+    input::-webkit-inner-spin-button,
+    input::-webkit-outer-spin-button { -webkit-appearance: none; appearance: none; }
+    input[type=number] { -moz-appearance: textfield; appearance: textfield; }
+
+    .shake { animation: shake 0.45s; }
+    @keyframes shake {
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+
+    .btn {
+      position: relative;
+      overflow: hidden;
+      padding: 0 28px;
+      font-size: 17px;
+      font-weight: 700;
       color: white;
+      border: none;
+      border-radius: 14px;
       cursor: pointer;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      background-size: 200% 200%;
+      animation: gradientMove 4s ease infinite;
+      transition: transform 0.15s, box-shadow 0.3s;
     }
-    button:hover { background: #3553d6; }
-    #error { color: #d33; min-height: 20px; }
-    table {
-      margin: 20px auto;
-      border-collapse: collapse;
-      background: white;
-      min-width: 220px;
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(124, 92, 255, 0.55);
     }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px 20px;
-      font-size: 18px;
+    .btn:active { transform: scale(0.95); }
+    @keyframes gradientMove {
+      0%, 100% { background-position: 0% 50%; }
+      50%      { background-position: 100% 50%; }
     }
-    th { background: #4a6cf7; color: white; }
-    tr:nth-child(even) td { background: #f0f3ff; }
+    /* 클릭 물결 효과 */
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.5);
+      transform: scale(0);
+      animation: ripple 0.6s ease-out;
+      pointer-events: none;
+    }
+    @keyframes ripple {
+      to { transform: scale(4); opacity: 0; }
+    }
+
+    /* 빠른 선택 칩 */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .chip {
+      width: 40px;
+      height: 40px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--muted);
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 0;
+      animation: popIn 0.4s cubic-bezier(0.3, 1.6, 0.5, 1) forwards;
+      transition: color 0.2s, background 0.2s, transform 0.2s;
+    }
+    .chip:hover {
+      color: white;
+      background: rgba(124, 92, 255, 0.35);
+      transform: translateY(-3px) scale(1.08);
+    }
+    .chip.active {
+      color: white;
+      background: linear-gradient(135deg, var(--accent1), var(--accent3));
+      border-color: transparent;
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.3); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    #error {
+      min-height: 22px;
+      margin-top: 12px;
+      text-align: center;
+      font-size: 14px;
+      color: var(--error);
+    }
+
+    /* ===== 결과 ===== */
+    .title-dan {
+      margin: 8px 0 18px;
+      text-align: center;
+      font-size: clamp(22px, 5vw, 30px);
+      font-weight: 800;
+      animation: popIn 0.5s cubic-bezier(0.3, 1.6, 0.5, 1);
+    }
+    .title-dan span {
+      background: linear-gradient(90deg, var(--accent2), var(--accent3));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(8px, 2vw, 14px);
+      perspective: 900px;
+    }
+
+    .item {
+      position: relative;
+      padding: clamp(14px, 3.5vw, 22px) 6px;
+      text-align: center;
+      background: linear-gradient(160deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02));
+      border: 1px solid var(--glass-border);
+      border-radius: 18px;
+      overflow: hidden;
+      cursor: default;
+      opacity: 0;
+      transform: rotateX(-90deg) translateY(30px);
+      transform-origin: top center;
+      animation: flipIn 0.7s cubic-bezier(0.2, 0.9, 0.3, 1.3) forwards;
+      transition: transform 0.15s ease-out, box-shadow 0.3s, border-color 0.3s;
+    }
+    .item.shown { opacity: 1; transform: none; animation: none; }
+    @keyframes flipIn {
+      to { opacity: 1; transform: rotateX(0) translateY(0); }
+    }
+    /* 마우스를 따라가는 하이라이트 */
+    .item::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgba(124, 92, 255, 0.35), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .item:hover::after { opacity: 1; }
+    .item:hover {
+      border-color: rgba(124, 92, 255, 0.7);
+      box-shadow: 0 12px 30px rgba(124, 92, 255, 0.3);
+    }
+
+    .expr {
+      position: relative;
+      z-index: 1;
+      font-size: clamp(13px, 3.4vw, 16px);
+      color: var(--muted);
+    }
+    .value {
+      position: relative;
+      z-index: 1;
+      display: block;
+      margin-top: 6px;
+      font-size: clamp(24px, 6.5vw, 36px);
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      background: linear-gradient(180deg, #ffffff, #b9b3ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* 결과가 바뀔 때 기존 카드 사라지기 */
+    .grid.leaving .item {
+      animation: flipOut 0.3s ease-in forwards;
+    }
+    @keyframes flipOut {
+      from { opacity: 1; transform: none; }
+      to   { opacity: 0; transform: rotateX(90deg) translateY(-20px); }
+    }
+
+    /* ===== 반응형 ===== */
+    @media (max-width: 420px) {
+      .input-box { flex-direction: column; }
+      .btn { padding: 15px; }
+      .chip { width: 36px; height: 36px; font-size: 14px; }
+    }
+    @media (min-width: 900px) {
+      .card { max-width: 760px; }
+    }
+
+    /* 움직임 줄이기 설정을 존중 */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .floating-nums { display: none; }
+    }
   </style>
 </head>
 <body>
-  <h1>구구단 만들기</h1>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="floating-nums" id="floatingNums"></div>
 
-  <div class="input-box">
-    <input type="number" id="dan" min="1" placeholder="단 입력 (예: 7)">
-    <button onclick="makeGugudan()">출력</button>
-  </div>
-  <p id="error"></p>
+  <main class="card">
+    <h1 id="title">구구단 만들기</h1>
+    <p class="subtitle">원하는 단을 입력하거나 아래 숫자를 눌러보세요</p>
 
-  <div id="result"></div>
+    <div class="input-box">
+      <div class="input-wrap">
+        <input type="number" id="dan" min="1" placeholder="단 입력 (예: 7)">
+      </div>
+      <button class="btn" id="runBtn">출력</button>
+    </div>
+
+    <div class="chips" id="chips"></div>
+    <p id="error"></p>
+
+    <div id="result"></div>
+  </main>
 
   <script>
-    function makeGugudan() {
-      const input = document.getElementById("dan");
-      const error = document.getElementById("error");
-      const result = document.getElementById("result");
-      const dan = parseInt(input.value, 10);
+    const input = document.getElementById("dan");
+    const error = document.getElementById("error");
+    const result = document.getElementById("result");
+    const runBtn = document.getElementById("runBtn");
+    const chips = document.getElementById("chips");
 
+    // 제목 글자를 하나씩 쪼개서 순차 등장
+    const title = document.getElementById("title");
+    title.innerHTML = [...title.textContent].map((c, i) =>
+      c === " "
+        ? "&nbsp;"
+        : '<span class="ch" style="animation-delay:' + (i * 0.06) + 's, 0s">' + c + "</span>"
+    ).join("");
+
+    // 배경에 떠다니는 숫자 생성
+    const floating = document.getElementById("floatingNums");
+    for (let i = 0; i < 22; i++) {
+      const s = document.createElement("span");
+      s.textContent = Math.floor(Math.random() * 9) + 1;
+      s.style.left = Math.random() * 100 + "vw";
+      s.style.fontSize = 20 + Math.random() * 60 + "px";
+      s.style.animationDuration = 14 + Math.random() * 18 + "s";
+      s.style.animationDelay = -Math.random() * 30 + "s";
+      floating.appendChild(s);
+    }
+
+    // 2~9단 빠른 선택 칩
+    for (let n = 2; n <= 9; n++) {
+      const chip = document.createElement("button");
+      chip.className = "chip";
+      chip.textContent = n;
+      chip.style.animationDelay = 0.9 + n * 0.05 + "s";
+      chip.addEventListener("click", () => {
+        input.value = n;
+        makeGugudan();
+      });
+      chips.appendChild(chip);
+    }
+
+    // 버튼 물결 효과
+    runBtn.addEventListener("click", (e) => {
+      const rect = runBtn.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height);
+      const r = document.createElement("span");
+      r.className = "ripple";
+      r.style.width = r.style.height = size + "px";
+      r.style.left = e.clientX - rect.left - size / 2 + "px";
+      r.style.top = e.clientY - rect.top - size / 2 + "px";
+      runBtn.appendChild(r);
+      setTimeout(() => r.remove(), 600);
+      makeGugudan();
+    });
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") makeGugudan();
+    });
+
+    // 숫자가 0부터 목표값까지 올라가는 카운트 애니메이션
+    function countUp(el, target, delay) {
+      const duration = 700;
+      setTimeout(() => {
+        const start = performance.now();
+        function step(now) {
+          const p = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased);
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      }, delay);
+    }
+
+    // 카드 3D 기울기 + 마우스 하이라이트
+    function addTilt(item) {
+      item.addEventListener("mousemove", (e) => {
+        const rect = item.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width;
+        const y = (e.clientY - rect.top) / rect.height;
+        item.style.setProperty("--mx", x * 100 + "%");
+        item.style.setProperty("--my", y * 100 + "%");
+        item.style.transform =
+          "rotateX(" + (0.5 - y) * 18 + "deg) rotateY(" + (x - 0.5) * 18 + "deg) scale(1.05)";
+      });
+      item.addEventListener("mouseleave", () => {
+        item.style.transform = "";
+      });
+    }
+
+    function showError(msg) {
+      error.textContent = msg;
+      input.classList.remove("shake");
+      void input.offsetWidth; // 애니메이션 재시작
+      input.classList.add("shake");
+    }
+
+    function render(dan) {
+      result.innerHTML =
+        '<div class="title-dan"><span>' + dan + "단</span></div>";
+
+      const grid = document.createElement("div");
+      grid.className = "grid";
+
+      for (let i = 1; i <= 9; i++) {
+        const delay = (i - 1) * 70;
+        const item = document.createElement("div");
+        item.className = "item";
+        item.style.animationDelay = delay + "ms";
+        item.innerHTML =
+          '<div class="expr">' + dan + " × " + i + '</div><span class="value">0</span>';
+        item.addEventListener("animationend", () => item.classList.add("shown"), { once: true });
+        grid.appendChild(item);
+
+        countUp(item.querySelector(".value"), dan * i, delay + 200);
+        addTilt(item);
+      }
+
+      result.appendChild(grid);
+    }
+
+    function makeGugudan() {
+      const dan = parseInt(input.value, 10);
       error.textContent = "";
-      result.innerHTML = "";
 
       if (isNaN(dan) || dan < 1) {
-        error.textContent = "1 이상의 숫자를 입력하세요.";
+        showError("1 이상의 숫자를 입력하세요.");
         return;
       }
 
-      let html = "<table><tr><th>" + dan + "단</th></tr>";
-      for (let i = 1; i <= 9; i++) {
-        html += "<tr><td>" + dan + " × " + i + " = " + (dan * i) + "</td></tr>";
+      document.querySelectorAll(".chip").forEach((c) =>
+        c.classList.toggle("active", Number(c.textContent) === dan)
+      );
+
+      // 기존 결과가 있으면 뒤집으며 사라진 뒤 새 결과 표시
+      const oldGrid = result.querySelector(".grid");
+      if (oldGrid) {
+        oldGrid.querySelectorAll(".item").forEach((it) => {
+          it.classList.remove("shown");
+          it.style.animationDelay = "0ms";
+        });
+        oldGrid.classList.add("leaving");
+        setTimeout(() => render(dan), 300);
+      } else {
+        render(dan);
       }
-      html += "</table>";
-
-      result.innerHTML = html;
     }
-
-    // Enter 키로도 출력
-    document.getElementById("dan").addEventListener("keydown", function (e) {
-      if (e.key === "Enter") makeGugudan();
-    });
   </script>
 </body>
 </html>

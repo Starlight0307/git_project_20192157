@@ -1,0 +1,745 @@
+/* =========================================================
+   로또 번호 생성기 - 스타일
+   ---------------------------------------------------------
+   1. 색상 변수        6. 결과 칸 / 로또 공
+   2. 기본 / 배경      7. 안내 문구 / 버튼
+   3. 제목 영역        8. 생성 기록
+   4. 배치(반응형)     9. 알림 메시지
+   5. 카드 / 추첨기   10. 애니메이션 정의 / 화면 크기별 조정
+   ========================================================= */
+
+/* ---------- 1. 색상 변수 (여기 값만 바꾸면 전체 색이 바뀜) ---------- */
+:root {
+  --bg: #0a0b1e;                         /* 페이지 배경색 */
+  --card: rgba(255, 255, 255, 0.06);     /* 카드 배경 (반투명 유리) */
+  --border: rgba(255, 255, 255, 0.12);   /* 테두리 */
+  --text: #f1f5f9;                       /* 기본 글자색 */
+  --muted: #94a3b8;                      /* 흐린 글자색 */
+  --gold: #facc15;                       /* 강조색 (금색) */
+  --gold2: #f59e0b;                      /* 강조색 (진한 금색) */
+  --violet: #8b5cf6;                     /* 보조색 (보라) */
+  --cyan: #22d3ee;                       /* 보조색 (하늘) */
+
+  /* 한국 로또 공 색상 규칙 (번호 구간별) */
+  --ball-yellow: #fbc400; /* 1 ~ 10 */
+  --ball-blue: #69c8f2;   /* 11 ~ 20 */
+  --ball-red: #ff7272;    /* 21 ~ 30 */
+  --ball-gray: #aaaaaa;   /* 31 ~ 40 */
+  --ball-green: #b0d840;  /* 41 ~ 45 */
+
+  /* 결과 칸 공 크기: 화면 폭에 따라 34px ~ 62px 사이에서 자동 조절 */
+  --slot: clamp(34px, 9.5vw, 62px);
+}
+
+/* 회전하는 테두리 색에 쓰는 "각도" 변수 (애니메이션 가능하게 등록) */
+@property --angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+
+/* ---------- 2. 기본 / 배경 ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  padding: clamp(20px, 5vw, 48px) clamp(12px, 4vw, 32px) 80px;
+  overflow-x: hidden;
+}
+
+/* 천천히 떠다니며 색이 섞이는 빛 덩어리 3개 */
+.bg { position: fixed; inset: 0; z-index: -3; overflow: hidden; }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.5;
+  animation: blobMove 20s ease-in-out infinite alternate;
+}
+.b1 { width: 50vmax; height: 50vmax; background: var(--violet); top: -20vmax; left: -15vmax; }
+.b2 { width: 40vmax; height: 40vmax; background: var(--gold2); bottom: -18vmax; right: -12vmax; animation-delay: -7s; opacity: 0.35; }
+.b3 { width: 30vmax; height: 30vmax; background: var(--cyan); top: 40%; left: 45%; animation-delay: -14s; opacity: 0.3; }
+
+/* 배경에 떠오르는 흐릿한 로또 공들 (effects.js가 생성) */
+.floating { position: fixed; inset: 0; z-index: -2; pointer-events: none; overflow: hidden; }
+.floating span {
+  position: absolute;
+  bottom: -80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.18;
+  animation: rise linear infinite;
+}
+
+/* 꽃가루 캔버스: 화면 전체를 덮지만 클릭은 통과 */
+.confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; }
+
+/* ---------- 3. 제목 영역 ---------- */
+.header { text-align: center; margin-bottom: clamp(20px, 4vw, 36px); }
+.logo {
+  font-size: clamp(36px, 8vw, 56px);
+  display: inline-block;
+  animation: popIn 0.8s cubic-bezier(0.3, 1.6, 0.5, 1) both, spinFloat 6s 0.8s ease-in-out infinite;
+}
+.header h1 {
+  font-size: clamp(28px, 6.5vw, 48px);
+  font-weight: 900;
+  letter-spacing: -1px;
+  animation: fadeDown 0.8s 0.15s both;
+}
+/* 글자 위로 금빛이 흐르는 효과 */
+.shine-text {
+  background: linear-gradient(90deg, #fff 0%, #fde68a 25%, #fff 50%, #c4b5fd 75%, #fff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 4s linear infinite;
+}
+.subtitle {
+  color: var(--muted);
+  margin-top: 8px;
+  font-size: clamp(13px, 3.4vw, 16px);
+  animation: fadeDown 0.8s 0.3s both;
+}
+.count-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-size: clamp(13px, 3.4vw, 15px);
+  animation: popIn 0.7s 0.45s cubic-bezier(0.3, 1.6, 0.5, 1) both, glowPulse 3s 1.2s infinite;
+}
+.count-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; animation: blink 1.4s infinite; }
+.count-badge b { color: var(--gold); font-size: 20px; display: inline-block; min-width: 1ch; }
+.count-badge b.bump { animation: bump 0.5s cubic-bezier(0.3, 2, 0.5, 1); } /* 횟수가 늘어날 때 튀는 효과 */
+
+/* ---------- 4. 배치 (반응형) ----------
+   넓은 화면: [추첨기 | 결과] 2칸 + 아래 기록
+   좁은 화면(860px 이하): 모두 1칸으로 세로 배치 */
+.layout {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: clamp(14px, 2.5vw, 24px);
+}
+/* 지난 회차·통계·회차 목록·기록 카드는 가로 전체 사용 */
+.history-card, .latest-card, .stats-card, .draws-card { grid-column: 1 / -1; }
+
+/* ---------- 5. 카드 / 추첨기 ---------- */
+.card {
+  position: relative;
+  padding: clamp(18px, 3.5vw, 28px);
+  border-radius: 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  animation: cardIn 0.8s cubic-bezier(0.2, 1, 0.3, 1) both;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+/* 카드들이 위에서부터 차례로 나타나도록 시작 시간을 조금씩 늦춤 */
+.latest-card  { animation-delay: 0.45s; }
+.machine-card { animation-delay: 0.55s; }
+.result-card  { animation-delay: 0.65s; }
+.stats-card   { animation-delay: 0.75s; }
+.draws-card   { animation-delay: 0.85s; }
+.history-card { animation-delay: 0.95s; }
+.card:hover { box-shadow: 0 25px 60px rgba(139, 92, 246, 0.25); }
+
+/* 카드 테두리를 따라 도는 빛 (추첨 결과 카드에만 적용) */
+.result-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(from var(--angle), transparent 0 70%, var(--gold), var(--violet), transparent 100%);
+  /* 가운데를 비워서 테두리 부분만 보이게 하는 마스크 */
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: spin 4s linear infinite;
+  pointer-events: none;
+}
+
+.card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: clamp(15px, 3.6vw, 18px);
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+.h-icon { display: inline-block; animation: wiggle 3s ease-in-out infinite; }
+
+.machine { position: relative; display: flex; flex-direction: column; align-items: center; }
+#machineCanvas { position: relative; width: 100%; max-width: 300px; height: auto; display: block; }
+/* 유리 구슬 뒤에서 천천히 도는 무지개 빛 */
+.halo {
+  position: absolute;
+  top: 0;
+  width: min(100%, 300px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: conic-gradient(from var(--angle), var(--violet), var(--cyan), var(--gold), var(--violet));
+  filter: blur(30px);
+  opacity: 0.35;
+  animation: spin 8s linear infinite;
+}
+.machine.mixing .halo { opacity: 0.8; animation-duration: 1.2s; } /* 섞는 중엔 더 밝고 빠르게 */
+.machine.mixing #machineCanvas { animation: shake 0.15s infinite; } /* 섞는 중 구슬 진동 */
+
+/* 공이 나오는 배출구 */
+.outlet {
+  position: relative;
+  width: 48px;
+  height: 36px;
+  margin-top: -8px;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(90deg, #475569, #e2e8f0, #475569);
+  transition: box-shadow 0.2s;
+}
+.outlet.flash { box-shadow: 0 0 30px 10px rgba(250, 204, 21, 0.9); } /* 공이 나올 때 빛남 */
+
+/* 받침대 + 차례로 깜빡이는 전구 7개 */
+.stand {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: min(80%, 220px);
+  height: 26px;
+  margin-top: 4px;
+  border-radius: 12px 12px 6px 6px;
+  background: linear-gradient(180deg, #475569, #1e293b);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.stand i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 8px var(--gold);
+  animation: bulb 1.4s infinite;
+}
+.stand i:nth-child(2) { animation-delay: 0.2s; }
+.stand i:nth-child(3) { animation-delay: 0.4s; }
+.stand i:nth-child(4) { animation-delay: 0.6s; }
+.stand i:nth-child(5) { animation-delay: 0.8s; }
+.stand i:nth-child(6) { animation-delay: 1s; }
+.stand i:nth-child(7) { animation-delay: 1.2s; }
+.machine.mixing .stand i { animation-duration: 0.35s; } /* 섞는 중엔 전구가 빠르게 깜빡임 */
+
+/* ---------- 6. 결과 칸 / 로또 공 ---------- */
+.slots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(4px, 1.4vw, 12px);
+  padding: 10px 0;
+}
+.slot {
+  position: relative;
+  width: var(--slot);
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 비어 있을 때: 천천히 도는 점선 원 */
+.slot:empty::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  animation: rotate 12s linear infinite;
+}
+/* 보너스 칸: 금색 후광이 돎 */
+.slot.bonus::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  background: conic-gradient(from var(--angle), transparent, var(--gold), transparent 40%);
+  -webkit-mask: radial-gradient(circle, transparent 62%, #000 64%);
+  mask: radial-gradient(circle, transparent 62%, #000 64%);
+  animation: spin 2.5s linear infinite;
+  pointer-events: none;
+}
+.plus { font-size: clamp(18px, 4vw, 26px); color: var(--muted); margin-right: 4px; animation: blink 2s infinite; } /* 오른쪽 여백: 보너스 칸 후광과 겹치지 않게 */
+.slot-labels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 560px;
+  margin: 4px auto 0;
+  padding: 0 4px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* 로또 공 (결과 칸, 기록에서 함께 사용) */
+.ball {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 800;
+  font-size: calc(var(--slot) * 0.38);
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  /* 왼쪽 위에 빛이 맺힌 듯한 입체 효과 */
+  background: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.9), transparent 32%), var(--color);
+  box-shadow: inset -4px -6px 10px rgba(0, 0, 0, 0.25), 0 6px 14px rgba(0, 0, 0, 0.35), 0 0 18px var(--color);
+}
+/* 공 위를 사선으로 훑고 지나가는 빛 */
+.ball::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -120%;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  transform: rotate(25deg);
+  animation: ballShine 3.5s ease-in-out infinite;
+}
+/* 번호 구간별 색상 (js에서 클래스를 붙여줌) */
+.ball.c1 { --color: var(--ball-yellow); }
+.ball.c2 { --color: var(--ball-blue); }
+.ball.c3 { --color: var(--ball-red); }
+.ball.c4 { --color: var(--ball-gray); }
+.ball.c5 { --color: var(--ball-green); }
+
+/* 공이 위에서 굴러 떨어지며 튕기는 등장 애니메이션 */
+.ball.drop { animation: drop 0.9s cubic-bezier(0.3, 1.5, 0.5, 1) both; }
+/* 오름차순 정렬 시 공이 뒤집히는 애니메이션 */
+.ball.flip { animation: flip 0.6s ease-in-out; }
+/* 초기화 시 공이 작아지며 사라지는 애니메이션 */
+.ball.vanish { animation: vanish 0.4s ease-in forwards; }
+/* 추첨 완료 후 공들이 차례로 통통 튀는 애니메이션 */
+.ball.cheer { animation: cheer 0.6s ease-in-out; }
+
+/* 공이 칸에 들어갈 때 퍼지는 빛 고리 (lotto.js가 생성) */
+.burst-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  animation: ring 0.7s ease-out forwards;
+  pointer-events: none;
+}
+
+/* ---------- 7. 안내 문구 / 버튼 ---------- */
+.status {
+  text-align: center;
+  margin: 22px 0 20px;
+  min-height: 24px;
+  color: var(--muted);
+  font-size: clamp(14px, 3.6vw, 16px);
+}
+.status.active { color: var(--gold); animation: blink 1s infinite; } /* 추첨 중 깜빡임 */
+.status.done { color: #fde68a; animation: popIn 0.6s cubic-bezier(0.3, 1.6, 0.5, 1); }
+
+.buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.btn {
+  position: relative;
+  overflow: hidden;
+  padding: 13px 22px;
+  font-size: clamp(14px, 3.6vw, 16px);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s, opacity 0.2s, box-shadow 0.2s;
+}
+.btn:hover:not(:disabled) { transform: translateY(-3px); background: rgba(255, 255, 255, 0.16); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); }
+.btn:active:not(:disabled) { transform: scale(0.94); }
+.btn:disabled { opacity: 0.35; cursor: not-allowed; }
+/* 메인 버튼: 색이 흐르는 금색 그라데이션 + 빛이 지나감 */
+.btn.primary {
+  color: #1e1b4b;
+  border: none;
+  background: linear-gradient(135deg, #fde047, #f59e0b, #fde047);
+  background-size: 200% 200%;
+  animation: gradMove 3s ease infinite, glowPulse 2.2s infinite;
+}
+.btn.primary::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  animation: sweep 2.6s ease-in-out infinite;
+}
+.btn.primary:disabled { animation: none; }
+.btn.small { padding: 7px 14px; font-size: 13px; border-radius: 10px; }
+
+/* 버튼 클릭 시 퍼지는 물결 (effects.js가 생성) */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(0);
+  animation: rippleOut 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+/* ---------- 8. 생성 기록 ---------- */
+.history-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 14px; }
+.history-head h2 { margin: 0; }
+.history {
+  list-style: none;
+  max-height: 420px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px;
+}
+.history li {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto; /* 회차 | 시간 | 공들 | 복사 */
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  transition: transform 0.25s, background 0.25s, border-color 0.25s;
+}
+.history li:hover { transform: translateX(6px); background: rgba(255, 255, 255, 0.08); border-color: rgba(250, 204, 21, 0.4); }
+.history li.new { animation: slideIn 0.6s cubic-bezier(0.2, 1.2, 0.4, 1) both; } /* 새로 추가된 기록 */
+.history li.new .ball { animation: popIn 0.5s cubic-bezier(0.3, 1.8, 0.5, 1) both; }
+.history .round { font-weight: 800; color: var(--gold); min-width: 52px; }
+.history .time { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.history .mini-balls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; --slot: 32px; }
+.history .mini-balls .ball { width: 32px; height: 32px; flex-shrink: 0; box-shadow: inset -2px -3px 6px rgba(0,0,0,.25), 0 3px 6px rgba(0,0,0,.3); }
+.history .mini-balls .ball::after { display: none; }
+.history .mini-balls .plus { font-size: 16px; animation: none; }
+.empty { color: var(--muted); text-align: center; padding: 26px 0; animation: blink 2.5s infinite; }
+
+/* 스크롤바 꾸미기 */
+.history::-webkit-scrollbar { width: 6px; }
+.history::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 3px; }
+
+/* ---------- 9. 알림 메시지 ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  z-index: 60;
+  max-width: calc(100vw - 32px);
+  padding: 13px 24px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #fde047, #f59e0b);
+  color: #1e1b4b;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.45);
+  transform: translate(-50%, 120px) scale(0.8);
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(0.3, 1.6, 0.5, 1), opacity 0.3s;
+}
+.toast.show { transform: translate(-50%, 0) scale(1); opacity: 1; }
+
+/* ---------- 11. 지난 회차 당첨 번호 ---------- */
+.latest-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.latest-head h2 { margin: 0; }
+.latest-meta { display: flex; align-items: baseline; gap: 10px; }
+.latest-meta b { font-size: clamp(20px, 5vw, 26px); color: var(--gold); }
+.latest-meta span { color: var(--muted); font-size: 14px; }
+.latest-balls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(5px, 1.6vw, 14px);
+  --slot: clamp(36px, 9.5vw, 58px); /* 공 크기 (화면 폭에 따라 자동 조절) */
+}
+.latest-balls .ball { width: var(--slot); height: var(--slot); flex-shrink: 0; }
+
+/* ---------- 12. 번호별 출현 통계 ---------- */
+.stats-controls { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+
+/* 기간 선택 탭: 선택된 탭 뒤로 금색 배경(인디케이터)이 미끄러지듯 이동 */
+.range-tabs {
+  position: relative;
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+}
+.tab-indicator {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fde047, #f59e0b);
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+  transition: transform 0.45s cubic-bezier(0.3, 1.4, 0.5, 1), width 0.45s;
+}
+.range-tab {
+  position: relative; /* 인디케이터보다 위에 글자가 보이도록 */
+  padding: 9px 16px;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: clamp(13px, 3.4vw, 15px);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.range-tab.active { color: #1e1b4b; }
+.check { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; cursor: pointer; }
+.check input { width: 18px; height: 18px; accent-color: var(--gold); cursor: pointer; }
+
+.stats-summary { margin: 14px 0 6px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.stats-summary b { color: var(--text); }
+.stats-summary small { font-size: 12px; opacity: 0.8; }
+.sub-title { font-size: 15px; color: var(--muted); margin: 26px 0 12px; }
+
+/* 1~3위 시상대: 가운데(1위)가 가장 높음 */
+.podium {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  gap: clamp(8px, 2vw, 18px);
+  max-width: 560px;
+  margin: 18px auto 0;
+}
+.podium-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: rise-up 0.8s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+.medal { font-size: clamp(24px, 6vw, 34px); animation: spinFloat 3s ease-in-out infinite; }
+.podium-ball { width: clamp(46px, 13vw, 70px); aspect-ratio: 1; margin: 6px 0; --slot: clamp(46px, 13vw, 70px); }
+.p1 .podium-ball { animation: glowPulse 2s infinite; border-radius: 50%; }
+.podium-pct { font-size: clamp(18px, 5vw, 26px); font-weight: 900; color: var(--text); font-variant-numeric: tabular-nums; }
+.podium-count { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.podium-step {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8px;
+  font-size: 22px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px 12px 4px 4px;
+  background: linear-gradient(180deg, rgba(250, 204, 21, 0.35), rgba(250, 204, 21, 0.05));
+  border: 1px solid rgba(250, 204, 21, 0.3);
+}
+.p1 .podium-step { height: 90px; }
+.p2 .podium-step { height: 64px; }
+.p3 .podium-step { height: 44px; }
+
+/* 45개 번호 순위 목록: 넓은 화면은 2열, 좁은 화면은 1열 */
+.stat-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(23, auto); /* 45개 ÷ 2열 = 한 열에 23줄 */
+  grid-auto-flow: column;               /* 왼쪽 열을 위→아래로 채운 뒤 오른쪽 열로 */
+  column-gap: 28px;
+  row-gap: 6px;
+}
+.stat-row {
+  display: grid;
+  grid-template-columns: 42px 30px 1fr 74px; /* 순위 | 공 | 막대 | 퍼센트 */
+  align-items: center;
+  gap: 10px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  animation: fadeUp 0.5s both;
+  transition: background 0.2s;
+}
+.stat-row:hover { background: rgba(255, 255, 255, 0.07); }
+.stat-rank { font-size: 13px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.stat-ball { width: 30px; height: 30px; --slot: 30px; }
+.stat-ball .ball::after, .podium-ball .ball::after { display: none; } /* 작은 공은 빛 효과 생략 */
+/* 막대: 한 가지 색(금색)만 사용, 끝은 둥글게 */
+.bar-track { height: 10px; border-radius: 0 4px 4px 0; background: rgba(255, 255, 255, 0.05); overflow: hidden; }
+.bar {
+  display: block;
+  width: 0; /* stats.js가 실제 길이로 바꾸면 늘어나는 애니메이션 */
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  background: var(--gold);
+  transition: width 0.9s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.stat-row:hover .bar { background: #fde68a; }
+.stat-value { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; }
+.stat-pct { font-size: 14px; font-variant-numeric: tabular-nums; }
+.stat-value small { font-size: 11px; color: var(--muted); }
+
+/* 마우스를 올리면 뜨는 설명 상자 */
+.stat-tip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.stat-tip b { color: var(--gold); }
+
+/* ---------- 13. 회차별 당첨 번호 목록 ---------- */
+.draw-filters { display: flex; flex-wrap: wrap; gap: 10px; }
+.draw-filters input {
+  flex: 1 1 200px;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.draw-filters input:focus { border-color: var(--gold); box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.15); }
+.draw-info { margin: 12px 0 10px; font-size: 13px; color: var(--muted); }
+.draw-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.draw-row {
+  display: grid;
+  grid-template-columns: 70px 90px 1fr; /* 회차 | 날짜 | 공들 */
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  animation: slideIn 0.45s both;
+  transition: transform 0.25s, border-color 0.25s;
+}
+.draw-row:hover { transform: translateX(6px); border-color: rgba(250, 204, 21, 0.4); }
+.draw-round { font-weight: 800; color: var(--gold); }
+.draw-date { font-size: 13px; color: var(--muted); }
+.draw-row .mini-balls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; --slot: 32px; }
+.draw-row .mini-balls .ball { width: 32px; height: 32px; flex-shrink: 0; }
+.draw-row .mini-balls .ball::after { display: none; }
+.draw-row .mini-balls .plus { font-size: 16px; animation: none; }
+/* 포함 번호 검색 시 해당 번호 강조 (흰 테두리 + 커지기) */
+.ball.hit { outline: 3px solid #fff; outline-offset: 2px; animation: bump 0.6s; }
+.more-btn { display: block; margin: 16px auto 0; }
+
+/* ---------- 10. 애니메이션 정의 ---------- */
+@keyframes rise-up   { from { opacity: 0; transform: translateY(60px) scale(0.8); } }
+@keyframes blobMove {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(10vw, 8vh) scale(1.15); }
+  100% { transform: translate(-6vw, -5vh) scale(0.9); }
+}
+@keyframes rise      { to { transform: translateY(-120vh) rotate(360deg); } }
+@keyframes spin      { to { --angle: 360deg; } }
+@keyframes rotate    { to { transform: rotate(360deg); } }
+@keyframes shine     { to { background-position: -200% center; } }
+@keyframes fadeDown  { from { opacity: 0; transform: translateY(-24px); } }
+@keyframes popIn     { from { opacity: 0; transform: scale(0.3); } }
+@keyframes cardIn    { from { opacity: 0; transform: translateY(40px) scale(0.96); } }
+@keyframes spinFloat {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50%      { transform: translateY(-8px) rotate(20deg); }
+}
+@keyframes wiggle    { 0%, 100% { transform: rotate(0); } 10% { transform: rotate(-15deg); } 20% { transform: rotate(12deg); } 30% { transform: rotate(0); } }
+@keyframes glowPulse { 0%, 100% { box-shadow: 0 0 0 rgba(250, 204, 21, 0); } 50% { box-shadow: 0 0 25px rgba(250, 204, 21, 0.45); } }
+@keyframes blink     { 50% { opacity: 0.35; } }
+@keyframes bump      { 50% { transform: scale(1.8); } }
+@keyframes bulb      { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; box-shadow: none; } }
+@keyframes shake     { 25% { transform: translate(1px, -1px) rotate(0.4deg); } 75% { transform: translate(-1px, 1px) rotate(-0.4deg); } }
+@keyframes gradMove  { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+@keyframes sweep     { 0% { left: -60%; } 60%, 100% { left: 130%; } }
+@keyframes ballShine { 0%, 60% { left: -120%; } 100% { left: 160%; } }
+@keyframes rippleOut { to { transform: scale(4); opacity: 0; } }
+@keyframes ring      { from { transform: scale(1); opacity: 1; } to { transform: scale(1.9); opacity: 0; } }
+@keyframes drop {
+  0%   { opacity: 0; transform: translateY(-160px) rotate(-540deg) scale(0.3); }
+  55%  { opacity: 1; }
+  100% { transform: translateY(0) rotate(0) scale(1); }
+}
+@keyframes flip      { 50% { transform: rotateY(90deg) scale(0.75); } }
+@keyframes vanish    { to { opacity: 0; transform: scale(0) rotate(270deg); } }
+@keyframes cheer     { 30% { transform: translateY(-14px) scale(1.12); } 60% { transform: translateY(0) scale(0.95); } }
+@keyframes slideIn   { from { opacity: 0; transform: translateX(-40px) scale(0.95); } }
+
+/* ---------- 화면 크기별 조정 (반응형) ---------- */
+
+/* 태블릿 이하 (860px 이하): 1칸 세로 배치, 추첨기 크기 제한 */
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; }
+  .machine-card { max-width: 420px; width: 100%; justify-self: center; }
+  .stat-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; } /* 순위 목록 1열 */
+}
+
+/* 휴대폰 (560px 이하): 기록 한 줄을 2줄로 나눠 배치, 버튼을 가로로 꽉 채움 */
+@media (max-width: 560px) {
+  .history li {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "round time copy" "balls balls balls";
+    row-gap: 10px;
+  }
+  .history .round { grid-area: round; }
+  .history .time { grid-area: time; }
+  .history .mini-balls { grid-area: balls; justify-content: center; }
+  .history li .btn { grid-area: copy; }
+  .history .mini-balls .ball { width: 30px; height: 30px; }
+  .buttons .btn { flex: 1 1 calc(50% - 10px); }
+  .buttons .btn.primary { flex-basis: 100%; }
+  .history li:hover { transform: none; }
+  /* 회차 목록: [회차 날짜] 한 줄 + 공 한 줄 */
+  .draw-row { grid-template-columns: auto 1fr; row-gap: 8px; }
+  .draw-row .mini-balls { grid-column: 1 / -1; justify-content: center; }
+  .draw-row .mini-balls .ball { width: 30px; height: 30px; }
+  .draw-row:hover { transform: none; }
+  .stat-row { grid-template-columns: 34px 28px 1fr 64px; gap: 8px; }
+  .stats-controls { flex-direction: column; align-items: stretch; }
+  .range-tabs { display: flex; }
+  .range-tab { flex: 1; }
+}
+
+/* 아주 작은 화면 (360px 이하): 공 간격 최소화 */
+@media (max-width: 360px) {
+  .slots { gap: 3px; }
+  .plus { font-size: 14px; }
+}
+
+/* 기기에서 "동작 줄이기"를 켠 사용자는 애니메이션을 끔 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

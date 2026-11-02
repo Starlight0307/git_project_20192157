@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로또 번호 생성기</title>
+  <!-- 디자인은 css/style.css 파일에서 관리 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 배경 장식 (움직이는 빛 덩어리 + 떠다니는 공 + 꽃가루 캔버스) ===== -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+  <div class="floating" id="floating"></div>          <!-- effects.js가 떠다니는 공을 채워 넣음 -->
+  <canvas class="confetti" id="confetti"></canvas>     <!-- 추첨 완료 시 꽃가루가 터지는 캔버스 -->
+
+  <!-- ===== 상단 제목 영역 ===== -->
+  <header class="header">
+    <div class="logo">🍀</div>
+    <h1><span class="shine-text">로또 번호 생성기</span></h1>
+    <p class="subtitle">1 ~ 45 중 중복 없이 6개 + 보너스 번호 1개</p>
+    <!-- 생성 횟수 표시 (js에서 숫자를 바꿔 넣음) -->
+    <div class="count-badge">
+      <span class="dot"></span>총 생성 횟수 <b id="drawCount">0</b>회
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- ===== 맨 위: 지난 회차(가장 최근) 실제 당첨 번호 (stats.js가 채움) ===== -->
+    <section class="card latest-card">
+      <div class="latest-head">
+        <h2><span class="h-icon">🏆</span>지난 회차 당첨 번호</h2>
+        <div class="latest-meta"><b id="latestTitle"></b><span id="latestDate"></span></div>
+      </div>
+      <div class="latest-balls" id="latestBalls"></div>
+    </section>
+
+    <!-- ===== 왼쪽: 로또 추첨기 ===== -->
+    <section class="card machine-card">
+      <h2><span class="h-icon">🎰</span>추첨기</h2>
+      <div class="machine" id="machine">
+        <div class="halo"></div>                       <!-- 구슬 뒤에서 회전하는 빛 -->
+        <!-- 공들이 섞이는 유리 구슬 (machine.js가 그림을 그림) -->
+        <canvas id="machineCanvas" width="300" height="300"></canvas>
+        <!-- 공이 빠져나오는 배출구 -->
+        <div class="outlet" id="outlet"></div>
+        <!-- 추첨기 받침대 + 깜빡이는 전구 -->
+        <div class="stand">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 오른쪽: 추첨 결과 + 버튼 ===== -->
+    <section class="card result-card">
+      <h2><span class="h-icon">🎯</span>추첨 결과</h2>
+
+      <!-- 당첨 번호 6칸 + 보너스 1칸 (js에서 공을 채워 넣음) -->
+      <div class="slots">
+        <div class="slot" data-index="0"></div>
+        <div class="slot" data-index="1"></div>
+        <div class="slot" data-index="2"></div>
+        <div class="slot" data-index="3"></div>
+        <div class="slot" data-index="4"></div>
+        <div class="slot" data-index="5"></div>
+        <span class="plus">+</span>
+        <div class="slot bonus" data-index="6"></div>
+      </div>
+      <div class="slot-labels"><span>당첨 번호</span><span>보너스</span></div>
+
+      <!-- 현재 진행 상황 안내 문구 -->
+      <p class="status" id="status">아래 버튼을 눌러 번호를 뽑아보세요!</p>
+
+      <!-- 조작 버튼 -->
+      <div class="buttons">
+        <button class="btn primary" id="drawBtn">🎱 번호 뽑기</button>
+        <button class="btn" id="copyBtn" disabled>📋 번호 복사</button>
+        <button class="btn" id="resetBtn" disabled>↺ 초기화</button>
+      </div>
+    </section>
+
+    <!-- ===== 번호별 출현 통계 (stats.js가 채움) ===== -->
+    <section class="card stats-card">
+      <h2><span class="h-icon">📊</span>번호별 출현 통계</h2>
+
+      <!-- 기간 선택 탭 + 보너스 포함 체크박스 -->
+      <div class="stats-controls">
+        <div class="range-tabs">
+          <span class="tab-indicator" id="tabIndicator"></span>
+          <button class="range-tab active" data-range="year">최근 1년</button>
+          <button class="range-tab" data-range="all">전체 (1회~최근)</button>
+        </div>
+        <label class="check"><input type="checkbox" id="bonusCheck"> 보너스 번호 포함</label>
+      </div>
+      <p class="stats-summary" id="statsSummary"></p>
+
+      <!-- 1~3위 시상대 -->
+      <div class="podium" id="podium"></div>
+
+      <!-- 45개 번호 전체 순위 (막대그래프) -->
+      <h3 class="sub-title">전체 순위</h3>
+      <ol class="stat-list" id="statList"></ol>
+    </section>
+
+    <!-- ===== 회차별 당첨 번호 목록 (stats.js가 채움) ===== -->
+    <section class="card draws-card">
+      <h2><span class="h-icon">🗂️</span>회차별 당첨 번호</h2>
+      <div class="draw-filters">
+        <input type="number" id="roundSearch" min="1" placeholder="회차 검색 (예: 1000)">
+        <input type="number" id="numberSearch" min="1" max="45" placeholder="포함 번호 검색 (1~45)">
+      </div>
+      <p class="draw-info" id="drawInfo"></p>
+      <ol class="draw-list" id="drawList"></ol>
+      <button class="btn more-btn" id="moreBtn">더 보기</button>
+    </section>
+
+    <!-- ===== 아래: 생성 기록 ===== -->
+    <section class="card history-card">
+      <div class="history-head">
+        <h2><span class="h-icon">📜</span>생성 기록</h2>
+        <button class="btn small" id="clearHistoryBtn">기록 전체 삭제</button>
+      </div>
+      <!-- 기록 목록 (js에서 채워 넣음) -->
+      <ol class="history" id="history"></ol>
+      <p class="empty" id="historyEmpty">아직 생성한 번호가 없습니다.</p>
+    </section>
+  </main>
+
+  <!-- 복사 완료 등 짧은 알림 메시지 -->
+  <div class="toast" id="toast"></div>
+
+  <!-- 통계 막대에 마우스를 올리면 뜨는 설명 상자 -->
+  <div class="stat-tip" id="statTip"></div>
+
+  <!-- 스크립트 불러오는 순서 (뒤 파일이 앞 파일의 기능을 사용하므로 순서가 중요)
+       꾸미기 효과 → 추첨기 애니메이션 → 역대 당첨 번호 데이터 → 번호 생성 로직 → 통계 -->
+  <script src="js/effects.js"></script>
+  <script src="js/machine.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/lotto.js"></script>
+  <script src="js/stats.js"></script>
+</body>
+</html>
