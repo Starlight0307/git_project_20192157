@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구구단 만들기</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f6fb;
+      margin: 0;
+      padding: 30px 16px;
+      text-align: center;
+    }
+    h1 { color: #333; }
+    .input-box {
+      margin: 20px auto;
+    }
+    input {
+      width: 120px;
+      padding: 8px;
+      font-size: 16px;
+      text-align: center;
+      border: 1px solid #aaa;
+      border-radius: 6px;
+    }
+    button {
+      padding: 9px 18px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      background: #4a6cf7;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background: #3553d6; }
+    #error { color: #d33; min-height: 20px; }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: white;
+      min-width: 220px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 20px;
+      font-size: 18px;
+    }
+    th { background: #4a6cf7; color: white; }
+    tr:nth-child(even) td { background: #f0f3ff; }
+  </style>
+</head>
+<body>
+  <h1>구구단 만들기</h1>
+
+  <div class="input-box">
+    <input type="number" id="dan" min="1" placeholder="단 입력 (예: 7)">
+    <button onclick="makeGugudan()">출력</button>
+  </div>
+  <p id="error"></p>
+
+  <div id="result"></div>
+
+  <script>
+    function makeGugudan() {
+      const input = document.getElementById("dan");
+      const error = document.getElementById("error");
+      const result = document.getElementById("result");
+      const dan = parseInt(input.value, 10);
+
+      error.textContent = "";
+      result.innerHTML = "";
+
+      if (isNaN(dan) || dan < 1) {
+        error.textContent = "1 이상의 숫자를 입력하세요.";
+        return;
+      }
+
+      let html = "<table><tr><th>" + dan + "단</th></tr>";
+      for (let i = 1; i <= 9; i++) {
+        html += "<tr><td>" + dan + " × " + i + " = " + (dan * i) + "</td></tr>";
+      }
+      html += "</table>";
+
+      result.innerHTML = html;
+    }
+
+    // Enter 키로도 출력
+    document.getElementById("dan").addEventListener("keydown", function (e) {
+      if (e.key === "Enter") makeGugudan();
+    });
+  </script>
+</body>
+</html>
