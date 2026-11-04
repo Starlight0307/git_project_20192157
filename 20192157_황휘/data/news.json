@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-04T01:25:46+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-04T09:19:29+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -413,17 +411,17 @@
      "id": "544e5b78f2",
      "wikiTitle": "2026 Singapore Grand Prix",
      "title": "2026 Singapore Grand Prix",
-     "titleKo": "2026 싱가포르 그랑프리",
+     "titleKo": "2014년 1월 16일에 확인함. “2013 Singapore Grand Prix Results”.",
      "desc": "The 2026 Singapore Grand Prix (officially known as the Formula 1 Singapore Airlines Singapore Grand Prix 2026) was a Formula One motor race that was held on 11 October 2026 at the…",
      "descKo": "2026 싱가포르 그랑프리(공식 명칭: 포뮬러 1 싱가포르 항공 싱가포르 그랑프리 2026)는 2026년 10월 11일 싱가포르 마리나 베이의 마리나 베이 스트리트 서킷에서 열린 포뮬러 원 자동차 경주입니다. 스프린트 형식을 활용한 2026년 포뮬러 원 월드 챔피언십의 17번째 라운드이자 시즌의 6번째이자 마지막…",
      "link": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Marina_Bay_circuit_2023.svg/1280px-Marina_Bay_circuit_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Marina_Bay_circuit_2023.svg",
-     "date": "2026-11-02T17:37:13Z",
+     "date": "2026-11-04T07:55:06Z",
      "raceDate": "2026-10-11",
      "author": "위키백과 편집자들",
-     "revid": 1383435071,
+     "revid": 1383705927,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -558,7 +556,7 @@
         "Prior to the race start, Red Bull's Isack Hadjar and both Aston Martin drivers Fernando Alonso and Lance Stroll were required to start from the pit lane as all had made modifications under parc fermé conditions after Saturday's qualifying, promoting championship contender George Russell to nineteenth on the grid instead of starting 21st.",
         "At the start, both Verstappen and Leclerc got off their respective grid boxes well, with the latter having a slightly better reaction time, enabling him to attack Verstappen heading into turn 1. Verstappen opted to block the attack, allowing him to keep the lead, whilst Hamilton was able to defend his position against Antonelli and both McLaren drivers. On lap seven, Gabriel Bortoleto came to a halt with a gearbox failure, leaving his Audi stranded at the pit lane exit, triggering a virtual safety car (VSC). During the VSC, the pit lane was closed and no driver was able to change tyres. Hamilton, who opted for the medium compound to start the race as opposed to the drivers around him, was initially able to keep up the speed compared to both Verstappen and Leclerc by setting fastest laps, but saw his advantage slip away as both front runners were able to build a substantial gap, before Leclerc then lost ground on Verstappen due to tyre disadvantage.",
         "The race order remained largely unchaged during the middle stage before Stroll caused a second virtual safety car phase by stopping his car with a clutch issue, triggering a series of pit stops including tyre changes for the leading group. Hamilton opted to stay out on worn soft tyres which put him into a vulnerable position heading into the final stages of the race, as he got overtaken by Leclerc, who tried to use his tyre advantage towards Verstappen in an attempt to close the 14-second-gap to the leader with roughly 20 laps to go as Verstappen decided to stay out as well following the second VSC, mainly to maintain the gap he had built up earlier on in order to avoid himself getting undercut by Leclerc.",
-        "Hamilton tried to defend attacks from both Norris and Antonelli on lap 54, causing him to go wide after the first turn. Championship leader Antonelli took advantage, as Norris took an unconventional racing line into the corner complex of two and three, taking fourth place from Norris. Later at the same lap, Antonelli was able to get past Hamilton in order to take third, whilst Norris completed his overtaking attempt towards Hamilton one lap later to claim fourth. On the final lap, Hamilton was overtaken by Piastri in the end for fifth, with the former taking full responsibility for his misjudgement to stay out on old tyres: Ferrari initially planned to pit Hamilton during the second VSC phase in order to secure a podium, which he declined.",
+        "Hamilton tried to defend attacks from both Norris and Antonelli on lap 54, causing him to go wide after the first turn. Championship leader Antonelli took advantage, as Norris lost momentum heading into the corner complex of two and three after attacking Hamilton, taking fourth place from Norris. Later at the same lap, Antonelli was able to get past Hamilton in order to take third, whilst Norris completed his overtaking attempt towards Hamilton one lap later to claim fourth. On the final lap, Hamilton was overtaken by Piastri in the end for fifth, with the former taking full responsibility for his misjudgement to stay out on old tyres: Ferrari initially planned to pit Hamilton during the second VSC phase in order to secure a podium, which he declined.",
         "With Leclerc being unable to close the gap, Verstappen crossed the line to take an unchallenged win, as he led every single lap of the race after taking pole position on Saturday. The Dutchman was able to take his first Grand Prix victory at the Singapore Grand Prix, his 73rd overall. He was denied a seventh career grand chelem as Leclerc took the fastest lap, with the latter taking second place ahead of Antonelli who claimed his fourteenth podium finish in seventeen races this season. Norris and Piastri settled for fourth and fifth, respectively. Hamilton took the chequered flag in sixth, with Lawson, Hülkenberg, Russell and Hadjar completing the top ten."
        ],
        "hKo": "결승 리포트",
@@ -566,7 +564,7 @@
         "레이스 시작에 앞서 Red Bull의 Isack Hadjar와 Aston Martin 드라이버인 Fernando Alonso와 Lance Stroll은 토요일 예선 이후 parc Fermé 조건에 따라 수정을 가해 챔피언십 경쟁자 George Russell을 21위가 아닌 그리드에서 19위로 승격시켰기 때문에 피트 레인에서 출발해야 ​​했습니다.",
         "처음에 Verstappen과 Leclerc는 각각의 그리드 박스에서 잘 벗어났고 후자는 약간 더 나은 반응 시간을 가지고 Verstappen을 공격하여 1턴으로 향할 수 있었습니다. Verstappen은 공격을 차단하여 선두를 유지할 수 있게 했고 Hamilton은 Antonelli와 두 McLaren 드라이버를 상대로 자신의 위치를 ​​방어할 수 있었습니다. 랩 7에서 Gabriel Bortoleto는 기어박스 고장으로 정지했고, 그의 Audi가 피트 레인 출구에 좌초되어 버추얼 세이프티카(VSC)이 작동했습니다. VSC 중에는 피트 레인이 폐쇄되어 운전자가 타이어를 교체할 수 없었습니다. 주변 드라이버와 달리 미디엄 컴파운드를 선택한 해밀턴은 처음에는 가장 빠른 랩을 설정하여 Verstappen과 Leclerc에 비해 속도를 유지할 수 있었지만 Leclerc가 타이어 단점으로 인해 Verstappen에서 땅을 잃기 전에 두 선두 주자가 상당한 격차를 만들 수 있었기 때문에 그의 이점이 사라졌습니다.",
         "Stroll이 클러치 문제로 차를 정지시켜 두 번째 가상 안전 자동차 단계를 일으키고 선두 그룹의 타이어 교체를 포함한 일련의 피트 스탑을 촉발하기 전에 중간 단계에서 경주 순서는 거의 변하지 않았습니다. 해밀턴은 마모된 소프트 타이어를 착용하지 않고 레이스의 마지막 단계로 향하는 취약한 위치에 놓이게 되었고, Leclerc에게 추월당했습니다. Leclerc는 Verstappen을 상대로 자신의 타이어 이점을 이용하여 약 20랩으로 선두와의 14초 간격을 좁히려고 시도했습니다. Verstappen은 두 번째 VSC 이후에도 벗어나기로 결정했습니다. 이는 주로 Leclerc에 의해 언더컷되는 것을 피하기 위해 이전에 쌓은 간격을 유지하기 위한 것이었습니다.",
-        "해밀턴은 랩 54에서 Norris와 Antonelli의 공격을 방어하려고 시도하여 첫 번째 턴 이후에 그를 넓게 만들었습니다. 챔피언십 리더인 Antonelli는 Norris가 색다른 레이싱 라인을 2개와 3개의 코너 컴플렉스로 ​​가져가서 Norris에서 4위를 차지하면서 이점을 얻었습니다. 나중에 같은 랩에서 Antonelli는 해밀턴을 제치고 3위를 차지했고, Norris는 한 바퀴 뒤 해밀턴을 향한 추월 시도를 완료하여 4위를 차지했습니다. 마지막 랩에서 해밀턴은 결국 5위로 Piastri에게 추월당했고, 전자는 오래된 타이어를 사용하지 않기로 한 자신의 잘못된 판단에 대해 전적인 책임을 졌습니다. Ferrari는 처음에 포디움을 확보하기 위해 두 번째 VSC 단계에서 해밀턴을 피트시킬 계획이었지만 그는 거절했습니다.",
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "Leclerc가 격차를 좁힐 수 없는 상황에서 Verstappen은 토요일에 폴 포지션을 취한 후 레이스의 모든 랩을 이끌면서 도전받지 않은 승리를 거두기 위해 선을 넘었습니다. 네덜란드인은 전체 73번째인 싱가포르 그랑프리에서 첫 그랑프리 우승을 차지했습니다. 그는 Leclerc가 가장 빠른 랩을 차지하면서 통산 7번째 그랜드 헬렘 타이틀을 거부당했고, 후자는 이번 시즌 17개 레이스에서 14번째 포디엄을 차지한 Antonelli보다 앞서 2위를 차지했습니다. Norris와 Piatri는 각각 4위와 5위를 차지했습니다. 해밀턴은 6위를 차지했으며 Lawson, Hülkenberg, Russell 및 Hadjar가 상위 10위권을 차지했습니다."
        ]
       },
@@ -602,17 +600,17 @@
      "id": "657e8d867c",
      "wikiTitle": "2026 Bahrain Grand Prix in Malaysia",
      "title": "2026 Bahrain Grand Prix in Malaysia",
-     "titleKo": "2026년 말레이시아 바레인 그랑프리",
+     "titleKo": "그랑프리",
      "desc": "The 2026 Bahrain Grand Prix in Malaysia (officially known as the Formula 1 Gulf Air Bahrain Grand Prix in Malaysia 2026) was a Formula One motor race held on 4 October 2026 at the…",
      "descKo": "2026년 말레이시아 바레인 그랑프리(공식 명칭: Formula 1 Gulf Air Bahrain Grand Prix in Malaysia 2026)는 2026년 10월 4일 말레이시아 셀랑고르 세팡의 세팡 인터내셔널 서킷에서 열린 포뮬러 원 자동차 경주였습니다. 이번 대회는 2026년 포뮬러 원 월드 챔피언십의…",
      "link": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix_in_Malaysia",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix_in_Malaysia?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sepang.svg/1280px-Sepang.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Sepang.svg",
-     "date": "2026-11-02T17:40:09Z",
+     "date": "2026-11-04T06:46:57Z",
      "raceDate": "2026-10-04",
      "author": "위키백과 편집자들",
-     "revid": 1383435588,
+     "revid": 1383700825,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1869,10 +1867,12 @@
      "title": "Andrea Stella explains how qualifying destroyed McLaren’s Mexico GP: “We paid the price”",
      "desc": "Having a podium-capable car means much less if you spend 71 laps hopelessly trapped in dirty air. That was the reality for McLaren at the Mexico City Grand Prix. A difficult…",
      "link": "https://www.motorsport.com/f1/news/stella-explains-how-a-nightmare-qualifying-destroyed-mclarens-mexico-gp-we-paid-the-price/10871257/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/0Ldelda0/s6/motorsport-com-graphics-65-2.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0Ldelda0/s6/motorsport-com-graphics-65-2.jpg",
      "date": "2026-11-03T23:50:58+00:00",
      "author": "",
      "id": "a655ff5fdb",
+     "titleKo": "Andrea Stella는 예선 통과로 인해 McLaren의 멕시코 GP가 어떻게 파괴되었는지 설명합니다. \"우리는 대가를 치렀습니다.\"",
+     "descKo": "포디움이 가능한 자동차를 갖는 것은 더러운 공기 속에 갇힌 채 71바퀴를 절망적으로 보낸다면 훨씬 더 적은 것을 의미합니다. 이것이 멕시코 시티 그랑프리에서 McLaren이 겪은 현실이었습니다. 어려운…",
      "lead": [
       "Having a podium-capable car means much less if you spend 71 laps hopelessly trapped in dirty air.",
       "That was the reality for McLaren at the Mexico City Grand Prix. A difficult Saturday qualifying session left the Woking garage entirely on the back foot, completely negating the raw race pace of its machinery. Because the thin air at high altitude makes cooling a nightmare and aerodynamically following another car incredibly difficult, track position is king in Mexico.",
@@ -1882,9 +1882,7 @@
       "포디움이 가능한 자동차를 갖는 것은 더러운 공기 속에 갇힌 채 71바퀴를 절망적으로 보낸다면 훨씬 더 적은 것을 의미합니다.",
       "이것이 멕시코 시티 그랑프리에서 McLaren이 겪은 현실이었습니다. 어려운 토요일 예선 세션은 Woking 차고를 완전히 뒷발로 남겨두었고 기계의 원시 경주 속도를 완전히 무효화했습니다. 높은 고도의 희박한 공기는 냉각을 악몽으로 만들고 공기역학적으로 다른 차량을 따라가는 것을 엄청나게 어렵게 만들기 때문에 멕시코에서는 트랙 위치가 가장 중요합니다.",
       "Lando Norris는 오후 내내 DRS 열차에 갇혀 라이벌들의 격동적인 여파로 타이어를 태워 버렸습니다."
-     ],
-     "titleKo": "Andrea Stella는 예선 통과로 인해 McLaren의 멕시코 GP가 어떻게 파괴되었는지 설명합니다. \"우리는 대가를 치렀습니다.\"",
-     "descKo": "포디움이 가능한 자동차를 갖는 것은 더러운 공기 속에 갇힌 채 71바퀴를 절망적으로 보낸다면 훨씬 더 적은 것을 의미합니다. 이것이 멕시코 시티 그랑프리에서 McLaren이 겪은 현실이었습니다. 어려운…"
+     ]
     },
     {
      "title": "Charles Leclerc brushes off Lewis Hamilton clash: “I could be unhappy too”",
@@ -1894,6 +1892,8 @@
      "date": "2026-11-03T23:28:18+00:00",
      "author": "",
      "id": "db37d1cdf1",
+     "titleKo": "찰스 르클레르, 루이스 해밀턴 충돌 무시: “나도 불행할 수 있다”",
+     "descKo": "멕시코시티 그랑프리의 오프닝 랩에서는 페라리 내에서 치열한 팀 내 전투가 펼쳐졌습니다. 레이스 선두를 두고 싸우는 Charles Leclerc와 Lewis Hamilton은 무거운 거래를 했습니다.",
      "lead": [
       "The opening lap of the Mexico City Grand Prix featured an intense, intra-team battle within Ferrari .",
       "Battling for the race lead, Charles Leclerc and Lewis Hamilton traded heavy, aggressive blows through the opening sequence of corners. The scarlet cars squeezed each other to the absolute limit, ultimately resulting in an off-track excursion and a time penalty for the Monegasque driver.",
@@ -1903,18 +1903,18 @@
       "멕시코 시티 그랑프리의 오프닝 랩에서는 페라리 내에서 치열한 팀 내 전투가 펼쳐졌습니다.",
       "레이스 선두를 놓고 싸우는 Charles Leclerc와 Lewis Hamilton은 오프닝 코너에서 강력하고 공격적인 타격을 가했습니다. 스칼렛 차량은 절대 한계까지 서로를 압박하여 결국 트랙을 벗어난 여행과 Monegasque 운전자에게 시간 벌칙을 초래했습니다.",
       "해밀턴은 처음에 그의 팀 동료를 1번 코너 컴플렉스를 통해 넓게 밀어붙였으나 실제 드라마는 잠시 후 4번 코너에서 폭발했습니다. 두 사람은 휠 투 휠로 브레이크 존 깊숙이 들어가 두 운전자 모두 정점을 완전히 놓쳤습니다. 7회 세계 챔피언에게 다시 자리를 양보하는 대신, 29세의 이 선수는 자신의 발을 딛고 일어섰습니다. 그로 인한 혼란으로 인해 Red Bull의 Max Verstappen은 좌절한 영국인을 지나쳐 버렸습니다."
-     ],
-     "titleKo": "찰스 르클레르, 루이스 해밀턴 충돌 무시: “나도 불행할 수 있다”",
-     "descKo": "멕시코시티 그랑프리의 오프닝 랩에서는 페라리 내에서 치열한 팀 내 전투가 펼쳐졌습니다. 레이스 선두를 두고 싸우는 Charles Leclerc와 Lewis Hamilton은 무거운 거래를 했습니다."
+     ]
     },
     {
-     "title": "Colton Herta to run Cadillac FP1 in Brazil as FIA superlicense quest continues",
-     "desc": "Cadillac test driver Colton Herta will conduct his sixth Friday practice session of the F1 season at this weekend's Sao Paulo GP to collect his missing FIA superlicense point…",
+     "title": "Colton Herta to run Cadillac FP1 in Brazil as FIA superlicence quest continues",
+     "desc": "Cadillac test driver Colton Herta will conduct his sixth Friday practice session of the Formula 1 season at this weekend's Brazil Grand Prix to collect his missing FIA…",
      "link": "https://www.motorsport.com/f1/news/colton-herta-to-run-cadillac-fp1-in-brazil-as-fia-superlicense-quest-continues/10871403/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg",
      "date": "2026-11-03T23:01:56+00:00",
      "author": "",
      "id": "8574168985",
+     "titleKo": "FIA 수퍼라이센스 탐구가 계속됨에 따라 Colton Herta는 브라질에서 Cadillac FP1을 운영할 예정입니다.",
+     "descKo": "Cadillac 테스트 드라이버 Colton Herta는 누락된 FIA 슈퍼 라이센스 포인트를 수집하기 위해 이번 주말 상파울루 GP에서 F1 시즌의 여섯 번째 금요일 연습 세션을 실시할 예정입니다.",
      "lead": [
       "Cadillac test driver Colton Herta will conduct his sixth Friday practice session of the F1 season at this weekend's Sao Paulo GP to collect his missing FIA superlicense point required to race in the series.",
       "Herta, who has been building up for an F1 campaign with private testing, FP1 sessions and a troubled F2 campaign, needs 40 points to obtain the required FIA superlicense. Cadillac believed the former IndyCar ace had reached that threshold last week in Mexico, but it soon emerged the Californian was still one point shy amid confusion over his previous IndyCar results.",
@@ -1924,18 +1924,18 @@
       "Cadillac 테스트 드라이버 Colton Herta는 시리즈 경주에 필요한 누락된 FIA 슈퍼 라이센스 포인트를 수집하기 위해 이번 주말 상파울루 GP에서 F1 시즌의 여섯 번째 금요일 연습 세션을 실시할 예정입니다.",
       "개인 테스트, FP1 세션 및 문제가 있는 F2 캠페인을 통해 F1 캠페인을 구축해 온 Herta는 필수 FIA 슈퍼 라이센스를 획득하려면 40 포인트가 필요합니다. Cadillac은 전 IndyCar 에이스가 지난주 멕시코에서 그 한계점에 도달했다고 믿었지만 곧 이전 IndyCar 결과에 대한 혼란 속에서 캘리포니아인이 여전히 1점 부끄러워한다는 사실이 드러났습니다.",
       "Cadillac은 이제 Herta에게 Sergio Perez의 차를 타고 또 다른 금요일 FP1 세션을 전달하여 단일 포인트를 산출함으로써 해당 오류를 바로잡을 것입니다. 팀은 연간 4번의 FP1 세션에서만 신인 선수를 배출해야 하지만 상파울루는 Herta가 마침내 라이선스를 획득하기를 열망하고 있기 때문에 Herta의 시즌 6번째 시즌이 될 것입니다."
-     ],
-     "titleKo": "FIA 수퍼라이센스 탐구가 계속됨에 따라 Colton Herta는 브라질에서 Cadillac FP1을 운영할 예정입니다.",
-     "descKo": "Cadillac 테스트 드라이버 Colton Herta는 누락된 FIA 슈퍼 라이센스 포인트를 수집하기 위해 이번 주말 상파울루 GP에서 F1 시즌의 여섯 번째 금요일 연습 세션을 실시할 예정입니다."
+     ]
     },
     {
      "title": "Mercedes boss praises Antonelli’s masterclass while admitting they failed George Russell",
      "desc": "The Brackley garage experienced the absolute extremes of motorsport at the Autodromo Hermanos Rodríguez. While the team successfully crowned the youngest world drivers' champion…",
      "link": "https://www.motorsport.com/f1/news/mercedes-boss-praises-antonellis-masterclass-while-admitting-they-failed-george-russell/10871236/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YP74l7j2/s6/motorsport-com-graphics-63-2.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YP74l7j2/s6/motorsport-com-graphics-63-2.jpg",
      "date": "2026-11-03T22:49:22+00:00",
      "author": "",
      "id": "eff144b082",
+     "titleKo": "메르세데스 보스는 안토넬리의 마스터클래스를 칭찬하면서 조지 러셀이 실패했다고 인정했다.",
+     "descKo": "Brackley 차고는 Autodromo Hermanos Rodríguez에서 극한의 모터스포츠를 경험했습니다. 팀이 최연소 세계 드라이버 챔피언 자리를 성공적으로 차지하는 동안…",
      "lead": [
       "The Brackley garage experienced the absolute extremes of motorsport at the Autodromo Hermanos Rodríguez. While the team successfully crowned the youngest world drivers' champion in Formula 1 history on Sunday, the engineering brass was simultaneously forced to publicly apologise to the other side of the garage for a mechanical failure.",
       "Trackside Engineering Director Andrew Shovlin was quick to praise his newly minted champion following the Mexico City Grand Prix, highlighting a brutally effective tyre strategy. The 20-year-old Italian executed a massive opening stint, nursing the soft compound rubber well past the 40-lap mark to create a significant strategic offset against the rest of the grid.",
@@ -1945,15 +1945,13 @@
       "Brackley 차고는 Autodromo Hermanos Rodríguez에서 극한의 모터스포츠를 경험했습니다. 팀이 일요일 포뮬러 1 역사상 최연소 세계 드라이버 챔피언 자리를 성공적으로 차지하는 동안, 엔지니어링 책임자는 동시에 기계적 결함에 대해 차고 반대편에 공개적으로 사과해야 했습니다.",
       "트랙사이드 엔지니어링 디렉터인 Andrew Shovlin은 멕시코 시티 그랑프리 이후 새로 탄생한 챔피언을 재빠르게 칭찬하며 잔인할 정도로 효과적인 타이어 전략을 강조했습니다. 20세의 이탈리아인은 40랩을 훨씬 넘는 부드러운 합성 고무를 간호하여 그리드의 나머지 부분에 대해 상당한 전략적 상쇄를 만들어내는 대규모 오프닝 시간을 실행했습니다.",
       "Shovlin은 경주가 끝난 후 \"Kimi의 첫 번째 세계 선수권 대회를 축하합니다\"라고 말했습니다. \"정말 다사다난한 경주였지만 그는 첫 번째 경주에서 소프트 타이어를 정말 잘 관리했고 40바퀴 이상 달릴 수 있었습니다.\""
-     ],
-     "titleKo": "메르세데스 보스는 안토넬리의 마스터클래스를 칭찬하면서 조지 러셀이 실패했다고 인정했다.",
-     "descKo": "Brackley 차고는 Autodromo Hermanos Rodríguez에서 극한의 모터스포츠를 경험했습니다. 팀이 최연소 세계 드라이버 챔피언 자리를 성공적으로 차지하는 동안…"
+     ]
     },
     {
-     "title": "Rafa Camara to debut in F1 Brazil GP as Esteban Ocon out at Haas",
-     "desc": "The Haas F1 team has decided Esteban Ocon will not race again for the squad, with 2027 debutant Rafa Camara getting an early debut this weekend on home soil. Following…",
+     "title": "Rafael Camara to debut in F1 Brazil GP as Esteban Ocon out at Haas",
+     "desc": "The Haas F1 team has decided Esteban Ocon will not race again for the squad, with 2027 debutant Rafael Camara getting an early debut this weekend on home soil. Following…",
      "link": "https://www.motorsport.com/f1/news/camara-to-debut-in-f1-brazil-gp-as-ocon-out-at-haas/10871372/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-joins-haas-f1-te.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-joins-haas-f1-te.jpg",
      "date": "2026-11-03T20:43:22+00:00",
      "author": "",
      "id": "73ad1b2537",
@@ -1974,7 +1972,7 @@
      "title": "The 'difference' between Kimi Antonelli's F1 title and Lewis Hamilton's according to Toto Wolff",
      "desc": "Mercedes boss Toto Wolff has explained how “different” it felt watching Kimi Antonelli become Formula 1 world champion compared to his record-breaking years with Lewis Hamilton.…",
      "link": "https://www.motorsport.com/f1/news/the-difference-between-kimi-antonellis-f1-title-and-lewis-hamiltons-according-to-toto-wolff/10871082/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg",
      "date": "2026-11-03T19:14:39+00:00",
      "author": "",
      "id": "2a2e755d73",
@@ -1995,7 +1993,7 @@
      "title": "McLaren to introduce 2027 F1 front wing at Brazil GP",
      "desc": "McLaren will introduce upgrades to its MCL40 Formula 1 car at this weekend’s Brazil Grand Prix, featuring a front wing concept which is expected to feature on its 2027 challenger.…",
      "link": "https://www.motorsport.com/f1/news/mclaren-to-introduce-2027-f1-front-wing-at-brazil-gp/10871326/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg",
      "date": "2026-11-03T16:43:26+00:00",
      "author": "",
      "id": "2eabf30f76",
@@ -2016,7 +2014,7 @@
      "title": "Red Bull's rumoured €27million deal takes shape in leaked Max Verstappen shoot",
      "desc": "A commercial production shoot just accidentally poured gasoline on one of the biggest off-track rumours in the Formula 1 paddock right now. Leaked photographs circulating across…",
      "link": "https://www.motorsport.com/f1/news/leaked-photos-reveal-max-verstappen-sporting-adidas-gear-as-27m-red-bull-rumors-erupt/10871317/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6x7L975Y/s6/motorsport-com-graphics-62-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/6x7L975Y/s6/motorsport-com-graphics-62-2.jpg",
      "date": "2026-11-03T16:25:39+00:00",
      "author": "",
      "id": "53d59eae40",
@@ -2037,7 +2035,7 @@
      "title": "Isack Hadjar rues missed opportunity after George Russell clash at Mexico GP",
      "desc": "Nailing the launch of your life only to get pushed off the track a few corners later is a surefire way to ruin a Sunday. Just ask Isack Hadjar. Starting seventh on the grid at the…",
      "link": "https://www.motorsport.com/f1/news/isack-hadjar-rues-lost-mexico-city-pace-after-russells-turn-6-torpedo/10871234/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YpbAzb30/s6/motorsport-com-graphics-61-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/YpbAzb30/s6/motorsport-com-graphics-61-2.jpg",
      "date": "2026-11-03T16:08:34+00:00",
      "author": "",
      "id": "45be9526cd",
@@ -2061,6 +2059,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Ferrari's engine weakness hides biggest Vasseur success",
+     "desc": "Ferrari's big engine deficit is obsecuring a very real victory of Fred Vasseur's tenure",
+     "link": "https://www.the-race.com/formula-1/why-ferrari-engine-weakness-hides-vasseurs-biggest-success/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/Spacesuit-CE-F1-MXGP-01-11-26-7504.jpg",
+     "date": "2026-11-04T07:06:00+00:00",
+     "author": "Edd Straw",
+     "id": "af1957efd8",
+     "lead": [
+      "Ferrari’s 2026 will be remembered for the counterproductive battles between Lewis Hamilton and Charles Leclerc, the 18th season of its record Formula 1 title drought and snatching defeat from the jaws of victory several times.",
+      "These are all justifiably big storylines, but they shouldn’t bury the lede that team principal Fred Vasseur’s revolution has made measurable progress that, factoring in an engine deficit that he says the team long knew would hold it back in 2026, means that in the Ferrari SF-26 it has produced arguably the best chassis.",
+      "Ferrari has consistently shipped time to its rivals on the straights, and has been most competitive on tracks with plenty of traction-limited content, for example the Hungaroring - and at altitude at Mexico City, where this engine disadvantage is mitigated."
+     ],
+     "leadKo": [
+      "Ferrari’s 2026 will be remembered for the counterproductive battles between Lewis Hamilton and Charles Leclerc, the 18th season of its record Formula 1 title drought and snatching defeat from the jaws of victory several times.",
+      "이것들은 모두 정당할 정도로 큰 스토리라인이지만, 프레드 바세르 (Fred Vasseur) 의 팀장 혁명이 측정 가능한 진전을 이룬 주도권을 묻어서는 안됩니다. 그는 팀이 2026 년에 그것을 다시 유지할 것이라고 오랫동안 알고 있었던 엔진 적자를 고려하면 페라리 SF-26에서 틀림없이 최고의 섀시를 생산했다는 것을 의미합니다.",
+      "페라리는 직선 구간에서 경쟁사들에게 꾸준히 뒤처져 왔으며, 헝가로링과 같이 접지력이 제한적인 구간이 많은 트랙이나, 엔진 성능의 불리함이 완화되는 멕시코시티와 같은 고지대 트랙에서 가장 경쟁력 있는 모습을 보여왔습니다."
+     ],
+     "titleKo": "페라리 엔진의 약점이 바세르의 가장 큰 성공을 가리고 있다",
+     "descKo": "페라리의 심각한 엔진 부족 현상이 프레드 바쇠르 감독 재임 기간 동안 거둔 실질적인 성과를 가리고 있다."
+    },
+    {
      "title": "Herta gets another Cadillac F1 practice to earn superlicence",
      "desc": "Cadillac will give Colton Herta another practice outing at the Brazilian GP to earn him the point he needs to finally secure his F1 superlicence",
      "link": "https://www.the-race.com/formula-1/colton-herta-gets-another-cadillac-f1-practice-to-earn-superlicence/",
@@ -2068,6 +2087,8 @@
      "date": "2026-11-03T22:36:12+00:00",
      "author": "Josh Suttill",
      "id": "c0b0cf8c93",
+     "titleKo": "Herta는 또 다른 Cadillac F1 연습을 통해 슈퍼 라이선스를 획득합니다.",
+     "descKo": "Cadillac은 Colton Herta에게 브라질 GP에서 또 다른 연습 여행을 제공하여 마침내 F1 슈퍼 라이센스를 확보하는 데 필요한 포인트를 얻을 것입니다.",
      "lead": [
       "Cadillac will give Colton Herta another practice outing at the Brazilian Grand Prix to earn him the last point he needs to finally secure his Formula 1 superlicence.",
       "This will be Herta's sixth FP1 outing of the season with Cadillac and he'll replace Sergio Perez. The team only needed to do four to satisfy the rookie practice requirements - but Herta's still short of the 40 superlicence points needed.",
@@ -2077,9 +2098,7 @@
       "Cadillac은 Colton Herta에게 브라질 그랑프리에서 또 다른 연습 여행을 제공하여 최종적으로 Formula 1 슈퍼 라이센스를 확보하는 데 필요한 마지막 포인트를 얻을 것입니다.",
       "이는 Herta가 Cadillac과 함께 시즌 6번째 FP1 출전이 될 것이며 그는 Sergio Perez를 대체하게 됩니다. 팀은 신인 연습 요구 사항을 충족하기 위해 4개만 수행하면 되었지만 Herta는 여전히 필요한 40개의 슈퍼 라이선스 포인트에 부족했습니다.",
       "팀은 처음에 Herta의 멕시코 FP1 출연이 그를 그곳에 데려갈 것이라고 믿었음에도 불구하고 IndyCar 웹사이트의 오류로 인해 잘못된 것으로 판명되었습니다."
-     ],
-     "titleKo": "Herta는 또 다른 Cadillac F1 연습을 통해 슈퍼 라이선스를 획득합니다.",
-     "descKo": "Cadillac은 Colton Herta에게 브라질 GP에서 또 다른 연습 여행을 제공하여 마침내 F1 슈퍼 라이센스를 확보하는 데 필요한 포인트를 얻을 것입니다."
+     ]
     },
     {
      "title": "Haas drops Ocon for rest of 2026 F1 season",
@@ -2226,27 +2245,6 @@
       "퇴임하는 챔피언 Lando Norris에 따르면 Formula 1의 새로운 세계 챔피언인 Kimi Antonelli는 2026년에 \"모든 사람을 바보처럼 보이게 만들었습니다\"라고 합니다.",
       "Antonelli는 멕시코 그랑프리에서 3위를 차지하여 2026년 챔피언이 되었으며, 그의 타이틀 축하 행사는 운전자들이 경주 후 미디어 보고를 진행하는 곳 옆의 스크린에서 상영되었습니다.",
       "그의 F1 라이벌들로부터 많은 찬사를 받았으며 그가 올해 성취할 수 있었던 것에 대해 진심으로 감사를 표했습니다."
-     ]
-    },
-    {
-     "title": "Edd Straw's F1 2026 Mexican Grand Prix tier list driver rankings",
-     "desc": "It's the second week for Edd Straw's new tier list F1 driver rankings format. So who took top honours at the Mexican GP?",
-     "link": "https://www.the-race.com/formula-1/f1-2026-mexican-gp-driver-rankings-tier-list-edd-straw/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1450564_HiRes.jpg",
-     "date": "2026-11-02T12:02:55+00:00",
-     "author": "Edd Straw",
-     "id": "d42dc6ff7e",
-     "titleKo": "Edd Straw의 F1 2026 멕시코 그랑프리 티어 목록 드라이버 순위",
-     "descKo": "Edd Straw의 새로운 티어 목록 F1 드라이버 순위 형식의 두 번째 주입니다. 그렇다면 멕시코 GP에서 누가 최고의 영예를 얻었습니까?",
-     "lead": [
-      "It's the second week of Edd Straw's new tier list Formula 1 driver rankings format, as he takes a closer look at each driver's individual performance at the Mexican Grand Prix.",
-      "Considering nobody was flawless across the Mexico City weekend, who ended up in the coveted S tier? And whose mistakes tanked their rankings?",
-      "As usual, you can ask your questions about Edd's rankings by commenting on this post in The Race Members' Club - and have a crack at compiling your own Mexican GP tier list with our handy visual tool !"
-     ],
-     "leadKo": [
-      "Edd Straw의 새로운 티어 목록 Formula 1 드라이버 순위 형식의 두 번째 주입니다. 그는 멕시코 그랑프리에서 각 드라이버의 개별 성과를 자세히 살펴봅니다.",
-      "멕시코시티 주말 내내 완벽한 선수가 없었다는 점을 고려하면, 모두가 탐내는 S 등급에 오른 사람은 누구일까요? 그리고 누구의 실수로 순위가 떨어졌나요?",
-      "평소와 마찬가지로 The Race Members' Club의 이 게시물에 댓글을 달아 Edd의 순위에 대해 질문할 수 있으며 편리한 시각적 도구를 사용하여 자신만의 멕시코 GP 티어 목록을 작성해 볼 수 있습니다!"
      ]
     }
    ]
