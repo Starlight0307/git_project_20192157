@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-05T22:03:34+00:00",
- "failed": [],
+ "updated": "2026-11-06T02:29:16+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -18,10 +20,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-05T21:26:13Z",
+     "date": "2026-11-05T23:09:00Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1383963447,
+     "revid": 1383976391,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1870,6 +1872,48 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Mercedes held its breath over Kimi Antonelli’s title-winning move on Charles Leclerc",
+     "desc": "All Kimi Antonelli needed to do at the Mexico City Grand Prix was finish ninth. Instead, the new world champion chose to clinch the title with a late-braking lunge on Charles…",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-reveals-the-dark-2025-slump-that-built-a-champion-i-questioned-myself-over-and-over/10871786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/YP74lEG2/s6/motorsport-com-graphics-79-3.jpg",
+     "date": "2026-11-05T23:28:33+00:00",
+     "author": "",
+     "id": "715e4f8f83",
+     "lead": [
+      "All Kimi Antonelli needed to do at the Mexico City Grand Prix was finish ninth. Instead, the new world champion chose to clinch the title with a late-braking lunge on Charles Leclerc into Turn 1, and not everyone at Mercedes was comfortable watching it.",
+      "Speaking on the Nu Silver Arrows Radio Show , Antonelli revealed that some members of the team questioned why he had taken the risk, with the championship already within touching distance.",
+      "Host Anthony Davidson said the move had left the team \"holding their breath\", describing it as \"necessary but not necessary at the same time\"."
+     ],
+     "leadKo": [
+      "멕시코 시티 그랑프리에서 키미 안토넬리(Kimi Antonelli)가 해야 할 일은 9위뿐이었습니다. 대신, 새로운 세계 챔피언은 Charles Leclerc를 1턴에 늦게 제동하여 타이틀을 차지하기로 결정했고 Mercedes의 모든 사람들이 이를 편안하게 지켜볼 수는 없었습니다.",
+      "Nu Silver Arrows 라디오 쇼에서 Antonelli는 팀의 일부 구성원이 챔피언십이 이미 손에 닿을 거리에 있는 상황에서 왜 위험을 감수했는지 의문을 제기했다고 밝혔습니다.",
+      "진행자 앤서니 데이비슨(Anthony Davidson)은 이번 조치로 팀이 \"숨을 참게 됐다\"며 \"필요하지만 동시에 필요하지는 않다\"고 설명했다."
+     ],
+     "titleKo": "메르세데스는 키미 안토넬리(Kimi Antonelli)의 찰스 르클레르(Charles Leclerc)에 대한 타이틀 우승 움직임에 숨을 죽였습니다.",
+     "descKo": "멕시코 시티 그랑프리에서 키미 안토넬리(Kimi Antonelli)가 해야 할 일은 9위뿐이었습니다. 대신, 새로운 세계 챔피언은 찰스에게 늦게 제동을 걸어 타이틀을 차지하기로 결정했습니다…"
+    },
+    {
+     "title": "George Russell opens up on mental exhaustion after frustrating 2026 F1 season",
+     "desc": "George Russell has admitted he is mentally exhausted after a season in which he has repeatedly had to overcome challenges. The Mercedes driver started 2026 as the favourite for…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-opens-up-on-mental-exhaustion-after-frustrating-2026-f1-season/10871940/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/6n7bwpO0/s6/motorsport-com-graphics-62.jpg",
+     "date": "2026-11-05T23:14:24+00:00",
+     "author": "",
+     "id": "cbb83694bf",
+     "lead": [
+      "George Russell has admitted he is mentally exhausted after a season in which he has repeatedly had to overcome challenges.",
+      "The Mercedes driver started 2026 as the favourite for the title, but after a string of issues outside of his control and incredible performances from his team-mate Kimi Antonelli, he watched on as the Italian became world champion in Mexico.",
+      "Speaking to the media at Interlagos on Thursday, Russell said that even reaching Brazil, where he celebrated his first Formula 1 win in 2022, had not lifted him."
+     ],
+     "leadKo": [
+      "조지 러셀(George Russell)은 반복적으로 어려움을 극복해야 했던 시즌 이후 정신적으로 지쳤다고 인정했습니다.",
+      "이 메르세데스 드라이버는 타이틀 후보로 2026년을 시작했지만, 자신이 통제할 수 없는 일련의 문제와 팀 동료인 키미 안토넬리(Kimi Antonelli)의 놀라운 성과 이후 이탈리아인이 멕시코에서 세계 챔피언이 되는 것을 지켜보았습니다.",
+      "러셀은 목요일 인터라고스에서 열린 언론과의 인터뷰에서 2022년 첫 포뮬러 1 우승을 축하했던 브라질에 도착하더라도 기분이 나아지지 않았다고 말했습니다."
+     ],
+     "titleKo": "조지 러셀은 2026년 F1 시즌을 좌절시킨 후 정신적 피로를 드러냈습니다.",
+     "descKo": "조지 러셀(George Russell)은 반복적으로 어려움을 극복해야 했던 시즌 이후 정신적으로 지쳤다고 인정했습니다. 메르세데스 드라이버는 2026년을 가장 좋아하는 선수로 시작했습니다."
+    },
+    {
      "title": "Kimi Antonelli admits George Russell still holds one massive advantage over him",
      "desc": "Let’s not sugarcoat it: George Russell had an incredibly tough 2026 campaign. With a magnet-like attraction to bad luck, the Briton spent a massive chunk of the season watching…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-admits-george-russell-still-holds-one-massive-advantage-over-him/10871794/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1877,6 +1921,8 @@
      "date": "2026-11-05T21:53:34+00:00",
      "author": "",
      "id": "c7c2d291d8",
+     "titleKo": "키미 안토넬리(Kimi Antonelli)는 조지 러셀(George Russell)이 여전히 자신보다 한 가지 큰 이점을 갖고 있음을 인정합니다.",
+     "descKo": "설탕을 입히지 말자: 조지 러셀은 믿을 수 없을 만큼 힘든 2026년 캠페인을 벌였습니다. 불운에 대한 자석 같은 매력을 지닌 영국인은 시즌의 상당 부분을 지켜보며 보냈습니다.",
      "lead": [
       "Let’s not sugarcoat it: George Russell had an incredibly tough 2026 campaign. With a magnet-like attraction to bad luck, the Briton spent a massive chunk of the season watching his 20-year-old team-mate storm away with the world drivers' championship.",
       "But if you think that means Kimi Antonelli is treating the other side of the garage like chopped liver, you don't understand how Formula 1 drivers operate.",
@@ -1886,9 +1932,7 @@
       "설탕을 입히지 말자: 조지 러셀은 믿을 수 없을 만큼 힘든 2026년 캠페인을 벌였습니다. 불운에 대한 자석 같은 매력을 지닌 이 영국인은 20세의 팀 동료가 월드 드라이버 챔피언십에서 우승하는 것을 지켜보며 시즌의 상당 부분을 보냈습니다.",
       "그러나 그것이 키미 안토넬리(Kimi Antonelli)가 차고의 반대편을 다진 간처럼 대하고 있다는 뜻이라고 생각한다면, 포뮬러 1 드라이버들이 어떻게 작동하는지 이해하지 못하는 것입니다.",
       "올해 러셀의 일요일은 저주를 받았을지 모르지만, 그의 토요일은 여전히 ​​절대적인 흥행작입니다. F1 패독이 그를 Mr. Saturday라고 부르는 데에는 그럴 만한 이유가 있습니다. 차를 완전히 긁어 끌고 마법의 적격 랩을 뽑아내는 그의 능력은 여전히 ​​​​매우 치명적인 무기로 남아 있습니다."
-     ],
-     "titleKo": "키미 안토넬리(Kimi Antonelli)는 조지 러셀(George Russell)이 여전히 자신보다 한 가지 큰 이점을 갖고 있음을 인정합니다.",
-     "descKo": "설탕을 입히지 말자: 조지 러셀은 믿을 수 없을 만큼 힘든 2026년 캠페인을 벌였습니다. 불운에 대한 자석 같은 매력을 지닌 영국인은 시즌의 상당 부분을 지켜보며 보냈습니다."
+     ]
     },
     {
      "title": "Kimi Antonelli opens up on \"very emotional\" visit to Ayrton Senna's family estate",
@@ -1898,6 +1942,8 @@
      "date": "2026-11-05T21:43:40+00:00",
      "author": "",
      "id": "104c267f20",
+     "titleKo": "Kimi Antonelli가 Ayrton Senna의 가족 사유지를 \"매우 감동적인\" 방문으로 시작했습니다.",
+     "descKo": "2026 포뮬러 1 챔피언 키미 안토넬리(Kimi Antonelli)는 이번 주말 브라질 그랑프리를 앞두고 최근 아일톤 세나(Ayrton Senna)의 자택을 방문한 것에 대해 공개했습니다. 메르세데스 운전자가 갔던 곳은…",
      "lead": [
       "2026 Formula 1 champion Kimi Antonelli has opened up about his recent visit to Ayrton Senna's family home ahead of this weekend's Brazilian Grand Prix.",
       "The Mercedes driver went to Fazenda Dois Lagos, the Senna family estate, on Tuesday, two days after clinching the F1 title in Mexico. He shared a photo of himself sitting in the Lotus 98T that Senna raced in 1986 and thanked the family for an \"unforgettable day\".",
@@ -1907,9 +1953,7 @@
       "2026 포뮬러 1 챔피언 키미 안토넬리(Kimi Antonelli)는 이번 주말 브라질 그랑프리를 앞두고 최근 아일톤 세나(Ayrton Senna)의 자택을 방문한 것에 대해 공개했습니다.",
       "메르세데스 드라이버는 멕시코에서 F1 타이틀을 획득한 지 이틀 뒤인 화요일 세나 가문의 사유지인 파젠다 도이스 라고스(Fazenda Dois Lagos)로 갔다. 그는 1986년 Senna가 경주했던 Lotus 98T에 앉아 있는 자신의 사진을 공유하고 \"잊을 수 없는 날\"에 대해 가족에게 감사를 표했습니다.",
       "Interlagos의 언론과의 인터뷰에서 Antonelli는 그 경험이 그가 기대했던 것보다 훨씬 더 감정적이었다고 말했습니다."
-     ],
-     "titleKo": "Kimi Antonelli가 Ayrton Senna의 가족 사유지를 \"매우 감동적인\" 방문으로 시작했습니다.",
-     "descKo": "2026 포뮬러 1 챔피언 키미 안토넬리(Kimi Antonelli)는 이번 주말 브라질 그랑프리를 앞두고 최근 아일톤 세나(Ayrton Senna)의 자택을 방문한 것에 대해 공개했습니다. 메르세데스 운전자가 갔던 곳은…"
+     ]
     },
     {
      "title": "Kimi Antonelli reacts to Max Verstappen and Lewis Hamilton on Mexico podium: “I will frame it”",
@@ -1919,6 +1963,8 @@
      "date": "2026-11-05T21:07:17+00:00",
      "author": "",
      "id": "4e2c7bf35a",
+     "titleKo": "Kimi Antonelli는 멕시코 연단에서 Max Verstappen과 Lewis Hamilton에게 반응합니다. “내가 액자에 담겠습니다”",
+     "descKo": "불과 20년 68일 만에 2026년 세계 드라이버 챔피언십을 획득한 것은 역사를 뒤흔드는 엄청난 성과입니다. 하지만 안드레아 키미 안토넬리(Andrea Kimi Antonelli)에게 있어서 가장…",
      "lead": [
       "Securing the 2026 world drivers' championship at just 20 years and 68 days old is a massive, history-book-shattering achievement. But for Andrea Kimi Antonelli , the most overwhelming part of the Mexico City Grand Prix did not even happen on the asphalt. It happened after the chequered flag.",
       "Sharing the podium with race winner Max Verstappen and runner-up Lewis Hamilton is intimidating enough. Then, in a brilliant moment of unscripted sportsmanship, the two heavyweights hoisted the newly minted Mercedes champion on their shoulders. It was the ultimate 'welcome to the club' gesture for the kid who just rewrote the F1 record books.",
@@ -1928,9 +1974,7 @@
       "불과 20년 68일 만에 2026년 세계 드라이버 챔피언십을 획득한 것은 역사를 뒤흔드는 엄청난 성과입니다. 그러나 안드레아 키미 안토넬리(Andrea Kimi Antonelli)에게 있어서 멕시코 시티 그랑프리의 가장 압도적인 부분은 아스팔트 위에서 일어나지도 않았습니다. 그것은 체크 무늬 깃발 이후에 일어났습니다.",
       "레이스 우승자 Max Verstappen 및 준우승자 Lewis Hamilton과 함께 시상대에 오르는 것만으로도 충분히 위협적입니다. 그런 다음 대본에 없던 스포츠맨십이 빛나는 순간에 두 헤비급 선수는 새로 탄생한 메르세데스 챔피언을 어깨에 짊어졌습니다. F1 기록을 이제 막 다시 쓴 아이를 위한 궁극적인 '클럽에 오신 것을 환영합니다' 제스처였습니다.",
       "Nu Silver Arrows 라디오 쇼에 출연한 Antonelli는 마침내 그 순간의 감정적 무게를 무너뜨렸습니다."
-     ],
-     "titleKo": "Kimi Antonelli는 멕시코 연단에서 Max Verstappen과 Lewis Hamilton에게 반응합니다. “내가 액자에 담겠습니다”",
-     "descKo": "불과 20년 68일 만에 2026년 세계 드라이버 챔피언십을 획득한 것은 역사를 뒤흔드는 엄청난 성과입니다. 하지만 안드레아 키미 안토넬리(Andrea Kimi Antonelli)에게 있어서 가장…"
+     ]
     },
     {
      "title": "Max Verstappen responds to Toto Wolff’s claim that era of \"ruthless\" F1 drivers is over",
@@ -1940,6 +1984,8 @@
      "date": "2026-11-05T20:44:59+00:00",
      "author": "",
      "id": "be81988f5d",
+     "titleKo": "Max Verstappen은 \"무자비한\" F1 드라이버의 시대는 끝났다는 Toto Wolff의 주장에 응답합니다.",
+     "descKo": "4차례 포뮬러 1 챔피언인 막스 베르스타펜(Max Verstappen)은 \"무자비한\" F1 드라이버의 시대는 끝났다는 메르세데스 팀 수석 토토 울프(Toto Wolff)의 주장에 대해 답변했습니다. 메르세데스의 키미 이후…",
      "lead": [
       "Four-time Formula 1 champion Max Verstappen has responded to Mercedes team principal Toto Wolff's claim that the era of the \"ruthless\" F1 driver is over.",
       "After Mercedes' Kimi Antonelli clinched his maiden world championship at the Mexican Grand Prix last weekend, Wolff used the 20-year-old as an example of a new kind of champion.",
@@ -1949,18 +1995,18 @@
       "4차례 포뮬러 1 챔피언인 막스 베르스타펜(Max Verstappen)은 \"무자비한\" F1 드라이버의 시대는 끝났다는 메르세데스 팀 수석 토토 울프(Toto Wolff)의 주장에 대해 답변했습니다.",
       "지난 주말 멕시코 그랑프리에서 메르세데스의 키미 안토넬리(Kimi Antonelli)가 첫 월드 챔피언십을 차지한 후, 울프는 이 20세의 선수를 새로운 종류의 챔피언의 예로 들었습니다.",
       "울프는 \"어떤 대가를 치르더라도 승리한다는 개념, 이기적이고 기회주의적이며 자신의 이익을 위해 무자비한 레이싱 드라이버 모델은 사라졌습니다\"라고 말했습니다."
-     ],
-     "titleKo": "Max Verstappen은 \"무자비한\" F1 드라이버의 시대는 끝났다는 Toto Wolff의 주장에 응답합니다.",
-     "descKo": "4차례 포뮬러 1 챔피언인 막스 베르스타펜(Max Verstappen)은 \"무자비한\" F1 드라이버의 시대는 끝났다는 메르세데스 팀 수석 토토 울프(Toto Wolff)의 주장에 대해 답변했습니다. 메르세데스의 키미 이후…"
+     ]
     },
     {
      "title": "Kimi Antonelli admits he questioned himself throughout his rookie campaign",
      "desc": "Kimi Antonelli became the youngest F1 champion last weekend in Mexico, as with four rounds to go, his closest rivals lost even a theoretical chance of challenging him for the…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-admits-he-questioned-himself-throughout-his-rookie-campaign/10871901/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-11-05T20:32:35+00:00",
      "author": "",
      "id": "64054e26d6",
+     "titleKo": "키미 안토넬리는 루키 시즌 내내 스스로에게 의문을 품었다고 인정했습니다.",
+     "descKo": "Kimi Antonelli는 지난 주말 멕시코에서 최연소 F1 챔피언이 되었습니다. 4라운드가 남은 상황에서 그의 가장 가까운 라이벌들은 그에게 도전할 이론적인 기회조차 잃었습니다.",
      "lead": [
       "Kimi Antonelli became the youngest F1 champion last weekend in Mexico, as with four rounds to go, his closest rivals lost even a theoretical chance of challenging him for the title this year. The Italian's strong performances allowed him to dominate the season - but the picture looked different last year, when he entered Formula 1 at the age of 18. Despite several standout races, much of his rookie campaign proved difficult.",
       "Watch: Kimi: Two Years that Changed Everything",
@@ -1970,18 +2016,18 @@
       "Kimi Antonelli는 지난 주말 멕시코에서 가장 어린 F1 챔피언이 되었습니다. 4라운드가 남은 상황에서 그의 가장 가까운 라이벌들은 올해 그에게 타이틀을 놓고 도전할 이론적 기회조차 잃었습니다. 이탈리아인의 강력한 활약 덕분에 그는 시즌을 장악할 수 있었습니다. 그러나 작년에 그가 18세의 나이로 Formula 1에 입성했을 때 상황은 달라졌습니다. 몇 차례 눈에 띄는 경주에도 불구하고 그의 신인 시즌 대부분은 어려웠습니다.",
       "시청: Kimi: 모든 것을 변화시킨 2년",
       "이로 인해 많은 사람들은 Mercedes가 자신을 너무 일찍 F1으로 승격시켜 잘못된 결정을 했는지 의문을 갖게 되었습니다. 그리고 Nu Silver Arrows 라디오 쇼에서 전 F1 드라이버 Anthony Davidson과 대화하면서 Antonelli는 자신도 의문을 품었다고 인정했습니다."
-     ],
-     "titleKo": "키미 안토넬리는 루키 시즌 내내 스스로에게 의문을 품었다고 인정했습니다.",
-     "descKo": "Kimi Antonelli는 지난 주말 멕시코에서 최연소 F1 챔피언이 되었습니다. 4라운드가 남은 상황에서 그의 가장 가까운 라이벌들은 그에게 도전할 이론적인 기회조차 잃었습니다."
+     ]
     },
     {
      "title": "F1 Brazil GP: Friday schedule, weather forecast and how to watch",
      "desc": "Formula 1 heads to Interlagos this weekend with Kimi Antonelli arriving as world champion after clinching his first title at the Mexico Grand Prix. The 20-year-old became Formula…",
      "link": "https://www.motorsport.com/f1/news/f1-brazil-gp-friday-schedule-weather-forecast-and-how-to-watch/10871866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0JXRljpY/s6/a-detailed-view-of-the-tracksi-3.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0JXRljpY/s6/a-detailed-view-of-the-tracksi-3.jpg",
      "date": "2026-11-05T20:24:53+00:00",
      "author": "",
      "id": "fb19bd45d1",
+     "titleKo": "F1 브라질 GP: 금요일 일정, 일기예보 및 시청 방법",
+     "descKo": "포뮬러 1은 이번 주말 멕시코 그랑프리에서 첫 타이틀을 획득한 후 세계 챔피언이 된 키미 안토넬리(Kimi Antonelli)와 함께 인터라고스로 향합니다. 20세에 포뮬러가 되다…",
      "lead": [
       "Formula 1 heads to Interlagos this weekend with Kimi Antonelli arriving as world champion after clinching his first title at the Mexico Grand Prix.",
       "The 20-year-old became Formula 1’s youngest-ever world champion and Italy’s first since Alberto Ascari in 1953. Mercedes could now complete the double in Brazil, carrying a 126-point constructors’ championship lead over Ferrari into the weekend.",
@@ -1991,18 +2037,18 @@
       "포뮬러 1은 이번 주말 멕시코 그랑프리에서 첫 타이틀을 획득한 후 세계 챔피언이 된 키미 안토넬리(Kimi Antonelli)와 함께 인터라고스로 향합니다.",
       "20세의 그는 포뮬러 1의 최연소 세계 챔피언이자 1953년 알베르토 아스카리(Alberto Ascari) 이후 이탈리아 최초의 세계 챔피언이 되었습니다. 이제 메르세데스는 브라질에서 두 배의 우승을 차지하며 주말까지 페라리를 누르고 126점차 컨스트럭터 챔피언십 선두를 달리게 되었습니다.",
       "Max Verstappen은 지난 4번의 그랑프리 중 3번의 우승을 차지한 후 강력한 모습으로 도착했으며, Ferrari는 Lewis Hamilton과 Charles Leclerc의 첫 번째 랩 전투로 인해 팀이 멕시코에서 잠재적인 승리를 거둔 후 대응할 것으로 보입니다."
-     ],
-     "titleKo": "F1 브라질 GP: 금요일 일정, 일기예보 및 시청 방법",
-     "descKo": "포뮬러 1은 이번 주말 멕시코 그랑프리에서 첫 타이틀을 획득한 후 세계 챔피언이 된 키미 안토넬리(Kimi Antonelli)와 함께 인터라고스로 향합니다. 20세에 포뮬러가 되다…"
+     ]
     },
     {
      "title": "Oscar Piastri accepts Arvid Lindblad clash penalty; guidelines 'tricky' to enforce at Mexico opening corners",
      "desc": "Oscar Piastri accepted his Mexico City Grand Prix penalty for colliding with Arvid Lindblad on the basis of the Formula 1 driving standards guidelines - but suggested that those…",
      "link": "https://www.motorsport.com/f1/news/oscar-piastri-accepts-lindblad-clash-penalty-guidelines-tricky-to-enforce-at-mexico-opening-corners/10871893/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/25dLD8E0/s6/oscar-piastri-mclaren-arvid-li.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/25dLD8E0/s6/oscar-piastri-mclaren-arvid-li.jpg",
      "date": "2026-11-05T20:20:07+00:00",
      "author": "",
      "id": "668d3b4e27",
+     "titleKo": "Oscar Piastri는 Arvid Lindblad 충돌 페널티를 수락합니다. 멕시코 오프닝 코너에서 시행하기 위한 '까다로운' 지침",
+     "descKo": "Oscar Piastri는 Formula 1 운전 표준 지침에 근거하여 Arvid Lindblad와 충돌한 것에 대한 멕시코 시티 그랑프리 페널티를 받아들였지만...",
      "lead": [
       "Oscar Piastri accepted his Mexico City Grand Prix penalty for colliding with Arvid Lindblad on the basis of the Formula 1 driving standards guidelines - but suggested that those guidelines might need tweaking for corners like the Mexican opening complex.",
       "The Australian hung his McLaren around the outside of Lindblad into Turn 1, with the intent of gaining the inside line for the immediate approach of Turn 2. Both drivers held their lines, which led to Lindblad's rear-left wheel making contact with Piastri's front right; this sprung the Racing Bulls into the air, into the exit wall and out of the race.",
@@ -2012,51 +2058,7 @@
       "Oscar Piastri는 Formula 1 운전 표준 지침을 기반으로 Arvid Lindblad와 충돌한 것에 대한 멕시코 시티 그랑프리 페널티를 받아들였지만 멕시코 개장 단지와 같은 코너에서는 해당 지침을 조정해야 할 수도 있다고 제안했습니다.",
       "호주인은 2번 턴에 즉시 접근하기 위해 내부 라인을 확보하려는 의도로 Lindblad 외부 주변에 McLaren을 1번 턴에 걸어 놓았습니다. 두 운전자 모두 라인을 유지했고 이로 인해 Lindblad의 왼쪽 뒷바퀴가 Piatri의 오른쪽 앞바퀴와 접촉했습니다. 이로 인해 Racing Bulls가 공중으로, 출구 벽으로, 경주에서 튀어 나왔습니다.",
       "Piastri는 접촉으로 인해 10초의 페널티를 받았고 이로 인해 7위를 차지했습니다. 그는 안전 차량의 결과로 필드가 뭉쳐지면서 13 위로 분류되었습니다."
-     ],
-     "titleKo": "Oscar Piastri는 Arvid Lindblad 충돌 페널티를 수락합니다. 멕시코 오프닝 코너에서 시행하기 위한 '까다로운' 지침",
-     "descKo": "Oscar Piastri는 Formula 1 운전 표준 지침에 근거하여 Arvid Lindblad와 충돌한 것에 대한 멕시코 시티 그랑프리 페널티를 받아들였지만..."
-    },
-    {
-     "title": "Lewis Hamilton admits his outspoken nature has made Ferrari move more difficult",
-     "desc": "Seven-time Formula 1 champion Lewis Hamilton has admitted that his outspoken approach has made it harder for him to fit in at Ferrari alongside Charles Leclerc, explaining that…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-admits-his-outspoken-nature-has-made-ferrari-move-more-difficult/10871887/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0R7BlDB2/s6/motorsport-com-graphics-57.jpg",
-     "date": "2026-11-05T19:44:14+00:00",
-     "author": "",
-     "id": "4159be46e8",
-     "lead": [
-      "Seven-time Formula 1 champion Lewis Hamilton has admitted that his outspoken approach has made it harder for him to fit in at Ferrari alongside Charles Leclerc , explaining that \"it’s not so easy having someone like me come into a team.\"",
-      "Hamilton, who joined the Maranello outfit at the start of the 2025 season, clashed with Leclerc on the opening lap of last weekend's Mexican Grand Prix.",
-      "Leclerc attempted to overtake Hamilton, who started from pole position, but both drivers ran off the track. Hamilton dropped from first to third behind Max Verstappen as a result, and Leclerc was handed a five-second penalty."
-     ],
-     "leadKo": [
-      "7회 포뮬러 1 챔피언 루이스 해밀턴은 자신의 노골적인 접근 방식으로 인해 찰스 르클레르와 함께 페라리에서 적응하기가 더 어려워졌다고 인정하면서 \"나 같은 사람이 팀에 합류하는 것이 그리 쉽지 않다\"고 설명했습니다.",
-      "2025년 시즌 초 마라넬로 팀에 합류한 해밀턴은 지난 주말 멕시코 그랑프리 오프닝 랩에서 르클레르와 충돌했습니다.",
-      "르클레르는 폴 포지션에서 출발한 해밀턴을 추월하려 했으나 두 드라이버 모두 트랙을 벗어났습니다. 그 결과 해밀턴은 Max Verstappen에 뒤처져 1위에서 3위로 떨어졌고 Leclerc는 5초의 페널티를 받았습니다."
-     ],
-     "titleKo": "루이스 해밀턴은 자신의 솔직한 성격이 페라리의 움직임을 더욱 어렵게 만들었다고 인정했습니다.",
-     "descKo": "7회 포뮬러 1 챔피언 루이스 해밀턴은 자신의 노골적인 접근 방식으로 인해 찰스 르클레크와 함께 페라리에서 적응하기가 더 어려워졌다고 인정하면서 다음과 같이 설명했습니다."
-    },
-    {
-     "title": "Ralf Schumacher accuses Lewis Hamilton of acting like “Al Capone” amid Mexico City GP drama",
-     "desc": "Lewis Hamilton’s furious radio messages during the Mexico City Grand Prix have drawn severe criticism from former Formula 1 driver Ralf Schumacher. While the clash between the…",
-     "link": "https://www.motorsport.com/f1/news/ralf-schumacher-accuses-lewis-hamilton-of-acting-like-al-capone-during-mexico-city-gp-drama/10871637/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YP74ldo2/s6/motorsport-com-graphics-76-2.jpg",
-     "date": "2026-11-05T19:09:14+00:00",
-     "author": "",
-     "id": "35c0bafb96",
-     "lead": [
-      "Lewis Hamilton ’s furious radio messages during the Mexico City Grand Prix have drawn severe criticism from former Formula 1 driver Ralf Schumacher.",
-      "While the clash between the Ferrari team-mates at the Autódromo Hermanos Rodríguez was deemed acceptable hard racing, the ensuing political theatre over the airwaves crossed a major line for the German pundit.",
-      "Hamilton and Charles Leclerc went to war through the opening sequence of corners, ultimately forcing both scarlet cars completely off the asphalt at Turn 4. Rather than yielding, the Monegasque driver kept his foot planted across the grass to defend his track position, earning a five-second time penalty from the FIA in the process."
-     ],
-     "leadKo": [
-      "멕시코시티 그랑프리 도중 루이스 해밀턴의 격렬한 라디오 메시지는 전 포뮬러 1 드라이버 랄프 슈마허로부터 심한 비난을 받았습니다.",
-      "Autódromo Hermanos Rodríguez에서 페라리 팀 동료들 사이의 충돌은 용인될 만한 힘든 경주로 간주되었지만, 방송을 통해 이어진 정치 극장은 독일 전문가의 주요 선을 넘었습니다.",
-      "Hamilton과 Charles Leclerc는 코너의 시작 순서를 통해 전쟁에 나섰고 결국 4번 코너에서 두 스칼렛 자동차 두 대를 아스팔트에서 완전히 밀어냈습니다. Monegasque 운전자는 양보하는 대신 트랙 위치를 방어하기 위해 잔디 위에 발을 딛고 있었고 그 과정에서 FIA로부터 5초의 페널티를 받았습니다."
-     ],
-     "titleKo": "랄프 슈마허는 루이스 해밀턴이 멕시코시티 GP 드라마에서 '알 카포네'처럼 행동했다고 비난했다.",
-     "descKo": "멕시코시티 그랑프리 도중 루이스 해밀턴의 격렬한 라디오 메시지는 전 포뮬러 1 드라이버 랄프 슈마허로부터 심한 비난을 받았습니다. …"
+     ]
     }
    ]
   },
@@ -2072,6 +2074,8 @@
      "date": "2026-11-05T21:34:17+00:00",
      "author": "The Race Team",
      "id": "18ae51a5ee",
+     "titleKo": "F1 브라질 그랑프리 첫날부터 우리가 배운 것",
+     "descKo": "F1의 2026년 타이틀은 이미 공식적으로 결정되었을 수도 있지만, 그렇다고 해서 Interlagos에서의 첫날이 통찰력을 얻는 것을 막지는 못했습니다.",
      "lead": [
       "Formula 1's 2026 title might already be officially decided, but that didn't prevent the first day of the Brazilian Grand Prix from being insightful.",
       "Here's everything we learned from Thursday at Interlagos...",
@@ -2081,9 +2085,7 @@
       "Formula 1의 2026년 타이틀은 이미 공식적으로 결정되었을 수도 있지만 브라질 그랑프리의 첫날은 통찰력이 있었습니다.",
       "Interlagos에서 목요일에 배운 모든 내용은 다음과 같습니다.",
       "조지 러셀(George Russell)은 실망스러운 2026 시즌 이후 계속해서 자신을 회복해야 하는 데 \"약간 지쳤습니다\". 팀과 함께 한 해를 검토한 결과 그는 문제 없이 6번의 레이스만을 기록했습니다."
-     ],
-     "titleKo": "F1 브라질 그랑프리 첫날부터 우리가 배운 것",
-     "descKo": "F1의 2026년 타이틀은 이미 공식적으로 결정되었을 수도 있지만, 그렇다고 해서 Interlagos에서의 첫날이 통찰력을 얻는 것을 막지는 못했습니다."
+     ]
     },
     {
      "title": "Ferrari drivers set for crunch meeting in Brazil",
@@ -2093,6 +2095,8 @@
      "date": "2026-11-05T19:48:42+00:00",
      "author": "Jon Noble",
      "id": "7f43723d44",
+     "titleKo": "페라리 드라이버, 브라질에서 위기 회의 예정",
+     "descKo": "페라리는 금요일 브라질에서 드라이버들과 긴급 회의를 가질 예정이며, 루이스 해밀턴은 \"나는 결코 침묵하지 않을 것\"이라고 다짐했습니다.",
      "lead": [
       "Ferrari team boss Fred Vasseur will get his Formula 1 drivers together in Brazil to discuss their costly opening-lap dice in Mexico, as Lewis Hamilton vows \"I'll never be silenced\".",
       "Charles Leclerc and Hamilton fought each other hard on the opening lap in Mexico, allowing Max Verstappen to steal away what Ferrari believed was a likely victory.",
@@ -2102,9 +2106,7 @@
       "페라리 팀 보스인 프레드 바쇠르(Fred Vasseur)는 루이스 해밀턴이 \"나는 결코 침묵하지 않을 것이다\"라고 다짐한 것처럼 브라질에서 포뮬러 1 드라이버들을 모아 멕시코에서 값비싼 오프닝 랩 주사위에 대해 논의할 예정입니다.",
       "Charles Leclerc와 Hamilton은 멕시코의 오프닝 랩에서 서로 열심히 싸웠고, Max Verstappen은 Ferrari가 승리할 것이라고 믿었던 것을 훔칠 수 있었습니다.",
       "해밀턴은 경주가 끝난 후 Leclerc의 경주용 기술에 대해 질문하며 Leclerc는 \"죽느냐 마느냐\"라는 사고방식을 가지고 있으며 팀 동료들과 너무 심하게 싸워온 오랜 역사를 가지고 있다고 말했습니다."
-     ],
-     "titleKo": "페라리 드라이버, 브라질에서 위기 회의 예정",
-     "descKo": "페라리는 금요일 브라질에서 드라이버들과 긴급 회의를 가질 예정이며, 루이스 해밀턴은 \"나는 결코 침묵하지 않을 것\"이라고 다짐했습니다."
+     ]
     },
     {
      "title": "Bottas crash diagnosis and his bold stance on Cadillac F1 future",
@@ -2114,6 +2116,8 @@
      "date": "2026-11-05T17:57:21+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "ac0a7d9a24",
+     "titleKo": "Bottas의 충돌 진단과 Cadillac F1의 미래에 대한 그의 대담한 입장",
+     "descKo": "Valtteri Bottas는 멕시코에서의 괴물 션트 이후 캐딜락이 무엇을 바꾸고 있는지 밝혔습니다.",
      "lead": [
       "The Cadillac Formula 1 team is rolling back the specification of a suspension component after diagnosing the cause of Valtteri Bottas’s dramatic crash in Mexico last weekend.",
       "Bottas shunted out of the Mexico race when his front left suspension failed at the first corner, sending the car backwards into the barrier deep into the run-off.",
@@ -2123,9 +2127,7 @@
       "캐딜락 포뮬러 1 팀은 지난 주말 멕시코에서 발테리 보타스(Valtteri Bottas)의 극적인 충돌 사고의 원인을 진단한 후 서스펜션 구성 요소의 사양을 롤백합니다.",
       "Bottas는 첫 번째 코너에서 왼쪽 앞 서스펜션이 실패하자 멕시코 레이스에서 기권했고, 결선까지 깊숙한 장벽으로 차를 뒤로 보냈습니다.",
       "다행스럽게도 Bottas는 심각한 지속적인 손상을 입힐 만큼 큰 타격을 피했습니다. 목요일 브라질에서 그는 라디오에서 평소와 달리 큰 소리로 소리를 지르고 FIA 의료진과 이야기를 나누던 차에 머물렀을 때 차량이 벽에 닿을 때 오른쪽 다리가 핸들에 부딪혔기 때문에 통증이 있었다고 밝혔습니다."
-     ],
-     "titleKo": "Bottas의 충돌 진단과 Cadillac F1의 미래에 대한 그의 대담한 입장",
-     "descKo": "Valtteri Bottas는 멕시코에서의 괴물 션트 이후 캐딜락이 무엇을 바꾸고 있는지 밝혔습니다."
+     ]
     },
     {
      "title": "F1 thinks Apple will expand broadcast rights beyond the US",
@@ -2135,6 +2137,8 @@
      "date": "2026-11-05T17:33:00+00:00",
      "author": "Samarth Kanal",
      "id": "cad3e4920c",
+     "titleKo": "F1은 애플이 미국 이외의 지역으로 방송권을 확장할 것이라고 생각한다",
+     "descKo": "Apple은 미국을 넘어 F1의 입지를 확장하는 데 주목하고 있습니다.",
      "lead": [
       "Apple TV’s deal as Formula 1’s exclusive US broadcast partner is still in its infancy, but the tech giant will look to broadcast F1 in other countries, according to F1 CEO Stefano Domenicali.",
       "This year, Apple TV and F1 began a five-year partnership in which every F1 race is broadcast exclusively on the Apple TV platform to US customers.",
@@ -2144,9 +2148,7 @@
       "F1의 CEO인 스테파노 도메니칼리(Stefano Domenicali)에 따르면, Formula 1의 독점 미국 방송 파트너로서 Apple TV의 계약은 아직 초기 단계이지만, 이 거대 기술 기업은 다른 국가에서도 F1을 방송할 계획이라고 합니다.",
       "올해 Apple TV와 F1은 모든 F1 경주를 Apple TV 플랫폼을 통해 미국 고객들에게 독점적으로 방송하는 5년 간의 파트너십을 시작했습니다.",
       "Domenicali는 Apple TV 계약이 F1에게 미국의 18-24세 시장에 진출할 수 있는 \"믿을 수 없는 기회\"를 주었다고 말하면서 Apple 자체가 다른 국가에서 F1 방송 계약을 위해 경쟁하기 위해 확장할 수 있는지 여부를 언급했습니다."
-     ],
-     "titleKo": "F1은 애플이 미국 이외의 지역으로 방송권을 확장할 것이라고 생각한다",
-     "descKo": "Apple은 미국을 넘어 F1의 입지를 확장하는 데 주목하고 있습니다."
+     ]
     },
     {
      "title": "Why a new Honda F1 engine problem was brutally exposed",
