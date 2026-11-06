@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-06T02:29:16+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-06T10:57:40+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -20,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-05T23:09:00Z",
+     "date": "2026-11-06T05:30:55Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1383976391,
+     "revid": 1384024244,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1872,13 +1870,57 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Kimi Antonelli: “My 2027 preparation starts now” after F1 title triumph",
+     "desc": "It has been quite the week for Kimi Antonelli. After celebrating his record-breaking world title on the Mexico Grand Prix podium, where he was hoisted aloft by Lewis Hamilton and…",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-my-2027-preparation-starts-now-after-f1-title-triumph/10871954/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/YpbAzjM0/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "date": "2026-11-06T09:42:17+00:00",
+     "author": "",
+     "id": "1b9b879a10",
+     "lead": [
+      "It has been quite the week for Kimi Antonelli .",
+      "After celebrating his record-breaking world title on the Mexico Grand Prix podium, where he was hoisted aloft by Lewis Hamilton and Max Verstappen , and at the post-race party, the Italian was whisked away for sponsor commitments on Monday in the Mexican capital.",
+      "Antonelli then flew to Sao Paulo overnight for a very special gathering with the Senna family, paying tribute to his childhood hero. Following another partner appearance at the behest of Mercedes title sponsor Petronas, it was back to business for F1's youngest champion as he addressed the media in Interlagos."
+     ],
+     "leadKo": [
+      "Kimi Antonelli에게는 꽤 일주일이 지났습니다.",
+      "루이스 해밀턴(Lewis Hamilton)과 맥스 베르스타펜(Max Verstappen)에 의해 높이 들어 올려진 멕시코 그랑프리 시상대에서 자신의 기록적인 세계 타이틀을 축하한 후, 레이스 후 파티에서 이탈리아인은 스폰서 약속을 위해 월요일 멕시코 수도로 급히 이송되었습니다.",
+      "Antonelli는 어린 시절 영웅에게 경의를 표하며 Senna 가족과 함께 매우 특별한 모임을 위해 밤새 상파울루로 날아갔습니다. Mercedes 타이틀 스폰서인 Petronas의 요청으로 또 다른 파트너 출연에 이어 F1의 최연소 챔피언이 Interlagos에서 미디어에 연설하면서 다시 사업을 시작했습니다."
+     ],
+     "titleKo": "키미 안토넬리(Kimi Antonelli): F1 타이틀 우승 후 “나의 2027년 준비는 이제 시작됩니다”",
+     "descKo": "Kimi Antonelli에게는 꽤 일주일이 지났습니다. 멕시코 그랑프리 시상대에서 자신의 기록적인 세계 타이틀 획득을 축하한 후, 그는 루이스 해밀턴에 의해 높이 들어 올려졌고…"
+    },
+    {
+     "title": "Alan Permane signs new Racing Bulls F1 deal",
+     "desc": "Red Bull has given Alan Permane a new contract as the Racing Bulls Formula 1 squad’s team principal. Permane will retain the reins of the Faenza-based outfit until the end of the…",
+     "link": "https://www.motorsport.com/f1/news/alan-permane-signs-new-racing-bulls-f1-deal/10871996/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/YpbPZzW0/s6/allan-permane-racing-bulls.jpg",
+     "date": "2026-11-06T09:21:37+00:00",
+     "author": "",
+     "id": "3330ae7b29",
+     "lead": [
+      "Red Bull has given Alan Permane a new contract as the Racing Bulls Formula 1 squad’s team principal.",
+      "Permane will retain the reins of the Faenza-based outfit until the end of the 2031 season.",
+      "A stalwart of the current Alpine squad, where he worked from 1989 to 2023 in various capacities including race engineer and sporting director, Permane joined Racing Bulls (then known as RB) ahead of the 2024 campaign as its racing director, before being promoted to the team principal role when incumbent Laurent Mekies replaced Christian Horner at Red Bull."
+     ],
+     "leadKo": [
+      "Red Bull은 Alan Permane에게 Racing Bulls Formula 1 팀의 팀장으로 새로운 계약을 체결했습니다.",
+      "Permane은 2031년 시즌이 끝날 때까지 Faenza 기반 복장의 고삐를 유지할 것입니다.",
+      "1989년부터 2023년까지 레이스 엔지니어 및 스포츠 디렉터를 포함한 다양한 직위로 근무한 현재 알파인 팀의 충실한 Permane은 2024년 캠페인을 앞두고 Racing Bulls(당시 RB)에 레이싱 디렉터로 합류한 후 Red Bull에서 현직 Laurent Mekies가 Christian Horner를 교체하면서 팀의 주요 역할로 승진했습니다."
+     ],
+     "titleKo": "Alan Permane, 새로운 Racing Bulls F1 계약 체결",
+     "descKo": "Red Bull은 Alan Permane에게 Racing Bulls Formula 1 팀의 팀장으로 새로운 계약을 체결했습니다. Permane은 Faenza 기반 복장의 고삐를 끝까지 유지할 ​​것입니다…"
+    },
+    {
      "title": "Mercedes held its breath over Kimi Antonelli’s title-winning move on Charles Leclerc",
      "desc": "All Kimi Antonelli needed to do at the Mexico City Grand Prix was finish ninth. Instead, the new world champion chose to clinch the title with a late-braking lunge on Charles…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-reveals-the-dark-2025-slump-that-built-a-champion-i-questioned-myself-over-and-over/10871786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YP74lEG2/s6/motorsport-com-graphics-79-3.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YP74lEG2/s6/motorsport-com-graphics-79-3.jpg",
      "date": "2026-11-05T23:28:33+00:00",
      "author": "",
      "id": "715e4f8f83",
+     "titleKo": "메르세데스는 키미 안토넬리(Kimi Antonelli)의 찰스 르클레르(Charles Leclerc)에 대한 타이틀 우승 움직임에 숨을 죽였습니다.",
+     "descKo": "멕시코 시티 그랑프리에서 키미 안토넬리(Kimi Antonelli)가 해야 할 일은 9위뿐이었습니다. 대신, 새로운 세계 챔피언은 찰스에게 늦게 제동을 걸어 타이틀을 차지하기로 결정했습니다…",
      "lead": [
       "All Kimi Antonelli needed to do at the Mexico City Grand Prix was finish ninth. Instead, the new world champion chose to clinch the title with a late-braking lunge on Charles Leclerc into Turn 1, and not everyone at Mercedes was comfortable watching it.",
       "Speaking on the Nu Silver Arrows Radio Show , Antonelli revealed that some members of the team questioned why he had taken the risk, with the championship already within touching distance.",
@@ -1888,18 +1930,18 @@
       "멕시코 시티 그랑프리에서 키미 안토넬리(Kimi Antonelli)가 해야 할 일은 9위뿐이었습니다. 대신, 새로운 세계 챔피언은 Charles Leclerc를 1턴에 늦게 제동하여 타이틀을 차지하기로 결정했고 Mercedes의 모든 사람들이 이를 편안하게 지켜볼 수는 없었습니다.",
       "Nu Silver Arrows 라디오 쇼에서 Antonelli는 팀의 일부 구성원이 챔피언십이 이미 손에 닿을 거리에 있는 상황에서 왜 위험을 감수했는지 의문을 제기했다고 밝혔습니다.",
       "진행자 앤서니 데이비슨(Anthony Davidson)은 이번 조치로 팀이 \"숨을 참게 됐다\"며 \"필요하지만 동시에 필요하지는 않다\"고 설명했다."
-     ],
-     "titleKo": "메르세데스는 키미 안토넬리(Kimi Antonelli)의 찰스 르클레르(Charles Leclerc)에 대한 타이틀 우승 움직임에 숨을 죽였습니다.",
-     "descKo": "멕시코 시티 그랑프리에서 키미 안토넬리(Kimi Antonelli)가 해야 할 일은 9위뿐이었습니다. 대신, 새로운 세계 챔피언은 찰스에게 늦게 제동을 걸어 타이틀을 차지하기로 결정했습니다…"
+     ]
     },
     {
      "title": "George Russell opens up on mental exhaustion after frustrating 2026 F1 season",
      "desc": "George Russell has admitted he is mentally exhausted after a season in which he has repeatedly had to overcome challenges. The Mercedes driver started 2026 as the favourite for…",
      "link": "https://www.motorsport.com/f1/news/george-russell-opens-up-on-mental-exhaustion-after-frustrating-2026-f1-season/10871940/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/6n7bwpO0/s6/motorsport-com-graphics-62.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/6n7bwpO0/s6/motorsport-com-graphics-62.jpg",
      "date": "2026-11-05T23:14:24+00:00",
      "author": "",
      "id": "cbb83694bf",
+     "titleKo": "조지 러셀은 2026년 F1 시즌을 좌절시킨 후 정신적 피로를 드러냈습니다.",
+     "descKo": "조지 러셀(George Russell)은 반복적으로 어려움을 극복해야 했던 시즌 이후 정신적으로 지쳤다고 인정했습니다. 메르세데스 드라이버는 2026년을 가장 좋아하는 선수로 시작했습니다.",
      "lead": [
       "George Russell has admitted he is mentally exhausted after a season in which he has repeatedly had to overcome challenges.",
       "The Mercedes driver started 2026 as the favourite for the title, but after a string of issues outside of his control and incredible performances from his team-mate Kimi Antonelli, he watched on as the Italian became world champion in Mexico.",
@@ -1909,15 +1951,13 @@
       "조지 러셀(George Russell)은 반복적으로 어려움을 극복해야 했던 시즌 이후 정신적으로 지쳤다고 인정했습니다.",
       "이 메르세데스 드라이버는 타이틀 후보로 2026년을 시작했지만, 자신이 통제할 수 없는 일련의 문제와 팀 동료인 키미 안토넬리(Kimi Antonelli)의 놀라운 성과 이후 이탈리아인이 멕시코에서 세계 챔피언이 되는 것을 지켜보았습니다.",
       "러셀은 목요일 인터라고스에서 열린 언론과의 인터뷰에서 2022년 첫 포뮬러 1 우승을 축하했던 브라질에 도착하더라도 기분이 나아지지 않았다고 말했습니다."
-     ],
-     "titleKo": "조지 러셀은 2026년 F1 시즌을 좌절시킨 후 정신적 피로를 드러냈습니다.",
-     "descKo": "조지 러셀(George Russell)은 반복적으로 어려움을 극복해야 했던 시즌 이후 정신적으로 지쳤다고 인정했습니다. 메르세데스 드라이버는 2026년을 가장 좋아하는 선수로 시작했습니다."
+     ]
     },
     {
      "title": "Kimi Antonelli admits George Russell still holds one massive advantage over him",
      "desc": "Let’s not sugarcoat it: George Russell had an incredibly tough 2026 campaign. With a magnet-like attraction to bad luck, the Briton spent a massive chunk of the season watching…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-admits-george-russell-still-holds-one-massive-advantage-over-him/10871794/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0o5AwpDY/s6/motorsport-com-graphics-78-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0o5AwpDY/s6/motorsport-com-graphics-78-2.jpg",
      "date": "2026-11-05T21:53:34+00:00",
      "author": "",
      "id": "c7c2d291d8",
@@ -1938,7 +1978,7 @@
      "title": "Kimi Antonelli opens up on \"very emotional\" visit to Ayrton Senna's family estate",
      "desc": "2026 Formula 1 champion Kimi Antonelli has opened up about his recent visit to Ayrton Senna's family home ahead of this weekend's Brazilian Grand Prix. The Mercedes driver went to…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-opens-up-on-very-emotional-visit-to-ayrton-sennas-family-estate/10871927/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YvKBDzn6/s6/motorsport-com-graphics-61.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/YvKBDzn6/s6/motorsport-com-graphics-61.jpg",
      "date": "2026-11-05T21:43:40+00:00",
      "author": "",
      "id": "104c267f20",
@@ -1959,7 +1999,7 @@
      "title": "Kimi Antonelli reacts to Max Verstappen and Lewis Hamilton on Mexico podium: “I will frame it”",
      "desc": "Securing the 2026 world drivers' championship at just 20 years and 68 days old is a massive, history-book-shattering achievement. But for Andrea Kimi Antonelli, the most…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-reacts-to-verstappen-and-hamilton-hoisting-him-on-the-mexico-podium-i-will-frame-it/10871768/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/2eZxw53Y/s6/motorsport-com-graphics-77-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/2eZxw53Y/s6/motorsport-com-graphics-77-2.jpg",
      "date": "2026-11-05T21:07:17+00:00",
      "author": "",
      "id": "4e2c7bf35a",
@@ -1980,7 +2020,7 @@
      "title": "Max Verstappen responds to Toto Wolff’s claim that era of \"ruthless\" F1 drivers is over",
      "desc": "Four-time Formula 1 champion Max Verstappen has responded to Mercedes team principal Toto Wolff's claim that the era of the \"ruthless\" F1 driver is over. After Mercedes' Kimi…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-responds-to-toto-wolffs-claim-that-era-of-ruthless-f1-drivers-is-over/10871913/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/2wlKyrWY/s6/motorsport-com-graphics-58.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/2wlKyrWY/s6/motorsport-com-graphics-58.jpg",
      "date": "2026-11-05T20:44:59+00:00",
      "author": "",
      "id": "be81988f5d",
@@ -2001,7 +2041,7 @@
      "title": "Kimi Antonelli admits he questioned himself throughout his rookie campaign",
      "desc": "Kimi Antonelli became the youngest F1 champion last weekend in Mexico, as with four rounds to go, his closest rivals lost even a theoretical chance of challenging him for the…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-admits-he-questioned-himself-throughout-his-rookie-campaign/10871901/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-11-05T20:32:35+00:00",
      "author": "",
      "id": "64054e26d6",
@@ -2017,48 +2057,6 @@
       "시청: Kimi: 모든 것을 변화시킨 2년",
       "이로 인해 많은 사람들은 Mercedes가 자신을 너무 일찍 F1으로 승격시켜 잘못된 결정을 했는지 의문을 갖게 되었습니다. 그리고 Nu Silver Arrows 라디오 쇼에서 전 F1 드라이버 Anthony Davidson과 대화하면서 Antonelli는 자신도 의문을 품었다고 인정했습니다."
      ]
-    },
-    {
-     "title": "F1 Brazil GP: Friday schedule, weather forecast and how to watch",
-     "desc": "Formula 1 heads to Interlagos this weekend with Kimi Antonelli arriving as world champion after clinching his first title at the Mexico Grand Prix. The 20-year-old became Formula…",
-     "link": "https://www.motorsport.com/f1/news/f1-brazil-gp-friday-schedule-weather-forecast-and-how-to-watch/10871866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/0JXRljpY/s6/a-detailed-view-of-the-tracksi-3.jpg",
-     "date": "2026-11-05T20:24:53+00:00",
-     "author": "",
-     "id": "fb19bd45d1",
-     "titleKo": "F1 브라질 GP: 금요일 일정, 일기예보 및 시청 방법",
-     "descKo": "포뮬러 1은 이번 주말 멕시코 그랑프리에서 첫 타이틀을 획득한 후 세계 챔피언이 된 키미 안토넬리(Kimi Antonelli)와 함께 인터라고스로 향합니다. 20세에 포뮬러가 되다…",
-     "lead": [
-      "Formula 1 heads to Interlagos this weekend with Kimi Antonelli arriving as world champion after clinching his first title at the Mexico Grand Prix.",
-      "The 20-year-old became Formula 1’s youngest-ever world champion and Italy’s first since Alberto Ascari in 1953. Mercedes could now complete the double in Brazil, carrying a 126-point constructors’ championship lead over Ferrari into the weekend.",
-      "Max Verstappen arrives in strong form after winning three of the last four grands prix, while Ferrari will look to respond after Lewis Hamilton and Charles Leclerc 's first-lap battle cost the team a potential victory in Mexico."
-     ],
-     "leadKo": [
-      "포뮬러 1은 이번 주말 멕시코 그랑프리에서 첫 타이틀을 획득한 후 세계 챔피언이 된 키미 안토넬리(Kimi Antonelli)와 함께 인터라고스로 향합니다.",
-      "20세의 그는 포뮬러 1의 최연소 세계 챔피언이자 1953년 알베르토 아스카리(Alberto Ascari) 이후 이탈리아 최초의 세계 챔피언이 되었습니다. 이제 메르세데스는 브라질에서 두 배의 우승을 차지하며 주말까지 페라리를 누르고 126점차 컨스트럭터 챔피언십 선두를 달리게 되었습니다.",
-      "Max Verstappen은 지난 4번의 그랑프리 중 3번의 우승을 차지한 후 강력한 모습으로 도착했으며, Ferrari는 Lewis Hamilton과 Charles Leclerc의 첫 번째 랩 전투로 인해 팀이 멕시코에서 잠재적인 승리를 거둔 후 대응할 것으로 보입니다."
-     ]
-    },
-    {
-     "title": "Oscar Piastri accepts Arvid Lindblad clash penalty; guidelines 'tricky' to enforce at Mexico opening corners",
-     "desc": "Oscar Piastri accepted his Mexico City Grand Prix penalty for colliding with Arvid Lindblad on the basis of the Formula 1 driving standards guidelines - but suggested that those…",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-accepts-lindblad-clash-penalty-guidelines-tricky-to-enforce-at-mexico-opening-corners/10871893/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/25dLD8E0/s6/oscar-piastri-mclaren-arvid-li.jpg",
-     "date": "2026-11-05T20:20:07+00:00",
-     "author": "",
-     "id": "668d3b4e27",
-     "titleKo": "Oscar Piastri는 Arvid Lindblad 충돌 페널티를 수락합니다. 멕시코 오프닝 코너에서 시행하기 위한 '까다로운' 지침",
-     "descKo": "Oscar Piastri는 Formula 1 운전 표준 지침에 근거하여 Arvid Lindblad와 충돌한 것에 대한 멕시코 시티 그랑프리 페널티를 받아들였지만...",
-     "lead": [
-      "Oscar Piastri accepted his Mexico City Grand Prix penalty for colliding with Arvid Lindblad on the basis of the Formula 1 driving standards guidelines - but suggested that those guidelines might need tweaking for corners like the Mexican opening complex.",
-      "The Australian hung his McLaren around the outside of Lindblad into Turn 1, with the intent of gaining the inside line for the immediate approach of Turn 2. Both drivers held their lines, which led to Lindblad's rear-left wheel making contact with Piastri's front right; this sprung the Racing Bulls into the air, into the exit wall and out of the race.",
-      "Piastri took a 10-second penalty for the contact, which cost him seventh place. He was classified in 13th place, as the field bunched up following the resulting safety car."
-     ],
-     "leadKo": [
-      "Oscar Piastri는 Formula 1 운전 표준 지침을 기반으로 Arvid Lindblad와 충돌한 것에 대한 멕시코 시티 그랑프리 페널티를 받아들였지만 멕시코 개장 단지와 같은 코너에서는 해당 지침을 조정해야 할 수도 있다고 제안했습니다.",
-      "호주인은 2번 턴에 즉시 접근하기 위해 내부 라인을 확보하려는 의도로 Lindblad 외부 주변에 McLaren을 1번 턴에 걸어 놓았습니다. 두 운전자 모두 라인을 유지했고 이로 인해 Lindblad의 왼쪽 뒷바퀴가 Piatri의 오른쪽 앞바퀴와 접촉했습니다. 이로 인해 Racing Bulls가 공중으로, 출구 벽으로, 경주에서 튀어 나왔습니다.",
-      "Piastri는 접촉으로 인해 10초의 페널티를 받았고 이로 인해 7위를 차지했습니다. 그는 안전 차량의 결과로 필드가 뭉쳐지면서 13 위로 분류되었습니다."
-     ]
     }
    ]
   },
@@ -2066,6 +2064,48 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "What's going on with Lawson's 'blurry' F1 future",
+     "desc": "Racing Bulls team boss Alan Permane has been given a big new extension but Liam Lawson's future remains in limbo",
+     "link": "https://www.the-race.com/formula-1/whats-going-on-with-lawsons-blurry-f1-future/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1446748_HiRes.jpg",
+     "date": "2026-11-06T10:07:12+00:00",
+     "author": "Scott Mitchell-Malm",
+     "id": "13ca9999e2",
+     "lead": [
+      "Racing Bulls has re-signed its Formula 1 team leader until 2031 - but that new deal is for team boss Alan Permane, not Liam Lawson, whose future remains “blurry” at best.",
+      "Permane, who is ‘co-CEO’ at Racing Bulls, focusing on sporting matters as well as team principal, has signed a long-term contract extension at the team he joined in 2024 after a 34-year career as an increasingly pivotal part of ‘Team Enstone’ through its time as Benetton, Renault and all its myriad identities.",
+      "A new Permane deal is deserved. He has overseen enough improvement that the second Red Bull team is on course to secure its best ever result in F1 by finishing fifth in the constructors’ championship. But that is a result to which Lawson, out of contract at the end of the year, has also been pivotal."
+     ],
+     "leadKo": [
+      "Racing Bulls는 2031년까지 Formula 1 팀 리더와 재계약했습니다. 하지만 그 새로운 계약은 기껏해야 미래가 여전히 \"흐릿한\" Liam Lawson이 아니라 팀 보스 Alan Permane을 위한 것입니다.",
+      "Racing Bulls의 '공동 CEO'인 Permane은 스포츠 문제와 팀장에 중점을 두고 있으며 Benetton, Renault 및 모든 다양한 정체성을 통해 'Team Enstone'의 점점 더 중추적인 부분으로 34년의 경력을 쌓은 후 2024년에 합류한 팀에서 장기 계약 연장을 체결했습니다.",
+      "새로운 Permane 거래가 필요합니다. 그는 두 번째 Red Bull 팀이 컨스트럭터 챔피언십에서 5위를 차지하여 F1에서 역대 최고의 결과를 확보할 수 있을 만큼 충분한 개선을 감독했습니다. 하지만 이는 연말에 계약이 만료되는 로슨도 결정적인 역할을 한 결과다."
+     ],
+     "titleKo": "로슨의 '흐릿한' F1 미래에 무슨 일이 일어나고 있는 걸까요?",
+     "descKo": "Racing Bulls 팀 보스 Alan Permane은 새로운 대규모 연장을 받았지만 Liam Lawson의 미래는 여전히 불투명합니다."
+    },
+    {
+     "title": "F1's revenue stabilises after cancelled 2026 grands prix",
+     "desc": "Formula 1’s revenue has stabilised over the third quarter of 2026",
+     "link": "https://www.the-race.com/business/f1s-revenue-stabilises-after-cancelled-2026-grands-prix/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1447490_HiRes.jpg",
+     "date": "2026-11-06T09:51:23+00:00",
+     "author": "Samarth Kanal",
+     "id": "e3abb80dd0",
+     "lead": [
+      "Formula 1’s revenue has stabilised over the third quarter of 2026 as it made up for the dent caused by a relative lack of races over the previous two quarters.",
+      "The calendar shuffle and the cancelled Bahrain and Saudi Arabian rounds led to a 38% drop in revenue over the three-month period until June 30, 2026 compared to the same period in 2025.",
+      "However, F1’s revenue has now stabilised, as F1 parent company Liberty Media announced in its third-quarter earnings report. F1’s revenue over the nine months ending September 30 is $2.496 billion USD - a reduction of just $2m compared to the same period in 2025, despite having held two fewer races over the past nine months."
+     ],
+     "leadKo": [
+      "Formula 1의 수익은 지난 2분기 동안 레이스가 상대적으로 부족하여 발생한 하락세를 만회하면서 2026년 3분기 동안 안정화되었습니다.",
+      "일정 변경과 바레인 및 사우디아라비아 라운드 취소로 인해 2026년 6월 30일까지 3개월 동안 2025년 같은 기간에 비해 매출이 38% 감소했습니다.",
+      "그러나 F1 모회사인 Liberty Media가 3분기 수익 보고서에서 발표한 것처럼 F1의 수익은 이제 안정화되었습니다. 9월 30일까지 9개월 동안 F1의 수익은 24억 9,600만 달러입니다. 이는 지난 9개월 동안 두 번 더 적은 경주를 개최했음에도 불구하고 2025년 같은 기간에 비해 단 200만 달러 감소한 것입니다."
+     ],
+     "titleKo": "2026년 그랑프리 취소 후 F1 수익 안정",
+     "descKo": "Formula 1의 수익은 2026년 3분기 동안 안정화되었습니다."
+    },
     {
      "title": "What we learned from day one of F1's Brazilian Grand Prix",
      "desc": "F1's 2026 title might already be officially decided, but that didn't prevent the first day at Interlagos being insightful",
@@ -2211,48 +2251,6 @@
       "소처럼 강하고, 경주용 자동차에 올라본 그 누구보다 심리적으로 더 단단하며, 라이벌의 살아있는 일광을 위협하는 가장 공격적인 휠 투 휠 레이서입니다.",
       "80세의 나이로 세상을 떠난 Alan Jones가 Frank Williams와 Patrick Head가 공동으로 Williams 팀을 갑자기 지도에 올려 놓으면서 완벽한 레이싱 드라이버의 원형이 된 것은 전혀 놀라운 일이 아닙니다. 이는 1980년 드라이버 및 컨스트럭터 월드 타이틀을 함께 획득함으로써 공식화한 지위였습니다.",
       "그는 1970년 F3 경주를 위해 뒷주머니에 50파운드를 넣고 호주에서 영국으로 건너왔을 때 특별히 세계 챔피언으로 평가되지 않았습니다."
-     ]
-    },
-    {
-     "title": "1980 F1 champion Alan Jones passes away",
-     "desc": "Alan Jones, the 1980 Formula 1 world champion and first F1 title winner for the Williams F1 team, has passed away after a short illness",
-     "link": "https://www.the-race.com/formula-1/1980-f1-champion-alan-jones-passes-away/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1029577_HiRes.jpg",
-     "date": "2026-11-05T08:33:18+00:00",
-     "author": "Ben Anderson",
-     "id": "21dfbf6674",
-     "titleKo": "1980년 F1 챔피언 앨런 존스(Alan Jones) 사망",
-     "descKo": "1980년 포뮬러 1 세계 챔피언이자 윌리엄스 F1 팀의 첫 F1 타이틀 우승자인 앨런 존스(Alan Jones)가 짧은 투병 끝에 세상을 떠났습니다.",
-     "lead": [
-      "Alan Jones, the 1980 Formula 1 world champion and first title winner for the Williams F1 team, has passed away after a short illness.",
-      "Jones, who turned 80 earlier this week, was a 12-time F1 race winner and the second Australian driver to win the world championship, after Jack Brabham.",
-      "News of Jones’s passing emerged during the early hours of Thursday morning."
-     ],
-     "leadKo": [
-      "1980년 포뮬러 1 세계 챔피언이자 윌리엄스 F1 팀의 첫 번째 타이틀 우승자인 앨런 존스(Alan Jones)가 짧은 투병 끝에 세상을 떠났습니다.",
-      "이번 주 초 80세가 된 존스는 F1 경주에서 12회 우승했으며 잭 브라밤(Jack Brabham)에 이어 세계 챔피언십에서 우승한 두 번째 호주 드라이버였습니다.",
-      "존스의 사망 소식은 목요일 아침 이른 시간에 나왔습니다."
-     ]
-    },
-    {
-     "title": "F1 Podcast: Ocon's early exit and Camara's early debut",
-     "desc": "The Race F1 Podcast delves into Esteban Ocon's abrupt exit and Rafa Camara's sudden debut",
-     "link": "https://www.the-race.com/formula-1/f1-podcast-ocons-early-exit-and-camaras-early-debut/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1439443_HiRes.jpg",
-     "date": "2026-11-04T19:23:00+00:00",
-     "author": "The Race Team",
-     "id": "19cc874e02",
-     "titleKo": "F1 팟캐스트: Ocon의 조기 퇴장과 Camara의 조기 데뷔",
-     "descKo": "Race F1 팟캐스트에서는 Esteban Ocon의 갑작스러운 퇴장과 Rafa Camara의 갑작스러운 데뷔에 대해 알아봅니다.",
-     "lead": [
-      "Brazilian fans will have another driver to cheer for in Sao Paulo this weekend, with Haas drafting in the man it's signed for 2027 - Rafael Camara - to replace Esteban Ocon early.",
-      "But why has Haas dumped Ocon for the rest of 2026, where might he end up next, and how will Camara deal with the pressure of a home F1 debut?",
-      "Edd Straw is joined by Jon Noble - with a special contribution from veteran Brazilian journalist Lito Cavalcanti - to answer those questions and look ahead to the Brazilian Grand Prix - including what the fallout will be from the heated Hamilton-Leclerc Mexican Grand Prix battle and heated post-race comments."
-     ],
-     "leadKo": [
-      "브라질 팬들은 이번 주말 상파울루에서 응원할 또 다른 드라이버를 갖게 될 것입니다. 하스는 2027년 계약 선수인 라파엘 카마라를 드래프트하여 에스테반 오콘을 조기에 교체할 ​​것입니다.",
-      "그러나 Haas는 왜 2026년 남은 기간 동안 Ocon을 버렸고, 다음에는 어디로 갈 것이며, Camara는 홈 F1 데뷔에 대한 압박감을 어떻게 감당할 것입니까?",
-      "Edd Straw는 브라질 베테랑 저널리스트인 Lito Cavalcanti의 특별 기고와 함께 Jon Noble과 합류하여 이러한 질문에 답하고 브라질 그랑프리를 기대합니다. 여기에는 열띤 해밀턴-르끌레르 멕시코 그랑프리 전투와 열띤 레이스 후 댓글이 가져올 결과가 포함됩니다."
      ]
     }
    ]
@@ -2457,6 +2455,66 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Lewis Is Ready To Check Off 400 🤩",
+     "desc": "The 2026 Sao Paulo Grand Prix will be Lewis Hamilton's 400th race start!",
+     "link": "https://www.youtube.com/watch?v=Z17VXMBiFuk",
+     "image": "https://i.ytimg.com/vi/Z17VXMBiFuk/hqdefault.jpg",
+     "date": "2026-11-05T23:30:04+00:00",
+     "author": "FORMULA 1",
+     "videoId": "Z17VXMBiFuk",
+     "id": "f1fce9d28b",
+     "titleKo": "루이스는 400을 체크할 준비가 되었습니다 😍",
+     "descKo": ""
+    },
+    {
+     "title": "Drivers Look Ahead To Race Weekend | 2026 Sao Paulo Grand Prix",
+     "desc": "F1’s newest and youngest world champion, Kimi Antonelli, joins debut rookie Rafael Camara and the rest of the grid to preview the 2026 Sao Paulo Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=8bREPkS5_vY",
+     "image": "https://i.ytimg.com/vi/8bREPkS5_vY/hqdefault.jpg",
+     "date": "2026-11-05T23:15:25+00:00",
+     "author": "FORMULA 1",
+     "videoId": "8bREPkS5_vY",
+     "id": "34d8087d93",
+     "titleKo": "드라이버는 주말 경주를 앞두고 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "Seb's Message Meant The World ❤️",
+     "desc": "Of all the congratulatory messages Kimi received, one stood out the most… Sebastian Vettel's!",
+     "link": "https://www.youtube.com/watch?v=COOMLj0Sir8",
+     "image": "https://i.ytimg.com/vi/COOMLj0Sir8/hqdefault.jpg",
+     "date": "2026-11-05T23:00:05+00:00",
+     "author": "FORMULA 1",
+     "videoId": "COOMLj0Sir8",
+     "id": "3c8169b7a3",
+     "titleKo": "Seb의 메시지는 세상을 의미했습니다 ❤️",
+     "descKo": ""
+    },
+    {
+     "title": "Weekend Warm-Up | 2026 Sao Paulo Grand Prix",
+     "desc": "Join Betty Glover, Chris Medland and James Hinchcliffe for round 20's episode of Weekend Warm-Up. With a newly-crowned world champion on the grid, and the Constructors'…",
+     "link": "https://www.youtube.com/watch?v=hsHgSQgETbE",
+     "image": "https://i.ytimg.com/vi/hsHgSQgETbE/hqdefault.jpg",
+     "date": "2026-11-05T22:45:10+00:00",
+     "author": "FORMULA 1",
+     "videoId": "hsHgSQgETbE",
+     "id": "2c970e24f6",
+     "titleKo": "주말 워밍업 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "Luis Mode Activated ⚽️",
+     "desc": "Lewis Hamilton showed off his futebol skills on media day in Brazil!",
+     "link": "https://www.youtube.com/watch?v=7c1iWz0Ksy4",
+     "image": "https://i.ytimg.com/vi/7c1iWz0Ksy4/hqdefault.jpg",
+     "date": "2026-11-05T22:22:36+00:00",
+     "author": "FORMULA 1",
+     "videoId": "7c1iWz0Ksy4",
+     "id": "69fcf53cf2",
+     "titleKo": "루이스 모드 활성화됨 ⚽️",
+     "descKo": ""
+    },
+    {
      "title": "Remembering Alan Jones: An Extraordinary Racer & True Great Of Our Sport",
      "desc": "Alan Jones, the formidable competitor that brought Williams their first Drivers’ and Constructors’ World Championships, has passed away at the age of 80.",
      "link": "https://www.youtube.com/watch?v=6l089xrn_eI",
@@ -2502,66 +2560,6 @@
      "videoId": "g5yMUlY3lbk",
      "id": "fbcf191eb4",
      "titleKo": "Nico Rosberg의 'Terrifying', Triumphant 2016 | F1 비욘드 더 그리드 팟캐스트",
-     "descKo": ""
-    },
-    {
-     "title": "The Emotions Pour Out For Kimi 🥹",
-     "desc": "For more F1® videos, visit: https://www.Formula1.com",
-     "link": "https://www.youtube.com/watch?v=liodFjiIvrA",
-     "image": "https://i.ytimg.com/vi/liodFjiIvrA/hqdefault.jpg",
-     "date": "2026-11-03T20:45:32+00:00",
-     "author": "FORMULA 1",
-     "videoId": "liodFjiIvrA",
-     "id": "49964e1832",
-     "titleKo": "키미에게 쏟아지는 감정 🥹",
-     "descKo": ""
-    },
-    {
-     "title": "How It Started 🆚 How It's Going 🥹",
-     "desc": "From Grid Kid to World Champion... an incredible rise to become World Champion for Kimi Antonelli's.",
-     "link": "https://www.youtube.com/watch?v=RbzSvOjTBiI",
-     "image": "https://i.ytimg.com/vi/RbzSvOjTBiI/hqdefault.jpg",
-     "date": "2026-11-03T20:00:33+00:00",
-     "author": "FORMULA 1",
-     "videoId": "RbzSvOjTBiI",
-     "id": "0b2c76464d",
-     "titleKo": "어떻게 시작됐는지 🆚 어떻게 진행되고 있는지 🥹",
-     "descKo": ""
-    },
-    {
-     "title": "A Moment Kimi Will Never Forget ❤️",
-     "desc": "Kimi Antonelli, Lewis Hamilton and Max Verstappen shared a special moment on the podium in Mexico.",
-     "link": "https://www.youtube.com/watch?v=rzrA0LOW2EI",
-     "image": "https://i.ytimg.com/vi/rzrA0LOW2EI/hqdefault.jpg",
-     "date": "2026-11-03T19:15:28+00:00",
-     "author": "FORMULA 1",
-     "videoId": "rzrA0LOW2EI",
-     "id": "7f3883d346",
-     "titleKo": "키미가 결코 잊지 못할 순간 ❤️",
-     "descKo": ""
-    },
-    {
-     "title": "Max & Lewis Share A Moment 🤝",
-     "desc": "Nothing but respect between Lewis Hamilton and Max Verstappen as they share the top two spots in Mexico.",
-     "link": "https://www.youtube.com/watch?v=ub3r9XeTwA4",
-     "image": "https://i.ytimg.com/vi/ub3r9XeTwA4/hqdefault.jpg",
-     "date": "2026-11-03T18:30:36+00:00",
-     "author": "FORMULA 1",
-     "videoId": "ub3r9XeTwA4",
-     "id": "b7186dfa7c",
-     "titleKo": "맥스와 루이스가 순간을 공유합니다 🤝",
-     "descKo": ""
-    },
-    {
-     "title": "A Closer Look At The Ferrari Duel In Mexico | F1TV Palmer's Analysis",
-     "desc": "In this episode of F1 TV's Palmer's Analysis, Jolyon Palmer breaks down the battle between Lewis Hamilton and Charles Leclerc in Mexico City.",
-     "link": "https://www.youtube.com/watch?v=wKV4OT-JWYg",
-     "image": "https://i.ytimg.com/vi/wKV4OT-JWYg/hqdefault.jpg",
-     "date": "2026-11-03T17:30:08+00:00",
-     "author": "FORMULA 1",
-     "videoId": "wKV4OT-JWYg",
-     "id": "8c898d3ccb",
-     "titleKo": "멕시코의 페라리 결투를 자세히 살펴보세요 | F1TV 팔머의 분석",
      "descKo": ""
     }
    ]
