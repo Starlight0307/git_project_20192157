@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-07T02:51:57+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-07T10:16:01+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -238,23 +236,21 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-11-04T16:52:12Z",
+     "date": "2026-11-07T10:03:44Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1383751843,
+     "revid": 1384254651,
      "license": "CC BY-SA 4.0",
      "body": [
       {
        "h": "",
        "level": 1,
        "p": [
-        "The 2026 United States Grand Prix (officially known as the Formula 1 MSC Cruises United States Grand Prix 2026) was a Formula One motor race that was held on October 25, 2026, at the Circuit of the Americas in Austin, Texas, United States. It was the eighteenth round of the 2026 Formula One World Championship. Championship leader Kimi Antonelli (Mercedes) took his seventh pole position which he converted into his ninth Grand Prix victory. Charles Leclerc (Ferrari) and Max Verstappen (Red Bull) came in second and third place, respectively.",
-        "This was the last race for Esteban Ocon who was removed from the Haas line-up midway through the following race in Mexico due to disagreements with the team."
+        "The 2026 United States Grand Prix (officially known as the Formula 1 MSC Cruises United States Grand Prix 2026) was a Formula One motor race that was held on October 25, 2026, at the Circuit of the Americas in Austin, Texas, United States. It was the eighteenth round of the 2026 Formula One World Championship. Championship leader Kimi Antonelli (Mercedes) took his seventh pole position which he converted into his ninth Grand Prix victory. Charles Leclerc (Ferrari) and Max Verstappen (Red Bull) came in second and third place, respectively."
        ],
        "hKo": "",
        "pKo": [
-        "2026년 미국 그랑프리(공식 명칭: Formula 1 MSC Cruises United States Grand Prix 2026)는 2026년 10월 25일 미국 텍사스주 오스틴에 있는 서킷 오브 더 아메리카스(Circuit of the Americas)에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의 18번째 라운드였습니다. 챔피언십 리더인 키미 안토넬리(Mercedes)는 7번째 폴 포지션을 차지하여 9번째 그랑프리 우승을 달성했습니다. 찰스 르클레르(페라리)와 막스 베르스타펜(레드불)이 각각 2위와 3위를 차지했다.",
-        "이것은 팀과의 불일치로 인해 멕시코에서 열린 다음 레이스 중간에 Haas 라인업에서 제외된 Esteban Ocon의 마지막 레이스였습니다."
+        "2026년 미국 그랑프리(공식 명칭: Formula 1 MSC Cruises United States Grand Prix 2026)는 2026년 10월 25일 미국 텍사스주 오스틴에 있는 서킷 오브 더 아메리카스(Circuit of the Americas)에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의 18번째 라운드였습니다. 챔피언십 리더인 키미 안토넬리(Mercedes)는 7번째 폴 포지션을 차지하여 9번째 그랑프리 우승을 달성했습니다. 찰스 르클레르(페라리)와 막스 베르스타펜(레드불)이 각각 2위와 3위를 차지했다."
        ]
       },
       {
@@ -295,12 +291,12 @@
        "level": 3,
        "p": [
         "The drivers and teams were the same as published in the season entry list with no additional stand-in drivers for the race. During the first practice session Sergio Pérez (Cadillac) was replaced by Colton Herta, a driver who had not raced in more than two Grands Prix, as required by the Formula One regulations.",
-        "This was Esteban Ocon (Haas)'s most recent Formula One entry; he was dismissed during the Mexico race weekend."
+        "This was Esteban Ocon's last start for Haas; he was dismissed during the Mexico City race weekend, and is not scheduledto compete in the 2027 season."
        ],
        "hKo": "출전 명단",
        "pKo": [
         "드라이버와 팀은 레이스에 대한 추가 대기 드라이버 없이 시즌 참가 목록에 게시된 것과 동일했습니다. 첫 번째 연습 세션에서 Sergio Pérez(Cadillac)는 Formula One 규정에 따라 두 번 이상 그랑프리에 출전하지 않은 드라이버인 Colton Herta로 교체되었습니다.",
-        "이것은 Esteban Ocon(Haas)의 가장 최근 Formula One 출품작이었습니다. 그는 멕시코 경주 주말에 해고되었습니다."
+        "이것은 Haas에 대한 Esteban Ocon의 마지막 출발이었습니다. 그는 멕시코 시티 경주 주말에 해고되었으며 2027 시즌에는 경쟁할 예정이 없습니다."
        ]
       },
       {
@@ -1872,13 +1868,36 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Racing Bulls promises \"right decision\" as Liam Lawson's F1 future remains in doubt",
+     "desc": "Racing Bulls boss Alan Permane says he \"understands the frustration\" over the delay in his team's decision on whether to retain Liam Lawson or promote reserve driver and F2…",
+     "link": "https://www.motorsport.com/f1/news/racing-bulls-boss-understands-frustration-over-driver-decision-delay/10872425/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/6x7LvO1Y/s6/liam-lawson-racing-bulls.jpg",
+     "date": "2026-11-07T08:51:50+00:00",
+     "author": "",
+     "id": "30cd8eb76a",
+     "lead": [
+      "Racing Bulls boss Alan Permane says he \"understands the frustration\" over the delay in his team's decision on whether to retain Liam Lawson or promote reserve driver and F2 frontrunner Nikola Tsolov for 2027.",
+      "Red Bull's satellite team is set for its most successful season in its history with Lawson and rookie team-mate Arvid Lindblad as it heads towards an unprecedented fifth place in the constructors' standings.",
+      "With Lawson having found his best form to date and teenager Lindblad showing plenty of promise, the team would normally be expected to retain both drivers for 2027. But its role as a breeding ground for future Red Bull Racing drivers is changing that dynamic, as Lawson is no longer in the Milton Keynes team's long-term picture. And in Bulgarian Tsolov, it has an exciting young talent in the ranks that could potentially vie with Lindblad for a…"
+     ],
+     "leadKo": [
+      "레이싱 불스의 앨런 퍼메인 감독은 리암 로슨을 유지할 것인지 아니면 예비 드라이버이자 F2 선두 주자인 니콜라 촐로프를 2027년에 승격시킬 것인지에 대한 팀의 결정이 지연되는 것에 대한 \"불편함을 이해한다\"고 말했습니다.",
+      "Red Bull의 위성 팀은 Lawson과 신인 팀 동료인 Arvid Lindblad와 함께 역사상 가장 성공적인 시즌을 맞이하여 컨스트럭터 순위에서 전례 없는 5위를 향해 나아가고 있습니다.",
+      "Lawson이 현재까지 최고의 기량을 찾았고 10대 Lindblad가 많은 가능성을 보여줌에 따라 팀은 일반적으로 2027년에도 두 드라이버를 모두 유지할 것으로 예상됩니다. 그러나 Lawson이 더 이상 Milton Keynes 팀의 장기적인 그림에 포함되지 않기 때문에 미래의 Red Bull Racing 드라이버를 위한 번식지로서의 역할이 이러한 역동성을 변화시키고 있습니다. 그리고 불가리아의 Tsolov에는 잠재적으로 Lindblad와 경쟁할 수 있는 흥미진진한 젊은 인재가 있습니다."
+     ],
+     "titleKo": "Racing Bulls는 Liam Lawson의 F1 미래가 여전히 의심스럽기 때문에 \"올바른 결정\"을 약속합니다.",
+     "descKo": "레이싱 불스의 감독인 앨런 퍼메인은 리암 로슨을 유지할 것인지 아니면 예비 드라이버와 F2를 승격시킬 것인지에 대한 팀의 결정이 지연되는 것에 대한 \"좌절감을 이해한다\"고 말했습니다."
+    },
+    {
      "title": "Lando Norris reveals how Lewis Hamilton has changed his F1 championship ambitions",
      "desc": "Lando Norris says Lewis Hamilton's seven Formula 1 world titles have left him dissatisfied with winning just one. Norris won his maiden championship in 2025 after a hard-fought…",
      "link": "https://www.motorsport.com/f1/news/lando-norris-reveals-how-lewis-hamilton-has-changed-his-f1-championship-ambitions/10872375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YWKAlQKY/s6/motorsport-com-graphics-68.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/YWKAlQKY/s6/motorsport-com-graphics-68.jpg",
      "date": "2026-11-06T23:15:00+00:00",
      "author": "",
      "id": "27034db89b",
+     "titleKo": "Lando Norris는 루이스 해밀턴이 F1 챔피언십 야망을 어떻게 바꾸었는지 밝혔습니다.",
+     "descKo": "Lando Norris는 루이스 해밀턴이 7번의 Formula 1 월드 타이틀을 획득했지만 단 한 번만 우승한 것에 만족하지 못했다고 말했습니다. 노리스는 힘든 싸움 끝에 2025년 첫 우승을 차지했습니다.",
      "lead": [
       "Lando Norris says Lewis Hamilton's seven Formula 1 world titles have left him dissatisfied with winning just one.",
       "Norris won his maiden championship in 2025 after a hard-fought battle against his McLaren team-mate Oscar Piastri and a late-season threat from Red Bull's Max Verstappen .",
@@ -1888,9 +1907,7 @@
       "Lando Norris는 루이스 해밀턴이 7번의 Formula 1 월드 타이틀을 획득했지만 단 한 번만 우승한 것에 만족하지 못했다고 말했습니다.",
       "Norris는 McLaren 팀 동료인 Oscar Piastri와의 치열한 전투와 Red Bull의 Max Verstappen의 시즌 후반 위협 끝에 2025년 첫 우승을 차지했습니다.",
       "해밀턴은 이번 주말 브라질에서 400번째 그랑프리 출발을 할 예정이며 노리스는 인터라고스에서 언론과 인터뷰하는 동안 동료 동포의 경력을 요약해 달라는 요청을 받았습니다."
-     ],
-     "titleKo": "Lando Norris는 루이스 해밀턴이 F1 챔피언십 야망을 어떻게 바꾸었는지 밝혔습니다.",
-     "descKo": "Lando Norris는 루이스 해밀턴이 7번의 Formula 1 월드 타이틀을 획득했지만 단 한 번만 우승한 것에 만족하지 못했다고 말했습니다. 노리스는 힘든 싸움 끝에 2025년 첫 우승을 차지했습니다."
+     ]
     },
     {
      "title": "Why Max Verstappen ended F1 practice early in Brazil – Red Bull explains",
@@ -1917,7 +1934,7 @@
      "title": "Fred Vasseur turns down being godfather to Charles Leclerc’s baby: “I have four children”",
      "desc": "Ferrari Formula 1 team principal Fred Vasseur has ruled himself out of becoming godfather to Charles Leclerc's daughter, joking that he already has enough children to look after.…",
      "link": "https://www.motorsport.com/f1/news/fred-vasseur-turns-down-being-godfather-to-charles-leclercs-baby-i-have-four-children/10872357/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/6AlvXkvY/s6/motorsport-com-graphics-67.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/6AlvXkvY/s6/motorsport-com-graphics-67.jpg",
      "date": "2026-11-06T22:12:01+00:00",
      "author": "",
      "id": "a274c05c4c",
@@ -1938,7 +1955,7 @@
      "title": "F1 Brazil GP: Saturday schedule, weather forecast and how to watch",
      "desc": "Formula 1 heads into Saturday at Interlagos with Kimi Antonelli fastest after second practice for the Brazil Grand Prix. The newly crowned world champion set a 1m10.763s to lead…",
      "link": "https://www.motorsport.com/f1/news/f1-brazil-gp-saturday-schedule-weather-forecast-and-how-to-watch/10872353/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/0Zq8lnd6/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0Zq8lnd6/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-11-06T22:05:41+00:00",
      "author": "",
      "id": "6da5705198",
@@ -1959,7 +1976,7 @@
      "title": "McLaren’s upgrade is \"a pleasant surprise\" – but will it stay on the car in Brazil?",
      "desc": "After one of the most turbulent world championship defences since Jenson Button in 2010, Lando Norris gave McLaren’s latest batch of car upgrades a cautious thumbs-up on the…",
      "link": "https://www.motorsport.com/f1/news/mclarens-upgrade-is-a-pleasant-surprise-but-will-it-stay-on-the-car-in-brazil/10872338/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YvKBDW16/s6/lando-norris-mclaren.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/YvKBDW16/s6/lando-norris-mclaren.jpg",
      "date": "2026-11-06T21:49:40+00:00",
      "author": "",
      "id": "1d7b600ae4",
@@ -2001,7 +2018,7 @@
      "title": "F1 Brazilian GP: Kimi Antonelli fastest in tricky FP2",
      "desc": "Newly-minted world champion Kimi Antonelli topped Friday's second practice session at the Brazilian GP, heading Lando Norris and Max Verstappen in Sao Paulo. At the classic 4.3km…",
      "link": "https://www.motorsport.com/f1/news/f1-brazilian-gp-fp2-report-10872288/10872288/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/YP74lX42/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/YP74lX42/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-11-06T20:05:34+00:00",
      "author": "",
      "id": "039c8f5692",
@@ -2022,7 +2039,7 @@
      "title": "Kimi Antonelli reveals special gifts from Ayrton Senna's family ahead of F1 Brazilian GP",
      "desc": "Kimi Antonelli has revealed the gifts he received from Ayrton Senna's family during his visit to their estate ahead of this weekend's Brazilian Grand Prix. The Mercedes driver…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-reveals-special-gifts-from-ayrton-sennas-family-ahead-of-f1-brazilian-gp/10872198/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/YXyKloK6/s6/motorsport-com-graphics-66.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/YXyKloK6/s6/motorsport-com-graphics-66.jpg",
      "date": "2026-11-06T19:00:02+00:00",
      "author": "",
      "id": "29471a0b4f",
@@ -2037,27 +2054,6 @@
       "키미 안토넬리(Kimi Antonelli)가 이번 주말 브라질 그랑프리를 앞두고 아일톤 세나(Ayrton Senna)의 가족을 방문하는 동안 가족으로부터 받은 선물을 공개했습니다.",
       "메르세데스 드라이버는 첫 포뮬러 1 우승을 차지한 지 이틀 뒤인 화요일 타투이(Tatuí)에 있는 파젠다 도이스 라고스(Fazenda Dois Lagos)로 갔고, 1986년 세나가 경주했던 로터스 98T를 타고 사진을 찍었습니다.",
       "20세의 이 선수는 이탈리아 출판물인 La Gazzetta dello Sport와의 인터뷰에서 그의 F1 우상의 가족이 그에게 부동산 운영권과 집에 가져갈 몇 가지 선물을 주었다고 말했습니다."
-     ]
-    },
-    {
-     "title": "\"We failed so we had to react\" - Fred Vasseur on Ferrari driver talks and Mexico F1 fallout",
-     "desc": "Ferrari F1 chief Fred Vasseur insists he has cleared the air with Charles Leclerc and Lewis Hamilton after their highly publicised Mexican Grand Prix clash last week. At the…",
-     "link": "https://www.motorsport.com/f1/news/we-failed-so-we-had-to-react-fred-vasseur-on-ferrari-driver-talks-and-mexico-f1-fallout/10872240/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0rVPdjJ0/s6/fred-vasseur-ferrari.jpg",
-     "date": "2026-11-06T18:42:33+00:00",
-     "author": "",
-     "id": "32017e7631",
-     "titleKo": "\"우리는 실패했기 때문에 대응해야 했습니다.\" - 페라리 드라이버 회담과 멕시코 F1 낙진에 대한 Fred Vasseur",
-     "descKo": "페라리 F1의 수석 프레드 바쇠르(Fred Vasseur)는 지난주 널리 알려진 멕시코 그랑프리 충돌 이후 찰스 르클레르(Charles Leclerc)와 루이스 해밀턴(Lewis Hamilton)과 함께 경기를 진행했다고 주장했습니다. 에…",
-     "lead": [
-      "Ferrari F1 chief Fred Vasseur insists he has cleared the air with Charles Leclerc and Lewis Hamilton after their highly publicised Mexican Grand Prix clash last week.",
-      "At the Mexico City event, Hamilton and Leclerc both went off track on lap one as they fought for the lead, with Hamilton losing a position to Max Verstappen instead, while Leclerc was penalised and eventually also ceded the lead to the Red Bull driver.",
-      "Verstappen went on to win the race with Hamilton second and Leclerc off the podium in fourth, with the sabre-rattling on lap one robbing the team of a possible third win of the campaign. Hamilton was particularly furious about how Leclerc had raced him at the start, lobbying for the stewards to hand his team-mate a bigger penalty for cutting the track."
-     ],
-     "leadKo": [
-      "페라리 F1의 수석 프레드 바쇠르(Fred Vasseur)는 지난주 널리 알려진 멕시코 그랑프리 충돌 이후 찰스 르클레르(Charles Leclerc)와 루이스 해밀턴(Lewis Hamilton)과 함께 경기를 진행했다고 주장했습니다.",
-      "멕시코 시티 이벤트에서 Hamilton과 Leclerc는 둘 다 선두를 위해 싸우면서 랩 1에서 궤도를 벗어났습니다. Hamilton은 대신 Max Verstappen에게 위치를 잃었고 Leclerc는 페널티를 받고 결국 Red Bull 드라이버에게 선두를 넘겼습니다.",
-      "Verstappen은 해밀턴이 2위, Leclerc가 4위를 차지하면서 레이스에서 우승했으며, 랩 1에서 세이버를 덜컥거리는 소리가 팀의 캠페인 세 번째 승리 가능성을 빼앗았습니다. 해밀턴은 특히 Leclerc가 처음에 자신을 어떻게 경주했는지에 대해 분노하여 그의 팀 동료에게 트랙 절단에 대해 더 큰 페널티를 주도록 청지기에게 로비했습니다."
      ]
     }
    ]
@@ -2074,6 +2070,8 @@
      "date": "2026-11-07T00:21:51+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "8b4727c1ed",
+     "titleKo": "Herta는 마침내 마지막 F1 슈퍼 라이센스 장애물을 통과했습니다.",
+     "descKo": "Colton Herta는 브라질 경기장에서 Cadillac을 위해 페널티가 없고 생산적인 금요일 연습을 통해 Formula 1 슈퍼 라이선스 자격을 얻기 위한 마지막 장애물을 제거했습니다.",
      "lead": [
       "Colton Herta has cleared the final hurdles to qualifying for a Formula 1 superlicence with his penalty-free and productive Friday practice outing for Cadillac at the Brazilian Grand Prix.",
       "Herta replaced Sergio Perez in FP1 at Interlagos, where he and Cadillac were seeking to seal the final point needed for Herta to be eligible for a superlicence.",
@@ -2083,9 +2081,7 @@
       "콜튼 헤르타(Colton Herta)는 브라질 그랑프리에서 캐딜락을 위해 페널티가 없고 생산적인 금요일 연습을 통해 포뮬러 1 슈퍼 라이선스 자격을 얻기 위한 마지막 장애물을 제거했습니다.",
       "Herta는 Interlagos의 FP1에서 Sergio Perez를 대체했으며, 그곳에서 그와 Cadillac은 Herta가 슈퍼 라이선스를 받기 위해 필요한 최종 포인트를 확보하려고 했습니다.",
       "그는 다음 시즌 팀을 위해 경쟁할 경쟁자이지만 2027년이 너무 빨리 오더라도 지금 슈퍼 라이선스를 받으면 Herta가 다음 시즌에도 옵션으로 남아 있는 것이 훨씬 더 쉬워질 것입니다."
-     ],
-     "titleKo": "Herta는 마침내 마지막 F1 슈퍼 라이센스 장애물을 통과했습니다.",
-     "descKo": "Colton Herta는 브라질 경기장에서 Cadillac을 위해 페널티가 없고 생산적인 금요일 연습을 통해 Formula 1 슈퍼 라이선스 자격을 얻기 위한 마지막 장애물을 제거했습니다."
+     ]
     },
     {
      "title": "Winners & losers from F1 2026 Brazilian GP Friday practice",
@@ -2095,6 +2091,8 @@
      "date": "2026-11-06T23:25:22+00:00",
      "author": "Ben Anderson",
      "id": "05d42f7be4",
+     "titleKo": "F1 2026 브라질 GP 금요일 연습의 승자와 패자",
+     "descKo": "F1 2026 브라질 그랑프리 금요일 연습의 승자와 패자를 선택합니다.",
      "lead": [
       "A familiar name at the top of the timesheet, but not your run of the mill F1 Friday at the Brazilian Grand Prix, as one struggling frontrunner got back in the groove again while the usual kings of Friday practice produced their worst result of the season.",
       "Here are our winners and losers from the first day of F1 track action at Interlagos.",
@@ -2104,9 +2102,7 @@
       "작업표 상단에 익숙한 이름이 있지만 브라질 그랑프리 F1 금요일의 평범한 실행은 아닙니다. 한 고군분투하는 선두 주자가 다시 홈으로 돌아왔고 금요일 연습의 일반적인 왕들이 시즌 최악의 결과를 낳았습니다.",
       "Interlagos에서 열린 F1 트랙 액션 첫날의 승자와 패자는 다음과 같습니다.",
       "Charles Leclerc와 Ferrari는 지난 4번의 레이스 중 3번의 금요일 연습에서 가장 빨랐습니다. 이는 10월 말레이시아 바레인 그랑프리로 거슬러 올라갑니다. 그리고 브라질에서 6-7 FP2 결과(Leclerc가 Lewis Hamilton 뒤에 있음)는 Ferrari가 금요일 타임시트에서 상위 5위를 벗어나는 올 시즌 처음으로 완료한 것입니다. 르클레르는 “매우, 매우 힘든 금요일”이라며 차 안의 느낌이 “이상하다”, “매우 형편없다”고 묘사했다. “우리는…"
-     ],
-     "titleKo": "F1 2026 브라질 GP 금요일 연습의 승자와 패자",
-     "descKo": "F1 2026 브라질 그랑프리 금요일 연습의 승자와 패자를 선택합니다."
+     ]
     },
     {
      "title": "‘Dangerous’ but also ‘brilliant’ - Rafael Camara’s F1 debut",
@@ -2235,7 +2231,7 @@
      ]
     },
     {
-     "title": "What's really happening with Cadillac F1 buyout talks",
+     "title": "What’s happening with Cadillac F1 buyout talks amid Fenway interest",
      "desc": "Here's what's really happening with Cadillac and the potential sale of a stake in the team, behind the scenes of F1's latest boardroom drama",
      "link": "https://www.the-race.com/business/cadillac-f1-buyout-talks-what-is-really-happening/",
      "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1446703_HiRes.jpg",
@@ -2457,7 +2453,55 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
-     "title": "A chaotic drivers' parade is exactly what we need",
+     "title": "Mystery Holes In Red Bull Car In Brazil! | F1 TV Tech Talk",
+     "desc": "F1 TV Tech Talk is back after Friday practice in Brazil, with interesting things happening on cars at both ends of the field, as Sam Collins explains.",
+     "link": "https://www.youtube.com/watch?v=gK9GOCuN4mk",
+     "image": "https://i.ytimg.com/vi/gK9GOCuN4mk/hqdefault.jpg",
+     "date": "2026-11-06T21:33:44+00:00",
+     "author": "FORMULA 1",
+     "videoId": "gK9GOCuN4mk",
+     "id": "d705ad76db",
+     "titleKo": "브라질 레드불 자동차에 숨겨진 구멍! | F1 TV 테크 토크",
+     "descKo": ""
+    },
+    {
+     "title": "The Funniest F1 Radio Of 2026 From Verstappen? 🤣",
+     "desc": "Just Max Verstappen amusing himself and the rest of us at 300 km/h.",
+     "link": "https://www.youtube.com/watch?v=MlYLdW5bAvo",
+     "image": "https://i.ytimg.com/vi/MlYLdW5bAvo/hqdefault.jpg",
+     "date": "2026-11-06T21:28:02+00:00",
+     "author": "FORMULA 1",
+     "videoId": "MlYLdW5bAvo",
+     "id": "b5707bc92e",
+     "titleKo": "Verstappen의 2026년 가장 재미있는 F1 라디오는? 🤣",
+     "descKo": ""
+    },
+    {
+     "title": "FP2 Highlights | 2026 Sao Paulo Grand Prix",
+     "desc": "Catch up on the second session in Sao Paulo with the full F1 field returning to their cars for long runs, as rainclouds loom.",
+     "link": "https://www.youtube.com/watch?v=h_IJImSl3r4",
+     "image": "https://i.ytimg.com/vi/h_IJImSl3r4/hqdefault.jpg",
+     "date": "2026-11-06T21:04:12+00:00",
+     "author": "FORMULA 1",
+     "videoId": "h_IJImSl3r4",
+     "id": "d5ef5c080a",
+     "titleKo": "FP2 하이라이트 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "FP1 Highlights | 2026 Sao Paulo Grand Prix",
+     "desc": "Kimi Antonelli takes to the track for the first time since securing the championship, as he joins a host of rookies during first practice in Brazil!",
+     "link": "https://www.youtube.com/watch?v=OwQ4ernSM00",
+     "image": "https://i.ytimg.com/vi/OwQ4ernSM00/hqdefault.jpg",
+     "date": "2026-11-06T18:22:52+00:00",
+     "author": "FORMULA 1",
+     "videoId": "OwQ4ernSM00",
+     "id": "3c8630fcdc",
+     "titleKo": "FP1 하이라이트 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "A Chaotic Drivers' Parade Is Exactly What We Need 😅",
      "desc": "Throwback to the 2025 drivers' parade that might have been a little bit too fun for the drivers",
      "link": "https://www.youtube.com/watch?v=L2-Z-AH41Rw",
      "image": "https://i.ytimg.com/vi/L2-Z-AH41Rw/hqdefault.jpg",
@@ -2469,7 +2513,7 @@
      "descKo": ""
     },
     {
-     "title": "The newest dad in the paddock has arrived",
+     "title": "The Newest Dad In The Paddock Has Arrived 👨‍🍼",
      "desc": "Charles Leclerc arrives in the paddock for the first time since becoming a father to his new daughter, Bianca",
      "link": "https://www.youtube.com/watch?v=bDz7iYXvMSs",
      "image": "https://i.ytimg.com/vi/bDz7iYXvMSs/hqdefault.jpg",
@@ -2514,54 +2558,6 @@
      "videoId": "COOMLj0Sir8",
      "id": "3c8169b7a3",
      "titleKo": "Seb의 메시지는 세상을 의미했습니다 ❤️",
-     "descKo": ""
-    },
-    {
-     "title": "Weekend Warm-Up | 2026 Sao Paulo Grand Prix",
-     "desc": "Join Betty Glover, Chris Medland and James Hinchcliffe for round 20's episode of Weekend Warm-Up. With a newly-crowned world champion on the grid, and the Constructors'…",
-     "link": "https://www.youtube.com/watch?v=hsHgSQgETbE",
-     "image": "https://i.ytimg.com/vi/hsHgSQgETbE/hqdefault.jpg",
-     "date": "2026-11-05T22:45:10+00:00",
-     "author": "FORMULA 1",
-     "videoId": "hsHgSQgETbE",
-     "id": "2c970e24f6",
-     "titleKo": "주말 워밍업 | 2026 상파울루 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "Luis Mode Activated ⚽️",
-     "desc": "Lewis Hamilton showed off his futebol skills on media day in Brazil!",
-     "link": "https://www.youtube.com/watch?v=7c1iWz0Ksy4",
-     "image": "https://i.ytimg.com/vi/7c1iWz0Ksy4/hqdefault.jpg",
-     "date": "2026-11-05T22:22:36+00:00",
-     "author": "FORMULA 1",
-     "videoId": "7c1iWz0Ksy4",
-     "id": "69fcf53cf2",
-     "titleKo": "루이스 모드 활성화됨 ⚽️",
-     "descKo": ""
-    },
-    {
-     "title": "Remembering Alan Jones: An Extraordinary Racer & True Great Of Our Sport",
-     "desc": "Alan Jones, the formidable competitor that brought Williams their first Drivers’ and Constructors’ World Championships, has passed away at the age of 80.",
-     "link": "https://www.youtube.com/watch?v=6l089xrn_eI",
-     "image": "https://i.ytimg.com/vi/6l089xrn_eI/hqdefault.jpg",
-     "date": "2026-11-05T18:45:39+00:00",
-     "author": "FORMULA 1",
-     "videoId": "6l089xrn_eI",
-     "id": "cd4da0a53b",
-     "titleKo": "Alan Jones를 기억하며: 뛰어난 레이서이자 우리 스포츠의 진정한 위대함",
-     "descKo": ""
-    },
-    {
-     "title": "Clocking In As World Champion! 🏆",
-     "desc": "Kimi Antonelli arrives to the paddock for the first time as F1 World Champion!",
-     "link": "https://www.youtube.com/watch?v=vfPYhb6v4PY",
-     "image": "https://i.ytimg.com/vi/vfPYhb6v4PY/hqdefault.jpg",
-     "date": "2026-11-05T15:34:36+00:00",
-     "author": "FORMULA 1",
-     "videoId": "vfPYhb6v4PY",
-     "id": "c3482efb97",
-     "titleKo": "세계 챔피언으로 기록! 🏆",
      "descKo": ""
     }
    ]
