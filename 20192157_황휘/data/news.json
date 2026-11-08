@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-08T07:25:24+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-08T15:16:44+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -13,17 +11,17 @@
      "id": "034b073722",
      "wikiTitle": "2026 São Paulo Grand Prix",
      "title": "2026 São Paulo Grand Prix",
-     "titleKo": "2026 상파울루 그랑프리",
+     "titleKo": "2026년 상파울루 그랑프리",
      "desc": "The 2026 São Paulo Grand Prix (officially known as the Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026) is an upcoming Formula One motor race scheduled to be held on 8…",
      "descKo": "2026년 상파울루 그랑프리(공식 명칭: Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026)는 브라질 상파울루의 인터라고스 서킷에서 2026년 11월 8일에 개최될 예정인 포뮬러 1 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 20번째 라운드입니다. Lando…",
      "link": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg/1280px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
-     "date": "2026-11-07T21:44:38Z",
+     "date": "2026-11-08T14:10:12Z",
      "raceDate": "2026-11-08",
      "author": "위키백과 편집자들",
-     "revid": 1384357023,
+     "revid": 1384492441,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -128,6 +126,23 @@
        "hKo": "예선",
        "pKo": [
         "예선은 2026년 11월 7일 현지 시간(UTC–3) 15:00에 진행되었으며 레이스의 스타팅 그리드 순서가 결정되었습니다."
+       ]
+      },
+      {
+       "h": "Qualifying report",
+       "level": 3,
+       "p": [
+        "Some drivers did one lap in the heavy rain. Some used the full wets, while some were on the intermediates, where Kimi Antonelli (Mercedes) reported aquaplaning. Due to the conditions, the session was red flagged and the session time stopped until it subsided. Meanwhile, Oliver Bearman (Haas) was given a reprimand for reversing in the pitlane to switch to full wets.",
+        "Over an hour later, the session was restarted, with all drivers on full wets and Rafael Câmara (Haas) spinning out as Fernando Alonso briefly topped the session in his Aston Martin, before Max Verstappen (Red Bull) and Charles Leclerc (Ferrari) displaced him while Gabriel Bortoleto (Audi) damaged his car in a manner that forced his early retirement. Shortly after this occurred, his teammate Nico Hülkenberg ended up briefly topping the session before being displaced, again by Verstappen. As Lance Stroll (Aston Martin) went off-track, Hülkenberg, Bearman, Verstappen, and George Russell (Mercedes) all posted fast times to top the session, before they were all displaced by Lando Norris (McLaren).",
+        "Câmara hit the wall in Q2. This stopped the session, leaving Lewis Hamilton (who was making his 400th start, and was facing a grid drop due to his Ferrari's failure in the third practice session), Oscar Piastri (McLaren), Arvid Lindblad (whose Racing Bulls' engine was damaged), Carlos Sainz Jr. (Williams), and Max Verstappen (who was also facing a grid drop for Red Bull) out of the third session. Fernando Alonso (Aston Martin) reached Q3 for the first time this season.",
+        "Heavy rain was about to hit the Interlagos Circuit for Q3. Antonelli's race engineer Peter Bonnington advised his driver he may have only one lap before it arrived, and that it would be intense. Indeed, all drivers did one lap, with Russell, who was already being slowed down by Alexander Albon (Williams) and was already poised to take a penalty, being mad at the radio about being unable to finish the lap to the point team principal Toto Wolff had to appear on the radio. Due to the heavy rain circumventing further runs, Norris topped the session behind Antonelli and Russell, so Liam Lawson (Racing Bulls) was promoted to third."
+       ],
+       "hKo": "예선 리포트",
+       "pKo": [
+        "일부 기사님은 폭우 속에서 한 바퀴를 돌기도 했습니다. 일부는 전체 습윤을 사용했고, 일부는 중간체에 있었으며, 키미 안토넬리 (메르세데스) 는 아쿠아플랜을 보고했습니다. 상황으로 인해 세션이 빨간색으로 표시되고 세션이 종료될 때까지 세션 시간이 중지되었습니다. 한편, 올리버 베어먼 (하스) 은 피트레인에서 풀 웻으로 전환하기 위해 역전한 것에 대한 질책을 받았다.",
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "카마라는 2분기에 벽에 부딪혔습니다. 이것은 세션을 중단시켜 루이스 해밀턴 (400 번째 출발을하고 있었고 세 번째 연습 세션에서 페라리의 실패로 그리드 드롭에 직면하고있었습니다), 오스카 피아스트리 (맥라렌), Arvid Lindblad (레이싱 불스의 엔진이 손상됨), Carlos Sainz Jr. (Williams) 와 Max Verstappen (Red Bull의 그리드 드롭에 직면하고 있음) 이 세 번째 세션에서 나왔습니다. 페르난도 알론소 (애스턴 마틴) 는 이번 시즌 처음으로 Q3에 진출했습니다.",
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
        ]
       },
       {
@@ -365,17 +380,17 @@
      "id": "3fb1ad91c2",
      "wikiTitle": "2026 United States Grand Prix",
      "title": "2026 United States Grand Prix",
-     "titleKo": "2026 미국 그랑프리",
+     "titleKo": "2026년 미국 그랑프리",
      "desc": "The 2026 United States Grand Prix (officially known as the Formula 1 MSC Cruises United States Grand Prix 2026) was a Formula One motor race that was held on October 25, 2026, at…",
      "descKo": "2026년 미국 그랑프리(공식 명칭: Formula 1 MSC Cruises United States Grand Prix 2026)는 2026년 10월 25일 미국 텍사스주 오스틴에 있는 서킷 오브 더 아메리카스(Circuit of the Americas)에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원…",
      "link": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-11-07T10:03:44Z",
+     "date": "2026-11-08T14:21:53Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1384254651,
+     "revid": 1384494029,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1790,10 +1805,136 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Gabriel Bortoleto's partner Isabella Bernardini shows off custom Audi dress at Brazil GP",
+     "desc": "Gabriel Bortoleto's partner Isabella Bernardini arrived at Interlagos ahead of the Brazilian Grand Prix in a one-off dress made from Audi's special adidas range for the race. The…",
+     "link": "https://www.motorsport.com/f1/news/gabriel-bortoletos-partner-isabella-bernardini-shows-off-custom-audi-dress-at-brazil-gp/10872947/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/2y7QrPK6/s6/motorsport-com-graphics-71.jpg",
+     "date": "2026-11-08T14:28:32+00:00",
+     "author": "",
+     "id": "c13d47e432",
+     "lead": [
+      "Gabriel Bortoleto's partner Isabella Bernardini arrived at Interlagos ahead of the Brazilian Grand Prix in a one-off dress made from Audi's special adidas range for the race.",
+      "The dress was made by designer and upcycler Fiona Roerig, who worked with the team and Bernardini to incorporate their ideas into the design. The dress has been upcycled from the adidas Sampa Soul collection, which the German outfit launched for Bortoleto's home race.",
+      "The colours come straight from that range, with forest green set against metallic gold, while the embroidery draws on São Paulo's history of crochet and needlework."
+     ],
+     "leadKo": [
+      "가브리엘 보르톨레토 (Gabriel Bortoleto) 의 파트너 이사벨라 베르나르디니 (Isabella Bernardini) 는 아우디의 특별한 아디다스 제품군으로 만든 일회용 드레스를 입고 브라질 그랑프리에 앞서 인터라고스에 도착했습니다.",
+      "이 드레스는 디자이너이자 업사이클러인 피오나 로이리그 (Fiona Roerig) 가 제작했으며, 그는 팀과 베르나르디니 (Bernardini) 와 함께 그들의 아이디어를 디자인에 반영했습니다. 이 드레스는 독일 의상이 보르톨레토의 홈 경주를 위해 출시한 아디다스 삼파 소울 컬렉션에서 업사이클링되었습니다.",
+      "색상은 메탈릭 골드를 배경으로 포레스트 그린이 세팅되어 있으며, 자수는 상파울루의 크로셰와 바늘 세공의 역사를 보여줍니다."
+     ],
+     "titleKo": "가브리엘 보르톨레토 (Gabriel Bortoleto) 의 파트너 이사벨라 베르나르디니 (Isabella Bernardini) 가 브라질 GP에서 맞춤 아우디",
+     "descKo": "가브리엘 보르톨레토 (Gabriel Bortoleto) 의 파트너 이사벨라 베르나르디니 (Isabella Bernardini) 는 아우디의 특별한 아디다스 제품군으로 만든 일회용 드레스를 입고 브라질 그랑프리에 앞서 인터라고스에 도착했습니다. …"
+    },
+    {
+     "title": "‘I’ll try to win, somehow’ – Can Lewis Hamilton and Max Verstappen fight back for F1 Brazilian GP victory?",
+     "desc": "With Lewis Hamilton and Max Verstappen 20th and 21st on the grid of the Brazilian Grand Prix, Sunday’s Formula 1 race promises to be fascinating – regardless of weather…",
+     "link": "https://www.motorsport.com/f1/news/ill-try-to-win-somehow-can-lewis-hamilton-and-max-verstappen-fight-back-for-f1-brazilian-gp-victory/10872909/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/2eZxbDjY/s6/lewis-hamilton-ferrari-max-ver.jpg",
+     "date": "2026-11-08T13:28:55+00:00",
+     "author": "",
+     "id": "eebe5f214c",
+     "lead": [
+      "With Lewis Hamilton and Max Verstappen 20th and 21st on the grid of the Brazilian Grand Prix, Sunday’s Formula 1 race promises to be fascinating – regardless of weather conditions.",
+      "Hamilton and Verstappen happen to be two drivers who performed memorable recoveries at Autodromo Jose Carlos Pace, a track where overtaking has always been easier than most.",
+      "Back in 2021, the seven-time world champion was excluded from qualifying results due to a technical breach, meaning he started the sprint from last; he fought his way up to fifth. With a five-place grid drop for a new engine, Hamilton was 10th on the grid for the grand prix but battled to the front and came out on top in a titanic duel against Verstappen."
+     ],
+     "leadKo": [
+      "루이스 해밀턴 (Lewis Hamilton) 과 맥스 베르스타펜 (Max Verstappen) 이 브라질 그랑프리에서 20위와 21위를 차지한 가운데, 일요일의 포뮬러 1 레이스는 기상 조건에 관계없이 매혹적인 레이스를 약속합니다.",
+      "해밀턴과 베르스타펜은 오토드로모 호세 카를로스 페이스 (Autodromo Jose Carlos Pace) 에서 기억에 남는 회복을 수행한 두 명의 드라이버 파트너입니다. 오토드로모 호세 카를로스 페이스 (Autodromo Jose Carlos Pace) 는 추월이 언제나",
+      "2021년에 7번의 세계 챔피언은 기술적 위반으로 인해 예선 결과에서 제외되었습니다. 즉, 그는 마지막부터 스프린트를 시작했습니다. 그는 5위까지 싸웠습니다. 새로운 엔진을 위한 5개의 그리드 드롭으로 해밀턴은 그랑프리의 그리드에서 10위를 차지했지만 정면으로 싸우며 베르스타펜과의 타이타닉 결투에서 정상을 차지했습니다."
+     ],
+     "titleKo": "‘어떻게든 이기도록 노력하겠다’ – 루이스 해밀턴과 맥스 베르스타펜은 F1 브라질 GP의 승리를 위해 맞설 수 있을까?",
+     "descKo": "루이스 해밀턴 (Lewis Hamilton) 과 맥스 베르스타펜 (Max Verstappen) 이 브라질 그랑프리에서 20위와 21위를 차지한 가운데, 일요일의 포뮬러 1 레이스는 날씨에 관계없이 매혹적인 레이스를 약속합니다..."
+    },
+    {
+     "title": "McLaren’s 2027-spec front wing is making its F1 car more predictable",
+     "desc": "McLaren team principal Andrea Stella says the 2027-spec front wing concept introduced on the MCL40 at Formula 1’s Brazilian Grand Prix has improved the car’s driveability and…",
+     "link": "https://www.motorsport.com/f1/news/mclarens-2027-spec-front-wing-is-making-its-f1-car-more-predictable/10872891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/0o5AwWwY/s6/lando-norris-mclaren.jpg",
+     "date": "2026-11-08T12:07:45+00:00",
+     "author": "",
+     "id": "16bd9653fc",
+     "lead": [
+      "McLaren team principal Andrea Stella says the 2027-spec front wing concept introduced on the MCL40 at Formula 1’s Brazilian Grand Prix has improved the car’s driveability and predictability.",
+      "The Woking-based outfit launched an upgrade package at Interlagos - featuring not just this front wing but also a rear wing, a beam wing and new floor furniture - after McLaren lost ground to Mercedes , Ferrari and Red Bull in the last couple of months.",
+      "Lando Norris took pole at Autodromo Jose Carlos Pace, with team-mate Oscar Piastri down in 12th, but heavy rain meant this wasn’t representative of the updates’ impact. The practice sessions, however, took place on a dry track, allowing for a deeper understanding of the new parts."
+     ],
+     "leadKo": [
+      "맥라렌 팀의 안드레아 스텔라 (Andrea Stella) 팀장은 포뮬러 1의 브라질 그랑프리에서 MCL40에 도입된 2027 사양의 프론트 윙 컨셉이 자동차의 주행성과 예측 가능성을 향상시켰다고 말합니다.",
+      "Woking 기반 복장은 지난 몇 달 동안 McLaren이 Mercedes, Ferrari 및 Red Bull에게 땅을 잃은 후 Interlagos에서 업그레이드 패키지를 출시했습니다. 이 패키지는 전면 날개뿐만 아니라 후면 날개, 빔 날개 및 새로운 바닥 가구를 특징으로합니다.",
+      "란도 노리스 (Lando Norris) 는 오토드로모 호세 카를로스 페이스 (Autodromo Jose Carlos Pace) 에서 폴링을 했고, 팀 동료인 오스카 피아스트리 (Oscar Piastri) 는 12위를 차지했지만, 폭우로 인해 업데이트의 영향을 받지 못했습니다. 그러나 연습 세션은 드라이 트랙에서 진행되어 새로운 부품을 더 깊이 이해할 수 있었습니다."
+     ],
+     "titleKo": "맥라렌의 2027 사양 프론트 윙은 F1 자동차를 더욱 예측 가능하게 만들고 있습니다.",
+     "descKo": "맥라렌 팀의 안드레아 스텔라 (Andrea Stella) 팀장은 포뮬러 1의 브라질 그랑프리에서 MCL40에 도입된 2027 사양의 프론트 윙 컨셉이 자동차의 주행성을 향상시켰으며..."
+    },
+    {
+     "title": "The wet-weather challenges thrown up by Brazilian GP qualifying",
+     "desc": "One hour, 23 minutes. You could've squeezed most of a football match into the rain delay during Formula 1 qualifying for the Sao Paulo Grand Prix, and it looked for all the world…",
+     "link": "https://www.motorsport.com/f1/news/the-wet-weather-challenges-thrown-up-by-brazilian-gp-qualifying/10872818/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/YN7vzbe6/s6/gabriel-bortoleto-audi-f1-team-2.jpg",
+     "date": "2026-11-08T11:06:21+00:00",
+     "author": "",
+     "id": "8f05bcb226",
+     "lead": [
+      "One hour, 23 minutes. You could've squeezed most of a football match into the rain delay during Formula 1 qualifying for the Sao Paulo Grand Prix, and it looked for all the world like the session wouldn't actually get going again.",
+      "A repeat of 2024, where qualifying was squeezed onto Sunday morning, looked likely. Yet, a saviour arrived when a break in the clouds emerged, and the circuit had dried just enough for safety car specialist Bernd Maylander to give his approval of the conditions. It scarcely stopped a handful of drivers from having a moan about the visibility, but they soon accepted that they needed to lock in and focus up on getting around the track.",
+      "This meant the use of the lesser-spotted full-wet tyre, or the \"x-wet\" per the F1 lexicon. Often derided as a tyre only fit for bumbling around on behind the safety car, the blue-walled Pirelli was actually holding up pretty well and proved perfect for the level of standing water around the circuit. Aquaplaning, where the tyre struggles to break the surface tension of the water on-track, was nonetheless prevalent - but water dispersal as the…"
+     ],
+     "leadKo": [
+      "1시간 23분. 포뮬러 1 상파울루 그랑프리 예선 기간 동안 대부분의 축구 경기를 빗속으로 밀어 넣을 수 있었고, 실제로 세션이 다시는 진행되지 않을 것처럼 모든 세계를 찾았습니다.",
+      "일요일 아침에 퀄리파잉이 짜여진 2024년의 반복은 그럴 듯해 보였습니다. 그러나 구름 속에서 휴식이 생겼을 때 구세주가 도착했고, 안전 자동차 전문 업체 인 Bernd Maylander가 조건에 대한 승인을 내릴만큼 충분히 건조되었습니다. 소수의 기사들이 가시성에 대해 신음하는 것을 거의 막지 못했지만, 곧 그들은 트랙을 돌아다니는 데 집중하고 집중해야 한다는 것을 받아들였습니다.",
+      "이것은 덜 뾰족한 풀 웨트 타이어 또는 F1 어휘에 따른 \"x-wet\" 의 사용을 의미했습니다. 종종 세이프티 카 뒤에서 부딪히기에만 적합한 타이어로 조롱받는 푸른 벽의 피렐리는 실제로 꽤 잘 버티고 있었으며 서킷 주위에 서있는 물의 수준에 완벽하다는 것이 입증되었습니다. 트랙에서 물의 표면 장력을 깨기 위해 타이어가 고군분투하는 Aquaplaning은 그럼에도 불구하고 유행했지만 물은 다음과 같이 분산됩니다."
+     ],
+     "titleKo": "브라질 GP 퀄리파잉이 던지는 습한 날씨의 어려움",
+     "descKo": "1시간 23분. 포뮬러 1 상파울루 그랑프리 예선 기간 동안 대부분의 축구 경기를 빗속으로 밀어 넣을 수 있었고, 전 세계를 찾았습니다..."
+    },
+    {
+     "title": "Pierre Gasly on Franco Colapinto fan pressure: “Once you deal with Helmut Marko, anything else is no pressure”",
+     "desc": "Interlagos is the closest Franco Colapinto gets to a home grand prix, and Pierre Gasly knows the atmosphere that creates around the Alpine garage in Sao Paulo this weekend.…",
+     "link": "https://www.motorsport.com/f1/news/pierre-gasly-on-colapinto-fan-pressure-once-you-deal-with-helmut-marko-anything-else-is-no-pressure/10872811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/6VyKlawY/s6/pierre-gasly-alpine.jpg",
+     "date": "2026-11-08T10:20:36+00:00",
+     "author": "",
+     "id": "66de902aff",
+     "lead": [
+      "Interlagos is the closest Franco Colapinto gets to a home grand prix, and Pierre Gasly knows the atmosphere that creates around the Alpine garage in Sao Paulo this weekend.",
+      "Argentina's flag has become a familiar sight in Formula 1 grandstands since Colapinto ended the country's 23-year wait for a driver on the grid in 2024. The speed and scale of the response exceeded expectations, even in a country whose ties to the sport stretch back to the inaugural world championship. And while efforts to bring a grand prix back to Argentina continue, thousands of fans have made a habit of crossing the border to watch Colapinto…",
+      "That support has also had an uglier side on social media, where some accounts identifying as Colapinto supporters have directed abuse at other drivers and Alpine itself. Gasly has been on the receiving end of it from time to time since Colapinto joined the team, most recently after the Spanish Grand Prix."
+     ],
+     "leadKo": [
+      "Interlagos는 Franco Colapinto가 홈 그랑프리에서 가장 가까운 곳이며, Pierre Gasly는 이번 주말 상파울루의 알파인 차고 주변을 만드는 분위기를 알고 있습니다.",
+      "아르헨티나의 국기는 콜라핀토가 2024년 그리드에서 드라이버를 기다리는 23년간의 대기 시간을 끝낸 이후 포뮬러 1 그랜드스탠드에서 친숙한 광경이 되었습니다. 스포츠와의 관계가 첫 번째 세계 선수권 대회로 거슬러 올라가는 국가에서도 반응의 속도와 규모는 예상을 뛰어넘었습니다. 아르헨티나로 돌아가기 위한 노력은 계속되고 있지만, 수천 명의 팬들은 콜라핀토를 보기 위해 국경을 넘는 습관을 들였습니다...",
+      "콜라핀토를 지지하는 일부 계정이 다른 드라이버 파트너와 알파인 자체에 대한 학대를 지시하는 소셜 미디어에서도 이러한 지원은 더 추악한 측면이 있습니다. Gasly는 Colapinto가 팀에 합류한 이후 가장 최근에는 스페인 그랑프리 이후 수시로 입단했습니다."
+     ],
+     "titleKo": "프랑코 콜라핀토 팬의 압력에 대한 피에르 가스리: \"일단 헬무트 마르코를 상대하면 다른 어떤 것도 부담이 되지 않습니다.\"",
+     "descKo": "Interlagos는 Franco Colapinto가 홈 그랑프리에서 가장 가까운 곳이며, Pierre Gasly는 이번 주말 상파울루의 알파인 차고 주변을 만드는 분위기를 알고 있습니다. …"
+    },
+    {
+     "title": "F1 2026 qualifying head-to-head: Brazilian GP",
+     "desc": "After every Formula 1 qualifying session, Motorsport.com publishes each team's qualifying record in terms of team-mate battles. This record is based exclusively on qualifying…",
+     "link": "https://www.motorsport.com/f1/news/f1-2026-qualifying-head-to-head-brazilian-gp/10872869/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/0Zq8V1M6/s6/arvid-lindblad-racing-bulls.jpg",
+     "date": "2026-11-08T09:48:18+00:00",
+     "author": "",
+     "id": "567483dd1b",
+     "lead": [
+      "After every Formula 1 qualifying session, Motorsport.com publishes each team's qualifying record in terms of team-mate battles.",
+      "This record is based exclusively on qualifying results so that grid penalties don't alter the statistics.",
+      "When a driver can't put in a representative lap time due to a technical issue or an incident, this will be mentioned in the table."
+     ],
+     "leadKo": [
+      "포뮬러 1 퀄리파잉 세션이 끝날 때마다 Motorsport.com은 팀원 전투 측면에서 각 팀의 퀄리파잉 기록을 게시합니다.",
+      "이 기록은 그리드 페널티가 통계를 변경하지 않도록 적격 결과만을 기반으로 합니다.",
+      "기술적 문제 또는 사고로 인해 드라이버 파트너가 대표 랩타임을 할 수 없는 경우, 이는 표에 언급됩니다."
+     ],
+     "titleKo": "F1 2026 예선 정면 대결: 브라질 GP",
+     "descKo": "포뮬러 1 퀄리파잉 세션이 끝날 때마다 Motorsport.com은 팀원 전투 측면에서 각 팀의 퀄리파잉 기록을 게시합니다. 이 기록은 자격 요건에만 기반을 두고 있습니다..."
+    },
+    {
      "title": "Liam Lawson rues Brazilian GP qualifying mistake despite third-place grid start",
      "desc": "Liam Lawson reckons he had enough pace to earn a front-row grid spot in Sao Paulo – but rues his own \"mistake\" in qualifying, which meant he'll have to start from P3. The New…",
      "link": "https://www.motorsport.com/f1/news/despite-p3-on-the-grid-lawson-rues-qualifying-mistake-and-believes-front-row-was-possible/10872792/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6O7zrOm6/s6/liam-lawson-racing-bulls-2.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/6O7zrOm6/s6/liam-lawson-racing-bulls-2.jpg",
      "date": "2026-11-07T22:32:01+00:00",
      "author": "",
      "id": "a693a8a65a",
@@ -1814,7 +1955,7 @@
      "title": "George Russell's Brazilian GP qualifying fury explained: \"Pole was there for the taking\"",
      "desc": "In keeping with the theme of the Brazilian Grand Prix's weather-hit qualifying, George Russell had a thunderous look on his face when he faced the Formula 1 media in the…",
      "link": "https://www.motorsport.com/f1/news/george-russells-brazilian-gp-qualifying-fury-explained-pole-was-there-for-the-taking/10872782/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg",
+     "image": "https://cdn-7.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg",
      "date": "2026-11-07T22:12:17+00:00",
      "author": "",
      "id": "8a9361b378",
@@ -1835,7 +1976,7 @@
      "title": "Lewis Hamilton and Max Verstappen warn of difficult F1 Brazilian GP comebacks",
      "desc": "Lewis Hamilton and Max Verstappen both expect overtaking to be much harder at Interlagos than in previous seasons, as they prepare to start Sunday's Brazilian Grand Prix from the…",
      "link": "https://www.motorsport.com/f1/news/lewis-hamilton-and-max-verstappen-warn-of-difficult-brazilian-gp-comebacks/10872784/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0Lde3Vg0/s6/motorsport-com-graphics-70.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/0Lde3Vg0/s6/motorsport-com-graphics-70.jpg",
      "date": "2026-11-07T22:06:47+00:00",
      "author": "",
      "id": "bbb91bcf85",
@@ -1851,132 +1992,6 @@
       "두 드라이버 모두 브라질에서 새로운 동력 장치 부품을 구입하여 시즌 할당량을 초과했습니다. 이에 따라 해밀턴과 베르스타펜은 각각 그리드에서 20위와 21위부터 출발하게 되며, 22위에는 캐딜락의 세르히오 페레즈만이 뒤따른다.",
       "Interlagos는 오랫동안 추월이 상대적으로 쉬운 트랙이었습니다. Verstappen과 Hamilton은 모두 이전 순서보다 훨씬 낮은 순서에서 트랙에서 우승했습니다. Hamilton은 2021년 10위, Verstappen은 2024년 17위였습니다. 그러나 DRS가 2026년 규정과 새로운 추월 모드에 따라 진행됨에 따라 둘 다 더 이상 그렇지 않을 수 있다고 믿습니다."
      ]
-    },
-    {
-     "title": "F1 Brazilian GP: Sunday schedule, weather forecast and how to watch",
-     "desc": "Formula 1 heads into Sunday at Interlagos with Lando Norris on pole after a rain-soaked qualifying session dramatically reshaped the grid. The McLaren driver beat George Russell…",
-     "link": "https://www.motorsport.com/f1/news/f1-brazil-gp-sunday-schedule-weather-forecast-and-how-to-watch/10872772/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0Zq8Vqb6/s6/oscar-piastri-mclaren.jpg",
-     "date": "2026-11-07T21:59:47+00:00",
-     "author": "",
-     "id": "a7f0119ba4",
-     "titleKo": "F1 브라질 GP: 일요일 일정, 일기예보 및 시청 방법",
-     "descKo": "포뮬러 1은 비에 젖은 예선 세션을 통해 그리드를 극적으로 재구성한 후 랜도 노리스(Lando Norris)와 함께 일요일 인터라고스(Interlagos)로 향합니다. 맥라렌 드라이버가 조지 러셀을 이겼다…",
-     "lead": [
-      "Formula 1 heads into Sunday at Interlagos with Lando Norris on pole after a rain-soaked qualifying session dramatically reshaped the grid.",
-      "The McLaren driver beat George Russell by 0.204s in treacherous conditions, but Russell’s five-place engine penalty promotes newly crowned world champion Kimi Antonelli to the front row.",
-      "Liam Lawson starts third for Racing Bulls ahead of Nico Hulkenberg , Isack Hadjar and Oliver Bearman . Russell drops to seventh, while Charles Leclerc falls down the order with a 10-place engine penalty."
-     ],
-     "leadKo": [
-      "포뮬러 1은 비에 젖은 예선 세션을 통해 그리드를 극적으로 재구성한 후 랜도 노리스(Lando Norris)와 함께 일요일 인터라고스(Interlagos)로 향합니다.",
-      "McLaren 드라이버는 위험한 상황에서 George Russell을 0.204초 차로 이겼지만 Russell의 5단계 엔진 페널티는 새로 선정된 세계 챔피언인 Kimi Antonelli를 맨 앞줄로 승격시켰습니다.",
-      "Liam Lawson은 Nico Hulkenberg, Isack Hadjar 및 Oliver Bearman에 앞서 Racing Bulls에서 3위를 차지했습니다. Russell은 7위로 떨어졌고 Charles Leclerc는 10위의 엔진 페널티로 순위가 하락했습니다."
-     ]
-    },
-    {
-     "title": "Lewis Hamilton insists Ferrari tensions with Charles Leclerc are over: \"We've squashed it\"",
-     "desc": "Lewis Hamilton has revealed he and Charles Leclerc have cleared the air in Sao Paulo following their clash at the Formula 1 Mexico Grand Prix and the tensions have been…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-insists-ferrari-tensions-with-charles-leclerc-are-over-weve-squashed-it/10872756/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg",
-     "date": "2026-11-07T21:45:25+00:00",
-     "author": "",
-     "id": "a35c6d2a7f",
-     "titleKo": "루이스 해밀턴은 찰스 르클레르와의 페라리 긴장은 끝났다고 주장한다: \"우리는 그것을 짓밟았다\"",
-     "descKo": "루이스 해밀턴은 그와 찰스 르클레르가 포뮬러 1 멕시코 그랑프리에서 충돌한 후 상파울루에서 분위기를 정리했으며 긴장이 고조되었다고 밝혔습니다.",
-     "lead": [
-      "Lewis Hamilton has revealed he and Charles Leclerc have cleared the air in Sao Paulo following their clash at the Formula 1 Mexico Grand Prix and the tensions have been “squashed”.",
-      "Moreover, the seven-time world champion insists it didn't require Fred Vasseur's involvement – as the drivers resolved their differences between themselves.",
-      "\"I mean, Fred hasn't cleared the air in the sense of me and Charles,\" he said, speaking to Sky Sports after qualifying in Sao Paulo. \"We sat and spoke and we squashed it and we're moving on. I think we still have a huge amount of respect for each other."
-     ],
-     "leadKo": [
-      "루이스 해밀턴은 그와 찰스 르클레르가 포뮬러 1 멕시코 그랑프리에서 충돌한 후 상파울루의 분위기를 정리했으며 긴장이 \"압축\"되었다고 밝혔습니다.",
-      "더욱이, 7차례 세계 챔피언에 오른 그는 드라이버들이 서로의 차이점을 해결했기 때문에 Fred Vasseur의 개입이 필요하지 않았다고 주장합니다.",
-      "\"내 말은, 프레드는 나와 찰스의 관점에서 볼 때 공기를 깨끗하게 하지 못했다는 뜻입니다.\" 그는 상파울루 예선 이후 스카이스포츠와의 인터뷰에서 말했다. \"우리는 앉아서 이야기를 나누고 그것을 짓밟고 계속 나아갔습니다. 내 생각에 우리는 여전히 서로에 대해 엄청난 존경심을 가지고 있다고 생각합니다."
-     ]
-    },
-    {
-     "title": "Lewis Hamilton opens up on clear-the-air talks with Charles Leclerc after Mexican GP clash",
-     "desc": "Lewis Hamilton has opened up on the clear-the-air chat he had with his Ferrari team-mate Charles Leclerc ahead of the Brazilian Grand Prix. The Ferrari team-mates clashed on the…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-opens-up-on-clear-the-air-talks-with-charles-leclerc-after-mexican-gp-clash/10872761/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/YP748Re2/s6/motorsport-com-graphics-2.jpg",
-     "date": "2026-11-07T21:39:36+00:00",
-     "author": "",
-     "id": "a4950c12f5",
-     "titleKo": "루이스 해밀턴은 멕시코 GP 충돌 후 Charles Leclerc와 공개 대화를 시작합니다.",
-     "descKo": "루이스 해밀턴이 브라질 그랑프리를 앞두고 페라리 팀 동료 샤를 르클레르와 나눈 공개 대화를 공개했습니다. 페라리 팀 동료들이 충돌했습니다…",
-     "lead": [
-      "Lewis Hamilton has opened up on the clear-the-air chat he had with his Ferrari team-mate Charles Leclerc ahead of the Brazilian Grand Prix.",
-      "The Ferrari team-mates clashed on the opening lap of the Mexican Grand Prix last weekend. Leclerc attempted to overtake the seven-time champion, who had started from pole position. Both drivers ran wide during the move, with Leclerc rejoining the track in the lead.",
-      "Hamilton dropped to third behind Max Verstappen as a result, and Leclerc was handed a five-second penalty for the incident."
-     ],
-     "leadKo": [
-      "루이스 해밀턴이 브라질 그랑프리를 앞두고 페라리 팀 동료 샤를 르클레르와 나눈 공개 대화를 공개했습니다.",
-      "페라리 팀 동료들은 지난 주말 멕시코 그랑프리 개막 랩에서 충돌했습니다. Leclerc는 폴 포지션에서 출발한 7회 챔피언을 추월하려고 시도했습니다. 두 드라이버 모두 이동 중에 크게 달렸고 Leclerc가 선두로 트랙에 다시 합류했습니다.",
-      "그 결과 해밀턴은 Max Verstappen에 이어 3위로 떨어졌고 Leclerc는 이 사건으로 인해 5초의 페널티를 받았습니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen watched Premier League football during Brazilian GP qualifying delay: \"12 hours I'll never get back\"",
-     "desc": "Max Verstappen called it a day after Q1 during Formula 1 qualifying in Sao Paulo, as he already knew he would be starting from the back of the grid for the Brazilian Grand Prix…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-watched-premier-league-football-during-f1-delay-12-hours-ill-never-get-back/10872746/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0o5AVQ7Y/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-11-07T21:27:08+00:00",
-     "author": "",
-     "id": "2761076573",
-     "titleKo": "Max Verstappen은 브라질 GP 예선이 지연되는 동안 프리미어 리그 축구를 시청했습니다. \"12시간은 다시 돌아오지 못할 것입니다.\"",
-     "descKo": "Max Verstappen은 1분기 다음 날 상파울루에서 열린 Formula 1 예선에서 이를 요청했습니다. 그는 브라질 그랑프리를 위해 그리드 뒤에서 출발할 것이라는 것을 이미 알고 있었기 때문입니다.",
-     "lead": [
-      "Max Verstappen called it a day after Q1 during Formula 1 qualifying in Sao Paulo, as he already knew he would be starting from the back of the grid for the Brazilian Grand Prix due to an engine-related grid penalty.",
-      "In the FIA's 'indicative grid', Verstappen is listed in 21st place, behind Lewis Hamilton and just ahead of Sergio Perez .",
-      "The four-time world champion once again demonstrated in Q1 just how competitive he can be in wet conditions. His first flying lap was 1.4 seconds faster than the time at the top of the leaderboard at that point, and four tenths quicker than Hamilton, who crossed the start-finish line shortly afterwards. The Red Bull driver eventually finished the opening segment of qualifying in third place – behind Lando Norris and George Russell – before…"
-     ],
-     "leadKo": [
-      "Max Verstappen은 1분기 다음 날 상파울루에서 열린 Formula 1 예선에서 이를 요청했습니다. 그는 엔진 관련 그리드 페널티로 인해 브라질 그랑프리의 그리드 뒤에서 출발할 것임을 이미 알고 있었기 때문입니다.",
-      "FIA의 '표시 그리드'에서 Verstappen은 Lewis Hamilton 뒤, Sergio Perez 바로 앞선 21위를 기록했습니다.",
-      "4차례 세계 챔피언을 차지한 그는 1분기에 그가 젖은 환경에서도 얼마나 경쟁력을 가질 수 있는지 다시 한번 보여주었습니다. 그의 첫 번째 플라잉 랩은 당시 리더보드 1위보다 1.4초 빨랐고, 직후 출발-결승선을 통과한 해밀턴보다 4/10나 빨랐습니다. Red Bull 드라이버는 결국 Lando Norris와 George Russell에 이어 3위로 예선 첫 부분을 마쳤습니다."
-     ]
-    },
-    {
-     "title": "Toto Wolff responds to George Russell's angry radio messages in Brazilian GP qualifying",
-     "desc": "Mercedes team principal Toto Wolff has addressed George Russell's furious team radio messages during qualifying for the Brazilian Grand Prix. The British driver finished second in…",
-     "link": "https://www.motorsport.com/f1/news/toto-wolff-responds-to-george-russells-angry-radio-messages-in-brazilian-gp-qualifying/10872744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/2QedB3m2/s6/motorsport-com-graphics-1.jpg",
-     "date": "2026-11-07T21:16:47+00:00",
-     "author": "",
-     "id": "d4f3b69481",
-     "titleKo": "토토 울프(Toto Wolff)는 브라질 GP 예선에서 조지 러셀(George Russell)의 분노한 라디오 메시지에 응답했습니다.",
-     "descKo": "메르세데스 팀장 토토 울프(Toto Wolff)는 브라질 그랑프리 예선 도중 조지 러셀(George Russell)의 분노한 팀 라디오 메시지에 대해 연설했습니다. 영국 드라이버는 2위를 차지했습니다.",
-     "lead": [
-      "Mercedes team principal Toto Wolff has addressed George Russell's furious team radio messages during qualifying for the Brazilian Grand Prix.",
-      "The British driver finished second in the rain-soaked session at Interlagos behind McLaren's Lando Norris . The Brackley outfit told him to back off midway through his last push lap in Q3 as more rain approached and Alex Albon's Williams was ahead of him on track.",
-      "At the time, Russell fumed over the team radio when it became clear the rain was too heavy to continue with the session."
-     ],
-     "leadKo": [
-      "메르세데스 팀장 토토 울프(Toto Wolff)는 브라질 그랑프리 예선 도중 조지 러셀(George Russell)의 분노한 팀 라디오 메시지에 대해 연설했습니다.",
-      "영국인 드라이버는 Interlagos에서 열린 비에 젖은 세션에서 McLaren의 Lando Norris에 이어 2위를 차지했습니다. Brackley 복장은 더 많은 비가 다가오고 Alex Albon의 Williams가 궤도에서 그를 앞서고 있기 때문에 Q3의 마지막 푸시 랩 중간에 물러나라고 말했습니다.",
-      "당시 Russell은 비가 너무 심해서 세션을 계속할 수 없다는 것이 분명해지자 팀 라디오를 통해 화를 냈습니다."
-     ]
-    },
-    {
-     "title": "Oscar Piastri explains what led to Brazilian GP qualifying disappointment",
-     "desc": "Oscar Piastri believes McLaren left it too late to switch to intermediate tyres in qualifying for the Brazilian Grand Prix. The Australian driver qualified 12th in a rain-delayed…",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-explains-what-led-to-brazilian-gp-qualifying-disappointment/10872735/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6x7Lz7mY/s6/motorsport-com-graphics.jpg",
-     "date": "2026-11-07T21:00:06+00:00",
-     "author": "",
-     "id": "1c7d931857",
-     "titleKo": "Oscar Piastri가 브라질 GP 예선에서 실망하게 된 이유를 설명합니다.",
-     "descKo": "Oscar Piastri는 McLaren이 브라질 그랑프리 출전 자격을 얻기 위해 중간 타이어로 교체하기에는 너무 늦게 떠났다고 믿습니다. 호주 드라이버는 비로 인해 지연된 경주에서 12위를 차지했습니다.",
-     "lead": [
-      "Oscar Piastri believes McLaren left it too late to switch to intermediate tyres in qualifying for the Brazilian Grand Prix.",
-      "The Australian driver qualified 12th in a rain-delayed session at Interlagos, although he will start from 10th after penalties are applied to Ferrari's Charles Leclerc and Lewis Hamilton for power unit changes.",
-      "Piastri made it through Q1 on full wet tyres, but conditions had improved enough for teams to switch to intermediates in Q2."
-     ],
-     "leadKo": [
-      "Oscar Piastri는 McLaren이 브라질 그랑프리 출전 자격을 얻기 위해 중간 타이어로 교체하기에는 너무 늦게 떠났다고 믿습니다.",
-      "이 호주 드라이버는 Interlagos에서 열린 비로 인해 지연된 세션에서 12위 자격을 얻었지만, 동력 장치 변경으로 인해 Ferrari의 Charles Leclerc와 Lewis Hamilton에게 페널티가 적용된 후 10위부터 출발할 예정입니다.",
-      "Piastri는 완전히 젖은 타이어로 1분기를 통과했지만 팀이 2분기에 중간 타이어로 전환할 수 있을 만큼 상태가 개선되었습니다."
-     ]
     }
    ]
   },
@@ -1984,6 +1999,48 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "What's got F1 drivers so worried about Brazilian GP spectacle",
+     "desc": "Overtaking has historically been easy at the Brazilian GP. But there are fears the peculiarities of the 2026 F1 rules will neuter the spectacle",
+     "link": "https://www.the-race.com/formula-1/what-has-got-f1-drivers-so-worried-brazilian-gp-racing-spectacle/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1452085_HiRes.jpg",
+     "date": "2026-11-08T10:48:17+00:00",
+     "author": "Ben Anderson",
+     "id": "099e2901a3",
+     "lead": [
+      "The Brazilian Grand Prix has been witness to many famous charges from the lower reaches of the Formula 1 grid because overtaking has historically been easy.",
+      "But there are genuine fears among F1 drivers that the peculiarities of the 2026 regulations will neuter the spectacle at Interlagos on Sunday afternoon.",
+      "Only one week ago in Mexico, Lewis Hamilton and Lando Norris were both bemoaning the energy deployment ramp-down rates that kick in once F1 cars clear a certain threshold of speed. Hamilton called them \"stupid\" and Norris said they \"kind of ruin racing\"."
+     ],
+     "leadKo": [
+      "브라질 그랑프리는 역사적으로 추월이 쉬웠기 때문에 포뮬러 1 그리드의 낮은 범위에서 많은 유명한 요금을 목격했습니다.",
+      "그러나 F1 드라이버들 사이에는 2026년 규정의 특수성이 일요일 오후 인터라고스에서의 광경을 중화시킬 것이라는 진정한 두려움이 있습니다.",
+      "불과 일주일 전 멕시코에서 루이스 해밀턴과 랜도 노리스는 F1 차량이 특정 속도 임계값을 클리어하면 발동하는 에너지 전개 램프 다운 속도를 슬퍼하고 있었다. 해밀턴은 그들을 \"바보\" 라고 불렀고 노리스는 \"일종의 루인 레이싱\" 이라고 말했습니다."
+     ],
+     "titleKo": "F1 드라이버가 브라질 GP 스펙터클에 대해 그렇게 걱정하는 이유",
+     "descKo": "브라질 GP에서 추월은 역사적으로 쉬웠습니다. 그러나 2026년 F1 규칙의 특이성이 스펙터클을 중화시킬 것이라는 우려가 있습니다."
+    },
+    {
+     "title": "Why F1 risks 'horrific incident' if Brazilian GP perils are repeated",
+     "desc": "F1 might have proved in Brazilian GP qualifying that its 2026 cars can run on full wet tyres, but its problems in handling rainy conditions are not over",
+     "link": "https://www.the-race.com/formula-1/why-f1-risks-horrific-incident-if-brazilian-gp-risks-are-repeated/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1452981_HiRes.jpg",
+     "date": "2026-11-08T08:31:06+00:00",
+     "author": "Jon Noble",
+     "id": "c441f7af6b",
+     "lead": [
+      "Formula 1 might have proved in Brazilian Grand Prix qualifying that its 2026 cars can run on full wet tyres, but its problems in handling rainy conditions are not over yet.",
+      "In fact, Mercedes driver George Russell warned that if the kind of weather that drivers faced on Saturday is repeated in the race, then the chances of trouble are very high.",
+      "\"I love driving in the rain here but, at some point, if that was a race, there was no way we should be driving in that because the chances of seeing a really, really horrific incident are very, very high,\" he said."
+     ],
+     "leadKo": [
+      "포뮬러 1은 브라질 그랑프리에서 2026년형 자동차가 젖은 타이어에서 완전히 달릴 수 있다는 것을 증명했을지 모르지만, 우천 조건을 다루는 문제는 아직 끝나지 않았습니다.",
+      "실제로 메르세데스-벤츠 운전자 조지 러셀 (George Russell) 은 토요일에 운전자가 직면한 날씨가 경주에서 반복되면 문제가 발생할 가능성이 매우 높다고 경고했습니다.",
+      "\"저는 이곳에서 빗속에서 운전하는 것을 좋아하지만, 어느 시점에서 그것이 경주였다면, 정말 정말 끔찍한 사건을 볼 가능성이 매우 높기 때문에 우리가 운전해야 할 방법이 없었습니다.\" 라고 그는 말했습니다."
+     ],
+     "titleKo": "브라질 GP 위험이 반복될 경우 F1이 '끔찍한 사건' 을 초래하는 이유",
+     "descKo": "F1은 브라질 GP 퀄리파잉에서 2026년형 차량이 완전히 젖은 타이어에서 작동할 수 있다는 것을 증명했을 수 있지만, 우천 조건을 처리하는 데 있어 문제는 끝나지 않았습니다."
+    },
     {
      "title": "Why Russell's 'pole' was lost either way - and it hurt like hell",
      "desc": "George Russell knew he would not start the Brazilian Grand Prix from pole position due to a grid penalty, yet missing out left him feeling unusually hurt regardless",
@@ -2069,7 +2126,7 @@
      ]
     },
     {
-     "title": "Norris on Brazilian GP pole as Russell rages at Mercedes over aborted lap",
+     "title": "Norris on Brazil pole as Russell rages at Mercedes over aborted lap",
      "desc": "Lando Norris snatched a stunning Brazilian Grand Prix pole position at Interlagos in torrential rain, as George Russell felt Mercedes robbed him of a chance to finish first",
      "link": "https://www.the-race.com/formula-1/norris-on-brazilian-gp-pole-as-russell-rages-at-mercedes-over-aborted-lap/",
      "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1452772_HiRes.jpg",
@@ -2129,48 +2186,6 @@
       "브라질 그랑프리 F1 2026 예선은 끔찍한 습한 기상 조건으로 인해 불과 2분 만에 위험 신호를 받았습니다. Interlagos에서는 항상 비가 내릴 가능성이 있었고 토요일에 비가 올 것으로 예상되었지만, 세션이 진행되는 동안에도 폭우가 쏟아져 수많은 차량이 멈춰 포뮬러 1 관리인들이 행동에 나섰습니다. 8대의 자동차: Kimi Antonelli의 Mercedes, George Russell의 Mercedes, Charles Leclerc의 Ferrari, Isack Hadjar의 Red Bull, the Alpines...",
       "Gabriel Bortoleto는 기분을 이렇게 요약했습니다. \"나가면 옷을 갈아입어야 하는데 완전히 젖었어요!\" Max Verstappen과 Lewis Hamilton은 트랙에 나가지 않고 차고에 건조한 상태를 유지함으로써 F1에서의 경험을 보여주는 것처럼 보였습니다. 비가 계속해서 트랙을 강타하기 때문에 아직 재개 시간이 확정되지 않았습니다. Nico Hulkenberg는 비가 최소 10분 동안 이렇게 심하게 내릴 것이라는 말을 들었고 그 무선 메시지는 1808년에 전송되었습니다…",
       "FIA는 성명을 통해 10분 동안 폭우가 내릴 것으로 예상되며 상황이 개선되면 \"고여 있는 물의 수준을 평가하기 위해\" 의료 차량이 파견될 것이라고 밝혔습니다."
-     ]
-    },
-    {
-     "title": "Hamilton gets back-of-the-grid penalty for Brazilian GP",
-     "desc": "Lewis Hamilton will have to start Formula 1’s Brazilian Grand Prix from the back of the grid",
-     "link": "https://www.the-race.com/formula-1/lewis-hamilton-gets-back-of-the-grid-penalty-for-brazilian-gp/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1452400_HiRes.jpg",
-     "date": "2026-11-07T17:29:24+00:00",
-     "author": "Josh Suttill",
-     "id": "71ee1b0ea4",
-     "titleKo": "해밀턴, 브라질 GP에서 페널티킥 획득",
-     "descKo": "루이스 해밀턴은 포뮬러 1의 브라질 그랑프리를 그리드 뒤에서 시작해야 할 것입니다.",
-     "lead": [
-      "Lewis Hamilton will start Formula 1’s Brazilian Grand Prix from the back of the grid as Ferrari was forced to make further engine component changes after final practice.",
-      "Hamilton - and Ferrari team-mate Charles Leclerc - took a new internal combustion engine ahead of FP3, but Hamilton hit trouble in that session, as smoke started emerging from his Ferrari.",
-      "It means Ferrari has had to make further changes since FP3 - specifically, \"replacing the entire power unit\" - increasing Hamilton’s penalty from 10 places to a back-of-the-grid penalty."
-     ],
-     "leadKo": [
-      "루이스 해밀턴은 페라리가 최종 연습 이후 엔진 구성 요소를 추가로 변경해야 했기 때문에 포뮬러 1의 브라질 그랑프리를 그리드 뒤에서 시작할 예정입니다.",
-      "해밀턴과 페라리 팀 동료인 샤를 르클레르(Charles Leclerc)는 FP3보다 앞서 새로운 내연 기관을 채택했지만, 해밀턴은 페라리에서 연기가 나기 시작하면서 그 세션에서 문제를 겪었습니다.",
-      "이는 페라리가 FP3 이후 추가 변경, 특히 \"전체 동력 장치 교체\"를 통해 해밀턴의 페널티를 10단계에서 그리드 뒤 페널티로 늘려야 함을 의미합니다."
-     ]
-    },
-    {
-     "title": "What happened in final Brazil F1 practice",
-     "desc": "Max Verstappen topped final practice ahead of Formula 1 qualifying at the Brazilian Grand Prix, knowing he’ll take a back-of-the-grid penalty for engine component changes",
-     "link": "https://www.the-race.com/formula-1/what-happened-in-final-brazil-f1-practice/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/SI202611070096.jpg",
-     "date": "2026-11-07T15:38:03+00:00",
-     "author": "Josh Suttill",
-     "id": "b580aad553",
-     "titleKo": "브라질 F1 최종 연습에서 일어난 일",
-     "descKo": "Max Verstappen은 브라질 그랑프리 포뮬러 1 예선을 앞두고 최종 연습에서 1위를 차지했으며, 엔진 부품 변경으로 인해 패널티를 받게 될 것임을 알고 있었습니다.",
-     "lead": [
-      "Max Verstappen topped final practice ahead of Formula 1 qualifying at the Brazilian Grand Prix, knowing he’ll take a back-of-the-grid penalty for engine component changes.",
-      "Verstappen is one of four penalised frontrunners - along with the Ferraris (10 places each) and Russell (five-place penalty) - who are already out of the pole position fight in Brazil.",
-      "Verstappen topped FP3 on a 1m11.622s, just 0.025s faster than the new world champion Kimi Antonelli."
-     ],
-     "leadKo": [
-      "Max Verstappen은 브라질 그랑프리 포뮬러 1 예선을 앞두고 최종 연습에서 1위를 차지했으며, 엔진 부품 변경으로 인해 패널티를 받게 될 것임을 알고 있었습니다.",
-      "베르스타펜은 페라리(각각 10위), 러셀(5위)과 함께 페널티를 받은 4명의 선두 주자들 중 한 명으로, 이들은 이미 브라질에서 폴 포지션 싸움을 벗어났습니다.",
-      "Verstappen은 1m11.622초로 FP3에서 1위를 차지했습니다. 이는 새로운 세계 챔피언인 Kimi Antonelli보다 단 0.025초 빠른 수치입니다."
      ]
     }
    ]
@@ -2375,6 +2390,66 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "LIVE: Sao Paulo Grand Prix Build-Up & Drivers' Parade",
+     "desc": "Join us at Interlagos as we build up to the Sao Paulo Grand Prix! 🇧🇷",
+     "link": "https://www.youtube.com/watch?v=Pq1W3TMcA8Y",
+     "image": "https://i.ytimg.com/vi/Pq1W3TMcA8Y/hqdefault.jpg",
+     "date": "2026-11-07T23:51:17+00:00",
+     "author": "FORMULA 1",
+     "videoId": "Pq1W3TMcA8Y",
+     "id": "6a6b5ceb8d",
+     "titleKo": "라이브: 상파울루 그랑프리 빌드업 및 드라이버 파트너 퍼레이드",
+     "descKo": ""
+    },
+    {
+     "title": "Extended Highlights | 2008 Brazilian Grand Prix",
+     "desc": "Watch one of the most memorable season finales in recent F1 history as the battle for the 2008 World Championship title goes down to the wire.",
+     "link": "https://www.youtube.com/watch?v=E1YOGmz3rKM",
+     "image": "https://i.ytimg.com/vi/E1YOGmz3rKM/hqdefault.jpg",
+     "date": "2026-11-08T10:46:43+00:00",
+     "author": "FORMULA 1",
+     "videoId": "E1YOGmz3rKM",
+     "id": "d626021e23",
+     "titleKo": "연장 하이라이트 | 2008 브라질 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "Lando Norris' Pole Lap | 2026 Sao Paulo Grand Prix | Pirelli",
+     "desc": "Ride onboard with Lando Norris' as he secures his third pole position at Interlagos for the 2026 Sao Paulo Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=5WAHbHLWcYM",
+     "image": "https://i.ytimg.com/vi/5WAHbHLWcYM/hqdefault.jpg",
+     "date": "2026-11-07T23:33:32+00:00",
+     "author": "FORMULA 1",
+     "videoId": "5WAHbHLWcYM",
+     "id": "9458cec1ef",
+     "titleKo": "란도 노리스의 폴 랩 | 2026 상파울루 그랑프리 | 피렐리",
+     "descKo": ""
+    },
+    {
+     "title": "Drivers React After Qualifying | 2026 Sao Paulo Grand Prix",
+     "desc": "The grid share their thoughts on a dramatic rain-affected Qualifying, which saw a number of new names finish in the top 10!",
+     "link": "https://www.youtube.com/watch?v=5RyZGgxFI8A",
+     "image": "https://i.ytimg.com/vi/5RyZGgxFI8A/hqdefault.jpg",
+     "date": "2026-11-07T22:34:04+00:00",
+     "author": "FORMULA 1",
+     "videoId": "5RyZGgxFI8A",
+     "id": "f0f914f8a5",
+     "titleKo": "퀄리파잉 후 드라이버 파트너 반응 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
+     "title": "Qualifying Highlights | 2026 Sao Paulo Grand Prix",
+     "desc": "With multiple grid penalties at play in a dramatic rain-affected Qualifying, who will come out on top and secure pole position for the Sao Paulo grand Prix?",
+     "link": "https://www.youtube.com/watch?v=Cn4C153hCLk",
+     "image": "https://i.ytimg.com/vi/Cn4C153hCLk/hqdefault.jpg",
+     "date": "2026-11-07T21:16:28+00:00",
+     "author": "FORMULA 1",
+     "videoId": "Cn4C153hCLk",
+     "id": "84236ae2e6",
+     "titleKo": "퀄리파잉 하이라이트 | 2026 상파울루 그랑프리",
+     "descKo": ""
+    },
+    {
      "title": "Max & Charles' Dad Chat 🥹",
      "desc": "Just Max Verstappen and Charles Leclerc talking about their babies 🥹",
      "link": "https://www.youtube.com/watch?v=drf0p_BIeAk",
@@ -2420,66 +2495,6 @@
      "videoId": "gK9GOCuN4mk",
      "id": "d705ad76db",
      "titleKo": "브라질 레드불 자동차에 숨겨진 구멍! | F1 TV 테크 토크",
-     "descKo": ""
-    },
-    {
-     "title": "The Funniest F1 Radio Of 2026 From Verstappen? 🤣",
-     "desc": "Just Max Verstappen amusing himself and the rest of us at 300 km/h.",
-     "link": "https://www.youtube.com/watch?v=MlYLdW5bAvo",
-     "image": "https://i.ytimg.com/vi/MlYLdW5bAvo/hqdefault.jpg",
-     "date": "2026-11-06T21:28:02+00:00",
-     "author": "FORMULA 1",
-     "videoId": "MlYLdW5bAvo",
-     "id": "b5707bc92e",
-     "titleKo": "Verstappen의 2026년 가장 재미있는 F1 라디오는? 🤣",
-     "descKo": ""
-    },
-    {
-     "title": "FP2 Highlights | 2026 Sao Paulo Grand Prix",
-     "desc": "Catch up on the second session in Sao Paulo with the full F1 field returning to their cars for long runs, as rainclouds loom.",
-     "link": "https://www.youtube.com/watch?v=h_IJImSl3r4",
-     "image": "https://i.ytimg.com/vi/h_IJImSl3r4/hqdefault.jpg",
-     "date": "2026-11-06T21:04:12+00:00",
-     "author": "FORMULA 1",
-     "videoId": "h_IJImSl3r4",
-     "id": "d5ef5c080a",
-     "titleKo": "FP2 하이라이트 | 2026 상파울루 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "FP1 Highlights | 2026 Sao Paulo Grand Prix",
-     "desc": "Kimi Antonelli takes to the track for the first time since securing the championship, as he joins a host of rookies during first practice in Brazil!",
-     "link": "https://www.youtube.com/watch?v=OwQ4ernSM00",
-     "image": "https://i.ytimg.com/vi/OwQ4ernSM00/hqdefault.jpg",
-     "date": "2026-11-06T18:22:52+00:00",
-     "author": "FORMULA 1",
-     "videoId": "OwQ4ernSM00",
-     "id": "3c8630fcdc",
-     "titleKo": "FP1 하이라이트 | 2026 상파울루 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "A Chaotic Drivers' Parade Is Exactly What We Need 😅",
-     "desc": "Throwback to the 2025 drivers' parade that might have been a little bit too fun for the drivers",
-     "link": "https://www.youtube.com/watch?v=L2-Z-AH41Rw",
-     "image": "https://i.ytimg.com/vi/L2-Z-AH41Rw/hqdefault.jpg",
-     "date": "2026-11-06T16:57:10+00:00",
-     "author": "FORMULA 1",
-     "videoId": "L2-Z-AH41Rw",
-     "id": "4cf61e7411",
-     "titleKo": "혼란스러운 운전자들의 퍼레이드가 바로 우리에게 필요한 것입니다",
-     "descKo": ""
-    },
-    {
-     "title": "The Newest Dad In The Paddock Has Arrived 👨‍🍼",
-     "desc": "Charles Leclerc arrives in the paddock for the first time since becoming a father to his new daughter, Bianca",
-     "link": "https://www.youtube.com/watch?v=bDz7iYXvMSs",
-     "image": "https://i.ytimg.com/vi/bDz7iYXvMSs/hqdefault.jpg",
-     "date": "2026-11-06T14:24:42+00:00",
-     "author": "FORMULA 1",
-     "videoId": "bDz7iYXvMSs",
-     "id": "13f5b5d2ba",
-     "titleKo": "목장에 막내아빠가 도착했어요",
      "descKo": ""
     }
    ]
