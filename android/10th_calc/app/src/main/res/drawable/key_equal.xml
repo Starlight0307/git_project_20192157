@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- = 버튼: 라벤더 → 하늘색 그라데이션, 누르면 물결(ripple) 효과 -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#55FFFFFF">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="28dp" />
+            <gradient
+                android:angle="315"
+                android:endColor="@color/lumi_sky"
+                android:startColor="@color/lumi_lavender" />
+        </shape>
+    </item>
+</ripple>

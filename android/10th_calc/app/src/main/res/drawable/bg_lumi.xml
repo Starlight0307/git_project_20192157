@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 화면 배경: 위쪽에서 은은하게 퍼지는 보랏빛 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:centerX="0.5"
+        android:centerY="0"
+        android:endColor="@color/lumi_bg"
+        android:gradientRadius="900dp"
+        android:startColor="@color/lumi_bg_glow"
+        android:type="radial" />
+</shape>

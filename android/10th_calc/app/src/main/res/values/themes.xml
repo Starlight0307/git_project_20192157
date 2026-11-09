@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 루미는 늘 어두운 화면이라 Dark 테마 + 둥근 글꼴(나눔스퀘어라운드)을 앱 전체에 적용 -->
+    <style name="Base.Theme._10th_calc" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/lumi_bg</item>
+        <item name="android:fontFamily">@font/lumi_round</item>
+        <item name="fontFamily">@font/lumi_round</item>
+    </style>
+
+    <style name="Theme._10th_calc" parent="Base.Theme._10th_calc" />
+
+    <!-- 버튼 한 줄: 세로 공간을 5줄이 똑같이 나눠 가짐 -->
+    <style name="KeyRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 숫자 버튼 (기본): 가로 공간을 4칸이 똑같이 나누고, 누르면 onKey 호출 -->
+    <style name="Key" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:onClick">onKey</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/lumi_text</item>
+        <item name="backgroundTint">@color/lumi_key</item>
+        <item name="rippleColor">@color/lumi_lavender</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- C, ⌫, % : 조금 밝은 바탕 + 라벤더 글자 -->
+    <style name="Key.Func">
+        <item name="android:textColor">@color/lumi_lavender</item>
+        <item name="backgroundTint">@color/lumi_key_func</item>
+    </style>
+
+    <!-- 사칙연산: 라벤더 바탕 -->
+    <style name="Key.Op">
+        <item name="android:textColor">@color/lumi_bg</item>
+        <item name="backgroundTint">@color/lumi_lavender</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <!-- = : 루미 그라데이션 (backgroundTint를 비워야 drawable 배경이 보임) -->
+    <style name="Key.Equal" parent="Key.Op">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/key_equal</item>
+    </style>
+</resources>

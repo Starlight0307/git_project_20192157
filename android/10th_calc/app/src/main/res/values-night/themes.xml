@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 다크 모드에서도 낮 모드와 똑같은 루미 테마 -->
+    <style name="Base.Theme._10th_calc" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/lumi_bg</item>
+        <item name="android:fontFamily">@font/lumi_round</item>
+        <item name="fontFamily">@font/lumi_round</item>
+    </style>
+</resources>

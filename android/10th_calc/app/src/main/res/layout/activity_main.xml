@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 위: 루미 이름 + 식/결과 표시, 아래: 5줄 × 4칸 버튼 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lumi"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- 루미 이름표 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="✦ 계산기"
+        android:textColor="@color/lumi_lavender"
+        android:textSize="20sp" />
+
+    <!-- 표시 영역: 남는 공간을 차지하고 글자는 오른쪽 아래에 붙음 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom|end"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
+
+        <TextView
+            android:id="@+id/txtExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:maxLines="1"
+            android:textColor="@color/lumi_text_dim"
+            android:textSize="22sp" />
+
+        <!-- 숫자가 길어지면 autoSize로 글자가 자동으로 작아짐 -->
+        <TextView
+            android:id="@+id/txtInput"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:autoSizeMaxTextSize="64sp"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="end|center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/lumi_text" />
+    </LinearLayout>
+
+    <!-- 버튼 영역 (버튼 모양은 values/themes.xml의 Key.* 스타일) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Func" android:text="C" />
+            <Button style="@style/Key.Func" android:text="⌫" />
+            <Button style="@style/Key.Func" android:text="%" />
+            <Button style="@style/Key.Op" android:text="÷" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="7" />
+            <Button style="@style/Key" android:text="8" />
+            <Button style="@style/Key" android:text="9" />
+            <Button style="@style/Key.Op" android:text="×" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="4" />
+            <Button style="@style/Key" android:text="5" />
+            <Button style="@style/Key" android:text="6" />
+            <Button style="@style/Key.Op" android:text="−" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="1" />
+            <Button style="@style/Key" android:text="2" />
+            <Button style="@style/Key" android:text="3" />
+            <Button style="@style/Key.Op" android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="±" />
+            <Button style="@style/Key" android:text="0" />
+            <Button style="@style/Key" android:text="." />
+            <Button style="@style/Key.Equal" android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

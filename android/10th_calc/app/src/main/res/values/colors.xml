@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 루미 색 (발표 자료와 같은 짙은 남보라 + 라벤더 / 하늘색) -->
+    <color name="lumi_bg">#0C0B14</color>
+    <color name="lumi_bg_glow">#1E1838</color>
+    <color name="lumi_key">#1A1828</color>
+    <color name="lumi_key_func">#2A2542</color>
+    <color name="lumi_lavender">#B49CFF</color>
+    <color name="lumi_sky">#8FD3FF</color>
+    <color name="lumi_text">#F4F1FF</color>
+    <color name="lumi_text_dim">#8E88A8</color>
+</resources>

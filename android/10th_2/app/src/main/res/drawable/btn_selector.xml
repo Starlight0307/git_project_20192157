@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 위에서부터 먼저 맞는 상태가 적용되므로 기본(img1)은 마지막 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/img2" android:state_pressed="true" />
+    <item android:drawable="@drawable/img3" android:state_selected="true" />
+    <item android:drawable="@drawable/img1" />
+</selector>

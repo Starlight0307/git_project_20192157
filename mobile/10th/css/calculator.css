@@ -1,0 +1,6 @@
+/* 계산기 화면 꾸미기 파일 */
+body { font-family: sans-serif; display: flex; justify-content: center; margin-top: 40px; } /* 계산기를 화면 가운데에 둔다 */
+#calculator { width: 240px; } /* 계산기 전체 너비 */
+#display { font-size: 32px; text-align: right; padding: 10px; border: 1px solid #999; margin-bottom: 8px; min-height: 40px; } /* 숫자가 보이는 화면 칸 */
+#buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; } /* 버튼을 4칸씩 줄 맞춰 놓는다 */
+button { font-size: 22px; padding: 14px 0; } /* 버튼 글자 크기와 높이 */

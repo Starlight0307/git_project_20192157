@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- 이 문서가 HTML5 문서임을 알린다 -->
+<html lang="ko"> <!-- 페이지 언어를 한국어로 지정한다 -->
+<head> <!-- 문서 정보 영역 시작 -->
+  <meta charset="UTF-8"> <!-- 한글이 깨지지 않도록 UTF-8 인코딩을 쓴다 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 휴대폰 화면 폭에 맞춘다 -->
+  <title>계산기</title> <!-- 브라우저 탭에 보일 제목 -->
+  <link rel="stylesheet" href="css/calculator.css"> <!-- 화면 꾸미기 파일을 불러온다 -->
+</head> <!-- 문서 정보 영역 끝 -->
+<body> <!-- 화면에 보이는 영역 시작 -->
+  <div id="calculator"> <!-- 계산기 전체 상자 -->
+    <div id="display">0</div> <!-- 입력한 숫자와 결과를 보여주는 화면 -->
+    <div id="buttons"> <!-- 버튼 모음 시작 -->
+      <button onclick="pressNumber('7')">7</button> <!-- 숫자 7 버튼 -->
+      <button onclick="pressNumber('8')">8</button> <!-- 숫자 8 버튼 -->
+      <button onclick="pressNumber('9')">9</button> <!-- 숫자 9 버튼 -->
+      <button onclick="pressOperator('/')">/</button> <!-- 나누기 버튼 -->
+      <button onclick="pressNumber('4')">4</button> <!-- 숫자 4 버튼 -->
+      <button onclick="pressNumber('5')">5</button> <!-- 숫자 5 버튼 -->
+      <button onclick="pressNumber('6')">6</button> <!-- 숫자 6 버튼 -->
+      <button onclick="pressOperator('*')">*</button> <!-- 곱하기 버튼 -->
+      <button onclick="pressNumber('1')">1</button> <!-- 숫자 1 버튼 -->
+      <button onclick="pressNumber('2')">2</button> <!-- 숫자 2 버튼 -->
+      <button onclick="pressNumber('3')">3</button> <!-- 숫자 3 버튼 -->
+      <button onclick="pressOperator('-')">-</button> <!-- 빼기 버튼 -->
+      <button onclick="pressClear()">C</button> <!-- 전부 지우는 clear 버튼 -->
+      <button onclick="pressNumber('0')">0</button> <!-- 숫자 0 버튼 -->
+      <button onclick="pressEquals()">=</button> <!-- 결과를 계산하는 등호 버튼 -->
+      <button onclick="pressOperator('+')">+</button> <!-- 더하기 버튼 -->
+    </div> <!-- 버튼 모음 끝 -->
+  </div> <!-- 계산기 전체 상자 끝 -->
+
+  <script src="js/calculator.js"></script> <!-- 계산기 동작 파일을 불러온다 (화면 칸이 만들어진 뒤라서 맨 아래에 둔다) -->
+</body> <!-- 화면에 보이는 영역 끝 -->
+</html> <!-- HTML 문서 끝 -->
