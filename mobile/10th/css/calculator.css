@@ -1,6 +1,99 @@
-/* 계산기 화면 꾸미기 파일 */
-body { font-family: sans-serif; display: flex; justify-content: center; margin-top: 40px; } /* 계산기를 화면 가운데에 둔다 */
-#calculator { width: 240px; } /* 계산기 전체 너비 */
-#display { font-size: 32px; text-align: right; padding: 10px; border: 1px solid #999; margin-bottom: 8px; min-height: 40px; } /* 숫자가 보이는 화면 칸 */
-#buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; } /* 버튼을 4칸씩 줄 맞춰 놓는다 */
-button { font-size: 22px; padding: 14px 0; } /* 버튼 글자 크기와 높이 */
+/* 계산기 화면 꾸미기 파일 - 루미 느낌: 보라 머리, 밤 무대 네온, 금빛 결계 */
+body { /* 페이지 전체 배경 */
+  margin: 0; /* 기본 여백을 없앤다 */
+  min-height: 100vh; /* 화면 높이를 꽉 채운다 */
+  display: flex; /* 계산기를 가운데 놓기 위해 flex를 쓴다 */
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+  font-family: sans-serif; /* 기본 글꼴 */
+  background: /* 여러 겹을 겹쳐서 밤 무대를 만든다 (위에 쓴 것이 앞에 보인다) */
+    radial-gradient(2px 2px at 15% 20%, #fff, transparent), /* 반짝이는 별 1 */
+    radial-gradient(2px 2px at 80% 15%, #ffe9a8, transparent), /* 반짝이는 별 2 (금빛) */
+    radial-gradient(1.5px 1.5px at 60% 75%, #fff, transparent), /* 반짝이는 별 3 */
+    radial-gradient(2px 2px at 30% 85%, #ffd1ec, transparent), /* 반짝이는 별 4 (핑크빛) */
+    radial-gradient(1.5px 1.5px at 90% 60%, #fff, transparent), /* 반짝이는 별 5 */
+    radial-gradient(1.5px 1.5px at 8% 55%, #ffe9a8, transparent), /* 반짝이는 별 6 (금빛) */
+    radial-gradient(circle at 10% 100%, rgba(255, 79, 168, 0.45), transparent 45%), /* 왼쪽 아래 핑크 무대 조명 */
+    radial-gradient(circle at 90% 0%, rgba(123, 63, 191, 0.6), transparent 50%), /* 오른쪽 위 보라 조명 */
+    radial-gradient(circle at 50% 50%, rgba(232, 195, 106, 0.12), transparent 40%), /* 계산기 뒤 은은한 금빛 결계 */
+    linear-gradient(180deg, #1a0633, #0b0217); /* 맨 뒤 바탕: 진한 보라 밤하늘 */
+  background-attachment: fixed; /* 스크롤해도 배경이 고정된다 */
+} /* body 끝 */
+
+#calculator { /* 계산기 전체 상자 */
+  width: 260px; /* 계산기 너비 */
+  padding: 18px; /* 안쪽 여백 */
+  border-radius: 24px; /* 모서리를 둥글게 */
+  background: rgba(255, 255, 255, 0.06); /* 살짝 비치는 유리 느낌 */
+  border: 1px solid #e8c36a; /* 금빛 테두리 (결계 느낌) */
+  box-shadow: 0 0 30px rgba(196, 107, 255, 0.5); /* 보라색 네온 빛 번짐 */
+} /* #calculator 끝 */
+
+#history { /* 입력한 식을 보여주는 칸 */
+  min-height: 22px; /* 식이 없어도 높이를 유지해서 화면이 흔들리지 않게 한다 */
+  padding: 0 12px 6px; /* 숫자 화면과 오른쪽 끝을 맞춘다 */
+  text-align: right; /* 오른쪽 정렬 */
+  font-size: 18px; /* 결과보다 작은 글씨 */
+  color: #d9b8ff; /* 연한 보라색 */
+  overflow-wrap: anywhere; /* 식이 길면 줄을 바꾼다 */
+} /* #history 끝 */
+
+#display { /* 숫자가 보이는 화면 칸 */
+  font-size: 34px; /* 숫자 크기 */
+  text-align: right; /* 숫자를 오른쪽에 붙인다 */
+  padding: 12px; /* 안쪽 여백 */
+  margin-bottom: 14px; /* 버튼과의 간격 */
+  min-height: 40px; /* 숫자가 없어도 높이 유지 */
+  border-radius: 14px; /* 모서리를 둥글게 */
+  color: #ffffff; /* 숫자는 흰색 */
+  background: #1c0933; /* 진한 보라 바탕 */
+  text-shadow: 0 0 10px #ff6ec7; /* 숫자에 핑크 네온 빛 */
+  overflow-wrap: anywhere; /* 숫자가 길면 줄을 바꿔 상자를 넘지 않게 한다 */
+} /* #display 끝 */
+
+#buttons { /* 버튼 모음 */
+  display: grid; /* 격자 배치 */
+  grid-template-columns: repeat(4, 1fr); /* 한 줄에 4칸 */
+  gap: 10px; /* 버튼 사이 간격 */
+} /* #buttons 끝 */
+
+button { /* 모든 버튼 (숫자 버튼 기본 모양) */
+  font-size: 22px; /* 글자 크기 */
+  padding: 14px 0; /* 버튼 높이 */
+  border: none; /* 기본 테두리 제거 */
+  border-radius: 50%; /* 동그란 버튼 */
+  aspect-ratio: 1; /* 가로세로를 같게 해서 정원으로 만든다 */
+  color: #ffffff; /* 글자 흰색 */
+  background: #7b3fbf; /* 루미 머리색 같은 보라 */
+  cursor: pointer; /* 마우스를 올리면 손가락 모양 */
+  user-select: none; /* 빠르게 두 번 누를 때 글자가 선택(네모 표시)되지 않게 막는다 */
+  -webkit-user-select: none; /* 사파리용 같은 설정 */
+  -webkit-tap-highlight-color: transparent; /* 휴대폰에서 누를 때 뜨는 회색 네모도 없앤다 */
+  transition: transform 0.1s, box-shadow 0.2s; /* 눌림/빛 효과를 부드럽게 */
+} /* button 끝 */
+
+button:hover { /* 버튼에 마우스를 올렸을 때 */
+  box-shadow: 0 0 14px #ff6ec7; /* 핑크 네온 빛이 난다 */
+} /* button:hover 끝 */
+
+button:active { /* 버튼을 누르는 순간 */
+  transform: scale(0.92); /* 살짝 작아져서 눌린 느낌 */
+} /* button:active 끝 */
+
+button:focus-visible { /* 키보드로 버튼을 골랐을 때 */
+  outline: 3px solid #e8c36a; /* 금색 테두리로 위치를 보여준다 */
+} /* button:focus-visible 끝 */
+
+button[onclick^="pressOperator"] { /* 사칙연산 버튼 (+ - * /) */
+  background: #ff4fa8; /* 무대 조명 같은 핫핑크 */
+} /* 연산 버튼 끝 */
+
+button[onclick^="pressEquals"] { /* = 버튼 */
+  color: #2a1040; /* 밝은 바탕 위라서 글자는 진한 보라 */
+  background: #e8c36a; /* 금빛 결계 색 */
+} /* = 버튼 끝 */
+
+button[onclick^="pressClear"] { /* C 버튼 */
+  background: #3a1a5c; /* 어두운 보라로 다른 버튼과 구분 */
+  border: 1px solid #ff6ec7; /* 핑크 테두리 */
+} /* C 버튼 끝 */
