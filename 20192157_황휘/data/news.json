@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-09T17:35:08+00:00",
- "failed": [],
+ "updated": "2026-11-10T01:35:29+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -18,10 +20,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg/1280px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
-     "date": "2026-11-09T14:07:51Z",
+     "date": "2026-11-09T22:48:49Z",
      "raceDate": "2026-11-08",
      "author": "위키백과 편집자들",
-     "revid": 1384674110,
+     "revid": 1384746900,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -135,14 +137,14 @@
         "Some drivers did one lap in the heavy rain. Some used the full wets, while some were on the intermediates, where Kimi Antonelli (Mercedes) reported aquaplaning. Due to the conditions, the session was red flagged and the session time stopped until it subsided. Meanwhile, Oliver Bearman (Haas) was given a reprimand for reversing in the pitlane to switch to full wets.",
         "Over an hour later, the session was restarted, with all drivers on full wets and Rafael Câmara (Haas) spinning out as Fernando Alonso briefly topped the session in his Aston Martin, before Max Verstappen (Red Bull) and Charles Leclerc (Ferrari) displaced him while Gabriel Bortoleto (Audi) damaged his car in a manner that forced his early retirement. Shortly after this occurred, his teammate Nico Hülkenberg ended up briefly topping the session before being displaced, again by Verstappen. As Lance Stroll (Aston Martin) went off-track, Hülkenberg, Bearman, Verstappen, and George Russell (Mercedes) all posted fast times to top the session, before they were all displaced by Lando Norris (McLaren).",
         "Câmara hit the wall in an otherwise uneventful Q2. This stopped the session, leaving Lewis Hamilton (who was making his 400th start, and was facing a grid drop due to his Ferrari's failure in the third practice session), Oscar Piastri (McLaren), Arvid Lindblad (whose Racing Bulls' engine was damaged), Carlos Sainz Jr. (Williams), and Max Verstappen (who was also facing a grid drop for Red Bull) out of the third session. Russell posted the fastest time for Q2, while Fernando Alonso (Aston Martin) reached Q3 for the first time this season.",
-        "Heavy rain was about to hit the Interlagos Circuit for Q3. Antonelli's race engineer Peter Bonnington advised his driver he may have only one lap before it arrived, and that the rain would be intense. Indeed, all drivers did one hotlap. One particular instance was Russell, who was already being slowed down by Alexander Albon (Williams) and was already poised to take a grid penalty for new engine components. He was mad at his team about being unable to finish the lap, insisting that a complete lap would have netted him provisional pole position, to the point team principal Toto Wolff had to appear on the radio to tell him he was in second place. The heavy rain prevented further runs. Norris' provisional pole position time was enough for him to secure pole position - this third consecutive at Interlagos - behind Antonelli and Russell, so Liam Lawson (Racing Bulls) was promoted to third after penalties were applied."
+        "Heavy rain was about to hit the Interlagos Circuit for Q3. Antonelli's race engineer Peter Bonnington advised his driver he may have only one lap before it arrived, and that the rain would be intense. Indeed, all drivers did one hotlap. One particular instance was Russell, who was already being slowed down by Alexander Albon (Williams) and was already poised to take a grid penalty for new engine components. He was mad at his team about being unable to finish the lap, insisting that a complete lap would have netted him provisional pole position, to the point team principal Toto Wolff had to appear on the radio to tell him he was in second place. The heavy rain prevented further runs. Norris' provisional pole position time was enough for him to secure pole position - his third consecutive at Interlagos - behind Antonelli and Russell, so Liam Lawson (Racing Bulls) was promoted to third after penalties were applied."
        ],
        "hKo": "예선 리포트",
        "pKo": [
         "일부 기사님은 폭우 속에서 한 바퀴를 돌기도 했습니다. 일부는 전체 습윤을 사용했고, 일부는 중간체에 있었으며, 키미 안토넬리 (메르세데스) 는 아쿠아플랜을 보고했습니다. 상황으로 인해 세션이 빨간색으로 표시되고 세션이 종료될 때까지 세션 시간이 중지되었습니다. 한편, 올리버 베어먼 (하스) 은 피트레인에서 풀 웻으로 전환하기 위해 역전한 것에 대한 질책을 받았다.",
         "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "Câmara는 별다른 일이 없었던 Q2에서 벽에 부딪혔습니다. 이로 인해 세션이 중단되어 루이스 해밀턴(400번째 출발을 하고 세 번째 연습 세션에서 페라리의 실패로 인해 그리드 드롭에 직면함), 오스카 피아스트리(맥라렌), 아르비드 린드블라드(레이싱 불스의 엔진이 손상됨), 카를로스 사인츠 주니어(윌리엄스), 맥스 베르스타펜(역시 레드불의 그리드 드롭에 직면함)이 세 번째 세션에서 제외되었습니다. Russell은 2분기에 가장 빠른 기록을 세웠고, Fernando Alonso(Aston Martin)는 이번 시즌 처음으로 3분기에 도달했습니다.",
-        "3분기에 Interlagos Circuit에 폭우가 쏟아질 예정이었습니다. Antonelli의 레이스 엔지니어 Peter Bonnington은 운전자에게 랩이 도착하기 전에 단 한 바퀴만 남을 수 있으며 비가 강할 것이라고 조언했습니다. 실제로 모든 운전자가 한 번씩 핫랩을 했습니다. 특별한 사례 중 하나는 이미 Alexander Albon(Williams)에 의해 속도가 느려지고 새로운 엔진 구성 요소에 대해 그리드 페널티를 받을 준비가 되어 있던 Russell이었습니다. 그는 자신의 팀이 랩을 완료할 수 없다는 사실에 화를 냈고, 랩을 완료하면 잠정 폴 포지션을 얻을 수 있다고 주장했으며, 팀장인 토토 울프(Toto Wolff)는 자신이 2위라고 알리기 위해 라디오에 출연해야 했습니다. 폭우로 인해 더 이상의 주행이 불가능해졌습니다. Norris의 임시 폴 포지션 시간은 그가 Interlagos에서 Antonelli와 Russell에 이어 3회 연속 폴 포지션을 확보하기에 충분했기 때문에 Liam Lawson(Racing Bulls)은 페널티가 적용된 후 3위로 승격되었습니다."
+        "3분기에 인터라고스 서킷에 폭우가 쏟아질 예정이었습니다. Antonelli의 레이스 엔지니어 Peter Bonnington은 운전자에게 랩이 도착하기 전에 단 한 바퀴만 남을 수 있으며 비가 강할 것이라고 조언했습니다. 실제로 모든 운전자가 한 번씩 핫랩을 했습니다. 특별한 사례 중 하나는 이미 Alexander Albon(Williams)에 의해 속도가 느려지고 새로운 엔진 구성 요소에 대해 그리드 페널티를 받을 준비가 되어 있던 Russell이었습니다. 그는 자신의 팀이 랩을 완료할 수 없다는 사실에 화를 냈고, 랩을 완료하면 잠정 폴 포지션을 얻을 수 있다고 주장했으며, 팀장인 토토 울프(Toto Wolff)는 자신이 2위라고 알리기 위해 라디오에 출연해야 했습니다. 폭우로 인해 더 이상의 주행이 불가능해졌습니다. Norris의 임시 폴 포지션 시간은 Antonelli와 Russell에 이어 인터라고스에서 3회 연속 폴 포지션을 확보하기에 충분했기 때문에 Liam Lawson(Racing Bulls)은 페널티가 적용된 후 3위로 승격되었습니다."
        ]
       },
       {
@@ -212,10 +214,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-06T21:19:23Z",
+     "date": "2026-11-10T00:28:28Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1384149976,
+     "revid": 1384760532,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -430,10 +432,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-11-08T21:07:10Z",
+     "date": "2026-11-09T22:53:21Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1384554913,
+     "revid": 1384747918,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1850,13 +1852,120 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "F1 Las Vegas Grand Prix announces pre-race music line-up",
+     "desc": "American DJ Steve Aoki will return to the Las Vegas Grand Prix grid this year for a performance before the race on 21 November. He will be joined by fellow DJ MORTEN and singer…",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-grand-prix-announces-pre-race-music-line-up/10873488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/6n7b5XR0/s6/motorsport-com-graphics-84.jpg",
+     "date": "2026-11-09T23:57:29+00:00",
+     "author": "",
+     "id": "e59fafdb68",
+     "lead": [
+      "American DJ Steve Aoki will return to the Las Vegas Grand Prix grid this year for a performance before the race on 21 November. He will be joined by fellow DJ MORTEN and singer Jordin Sparks as part of the pre-race line-up.",
+      "MORTEN will perform ahead of the driver introductions, which have become a fan-favourite part of the Las Vegas Grand Prix weekend after the viral moment between Sergio Perez and Bruce Buffer.",
+      "Following this, Sparks will sing the national anthem before the race. The American Idol season six winner, known for \"No Air\" and \"Tattoo\", was also chosen to sing it at this year's Indianapolis 500."
+     ],
+     "leadKo": [
+      "미국 DJ 스티브 아오키(Steve Aoki)는 11월 21일 레이스 전 공연을 위해 올해 라스베이거스 그랑프리 그리드로 돌아올 예정입니다. 그는 동료 DJ MORTEN과 가수 Jordin Sparks와 함께 레이스 전 라인업에 합류할 예정입니다.",
+      "MORTEN은 Sergio Perez와 Bruce Buffer의 입소문이 난 이후 라스베이거스 그랑프리 주말 팬들이 가장 좋아하는 부분이 된 드라이버 소개에 앞서 공연할 예정입니다.",
+      "이후 Sparks는 경주 전에 국가를 부를 예정입니다. \"No Air\"와 \"Tattoo\"로 유명한 아메리칸 아이돌 시즌 6 우승자는 올해 인디애나폴리스 500에서도 이 노래를 부르도록 선정되었습니다."
+     ],
+     "titleKo": "F1 라스베이거스 그랑프리, 레이스 전 음악 라인업 발표",
+     "descKo": "미국 DJ 스티브 아오키(Steve Aoki)는 11월 21일 레이스 전 공연을 위해 올해 라스베이거스 그랑프리 그리드로 돌아올 예정입니다. 그는 동료 DJ MORTEN과 가수와 합류할 예정입니다…"
+    },
+    {
+     "title": "Lewis Hamilton to share flight with Mercedes after former team's F1 title triumph",
+     "desc": "Seven-time Formula 1 champion Lewis Hamilton's trip back from Interlagos could have been an awkward one after Mercedes team principal Toto Wolff revealed that the Ferrari driver…",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-to-share-flight-with-mercedes-after-former-teams-f1-title-triumph/10873483/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/2QedBGJ2/s6/motorsport-com-graphics-83.jpg",
+     "date": "2026-11-09T23:30:48+00:00",
+     "author": "",
+     "id": "f3caaa939a",
+     "lead": [
+      "Seven-time Formula 1 champion Lewis Hamilton's trip back from Interlagos could have been an awkward one after Mercedes team principal Toto Wolff revealed that the Ferrari driver would be travelling with the newly crowned constructors' champions.",
+      "Mercedes secured its ninth constructors' title at the Brazilian Grand Prix on Sunday, with George Russell and Kimi Antonelli finishing fourth and fifth, respectively, to put the team out of Ferrari's reach with three races remaining in the season. Hamilton, who started from the back after a power unit penalty, recovered to ninth.",
+      "Asked after the race where the party would be, Wolff said the celebrations would have to wait until the team had got back to the UK."
+     ],
+     "leadKo": [
+      "7차례 포뮬러 1 챔피언 루이스 해밀턴이 인터라고스에서 돌아오는 여행은 메르세데스 팀 수석 토토 울프가 페라리 드라이버가 새로 선정된 컨스트럭터 챔피언과 함께 여행할 것이라고 밝힌 이후 어색한 여행이 될 수 있었습니다.",
+      "메르세데스는 일요일 브라질 그랑프리에서 조지 러셀(George Russell)과 키미 안토넬리(Kimi Antonelli)가 각각 4위와 5위를 차지하면서 9번째 컨스트럭터즈 타이틀을 획득했으며 시즌에 3개의 레이스가 남아 있는 상황에서 페라리의 손이 닿지 않는 팀을 밀어냈습니다. 파워유닛 페널티킥 뒤 뒤에서 출발한 해밀턴은 9위로 회복했다.",
+      "경주가 끝난 후 파티가 어디인지 묻는 질문에 Wolff는 축하 행사는 팀이 영국으로 돌아올 때까지 기다려야 한다고 말했습니다."
+     ],
+     "titleKo": "전 팀의 F1 타이틀 우승 후 루이스 해밀턴, 메르세데스와 비행기 공유",
+     "descKo": "7차례 포뮬러 1 챔피언 루이스 해밀턴이 인터라고스에서 돌아오는 것은 메르세데스 팀 수석 토토 울프가 페라리 드라이버가..."
+    },
+    {
+     "title": "George Russell \"keeps getting kicked\" as F1 pundit addresses 2026 struggles",
+     "desc": "Former IndyCar Series driver and F1 TV pundit James Hinchcliffe believes George Russell had good reason to look \"a bit defeated\" after another difficult afternoon at the Brazilian…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-keeps-getting-kicked-as-f1-pundit-addresses-2026-struggles/10873477/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/6lmAR5k0/s6/motorsport-com-graphics-82.jpg",
+     "date": "2026-11-09T22:59:41+00:00",
+     "author": "",
+     "id": "92aad56df4",
+     "lead": [
+      "Former IndyCar Series driver and F1 TV pundit James Hinchcliffe believes George Russell had good reason to look \"a bit defeated\" after another difficult afternoon at the Brazilian Grand Prix.",
+      "While Mercedes ended the weekend on a high, securing the constructors' championship, Russell endured another frustrating race. The Briton missed out on pole position to McLaren's Lando Norris and ultimately finished the race in fourth, after recovering from a spin at the pit exit when he switched from intermediate to slick tyres.",
+      "\"He's a bit defeated, isn't he? I mean, and kind of rightly so. It's been a tough old season,\" Hinchcliffe explained during the F1 TV post-race show."
+     ],
+     "leadKo": [
+      "전 IndyCar 시리즈 드라이버이자 F1 TV 전문가인 James Hinchcliffe는 George Russell이 브라질 그랑프리에서 또 다른 힘든 오후를 보낸 후 \"약간 패배한\" 모습을 보일 충분한 이유가 있었다고 믿습니다.",
+      "메르세데스가 컨스트럭터 챔피언십을 확보하며 주말을 마무리하는 동안 러셀은 또 다른 실망스러운 경주를 견뎌냈습니다. 영국인은 McLaren의 Lando Norris에게 폴 포지션을 놓쳤고, 중간 타이어에서 슬릭 타이어로 교체하면서 피트 출구에서 스핀을 회복한 후 최종적으로 4위로 레이스를 마쳤습니다.",
+      "F1 TV 레이스 후 쇼에서 Hinchcliffe는 \"그는 약간 패배했습니다. 그렇죠? 내 말은, 어느 정도 그렇습니다. 힘든 시즌이었습니다\"라고 Hinchcliffe는 설명했습니다."
+     ],
+     "titleKo": "F1 전문가가 2026년 어려움을 언급하면서 조지 러셀은 \"계속 쫓겨났습니다\"",
+     "descKo": "전 IndyCar 시리즈 드라이버이자 F1 TV 전문가인 James Hinchcliffe는 조지 러셀이 브라질 대회에서 힘든 오후를 보낸 후 \"약간 패배한\" 모습을 보일 충분한 이유가 있었다고 믿습니다."
+    },
+    {
+     "title": "George Russell teases imminent karting announcement as F1 fans spot major clue",
+     "desc": "George Russell has teased an imminent announcement linked to karting on 12 November. The Mercedes driver posted a video to Instagram on Monday with the caption \"Stay tuned\". He…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-teases-imminent-karting-announcement-as-f1-fans-spot-major-clue/10873459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YN7vzGV6/s6/motorsport-com-graphics-81.jpg",
+     "date": "2026-11-09T18:31:47+00:00",
+     "author": "",
+     "id": "a1ae314d9f",
+     "lead": [
+      "George Russell has teased an imminent announcement linked to karting on 12 November.",
+      "The Mercedes driver posted a video to Instagram on Monday with the caption \"Stay tuned\". He talks about his first steps in motorsport over footage of himself racing karts as a boy, including a kart carrying the number 63 that he still uses in Formula 1.",
+      "The clip ends with the date 12.11.26, suggesting more will be revealed on Thursday."
+     ],
+     "leadKo": [
+      "조지 러셀(George Russell)은 11월 12일 카트와 관련된 곧 발표가 있을 것이라고 예고했습니다.",
+      "메르세데스 운전자는 월요일 인스타그램에 \"Stay tuned\"라는 캡션과 함께 동영상을 게시했습니다. 그는 어린 시절 포뮬러 1에서 아직도 사용하고 있는 63번 카트를 타고 카트를 경주하는 장면을 통해 모터스포츠에서의 첫 걸음에 대해 이야기합니다.",
+      "영상은 12.11.26 날짜로 끝나며, 이는 목요일에 더 많은 내용이 공개될 것임을 암시합니다."
+     ],
+     "titleKo": "George Russell은 F1 팬들이 중요한 단서를 발견하면서 임박한 카트 발표를 예고합니다.",
+     "descKo": "조지 러셀(George Russell)은 11월 12일 카트와 관련된 곧 발표가 있을 것이라고 예고했습니다. 메르세데스 운전자는 월요일 인스타그램에 \"Stay tuned\"라는 캡션과 함께 동영상을 게시했습니다. 그…"
+    },
+    {
+     "title": "Apple TV confirms free F1 Las Vegas Grand Prix coverage: How to watch in the US",
+     "desc": "Formula 1 fans in the United States will be able to watch the Las Vegas Grand Prix for free after Apple TV confirmed the whole race weekend will be available to stream with no…",
+     "link": "https://www.motorsport.com/f1/news/apple-tv-confirms-free-f1-las-vegas-grand-prix-coverage-how-to-watch-in-the-us/10873443/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/27No31e0/s6/motorsport-com-graphics-80.jpg",
+     "date": "2026-11-09T17:56:51+00:00",
+     "author": "",
+     "id": "b91f7141c2",
+     "lead": [
+      "Formula 1 fans in the United States will be able to watch the Las Vegas Grand Prix for free after Apple TV confirmed the whole race weekend will be available to stream with no subscription needed.",
+      "The free coverage will include every on-track session from first practice on Thursday evening through to qualifying and Saturday night's grand prix.",
+      "F1 announced a five-year partnership with Apple to become the championship's exclusive United States broadcast partner from 2026, taking over from ESPN."
+     ],
+     "leadKo": [
+      "Apple TV가 전체 경주 주말을 구독 없이 스트리밍할 수 있다고 확인한 후 미국의 Formula 1 팬들은 라스베거스 그랑프리를 무료로 시청할 수 있습니다.",
+      "무료 보장에는 목요일 저녁 첫 연습부터 예선 및 토요일 밤 그랑프리까지 모든 트랙 세션이 포함됩니다.",
+      "F1은 ESPN을 대신해 2026년부터 챔피언십의 미국 독점 방송 파트너가 되기 위해 Apple과 5년 간의 파트너십을 발표했습니다."
+     ],
+     "titleKo": "Apple TV, 무료 F1 Las Vegas Grand Prix 중계 확인: 미국에서 시청하는 방법",
+     "descKo": "Apple TV가 전체 경주 주말을 무료로 스트리밍할 수 있다고 확인한 후 미국의 Formula 1 팬들은 라스베거스 그랑프리를 무료로 시청할 수 있습니다."
+    },
+    {
      "title": "What's behind Oscar Piastri's split with Mark Webber – and what it means for his F1 career",
      "desc": "On the Monday after the Formula 1 Brazilian Grand Prix, Oscar Piastri and Mark Webber announced in a joint statement that the latter and Ann Neal would no longer manage the…",
      "link": "https://www.motorsport.com/f1/news/what-the-split-with-mark-webber-says-about-the-next-phase-of-oscar-piastris-f1-career/10873385/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg",
      "date": "2026-11-09T15:51:41+00:00",
      "author": "",
      "id": "552c047de5",
+     "titleKo": "오스카 피아스트리가 마크 웨버와 헤어진 이유와 그의 F1 경력에 어떤 의미가 있는지",
+     "descKo": "포뮬러 1 브라질 그랑프리 이후 월요일, 오스카 피아스트리와 마크 웨버는 공동 성명을 통해 후자와 앤 닐이 더 이상 대회를 관리하지 않을 것이라고 발표했습니다.",
      "lead": [
       "On the Monday after the Formula 1 Brazilian Grand Prix, Oscar Piastri and Mark Webber announced in a joint statement that the latter and Ann Neal would no longer manage the 25-year-old McLaren driver. The timing may come as a surprise – now rather than at the end of the season – but the news itself had been on the cards for some time.",
       "The clearest hint came from Piastri during pre-season testing in Bahrain. While this writer was mainly interested in his opinion of the 2026 cars – which immediately brought a telling smile to Piastri's face – an Australian colleague raised the subject of Webber's changing role.",
@@ -1866,18 +1975,18 @@
       "포뮬러 1 브라질 그랑프리 이후 월요일, 오스카 피아스트리(Oscar Piastri)와 마크 웨버(Mark Webber)는 공동 성명을 통해 후자와 앤 닐(Ann Neal)이 더 이상 25세의 맥라렌 드라이버를 관리하지 않을 것이라고 발표했습니다. 시즌이 끝나는 시점이 아니라 지금이 시점이라는 것이 놀랍게 다가올 수도 있지만, 그 소식 자체는 한동안 예정되어 있었습니다.",
       "가장 명확한 힌트는 바레인에서 열린 프리시즌 테스트 중 Piastri로부터 나왔습니다. 이 작가는 2026년 자동차에 대한 자신의 의견에 주로 관심이 있었고(즉시 Piatri의 얼굴에 미소를 지었습니다) 호주 동료는 Webber의 역할 변경에 대한 주제를 제기했습니다.",
       "\"특별한 것은 없었습니다. 단지 상황이 조금 다르게 보이도록 결정을 내렸을 뿐입니다\"라고 Piastri는 바레인 방목장에서 유난히 추운 2월 저녁에 말했습니다. \"마크는 여전히 많은 일에 관여하고 있고 나는 지난 몇 주 동안 그와 많이 연락했습니다. 그는 더 이상 트랙사이드에 있지 않을 것입니다. 그래서 그게 전부입니다. 그것을 촉발한 구체적인 것은 없었습니다.\""
-     ],
-     "titleKo": "오스카 피아스트리가 마크 웨버와 헤어진 이유와 그의 F1 경력에 어떤 의미가 있는지",
-     "descKo": "포뮬러 1 브라질 그랑프리 이후 월요일, 오스카 피아스트리와 마크 웨버는 공동 성명을 통해 후자와 앤 닐이 더 이상 대회를 관리하지 않을 것이라고 발표했습니다."
+     ]
     },
     {
      "title": "Why Mercedes says a repeat of its 2014-2021 dominance is \"impossible\"",
      "desc": "Mercedes trackside engineering director Andrew Shovlin has argued that the Brackley outfit cannot expect to repeat its run of eight consecutive constructors' titles after its 2026…",
      "link": "https://www.motorsport.com/f1/news/why-mercedes-says-a-repeat-of-its-2014-2021-dominance-is-impossible/10873407/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0Zq8VG86/s6/motorsport-com-graphics-79.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/0Zq8VG86/s6/motorsport-com-graphics-79.jpg",
      "date": "2026-11-09T15:46:27+00:00",
      "author": "",
      "id": "e69b52d017",
+     "titleKo": "메르세데스가 2014~2021년 지배력의 반복이 \"불가능\"하다고 말하는 이유",
+     "descKo": "메르세데스 트랙사이드 엔지니어링 디렉터인 앤드루 쇼블린(Andrew Shovlin)은 브래클리가 2026년 이후 8년 연속 건설사 타이틀을 반복할 것으로 기대할 수 없다고 주장했습니다.",
      "lead": [
       "Mercedes trackside engineering director Andrew Shovlin has argued that the Brackley outfit cannot expect to repeat its run of eight consecutive constructors' titles after its 2026 success.",
       "Mercedes clinched its ninth constructors' championship at Interlagos on Sunday, ending a wait that began after the last of those eight in 2021.",
@@ -1887,18 +1996,18 @@
       "Mercedes 트랙사이드 엔지니어링 디렉터 Andrew Shovlin은 Brackley 팀이 2026년 성공 이후 8회 연속 건설사 타이틀을 반복할 것으로 기대할 수 없다고 주장했습니다.",
       "메르세데스는 일요일 인터라고스에서 9번째 컨스트럭터 챔피언십을 차지하며 2021년 8번째 챔피언십 이후 시작된 기다림을 끝냈습니다.",
       "Toto Wolff가 이끄는 팀은 2014년부터 2021년까지 모든 컨스트럭터 타이틀을 획득했으며, 예산 한도가 도입된 지 1년 후인 2022년 F1이 지면 효과 시대에 진입하면서 이 연속 기록은 끝났습니다. Red Bull과 McLaren은 올해 새로운 규정으로 인해 Mercedes가 정상으로 복귀할 수 있는 기회를 얻기 전에 각각 두 개의 타이틀을 획득했습니다."
-     ],
-     "titleKo": "메르세데스가 2014~2021년 지배력의 반복이 \"불가능\"하다고 말하는 이유",
-     "descKo": "메르세데스 트랙사이드 엔지니어링 디렉터인 앤드루 쇼블린(Andrew Shovlin)은 브래클리가 2026년 이후 8년 연속 건설사 타이틀을 반복할 것으로 기대할 수 없다고 주장했습니다."
+     ]
     },
     {
      "title": "George Russell has lost 90 points to Max Verstappen in F1 2026 runner-up battle",
      "desc": "Mercedes is considering giving George Russell “all the force” to secure a 1-2 in the drivers’ championship after a nightmare run of form. Three rounds remain in the 2026 season -…",
      "link": "https://www.motorsport.com/f1/news/mercedes-considers-push-for-george-russell-to-be-f1-2026-runner-up/10873310/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6zoDvWa0/s6/max-verstappen-red-bull-racing.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/6zoDvWa0/s6/max-verstappen-red-bull-racing.jpg",
      "date": "2026-11-09T13:46:01+00:00",
      "author": "",
      "id": "82619dd63b",
+     "titleKo": "조지 러셀은 F1 2026 준우승전에서 맥스 베르스타펜에게 90점을 잃었습니다.",
+     "descKo": "메르세데스는 악몽 같은 형태의 경기 이후 드라이버 챔피언십에서 1-2를 확보하기 위해 조지 러셀에게 \"모든 힘\"을 쏟는 것을 고려하고 있습니다. 2026시즌 3라운드 남았다 -…",
      "lead": [
       "Mercedes is considering giving George Russell “all the force” to secure a 1-2 in the drivers’ championship after a nightmare run of form.",
       "Three rounds remain in the 2026 season - assuming the Qatar and Abu Dhabi grands prix proceed as planned - with no fewer than five drivers in contention for the runner-up spot: Max Verstappen (279 points), Russell (262), Lewis Hamilton (261), Charles Leclerc (249) and Lando Norris (246) after Kimi Antonelli clinched his maiden Formula 1 world title in Mexico.",
@@ -1908,18 +2017,18 @@
       "메르세데스는 악몽 같은 형태의 경기 이후 드라이버 챔피언십에서 1-2를 확보하기 위해 조지 러셀에게 \"모든 힘\"을 쏟는 것을 고려하고 있습니다.",
       "2026년 시즌에는 카타르와 아부다비 그랑프리가 계획대로 진행된다는 가정 하에 3라운드가 남아 있으며, 준우승 자리를 놓고 경쟁하는 드라이버는 최소 5명입니다. 키미 안토넬리가 멕시코에서 첫 Formula 1 월드 타이틀을 획득한 후 Max Verstappen(279득점), Russell(262), Lewis Hamilton(261), Charles Leclerc(249), Lando Norris(246)입니다.",
       "Russell은 지난 5번의 그랑프리에서 Verstappen의 116점에 불과 26점을 획득하는 등 재앙적인 연속 행진을 이어왔습니다. 영국인은 말레이시아에서 동력 장치 고장을 겪었고, 스프린트에서 추락하여 엔진 페널티를 받았고, 당황스러울 정도로 열악한 오스틴 경주를 겪었고, 멕시코에서 배치 문제에 직면했고, 상파울루에서 잘 달리다가 피트 출구에서 회전했습니다."
-     ],
-     "titleKo": "조지 러셀은 F1 2026 준우승전에서 맥스 베르스타펜에게 90점을 잃었습니다.",
-     "descKo": "메르세데스는 악몽 같은 형태의 경기 이후 드라이버 챔피언십에서 1-2를 확보하기 위해 조지 러셀에게 \"모든 힘\"을 쏟는 것을 고려하고 있습니다. 2026시즌 3라운드 남았다 -…"
+     ]
     },
     {
      "title": "Lewis Hamilton sends message to Ferrari fans after 'devastating' Brazil GP",
      "desc": "Lewis Hamilton has told fans he is \"devastated\" by the outcome of his Brazilian Grand Prix, which began with an impressive charge from the back of the grid and finished with a…",
      "link": "https://www.motorsport.com/f1/news/lewis-hamilton-sends-message-to-ferrari-fans-after-devastating-brazil-gp/10873360/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/0arE3jP2/s6/motorsport-com-graphics-78.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/0arE3jP2/s6/motorsport-com-graphics-78.jpg",
      "date": "2026-11-09T13:38:32+00:00",
      "author": "",
      "id": "3617fbe64d",
+     "titleKo": "루이스 해밀턴은 브라질 GP를 '파괴'한 후 페라리 팬들에게 메시지를 보냅니다.",
+     "descKo": "루이스 해밀턴은 팬들에게 자신의 브라질 그랑프리 결과에 \"완전히 충격을 받았다\"고 말했습니다. 브라질 그랑프리는 그리드 뒤에서 인상적인 돌진으로 시작하여 1점 차로 마무리되었습니다.",
      "lead": [
       "Lewis Hamilton has told fans he is \"devastated\" by the outcome of his Brazilian Grand Prix, which began with an impressive charge from the back of the grid and finished with a spin in the closing laps.",
       "The Ferrari driver shared his thoughts on Instagram on Monday after finishing ninth at Interlagos on Sunday.",
@@ -1929,114 +2038,7 @@
       "루이스 해밀턴은 그리드 뒤에서 인상적인 돌진으로 시작하여 마지막 랩에서 스핀으로 마무리된 브라질 그랑프리의 결과에 \"완전히 충격을 받았다\"고 팬들에게 말했습니다.",
       "페라리 드라이버는 일요일 인터라고스에서 9위를 차지한 후 월요일 인스타그램에 자신의 생각을 공유했습니다.",
       "해밀턴은 엔진 페널티를 받은 후 그리드에서 20위부터 출발해야 ​​했지만, 후방 타이어가 희미해지기 전에 중간 타이어를 사용하여 초반 11계단이나 올랐습니다. 그는 Maranello 의상을 슬릭으로 변경하도록 강요했으며 전환한 최초의 드라이버였습니다."
-     ],
-     "titleKo": "루이스 해밀턴은 브라질 GP를 '파괴'한 후 페라리 팬들에게 메시지를 보냅니다.",
-     "descKo": "루이스 해밀턴은 팬들에게 자신의 브라질 그랑프리 결과에 \"완전히 충격을 받았다\"고 말했습니다. 브라질 그랑프리는 그리드 뒤에서 인상적인 돌진으로 시작하여 1점 차로 마무리되었습니다."
-    },
-    {
-     "title": "Ayrton Senna's rare Honda NSX smashes auction estimate with record six-figure sale",
-     "desc": "A Honda NSX used by three-time Formula 1 champion Ayrton Senna has set an auction record for the model. The car, which had been estimated to sell for between £500,000 and £800,000…",
-     "link": "https://www.motorsport.com/f1/news/ayrton-sennas-rare-honda-nsx-smashes-auction-estimate-with-record-six-figure-sale/10873355/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YP748WQ2/s6/motorsport-com-graphics-77.jpg",
-     "date": "2026-11-09T13:19:30+00:00",
-     "author": "",
-     "id": "6a4f247108",
-     "lead": [
-      "A Honda NSX used by three-time Formula 1 champion Ayrton Senna has set an auction record for the model.",
-      "The car, which had been estimated to sell for between £500,000 and £800,000 prior to the auction, sold for £871,250 at RM Sotheby's in London on 31 October. The auction also included a 2002 Ferrari 550 Maranello, a 1964 Ferrari 250 GT/L Berlinetta Lusso by Scaglietti and a 1903 Clement AC4R 12/16 HP Rear-Entrance Tonneau.",
-      "As part of an agreement with Senna during his time with the McLaren-Honda Formula 1 team, Honda gave him access to three NSXs for personal use, two of which were black. The third, chassis T000233, was Formula Red with a black roof and black leather interior, and was registered in Portugal as SX-25-59 in 1991. It remained in Lisbon and was brought to the Brazilian driver on his visits to the country, where he had bought a property at Quinta do…"
-     ],
-     "leadKo": [
-      "세 차례 포뮬러 1 챔피언에 오른 아일톤 세나(Ayrton Senna)가 사용한 혼다 NSX가 이 모델에 대한 경매 기록을 세웠습니다.",
-      "경매 전 £500,000에서 £800,000 사이에 판매될 것으로 추정되었던 이 자동차는 10월 31일 런던의 RM Sotheby's에서 £871,250에 판매되었습니다. 경매에는 2002년형 Ferrari 550 Maranello, Scaglietti의 1964년형 Ferrari 250 GT/L Berlinetta Lusso 및 1903년형 Clement AC4R 12/16 HP Rear-Entrance Tonneau도 포함되었습니다.",
-      "McLaren-Honda Formula 1 팀에 근무하는 동안 Senna와의 계약의 일환으로 Honda는 그에게 개인 용도로 3개의 NSX에 대한 액세스 권한을 부여했으며 그 중 2개는 검은색이었습니다. 세 번째 섀시 T000233은 검은색 지붕과 검은색 가죽 인테리어를 갖춘 Formula Red였으며 1991년에 포르투갈에 SX-25-59로 등록되었습니다. 이 차량은 리스본에 남아 있었고 브라질 운전자가 브라질을 방문할 때 가져갔는데, 그곳에서 그는 Quinta do…"
-     ],
-     "titleKo": "Ayrton Senna의 희귀한 Honda NSX는 기록적인 6자릿수 판매로 경매 견적을 깨뜨렸습니다.",
-     "descKo": "세 차례 포뮬러 1 챔피언에 오른 아일톤 세나(Ayrton Senna)가 사용한 혼다 NSX가 이 모델에 대한 경매 기록을 세웠습니다. 이 차의 가격은 50만 파운드에서 80만 파운드 사이로 추정됐다."
-    },
-    {
-     "title": "How the Racing Bulls pendulum is swinging back towards undeniable Liam Lawson",
-     "desc": "When job security is in short supply, there's one solution for an F1 driver. Be so good they can't ignore you. That's easier said than done, but it certainly seems to be what Liam…",
-     "link": "https://www.motorsport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-undeniable-liam-lawson/10873304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/2QedBBa2/s6/liam-lawson-racing-bulls-2.jpg",
-     "date": "2026-11-09T11:55:10+00:00",
-     "author": "",
-     "id": "11e6a85cf8",
-     "lead": [
-      "When job security is in short supply, there's one solution for an F1 driver. Be so good they can't ignore you.",
-      "That's easier said than done, but it certainly seems to be what Liam Lawson has taken to heart as he battled for his future over the recent American triple-header. Having been an integral part of Racing Bulls' rise to fifth in the constructors' championship, which will be the Anglo-Italian team's best-ever result, Lawson took ninth in Austin before bagging a pair of seventh-place finishes in Mexico and Brazil.",
-      "Following his challenger Nikola Tsolov's strong FP1 debut in Mexico, and Lawson's unfortunate run-in with Red Bull's stalwart Max Verstappen , signs are now pointing towards the pendulum having swung back in Lawson's favour with a decision expected over the Las Vegas Grand Prix weekend next week. A report from The Race, which Motorsport.com understands is accurate, says Lawson is now set to stay put after all with Tsolov coming on board as a…"
-     ],
-     "leadKo": [
-      "직업 안정성이 부족할 때 F1 드라이버를 위한 한 가지 솔루션이 있습니다. 그들이 당신을 무시할 수 없을 정도로 착하게 행동하십시오.",
-      "말은 말처럼 쉽지 않지만, 리암 로슨이 최근 미국의 트리플헤더를 놓고 자신의 미래를 위해 싸울 때 마음에 새긴 것은 분명해 보입니다. 영국-이탈리아 팀 사상 최고의 결과가 될 컨스트럭터 챔피언십에서 Racing Bulls가 5위로 올라서는 데 중요한 역할을 한 Lawson은 오스틴에서 9위를 차지한 후 멕시코와 브라질에서 두 차례 7위를 차지했습니다.",
-      "그의 도전자 Nikola Tsolov의 멕시코에서의 강력한 FP1 데뷔와 Lawson의 Red Bull의 충실한 Max Verstappen과의 불행한 경쟁에 이어 다음 주 라스베거스 그랑프리 주말에 예상되는 결정으로 Lawson의 호의로 되돌아온 진자를 가리키는 징후가 이제 있습니다. Motorsport.com이 정확하다고 이해하는 The Race의 보고서에 따르면 Lawson은 이제 Tsolov가 선수로 합류하면서 결국 자리를 지킬 예정이라고 합니다."
-     ],
-     "titleKo": "Racing Bulls 진자가 부인할 수 없는 Liam Lawson을 향해 어떻게 되돌아가고 있는지",
-     "descKo": "직업 안정성이 부족할 때 F1 드라이버를 위한 한 가지 솔루션이 있습니다. 그들이 당신을 무시할 수 없을 정도로 착하게 행동하십시오. 말은 쉽지만 실행은 쉽지 않지만, 확실히 Liam이 그런 것 같습니다…"
-    },
-    {
-     "title": "How Max Verstappen beat Red Bull's own simulation tools with P2 in Brazil",
-     "desc": "For the third year in a row, Verstappen produced an impressive comeback drive in the Formula 1 Sao Paulo Grand Prix. While the Dutchman won from 17th on the grid in 2024 and…",
-     "link": "https://www.motorsport.com/f1/news/how-max-verstappen-beat-red-bulls-own-simulation-tools-with-p2-in-brazil/10873308/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6Alv98EY/s6/max-verstappen-red-bull-racing-3.jpg",
-     "date": "2026-11-09T11:33:44+00:00",
-     "author": "",
-     "id": "5ace93482e",
-     "lead": [
-      "For the third year in a row, Verstappen produced an impressive comeback drive in the Formula 1 Sao Paulo Grand Prix. While the Dutchman won from 17th on the grid in 2024 and climbed from the pitlane to third place last year, this time he charged from 21st to second.",
-      "According to Verstappen, his start on the uphill grid did not go to plan, although he took the blame himself after holding the clutch incorrectly, resulting in a slower reaction time. After that, however, the Dutchman made rapid progress. During his first stint on intermediates, he already had the podium positions in his sights, much sooner than Red Bull had ever expected based on its own simulations.",
-      "\"As always, I think no sim in the world will predict that you will go from P21 to P2 or that you get 14 places in 5 laps,\" Laurent Mekies said post-race in Red Bull’s hospitality unit."
-     ],
-     "leadKo": [
-      "Verstappen은 3년 연속 Formula 1 Sao Paulo Grand Prix에서 인상적인 역전승을 거두었습니다. 더치맨은 2024년 그리드 17위에서 우승하고 지난해 피트레인에서 3위로 올라섰지만 이번에는 21위에서 2위로 올라섰다.",
-      "Verstappen에 따르면 오르막 그리드에서의 그의 출발은 계획대로 진행되지 않았지만 클러치를 잘못 잡은 후 스스로 비난을 받아 반응 시간이 느려졌습니다. 그러나 그 후 네덜란드인은 급속한 발전을 이루었습니다. 중급자에 대한 첫 번째 작업 동안 그는 Red Bull 자체 시뮬레이션을 기반으로 예상했던 것보다 훨씬 빨리 이미 시상대 위치에 올랐습니다.",
-      "\"언제나 그렇듯이, 세계 어느 시뮬레이션도 P21에서 P2로 갈 것이라고 예측하거나 5랩 동안 14위를 차지할 것이라고 예측하지 못할 것입니다.\"라고 Red Bull의 환대 부문에서 Laurent Mekies가 말했습니다."
-     ],
-     "titleKo": "Max Verstappen이 브라질에서 P2를 사용하여 Red Bull의 자체 시뮬레이션 도구를 능가한 방법",
-     "descKo": "Verstappen은 3년 연속 Formula 1 Sao Paulo Grand Prix에서 인상적인 역전승을 거두었습니다. 그 네덜란드인은 2024년 그리드에서 17위부터 우승했고…"
-    },
-    {
-     "title": "Who slept best last night: Toto Wolff",
-     "desc": "Toto Wolff didn't need to brag when, on Sunday evening in Sao Paulo, he was asked about his records, which now put him alongside two of F1's greats. The question of how it feels…",
-     "link": "https://www.motorsport.com/f1/news/who-slept-best-last-night-toto-wolff-10873302/10873302/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/24QGbXdY/s6/george-russell-mercedes-andrea.jpg",
-     "date": "2026-11-09T11:13:10+00:00",
-     "author": "",
-     "id": "c1251455f0",
-     "lead": [
-      "Toto Wolff didn't need to brag when, on Sunday evening in Sao Paulo, he was asked about his records, which now put him alongside two of F1's greats. The question of how it feels to match Frank Williams' tally of constructors' championships and Ron Dennis' overall number of titles was enough in itself to illustrate the magnitude of Wolff's achievements. He now has nine constructors' titles, level with Williams , and 17 titles overall, matching…",
-      "\"When I think about it, these two are giants of the sport,\" he said. \"I'm not even operating in the same galaxy as Frank, who after his accident, has been able to achieve great things. And in the same way, Ron is a person that [you] always look up to who has been the benchmark in the sport, who has set new standards.\"",
-      "He added: \"I will never see myself in that league.\""
-     ],
-     "leadKo": [
-      "토토 울프(Toto Wolff)는 일요일 저녁 상파울루에서 자신의 기록에 대한 질문을 받았을 때 자랑할 필요가 없었으며, 그 결과 이제 그를 F1의 위대한 두 선수와 어깨를 나란히 하게 되었습니다. Frank Williams의 컨스트럭터 챔피언십 집계와 Ron Dennis의 전체 타이틀 수를 일치시키는 것이 어떤 느낌인지에 대한 질문은 그 자체로 Wolff의 업적의 규모를 설명하기에 충분했습니다. 그는 이제 Williams와 같은 수준인 9개의 컨스트럭터 타이틀과 전체적으로 17개의 타이틀을 보유하고 있습니다.",
-      "\"생각해 보면 이 두 사람은 스포츠의 거인입니다.\"라고 그는 말했습니다. \"저는 사고 이후 위대한 업적을 이룬 Frank와 같은 은하계에서 활동하고 있지도 않습니다. 마찬가지로 Ron은 스포츠의 기준이 되고 새로운 기준을 세운 사람으로 항상 존경하는 사람입니다.\"",
-      "그는 \"나는 그 리그에서 결코 내 모습을 볼 수 없을 것\"이라고 덧붙였다."
-     ],
-     "titleKo": "어젯밤에 가장 잘 잤던 사람 : 토토 울프",
-     "descKo": "토토 울프(Toto Wolff)는 일요일 저녁 상파울루에서 자신의 기록에 대한 질문을 받았을 때 자랑할 필요가 없었으며, 그 결과 이제 그를 F1의 위대한 두 선수와 어깨를 나란히 하게 되었습니다. 어떤 느낌이냐는 질문.."
-    },
-    {
-     "title": "Who slept worst last night: Fernando Alonso",
-     "desc": "When Fernando Alonso became Formula 1 world champion in 2005, he was just 24 years old, replacing Emerson Fittipaldi as the youngest champion in the sport's history. At last,…",
-     "link": "https://www.motorsport.com/f1/news/who-slept-worst-last-night-fernando-alonso/10873272/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/68VwMBV2/s6/fernando-alonso-aston-martin-r.jpg",
-     "date": "2026-11-09T09:33:04+00:00",
-     "author": "",
-     "id": "eafab78f9e",
-     "lead": [
-      "When Fernando Alonso became Formula 1 world champion in 2005, he was just 24 years old, replacing Emerson Fittipaldi as the youngest champion in the sport's history. At last, Michael Schumacher had a challenger. And although the reigning king of F1 once mistakenly called the young Spanish bull \"Ferdinando\" because he couldn't quite remember his name, it was Alonso who ultimately brought Schumacher's golden era to an end.",
-      "The rookie class of 2001 was an exceptional one: Alonso, Juan Pablo Montoya, Kimi Raikkonen . Brazilian Enrique Bernoldi was also on the grid for the season opener in Melbourne, with Malaysia's Alex Yoong and Czech driver Tomas Enge joining later in the year. Names that have largely faded into obscurity. But at least 50 per cent of the class of 2001 went on to greatness.",
-      "Formula 1 was a very different world back then. Team bosses were men like Ron Dennis, Frank Williams , Eddie Jordan and Tom Walkinshaw. Today's world championship-winning Mercedes team was called BAR, Red Bull was still Jaguar, and Alain Prost's team ran a Ferrari engine rebadged in the name of the computer brand Acer. Facebook and Instagram didn't exist, grid girls in bikinis and skin-tight shorts casually held up the drivers' numbers, and the…"
-     ],
-     "leadKo": [
-      "2005년 페르난도 알론소(Fernando Alonso)가 포뮬러 1(F1) 세계 챔피언이 되었을 때 그의 나이는 고작 24세였으며, 에머슨 피티팔디(Emerson Fittipaldi)를 대신해 스포츠 역사상 최연소 챔피언이 되었습니다. 마침내 미하엘 슈마허에게 도전자가 생겼습니다. 그리고 F1의 왕이 한때 그의 이름을 잘 기억하지 못해서 어린 스페인 황소를 \"페르디난도\"라고 잘못 불렀음에도 불구하고, 결국 슈마허의 황금 시대를 종식시킨 사람은 알론소였습니다.",
-      "2001년의 신인 클래스는 예외적이었습니다: 알론소, 후안 파블로 몬토야, 키미 라이코넨. 브라질의 Enrique Bernoldi도 멜버른에서 열린 시즌 개막전 그리드에 올랐으며, 말레이시아의 Alex Yong과 체코의 드라이버 Tomas Enge가 연말에 합류했습니다. 거의 모호하게 사라진 이름입니다. 그러나 2001년 졸업생 중 적어도 50%는 뛰어난 성과를 거두었습니다.",
-      "그 당시 포뮬러 1은 매우 다른 세계였습니다. 팀 보스는 Ron Dennis, Frank Williams, Eddie Jordan 및 Tom Walkinshaw와 같은 남성이었습니다. 오늘날 세계 챔피언십 우승을 차지한 Mercedes 팀은 BAR로 불렸고 Red Bull은 여전히 ​​Jaguar였으며 Alain Prost의 팀은 컴퓨터 브랜드 Acer의 이름으로 배지가 변경된 Ferrari 엔진을 사용했습니다. 페이스북과 인스타그램은 존재하지 않았고, 비키니와 몸에 딱 붙는 반바지를 입은 그리드 걸들이 아무렇지도 않게 운전자의 번호를 지켰고,…"
-     ],
-     "titleKo": "어젯밤에 가장 잠을 많이 못 잔 사람 : 페르난도 알론소",
-     "descKo": "2005년 페르난도 알론소(Fernando Alonso)가 포뮬러 1(F1) 세계 챔피언이 되었을 때 그의 나이는 고작 24세였으며, 에머슨 피티팔디(Emerson Fittipaldi)를 대신해 스포츠 역사상 최연소 챔피언이 되었습니다. 마침내,…"
+     ]
     }
    ]
   },
@@ -2045,6 +2047,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Did Red Bull car problems cost Verstappen Brazilian GP victory?",
+     "desc": "Should Max Verstappen's 21st to second Brazilian GP charge actually have ended with victory?",
+     "link": "https://www.the-race.com/formula-1/did-red-bull-car-problems-cost-verstappen-brazilian-gp-victory/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453679_HiRes.jpg",
+     "date": "2026-11-09T19:01:33+00:00",
+     "author": "Josh Suttill",
+     "id": "8afb184a49",
+     "lead": [
+      "Given that a flying Max Verstappen suddenly struggled with \"an extreme amount of oversteer\" after switching to slicks, did Red Bull car problems cost him the win at Formula 1's Brazilian Grand Prix?",
+      "Verstappen was baffled after the race as to why his RB22 felt so different from his charging opening laps - where he'd cut through the field from 21st on the grid to the top five in fewer than 15 laps.",
+      "\"It was a challenging race,\" Verstappen said straight after the finish. \"The first few laps were very important. I overtook a lot of cars, and actually that first stint on the Inters was really, really strong."
+     ],
+     "leadKo": [
+      "날아다니는 Max Verstappen이 슬릭으로 전환한 후 갑자기 \"극도의 오버스티어\"로 어려움을 겪었다는 점을 고려하면 Red Bull 자동차 문제로 인해 Formula 1의 브라질 그랑프리에서 우승할 수 없었을까요?",
+      "Verstappen은 레이스가 끝난 후 자신의 RB22가 자신의 돌진 오프닝 랩과 왜 그렇게 다른지 궁금해했습니다. 여기서 그는 그리드의 21위에서 15랩도 채 안되는 시간에 상위 5위까지 필드를 통과했습니다.",
+      "Verstappen은 경기가 끝난 후 \"힘든 경주였습니다.\"라고 말했습니다. \"처음 몇 바퀴는 매우 중요했습니다. 저는 많은 차를 추월했는데 실제로 Inters에서의 첫 번째 구간은 정말 정말 강했습니다."
+     ],
+     "titleKo": "Red Bull 자동차 문제로 인해 Verstappen 브라질 GP의 승리가 희생되었습니까?",
+     "descKo": "Max Verstappen의 21~2번째 브라질 GP 차지가 실제로 승리로 끝났어야 합니까?"
+    },
+    {
      "title": "Edd Straw's F1 2026 Brazilian Grand Prix tier list driver rankings",
      "desc": "A thrilling Brazilian GP in mixed conditions gave plenty of opportunities for F1 drivers to produce S-tier heroics or F-tier mistakes",
      "link": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-tier-list-driver-rankings-edd-straw/",
@@ -2052,6 +2075,8 @@
      "date": "2026-11-09T15:53:24+00:00",
      "author": "Edd Straw",
      "id": "1fce3b042d",
+     "titleKo": "Edd Straw의 F1 2026 브라질 그랑프리 티어 목록 드라이버 순위",
+     "descKo": "혼합된 조건에서 스릴 넘치는 브라질 GP는 F1 드라이버에게 S급 영웅이나 F급 실수를 저지를 수 있는 많은 기회를 제공했습니다.",
      "lead": [
       "A thrilling Brazilian Grand Prix in mixed conditions gave plenty of opportunities for Formula 1 drivers to produce heroics.",
       "But who stood out, for the right and the wrong reasons?",
@@ -2061,9 +2086,7 @@
       "혼합된 환경에서 진행된 스릴 넘치는 브라질 그랑프리는 Formula 1 드라이버들에게 영웅적인 모습을 보여줄 수 있는 많은 기회를 제공했습니다.",
       "하지만 옳고 그른 이유로 눈에 띄는 사람은 누구였습니까?",
       "Edd Straw의 새로운 계층 목록 Formula 1 드라이버 순위 형식에 해당 필드가 어떻게 쌓였는지는 다음과 같습니다."
-     ],
-     "titleKo": "Edd Straw의 F1 2026 브라질 그랑프리 티어 목록 드라이버 순위",
-     "descKo": "혼합된 조건에서 스릴 넘치는 브라질 GP는 F1 드라이버에게 S급 영웅이나 F급 실수를 저지를 수 있는 많은 기회를 제공했습니다."
+     ]
     },
     {
      "title": "Everything we learned from F1's 2026 Brazilian Grand Prix",
@@ -2073,6 +2096,8 @@
      "date": "2026-11-09T15:15:16+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "7c27441a63",
+     "titleKo": "F1의 2026 브라질 그랑프리에서 배운 모든 것",
+     "descKo": "Interlagos에서 열린 F1의 스릴 넘치는 브라질 GP에서 얻은 주요 내용",
      "lead": [
       "Was the Brazilian Grand Prix the best race of the 2026 Formula 1 season?",
       "It certainly revealed a lot about the teams and drivers, and their various strengths and weaknesses.",
@@ -2082,9 +2107,7 @@
       "브라질 그랑프리는 2026년 포뮬러 1 시즌 최고의 레이스였나요?",
       "확실히 팀과 드라이버, 그리고 그들의 다양한 강점과 약점에 대해 많은 것이 드러났습니다.",
       "F1의 두 번째 2026년 타이틀을 확보한 차분한 방식부터 F1의 최신 데뷔작이 실제로 어떻게 성공했는지에 이르기까지 우리가 Interlagos에서 배운 모든 것이 여기에 있습니다."
-     ],
-     "titleKo": "F1의 2026 브라질 그랑프리에서 배운 모든 것",
-     "descKo": "Interlagos에서 열린 F1의 스릴 넘치는 브라질 GP에서 얻은 주요 내용"
+     ]
     },
     {
      "title": "Piastri splits with Webber's F1 management team",
@@ -2094,6 +2117,8 @@
      "date": "2026-11-09T08:45:05+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "0787e7e6a9",
+     "titleKo": "Piastri는 Webber의 F1 관리팀과 헤어졌습니다.",
+     "descKo": "Oscar Piastri는 전 F1 드라이버 Mark Webber와 Ann Neal이 이끄는 경영진에서 분리되었습니다.",
      "lead": [
       "Oscar Piastri has split from the management team headed by ex-Formula 1 driver Mark Webber and Ann Neal.",
       "A statement on behalf of McLaren driver Piastri announced on Monday after the Brazilian Grand Prix that the two parties had mutually ended their agreement.",
@@ -2103,9 +2128,7 @@
       "Oscar Piastri는 전직 Formula 1 드라이버 Mark Webber와 Ann Neal이 이끄는 경영진에서 분리되었습니다.",
       "맥라렌 드라이버 피아스트리(Piastri)를 대신한 성명은 브라질 그랑프리 이후 월요일 두 당사자가 상호 합의를 종료했다고 발표했습니다.",
       "9번의 그랑프리 우승자인 Webber는 젊은 호주인이 F1에 진출하기 전인 2019년에 Piastri와 함께 일하기 시작했습니다."
-     ],
-     "titleKo": "Piastri는 Webber의 F1 관리팀과 헤어졌습니다.",
-     "descKo": "Oscar Piastri는 전 F1 드라이버 Mark Webber와 Ann Neal이 이끄는 경영진에서 분리되었습니다."
+     ]
     },
     {
      "title": "F1 podcast: Did Red Bull problems cost Verstappen a shot at win?",
@@ -2115,6 +2138,8 @@
      "date": "2026-11-09T08:28:35+00:00",
      "author": "The Race Team",
      "id": "da7f6e8a72",
+     "titleKo": "F1 팟캐스트: Red Bull 문제로 인해 Verstappen이 승리할 수 없었습니까?",
+     "descKo": "Edd Straw는 Jon Noble과 특별 게스트 Lito Cavalcanti와 함께 상파울루에서 합류하여 The Race F1 팟캐스트에서 브라질 GP를 리뷰했습니다.",
      "lead": [
       "Edd Straw is joined in Sao Paulo by Jon Noble and special guest Lito Cavalcanti to review the Brazilian Grand Prix on The Race F1 Podcast.",
       "Lando Norris and McLaren got back to winning ways with a dominant victory in an entertaining wet-dry-wet race at Interlagos, as Max Verstappen charged from the back of the grid to finish second on the road.",
@@ -2124,9 +2149,7 @@
       "Edd Straw는 상파울루에서 Jon Noble과 특별 게스트 Lito Cavalcanti와 함께 The Race F1 팟캐스트에서 브라질 그랑프리를 리뷰했습니다.",
       "Lando Norris와 McLaren은 Interlagos에서 열린 재미있는 Wet-Dry-Wet 경주에서 압도적인 승리를 거두며 다시 승리를 거두었고 Max Verstappen은 그리드 뒤에서 돌진하여 도로에서 2위를 차지했습니다.",
       "그러나 Verstappen의 놀라운 드라이브는 손상 가능성으로 인해 방해를 받지 않았다면 훨씬 더 좋았을 것입니까? 이것이 이번 최신 에피소드의 주요 토론 주제이며, 경주의 다른 주요 논점도 모두 다루었습니다."
-     ],
-     "titleKo": "F1 팟캐스트: Red Bull 문제로 인해 Verstappen이 승리할 수 없었습니까?",
-     "descKo": "Edd Straw는 Jon Noble과 특별 게스트 Lito Cavalcanti와 함께 상파울루에서 합류하여 The Race F1 팟캐스트에서 브라질 GP를 리뷰했습니다."
+     ]
     },
     {
      "title": "Lawson closing in on F1 2027 stay with Racing Bulls",
@@ -2136,6 +2159,8 @@
      "date": "2026-11-09T07:24:26+00:00",
      "author": "Jon Noble",
      "id": "05dbb9e851",
+     "titleKo": "F1 2027을 마무리하는 Lawson은 Racing Bulls와 함께합니다.",
+     "descKo": "Liam Lawson은 브라질 GP 주말 동안 뛰어난 활약을 펼친 후 Racing Bulls와 2027년 F1 레이스 계약을 성사시켰습니다.",
      "lead": [
       "Liam Lawson is closing in on a 2027 Formula 1 race deal with Racing Bulls following his standout performance over the Brazilian Grand Prix weekend.",
       "Although a final decision has not yet been made by Red Bull's main shareholders, The Race has learned that Lawson is on track to get the nod.",
@@ -2145,9 +2170,7 @@
       "Liam Lawson은 브라질 그랑프리 주말 동안 뛰어난 활약을 펼친 후 Racing Bulls와 2027년 Formula 1 레이스 계약을 성사시켰습니다.",
       "아직 Red Bull의 주요 주주들이 최종 결정을 내리지는 않았지만, The Race는 Lawson이 승인을 받을 궤도에 있다는 것을 알게 되었습니다.",
       "Lawson은 Racing Bulls가 2027년에도 그를 유지할 것인지, 아니면 Red Bull의 주니어 드라이버인 Nikola Tsolov가 Arvid Lindblad의 팀 동료로 승격될 것인지에 대한 소식을 기다리며 불안한 몇 주를 보냈습니다."
-     ],
-     "titleKo": "F1 2027을 마무리하는 Lawson은 Racing Bulls와 함께합니다.",
-     "descKo": "Liam Lawson은 브라질 GP 주말 동안 뛰어난 활약을 펼친 후 Racing Bulls와 2027년 F1 레이스 계약을 성사시켰습니다."
+     ]
     },
     {
      "title": "What Mercedes said about race-losing driver spins",
@@ -2210,27 +2233,6 @@
       "시즌 첫 포디움 없는 레이스로 2026 포뮬러 1 컨스트럭터 챔피언십을 차지한 메르세데스는 극도로 뒤섞인 그리드와 끊임없이 변화하는 날씨가 어우러져 많은 엔터테인먼트를 만들어내면서 이 거친 브라질 그랑프리를 요약했습니다.",
       "그리고 일부는 다른 것보다 훨씬 더 나빴습니다.",
       "Lando Norris는 이것을 그의 최고의 승리 중 하나로 평가했으며, 틀릴 가능성이 많았기 때문에 논쟁하기 어렵습니다."
-     ]
-    },
-    {
-     "title": "F1 2026's best race? Our verdict on Brazil chaos",
-     "desc": "Formula 1 2026's best race? A preview for F1 2027? Here's what our team made of the Brazilian Grand Prix",
-     "link": "https://www.the-race.com/formula-1/f1-2026-best-race-or-underwhelming-our-brazilian-gp-verdict/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453426_HiRes.jpg",
-     "date": "2026-11-08T20:50:24+00:00",
-     "author": "Scott Mitchell-Malm",
-     "id": "95300d0b27",
-     "titleKo": "F1 2026 최고의 레이스는? 브라질 혼란에 대한 우리의 평결",
-     "descKo": "포뮬러 1 2026년 최고의 레이스는? F1 2027의 미리보기? 우리 팀이 브라질 그랑프리에서 만든 결과는 다음과 같습니다.",
-     "lead": [
-      "Formula 1 2026's best race? A preview for F1 2027? A template for reverse grid races or a cautionary warning against them? A chaotic Brazilian Grand Prix gave us plenty to think about.",
-      "Here's what our team thought about the race...",
-      "There's always a terrible risk that the run-in ends up being really flat and low energy, with a collection of dead-rubber races, once the main championship is decided early."
-     ],
-     "leadKo": [
-      "포뮬러 1 2026년 최고의 레이스는? F1 2027의 미리보기? 역방향 그리드 경주를 위한 템플릿입니까, 아니면 이에 대한 주의 경고입니까? 혼란스러운 브라질 그랑프리는 우리에게 많은 생각을 하게 했습니다.",
-      "우리 팀이 경주에 대해 어떻게 생각했는지는 다음과 같습니다.",
-      "일단 메인 챔피언십이 일찍 결정되면, 런인이 정말 무미건조하고 에너지가 부족한 경주로 끝나는 끔찍한 위험이 항상 존재합니다."
      ]
     }
    ]
