@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-10T23:25:44+00:00",
- "failed": [],
+ "updated": "2026-11-11T06:29:59+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -205,17 +207,17 @@
      "id": "77d758cc35",
      "wikiTitle": "2026 Mexico City Grand Prix",
      "title": "2026 Mexico City Grand Prix",
-     "titleKo": "2026 멕시코시티 그랑프리",
+     "titleKo": "2026년 멕시코시티 그랑프리",
      "desc": "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de la Ciudad de México 2026) was a Formula One motor race that was held on 1 November 2026 at the…",
      "descKo": "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autódromo Hermanos Rodríguez에서 열린 Formula One 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의…",
      "link": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-10T00:28:28Z",
+     "date": "2026-11-11T05:54:00Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1384760532,
+     "revid": 1384983685,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -270,7 +272,7 @@
        "h": "Entrants",
        "level": 3,
        "p": [
-        "The drivers and teams were initially the same as published in the season entry list. Esteban Ocon (Haas) was entered into the event and drove for the team in the second practice session, but was replaced ahead of the third free practice session by the team's reserve driver, debutant Ryo Hirakawa. Hirakawa had already driven in Ocon's place for the first practice session. Haas declined to give a reason for the change. Press reports stated Ocon had an argument with team principal Ayao Komatsu that allegedly ended in a physical altercation, Ocon's dismissal, and a legal dispute. Ocon admitted to a \"difference of viewpoints\" but denied being violent.",
+        "The drivers and teams were initially the same as published in the season entry list. Esteban Ocon (Haas) was entered into the event and drove for the team in the second practice session, but was replaced ahead of the third free practice session by the team's reserve driver, debutant Ryo Hirakawa. Hirakawa had already driven in Ocon's place for the first practice session. Haas declined to give a reason for the change. Press reports stated Ocon had an argument with team principal Ayao Komatsu that allegedly ended in a physical altercation, Ocon's dismissal, and a legal dispute. Ocon admitted to a \"difference of viewpoints\" but denied being violent. Two days following the conclusion of the Grand Prix, Ocon was dismissed with immediate effect and replaced with Haas' 2027 signee, Rafael Câmara. Komatsu stated that the decision was \"in the best interest of the team\", and reaffirmed that the conversations between the team and Ocon that led to his dismissal were an \"internal matter\".",
         "During the first practice session, ten teams fielded alternate drivers who had not raced in more than two Grands Prix, as required by the Formula One regulations:",
         "Leonardo Fornaroli for McLaren in place of Lando Norris.",
         "Frederik Vesti for Mercedes in place of George Russell.",
@@ -287,7 +289,7 @@
        ],
        "hKo": "출전 명단",
        "pKo": [
-        "드라이버와 팀은 처음에 시즌 참가 목록에 게시된 것과 동일했습니다. Esteban Ocon (Haas)은 두 번째 연습 세션에서 이벤트에 참가하여 팀을 위해 운전했지만 세 번째 자유 연습 세션을 앞두고 팀의 예비 드라이버 인 데뷔전 히라카와 료 (Ryo Hirakawa)로 교체되었습니다. 히라카와는 첫 번째 연습 세션에서 이미 오콘 대신 운전을 했습니다. Haas는 변경 이유를 밝히기를 거부했습니다. 언론 보도에 따르면 오콘은 팀장 고마츠 아야오(Ayao Komatsu)와 말다툼을 했고, 이는 신체적 다툼, 오콘의 해고, 법적 분쟁으로 끝났다고 합니다. 오콘은 \"관점의 차이\"를 인정했지만 폭력적이었다는 점은 부인했다.",
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "첫 번째 연습 세션 동안 10개 팀은 Formula One 규정에 따라 두 번 이상 그랑프리에 출전하지 않은 대체 드라이버를 배치했습니다.",
         "Lando Norris를 대신하여 McLaren을 위한 Leonardo Fornaroli.",
         "조지 러셀 대신 메르세데스의 프레데릭 베스티.",
@@ -1413,17 +1415,17 @@
      "id": "7a441cb2ed",
      "wikiTitle": "2026 Italian Grand Prix",
      "title": "2026 Italian Grand Prix",
-     "titleKo": "2026 이탈리아 그랑프리",
+     "titleKo": "2026년 이탈리아 그랑프리",
      "desc": "The 2026 Italian Grand Prix (officially known as the Formula 1 Pirelli Gran Premio d'Italia 2026) was a Formula One motor race that was held on 6 September 2026 at the Monza…",
      "descKo": "2026년 이탈리아 그랑프리(공식 명칭: Formula 1 Pirelli Gran Premio d'Italia 2026)는 2026년 9월 6일 이탈리아 몬차의 몬차 서킷에서 열린 포뮬러 1 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 13번째 라운드였습니다.",
      "link": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Monza_track_map.svg/1280px-Monza_track_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Monza_track_map.svg",
-     "date": "2026-10-26T17:36:08Z",
+     "date": "2026-11-11T06:25:37Z",
      "raceDate": "2026-09-06",
      "author": "위키백과 편집자들",
-     "revid": 1382110326,
+     "revid": 1384986418,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1431,12 +1433,12 @@
        "level": 1,
        "p": [
         "The 2026 Italian Grand Prix (officially known as the Formula 1 Pirelli Gran Premio d'Italia 2026) was a Formula One motor race that was held on 6 September 2026 at the Monza Circuit in Monza, Italy. It was the thirteenth round of the 2026 Formula One World Championship.",
-        "During qualifying, Pierre Gasly, who was driving for Alpine, achieved his and the team's first pole position. Kimi Antonelli (Mercedes) won from nineteenth position on the grid, becoming the first Italian driver to win on home soil since Riccardo Patrese won the 1990 San Marino Grand Prix. Antonelli's teammate George Russell and Max Verstappen (Red Bull) completed the podium."
+        "During qualifying, Pierre Gasly (Alpine) achieved his and the team's first pole position. George Russell (Mercedes) battled Max Verstappen (Red Bull) for the lead of the race and went on to control it. However, his teammate Kimi Antonelli, who started in nineteenth position on the grid, overtook him for the lead in the closing stages of the race and went on to win, becoming the first Italian driver to win on home soil since Riccardo Patrese won the 1990 San Marino Grand Prix, and the first Italian driver to win the Italian Grand Prix since Ludovico Scarfiotti won the 1966 race. Russell settled for second, with Verstappen completing the podium."
        ],
        "hKo": "",
        "pKo": [
         "2026년 이탈리아 그랑프리(공식 명칭: Formula 1 Pirelli Gran Premio d'Italia 2026)는 2026년 9월 6일 이탈리아 몬차의 몬차 서킷에서 열린 포뮬러 1 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 13번째 라운드였습니다.",
-        "예선 기간 동안 Alpine에서 운전하던 Pierre Gasly가 자신과 팀의 첫 번째 폴 포지션을 달성했습니다. Kimi Antonelli(Mercedes)는 그리드에서 19위로 우승하여 Riccardo Patrese가 1990년 San Marino Grand Prix에서 우승한 이후 홈 경기장에서 우승한 최초의 이탈리아 드라이버가 되었습니다. Antonelli의 팀 동료인 George Russell과 Max Verstappen(Red Bull)이 시상대를 완료했습니다."
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
        ]
       },
       {
@@ -1850,6 +1852,111 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Daniel Ricciardo: Max Verstappen will \"go down as one of the best ever\"",
+     "desc": "Daniel Ricciardo says Max Verstappen will \"go down as one of the best ever\", and admits he cannot comprehend what Red Bull has achieved in its first season building its own power…",
+     "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-max-verstappen-will-go-down-as-one-of-the-best-ever/10873738/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/YP748J42/s6/motorsport-com-graphics-87.jpg",
+     "date": "2026-11-11T02:05:02+00:00",
+     "author": "",
+     "id": "1863c0969e",
+     "lead": [
+      "Daniel Ricciardo says Max Verstappen will \"go down as one of the best ever\", and admits he cannot comprehend what Red Bull has achieved in its first season building its own power units.",
+      "Ricciardo was Verstappen's team-mate at Red Bull from 2016 until the end of 2018, and is now an ambassador for Ford, whose partnership with Red Bull Powertrains made its race debut this season.",
+      "The project's first win came at the Bahrain Grand Prix in October, which was moved to Sepang after the race at Sakhir was cancelled, and Ricciardo got in touch with Verstappen and the team soon afterwards."
+     ],
+     "leadKo": [
+      "다니엘 리카도 (Daniel Ricciardo) 는 막스 베르스타펜 (Max Verstappen) 이 \"최고의 선수 중 한 명으로 추락할 것\" 이라고 말하며, 레드불 (Red Bull) 이 자체 동력 장치를 구축한 첫 시즌에서 달성한 것을 이해할 수 없다고 인정합니다.",
+      "Ricciardo는 2016년부터 2018년 말까지 Red Bull에서 Verstappen의 팀 동료였으며, 현재 Red Bull Powertrains와의 파트너십을 통해 올 시즌 레이스에 데뷔한 Ford의 홍보대사로 활동하고 있습니다.",
+      "이 프로젝트의 첫 번째 우승은 10월 바레인 그랑프리에서 이루어졌으며, 사키르에서의 레이스가 취소된 후 세팡으로 옮겨졌고, 리카도는 곧 베르스타펜과 팀과 연락을 취했습니다."
+     ],
+     "titleKo": "Daniel Ricciardo: Max Verstappen은 \"역대 최고 중 하나로 내려갈 것\"",
+     "descKo": "다니엘 리카도 (Daniel Ricciardo) 는 막스 베르스타펜 (Max Verstappen) 이 \"역대 최고 중 한 명으로 내려갈 것\" 이라고 말하며, 레드불 (Red Bull) 이 첫 시즌에 자신의 힘을 구축 한 것을 이해할 수 없다고 인정합니다..."
+    },
+    {
+     "title": "Oscar Piastri reveals unexpected upside of being out of F1 title fight",
+     "desc": "Oscar Piastri says he misses the pressure of fighting for the Formula 1 world championship. The McLaren driver led the standings for much of last year and was in a season-long…",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-reveals-unexpected-upside-of-being-out-of-f1-title-fight/10873740/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/YWKARZDY/s6/motorsport-com-graphics-86.jpg",
+     "date": "2026-11-11T00:21:39+00:00",
+     "author": "",
+     "id": "54107c7519",
+     "lead": [
+      "Oscar Piastri says he misses the pressure of fighting for the Formula 1 world championship.",
+      "The McLaren driver led the standings for much of last year and was in a season-long battle against his team-mate Lando Norris for the title. A late-season challenge from Red Bull's Max Verstappen saw Piastri finish third in the standings, while Norris secured the title and Verstappen finished second.",
+      "But this year has been very different for the Australian driver, who currently sits seventh in the drivers' standings, 94 points behind Norris with three races remaining."
+     ],
+     "leadKo": [
+      "오스카 피아스트리는 포뮬러 원 월드 챔피언십을 위해 싸워야 하는 압박감을 놓치고 있다고 말합니다.",
+      "맥라렌 드라이버는 작년의 대부분을 이끌었으며 팀 동료인 랜도 노리스와의 시즌 전투에서 타이틀을 차지했습니다. 레드불의 막스 베르스타펜 (Max Verstappen) 의 늦은 시즌 챌린지는 피아스트리가 3위를 차지한 반면, 노리스는 타이틀을 확보했고 베르스타펜은 2위를 차지했습니다.",
+      "그러나 올해는 현재 드라이버 순위에서 7위를 기록하고 있는 호주 드라이버와 매우 달랐습니다. 세 번의 레이스가 남아있는 노리스에 94점을 기록했습니다."
+     ],
+     "titleKo": "오스카 피아스트리, F1 타이틀 싸움에서 벗어난 예기치 않은 거꾸로 드러남",
+     "descKo": "오스카 피아스트리는 포뮬러 원 월드 챔피언십을 위해 싸워야 하는 압박감을 놓치고 있다고 말합니다. 맥라렌 드라이버는 작년의 많은 기간 동안 순위를 이끌었고 시즌을 보냈습니다..."
+    },
+    {
+     "title": "Lando Norris questions Charles Leclerc's Brazilian GP penalty: \"Just racing\"",
+     "desc": "McLaren Formula 1 driver Lando Norris has questioned Charles Leclerc's penalty after the Brazilian Grand Prix, which cost the Ferrari driver seventh place. Leclerc tapped the left…",
+     "link": "https://www.motorsport.com/f1/news/lando-norris-questions-charles-leclercs-brazilian-gp-penalty-just-racing/10873736/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/6n7b5kA0/s6/motorsport-com-graphics-85.jpg",
+     "date": "2026-11-10T23:58:55+00:00",
+     "author": "",
+     "id": "eb056e55f8",
+     "lead": [
+      "McLaren Formula 1 driver Lando Norris has questioned Charles Leclerc's penalty after the Brazilian Grand Prix, which cost the Ferrari driver seventh place.",
+      "Leclerc tapped the left rear of Liam Lawson's Racing Bulls car at Turn 12 on the penultimate lap of the race at Interlagos. The Monegasque driver was handed a five-second penalty after the race, which dropped him behind Lawson to eighth.",
+      "Norris, who won in front of the Brazilian crowd, argued that Leclerc's move on Lawson was \"just racing\" during a Twitch stream with his friend and former racing driver, Max Fewtrell."
+     ],
+     "leadKo": [
+      "맥라렌 포뮬러 1 드라이버 란도 노리스 (Lando Norris) 는 페라리 드라이버가 7위를 차지한 브라질 그랑프리 이후 찰스 르클레르 (Charles Leclerc) 의 페널티킥에 의문을 제기했다.",
+      "르클레르 (Leclerc) 는 인터라고스 (Interlagos) 에서 열린 레이스의 두 번째 랩에서 턴 12에서 리암 로슨 (Liam Lawson) 의 레이싱 불스 (Racing Bulls) 차량의 왼쪽 후면을 두드렸습니다. 모네가스케 드라이버는 레이스 후 5초의 페널티킥을 받았고, 로손의 뒤를 이어 8위로 떨어졌습니다.",
+      "브라질 관중 앞에서 승리한 노리스는 친구이자 전 레이싱 드라이버인 맥스 퓨트렐 (Max Fewtrell) 과의 트위치 스트림에서 로손에 대한 르클레르의 움직임이 \"단지 레이싱\" 이라고 주장했다."
+     ],
+     "titleKo": "란도 노리스 (Lando Norris) 는 찰스 르클레르 (Charles Leclerc) 의 브라질 GP 페널티에 대해 다음과 같이 질문합니다: \"",
+     "descKo": "맥라렌 포뮬러 1 드라이버 란도 노리스 (Lando Norris) 는 페라리 드라이버가 7위를 차지한 브라질 그랑프리 이후 찰스 르클레르 (Charles Leclerc) 의 페널티킥에 의문을 제기했다. 르클레르가 왼쪽을 두드렸다…"
+    },
+    {
+     "title": "Max Verstappen names the one condition that would make him retire from F1",
+     "desc": "Max Verstappen says he would walk away from Formula 1 if he ever stopped believing he was the best driver in the field. The four-time world champion has not won the title since…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-id-quit-f1-if-i-didnt-think-i-was-the-best-driver/10873734/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/2QedBrA2/s6/motorsport-com-graphics-86.jpg",
+     "date": "2026-11-10T23:58:32+00:00",
+     "author": "",
+     "id": "24499bc2b1",
+     "lead": [
+      "Max Verstappen says he would walk away from Formula 1 if he ever stopped believing he was the best driver in the field.",
+      "The four-time world champion has not won the title since 2024, with Lando Norris taking the championship win last year and Kimi Antonelli wrapping up the 2026 championship in Mexico earlier this month.",
+      "But speaking to the media before the Sao Paulo Grand Prix, Verstappen was put on the spot about whether he still rates himself as the top driver in F1."
+     ],
+     "leadKo": [
+      "막스 베르스타펜 (Max Verstappen) 은 자신이 이 분야에서 최고의 드라이버 파트너라고 믿지 않는다면 포뮬러 1에서 벗어날 것이라고 말합니다.",
+      "4번의 세계 챔피언은 2024년 이후 타이틀을 획득하지 못했으며, 랜도 노리스는 지난해 챔피언십 우승을 차지했고 키미 안토넬리는 이달 초 멕시코에서 2026년 챔피언십을 마무리했다.",
+      "그러나 상파울루 그랑프리 전 미디어와의 인터뷰에서 Verstappen은 여전히 F1에서 최고의 드라이버로 평가하고 있는지 여부에 대해 언급했습니다."
+     ],
+     "titleKo": "Max Verstappen은 F1에서 은퇴하게 만드는 한 가지 조건을 명명합니다.",
+     "descKo": "막스 베르스타펜 (Max Verstappen) 은 자신이 이 분야에서 최고의 드라이버 파트너라고 믿지 않는다면 포뮬러 1에서 벗어날 것이라고 말합니다. 4회 월드 챔피언은 그 이후로 타이틀을 획득하지 못했습니다..."
+    },
+    {
+     "title": "Lewis Hamilton tours Gaza aid operation at Egypt's Rafah border",
+     "desc": "Lewis Hamilton has been to see the aid operation at Egypt's border with Gaza, two days after racing at the Sao Paulo Grand Prix. The seven-time world champion arrived in El Arish,…",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-tours-gaza-aid-operation-at-egypts-rafah-border/10873731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/6lmARkL0/s6/motorsport-com-graphics-85-2.jpg",
+     "date": "2026-11-10T23:42:03+00:00",
+     "author": "",
+     "id": "ba98966bcb",
+     "lead": [
+      "Lewis Hamilton has been to see the aid operation at Egypt's border with Gaza, two days after racing at the Sao Paulo Grand Prix.",
+      "The seven-time world champion arrived in El Arish, in Egypt's North Sinai region, on Tuesday, and was met at the airport by the region's governor, Khaled Megawer.",
+      "The local governorate said he was shown around the Rafah crossing and the Egyptian Red Crescent's storage facilities in El Arish, according to Reuters , and given a briefing on how supplies are organised before they head into the territory."
+     ],
+     "leadKo": [
+      "루이스 해밀턴 (Lewis Hamilton) 은 상파울루 그랑프리 (Sao Paulo Grand Prix) 에서 경주한 지 이틀 만에 이집트의 가자지구 국경에서 구호 활동을 보았습니다.",
+      "7번의 세계 챔피언은 화요일에 이집트의 시나이 북부 지역에 있는 엘 아리쉬에 도착했고, 이 지역의 주지사인 칼레드 메가워 (Khaled Megawer) 가 공항에서 만났습니다.",
+      "로이터에 따르면 현지 총독은 라파 교차로와 엘 아리쉬에 있는 이집트 적신월사의 저장 시설 주변에서 보였으며, 보급품이 영토로 들어가기 전에 어떻게 조직되는지에 대한 브리핑을 받았다고 말했다."
+     ],
+     "titleKo": "루이스 해밀턴, 이집트 라파 국경에서 가자지구 원조 체험",
+     "descKo": "루이스 해밀턴 (Lewis Hamilton) 은 상파울루 그랑프리 (Sao Paulo Grand Prix) 에서 경주한 지 이틀 만에 이집트의 가자지구 국경에서 구호 활동을 보았습니다. 7번의 세계 챔피언이 엘 아리쉬에 도착했습니다. …"
+    },
+    {
      "title": "‘Kimi Antonelli isn’t Ayrton Senna yet, but he may be a Senninha’ – Toto Wolff",
      "desc": "To this day, Ayrton Senna remains the last Brazilian Formula 1 driver to have won the world championship. But as a new generation of Auriverde racers finally emerges, they’re not…",
      "link": "https://www.motorsport.com/f1/news/toto-wolff-kimi-antonelli-isnt-ayrton-senna-yet-but-he-may-be-a-senninha-/10873544/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1895,7 +2002,7 @@
      "title": "FIA reveals latest ADUO results in final review of 2026 F1 season",
      "desc": "The FIA has announced its final Additional Development and Upgrade Opportunities (ADUO) results for the 2026 Formula 1 season, with no changes granted for any of the power unit…",
      "link": "https://www.motorsport.com/f1/news/fia-reveals-latest-aduo-results-in-final-review-of-2026-f1-season/10873562/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YMXbMRL2/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/YMXbMRL2/s6/andrea-kimi-antonelli-mercedes.jpg",
      "date": "2026-11-10T11:42:46+00:00",
      "author": "",
      "id": "455ce4786f",
@@ -1916,7 +2023,7 @@
      "title": "Honda struggling to explain Lance Stroll’s 13th DNF of the season",
      "desc": "Honda says it needs to find the root cause of Lance Stroll’s multiple battery issues after yet another retirement for the Aston Martin Formula 1 driver in the Brazilian Grand…",
      "link": "https://www.motorsport.com/f1/news/honda-struggling-to-explain-lance-strolls-13th-dnf-of-the-season/10873412/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/Y9lNZkP2/s6/lance-stroll-aston-martin-raci-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/Y9lNZkP2/s6/lance-stroll-aston-martin-raci-2.jpg",
      "date": "2026-11-10T10:25:06+00:00",
      "author": "",
      "id": "80e6284773",
@@ -1931,111 +2038,6 @@
       "혼다는 브라질 그랑프리에서 애스턴 마틴 포뮬러 1 드라이버가 은퇴한 후 랜스 스트롤의 여러 배터리 문제의 근본 원인을 찾아야 한다고 말합니다.",
       "상파울루에서 열린 스트롤의 레이스는 30바퀴를 돌고 끝났습니다. 그는 12위 팀 동료인 페르난도 알론소 (Fernando Alonso) 와 함께 18위, 28초 동안 표류했습니다. 이것은 2026년 캠페인에서 그의 13번째 은퇴를 표시했습니다 – 그가 분류될 만큼 충분한 랩을 완료하지 못했지만 그 자체로 은퇴하지 않은 멜버른 레이스를 할인했습니다.",
       "캐나다인은 인터라고스의 레이스 후 미디어 펜에 잠깐 등장하는 동안 평소보다 더 열악했습니다. 그는 AMR26이 그 시점까지 어떻게 느끼고 있었는지에 대한 질문을 받기 전에 은퇴에 대해 \"배터리 문제\" 라고 말했습니다. “괜찮아요.” 그가 퉁명스럽게 대답했다. 그게 다였다."
-     ]
-    },
-    {
-     "title": "Laurent Mekies: Liam Lawson’s fate has nothing to do with me",
-     "desc": "Red Bull team principal Laurent Mekies says it’s up to Racing Bulls whether to retain Liam Lawson or promote Nikola Tsolov to a race seat in the 2027 Formula 1 season. Rookie…",
-     "link": "https://www.motorsport.com/f1/news/laurent-mekies-liam-lawsons-fate-has-nothing-to-do-with-me/10873368/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/YE9wPXPY/s6/liam-lawson-racing-bulls-laure.jpg",
-     "date": "2026-11-10T08:28:03+00:00",
-     "author": "",
-     "id": "aa4ddf225d",
-     "titleKo": "Laurent Mekies: Liam Lawson의 운명은 나와 관련이 없습니다",
-     "descKo": "Red Bull 팀장 Laurent Mekies는 Liam Lawson을 유지할지 아니면 Nikola Tsolov를 2027 Formula 1 시즌의 레이스 좌석으로 승격할지 여부는 Racing Bulls에게 달려 있다고 말했습니다. 신병…",
-     "lead": [
-      "Red Bull team principal Laurent Mekies says it’s up to Racing Bulls whether to retain Liam Lawson or promote Nikola Tsolov to a race seat in the 2027 Formula 1 season.",
-      "Rookie Arvid Lindblad is set to get a second campaign in the world championship next year, but the identity of his team-mate has been uncertain. Formula 2 title contender Tsolov was the favourite to get the seat, but his form has dipped after six wins in the first half of the season, partly due to suboptimal qualifying performance.",
-      "Meanwhile, Lawson has scored 89 points this season, more than twice as many as any other midfield driver. He has been unbeaten by team-mate Lindblad on merit, both in qualifying and races, over the last five rounds, collecting a whopping 30 points in that period – more than George Russell ’s 26."
-     ],
-     "leadKo": [
-      "Red Bull 팀장 Laurent Mekies는 Liam Lawson을 유지할지 아니면 Nikola Tsolov를 2027 Formula 1 시즌의 레이스 좌석으로 승격할지 여부는 Racing Bulls에게 달려 있다고 말했습니다.",
-      "신인 아르비드 린드블라드(Arvid Lindblad)는 내년 세계선수권에서 두 번째 출전을 앞두고 있지만 그의 팀 동료가 누구인지는 확실하지 않다. Formula 2 타이틀 경쟁자 Tsolov는 자리를 차지할 유력한 선수였지만 부분적으로는 최적이 아닌 예선 성적 때문에 시즌 전반기에 6승을 거둔 후 그의 기량은 떨어졌습니다.",
-      "한편 로슨은 올 시즌 89득점을 기록했는데, 이는 다른 미드필더 드라이버보다 두 배 이상 많은 득점이다. 그는 지난 5라운드 동안 예선과 경주 모두에서 팀 동료인 린드블라드에게 무패를 기록했고, 그 기간 동안 조지 러셀의 26점보다 많은 무려 30점을 획득했습니다."
-     ]
-    },
-    {
-     "title": "F1 Las Vegas Grand Prix announces pre-race music line-up",
-     "desc": "American DJ Steve Aoki will return to the Las Vegas Grand Prix grid this year for a performance before the race on 21 November. He will be joined by fellow DJ MORTEN and singer…",
-     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-grand-prix-announces-pre-race-music-line-up/10873488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6n7b5XR0/s6/motorsport-com-graphics-84.jpg",
-     "date": "2026-11-09T23:57:29+00:00",
-     "author": "",
-     "id": "e59fafdb68",
-     "titleKo": "F1 라스베이거스 그랑프리, 레이스 전 음악 라인업 발표",
-     "descKo": "미국 DJ 스티브 아오키(Steve Aoki)는 11월 21일 레이스 전 공연을 위해 올해 라스베이거스 그랑프리 그리드로 돌아올 예정입니다. 그는 동료 DJ MORTEN과 가수와 합류할 예정입니다…",
-     "lead": [
-      "American DJ Steve Aoki will return to the Las Vegas Grand Prix grid this year for a performance before the race on 21 November. He will be joined by fellow DJ MORTEN and singer Jordin Sparks as part of the pre-race line-up.",
-      "MORTEN will perform ahead of the driver introductions, which have become a fan-favourite part of the Las Vegas Grand Prix weekend after the viral moment between Sergio Perez and Bruce Buffer.",
-      "Following this, Sparks will sing the national anthem before the race. The American Idol season six winner, known for \"No Air\" and \"Tattoo\", was also chosen to sing it at this year's Indianapolis 500."
-     ],
-     "leadKo": [
-      "미국 DJ 스티브 아오키(Steve Aoki)는 11월 21일 레이스 전 공연을 위해 올해 라스베이거스 그랑프리 그리드로 돌아올 예정입니다. 그는 동료 DJ MORTEN과 가수 Jordin Sparks와 함께 레이스 전 라인업에 합류할 예정입니다.",
-      "MORTEN은 Sergio Perez와 Bruce Buffer의 입소문이 난 이후 라스베이거스 그랑프리 주말 팬들이 가장 좋아하는 부분이 된 드라이버 소개에 앞서 공연할 예정입니다.",
-      "이후 Sparks는 경주 전에 국가를 부를 예정입니다. \"No Air\"와 \"Tattoo\"로 유명한 아메리칸 아이돌 시즌 6 우승자는 올해 인디애나폴리스 500에서도 이 노래를 부르도록 선정되었습니다."
-     ]
-    },
-    {
-     "title": "Lewis Hamilton to share flight with Mercedes after former team's F1 title triumph",
-     "desc": "Seven-time Formula 1 champion Lewis Hamilton's trip back from Interlagos could have been an awkward one after Mercedes team principal Toto Wolff revealed that the Ferrari driver…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-to-share-flight-with-mercedes-after-former-teams-f1-title-triumph/10873483/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/2QedBGJ2/s6/motorsport-com-graphics-83.jpg",
-     "date": "2026-11-09T23:30:48+00:00",
-     "author": "",
-     "id": "f3caaa939a",
-     "titleKo": "전 팀의 F1 타이틀 우승 후 루이스 해밀턴, 메르세데스와 비행기 공유",
-     "descKo": "7차례 포뮬러 1 챔피언 루이스 해밀턴이 인터라고스에서 돌아오는 것은 메르세데스 팀 수석 토토 울프가 페라리 드라이버가...",
-     "lead": [
-      "Seven-time Formula 1 champion Lewis Hamilton's trip back from Interlagos could have been an awkward one after Mercedes team principal Toto Wolff revealed that the Ferrari driver would be travelling with the newly crowned constructors' champions.",
-      "Mercedes secured its ninth constructors' title at the Brazilian Grand Prix on Sunday, with George Russell and Kimi Antonelli finishing fourth and fifth, respectively, to put the team out of Ferrari's reach with three races remaining in the season. Hamilton, who started from the back after a power unit penalty, recovered to ninth.",
-      "Asked after the race where the party would be, Wolff said the celebrations would have to wait until the team had got back to the UK."
-     ],
-     "leadKo": [
-      "7차례 포뮬러 1 챔피언 루이스 해밀턴이 인터라고스에서 돌아오는 여행은 메르세데스 팀 수석 토토 울프가 페라리 드라이버가 새로 선정된 컨스트럭터 챔피언과 함께 여행할 것이라고 밝힌 이후 어색한 여행이 될 수 있었습니다.",
-      "메르세데스는 일요일 브라질 그랑프리에서 조지 러셀(George Russell)과 키미 안토넬리(Kimi Antonelli)가 각각 4위와 5위를 차지하면서 9번째 컨스트럭터즈 타이틀을 획득했으며 시즌에 3개의 레이스가 남아 있는 상황에서 페라리의 손이 닿지 않는 팀을 밀어냈습니다. 파워유닛 페널티킥 뒤 뒤에서 출발한 해밀턴은 9위로 회복했다.",
-      "경주가 끝난 후 파티가 어디인지 묻는 질문에 Wolff는 축하 행사는 팀이 영국으로 돌아올 때까지 기다려야 한다고 말했습니다."
-     ]
-    },
-    {
-     "title": "George Russell \"keeps getting kicked\" as F1 pundit addresses 2026 struggles",
-     "desc": "Former IndyCar Series driver and F1 TV pundit James Hinchcliffe believes George Russell had good reason to look \"a bit defeated\" after another difficult afternoon at the Brazilian…",
-     "link": "https://www.motorsport.com/f1/news/george-russell-keeps-getting-kicked-as-f1-pundit-addresses-2026-struggles/10873477/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6lmAR5k0/s6/motorsport-com-graphics-82.jpg",
-     "date": "2026-11-09T22:59:41+00:00",
-     "author": "",
-     "id": "92aad56df4",
-     "titleKo": "F1 전문가가 2026년 어려움을 언급하면서 조지 러셀은 \"계속 쫓겨났습니다\"",
-     "descKo": "전 IndyCar 시리즈 드라이버이자 F1 TV 전문가인 James Hinchcliffe는 조지 러셀이 브라질 대회에서 힘든 오후를 보낸 후 \"약간 패배한\" 모습을 보일 충분한 이유가 있었다고 믿습니다.",
-     "lead": [
-      "Former IndyCar Series driver and F1 TV pundit James Hinchcliffe believes George Russell had good reason to look \"a bit defeated\" after another difficult afternoon at the Brazilian Grand Prix.",
-      "While Mercedes ended the weekend on a high, securing the constructors' championship, Russell endured another frustrating race. The Briton missed out on pole position to McLaren's Lando Norris and ultimately finished the race in fourth, after recovering from a spin at the pit exit when he switched from intermediate to slick tyres.",
-      "\"He's a bit defeated, isn't he? I mean, and kind of rightly so. It's been a tough old season,\" Hinchcliffe explained during the F1 TV post-race show."
-     ],
-     "leadKo": [
-      "전 IndyCar 시리즈 드라이버이자 F1 TV 전문가인 James Hinchcliffe는 George Russell이 브라질 그랑프리에서 또 다른 힘든 오후를 보낸 후 \"약간 패배한\" 모습을 보일 충분한 이유가 있었다고 믿습니다.",
-      "메르세데스가 컨스트럭터 챔피언십을 확보하며 주말을 마무리하는 동안 러셀은 또 다른 실망스러운 경주를 견뎌냈습니다. 영국인은 McLaren의 Lando Norris에게 폴 포지션을 놓쳤고, 중간 타이어에서 슬릭 타이어로 교체하면서 피트 출구에서 스핀을 회복한 후 최종적으로 4위로 레이스를 마쳤습니다.",
-      "F1 TV 레이스 후 쇼에서 Hinchcliffe는 \"그는 약간 패배했습니다. 그렇죠? 내 말은, 어느 정도 그렇습니다. 힘든 시즌이었습니다\"라고 Hinchcliffe는 설명했습니다."
-     ]
-    },
-    {
-     "title": "George Russell teases imminent karting announcement as F1 fans spot major clue",
-     "desc": "George Russell has teased an imminent announcement linked to karting on 12 November. The Mercedes driver posted a video to Instagram on Monday with the caption \"Stay tuned\". He…",
-     "link": "https://www.motorsport.com/f1/news/george-russell-teases-imminent-karting-announcement-as-f1-fans-spot-major-clue/10873459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/YN7vzGV6/s6/motorsport-com-graphics-81.jpg",
-     "date": "2026-11-09T18:31:47+00:00",
-     "author": "",
-     "id": "a1ae314d9f",
-     "titleKo": "George Russell은 F1 팬들이 중요한 단서를 발견하면서 임박한 카트 발표를 예고합니다.",
-     "descKo": "조지 러셀(George Russell)은 11월 12일 카트와 관련된 곧 발표가 있을 것이라고 예고했습니다. 메르세데스 운전자는 월요일 인스타그램에 \"Stay tuned\"라는 캡션과 함께 동영상을 게시했습니다. 그…",
-     "lead": [
-      "George Russell has teased an imminent announcement linked to karting on 12 November.",
-      "The Mercedes driver posted a video to Instagram on Monday with the caption \"Stay tuned\". He talks about his first steps in motorsport over footage of himself racing karts as a boy, including a kart carrying the number 63 that he still uses in Formula 1.",
-      "The clip ends with the date 12.11.26, suggesting more will be revealed on Thursday."
-     ],
-     "leadKo": [
-      "조지 러셀(George Russell)은 11월 12일 카트와 관련된 곧 발표가 있을 것이라고 예고했습니다.",
-      "메르세데스 운전자는 월요일 인스타그램에 \"Stay tuned\"라는 캡션과 함께 동영상을 게시했습니다. 그는 어린 시절 포뮬러 1에서 아직도 사용하고 있는 63번 카트를 타고 카트를 경주하는 장면을 통해 모터스포츠에서의 첫 걸음에 대해 이야기합니다.",
-      "영상은 12.11.26 날짜로 끝나며, 이는 목요일에 더 많은 내용이 공개될 것임을 암시합니다."
      ]
     }
    ]
