@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T15:17:04+00:00",
+ "updated": "2026-11-11T22:02:36+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -1850,13 +1850,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Lewis Hamilton loses most marketable athlete crown as Charles Leclerc moves ahead",
+     "desc": "Lewis Hamilton has lost his place at the top of sport's marketability rankings, and has slipped behind his own Ferrari team-mate too. The seven-time world champion topped…",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-loses-most-marketable-athlete-crown-as-charles-leclerc-moves-ahead/10873959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/0Lde3Qg0/s6/motorsport-com-graphics-92-2.jpg",
+     "date": "2026-11-11T21:14:59+00:00",
+     "author": "",
+     "id": "295e1e5f2a",
+     "lead": [
+      "Lewis Hamilton has lost his place at the top of sport's marketability rankings, and has slipped behind his own Ferrari team-mate too.",
+      "The seven-time world champion topped SportsPro's annual list of the 50 Most Marketable Athletes last year, but has dropped to 22nd in the 2026 edition, which was created with data from NorthStar Solutions Group.",
+      "Aryna Sabalenka, the Belarusian tennis star, sits at the very top of the list ahead of freestyle skier Eileen Gu, basketball star Giannis Antetokounmpo, footballer Erling Haaland and tennis player Carlos Alcaraz."
+     ],
+     "leadKo": [
+      "루이스 해밀턴은 스포츠 시장성 순위 1위 자리를 잃었고, 자신의 페라리 팀 동료에게도 뒤쳐졌습니다.",
+      "7회 세계 챔피언인 그는 지난해 SportsPro가 선정한 가장 시장성이 있는 50명의 운동선수 목록에서 1위를 차지했지만 NorthStar Solutions Group의 데이터를 바탕으로 작성된 2026년판에서는 22위로 떨어졌습니다.",
+      "벨로루시 테니스 스타인 Aryna Sabalenka는 프리스타일 스키 선수 Eileen Gu, 농구 스타 Giannis Antetokounmpo, 축구 선수 Erling Haaland 및 테니스 선수 Carlos Alcaraz를 제치고 상위권에 올랐습니다."
+     ],
+     "titleKo": "루이스 해밀턴은 Charles Leclerc가 앞서 나가면서 가장 시장성이 있는 선수 왕관을 잃습니다.",
+     "descKo": "루이스 해밀턴은 스포츠 시장성 순위 1위 자리를 잃었고, 자신의 페라리 팀 동료에게도 뒤쳐졌습니다. 7차례 세계챔피언 1위…"
+    },
+    {
+     "title": "Kimi Antonelli keeps F1 title promise with Italian flag hair at Mercedes factory",
+     "desc": "Kimi Antonelli has kept his word. Mercedes' new world champion arrived at the team's Brackley factory this week with his hair dyed green, white and red, the colours of the Italian…",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-keeps-f1-title-promise-with-italian-flag-hair-at-mercedes-factory/10873952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/6Alv9kGY/s6/motorsport-com-graphics-91.jpg",
+     "date": "2026-11-11T20:55:48+00:00",
+     "author": "",
+     "id": "fda5f8d1b8",
+     "lead": [
+      "Kimi Antonelli has kept his word. Mercedes' new world champion arrived at the team's Brackley factory this week with his hair dyed green, white and red, the colours of the Italian flag, as the team celebrated its successful season at its headquarters.",
+      "Mercedes posted a video of the moment on social media on Wednesday, showing Antonelli meeting members of the team to laughter, with Toto Wolff and George Russell alongside him also laughing at his new look.",
+      "\"Kimi did it. He actually did it,\" Mercedes wrote on the post."
+     ],
+     "leadKo": [
+      "Kimi Antonelli는 자신의 약속을 지켰습니다. 메르세데스의 새로운 세계 챔피언은 팀이 본사에서 성공적인 시즌을 축하하는 동안 이탈리아 국기의 색상인 녹색, 흰색, 빨간색으로 머리를 염색한 채 이번 주 팀의 브래클리 공장에 도착했습니다.",
+      "메르세데스는 수요일 소셜 미디어에 안토넬리가 팀원들을 만나 웃음을 터뜨리는 모습을 담은 영상을 올렸고, 토토 울프와 조지 러셀도 그의 새로운 모습을 보고 웃고 있었다.",
+      "메르세데스는 게시물에 \"키미가 해냈다. 그는 실제로 해냈다\"고 썼다."
+     ],
+     "titleKo": "Kimi Antonelli는 Mercedes 공장에서 이탈리아 국기 머리로 F1 타이틀 약속을 지킵니다.",
+     "descKo": "Kimi Antonelli는 자신의 약속을 지켰습니다. 메르세데스의 새로운 세계 챔피언은 이번 주 이탈리아 팀의 색상인 녹색, 흰색, 빨간색으로 염색한 머리를 가지고 팀의 브래클리 공장에 도착했습니다."
+    },
+    {
+     "title": "Mercedes explains \"unusual\" car behaviour behind Kimi Antonelli's costly Interlagos spin",
+     "desc": "Mercedes deputy team principal Bradley Lord has provided an explanation for several spins that occurred for the Silver Arrows in Formula 1's Brazilian Grand Prix. In his first…",
+     "link": "https://www.motorsport.com/f1/news/mercedes-explains-unusual-car-behaviour-behind-kimi-antonellis-costly-brazil-spin/10873891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/2eZx8jKY/s6/andrea-kimi-antonelli-mercedes.jpg",
+     "date": "2026-11-11T16:00:58+00:00",
+     "author": "",
+     "id": "62dc7f514b",
+     "lead": [
+      "Mercedes deputy team principal Bradley Lord has provided an explanation for several spins that occurred for the Silver Arrows in Formula 1's Brazilian Grand Prix.",
+      "In his first event since his maiden title was confirmed in Mexico, Kimi Antonelli looked set to capitalise on a poor start by polesitter Lando Norris to snatch the lead from second on the grid, building up a comfortable buffer over the first 15 laps of a wet-dry-wet race.",
+      "But after changing from worn intermediates to slicks on lap 18, in response to Norris' stop one lap prior, Antonelli began reporting puzzling suspension issues, feeling like his W17 was pulling to one side. Two laps later Antonelli went off in Turn 1 as his car's rear end suddenly snapped under braking, spitting Antonelli out into the run-off area."
+     ],
+     "leadKo": [
+      "Mercedes 부팀장 Bradley Lord는 Formula 1의 브라질 그랑프리에서 Silver Arrows에 발생한 여러 스핀에 대해 설명을 제공했습니다.",
+      "멕시코에서 첫 타이틀이 확정된 이후 첫 번째 이벤트에서 키미 안토넬리(Kimi Antonelli)는 폴시터 Lando Norris의 부진한 출발을 활용하여 그리드의 2위에서 선두를 빼앗고 습식-건식-습식 레이스의 첫 15랩 동안 편안한 완충 장치를 구축할 것으로 보였습니다.",
+      "그러나 랩 18에서 마모된 중간체에서 슬릭으로 변경한 후, Norris가 한 랩 전에 정지한 것에 대한 반응으로 Antonelli는 자신의 W17이 한쪽으로 당기는 것처럼 느껴지면서 수수께끼의 서스펜션 문제를 보고하기 시작했습니다. 2 바퀴 뒤 Antonelli는 1번 코너에서 브레이크를 밟았을 때 차의 뒷부분이 갑자기 찰칵 소리를 내며 Antonelli를 이탈 구역으로 내뱉으면서 출발했습니다."
+     ],
+     "titleKo": "Mercedes는 Kimi Antonelli의 값비싼 Interlagos 스핀 뒤에 있는 \"비정상적인\" 자동차 행동을 설명합니다.",
+     "descKo": "Mercedes 부팀장 Bradley Lord는 Formula 1의 브라질 그랑프리에서 Silver Arrows에 발생한 여러 스핀에 대해 설명을 제공했습니다. 그의 첫 번째에서…"
+    },
+    {
      "title": "Max Verstappen explains why he’s so good in the rain in Brazil",
      "desc": "Max Verstappen has delved into what gives him such racecraft when it rains in Sao Paulo, after another remarkable drive in Formula 1’s Brazilian Grand Prix. Among tracks that have…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-explains-why-hes-so-good-in-the-rain-in-brazil/10873830/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YP748ne2/s6/max-verstappen-red-bull-racing.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/YP748ne2/s6/max-verstappen-red-bull-racing.jpg",
      "date": "2026-11-11T12:23:42+00:00",
      "author": "",
      "id": "0ea5c7a0ba",
+     "titleKo": "Max Verstappen이 브라질에서 비가 올 때 그토록 뛰어난 이유를 설명합니다.",
+     "descKo": "Max Verstappen은 Formula 1의 브라질 그랑프리에서 또 한 번의 놀라운 드라이브를 마친 후 상파울루에 비가 올 때 그와 같은 경주용 자동차를 만드는 이유를 탐구했습니다. 다음과 같은 트랙 중…",
      "lead": [
       "Max Verstappen has delved into what gives him such racecraft when it rains in Sao Paulo, after another remarkable drive in Formula 1’s Brazilian Grand Prix.",
       "Among tracks that have been on the calendar since the beginning of his career, Verstappen has his highest podium-finishing rate at Interlagos – and Austin – with eight top-three results in 11 races.",
@@ -1866,18 +1931,18 @@
       "Max Verstappen은 Formula 1의 브라질 그랑프리에서 또 한 번의 놀라운 드라이브를 마친 후 상파울루에 비가 올 때 그와 같은 경주용 자동차를 만드는 이유를 탐구했습니다.",
       "경력 초기부터 일정에 포함된 트랙 중 Verstappen은 Interlagos와 Austin에서 11개 레이스에서 8개의 상위 3위 안에 드는 가장 높은 포디움 완주율을 기록했습니다.",
       "이들 중 3개는 Autodromo Jose Carlos Pace에서 습한 날씨에 운전을 하고 있었습니다. 2016년, 18세 2학년이었던 Verstappen은 안전 차량 뒤에서 7바퀴를 돌고 마침내 녹색 깃발이 흔들린 1턴에 이미 Kimi Raikkonen의 Ferrari를 지나칠 수 있는 길을 찾았습니다. 그는 계속해서 Curva do Sol에서 최종 챔피언인 Nico Rosberg를 상대로 뛰어난 주변 움직임을 보여주었습니다."
-     ],
-     "titleKo": "Max Verstappen이 브라질에서 비가 올 때 그토록 뛰어난 이유를 설명합니다.",
-     "descKo": "Max Verstappen은 Formula 1의 브라질 그랑프리에서 또 한 번의 놀라운 드라이브를 마친 후 상파울루에 비가 올 때 그와 같은 경주용 자동차를 만드는 이유를 탐구했습니다. 다음과 같은 트랙 중…"
+     ]
     },
     {
      "title": "Andrea Stella wants McLaren to \"finally\" make peace with Las Vegas",
      "desc": "Andrea Stella says McLaren is aiming to finally make \"peace\" with what has historically been a difficult race for the team in Las Vegas. The Sao Paulo Grand Prix was a successful…",
      "link": "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YK15xn10/s6/motorsport-com-graphics-89-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/YK15xn10/s6/motorsport-com-graphics-89-2.jpg",
      "date": "2026-11-11T11:18:24+00:00",
      "author": "",
      "id": "c57780cab2",
+     "titleKo": "안드레아 스텔라(Andrea Stella)는 맥라렌이 \"마지막으로\" 라스베거스와 화해하길 원합니다.",
+     "descKo": "Andrea Stella는 McLaren이 역사적으로 라스베거스에서 팀에게 어려운 경주였던 경주를 마침내 \"평화\"시키는 것을 목표로 하고 있다고 말했습니다. 상파울루 그랑프리 성공적…",
      "lead": [
       "Andrea Stella says McLaren is aiming to finally make \"peace\" with what has historically been a difficult race for the team in Las Vegas.",
       "The Sao Paulo Grand Prix was a successful weekend for McLaren, with Lando Norris showing a dominant level of performance with his third win of the season, and team-mate Oscar Piastri showing a strong uptick in pace.",
@@ -1887,18 +1952,18 @@
       "Andrea Stella는 McLaren이 역사적으로 라스베거스에서 팀에게 어려운 경주였던 경주를 마침내 \"평화\"시키는 것을 목표로 하고 있다고 말했습니다.",
       "상파울루 그랑프리는 McLaren에게 성공적인 주말이었습니다. Lando Norris는 시즌 세 번째 우승을 차지하며 압도적인 수준의 경기력을 보여줬고, 팀 동료인 Oscar Piastri는 강력한 속도 상승세를 보여줬습니다.",
       "라스베가스는 일반적으로 팀에게는 매우 다른 짐승이며 서킷은 네바다의 늦은 저녁 추운 기온을 자랑합니다. 그러나 McLaren은 타이어 온도를 조절할 수 있는 MCL40 덕분에 브라질이 제공하는 춥고 습한 주말을 즐겼습니다."
-     ],
-     "titleKo": "안드레아 스텔라(Andrea Stella)는 맥라렌이 \"마지막으로\" 라스베거스와 화해하길 원합니다.",
-     "descKo": "Andrea Stella는 McLaren이 역사적으로 라스베거스에서 팀에게 어려운 경주였던 경주를 마침내 \"평화\"시키는 것을 목표로 하고 있다고 말했습니다. 상파울루 그랑프리 성공적…"
+     ]
     },
     {
      "title": "Oscar Piastri admits he is \"missing\" the stress of an F1 title fight",
      "desc": "McLaren's Oscar Piastri is missing the pressure of fighting for the Formula 1 world championship amid what has been a difficult 2026 season. The Australian led the drivers'…",
      "link": "https://www.motorsport.com/f1/news/oscar-piastri-admits-he-is-missing-the-stress-of-an-f1-title-fight/10873816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/27No3JE0/s6/motorsport-com-graphics-88.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/27No3JE0/s6/motorsport-com-graphics-88.jpg",
      "date": "2026-11-11T10:54:44+00:00",
      "author": "",
      "id": "2b47b7e108",
+     "titleKo": "오스카 피아스트리(Oscar Piastri)는 F1 타이틀전의 스트레스가 \"없다\"고 인정했습니다.",
+     "descKo": "맥라렌의 오스카 피아스트리(Oscar Piastri)는 어려운 2026년 시즌 속에서 포뮬러 1 세계 챔피언십을 위해 싸워야 한다는 압박감에서 벗어났습니다. 호주인이 운전자를 이끌었습니다…",
      "lead": [
       "McLaren's Oscar Piastri is missing the pressure of fighting for the Formula 1 world championship amid what has been a difficult 2026 season.",
       "The Australian led the drivers' standings for a lot of last year before he eventually finished third behind team-mate Lando Norris and Red Bull's Max Verstappen . Although he missed out on the championship last year, it was a successful end to the ground effect regulations for Piastri.",
@@ -1908,18 +1973,18 @@
       "맥라렌의 오스카 피아스트리(Oscar Piastri)는 어려운 2026년 시즌 속에서 포뮬러 1 세계 챔피언십을 위해 싸워야 한다는 압박감에서 벗어났습니다.",
       "이 호주인은 팀 동료인 Lando Norris와 Red Bull의 Max Verstappen에 이어 3위를 차지하기 전까지 작년에 여러 차례 드라이버 순위 1위를 차지했습니다. 지난해에는 비록 우승에는 실패했지만 피아스트리의 지면효과 규정을 성공적으로 마무리한 셈이다.",
       "그러나 올해는 그의 해가 아니었습니다. 그는 현재 3개의 레이스만 남은 상태에서 순위 7위를 차지하고 있으며, 레이스 우승은커녕 포디움에도 오르지 못했습니다. 타이틀 경쟁이 부족한 것이 그에게 타격이었는지 묻는 질문에 그는 지금까지 올해의 상승세에 초점을 맞추고 싶어합니다."
-     ],
-     "titleKo": "오스카 피아스트리(Oscar Piastri)는 F1 타이틀전의 스트레스가 \"없다\"고 인정했습니다.",
-     "descKo": "맥라렌의 오스카 피아스트리(Oscar Piastri)는 어려운 2026년 시즌 속에서 포뮬러 1 세계 챔피언십을 위해 싸워야 한다는 압박감에서 벗어났습니다. 호주인이 운전자를 이끌었습니다…"
+     ]
     },
     {
      "title": "\"Colapinto never hit the apex\" – Audi's take on contentious Nico Hulkenberg penalty in Brazilian GP",
      "desc": "Audi's eighth place in the constructors' championship doesn't quite tally with the competitiveness of its car, but circumstances have contrived to keep the team falling short of…",
      "link": "https://www.motorsport.com/f1/news/colapinto-never-hit-the-apex-audis-take-on-contentious-hulkenberg-penalty-in-sao-paulo-gp/10873551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/2QedBbJ2/s6/nico-hulkenberg-audi-f1-team.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/2QedBbJ2/s6/nico-hulkenberg-audi-f1-team.jpg",
      "date": "2026-11-11T10:13:12+00:00",
      "author": "",
      "id": "382ac62b3c",
+     "titleKo": "\"콜라핀토는 결코 정점에 도달하지 못했습니다.\" - 브라질 GP에서 논쟁의 여지가 있는 니코 훌켄베르그 페널티를 아우디가 받아들였습니다.",
+     "descKo": "아우디의 컨스트럭터 챔피언십 8위는 자동차의 경쟁력과 완전히 일치하지 않지만, 팀이 계속해서 뒤처지는 상황이 발생했습니다.",
      "lead": [
       "Audi's eighth place in the constructors' championship doesn't quite tally with the competitiveness of its car, but circumstances have contrived to keep the team falling short of the points in 2026. Between them, Nico Hulkenberg and Gabriel Bortoleto have notched up ten 11th-place finishes.",
       "Often the issue has been poor starting performance which costs the drivers track position away from the grid. But the mixed conditions at Interlagos enabled Hulkenberg to shine, despite a 10-second penalty for leaving the track and gaining an advantage at Turn 1 while battling Alpine's Franco Colapinto for the final points-paying spot on lap 48.",
@@ -1929,18 +1994,18 @@
       "아우디의 컨스트럭터 챔피언십 8위는 자동차의 경쟁력과 완전히 일치하지 않지만, 팀이 2026년 점수에 미치지 못하는 상황이 발생했습니다. 그 사이에 Nico Hulkenberg와 Gabriel Bortoleto는 10번의 11위를 기록했습니다.",
       "종종 문제는 시작 성능이 좋지 않아서 드라이버가 그리드에서 멀리 떨어진 위치를 추적하는 것이었습니다. 그러나 Interlagos의 혼합된 조건 덕분에 Hulkenberg는 트랙을 벗어나 턴 1에서 이점을 얻은 데 대한 10초의 페널티에도 불구하고 Alpine의 Franco Colapinto와 싸워 랩 48에서 최종 포인트를 지불하는 자리를 차지했음에도 불구하고 빛을 발할 수 있었습니다.",
       "Hulkenberg는 토요일 비의 영향을 받은 예선 세션에서 상위 10위 안에 들었고 6번째로 빠른 기록을 세웠습니다. 이는 George Russell과 Charles Leclerc의 페널티킥 덕분에 그리드에서 4위가 되었습니다. 그는 오프닝 랩에서 6위로 떨어졌지만 트랙이 마르기 시작하면서 Max Verstappen과 Oscar Piastri가 그를 강등시킬 때까지 버텼습니다."
-     ],
-     "titleKo": "\"콜라핀토는 결코 정점에 도달하지 못했습니다.\" - 브라질 GP에서 논쟁의 여지가 있는 니코 훌켄베르그 페널티를 아우디가 받아들였습니다.",
-     "descKo": "아우디의 컨스트럭터 챔피언십 8위는 자동차의 경쟁력과 완전히 일치하지 않지만, 팀이 계속해서 뒤처지는 상황이 발생했습니다."
+     ]
     },
     {
      "title": "What the Brazilian GP revealed about F1's ability to cope with rain",
      "desc": "The question of what might happen in a wet race has vexed Formula 1's stakeholders since before the beginning of the season. It's also prompted some unnecessarily hysterical…",
      "link": "https://www.motorsport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6DGg53wY/s6/charles-leclerc-ferrari-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/6DGg53wY/s6/charles-leclerc-ferrari-2.jpg",
      "date": "2026-11-11T09:26:23+00:00",
      "author": "",
      "id": "3662c96401",
+     "titleKo": "브라질 GP가 밝힌 F1의 비 대처 능력",
+     "descKo": "젖은 경주에서 어떤 일이 일어날 수 있는지에 대한 질문은 시즌이 시작되기 전부터 Formula 1의 이해관계자들을 짜증나게 했습니다. 또한 불필요하게 히스테리를 불러일으키기도 했습니다…",
      "lead": [
       "The question of what might happen in a wet race has vexed Formula 1's stakeholders since before the beginning of the season. It's also prompted some unnecessarily hysterical commentary throughout the year, peaking in the run-up to last weekend's Brazilian Grand Prix at Interlagos, where rain for qualifying and the race was a virtual certainty for the first time this season.",
       "Although the Bahrain Grand Prix in Malaysia was interrupted by rain and the discovery of a software glitch, by the time the race got going the track was drying quickly. This was not the case in Brazil.",
@@ -1950,15 +2015,13 @@
       "젖은 경주에서 어떤 일이 일어날 수 있는지에 대한 질문은 시즌이 시작되기 전부터 Formula 1의 이해관계자들을 짜증나게 했습니다. 그것은 또한 일년 내내 불필요하게 히스테리적인 논평을 촉발시켰고, 지난 주말 인터라고스에서 열린 브라질 그랑프리 준비 과정에서 최고조에 이르렀습니다. 그곳에서 예선을 위한 비가 내리고 이번 시즌 처음으로 경주가 사실상 확실했습니다.",
       "말레이시아에서 열린 바레인 그랑프리는 비와 소프트웨어 결함 발견으로 인해 중단되었지만, 경주가 시작될 무렵 트랙은 빠르게 건조되었습니다. 브라질에서는 그렇지 않았습니다.",
       "인터라고스에서의 예선은 세션 시작과 동시에 폭우가 쏟아진 후 80분 동안 위험 신호가 왔고, 그 여파로 많은 언론 매체가 조지 러셀의 매콤한 인용문을 인용했습니다."
-     ],
-     "titleKo": "브라질 GP가 밝힌 F1의 비 대처 능력",
-     "descKo": "젖은 경주에서 어떤 일이 일어날 수 있는지에 대한 질문은 시즌이 시작되기 전부터 Formula 1의 이해관계자들을 짜증나게 했습니다. 또한 불필요하게 히스테리를 불러일으키기도 했습니다…"
+     ]
     },
     {
      "title": "Daniel Ricciardo: Max Verstappen will \"go down as one of the best ever\"",
      "desc": "Daniel Ricciardo says Max Verstappen will \"go down as one of the best ever\", and admits he cannot comprehend what Red Bull has achieved in its first season building its own power…",
      "link": "https://www.motorsport.com/f1/news/daniel-ricciardo-max-verstappen-will-go-down-as-one-of-the-best-ever/10873738/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/YP748J42/s6/motorsport-com-graphics-87.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/YP748J42/s6/motorsport-com-graphics-87.jpg",
      "date": "2026-11-11T02:05:02+00:00",
      "author": "",
      "id": "1863c0969e",
@@ -1974,69 +2037,6 @@
       "Ricciardo는 2016년부터 2018년 말까지 Red Bull에서 Verstappen의 팀 동료였으며, 현재 Red Bull Powertrains와의 파트너십을 통해 올 시즌 레이스에 데뷔한 Ford의 홍보대사로 활동하고 있습니다.",
       "이 프로젝트의 첫 번째 우승은 10월 바레인 그랑프리에서 이루어졌으며, 사키르에서의 레이스가 취소된 후 세팡으로 옮겨졌고, 리카도는 곧 베르스타펜과 팀과 연락을 취했습니다."
      ]
-    },
-    {
-     "title": "Oscar Piastri reveals unexpected upside of being out of F1 title fight",
-     "desc": "Oscar Piastri says he misses the pressure of fighting for the Formula 1 world championship. The McLaren driver led the standings for much of last year and was in a season-long…",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-reveals-unexpected-upside-of-being-out-of-f1-title-fight/10873740/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YWKARZDY/s6/motorsport-com-graphics-86.jpg",
-     "date": "2026-11-11T00:21:39+00:00",
-     "author": "",
-     "id": "54107c7519",
-     "titleKo": "오스카 피아스트리, F1 타이틀 싸움에서 벗어난 예기치 않은 거꾸로 드러남",
-     "descKo": "오스카 피아스트리는 포뮬러 원 월드 챔피언십을 위해 싸워야 하는 압박감을 놓치고 있다고 말합니다. 맥라렌 드라이버는 작년의 많은 기간 동안 순위를 이끌었고 시즌을 보냈습니다...",
-     "lead": [
-      "Oscar Piastri says he misses the pressure of fighting for the Formula 1 world championship.",
-      "The McLaren driver led the standings for much of last year and was in a season-long battle against his team-mate Lando Norris for the title. A late-season challenge from Red Bull's Max Verstappen saw Piastri finish third in the standings, while Norris secured the title and Verstappen finished second.",
-      "But this year has been very different for the Australian driver, who currently sits seventh in the drivers' standings, 94 points behind Norris with three races remaining."
-     ],
-     "leadKo": [
-      "오스카 피아스트리는 포뮬러 원 월드 챔피언십을 위해 싸워야 하는 압박감을 놓치고 있다고 말합니다.",
-      "맥라렌 드라이버는 작년의 대부분을 이끌었으며 팀 동료인 랜도 노리스와의 시즌 전투에서 타이틀을 차지했습니다. 레드불의 막스 베르스타펜 (Max Verstappen) 의 늦은 시즌 챌린지는 피아스트리가 3위를 차지한 반면, 노리스는 타이틀을 확보했고 베르스타펜은 2위를 차지했습니다.",
-      "그러나 올해는 현재 드라이버 순위에서 7위를 기록하고 있는 호주 드라이버와 매우 달랐습니다. 세 번의 레이스가 남아있는 노리스에 94점을 기록했습니다."
-     ]
-    },
-    {
-     "title": "Lando Norris questions Charles Leclerc's Brazilian GP penalty: \"Just racing\"",
-     "desc": "McLaren Formula 1 driver Lando Norris has questioned Charles Leclerc's penalty after the Brazilian Grand Prix, which cost the Ferrari driver seventh place. Leclerc tapped the left…",
-     "link": "https://www.motorsport.com/f1/news/lando-norris-questions-charles-leclercs-brazilian-gp-penalty-just-racing/10873736/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/6n7b5kA0/s6/motorsport-com-graphics-85.jpg",
-     "date": "2026-11-10T23:58:55+00:00",
-     "author": "",
-     "id": "eb056e55f8",
-     "titleKo": "란도 노리스 (Lando Norris) 는 찰스 르클레르 (Charles Leclerc) 의 브라질 GP 페널티에 대해 다음과 같이 질문합니다: \"",
-     "descKo": "맥라렌 포뮬러 1 드라이버 란도 노리스 (Lando Norris) 는 페라리 드라이버가 7위를 차지한 브라질 그랑프리 이후 찰스 르클레르 (Charles Leclerc) 의 페널티킥에 의문을 제기했다. 르클레르가 왼쪽을 두드렸다…",
-     "lead": [
-      "McLaren Formula 1 driver Lando Norris has questioned Charles Leclerc's penalty after the Brazilian Grand Prix, which cost the Ferrari driver seventh place.",
-      "Leclerc tapped the left rear of Liam Lawson's Racing Bulls car at Turn 12 on the penultimate lap of the race at Interlagos. The Monegasque driver was handed a five-second penalty after the race, which dropped him behind Lawson to eighth.",
-      "Norris, who won in front of the Brazilian crowd, argued that Leclerc's move on Lawson was \"just racing\" during a Twitch stream with his friend and former racing driver, Max Fewtrell."
-     ],
-     "leadKo": [
-      "맥라렌 포뮬러 1 드라이버 란도 노리스 (Lando Norris) 는 페라리 드라이버가 7위를 차지한 브라질 그랑프리 이후 찰스 르클레르 (Charles Leclerc) 의 페널티킥에 의문을 제기했다.",
-      "르클레르 (Leclerc) 는 인터라고스 (Interlagos) 에서 열린 레이스의 두 번째 랩에서 턴 12에서 리암 로슨 (Liam Lawson) 의 레이싱 불스 (Racing Bulls) 차량의 왼쪽 후면을 두드렸습니다. 모네가스케 드라이버는 레이스 후 5초의 페널티킥을 받았고, 로손의 뒤를 이어 8위로 떨어졌습니다.",
-      "브라질 관중 앞에서 승리한 노리스는 친구이자 전 레이싱 드라이버인 맥스 퓨트렐 (Max Fewtrell) 과의 트위치 스트림에서 로손에 대한 르클레르의 움직임이 \"단지 레이싱\" 이라고 주장했다."
-     ]
-    },
-    {
-     "title": "Max Verstappen names the one condition that would make him retire from F1",
-     "desc": "Max Verstappen says he would walk away from Formula 1 if he ever stopped believing he was the best driver in the field. The four-time world champion has not won the title since…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-id-quit-f1-if-i-didnt-think-i-was-the-best-driver/10873734/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/2QedBrA2/s6/motorsport-com-graphics-86.jpg",
-     "date": "2026-11-10T23:58:32+00:00",
-     "author": "",
-     "id": "24499bc2b1",
-     "titleKo": "Max Verstappen은 F1에서 은퇴하게 만드는 한 가지 조건을 명명합니다.",
-     "descKo": "막스 베르스타펜 (Max Verstappen) 은 자신이 이 분야에서 최고의 드라이버 파트너라고 믿지 않는다면 포뮬러 1에서 벗어날 것이라고 말합니다. 4회 월드 챔피언은 그 이후로 타이틀을 획득하지 못했습니다...",
-     "lead": [
-      "Max Verstappen says he would walk away from Formula 1 if he ever stopped believing he was the best driver in the field.",
-      "The four-time world champion has not won the title since 2024, with Lando Norris taking the championship win last year and Kimi Antonelli wrapping up the 2026 championship in Mexico earlier this month.",
-      "But speaking to the media before the Sao Paulo Grand Prix, Verstappen was put on the spot about whether he still rates himself as the top driver in F1."
-     ],
-     "leadKo": [
-      "막스 베르스타펜 (Max Verstappen) 은 자신이 이 분야에서 최고의 드라이버 파트너라고 믿지 않는다면 포뮬러 1에서 벗어날 것이라고 말합니다.",
-      "4번의 세계 챔피언은 2024년 이후 타이틀을 획득하지 못했으며, 랜도 노리스는 지난해 챔피언십 우승을 차지했고 키미 안토넬리는 이달 초 멕시코에서 2026년 챔피언십을 마무리했다.",
-      "그러나 상파울루 그랑프리 전 미디어와의 인터뷰에서 Verstappen은 여전히 F1에서 최고의 드라이버로 평가하고 있는지 여부에 대해 언급했습니다."
-     ]
     }
    ]
   },
@@ -2045,6 +2045,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Hamilton loses 'most marketable athlete' status in 2026",
+     "desc": "Lewis Hamilton has dropped down SportsPro's marketable athlete rankings - with Charles Leclerc now the F1 leader there",
+     "link": "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1451289_HiRes.jpg",
+     "date": "2026-11-11T15:33:14+00:00",
+     "author": "Samarth Kanal",
+     "id": "d7e55bf67e",
+     "lead": [
+      "Lewis Hamilton is no longer sport’s most marketable athlete - or even the most marketable Formula 1 driver, having fallen behind Ferrari team-mate Charles Leclerc - in the latest rankings created by media and events business SportsPro.",
+      "Hamilton was top of the 2025 SportsPro marketability rankings for athletes, with a total marketability score of 96.03 out of 100.",
+      "In 2026, Hamilton is ranked 22nd. His marketability score is 66.63, on par with footballers Neymar and Vinicius Junior."
+     ],
+     "leadKo": [
+      "루이스 해밀턴은 미디어 및 이벤트 비즈니스인 SportsPro가 작성한 최신 순위에서 페라리 팀 동료인 찰스 르클레르(Charles Leclerc)에 뒤처져 더 이상 스포츠에서 가장 시장성이 있는 운동선수가 아니며 심지어 가장 시장성이 있는 포뮬러 1 드라이버도 아닙니다.",
+      "해밀턴은 2025년 운동선수를 위한 SportsPro 시장성 순위에서 총 시장성 점수 100점 만점에 96.03점을 받아 1위를 차지했습니다.",
+      "2026년에는 해밀턴이 22위에 올랐습니다. 그의 상품성 점수는 66.63으로 축구선수 네이마르, 비니시우스 주니어와 동등하다."
+     ],
+     "titleKo": "해밀턴은 2026년에 '가장 시장성이 있는 운동선수' 지위를 잃습니다.",
+     "descKo": "루이스 해밀턴은 SportsPro의 시장성 있는 선수 순위를 떨어뜨렸습니다. 이제 Charles Leclerc가 F1 리더가 되었습니다."
+    },
+    {
      "title": "What we know about worrying new Honda F1 reliability issue",
      "desc": "Honda's worrying return of F1 reliability problems includes a new issue",
      "link": "https://www.the-race.com/formula-1/honda-f1-new-reliability-problem-might-not-cure-before-2026-end/",
@@ -2052,6 +2073,8 @@
      "date": "2026-11-11T12:00:40+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "26703d9d56",
+     "titleKo": "새로운 Honda F1 신뢰성 문제에 대해 우리가 알고 있는 것",
+     "descKo": "Honda의 F1 신뢰성 문제에 대한 걱정스러운 복귀에는 새로운 문제가 포함됩니다.",
      "lead": [
       "Honda's worrying return of reliability problems includes a new issue, the root cause of which it might not trace before the end of the Formula 1 season.",
       "Aston Martin and engine partner Honda suffered their third DNF of the triple-header in Brazil, when Lance Stroll retired for the second race in a row.",
@@ -2061,9 +2084,7 @@
       "Honda의 걱정스러운 신뢰성 문제 복귀에는 Formula 1 시즌이 끝나기 전에는 근본 원인을 추적할 수 없는 새로운 문제가 포함되어 있습니다.",
       "Aston Martin과 엔진 파트너인 Honda는 Lance Stroll이 두 번째 레이스에서 연속으로 은퇴하면서 브라질에서 세 번째 트리플 헤더 DNF를 겪었습니다.",
       "Stroll은 브라질 주말 동안 두 가지 별도의 배터리 문제를 겪었고 일요일 그랑프리에서는 중간 거리에 도달하지 못했습니다."
-     ],
-     "titleKo": "새로운 Honda F1 신뢰성 문제에 대해 우리가 알고 있는 것",
-     "descKo": "Honda의 F1 신뢰성 문제에 대한 걱정스러운 복귀에는 새로운 문제가 포함됩니다."
+     ]
     },
     {
      "title": "F1's divisive wet weather tyres to change in 2027 - what needs solving",
@@ -2073,6 +2094,8 @@
      "date": "2026-11-11T07:41:56+00:00",
      "author": "Jon Noble",
      "id": "992cbe1140",
+     "titleKo": "2027년에 바뀔 F1의 분열적인 습한 날씨 타이어 - 해결이 필요한 것",
+     "descKo": "F1 드라이버들의 의견이 분분했던 습한 날씨 타이어는 2027년에 바뀔 것이다 - 우리가 알고 있는 것은 이렇다",
      "lead": [
       "Formula 1 tyre supplier Pirelli is close to finalising new specification wet-weather tyres for next season that already address concerns drivers voiced last weekend.",
       "F1 had its first proper wet weekend of the year at Interlagos, with both qualifying and the race impacted by the rain.",
@@ -2082,9 +2105,7 @@
       "포뮬러 1 타이어 공급업체인 피렐리(Pirelli)는 지난 주말 운전자들이 제기한 우려를 이미 해결한 다음 시즌을 위한 새로운 사양의 습한 날씨 타이어를 마무리하는 데 가까워졌습니다.",
       "F1은 Interlagos에서 올해의 첫 번째 비가 오는 주말을 보냈습니다. 예선과 레이스 모두 비의 영향을 받았습니다.",
       "토요일의 러닝은 최근 몇 년간 거의 사용하지 않았던 젖은 타이어가 선호될 정도로 가혹한 조건에서 진행됐다."
-     ],
-     "titleKo": "2027년에 바뀔 F1의 분열적인 습한 날씨 타이어 - 해결이 필요한 것",
-     "descKo": "F1 드라이버들의 의견이 분분했던 습한 날씨 타이어는 2027년에 바뀔 것이다 - 우리가 알고 있는 것은 이렇다"
+     ]
     },
     {
      "title": "Liberty Media founder sells voting power of F1's parent company",
@@ -2210,27 +2231,6 @@
       "혼합된 환경에서 진행된 스릴 넘치는 브라질 그랑프리는 Formula 1 드라이버들에게 영웅적인 모습을 보여줄 수 있는 많은 기회를 제공했습니다.",
       "하지만 옳고 그른 이유로 눈에 띄는 사람은 누구였습니까?",
       "Edd Straw의 새로운 계층 목록 Formula 1 드라이버 순위 형식에 해당 필드가 어떻게 쌓였는지는 다음과 같습니다."
-     ]
-    },
-    {
-     "title": "Everything we learned from F1's 2026 Brazilian Grand Prix",
-     "desc": "Our main takeaways from F1's thrill-a-minute Brazilian GP at Interlagos",
-     "link": "https://www.the-race.com/formula-1/everything-we-learned-from-f1s-2026-brazilian-grand-prix/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/SI202611080333_hires_jpeg_24bit_rgb.jpg",
-     "date": "2026-11-09T15:15:16+00:00",
-     "author": "Scott Mitchell-Malm",
-     "id": "7c27441a63",
-     "titleKo": "F1의 2026 브라질 그랑프리에서 배운 모든 것",
-     "descKo": "Interlagos에서 열린 F1의 스릴 넘치는 브라질 GP에서 얻은 주요 내용",
-     "lead": [
-      "Was the Brazilian Grand Prix the best race of the 2026 Formula 1 season?",
-      "It certainly revealed a lot about the teams and drivers, and their various strengths and weaknesses.",
-      "So here's everything we learned at Interlagos, from the subdued way F1's second 2026 title was secured to how F1's latest debutant really got on."
-     ],
-     "leadKo": [
-      "브라질 그랑프리는 2026년 포뮬러 1 시즌 최고의 레이스였나요?",
-      "확실히 팀과 드라이버, 그리고 그들의 다양한 강점과 약점에 대해 많은 것이 드러났습니다.",
-      "F1의 두 번째 2026년 타이틀을 확보한 차분한 방식부터 F1의 최신 데뷔작이 실제로 어떻게 성공했는지에 이르기까지 우리가 Interlagos에서 배운 모든 것이 여기에 있습니다."
      ]
     }
    ]
@@ -2435,6 +2435,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Mercedes' Remarkable 19 Podiums In A Row 🔥",
+     "desc": "The team had taken to the podium at every race in 2026 up until the Brazilian Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=1aqEt_Bo0eQ",
+     "image": "https://i.ytimg.com/vi/1aqEt_Bo0eQ/hqdefault.jpg",
+     "date": "2026-11-11T18:16:53+00:00",
+     "author": "FORMULA 1",
+     "videoId": "1aqEt_Bo0eQ",
+     "id": "8fd4159c85",
+     "titleKo": "메르세데스의 놀라운 19개 연속 포디움 🔥",
+     "descKo": ""
+    },
+    {
      "title": "Formula 2: Where F1 Stars Are Made",
      "desc": "In celebration of the 10th season of FIA Formula 2, the F1 drivers who have graduated from the Championship look back at the moments that made them and the Championship that…",
      "link": "https://www.youtube.com/watch?v=T1jiVD6emn8",
@@ -2528,18 +2540,6 @@
      "videoId": "b57h8iRF4ys",
      "id": "e89401cfdb",
      "titleKo": "해밀턴, 10년 후 베르스타펜의 순간을 재현하다! 🔄",
-     "descKo": ""
-    },
-    {
-     "title": "Max Verstappen Goes From P21 To P2 At Interlagos 🤯📈",
-     "desc": "For a third year in a row, Max makes light work of tearing through the field in Brazil!",
-     "link": "https://www.youtube.com/watch?v=P9ev26ql5Bs",
-     "image": "https://i.ytimg.com/vi/P9ev26ql5Bs/hqdefault.jpg",
-     "date": "2026-11-09T18:02:34+00:00",
-     "author": "FORMULA 1",
-     "videoId": "P9ev26ql5Bs",
-     "id": "3488128d26",
-     "titleKo": "Max Verstappen은 Interlagos에서 P21에서 P2로 이동합니다 🤯📈",
      "descKo": ""
     }
    ]
