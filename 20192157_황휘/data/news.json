@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-12T03:02:58+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-12T11:19:06+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1852,13 +1850,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Liam Lawson retained by Racing Bulls for 2027 alongside Arvid Lindblad",
+     "desc": "Racing Bulls has confirmed Liam Lawson will stay with the team for the 2027 Formula 1 season, partnering Arvid Lindblad for a second year. Lawson and Lindblad formed a formidable…",
+     "link": "https://www.motorsport.com/f1/news/liam-lawson-retained-by-racing-bulls-for-2027-alongside-arvid-lindblad/10874061/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YWKAEqxY/s6/arvid-lindblad-racing-bulls-li.jpg",
+     "date": "2026-11-12T11:05:10+00:00",
+     "author": "",
+     "id": "47dd0085cd",
+     "lead": [
+      "Racing Bulls has confirmed Liam Lawson will stay with the team for the 2027 Formula 1 season, partnering Arvid Lindblad for a second year.",
+      "Lawson and Lindblad formed a formidable duo this year as they propelled Racing Bulls to fifth in the constructors' championship, which is set to be the Anglo-Italian team's best-ever result.",
+      "But despite accounting for 89 points, twice the number rookie Lindblad managed, Lawson's future had been thrown into doubt as Racing Bulls weighed up its need for short-term performance with its explicit goal of training young drivers for its parent team Red Bull Racing."
+     ],
+     "leadKo": [
+      "Racing Bulls는 Liam Lawson이 2027년 Formula 1 시즌 동안 팀에 남을 것이며 Arvid Lindblad와 2년 동안 파트너 관계를 맺을 것이라고 확인했습니다.",
+      "Lawson과 Lindblad는 올해 강력한 듀오를 결성하여 Racing Bulls를 컨스트럭터 챔피언십에서 5위로 끌어 올렸으며, 이는 영국-이탈리아 팀 사상 최고의 결과가 될 것입니다.",
+      "그러나 신인 Lindblad가 관리한 점수의 두 배인 89점을 기록했음에도 불구하고 Racing Bulls가 모팀인 Red Bull Racing을 위해 젊은 드라이버를 훈련시키겠다는 명시적인 목표로 단기 성능의 필요성을 저울질하면서 Lawson의 미래는 의심스러워졌습니다."
+     ],
+     "titleKo": "리암 로슨은 아르비드 린드블라드와 함께 2027년까지 레이싱 불스에 잔류했습니다.",
+     "descKo": "Racing Bulls는 Liam Lawson이 2027년 Formula 1 시즌 동안 팀에 남을 것이며 Arvid Lindblad와 2년 동안 파트너 관계를 맺을 것이라고 확인했습니다. Lawson과 Lindblad는 막강한 결성을 이루었습니다."
+    },
+    {
+     "title": "George Russell launches fully-funded GR63 Karting Academy at Silverstone",
+     "desc": "Motorsport has an alarming financial barrier to entry, with seasons of junior karting frequently running deep into the six figures. Mercedes Formula 1 star George Russell is…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-launches-fully-funded-gr63-karting-academy-at-silverstone/10874038/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/2dEorgDY/s6/motorsport-com-graphics-95-2.jpg",
+     "date": "2026-11-12T10:35:02+00:00",
+     "author": "",
+     "id": "3c03ec2508",
+     "lead": [
+      "Motorsport has an alarming financial barrier to entry, with seasons of junior karting frequently running deep into the six figures. Mercedes Formula 1 star George Russell is taking direct action to change that.",
+      "Russell officially announced the launch of the GR63 Academy , a grassroots karting initiative created in partnership with Silverstone and the British Racing Drivers' Club. The programme is explicitly designed to bypass the traditional pay-to-play model of junior motorsport and provide a legitimate, fully funded ladder for talented kids.",
+      "\"Karting is where it all started for me and has played an essential role in my career,\" Russell wrote in his announcement. \"I also know how difficult it is for talented young drivers to get their first opportunity, especially when budgets are limited.\""
+     ],
+     "leadKo": [
+      "모터스포츠는 주니어 카트 시즌이 자주 6자리 숫자에 도달하는 등 심각한 진입 장벽을 가지고 있습니다. 메르세데스 포뮬러 1 스타 조지 러셀(George Russell)이 이를 바꾸기 위해 직접적인 조치를 취하고 있습니다.",
+      "Russell은 Silverstone 및 British Racing Drivers' Club과 협력하여 만든 풀뿌리 카트 이니셔티브인 GR63 Academy의 출시를 공식적으로 발표했습니다. 이 프로그램은 주니어 모터스포츠의 전통적인 유료 플레이 모델을 우회하고 재능 있는 아이들에게 합법적이고 전액 자금 지원을 받는 사다리를 제공하도록 명시적으로 설계되었습니다.",
+      "러셀은 발표문에서 \"카팅은 나에게 모든 것이 시작된 곳이자 내 경력에 필수적인 역할을 했다\"고 썼다. \"저는 또한 재능 있는 젊은 운전자들이 첫 번째 기회를 얻는 것이 얼마나 어려운지 알고 있습니다. 특히 예산이 제한되어 있을 때 더욱 그렇습니다.\""
+     ],
+     "titleKo": "George Russell이 Silverstone에서 전액 자금을 지원하는 GR63 Karting Academy를 ​​시작합니다.",
+     "descKo": "모터스포츠는 주니어 카트 시즌이 자주 6자리 숫자에 도달하는 등 심각한 진입 장벽을 가지고 있습니다. 메르세데스 포뮬러 1 스타 조지 러셀은…"
+    },
+    {
+     "title": "Max Verstappen on Ferrari clashes: \"I would never sign two number-one drivers\"",
+     "desc": "Although Ferrari Formula 1 team principal Frederic Vasseur spoke to Lewis Hamilton and Charles Leclerc on Thursday evening in Sao Paulo to clear the air, an extraordinary amount…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-reacts-to-ferrari-clash-i-would-never-sign-two-number-one-drivers/10873588/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/2jEAGa90/s6/charles-leclerc-ferrari-lewis--2.jpg",
+     "date": "2026-11-12T09:05:37+00:00",
+     "author": "",
+     "id": "c9f5a133a7",
+     "lead": [
+      "Although Ferrari Formula 1 team principal Frederic Vasseur spoke to Lewis Hamilton and Charles Leclerc on Thursday evening in Sao Paulo to clear the air, an extraordinary amount had already been said and written about the Ferrari clash in Mexico.",
+      "When Max Verstappen was asked for his opinion in Brazil, the Red Bull driver indicated that he primarily sees the incident as a consequence of Ferrari’s driver line-up. With two captains on one ship, such things are bound to happen, the Dutchman told Viaplay.",
+      "\"If you simply had one clear number one and one clear number two, they would have gone through that corner in first and second, and they would have finished first and second as well. Or maybe first and third, but that's fine too. As a team, you're still scoring good points,\" Verstappen said."
+     ],
+     "leadKo": [
+      "페라리 포뮬러 1 팀장인 프레데릭 바쇠르(Frederic Vasseur)는 목요일 저녁 상파울루에서 루이스 해밀턴(Lewis Hamilton)과 샤를 르클레르(Charles Leclerc)와 대화를 나누었지만 멕시코에서의 페라리 충돌에 대해서는 이미 엄청난 양의 언급과 글이 있었습니다.",
+      "Max Verstappen이 브라질에서 자신의 의견을 물었을 때 Red Bull 드라이버는 주로 Ferrari 드라이버 라인업의 결과로 사건을 보고 있다고 말했습니다. 한 배에 두 명의 선장이 있으면 그런 일이 일어날 수밖에 없다고 네덜란드인은 Viaplay에 말했습니다.",
+      "\"단순히 1번과 2번이 있었다면 그들은 1번과 2번에 그 코너를 통과했을 것이고, 1번과 2번도 마쳤을 것입니다. 아니면 1번과 3번일 수도 있지만 그것도 괜찮습니다. 팀으로서 여전히 좋은 점수를 얻고 있습니다.\"라고 Verstappen은 말했습니다."
+     ],
+     "titleKo": "페라리 충돌에 대한 Max Verstappen : \"나는 두 명의 최고의 드라이버와 계약하지 않을 것입니다\"",
+     "descKo": "페라리 포뮬러 1 팀장 프레데릭 바쇠르(Frederic Vasseur)는 목요일 저녁 상파울루에서 루이스 해밀턴(Lewis Hamilton)과 샤를 르클레르(Charles Leclerc)와 대화를 나누며 공기를 맑게 하기 위해 대화를 나눴지만, 엄청난 금액이…"
+    },
+    {
      "title": "Final Mercedes-Benz SLR McLaren Stirling Moss heads to auction for over $6million",
      "desc": "The final Mercedes-Benz SLR McLaren Stirling Moss to leave the factory is back on the market, with RM Sotheby's valuing the roofless speedster at more than $6million…",
      "link": "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YBVjRG7Y/s6/motorsport-com-graphics-88.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/YBVjRG7Y/s6/motorsport-com-graphics-88.jpg",
      "date": "2026-11-12T00:31:56+00:00",
      "author": "",
      "id": "caa19a3fec",
+     "titleKo": "마지막 메르세데스-벤츠 SLR 맥라렌 스털링 모스가 6백만 달러 이상에 경매에 부쳐집니다.",
+     "descKo": "공장을 떠난 마지막 메르세데스-벤츠 SLR 맥라렌 스털링 모스가 6백만 달러 이상의 가격으로 RM 소더비 경매에 다시 출품되었습니다.",
      "lead": [
       "The final Mercedes-Benz SLR McLaren Stirling Moss to leave the factory is back on the market, with RM Sotheby's valuing the roofless speedster at more than $6million (£4.5million).",
       "The car, chassis number 75, is in the auction house's online Sealed December sale, with bidding open from 25 November until 2 December.",
@@ -1868,18 +1931,18 @@
       "공장을 떠난 마지막 메르세데스-벤츠 SLR 맥라렌 스털링 모스가 시장에 다시 출시되었으며, RM 소더비는 루프가 없는 스피드스터의 가치를 6백만 달러(450만 파운드) 이상으로 평가했습니다.",
       "섀시 번호 75번인 이 차량은 경매 회사의 12월 온라인 비공개 경매에 출품되며, 입찰은 11월 25일부터 12월 2일까지 진행됩니다.",
       "메르세데스와 맥라렌은 2009년 6월부터 2009년 12월 말까지 SLR의 최종 버전으로 스털링 모스 모델 75대를 생산했습니다. 이 모델은 지붕, 앞유리, 측면 창문이 없으며, 650마력의 슈퍼차저 V8 엔진을 탑재해 최고 속도 350km/h를 자랑합니다. 당시 가격은 75만 유로였으며 기존 SLR 소유자에게만 제공되었습니다."
-     ],
-     "titleKo": "마지막 메르세데스-벤츠 SLR 맥라렌 스털링 모스가 6백만 달러 이상에 경매에 부쳐집니다.",
-     "descKo": "공장을 떠난 마지막 메르세데스-벤츠 SLR 맥라렌 스털링 모스가 6백만 달러 이상의 가격으로 RM 소더비 경매에 다시 출품되었습니다."
+     ]
     },
     {
      "title": "George Russell credits Toto Wolff's loyalty for Mercedes' F1 title return: \"Nobody was hired or fired\"",
      "desc": "George Russell says Toto Wolff's refusal to change Mercedes during the difficult years of the ground effect era is a big reason the team is back on top of Formula 1. The Brackley…",
      "link": "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/68VwM3B2/s6/motorsport-com-graphics-94.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/68VwM3B2/s6/motorsport-com-graphics-94.jpg",
      "date": "2026-11-12T00:01:07+00:00",
      "author": "",
      "id": "44db60def3",
+     "titleKo": "조지 러셀, 메르세데스의 F1 타이틀 탈환에 토토 볼프의 충성심을 높이 평가: \"아무도 고용되거나 해고되지 않았다\"",
+     "descKo": "조지 러셀은 토토 볼프가 그라운드 이펙트 시대의 어려운 시기에 메르세데스를 바꾸지 않은 것이 팀이 포뮬러원 정상에 다시 오른 큰 이유라고 말합니다. 브래클리…",
      "lead": [
       "George Russell says Toto Wolff's refusal to change Mercedes during the difficult years of the ground effect era is a big reason the team is back on top of Formula 1.",
       "The Brackley outfit sealed its ninth constructors' title at the Sao Paulo Grand Prix on Sunday, its first since the end of its run of eight in a row in 2021. From 2022 to 2025, it went four seasons with little success as it struggled to overcome the challenges of the ground effect cars.",
@@ -1889,18 +1952,18 @@
       "조지 러셀은 토토 볼프가 그라운드 이펙트 시대의 어려운 시기에 메르세데스를 바꾸지 않은 것이 팀이 포뮬러원 정상에 다시 오른 큰 이유라고 말합니다.",
       "브래클리 팀은 일요일에 열린 상파울루 그랑프리에서 9번째 컨스트럭터 타이틀을 차지했습니다. 이는 2021년에 8연패를 달성한 이후 처음으로 거둔 성과입니다. 2022년부터 2025년까지 4시즌 동안 그라운드 이펙트 머신의 어려움을 극복하는 데 어려움을 겪으며 성과가 저조했습니다.",
       "러셀은 언론과의 인터뷰에서 갑작스러운 성적 하락에도 불구하고 팀이 선수들을 신뢰하고 있다고 밝혔습니다."
-     ],
-     "titleKo": "조지 러셀, 메르세데스의 F1 타이틀 탈환에 토토 볼프의 충성심을 높이 평가: \"아무도 고용되거나 해고되지 않았다\"",
-     "descKo": "조지 러셀은 토토 볼프가 그라운드 이펙트 시대의 어려운 시기에 메르세데스를 바꾸지 않은 것이 팀이 포뮬러원 정상에 다시 오른 큰 이유라고 말합니다. 브래클리…"
+     ]
     },
     {
      "title": "Bruno Senna reveals plans to put Kimi Antonelli behind the wheel of Ayrton Senna's F1 car",
      "desc": "Former Formula 1 driver Bruno Senna says he wants to give Kimi Antonelli the chance to drive one of Ayrton Senna's cars next year, after the 2026 world champion visited the…",
      "link": "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0rVPO5O0/s6/motorsport-com-graphics-87.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/0rVPO5O0/s6/motorsport-com-graphics-87.jpg",
      "date": "2026-11-11T23:55:02+00:00",
      "author": "",
      "id": "7f69d21bc0",
+     "titleKo": "브루노 세나가 키미 안토넬리를 아이르톤 세나의 F1 머신에 태울 계획을 밝히다",
+     "descKo": "전 F1 드라이버인 브루노 세나가 2026년 월드 챔피언이 된 후 내년에 키미 안토넬리에게 아이르톤 세나의 차량 중 한 대를 운전할 기회를 주고 싶다고 밝혔습니다.",
      "lead": [
       "Former Formula 1 driver Bruno Senna says he wants to give Kimi Antonelli the chance to drive one of Ayrton Senna's cars next year, after the 2026 world champion visited the family's estate in Brazil.",
       "Antonelli arrived at the estate days after clinching his maiden F1 championship at the Mexican Grand Prix, becoming the youngest driver in the history of the series to win the title.",
@@ -1910,18 +1973,18 @@
       "전 F1 드라이버인 브루노 세나가 내년 2026년 월드 챔피언이 브라질에 있는 세나 가문의 저택을 방문한 후 키미 안토넬리에게 아일톤 세나의 차량 중 한 대를 운전할 기회를 주고 싶다고 밝혔습니다.",
       "안토넬리는 멕시코 그랑프리에서 첫 F1 챔피언십을 차지한 지 며칠 만에 이 저택에 도착했으며, F1 역사상 최연소로 타이틀을 획득한 드라이버가 되었습니다.",
       "브루노는 F1의 '비욘드 더 그리드' 팟캐스트에서, 루이스가 1986년 삼촌이 탔던 로터스 98T에서 내리기 싫어했다고 말했습니다."
-     ],
-     "titleKo": "브루노 세나가 키미 안토넬리를 아이르톤 세나의 F1 머신에 태울 계획을 밝히다",
-     "descKo": "전 F1 드라이버인 브루노 세나가 2026년 월드 챔피언이 된 후 내년에 키미 안토넬리에게 아이르톤 세나의 차량 중 한 대를 운전할 기회를 주고 싶다고 밝혔습니다."
+     ]
     },
     {
      "title": "Max Verstappen questions Ferrari’s decision to let Lewis Hamilton and Charles Leclerc race freely",
      "desc": "Following his impressive win at Autodromo Hermanos Rodriguez, Max Verstappen said he would never put two number one drivers together if he were a team principal of Ferrari. He…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-questions-ferraris-decision-to-let-lewis-hamilton-and-charles-leclerc-race-freely/10873971/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6zoD83j0/s6/motorsport-com-graphics-93-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/6zoD83j0/s6/motorsport-com-graphics-93-2.jpg",
      "date": "2026-11-11T23:48:50+00:00",
      "author": "",
      "id": "570bb32d5c",
+     "titleKo": "맥스 페르스타펜, 루이스 해밀턴과 샤를 르클레르의 자유로운 레이싱을 허용한 페라리의 결정에 의문을 제기",
+     "descKo": "아우토드로모 에르마노스 로드리게스 서킷에서 인상적인 우승을 거둔 후, 막스 페르스타펜은 자신이 페라리의 팀 대표라면 두 명의 1번 드라이버를 한 팀에 두지 않을 것이라고 말했습니다. 그는...",
      "lead": [
       "Following his impressive win at Autodromo Hermanos Rodriguez, Max Verstappen said he would never put two number one drivers together if he were a team principal of Ferrari . He believes the battle between Lewis Hamilton and Charles Leclerc gifted him the win in Mexico.",
       "The Ferrari pair fought hard on the opening lap at the Mexico City Grand Prix, and Verstappen took advantage of the clash, winning the race, with Hamilton second and Leclerc fourth after a time penalty.",
@@ -1931,15 +1994,13 @@
       "멕시코시티 서킷(Autodromo Hermanos Rodriguez)에서 인상적인 우승을 거둔 후, 맥스 페르스타펜은 자신이 페라리 팀 대표라면 결코 두 명의 1번 드라이버를 한 팀에 두지 않을 것이라고 말했습니다. 그는 루이스 해밀턴과 샤를 르클레르의 대결이 자신에게 멕시코 그랑프리 우승을 안겨줬다고 생각합니다.",
       "페라리 듀오는 멕시코시티 그랑프리 첫 번째 랩에서 치열한 접전을 펼쳤고, 페르스타펜은 이 충돌을 틈타 우승을 차지했으며, 해밀턴은 2위, 르클레르는 타임 페널티로 인해 4위를 기록했습니다.",
       "상파울루 그랑프리 주말 동안 비아플레이(Viaplay)가 이에 대해 질문하자, 네덜란드 출신의 베르스타펜은 이 상황을 피할 수 있었을 것이라고 답했습니다."
-     ],
-     "titleKo": "맥스 페르스타펜, 루이스 해밀턴과 샤를 르클레르의 자유로운 레이싱을 허용한 페라리의 결정에 의문을 제기",
-     "descKo": "아우토드로모 에르마노스 로드리게스 서킷에서 인상적인 우승을 거둔 후, 막스 페르스타펜은 자신이 페라리의 팀 대표라면 두 명의 1번 드라이버를 한 팀에 두지 않을 것이라고 말했습니다. 그는..."
+     ]
     },
     {
      "title": "Lewis Hamilton loses most marketable athlete crown as Charles Leclerc moves ahead",
      "desc": "Lewis Hamilton has lost his place at the top of sport's marketability rankings, and has slipped behind his own Ferrari team-mate too. The seven-time world champion topped…",
      "link": "https://www.motorsport.com/f1/news/lewis-hamilton-loses-most-marketable-athlete-crown-as-charles-leclerc-moves-ahead/10873959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0Lde3Qg0/s6/motorsport-com-graphics-92-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/0Lde3Qg0/s6/motorsport-com-graphics-92-2.jpg",
      "date": "2026-11-11T21:14:59+00:00",
      "author": "",
      "id": "295e1e5f2a",
@@ -1960,7 +2021,7 @@
      "title": "Kimi Antonelli keeps F1 title promise with Italian flag hair at Mercedes factory",
      "desc": "Kimi Antonelli has kept his word. Mercedes' new world champion arrived at the team's Brackley factory this week with his hair dyed green, white and red, the colours of the Italian…",
      "link": "https://www.motorsport.com/f1/news/kimi-antonelli-keeps-f1-title-promise-with-italian-flag-hair-at-mercedes-factory/10873952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6Alv9kGY/s6/motorsport-com-graphics-91.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/6Alv9kGY/s6/motorsport-com-graphics-91.jpg",
      "date": "2026-11-11T20:55:48+00:00",
      "author": "",
      "id": "fda5f8d1b8",
@@ -1976,69 +2037,6 @@
       "메르세데스는 수요일 소셜 미디어에 안토넬리가 팀원들을 만나 웃음을 터뜨리는 모습을 담은 영상을 올렸고, 토토 울프와 조지 러셀도 그의 새로운 모습을 보고 웃고 있었다.",
       "메르세데스는 게시물에 \"키미가 해냈다. 그는 실제로 해냈다\"고 썼다."
      ]
-    },
-    {
-     "title": "Mercedes explains \"unusual\" car behaviour behind Kimi Antonelli's costly Interlagos spin",
-     "desc": "Mercedes deputy team principal Bradley Lord has provided an explanation for several spins that occurred for the Silver Arrows in Formula 1's Brazilian Grand Prix. In his first…",
-     "link": "https://www.motorsport.com/f1/news/mercedes-explains-unusual-car-behaviour-behind-kimi-antonellis-costly-brazil-spin/10873891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/2eZx8jKY/s6/andrea-kimi-antonelli-mercedes.jpg",
-     "date": "2026-11-11T16:00:58+00:00",
-     "author": "",
-     "id": "62dc7f514b",
-     "titleKo": "Mercedes는 Kimi Antonelli의 값비싼 Interlagos 스핀 뒤에 있는 \"비정상적인\" 자동차 행동을 설명합니다.",
-     "descKo": "Mercedes 부팀장 Bradley Lord는 Formula 1의 브라질 그랑프리에서 Silver Arrows에 발생한 여러 스핀에 대해 설명을 제공했습니다. 그의 첫 번째에서…",
-     "lead": [
-      "Mercedes deputy team principal Bradley Lord has provided an explanation for several spins that occurred for the Silver Arrows in Formula 1's Brazilian Grand Prix.",
-      "In his first event since his maiden title was confirmed in Mexico, Kimi Antonelli looked set to capitalise on a poor start by polesitter Lando Norris to snatch the lead from second on the grid, building up a comfortable buffer over the first 15 laps of a wet-dry-wet race.",
-      "But after changing from worn intermediates to slicks on lap 18, in response to Norris' stop one lap prior, Antonelli began reporting puzzling suspension issues, feeling like his W17 was pulling to one side. Two laps later Antonelli went off in Turn 1 as his car's rear end suddenly snapped under braking, spitting Antonelli out into the run-off area."
-     ],
-     "leadKo": [
-      "Mercedes 부팀장 Bradley Lord는 Formula 1의 브라질 그랑프리에서 Silver Arrows에 발생한 여러 스핀에 대해 설명을 제공했습니다.",
-      "멕시코에서 첫 타이틀이 확정된 이후 첫 번째 이벤트에서 키미 안토넬리(Kimi Antonelli)는 폴시터 Lando Norris의 부진한 출발을 활용하여 그리드의 2위에서 선두를 빼앗고 습식-건식-습식 레이스의 첫 15랩 동안 편안한 완충 장치를 구축할 것으로 보였습니다.",
-      "그러나 랩 18에서 마모된 중간체에서 슬릭으로 변경한 후, Norris가 한 랩 전에 정지한 것에 대한 반응으로 Antonelli는 자신의 W17이 한쪽으로 당기는 것처럼 느껴지면서 수수께끼의 서스펜션 문제를 보고하기 시작했습니다. 2 바퀴 뒤 Antonelli는 1번 코너에서 브레이크를 밟았을 때 차의 뒷부분이 갑자기 찰칵 소리를 내며 Antonelli를 이탈 구역으로 내뱉으면서 출발했습니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen explains why he’s so good in the rain in Brazil",
-     "desc": "Max Verstappen has delved into what gives him such racecraft when it rains in Sao Paulo, after another remarkable drive in Formula 1’s Brazilian Grand Prix. Among tracks that have…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-explains-why-hes-so-good-in-the-rain-in-brazil/10873830/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YP748ne2/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-11-11T12:23:42+00:00",
-     "author": "",
-     "id": "0ea5c7a0ba",
-     "titleKo": "Max Verstappen이 브라질에서 비가 올 때 그토록 뛰어난 이유를 설명합니다.",
-     "descKo": "Max Verstappen은 Formula 1의 브라질 그랑프리에서 또 한 번의 놀라운 드라이브를 마친 후 상파울루에 비가 올 때 그와 같은 경주용 자동차를 만드는 이유를 탐구했습니다. 다음과 같은 트랙 중…",
-     "lead": [
-      "Max Verstappen has delved into what gives him such racecraft when it rains in Sao Paulo, after another remarkable drive in Formula 1’s Brazilian Grand Prix.",
-      "Among tracks that have been on the calendar since the beginning of his career, Verstappen has his highest podium-finishing rate at Interlagos – and Austin – with eight top-three results in 11 races.",
-      "Three of these were starring wet-weather drives at Autodromo Jose Carlos Pace. Back in 2016, as an 18-year-old sophomore, Verstappen found a way past Kimi Raikkonen ’s Ferrari as early as Turn 1 when the green flag was finally waved after seven laps behind the safety car; he went on to perform a superb around-the-outside move on eventual champion Nico Rosberg in Curva do Sol."
-     ],
-     "leadKo": [
-      "Max Verstappen은 Formula 1의 브라질 그랑프리에서 또 한 번의 놀라운 드라이브를 마친 후 상파울루에 비가 올 때 그와 같은 경주용 자동차를 만드는 이유를 탐구했습니다.",
-      "경력 초기부터 일정에 포함된 트랙 중 Verstappen은 Interlagos와 Austin에서 11개 레이스에서 8개의 상위 3위 안에 드는 가장 높은 포디움 완주율을 기록했습니다.",
-      "이들 중 3개는 Autodromo Jose Carlos Pace에서 습한 날씨에 운전을 하고 있었습니다. 2016년, 18세 2학년이었던 Verstappen은 안전 차량 뒤에서 7바퀴를 돌고 마침내 녹색 깃발이 흔들린 1턴에 이미 Kimi Raikkonen의 Ferrari를 지나칠 수 있는 길을 찾았습니다. 그는 계속해서 Curva do Sol에서 최종 챔피언인 Nico Rosberg를 상대로 뛰어난 주변 움직임을 보여주었습니다."
-     ]
-    },
-    {
-     "title": "Andrea Stella wants McLaren to \"finally\" make peace with Las Vegas",
-     "desc": "Andrea Stella says McLaren is aiming to finally make \"peace\" with what has historically been a difficult race for the team in Las Vegas. The Sao Paulo Grand Prix was a successful…",
-     "link": "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YK15xn10/s6/motorsport-com-graphics-89-2.jpg",
-     "date": "2026-11-11T11:18:24+00:00",
-     "author": "",
-     "id": "c57780cab2",
-     "titleKo": "안드레아 스텔라(Andrea Stella)는 맥라렌이 \"마지막으로\" 라스베거스와 화해하길 원합니다.",
-     "descKo": "Andrea Stella는 McLaren이 역사적으로 라스베거스에서 팀에게 어려운 경주였던 경주를 마침내 \"평화\"시키는 것을 목표로 하고 있다고 말했습니다. 상파울루 그랑프리 성공적…",
-     "lead": [
-      "Andrea Stella says McLaren is aiming to finally make \"peace\" with what has historically been a difficult race for the team in Las Vegas.",
-      "The Sao Paulo Grand Prix was a successful weekend for McLaren, with Lando Norris showing a dominant level of performance with his third win of the season, and team-mate Oscar Piastri showing a strong uptick in pace.",
-      "Las Vegas is usually a very different beast for teams, with the circuit boasting the cold temperatures of a late evening in Nevada. But McLaren enjoyed the cold and wet weekend Brazil offered, with the MCL40 being able to control its tyre temperatures."
-     ],
-     "leadKo": [
-      "Andrea Stella는 McLaren이 역사적으로 라스베거스에서 팀에게 어려운 경주였던 경주를 마침내 \"평화\"시키는 것을 목표로 하고 있다고 말했습니다.",
-      "상파울루 그랑프리는 McLaren에게 성공적인 주말이었습니다. Lando Norris는 시즌 세 번째 우승을 차지하며 압도적인 수준의 경기력을 보여줬고, 팀 동료인 Oscar Piastri는 강력한 속도 상승세를 보여줬습니다.",
-      "라스베가스는 일반적으로 팀에게는 매우 다른 짐승이며 서킷은 네바다의 늦은 저녁 추운 기온을 자랑합니다. 그러나 McLaren은 타이어 온도를 조절할 수 있는 MCL40 덕분에 브라질이 제공하는 춥고 습한 주말을 즐겼습니다."
-     ]
     }
    ]
   },
@@ -2046,6 +2044,48 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "Russell launches fully-funded new karting academy",
+     "desc": "Mercedes driver launches the GR63 Karting Academy to uncover young talent",
+     "link": "https://www.the-race.com/extra/russell-launches-karting-academy-to-find-next-generation-of-talent/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/ef265f93-5a8d-3d01-35f8-d53b568c07d0--1-.jpeg",
+     "date": "2026-11-12T09:35:42+00:00",
+     "author": "Fleur Mealing",
+     "id": "1a3b911b2f",
+     "lead": [
+      "Mercedes Formula 1 driver George Russell has launched a new karting academy at Silverstone aimed at developing the next generation of motorsport talent, with 25 young drivers set to receive a fully funded championship opportunity in 2027.",
+      "The GR63 Karting Academy will be open to boys and girls aged eight and nine, with Russell hoping to provide a route into motorsport for talented youngsters who might otherwise be held back by the financial demands of the sport.",
+      "Based at Silverstone's karting circuit, the initiative will run across four stages, beginning with open-access qualifying sessions in December 2026."
+     ],
+     "leadKo": [
+      "메르세데스 포뮬러 1(Mercedes Formula 1) 드라이버 조지 러셀(George Russell)은 차세대 모터스포츠 재능 개발을 목표로 실버스톤에 새로운 카트 아카데미를 개설했으며, 25명의 젊은 드라이버가 2027년에 전액 지원을 받아 챔피언십 기회를 받을 예정입니다.",
+      "GR63 카트 아카데미(GR63 Karting Academy)는 8세와 9세의 소년 소녀들에게 열려 있으며, 러셀은 스포츠의 재정적 수요로 인해 제약을 받을 수 있는 재능 있는 젊은이들에게 모터스포츠에 입문할 수 있는 길을 제공하기를 희망하고 있습니다.",
+      "Silverstone의 카트 서킷을 기반으로 하는 이 계획은 2026년 12월 공개 액세스 적격 세션을 시작으로 4단계에 걸쳐 실행됩니다."
+     ],
+     "titleKo": "러셀, 전액 자금을 지원받는 새로운 카트 아카데미 출범",
+     "descKo": "메르세데스 드라이버, 젊은 인재 발굴을 위해 GR63 카트 아카데미 출범"
+    },
+    {
+     "title": "Why Mercedes cannot dominate F1's new era",
+     "desc": "The start of an F1 rules cycle usually offers clues about what will follow. While Mercedes wrapped these titles up with ease, don't expect a repeat",
+     "link": "https://www.the-race.com/formula-1/what-will-stop-this-being-an-era-of-mercedes-f1-domination/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1436943_HiRes.jpg",
+     "date": "2026-11-12T09:19:02+00:00",
+     "author": "Jon Noble",
+     "id": "406cd73d74",
+     "lead": [
+      "They say history doesn't repeat itself, but it often rhymes. And that applies to Formula 1 as well.",
+      "The start of new-rules eras have often been hugely indicative of what is to come, as the trends of the inaugural season lay down the story of future years.",
+      "If we do some comparisons of the first years of the most recent major rules-change eras, we can see how the comparisons between the first and second half of each of those seasons gave us a hint of what was to come in the following campaigns."
+     ],
+     "leadKo": [
+      "역사는 반복되지 않는다고 말하지만 운율이 맞는 경우가 많습니다. 이는 Formula 1에도 적용됩니다.",
+      "새로운 규칙 시대의 시작은 첫 번째 시즌의 추세가 미래의 이야기를 제시하기 때문에 앞으로 다가올 일을 크게 시사하는 경우가 많습니다.",
+      "가장 최근의 주요 규칙 변경 시대의 첫 해를 비교하면 각 시즌의 전반부와 후반부를 비교하여 다음 캠페인에 어떤 일이 일어날지에 대한 힌트를 얻을 수 있음을 알 수 있습니다."
+     ],
+     "titleKo": "메르세데스가 F1의 새로운 시대를 지배할 수 없는 이유",
+     "descKo": "F1 규칙 주기의 시작은 일반적으로 다음에 나올 내용에 대한 단서를 제공합니다. Mercedes는 이러한 타이틀을 쉽게 마무리했지만 반복을 기대하지 마십시오."
+    },
     {
      "title": "Hamilton loses 'most marketable athlete' status in 2026",
      "desc": "Lewis Hamilton has dropped down SportsPro's marketable athlete rankings - with Charles Leclerc now the F1 leader there",
@@ -2191,48 +2231,6 @@
       "랜도 노리스(Lando Norris)가 끔찍한 판단력을 발휘하며 첫 포뮬러 1 우승을 포기한 2021년 소치 러시아 그랑프리를 기억하시나요?",
       "그렇게 한다면 그 기억은 왜곡됩니다. 왜냐하면 그날 일어난 일은 확실히 McLaren의 약점을 드러냈지만 Norris가 한 일은 실제로 그의 젖은 노면에서의 기술의 예이기 때문입니다.",
       "Norris가 폴 포지션에서 브라질 GP에서 우승했을 때 그 경주가 떠올랐습니다. 이는 그가 그러한 조건에서 얼마나 성취했는지를 모든 사람에게 상기시키기 위한 것이었습니다. George Russell이 그의 마지막 Q3 랩에서 Alex Albon의 형태로 교통 체증을 쳤고 초기 리더 Kimi Antonelli가 경주에서 어려움을 겪는 등 약간의 행운이 있었지만 이는 그러한 상황에서 Norris의 기교와 적응성을 상기시켜주었습니다."
-     ]
-    },
-    {
-     "title": "Did Red Bull car problems cost Verstappen Brazilian GP victory?",
-     "desc": "Should Max Verstappen's 21st to second Brazilian GP charge actually have ended with victory?",
-     "link": "https://www.the-race.com/formula-1/did-red-bull-car-problems-cost-verstappen-brazilian-gp-victory/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453679_HiRes.jpg",
-     "date": "2026-11-09T19:01:33+00:00",
-     "author": "Josh Suttill",
-     "id": "8afb184a49",
-     "titleKo": "Red Bull 자동차 문제로 인해 Verstappen 브라질 GP의 승리가 희생되었습니까?",
-     "descKo": "Max Verstappen의 21~2번째 브라질 GP 차지가 실제로 승리로 끝났어야 합니까?",
-     "lead": [
-      "Given that a flying Max Verstappen suddenly struggled with \"an extreme amount of oversteer\" after switching to slicks, did Red Bull car problems cost him the win at Formula 1's Brazilian Grand Prix?",
-      "Verstappen was baffled after the race as to why his RB22 felt so different from his charging opening laps - where he'd cut through the field from 21st on the grid to the top five in fewer than 15 laps.",
-      "\"It was a challenging race,\" Verstappen said straight after the finish. \"The first few laps were very important. I overtook a lot of cars, and actually that first stint on the Inters was really, really strong."
-     ],
-     "leadKo": [
-      "날아다니는 Max Verstappen이 슬릭으로 전환한 후 갑자기 \"극도의 오버스티어\"로 어려움을 겪었다는 점을 고려하면 Red Bull 자동차 문제로 인해 Formula 1의 브라질 그랑프리에서 우승할 수 없었을까요?",
-      "Verstappen은 레이스가 끝난 후 자신의 RB22가 자신의 돌진 오프닝 랩과 왜 그렇게 다른지 궁금해했습니다. 여기서 그는 그리드의 21위에서 15랩도 채 안되는 시간에 상위 5위까지 필드를 통과했습니다.",
-      "Verstappen은 경기가 끝난 후 \"힘든 경주였습니다.\"라고 말했습니다. \"처음 몇 바퀴는 매우 중요했습니다. 저는 많은 차를 추월했는데 실제로 Inters에서의 첫 번째 구간은 정말 정말 강했습니다."
-     ]
-    },
-    {
-     "title": "Edd Straw's F1 2026 Brazilian Grand Prix driver rankings",
-     "desc": "A thrilling Brazilian GP in mixed conditions gave plenty of opportunities for F1 drivers to produce S-tier heroics or F-tier mistakes",
-     "link": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-tier-list-driver-rankings-edd-straw/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453937_HiRes.jpg",
-     "date": "2026-11-09T15:53:24+00:00",
-     "author": "Edd Straw",
-     "id": "1fce3b042d",
-     "titleKo": "Edd Straw의 F1 2026 브라질 그랑프리 티어 목록 드라이버 순위",
-     "descKo": "혼합된 조건에서 스릴 넘치는 브라질 GP는 F1 드라이버에게 S급 영웅이나 F급 실수를 저지를 수 있는 많은 기회를 제공했습니다.",
-     "lead": [
-      "A thrilling Brazilian Grand Prix in mixed conditions gave plenty of opportunities for Formula 1 drivers to produce heroics.",
-      "But who stood out, for the right and the wrong reasons?",
-      "Here's how the field stacked up on Edd Straw's new tier list Formula 1 driver rankings format."
-     ],
-     "leadKo": [
-      "혼합된 환경에서 진행된 스릴 넘치는 브라질 그랑프리는 Formula 1 드라이버들에게 영웅적인 모습을 보여줄 수 있는 많은 기회를 제공했습니다.",
-      "하지만 옳고 그른 이유로 눈에 띄는 사람은 누구였습니까?",
-      "Edd Straw의 새로운 계층 목록 Formula 1 드라이버 순위 형식에 해당 필드가 어떻게 쌓였는지는 다음과 같습니다."
      ]
     }
    ]
@@ -2437,6 +2435,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Wet Track, Slick Tyres, INSANE Control From Colapinto 👏",
+     "desc": "Franco raced his team mate to the pits to lead an Alpine double-stack as the rain fell in Sao Paulo.",
+     "link": "https://www.youtube.com/watch?v=lDMmPqnV_iA",
+     "image": "https://i.ytimg.com/vi/lDMmPqnV_iA/hqdefault.jpg",
+     "date": "2026-11-11T23:30:46+00:00",
+     "author": "FORMULA 1",
+     "videoId": "lDMmPqnV_iA",
+     "id": "acdd556e67",
+     "titleKo": "젖은 트랙, 매끄러운 타이어, Colapinto의 미친 제어 👏",
+     "descKo": ""
+    },
+    {
      "title": "Mercedes' Remarkable 19 Podiums In A Row 🔥",
      "desc": "The team had taken to the podium at every race in 2026 up until the Brazilian Grand Prix.",
      "link": "https://www.youtube.com/watch?v=1aqEt_Bo0eQ",
@@ -2530,18 +2540,6 @@
      "videoId": "_09gPxeE_gc",
      "id": "29518a9361",
      "titleKo": "탑 10 기내 | 2026 상파울루 그랑프리 | 카타르 항공",
-     "descKo": ""
-    },
-    {
-     "title": "Hamilton Recreates Verstappen Moment 10 Years Later! 🔄",
-     "desc": "Lewis' Sao Paulo spin was a near-perfect recreation of Max's at the same spot a decade ago.",
-     "link": "https://www.youtube.com/watch?v=b57h8iRF4ys",
-     "image": "https://i.ytimg.com/vi/b57h8iRF4ys/hqdefault.jpg",
-     "date": "2026-11-09T19:00:08+00:00",
-     "author": "FORMULA 1",
-     "videoId": "b57h8iRF4ys",
-     "id": "e89401cfdb",
-     "titleKo": "해밀턴, 10년 후 베르스타펜의 순간을 재현하다! 🔄",
      "descKo": ""
     }
    ]
