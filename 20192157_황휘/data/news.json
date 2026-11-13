@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:29:52+00:00",
+ "updated": "2026-11-13T22:40:58+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -1850,13 +1850,78 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "James Allison reveals the \"very adventurous\" trick behind Kimi Antonelli's F1 title",
+     "desc": "Mercedes technical director James Allison has explained how Kimi Antonelli's bold use of the tools on his steering wheel helped him become Formula 1's youngest world champion. The…",
+     "link": "https://www.motorsport.com/f1/news/james-allison-reveals-the-very-adventurous-trick-behind-kimi-antonellis-f1-title/10874402/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/0R7BEmE2/s6/motorsport-com-graphics-2026-1.jpg",
+     "date": "2026-11-13T21:56:05+00:00",
+     "author": "",
+     "id": "35d9b31cd0",
+     "lead": [
+      "Mercedes technical director James Allison has explained how Kimi Antonelli's bold use of the tools on his steering wheel helped him become Formula 1's youngest world champion.",
+      "The Italian driver secured the 2026 title at the Mexican Grand Prix at the age of 20, in only his second season in F1, and has won nine grands prix so far this year.",
+      "Speaking on the NU Silver Arrows Radio Show , Allison said Antonelli was \"very, very agile\" in how he uses brake migration, which changes how the braking force is shared between the front and rear of the car as a corner unfolds, and the differential."
+     ],
+     "leadKo": [
+      "Mercedes 기술 디렉터인 James Allison은 키미 안토넬리(Kimi Antonelli)가 스티어링 휠에 있는 도구를 대담하게 사용하여 Formula 1의 최연소 세계 챔피언이 되는 데 어떻게 도움이 되었는지 설명했습니다.",
+      "이 이탈리아 드라이버는 F1에서 두 번째 시즌인 20세의 나이로 멕시코 그랑프리에서 2026년 타이틀을 획득했으며 올해 지금까지 9번의 그랑프리에서 우승했습니다.",
+      "NU Silver Arrows 라디오 쇼에서 Allison은 Antonelli가 브레이크 이동을 사용하는 방식에 있어 \"매우 매우 민첩하다\"고 말했습니다. 이는 코너가 펼쳐질 때 자동차의 전면과 후면 사이에 제동력이 공유되는 방식과 차동 장치를 변경합니다."
+     ],
+     "titleKo": "제임스 앨리슨(James Allison)이 키미 안토넬리(Kimi Antonelli)의 F1 타이틀 뒤에 숨겨진 \"매우 모험적인\" 비결을 밝힙니다.",
+     "descKo": "Mercedes 기술 디렉터인 James Allison은 키미 안토넬리(Kimi Antonelli)가 스티어링 휠에 있는 도구를 대담하게 사용하여 Formula 1의 최연소 세계 챔피언이 되는 데 어떻게 도움이 되었는지 설명했습니다. 그만큼…"
+    },
+    {
+     "title": "Guenther Steiner suggests Mark Webber became too involved in Oscar Piastri’s career",
+     "desc": "Former Haas Formula 1 team principal Guenther Steiner believes Mark Webber may have become too involved in Oscar Piastri’s career in the second half of 2025, before the McLaren…",
+     "link": "https://www.motorsport.com/f1/news/guenther-steiner-suggests-mark-webber-became-too-involved-in-oscar-piastris-career/10874383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/6zoD8dL0/s6/motorsport-com-graphics-2026-1.jpg",
+     "date": "2026-11-13T17:20:10+00:00",
+     "author": "",
+     "id": "53de82edaa",
+     "lead": [
+      "Former Haas Formula 1 team principal Guenther Steiner believes Mark Webber may have become too involved in Oscar Piastri ’s career in the second half of 2025, before the McLaren driver decided he wanted to “do this on my own”.",
+      "Piastri and Webber announced after the São Paulo Grand Prix that they had mutually agreed to end their management agreement, which began in 2019 and saw the Australian rise through Formula 3 and Formula 2 to a McLaren race seat.",
+      "Webber had already scaled back his role this year and stopped attending races alongside Piastri."
+     ],
+     "leadKo": [
+      "전 Haas Formula 1 팀장인 Guenther Steiner는 Mark Webber가 McLaren 드라이버가 \"내 스스로 이 일을 하고 싶다\"고 결정하기 전에 2025년 하반기에 Oscar Piastri의 경력에 ​​너무 관여했을 수도 있다고 믿습니다.",
+      "Piatri와 Webber는 상파울루 그랑프리 이후 2019년에 시작된 관리 계약을 종료하기로 상호 합의했다고 발표했습니다. 이 계약은 호주가 Formula 3와 Formula 2를 통해 McLaren 레이스 좌석으로 부상하는 것을 보았습니다.",
+      "Webber는 올해 이미 자신의 역할을 축소했으며 Piastri와 함께 경주에 참석하는 것을 중단했습니다."
+     ],
+     "titleKo": "Guenther Steiner는 Mark Webber가 Oscar Piastri의 경력에 ​​너무 관여했다고 제안합니다.",
+     "descKo": "전 Haas Formula 1 팀장인 Guenther Steiner는 Mark Webber가 McLaren이 출시되기 전인 2025년 하반기에 Oscar Piastri의 경력에 ​​너무 관여했을 수도 있다고 믿습니다."
+    },
+    {
+     "title": "“I was getting beat up” – How Daniel Ricciardo burned out on ‘humiliating’ F1 return",
+     "desc": "As Daniel Ricciardo joined the Beyond The Grid podcast last month, he sounded more grounded, almost wiser. Two years away from Formula 1’s limelight have provided the Australian…",
+     "link": "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/27vEn7m0/s6/daniel-ricciardo-rb-f1-team.jpg",
+     "date": "2026-11-13T17:06:56+00:00",
+     "author": "",
+     "id": "0671b80596",
+     "lead": [
+      "As Daniel Ricciardo joined the Beyond The Grid podcast last month, he sounded more grounded, almost wiser. Two years away from Formula 1’s limelight have provided the Australian with the time he required for introspection, allowing him to view his final years in the championship from a new angle.",
+      "Those final years were a struggle. After losing his McLaren seat, Ricciardo returned to his old Faenza team with a view to make a Red Bull comeback – to no avail. He never found his long-lost performance again, having previously experienced a bruising time in Woking. His shock Italian Grand Prix victory hardly distracts from the fact that, other than that, he never finished on the podium in his final 70 races.",
+      "While his F1 adventure did not wind up on his own terms – with Red Bull deciding that youngster Liam Lawson was the way to go for the second RB seat – Ricciardo has grown aware, even persuading himself that he wasn’t ready to retire, that he no longer was in the right state of mind for racing."
+     ],
+     "leadKo": [
+      "Daniel Ricciardo가 지난달 Beyond The Grid 팟캐스트에 합류하면서 그의 목소리는 더욱 현실감 있고 거의 현명해졌습니다. 포뮬러 1의 각광을 받은 지 2년이 지난 지금 이 호주 선수는 자기 성찰에 필요한 시간을 갖게 되었고, 챔피언십에서의 마지막 해를 새로운 각도에서 바라볼 수 있게 되었습니다.",
+      "그 마지막 몇 년은 투쟁이었습니다. McLaren 자리를 잃은 Ricciardo는 Red Bull의 복귀를 목표로 이전 Faenza 팀으로 돌아왔지만 소용이 없었습니다. 그는 이전에 Woking에서 멍든 시간을 경험했기 때문에 오랫동안 잃어버린 공연을 다시는 찾지 못했습니다. 그의 충격적인 이탈리아 그랑프리 우승은 그 외에는 그가 마지막 70번의 레이스에서 시상대에 오르지 못했다는 사실을 쉽게 알 수 있습니다.",
+      "그의 F1 모험은 자신의 뜻대로 끝나지 않았지만(Red Bull은 어린 Liam Lawson이 두 번째 RB 자리를 차지할 방법이라고 결정했습니다) Ricciardo는 자신이 은퇴할 준비가 되지 않았으며 더 이상 경주에 적합한 정신 상태에 있지 않다는 것을 깨닫고 스스로를 설득하기도 했습니다."
+     ],
+     "titleKo": "“나는 두들겨 맞았습니다.” – Daniel Ricciardo가 F1 복귀에 대한 '치욕적인' 일로 어떻게 지쳤는가",
+     "descKo": "Daniel Ricciardo가 지난달 Beyond The Grid 팟캐스트에 합류하면서 그의 목소리는 더욱 현실감 있고 거의 현명해졌습니다. 포뮬러 1이 각광을 받은 지 2년이 지난 후 호주는…"
+    },
+    {
      "title": "Damon Hill: Ferrari has a “political problem” as Lewis Hamilton “rebuilt himself”",
      "desc": "Ferrari team principal Fred Vasseur recently insisted that Lewis Hamilton and Charles Leclerc \"left my room joking together\" following a private meeting in Brazil to clear the…",
      "link": "https://www.motorsport.com/f1/news/damon-hill-ferrari-has-a-political-problem-as-lewis-hamilton-rebuilt-himself-after-abu-dhabi-202/10874278/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YBVjRDMY/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/YBVjRDMY/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-13T16:25:05+00:00",
      "author": "",
      "id": "0e1792a05a",
+     "titleKo": "데이먼 힐: 루이스 해밀턴이 \"자신을 재건\"하면서 페라리가 \"정치적 문제\"에 직면",
+     "descKo": "페라리 팀 대표인 프레드 바서(Fred Vasseur)는 최근 브라질에서 열린 비공개 회동에서 루이스 해밀턴과 샤를 르클레르가 \"함께 농담을 주고받으며 제 방을 나갔다\"고 강조하며...",
      "lead": [
       "Ferrari team principal Fred Vasseur recently insisted that Lewis Hamilton and Charles Leclerc \"left my room joking together\" following a private meeting in Brazil to clear the air. But 1996 Formula 1 champion Damon Hill is not buying the sudden harmony at Maranello.",
       "According to Hill, the Scuderia is actively masking a rift. Analysing the fallout from the recent triple-header, Hill pointed to a growing divide behind the scenes at Ferrari. He believes that, rather than working as a unified front, the team is splitting its loyalties.",
@@ -1866,9 +1931,7 @@
       "페라리 팀 대표인 프레드 바쇠르는 최근 브라질에서 열린 비공개 회동에서 루이스 해밀턴과 샤를 르클레르가 \"서로 농담을 주고받으며 제 방을 나갔다\"고 강조했습니다. 하지만 1996년 포뮬러원 챔피언 데이먼 힐은 마라넬로에서 갑자기 생긴 화합을 믿지 않습니다.",
       "힐에 따르면, 스쿠데리아는 갈등을 적극적으로 숨기고 있습니다. 최근 3연전의 여파를 분석한 힐은 페라리 내부에서 갈등이 심화되고 있음을 지적했습니다. 그는 팀이 단합된 전선으로 활동하기보다는 충성심이 분열되고 있다고 생각합니다.",
       "힐은 스카이 스포츠 F1과의 인터뷰에서 \"팀 내에 정치적 문제가 있기 때문에 이를 해결해야 한다\"고 밝혔습니다. \"제 생각에는 팀 내부에 한쪽 편을 지지하는 파벌과 다른 쪽 편을 지지하는 파벌이 있는 것 같습니다.\""
-     ],
-     "titleKo": "데이먼 힐: 루이스 해밀턴이 \"자신을 재건\"하면서 페라리가 \"정치적 문제\"에 직면",
-     "descKo": "페라리 팀 대표인 프레드 바서(Fred Vasseur)는 최근 브라질에서 열린 비공개 회동에서 루이스 해밀턴과 샤를 르클레르가 \"함께 농담을 주고받으며 제 방을 나갔다\"고 강조하며..."
+     ]
     },
     {
      "title": "Las Vegas GP reveals neon sign-inspired trophy design",
@@ -1878,6 +1941,8 @@
      "date": "2026-11-13T16:09:45+00:00",
      "author": "",
      "id": "fc79e07f92",
+     "titleKo": "라스베이거스 GP, 네온사인에서 영감을 받은 트로피 디자인 공개",
+     "descKo": "라스베이거스 그랑프리가 다음 주말에 열리는 포뮬러원(F1) 라운드를 위해 도시와 네온사인에서 영감을 받은 새로운 트로피 디자인을 공개했습니다. 3.6kg, 높이 56cm의 우승 트로피는...",
      "lead": [
       "The Las Vegas Grand Prix has unveiled a new trophy design for next weekend’s Formula 1 round, inspired by the city and its neon lights.",
       "The 3.6kg, 56cm-tall winners’ trophy took six months to develop and build and emulates the neon signs synonymous with the Las Vegas strip that the circuit is based around.",
@@ -1887,18 +1952,18 @@
       "라스베이거스 그랑프리가 다음 주말에 열리는 포뮬러원(F1) 라운드를 맞아 도시와 네온사인에서 영감을 받은 새로운 트로피 디자인을 공개했습니다.",
       "3.6kg, 높이 56cm의 우승 트로피는 개발 및 제작에 6개월이 소요되었으며, 서킷이 위치한 라스베이거스 스트립의 상징인 네온사인에서 영감을 받았습니다.",
       "이 트로피에는 122개의 조명이 들어있으며, 네바다주 라스베이거스만의 독특한 디자인으로 수상자에게 '조명 속에서 자신의 이름을 보는 것'에 새로운 의미를 부여합니다."
-     ],
-     "titleKo": "라스베이거스 GP, 네온사인에서 영감을 받은 트로피 디자인 공개",
-     "descKo": "라스베이거스 그랑프리가 다음 주말에 열리는 포뮬러원(F1) 라운드를 위해 도시와 네온사인에서 영감을 받은 새로운 트로피 디자인을 공개했습니다. 3.6kg, 높이 56cm의 우승 트로피는..."
+     ]
     },
     {
      "title": "Mercedes could only gamble on Kimi Antonelli because of George Russell, Toto Wolff told staff",
      "desc": "Mercedes would not have been able to take the risk of promoting Kimi Antonelli without already having George Russell, according to a message Toto Wolff sent to the entire team.…",
      "link": "https://www.motorsport.com/f1/news/mercedes-could-only-gamble-on-kimi-antonelli-because-of-george-russell-toto-wolff-told-staff/10874338/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/6lmARg80/s6/motorsport-com-graphics-100.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/6lmARg80/s6/motorsport-com-graphics-100.jpg",
      "date": "2026-11-13T15:30:07+00:00",
      "author": "",
      "id": "449999e4fd",
+     "titleKo": "토토 볼프가 직원들에게 전한 바에 따르면, 메르세데스는 조지 러셀 때문에 키미 안토넬리에게만 베팅할 수 있었다고 합니다.",
+     "descKo": "토토 볼프가 팀 전체에 보낸 메시지에 따르면, 메르세데스는 이미 조지 러셀이 없었다면 키미 안토넬리를 승격시킬 위험을 감수할 수 없었을 것이라고 합니다.…",
      "lead": [
       "Mercedes would not have been able to take the risk of promoting Kimi Antonelli without already having George Russell , according to a message Toto Wolff sent to the entire team.",
       "Antonelli joined Mercedes in 2025 after seven-time Formula 1 champion Lewis Hamilton moved to Ferrari . In only his second season in the series, the Italian driver became the youngest world champion in the history of F1 at the Mexican Grand Prix. Russell, on the other hand, has endured a frustrating year, despite helping the team to the constructors' title in Brazil.",
@@ -1908,18 +1973,18 @@
       "토토 볼프가 팀 전체에 보낸 메시지에 따르면, 메르세데스는 이미 조지 러셀이 없었다면 키미 안토넬리를 승격시킬 위험을 감수할 수 없었을 것이라고 합니다.",
       "안토넬리는 7회 포뮬러원 챔피언인 루이스 해밀턴이 페라리로 이적한 후 2025년에 메르세데스에 합류했습니다. 이탈리아 출신의 이 드라이버는 F1 시리즈에서 단 두 번째 시즌 만에 멕시코 그랑프리에서 F1 역사상 최연소 월드 챔피언이 되었습니다. 한편, 러셀은 브라질에서 팀이 컨스트럭터 타이틀을 획득하는 데 기여했음에도 불구하고 힘든 한 해를 보냈습니다.",
       "NU 실버 애로우 라디오 쇼(NU Silver Arrows Radio Show)에서 팀 부대표인 브래들리 로드(Bradley Lord)는 볼프가 공장에 보낸 이메일을 통해 러셀이 팀의 성공에 기여한 부분을 강조했다고 밝혔습니다."
-     ],
-     "titleKo": "토토 볼프가 직원들에게 전한 바에 따르면, 메르세데스는 조지 러셀 때문에 키미 안토넬리에게만 베팅할 수 있었다고 합니다.",
-     "descKo": "토토 볼프가 팀 전체에 보낸 메시지에 따르면, 메르세데스는 이미 조지 러셀이 없었다면 키미 안토넬리를 승격시킬 위험을 감수할 수 없었을 것이라고 합니다.…"
+     ]
     },
     {
      "title": "Toto Wolff offered his resignation during Mercedes’ struggles, but his boss refused",
      "desc": "In motorsport, extended periods of failure usually result in swift executive turnover. But when Mercedes team principal Toto Wolff attempted to hold himself accountable for the…",
      "link": "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YN7vz9j6/s6/motorsport-com-graphics-99-2.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YN7vz9j6/s6/motorsport-com-graphics-99-2.jpg",
      "date": "2026-11-13T12:37:04+00:00",
      "author": "",
      "id": "ae6d33f0d8",
+     "titleKo": "토토 볼프는 메르세데스의 어려움 속에서 사임을 제안했지만, 그의 상사는 이를 거절했습니다.",
+     "descKo": "모터스포츠에서는 장기간의 부진이 보통 경영진의 빠른 교체로 이어집니다. 하지만 메르세데스 팀 대표 토토 볼프가...에 대해 스스로 책임을 지려고 했을 때,",
      "lead": [
       "In motorsport, extended periods of failure usually result in swift executive turnover. But when Mercedes team principal Toto Wolff attempted to hold himself accountable for the team's struggles in recent years, his boss flatly refused to let him walk away.",
       "Speaking at the 2026 Golden Steering Wheel awards in Berlin, Wolff provided a glimpse into the internal corporate dynamics at Mercedes-Benz during the team's difficulties during the ground-effect era. Recognising the squad's severe drop in performance following its historic run of constructors' championships, Wolff admitted he was fully prepared to hand over the reins.",
@@ -1929,18 +1994,18 @@
       "모터스포츠에서는 장기간의 부진이 보통 경영진의 빠른 교체로 이어집니다. 하지만 메르세데스 팀 대표 토토 볼프가 최근 몇 년간 팀이 겪은 어려움에 대해 자신의 책임을 지려고 하자, 그의 상사는 그가 떠나는 것을 단호히 거부했습니다.",
       "2026년 베를린에서 열린 골든 스티어링 휠(Golden Steering Wheel) 시상식에서 울프는 그라운드 이펙트 시대에 팀이 어려움을 겪는 동안 메르세데스-벤츠의 내부 기업 역학에 대해 짤막하게 언급했습니다. 역사적인 컨스트럭터스 챔피언십 우승 이후 팀의 성적이 크게 하락한 것을 인정한 볼프는 자신이 팀의 지휘권을 넘길 준비가 완전히 되어 있다고 인정했습니다.",
       "\"지난 몇 년 동안 올라 [캘레니우스]에게 여러 차례 사의를 표명했지만, 그는 항상 '계속 이 일을 하라'고 말했습니다.\"라고 볼프는 밝혔습니다."
-     ],
-     "titleKo": "토토 볼프는 메르세데스의 어려움 속에서 사임을 제안했지만, 그의 상사는 이를 거절했습니다.",
-     "descKo": "모터스포츠에서는 장기간의 부진이 보통 경영진의 빠른 교체로 이어집니다. 하지만 메르세데스 팀 대표 토토 볼프가...에 대해 스스로 책임을 지려고 했을 때,"
+     ]
     },
     {
      "title": "Red Bull F1 car takes on MotoGP bike, rally car and snowmobile in extreme ice race",
      "desc": "Red Bull pitted a Formula 1 car, MotoGP bike, rally car, Pro 4 truck and a snowmobile against each other in the first Ultimate Winter race. Former MotoGP rider Dani Pedrosa won,…",
      "link": "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/27No3m30/s6/motorsport-com-graphics-98.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/27No3m30/s6/motorsport-com-graphics-98.jpg",
      "date": "2026-11-13T12:25:26+00:00",
      "author": "",
      "id": "916274ef2b",
+     "titleKo": "레드불 F1 머신이 MotoGP 바이크, 랠리 카, 스노모빌과 함께 극한의 빙상 레이스에 도전합니다.",
+     "descKo": "레드불은 첫 번째 얼티밋 윈터 레이스에서 포뮬러원(F1) 머신, 모토GP 바이크, 랠리 카, 프로 4 트럭, 스노모빌을 서로 대결시켰습니다. 전 MotoGP 라이더 다니 페드로사가 우승했습니다...",
      "lead": [
       "Red Bull pitted a Formula 1 car, MotoGP bike, rally car, Pro 4 truck and a snowmobile against each other in the first Ultimate Winter race.",
       "Former MotoGP rider Dani Pedrosa won, riding a KTM MotoGP bike on the custom frozen lake course.",
@@ -1950,18 +2015,18 @@
       "레드불은 첫 번째 얼티밋 윈터 레이스에서 포뮬러원(F1) 자동차, 모토GP 바이크, 랠리 자동차, 프로 4 트럭, 스노모빌을 서로 대결시켰습니다.",
       "전 MotoGP 라이더인 다니 페드로사(Dani Pedrosa)가 커스텀 얼음 호수 코스에서 KTM MotoGP 바이크를 타고 우승을 차지했습니다.",
       "위스콘신주 이글 리버에서 열린 이 이벤트는 5개의 모터스포츠 종목을 한 곳에 모았습니다. 각 머신은 맞춤형 스터드 타이어를 장착했으며, Red Bull은 다섯 대의 차량 모두에게 동등한 우승 기회를 제공하기 위해 각 차량에 대해 서로 다른 레이싱 라인을 설정했습니다."
-     ],
-     "titleKo": "레드불 F1 머신이 MotoGP 바이크, 랠리 카, 스노모빌과 함께 극한의 빙상 레이스에 도전합니다.",
-     "descKo": "레드불은 첫 번째 얼티밋 윈터 레이스에서 포뮬러원(F1) 머신, 모토GP 바이크, 랠리 카, 프로 4 트럭, 스노모빌을 서로 대결시켰습니다. 전 MotoGP 라이더 다니 페드로사가 우승했습니다..."
+     ]
     },
     {
      "title": "\"It's horribly painful\" - Williams drops 2026 car upgrades to benefit 2027",
      "desc": "Williams F1 team boss James Vowles says it was \"horribly painful\" for the squad to forego 2026 aero upgrades and save the resources for 2027 instead. Williams has been forced into…",
      "link": "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/68VwMox2/s6/alexander-albon-williams.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/68VwMox2/s6/alexander-albon-williams.jpg",
      "date": "2026-11-13T12:15:32+00:00",
      "author": "",
      "id": "42d627b204",
+     "titleKo": "\"정말 고통스럽습니다\" - 윌리엄스, 2027년 차량 업그레이드를 위해 2026년 차량 업그레이드 포기",
+     "descKo": "윌리엄스 F1 팀의 제임스 볼스(James Vowles) 팀 대표는 2026년 에어로 업그레이드를 포기하고 대신 2027년을 위해 자원을 아끼는 것이 팀에 \"끔찍하게 고통스러웠다\"고 말했습니다. 윌리엄스는 다음과 같은 상황에 처하게 되었습니다...",
      "lead": [
       "Williams F1 team boss James Vowles says it was \"horribly painful\" for the squad to forego 2026 aero upgrades and save the resources for 2027 instead.",
       "Williams has been forced into playing the long game for some time now, but was hoping its progress behind the scenes in 2025 would carry over into the new regulations. Instead, Williams faced a huge wake-up call as the huge workload required to build an all-new car clogged the Grove factory's systems, arriving with a car that was late, overweight and as a result aerodynamically underdeveloped.",
@@ -1971,71 +2036,6 @@
       "윌리엄스 F1 팀의 제임스 보울스 팀 대표는 2026년 에어로 업그레이드를 포기하고 대신 2027년을 위한 자원을 아끼는 것이 팀에 \"매우 고통스러웠다\"고 말했습니다.",
       "윌리엄스는 한동안 장기전을 펼칠 수밖에 없었지만, 2025년 무대 뒤에서 이룬 발전이 새로운 규정에도 적용되기를 기대했습니다. 대신, 윌리엄스는 완전히 새로운 차량을 제작하는 데 필요한 막대한 작업량으로 인해 그로브 공장의 시스템이 마비되는 엄청난 경각심을 맞이하게 되었습니다. 그 결과, 차량이 늦게 완성되었고, 중량이 초과되었으며, 공기역학적으로 미흡한 상태로 출시되었습니다.",
       "윌리엄스는 섀시를 중량 한도에 맞추기 위해 많은 자원을 투입했으며, 아제르바이잔에서 내년에도 계속 적용될 새로운 사례를 선보였습니다. 하지만 팀이 지금까지 12포인트밖에 획득하지 못하면서, 보울스 대표는 팀의 남은 비용 상한선 자원 중 일부를 2027년 머신 프로젝트 최적화에 투입하겠다는 어려운 결정을 내려야 했습니다."
-     ],
-     "titleKo": "\"정말 고통스럽습니다\" - 윌리엄스, 2027년 차량 업그레이드를 위해 2026년 차량 업그레이드 포기",
-     "descKo": "윌리엄스 F1 팀의 제임스 볼스(James Vowles) 팀 대표는 2026년 에어로 업그레이드를 포기하고 대신 2027년을 위해 자원을 아끼는 것이 팀에 \"끔찍하게 고통스러웠다\"고 말했습니다. 윌리엄스는 다음과 같은 상황에 처하게 되었습니다..."
-    },
-    {
-     "title": "The Kimi Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
-     "desc": "Mercedes mechanics have learned to watch their backs. Not because of the dangers of a pitstop, but because of Kimi Antonelli. Formula 1's newly crowned world champion has a rather…",
-     "link": "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion-/10874164/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6lmAwPK0/s6/andrea-kimi-antonelli-mercedes.jpg",
-     "date": "2026-11-13T10:05:51+00:00",
-     "author": "",
-     "id": "09793ebd10",
-     "lead": [
-      "Mercedes mechanics have learned to watch their backs. Not because of the dangers of a pitstop, but because of Kimi Antonelli. Formula 1's newly crowned world champion has a rather unusual habit. He approaches members of his crew, greets them and, when they least expect it, gives their nipples a pinch - so nobody appears to be safe!",
-      "It is just one of the many practical jokes through which the 20-year-old Italian has developed a special relationship with the people who work on his W17. But behind the mischief, seemingly so far removed from the image of a world champion, lies something much more significant.",
-      "Success has roots that are not always visible. To understand them, you sometimes have to look beyond what happens on the track. In Antonelli's case, that means listening to the people who share the work, pressure and emotions of a grand prix weekend with him."
-     ],
-     "leadKo": [
-      "메르세데스 정비사들은 뒤를 조심하는 법을 배웠습니다. 피트 스톱의 위험 때문이 아니라 키미 안토넬리 때문입니다. 포뮬러원(F1)의 신임 월드 챔피언은 다소 특이한 습관을 가지고 있습니다. 그는 자신의 크루 멤버들에게 다가가 인사를 나눈 후, 그들이 전혀 예상치 못한 순간에 그들의 젖꼭지를 꼬집습니다. 그래서 아무도 안전하지 않은 것 같습니다!",
-      "이것은 20세의 이탈리아 선수가 자신의 W17에서 일하는 사람들과 특별한 관계를 맺게 된 많은 장난 중 하나에 불과합니다. 하지만 세계 챔피언의 이미지와는 거리가 멀어 보이는 장난 뒤에는 훨씬 더 중요한 무언가가 숨어 있습니다.",
-      "성공에는 항상 눈에 보이는 것만은 아닌 뿌리가 있습니다. 그것을 이해하려면 때때로 트랙에서 일어나는 일 너머를 봐야 합니다. 안토넬리의 경우, 이는 그랑프리 주말의 업무, 부담감, 감정을 그와 함께 나누는 사람들의 이야기를 듣는 것을 의미합니다."
-     ],
-     "titleKo": "여러분이 모르는 키미 안토넬리: F1 신임 월드 챔피언과 함께하는 메르세데스 차고 내부 이야기",
-     "descKo": "메르세데스 정비사들은 뒤를 조심하는 법을 배웠습니다. 피트 스톱의 위험 때문이 아니라 키미 안토넬리 때문입니다. 포뮬러원(F1)의 신임 월드 챔피언은 다소..."
-    },
-    {
-     "title": "F1 driver contracts: How long is each driver tied down for?",
-     "desc": "The details in a Formula 1 driver contract is highly-guarded information, but often the length of the deal is released to the wider world. Here is how long each F1 driver contract…",
-     "link": "https://www.motorsport.com/f1/news/f1-driver-contracts-how-long-is-each-driver-tied-down-for/10850679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/0Ld5LDa0/s6/drivers-group-photo.jpg",
-     "date": "2026-11-13T09:32:20+00:00",
-     "author": "",
-     "id": "3e12f9a36d",
-     "lead": [
-      "The details in a Formula 1 driver contract is highly-guarded information, but often the length of the deal is released to the wider world.",
-      "Here is how long each F1 driver contract is believed to be and therefore what moves could be possible and when in the future.",
-      "The reigning F1 world champion recently announced a new four-year contract with McLaren which will keep him at the team until at least 2030. It is also believed to contain contract clauses which could extend that deal further."
-     ],
-     "leadKo": [
-      "포뮬러원 드라이버 계약의 세부 사항은 매우 철저히 보호되는 정보이지만, 종종 계약 기간은 대중에 공개됩니다.",
-      "각 F1 드라이버의 계약 기간이 얼마나 될 것으로 추정되는지, 따라서 향후 어떤 이적이 가능할지, 언제 가능한지 알아보겠습니다.",
-      "현 F1 월드 챔피언은 최근 맥라렌과 4년짜리 새 계약을 체결했다고 발표했으며, 이에 따라 그는 적어도 2030년까지 팀에 남게 됩니다. 또한 이 계약에는 해당 계약을 더 연장할 수 있는 조항이 포함되어 있는 것으로 알려져 있습니다."
-     ],
-     "titleKo": "F1 드라이버 계약: 각 드라이버의 계약 기간은 얼마나 되나요?",
-     "descKo": "포뮬러원 드라이버 계약의 세부 사항은 철저히 비밀로 유지되지만, 종종 계약 기간은 대중에게 공개됩니다. 각 F1 드라이버 계약 기간은 다음과 같습니다..."
-    },
-    {
-     "title": "Guenther Steiner suggests Max Verstappen could be better suited to lead Ferrari",
-     "desc": "Former Haas Formula 1 team principal Guenther Steiner has questioned whether Lewis Hamilton is the driver to turn Ferrari's fortunes around, suggesting Max Verstappen might be…",
-     "link": "https://www.motorsport.com/f1/news/guenther-steiner-suggests-max-verstappen-could-be-better-suited-to-lead-ferrari/10874192/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/01QNX1q0/s6/motorsport-com-graphics-95.jpg",
-     "date": "2026-11-12T21:00:04+00:00",
-     "author": "",
-     "id": "4519396253",
-     "titleKo": "Guenther Steiner는 Max Verstappen이 Ferrari를 이끄는 데 더 적합할 수 있다고 제안했습니다.",
-     "descKo": "전 Haas Formula 1 팀장인 Guenther Steiner는 루이스 해밀턴이 Ferrari의 운명을 바꿀 드라이버인지 의문을 제기하면서 Max Verstappen이…",
-     "lead": [
-      "Former Haas Formula 1 team principal Guenther Steiner has questioned whether Lewis Hamilton is the driver to turn Ferrari's fortunes around, suggesting Max Verstappen might be better suited to the role.",
-      "Hamilton joined Ferrari in 2025 after a successful 12-year stint with Mercedes , during which time he won six of his seven world titles.",
-      "After a tricky first season with Ferrari, the 41-year-old has shown glimpses of his former form in 2026. He claimed his maiden win with the Maranello outfit at the Barcelona Catalunya Grand Prix and currently sits fourth in the drivers' standings with three rounds remaining."
-     ],
-     "leadKo": [
-      "전 Haas Formula 1 팀장인 Guenther Steiner는 루이스 해밀턴이 Ferrari의 운명을 바꿀 드라이버인지 의문을 제기하면서 Max Verstappen이 그 역할에 더 적합할 수 있다고 제안했습니다.",
-      "해밀턴은 메르세데스에서 12년 동안 성공적으로 근무한 후 2025년 페라리에 합류했으며, 이 기간 동안 7번의 월드 타이틀 중 6번을 획득했습니다.",
-      "페라리에서 까다로운 첫 시즌을 보낸 후, 41세의 이 선수는 2026년에 자신의 이전 모습을 살짝 보여주었습니다. 그는 바르셀로나 카탈루냐 그랑프리에서 마라넬로 복장으로 첫 우승을 차지했으며 현재 3라운드가 남은 상태에서 드라이버 순위 4위를 차지하고 있습니다."
      ]
     }
    ]
@@ -2052,6 +2052,8 @@
      "date": "2026-11-13T11:24:59+00:00",
      "author": "Samarth Kanal",
      "id": "69785e1deb",
+     "titleKo": "마드리드 F1 레이스는 바르셀로나에 비해 경제적으로 더 나은 선택이었을까요?",
+     "descKo": "...에 따르면, 마드링에서 열린 2026년 스페인 포뮬러원 그랑프리 개막전은 5억 4,400만 유로의 경제 활동을 창출하고 10,948개의 일자리를 지원했으며 9,500만 유로의 세수를 창출했습니다.",
      "lead": [
       "The inaugural 2026 Spanish Formula 1 Grand Prix at the Madring created €544 million in economic activity, supported 10,948 jobs, and generated €95m in tax revenue, according to its organiser.",
       "The Madring is a part-street circuit built around the IFEMA conference centre - with the track layout set to be changed for 2027 to improve the quality of racing and frequency of overtaking.",
@@ -2061,9 +2063,7 @@
       "주최 측에 따르면, 마드링에서 열린 2026년 첫 스페인 포뮬러원 그랑프리는 5억 4,400만 유로의 경제 활동을 창출하고 10,948개의 일자리를 지원했으며 9,500만 유로의 세수를 창출했습니다.",
       "마드링은 IFEMA 컨퍼런스 센터 주변에 조성된 부분 가로형 서킷으로, 레이싱의 품질과 추월 빈도를 높이기 위해 2027년에 트랙 레이아웃이 변경될 예정입니다.",
       "그랑프리 주최사는 PwC가 실시한 연구를 통해 이벤트와 직접적으로 연관된 경제 활동 1유로당 마드리드 전체 경제에서 4.60유로가 창출되었음을 보여주었습니다."
-     ],
-     "titleKo": "마드리드 F1 레이스는 바르셀로나에 비해 경제적으로 더 나은 선택이었을까요?",
-     "descKo": "...에 따르면, 마드링에서 열린 2026년 스페인 포뮬러원 그랑프리 개막전은 5억 4,400만 유로의 경제 활동을 창출하고 10,948개의 일자리를 지원했으며 9,500만 유로의 세수를 창출했습니다."
+     ]
     },
     {
      "title": "Ferrari's Leclerc-Hamilton problem is far from solved",
@@ -2435,6 +2435,30 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "No Hesitation From Charles 😂",
+     "desc": "Charles Leclerc, Lando Norris, Carlos Sainz and the rest of the grid give their answers to some of the internet's toughest questions!",
+     "link": "https://www.youtube.com/watch?v=66gYzsy3qx8",
+     "image": "https://i.ytimg.com/vi/66gYzsy3qx8/hqdefault.jpg",
+     "date": "2026-11-13T18:30:39+00:00",
+     "author": "FORMULA 1",
+     "videoId": "66gYzsy3qx8",
+     "id": "3767fc7949",
+     "titleKo": "망설임 없이 찰스에게 😂",
+     "descKo": ""
+    },
+    {
+     "title": "F1 Drivers Answer The Internet's Toughest Questions!",
+     "desc": "Is a hotdog a sandwich? Does pineapple belong on pizza? We asked the drivers some of the internet's most hotly-debated questions! Tune in to see how they responded...",
+     "link": "https://www.youtube.com/watch?v=GWI5G64W-ww",
+     "image": "https://i.ytimg.com/vi/GWI5G64W-ww/hqdefault.jpg",
+     "date": "2026-11-13T17:30:09+00:00",
+     "author": "FORMULA 1",
+     "videoId": "GWI5G64W-ww",
+     "id": "fb8ee75db2",
+     "titleKo": "F1 드라이버가 인터넷의 가장 어려운 질문에 답변합니다!",
+     "descKo": ""
+    },
+    {
      "title": "Unheard Radio: Exclusive Radio From Lewis Hamilton's First Win For Ferrari",
      "desc": "Take a look back at all the unheard strategy calls from the pit wall at the Barcelona Grand Prix, as Lewis Hamilton secured his first victory in red for Scuderia Ferrari.",
      "link": "https://www.youtube.com/watch?v=0MhcEdcMFfE",
@@ -2516,30 +2540,6 @@
      "videoId": "zTBCMBS0UEo",
      "id": "0360e7e1da",
      "titleKo": "다니엘 리카도, 최고의 커리어 순간에 반응하다 | Salesforce: Inside F1",
-     "descKo": ""
-    },
-    {
-     "title": "Wild Race Start & Mercedes' Wet Weather Struggles In Interlagos | Jolyon Palmer's F1 TV Analysis",
-     "desc": "Jolyon Palmer takes a close look at the incredible race start in Interlagos as well as George Russell and Kimi Antonelli's struggles in the wet weather.",
-     "link": "https://www.youtube.com/watch?v=y23pvZMQCPI",
-     "image": "https://i.ytimg.com/vi/y23pvZMQCPI/hqdefault.jpg",
-     "date": "2026-11-10T16:41:10+00:00",
-     "author": "FORMULA 1",
-     "videoId": "y23pvZMQCPI",
-     "id": "f50c007f99",
-     "titleKo": "인터라고스에서 야생 경주 시작 & 메르세데스의 습한 날씨에 시달림 | Jolyon Palmer의 F1 TV 분석",
-     "descKo": ""
-    },
-    {
-     "title": "Nine-Time World Champion Team Boss 🤩",
-     "desc": "Toto Wolff celebrates Mercedes' 2026 Constructors' Championship win!",
-     "link": "https://www.youtube.com/watch?v=ABXqt0N_70s",
-     "image": "https://i.ytimg.com/vi/ABXqt0N_70s/hqdefault.jpg",
-     "date": "2026-11-10T14:47:59+00:00",
-     "author": "FORMULA 1",
-     "videoId": "ABXqt0N_70s",
-     "id": "08ebcbfecb",
-     "titleKo": "9회 월드 챔피언 팀 보스 🤩",
      "descKo": ""
     }
    ]
