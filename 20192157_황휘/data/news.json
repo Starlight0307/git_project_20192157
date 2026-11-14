@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-14T03:19:38+00:00",
- "failed": [
-  "video"
- ],
+ "updated": "2026-11-14T11:31:49+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1852,10 +1850,94 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Max Verstappen signs ambassador deal with Dutch technical group VDK",
+     "desc": "Four-time Formula 1 champion Max Verstappen has become the new ambassador of the VDK Group, a Dutch group of installation and technical companies that is expanding across Europe.…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-signs-ambassador-deal-with-dutch-technical-group-vdk/10874486/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/YN7vzaP6/s6/motorsport-com-graphics-2026-1.jpg",
+     "date": "2026-11-14T11:03:24+00:00",
+     "author": "",
+     "id": "fcf98b82e0",
+     "lead": [
+      "Four-time Formula 1 champion Max Verstappen has become the new ambassador of the VDK Group, a Dutch group of installation and technical companies that is expanding across Europe.",
+      "The Dutchman will play a prominent role in the company's international branding over the coming years and will feature in its communications and marketing campaigns.",
+      "VDK was founded in 2013 as a Dutch group of technical companies and now has businesses in the Netherlands, Germany, Sweden, Austria, Switzerland and Belgium."
+     ],
+     "leadKo": [
+      "4차례 포뮬러 1 챔피언인 Max Verstappen이 유럽 전역으로 확장하고 있는 네덜란드 설치 및 기술 회사 그룹인 VDK 그룹의 새로운 홍보대사가 되었습니다.",
+      "더치맨은 앞으로 회사의 국제적인 브랜딩에서 중요한 역할을 담당할 것이며 커뮤니케이션 및 마케팅 캠페인에 등장할 것입니다.",
+      "VDK는 2013년 네덜란드 기술 회사 그룹으로 설립되었으며 현재 네덜란드, 독일, 스웨덴, 오스트리아, 스위스 및 벨기에에서 사업을 운영하고 있습니다."
+     ],
+     "titleKo": "Max Verstappen, 네덜란드 기술 그룹 VDK와 대사 계약 체결",
+     "descKo": "4차례 포뮬러 1 챔피언인 Max Verstappen이 유럽 전역으로 확장하고 있는 네덜란드 설치 및 기술 회사 그룹인 VDK 그룹의 새로운 홍보대사가 되었습니다.…"
+    },
+    {
+     "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
+     "desc": "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli. The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for…",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/0R7BEaE2/s6/il-presidente-sergio-mattarell.jpg",
+     "date": "2026-11-14T10:37:42+00:00",
+     "author": "",
+     "id": "d4afaa4dc9",
+     "lead": [
+      "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli .",
+      "The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for the world title he won two weeks ago at the Mexico Grand Prix, with which he ended a title drought for an Italian driver to win the world championship dating back to 1953.",
+      "Antonelli, together with his parents Marco and Veronica and his sister Maggie, was received on Friday by the president of the Italian Republic, Sergio Mattarella."
+     ],
+     "leadKo": [
+      "키미 안토넬리(Kimi Antonelli)는 \"마타렐라 대통령에게 깊은 존경을 표합니다\"라고 서명했습니다.",
+      "새로운 포뮬러 1 세계 챔피언은 2주 전 멕시코 그랑프리에서 획득한 세계 타이틀을 위한 회의, 이벤트, 축하 행사의 소용돌이 속에 있습니다. 이로써 그는 1953년부터 거슬러 올라가는 세계 챔피언십 우승을 향한 이탈리아 드라이버의 타이틀 가뭄을 끝냈습니다.",
+      "Antonelli는 그의 부모 Marco, Veronica 및 그의 여동생 Maggie와 함께 금요일 이탈리아 공화국 대통령 Sergio Mattarella의 영접을 받았습니다."
+     ],
+     "titleKo": "키미 안토넬리(Kimi Antonelli)가 세르지오 마타렐라(Sergio Mattarella) 이탈리아 대통령을 만났습니다.",
+     "descKo": "키미 안토넬리(Kimi Antonelli)는 \"마타렐라 대통령에게 깊은 존경을 표합니다\"라고 서명했습니다. 새로운 포뮬러 1 세계 챔피언은 회의, 이벤트, 축하 행사의 소용돌이 속에 있습니다…"
+    },
+    {
+     "title": "George Russell is “looking down the barrel” of Kimi Antonelli’s raw pace, says James Allison",
+     "desc": "For an established Formula 1 driver, being beaten by a 20-year-old team-mate can sometimes lead to garage politics and excuses. For George Russell, the 2026 season delivered…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-is-looking-down-the-barrel-of-kimi-antonellis-raw-pace-says-allison/10874424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/63QaO7J2/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "date": "2026-11-14T10:10:30+00:00",
+     "author": "",
+     "id": "157af94616",
+     "lead": [
+      "For an established Formula 1 driver, being beaten by a 20-year-old team-mate can sometimes lead to garage politics and excuses. For George Russell , the 2026 season delivered exactly that high-pressure scenario as Kimi Antonelli stormed to the world championship in the sister Mercedes W17.",
+      "But rather than deflecting blame after a season marred by mechanical misfortune and driving errors, Russell is confronting the reality of Antonelli's raw speed head-on.",
+      "Speaking on the Nu Silver Arrows Radio Show , Mercedes technical director James Allison provided a glimpse into the intra-team dynamic at Brackley, praising Russell for his brutal self-awareness in the face of defeat."
+     ],
+     "leadKo": [
+      "확고한 포뮬러 1 드라이버의 경우, 20세의 팀 동료에게 구타당하는 것은 때때로 차고 정치와 변명으로 이어질 수 있습니다. George Russell에게 2026년 시즌은 자매 Mercedes W17을 타고 Kimi Antonelli가 세계 챔피언십에 돌입하면서 바로 그 고압적인 시나리오를 전달했습니다.",
+      "그러나 기계적인 불운과 운전 실수로 시즌이 망가진 후 비난을 회피하는 대신, 러셀은 안토넬리의 순수한 속도의 현실에 정면으로 직면하고 있습니다.",
+      "Nu Silver Arrows 라디오 쇼에서 Mercedes 기술 디렉터인 James Allison은 Brackley의 팀 내 역동성을 엿볼 수 있었고, 패배에 직면한 러셀의 잔인한 자기 인식을 칭찬했습니다."
+     ],
+     "titleKo": "George Russell은 Kimi Antonelli의 원시 속도에 대해 \"통을 내려다보고\" 있다고 James Allison은 말합니다.",
+     "descKo": "확고한 포뮬러 1 드라이버의 경우, 20세의 팀 동료에게 구타당하는 것은 때때로 차고 정치와 변명으로 이어질 수 있습니다. 조지 러셀에게 2026년 시즌은…"
+    },
+    {
+     "title": "McLaren to upgrade MCL40 car at its bogey F1 track Las Vegas",
+     "desc": "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”. The team launched its 2027…",
+     "link": "https://www.motorsport.com/f1/news/mclaren-to-upgrade-mcl40-car-at-its-bogey-f1-track-las-vegas/10874307/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/01QNp9q0/s6/leonardo-fornaroli-mclaren.jpg",
+     "date": "2026-11-14T09:09:51+00:00",
+     "author": "",
+     "id": "fa96191159",
+     "lead": [
+      "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”.",
+      "The team launched its 2027 front wing concept in Brazil, with team principal Andrea Stella describing it as an improvement for driveability and predictability ; McLaren returned to form at Interlagos, with Lando Norris clinching pole position and victory in wet conditions. This ended a five-round podium-less streak, the squad’s worst since the first half of the 2023 campaign.",
+      "“After the upgrades in Hungary, it was encouraging that we were in a position to win – we should have won Madrid, really,” Stella said, referring to the unfortunate timing of the Virtual Safety Car in Spain, which likely cost Norris the victory at Madring."
+     ],
+     "leadKo": [
+      "McLaren은 Formula 1의 라스베이거스 그랑프리에서 MCL40의 업그레이드를 선보일 예정이며, 새로운 부품은 \"내년 자동차의 기반\"이라는 라벨이 붙어 있습니다.",
+      "팀은 브라질에서 2027년 프론트 윙 컨셉을 출시했으며, 팀장인 Andrea Stella는 이를 주행 가능성과 예측 가능성의 개선이라고 설명했습니다. McLaren은 Lando Norris가 젖은 환경에서 폴 포지션을 차지하고 승리를 거두면서 Interlagos로 돌아왔습니다. 이로 인해 2023년 캠페인 전반기 이후 팀 최악의 5라운드 연승 행진이 끝났습니다.",
+      "\"헝가리에서 업그레이드한 후 우리가 승리할 수 있는 위치에 있다는 것은 고무적이었습니다. 실제로 마드리드에서 승리했어야 했습니다.\" Stella는 스페인에서 Virtual Safety Car의 불행한 타이밍을 언급하면서 Norris가 Madring에서 승리할 수 없게 되었을 가능성이 있다고 말했습니다."
+     ],
+     "titleKo": "McLaren, 보기 F1 트랙 라스베이거스에서 MCL40 차량 업그레이드",
+     "descKo": "McLaren은 Formula 1의 라스베이거스 그랑프리에서 MCL40의 업그레이드를 선보일 예정이며, 새로운 부품은 \"내년 자동차의 기반\"이라는 라벨이 붙어 있습니다. 팀은 2027년을 시작했습니다…"
+    },
+    {
      "title": "James Allison reveals the \"very adventurous\" trick behind Kimi Antonelli's F1 title",
      "desc": "Mercedes technical director James Allison has explained how Kimi Antonelli's bold use of the tools on his steering wheel helped him become Formula 1's youngest world champion. The…",
      "link": "https://www.motorsport.com/f1/news/james-allison-reveals-the-very-adventurous-trick-behind-kimi-antonellis-f1-title/10874402/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0R7BEmE2/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/0R7BEmE2/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-13T21:56:05+00:00",
      "author": "",
      "id": "35d9b31cd0",
@@ -1939,7 +2021,7 @@
      "title": "Las Vegas GP reveals neon sign-inspired trophy design",
      "desc": "The Las Vegas Grand Prix has unveiled a new trophy design for next weekend’s Formula 1 round, inspired by the city and its neon lights. The 3.6kg, 56cm-tall winners’ trophy took…",
      "link": "https://www.motorsport.com/f1/news/las-vegas-gp-reveals-neon-sign-inspired-trophy-design/10874361/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6zoD8dJ0/s6/20949for-2026-f1-trophy206172.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/6zoD8dJ0/s6/20949for-2026-f1-trophy206172.jpg",
      "date": "2026-11-13T16:09:45+00:00",
      "author": "",
      "id": "fc79e07f92",
@@ -1955,90 +2037,6 @@
       "3.6kg, 높이 56cm의 우승 트로피는 개발 및 제작에 6개월이 소요되었으며, 서킷이 위치한 라스베이거스 스트립의 상징인 네온사인에서 영감을 받았습니다.",
       "이 트로피에는 122개의 조명이 들어있으며, 네바다주 라스베이거스만의 독특한 디자인으로 수상자에게 '조명 속에서 자신의 이름을 보는 것'에 새로운 의미를 부여합니다."
      ]
-    },
-    {
-     "title": "Mercedes could only gamble on Kimi Antonelli because of George Russell, Toto Wolff told staff",
-     "desc": "Mercedes would not have been able to take the risk of promoting Kimi Antonelli without already having George Russell, according to a message Toto Wolff sent to the entire team.…",
-     "link": "https://www.motorsport.com/f1/news/mercedes-could-only-gamble-on-kimi-antonelli-because-of-george-russell-toto-wolff-told-staff/10874338/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6lmARg80/s6/motorsport-com-graphics-100.jpg",
-     "date": "2026-11-13T15:30:07+00:00",
-     "author": "",
-     "id": "449999e4fd",
-     "titleKo": "토토 볼프가 직원들에게 전한 바에 따르면, 메르세데스는 조지 러셀 때문에 키미 안토넬리에게만 베팅할 수 있었다고 합니다.",
-     "descKo": "토토 볼프가 팀 전체에 보낸 메시지에 따르면, 메르세데스는 이미 조지 러셀이 없었다면 키미 안토넬리를 승격시킬 위험을 감수할 수 없었을 것이라고 합니다.…",
-     "lead": [
-      "Mercedes would not have been able to take the risk of promoting Kimi Antonelli without already having George Russell , according to a message Toto Wolff sent to the entire team.",
-      "Antonelli joined Mercedes in 2025 after seven-time Formula 1 champion Lewis Hamilton moved to Ferrari . In only his second season in the series, the Italian driver became the youngest world champion in the history of F1 at the Mexican Grand Prix. Russell, on the other hand, has endured a frustrating year, despite helping the team to the constructors' title in Brazil.",
-      "Speaking on the NU Silver Arrows Radio Show , deputy team principal Bradley Lord revealed that Wolff had used an email to the factory to underline Russell's part in the team's success."
-     ],
-     "leadKo": [
-      "토토 볼프가 팀 전체에 보낸 메시지에 따르면, 메르세데스는 이미 조지 러셀이 없었다면 키미 안토넬리를 승격시킬 위험을 감수할 수 없었을 것이라고 합니다.",
-      "안토넬리는 7회 포뮬러원 챔피언인 루이스 해밀턴이 페라리로 이적한 후 2025년에 메르세데스에 합류했습니다. 이탈리아 출신의 이 드라이버는 F1 시리즈에서 단 두 번째 시즌 만에 멕시코 그랑프리에서 F1 역사상 최연소 월드 챔피언이 되었습니다. 한편, 러셀은 브라질에서 팀이 컨스트럭터 타이틀을 획득하는 데 기여했음에도 불구하고 힘든 한 해를 보냈습니다.",
-      "NU 실버 애로우 라디오 쇼(NU Silver Arrows Radio Show)에서 팀 부대표인 브래들리 로드(Bradley Lord)는 볼프가 공장에 보낸 이메일을 통해 러셀이 팀의 성공에 기여한 부분을 강조했다고 밝혔습니다."
-     ]
-    },
-    {
-     "title": "Toto Wolff offered his resignation during Mercedes’ struggles, but his boss refused",
-     "desc": "In motorsport, extended periods of failure usually result in swift executive turnover. But when Mercedes team principal Toto Wolff attempted to hold himself accountable for the…",
-     "link": "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/YN7vz9j6/s6/motorsport-com-graphics-99-2.jpg",
-     "date": "2026-11-13T12:37:04+00:00",
-     "author": "",
-     "id": "ae6d33f0d8",
-     "titleKo": "토토 볼프는 메르세데스의 어려움 속에서 사임을 제안했지만, 그의 상사는 이를 거절했습니다.",
-     "descKo": "모터스포츠에서는 장기간의 부진이 보통 경영진의 빠른 교체로 이어집니다. 하지만 메르세데스 팀 대표 토토 볼프가...에 대해 스스로 책임을 지려고 했을 때,",
-     "lead": [
-      "In motorsport, extended periods of failure usually result in swift executive turnover. But when Mercedes team principal Toto Wolff attempted to hold himself accountable for the team's struggles in recent years, his boss flatly refused to let him walk away.",
-      "Speaking at the 2026 Golden Steering Wheel awards in Berlin, Wolff provided a glimpse into the internal corporate dynamics at Mercedes-Benz during the team's difficulties during the ground-effect era. Recognising the squad's severe drop in performance following its historic run of constructors' championships, Wolff admitted he was fully prepared to hand over the reins.",
-      "“I’ve offered Ola [Källenius] my resignation several times over the past few years, but he’s always said: ‘You’ll keep doing this,’” Wolff revealed."
-     ],
-     "leadKo": [
-      "모터스포츠에서는 장기간의 부진이 보통 경영진의 빠른 교체로 이어집니다. 하지만 메르세데스 팀 대표 토토 볼프가 최근 몇 년간 팀이 겪은 어려움에 대해 자신의 책임을 지려고 하자, 그의 상사는 그가 떠나는 것을 단호히 거부했습니다.",
-      "2026년 베를린에서 열린 골든 스티어링 휠(Golden Steering Wheel) 시상식에서 울프는 그라운드 이펙트 시대에 팀이 어려움을 겪는 동안 메르세데스-벤츠의 내부 기업 역학에 대해 짤막하게 언급했습니다. 역사적인 컨스트럭터스 챔피언십 우승 이후 팀의 성적이 크게 하락한 것을 인정한 볼프는 자신이 팀의 지휘권을 넘길 준비가 완전히 되어 있다고 인정했습니다.",
-      "\"지난 몇 년 동안 올라 [캘레니우스]에게 여러 차례 사의를 표명했지만, 그는 항상 '계속 이 일을 하라'고 말했습니다.\"라고 볼프는 밝혔습니다."
-     ]
-    },
-    {
-     "title": "Red Bull F1 car takes on MotoGP bike, rally car and snowmobile in extreme ice race",
-     "desc": "Red Bull pitted a Formula 1 car, MotoGP bike, rally car, Pro 4 truck and a snowmobile against each other in the first Ultimate Winter race. Former MotoGP rider Dani Pedrosa won,…",
-     "link": "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/27No3m30/s6/motorsport-com-graphics-98.jpg",
-     "date": "2026-11-13T12:25:26+00:00",
-     "author": "",
-     "id": "916274ef2b",
-     "titleKo": "레드불 F1 머신이 MotoGP 바이크, 랠리 카, 스노모빌과 함께 극한의 빙상 레이스에 도전합니다.",
-     "descKo": "레드불은 첫 번째 얼티밋 윈터 레이스에서 포뮬러원(F1) 머신, 모토GP 바이크, 랠리 카, 프로 4 트럭, 스노모빌을 서로 대결시켰습니다. 전 MotoGP 라이더 다니 페드로사가 우승했습니다...",
-     "lead": [
-      "Red Bull pitted a Formula 1 car, MotoGP bike, rally car, Pro 4 truck and a snowmobile against each other in the first Ultimate Winter race.",
-      "Former MotoGP rider Dani Pedrosa won, riding a KTM MotoGP bike on the custom frozen lake course.",
-      "The event, held in Eagle River, Wisconsin, brought five motorsport disciplines together on the same grid. Each machine ran on custom studded tyres, and Red Bull laid out a different racing line for each vehicle to give all five an equal shot at victory."
-     ],
-     "leadKo": [
-      "레드불은 첫 번째 얼티밋 윈터 레이스에서 포뮬러원(F1) 자동차, 모토GP 바이크, 랠리 자동차, 프로 4 트럭, 스노모빌을 서로 대결시켰습니다.",
-      "전 MotoGP 라이더인 다니 페드로사(Dani Pedrosa)가 커스텀 얼음 호수 코스에서 KTM MotoGP 바이크를 타고 우승을 차지했습니다.",
-      "위스콘신주 이글 리버에서 열린 이 이벤트는 5개의 모터스포츠 종목을 한 곳에 모았습니다. 각 머신은 맞춤형 스터드 타이어를 장착했으며, Red Bull은 다섯 대의 차량 모두에게 동등한 우승 기회를 제공하기 위해 각 차량에 대해 서로 다른 레이싱 라인을 설정했습니다."
-     ]
-    },
-    {
-     "title": "\"It's horribly painful\" - Williams drops 2026 car upgrades to benefit 2027",
-     "desc": "Williams F1 team boss James Vowles says it was \"horribly painful\" for the squad to forego 2026 aero upgrades and save the resources for 2027 instead. Williams has been forced into…",
-     "link": "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/68VwMox2/s6/alexander-albon-williams.jpg",
-     "date": "2026-11-13T12:15:32+00:00",
-     "author": "",
-     "id": "42d627b204",
-     "titleKo": "\"정말 고통스럽습니다\" - 윌리엄스, 2027년 차량 업그레이드를 위해 2026년 차량 업그레이드 포기",
-     "descKo": "윌리엄스 F1 팀의 제임스 볼스(James Vowles) 팀 대표는 2026년 에어로 업그레이드를 포기하고 대신 2027년을 위해 자원을 아끼는 것이 팀에 \"끔찍하게 고통스러웠다\"고 말했습니다. 윌리엄스는 다음과 같은 상황에 처하게 되었습니다...",
-     "lead": [
-      "Williams F1 team boss James Vowles says it was \"horribly painful\" for the squad to forego 2026 aero upgrades and save the resources for 2027 instead.",
-      "Williams has been forced into playing the long game for some time now, but was hoping its progress behind the scenes in 2025 would carry over into the new regulations. Instead, Williams faced a huge wake-up call as the huge workload required to build an all-new car clogged the Grove factory's systems, arriving with a car that was late, overweight and as a result aerodynamically underdeveloped.",
-      "Williams poured a lot of resources in getting its chassis to the weight limit, introducing a new example in Azerbaijan that will be carried over next year. But with the squad only managing 12 points thus far, Vowles has had to make the tough decision to ringfence some of the team's remaining cost cap resources into optimising the 2027 car project."
-     ],
-     "leadKo": [
-      "윌리엄스 F1 팀의 제임스 보울스 팀 대표는 2026년 에어로 업그레이드를 포기하고 대신 2027년을 위한 자원을 아끼는 것이 팀에 \"매우 고통스러웠다\"고 말했습니다.",
-      "윌리엄스는 한동안 장기전을 펼칠 수밖에 없었지만, 2025년 무대 뒤에서 이룬 발전이 새로운 규정에도 적용되기를 기대했습니다. 대신, 윌리엄스는 완전히 새로운 차량을 제작하는 데 필요한 막대한 작업량으로 인해 그로브 공장의 시스템이 마비되는 엄청난 경각심을 맞이하게 되었습니다. 그 결과, 차량이 늦게 완성되었고, 중량이 초과되었으며, 공기역학적으로 미흡한 상태로 출시되었습니다.",
-      "윌리엄스는 섀시를 중량 한도에 맞추기 위해 많은 자원을 투입했으며, 아제르바이잔에서 내년에도 계속 적용될 새로운 사례를 선보였습니다. 하지만 팀이 지금까지 12포인트밖에 획득하지 못하면서, 보울스 대표는 팀의 남은 비용 상한선 자원 중 일부를 2027년 머신 프로젝트 최적화에 투입하겠다는 어려운 결정을 내려야 했습니다."
-     ]
     }
    ]
   },
@@ -2046,6 +2044,27 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "'ADUO for teams' plan to be discussed by F1",
+     "desc": "Sweeping changes to cost cap rules look set to become a key area of discussion on Monday when an “ADUO for teams” proposal is debated at the Formula 1 Commission",
+     "link": "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454062_HiRes.jpg",
+     "date": "2026-11-14T08:47:00+00:00",
+     "author": "Jon Noble",
+     "id": "19cd8def6d",
+     "lead": [
+      "Sweeping changes to cost cap rules look set to become a key area of discussion on Monday when an “ADUO for teams” proposal is debated at the Formula 1 Commission.",
+      "As first revealed by The Race, Williams team boss James Vowles has tabled the idea of a spending catch-up mechanism to help F1 teams escape what he thinks has become a “cost cap trap”.",
+      "Vowles argues that while the cost cap has done a great job making all teams financially viable, it has also locked in legacy advantages that make it difficult for smaller teams to catch up with the bigger squads."
+     ],
+     "leadKo": [
+      "월요일 포뮬러 1 위원회에서 \"팀을 위한 ADUO\" 제안이 논의될 때 비용 상한선에 대한 전면적인 변경이 주요 논의 영역이 될 것으로 보입니다.",
+      "The Race에서 처음 공개한 바와 같이 Williams 팀 보스인 James Vowles는 F1 팀이 \"비용 상한 함정\"이 되었다고 생각하는 상황에서 벗어날 수 있도록 지출 보충 메커니즘에 대한 아이디어를 제시했습니다.",
+      "Vowles는 비용 상한제가 모든 팀을 재정적으로 생존 가능하게 만드는 데 큰 도움이 되었지만 소규모 팀이 더 큰 팀을 따라잡는 것을 어렵게 만드는 레거시 이점도 가두었다고 주장합니다."
+     ],
+     "titleKo": "F1에서 '팀을 위한 ADUO' 방안 논의 예정",
+     "descKo": "월요일 포뮬러 1 위원회에서 \"팀을 위한 ADUO\" 제안이 논의될 때 비용 상한선에 대한 전면적인 변경이 주요 논의 영역이 될 것으로 보입니다."
+    },
     {
      "title": "Was Madrid F1 race an economic upgrade on Barcelona?",
      "desc": "The inaugural 2026 Spanish Formula 1 Grand Prix at the Madring created €544 million in economic activity, supported 10,948 jobs, and generated €95m in tax revenue, according to…",
@@ -2212,27 +2231,6 @@
       "메르세데스 포뮬러 1(Mercedes Formula 1) 드라이버 조지 러셀(George Russell)은 차세대 모터스포츠 재능 개발을 목표로 실버스톤에 새로운 카트 아카데미를 개설했으며, 25명의 젊은 드라이버가 2027년에 전액 지원을 받아 챔피언십 기회를 받을 예정입니다.",
       "GR63 카트 아카데미(GR63 Karting Academy)는 8세와 9세의 소년 소녀들에게 열려 있으며, 러셀은 스포츠의 재정적 수요로 인해 제약을 받을 수 있는 재능 있는 젊은이들에게 모터스포츠에 입문할 수 있는 길을 제공하기를 희망하고 있습니다.",
       "Silverstone의 카트 서킷을 기반으로 하는 이 계획은 2026년 12월 공개 액세스 적격 세션을 시작으로 4단계에 걸쳐 실행됩니다."
-     ]
-    },
-    {
-     "title": "Why Mercedes cannot dominate F1's new era",
-     "desc": "The start of an F1 rules cycle usually offers clues about what will follow. While Mercedes wrapped these titles up with ease, don't expect a repeat",
-     "link": "https://www.the-race.com/formula-1/what-will-stop-this-being-an-era-of-mercedes-f1-domination/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1436943_HiRes.jpg",
-     "date": "2026-11-12T09:19:02+00:00",
-     "author": "Jon Noble",
-     "id": "406cd73d74",
-     "titleKo": "메르세데스가 F1의 새로운 시대를 지배할 수 없는 이유",
-     "descKo": "F1 규칙 주기의 시작은 일반적으로 다음에 나올 내용에 대한 단서를 제공합니다. Mercedes는 이러한 타이틀을 쉽게 마무리했지만 반복을 기대하지 마십시오.",
-     "lead": [
-      "They say history doesn't repeat itself, but it often rhymes. And that applies to Formula 1 as well.",
-      "The start of new-rules eras have often been hugely indicative of what is to come, as the trends of the inaugural season lay down the story of future years.",
-      "If we do some comparisons of the first years of the most recent major rules-change eras, we can see how the comparisons between the first and second half of each of those seasons gave us a hint of what was to come in the following campaigns."
-     ],
-     "leadKo": [
-      "역사는 반복되지 않는다고 말하지만 운율이 맞는 경우가 많습니다. 이는 Formula 1에도 적용됩니다.",
-      "새로운 규칙 시대의 시작은 첫 번째 시즌의 추세가 미래의 이야기를 제시하기 때문에 앞으로 다가올 일을 크게 시사하는 경우가 많습니다.",
-      "가장 최근의 주요 규칙 변경 시대의 첫 해를 비교하면 각 시즌의 전반부와 후반부를 비교하여 다음 캠페인에 어떤 일이 일어날지에 대한 힌트를 얻을 수 있음을 알 수 있습니다."
      ]
     }
    ]
