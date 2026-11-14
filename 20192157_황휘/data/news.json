@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-13T22:40:58+00:00",
- "failed": [],
+ "updated": "2026-11-14T03:19:38+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -205,17 +207,17 @@
      "id": "77d758cc35",
      "wikiTitle": "2026 Mexico City Grand Prix",
      "title": "2026 Mexico City Grand Prix",
-     "titleKo": "2026년 멕시코시티 그랑프리",
+     "titleKo": "2026 멕시코시티 그랑프리",
      "desc": "The 2026 Mexico City Grand Prix (officially known as the Formula 1 Gran Premio de la Ciudad de México 2026) was a Formula One motor race that was held on 1 November 2026 at the…",
      "descKo": "2026년 멕시코시티 그랑프리(공식 명칭: Formula 1 Gran Premio de la Ciudad de México 2026)는 2026년 11월 1일 멕시코 멕시코시티의 Autódromo Hermanos Rodríguez에서 열린 Formula One 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의…",
      "link": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-11T05:54:00Z",
+     "date": "2026-11-14T00:11:32Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1384983685,
+     "revid": 1385569145,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -282,7 +284,7 @@
         "Freddie Slater for Audi in place of Gabriel Bortoleto.",
         "Colton Herta for Cadillac in place of Valtteri Bottas.",
         "Nikola Tsolov for Racing Bulls in place of Liam Lawson.",
-        "Minì, Slater and Tsolov made their Formula One practice debuts.",
+        "Minì, Slater and Tsolov made their Formula One practice debuts. Tsolov became the first driver from Bulgaria to participate in a Formula One weekend.",
         "The Grand Prix marked Sergio Pérez's (Cadillac) 300th start."
        ],
        "hKo": "출전 명단",
@@ -299,7 +301,7 @@
         "Gabriel Bortoleto를 대신하여 Audi의 Freddie Slater가 탄생했습니다.",
         "Valtteri Bottas 대신 Cadillac의 Colton Herta가 탄생했습니다.",
         "Liam Lawson을 대신하여 Racing Bulls의 Nikola Tsolov.",
-        "Minì, Slater 및 Tsolov는 Formula One 연습 데뷔를 했습니다.",
+        "Minì, Slater 및 Tsolov는 Formula One 연습 데뷔를 했습니다. Tsolov는 불가리아에서 Formula One 주말에 참가한 최초의 드라이버가 되었습니다.",
         "그랑프리는 세르지오 페레즈(캐딜락)의 300번째 출발을 기록했다."
        ]
       },
@@ -1853,10 +1855,12 @@
      "title": "James Allison reveals the \"very adventurous\" trick behind Kimi Antonelli's F1 title",
      "desc": "Mercedes technical director James Allison has explained how Kimi Antonelli's bold use of the tools on his steering wheel helped him become Formula 1's youngest world champion. The…",
      "link": "https://www.motorsport.com/f1/news/james-allison-reveals-the-very-adventurous-trick-behind-kimi-antonellis-f1-title/10874402/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/0R7BEmE2/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0R7BEmE2/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-13T21:56:05+00:00",
      "author": "",
      "id": "35d9b31cd0",
+     "titleKo": "제임스 앨리슨(James Allison)이 키미 안토넬리(Kimi Antonelli)의 F1 타이틀 뒤에 숨겨진 \"매우 모험적인\" 비결을 밝힙니다.",
+     "descKo": "Mercedes 기술 디렉터인 James Allison은 키미 안토넬리(Kimi Antonelli)가 스티어링 휠에 있는 도구를 대담하게 사용하여 Formula 1의 최연소 세계 챔피언이 되는 데 어떻게 도움이 되었는지 설명했습니다. 그만큼…",
      "lead": [
       "Mercedes technical director James Allison has explained how Kimi Antonelli's bold use of the tools on his steering wheel helped him become Formula 1's youngest world champion.",
       "The Italian driver secured the 2026 title at the Mexican Grand Prix at the age of 20, in only his second season in F1, and has won nine grands prix so far this year.",
@@ -1866,18 +1870,18 @@
       "Mercedes 기술 디렉터인 James Allison은 키미 안토넬리(Kimi Antonelli)가 스티어링 휠에 있는 도구를 대담하게 사용하여 Formula 1의 최연소 세계 챔피언이 되는 데 어떻게 도움이 되었는지 설명했습니다.",
       "이 이탈리아 드라이버는 F1에서 두 번째 시즌인 20세의 나이로 멕시코 그랑프리에서 2026년 타이틀을 획득했으며 올해 지금까지 9번의 그랑프리에서 우승했습니다.",
       "NU Silver Arrows 라디오 쇼에서 Allison은 Antonelli가 브레이크 이동을 사용하는 방식에 있어 \"매우 매우 민첩하다\"고 말했습니다. 이는 코너가 펼쳐질 때 자동차의 전면과 후면 사이에 제동력이 공유되는 방식과 차동 장치를 변경합니다."
-     ],
-     "titleKo": "제임스 앨리슨(James Allison)이 키미 안토넬리(Kimi Antonelli)의 F1 타이틀 뒤에 숨겨진 \"매우 모험적인\" 비결을 밝힙니다.",
-     "descKo": "Mercedes 기술 디렉터인 James Allison은 키미 안토넬리(Kimi Antonelli)가 스티어링 휠에 있는 도구를 대담하게 사용하여 Formula 1의 최연소 세계 챔피언이 되는 데 어떻게 도움이 되었는지 설명했습니다. 그만큼…"
+     ]
     },
     {
      "title": "Guenther Steiner suggests Mark Webber became too involved in Oscar Piastri’s career",
      "desc": "Former Haas Formula 1 team principal Guenther Steiner believes Mark Webber may have become too involved in Oscar Piastri’s career in the second half of 2025, before the McLaren…",
      "link": "https://www.motorsport.com/f1/news/guenther-steiner-suggests-mark-webber-became-too-involved-in-oscar-piastris-career/10874383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6zoD8dL0/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/6zoD8dL0/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-13T17:20:10+00:00",
      "author": "",
      "id": "53de82edaa",
+     "titleKo": "Guenther Steiner는 Mark Webber가 Oscar Piastri의 경력에 ​​너무 관여했다고 제안합니다.",
+     "descKo": "전 Haas Formula 1 팀장인 Guenther Steiner는 Mark Webber가 McLaren이 출시되기 전인 2025년 하반기에 Oscar Piastri의 경력에 ​​너무 관여했을 수도 있다고 믿습니다.",
      "lead": [
       "Former Haas Formula 1 team principal Guenther Steiner believes Mark Webber may have become too involved in Oscar Piastri ’s career in the second half of 2025, before the McLaren driver decided he wanted to “do this on my own”.",
       "Piastri and Webber announced after the São Paulo Grand Prix that they had mutually agreed to end their management agreement, which began in 2019 and saw the Australian rise through Formula 3 and Formula 2 to a McLaren race seat.",
@@ -1887,18 +1891,18 @@
       "전 Haas Formula 1 팀장인 Guenther Steiner는 Mark Webber가 McLaren 드라이버가 \"내 스스로 이 일을 하고 싶다\"고 결정하기 전에 2025년 하반기에 Oscar Piastri의 경력에 ​​너무 관여했을 수도 있다고 믿습니다.",
       "Piatri와 Webber는 상파울루 그랑프리 이후 2019년에 시작된 관리 계약을 종료하기로 상호 합의했다고 발표했습니다. 이 계약은 호주가 Formula 3와 Formula 2를 통해 McLaren 레이스 좌석으로 부상하는 것을 보았습니다.",
       "Webber는 올해 이미 자신의 역할을 축소했으며 Piastri와 함께 경주에 참석하는 것을 중단했습니다."
-     ],
-     "titleKo": "Guenther Steiner는 Mark Webber가 Oscar Piastri의 경력에 ​​너무 관여했다고 제안합니다.",
-     "descKo": "전 Haas Formula 1 팀장인 Guenther Steiner는 Mark Webber가 McLaren이 출시되기 전인 2025년 하반기에 Oscar Piastri의 경력에 ​​너무 관여했을 수도 있다고 믿습니다."
+     ]
     },
     {
      "title": "“I was getting beat up” – How Daniel Ricciardo burned out on ‘humiliating’ F1 return",
      "desc": "As Daniel Ricciardo joined the Beyond The Grid podcast last month, he sounded more grounded, almost wiser. Two years away from Formula 1’s limelight have provided the Australian…",
      "link": "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/27vEn7m0/s6/daniel-ricciardo-rb-f1-team.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/27vEn7m0/s6/daniel-ricciardo-rb-f1-team.jpg",
      "date": "2026-11-13T17:06:56+00:00",
      "author": "",
      "id": "0671b80596",
+     "titleKo": "“나는 두들겨 맞았습니다.” – Daniel Ricciardo가 F1 복귀에 대한 '치욕적인' 일로 어떻게 지쳤는가",
+     "descKo": "Daniel Ricciardo가 지난달 Beyond The Grid 팟캐스트에 합류하면서 그의 목소리는 더욱 현실감 있고 거의 현명해졌습니다. 포뮬러 1이 각광을 받은 지 2년이 지난 후 호주는…",
      "lead": [
       "As Daniel Ricciardo joined the Beyond The Grid podcast last month, he sounded more grounded, almost wiser. Two years away from Formula 1’s limelight have provided the Australian with the time he required for introspection, allowing him to view his final years in the championship from a new angle.",
       "Those final years were a struggle. After losing his McLaren seat, Ricciardo returned to his old Faenza team with a view to make a Red Bull comeback – to no avail. He never found his long-lost performance again, having previously experienced a bruising time in Woking. His shock Italian Grand Prix victory hardly distracts from the fact that, other than that, he never finished on the podium in his final 70 races.",
@@ -1908,15 +1912,13 @@
       "Daniel Ricciardo가 지난달 Beyond The Grid 팟캐스트에 합류하면서 그의 목소리는 더욱 현실감 있고 거의 현명해졌습니다. 포뮬러 1의 각광을 받은 지 2년이 지난 지금 이 호주 선수는 자기 성찰에 필요한 시간을 갖게 되었고, 챔피언십에서의 마지막 해를 새로운 각도에서 바라볼 수 있게 되었습니다.",
       "그 마지막 몇 년은 투쟁이었습니다. McLaren 자리를 잃은 Ricciardo는 Red Bull의 복귀를 목표로 이전 Faenza 팀으로 돌아왔지만 소용이 없었습니다. 그는 이전에 Woking에서 멍든 시간을 경험했기 때문에 오랫동안 잃어버린 공연을 다시는 찾지 못했습니다. 그의 충격적인 이탈리아 그랑프리 우승은 그 외에는 그가 마지막 70번의 레이스에서 시상대에 오르지 못했다는 사실을 쉽게 알 수 있습니다.",
       "그의 F1 모험은 자신의 뜻대로 끝나지 않았지만(Red Bull은 어린 Liam Lawson이 두 번째 RB 자리를 차지할 방법이라고 결정했습니다) Ricciardo는 자신이 은퇴할 준비가 되지 않았으며 더 이상 경주에 적합한 정신 상태에 있지 않다는 것을 깨닫고 스스로를 설득하기도 했습니다."
-     ],
-     "titleKo": "“나는 두들겨 맞았습니다.” – Daniel Ricciardo가 F1 복귀에 대한 '치욕적인' 일로 어떻게 지쳤는가",
-     "descKo": "Daniel Ricciardo가 지난달 Beyond The Grid 팟캐스트에 합류하면서 그의 목소리는 더욱 현실감 있고 거의 현명해졌습니다. 포뮬러 1이 각광을 받은 지 2년이 지난 후 호주는…"
+     ]
     },
     {
      "title": "Damon Hill: Ferrari has a “political problem” as Lewis Hamilton “rebuilt himself”",
      "desc": "Ferrari team principal Fred Vasseur recently insisted that Lewis Hamilton and Charles Leclerc \"left my room joking together\" following a private meeting in Brazil to clear the…",
      "link": "https://www.motorsport.com/f1/news/damon-hill-ferrari-has-a-political-problem-as-lewis-hamilton-rebuilt-himself-after-abu-dhabi-202/10874278/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YBVjRDMY/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/YBVjRDMY/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-13T16:25:05+00:00",
      "author": "",
      "id": "0e1792a05a",
@@ -1937,7 +1939,7 @@
      "title": "Las Vegas GP reveals neon sign-inspired trophy design",
      "desc": "The Las Vegas Grand Prix has unveiled a new trophy design for next weekend’s Formula 1 round, inspired by the city and its neon lights. The 3.6kg, 56cm-tall winners’ trophy took…",
      "link": "https://www.motorsport.com/f1/news/las-vegas-gp-reveals-neon-sign-inspired-trophy-design/10874361/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/6zoD8dJ0/s6/20949for-2026-f1-trophy206172.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/6zoD8dJ0/s6/20949for-2026-f1-trophy206172.jpg",
      "date": "2026-11-13T16:09:45+00:00",
      "author": "",
      "id": "fc79e07f92",
@@ -1979,7 +1981,7 @@
      "title": "Toto Wolff offered his resignation during Mercedes’ struggles, but his boss refused",
      "desc": "In motorsport, extended periods of failure usually result in swift executive turnover. But when Mercedes team principal Toto Wolff attempted to hold himself accountable for the…",
      "link": "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YN7vz9j6/s6/motorsport-com-graphics-99-2.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/YN7vz9j6/s6/motorsport-com-graphics-99-2.jpg",
      "date": "2026-11-13T12:37:04+00:00",
      "author": "",
      "id": "ae6d33f0d8",
@@ -2000,7 +2002,7 @@
      "title": "Red Bull F1 car takes on MotoGP bike, rally car and snowmobile in extreme ice race",
      "desc": "Red Bull pitted a Formula 1 car, MotoGP bike, rally car, Pro 4 truck and a snowmobile against each other in the first Ultimate Winter race. Former MotoGP rider Dani Pedrosa won,…",
      "link": "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-8.motorsport.com/images/amp/27No3m30/s6/motorsport-com-graphics-98.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/27No3m30/s6/motorsport-com-graphics-98.jpg",
      "date": "2026-11-13T12:25:26+00:00",
      "author": "",
      "id": "916274ef2b",
@@ -2021,7 +2023,7 @@
      "title": "\"It's horribly painful\" - Williams drops 2026 car upgrades to benefit 2027",
      "desc": "Williams F1 team boss James Vowles says it was \"horribly painful\" for the squad to forego 2026 aero upgrades and save the resources for 2027 instead. Williams has been forced into…",
      "link": "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/68VwMox2/s6/alexander-albon-williams.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/68VwMox2/s6/alexander-albon-williams.jpg",
      "date": "2026-11-13T12:15:32+00:00",
      "author": "",
      "id": "42d627b204",
