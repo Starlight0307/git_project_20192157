@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-15T02:43:01+00:00",
+ "updated": "2026-11-15T10:59:20+00:00",
  "failed": [
-  "video"
+  "column"
  ],
  "tabs": {
   "report": {
@@ -1852,13 +1852,57 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "How Istanbul is revamping its F1 circuit to clinch long-term future",
+     "desc": "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one…",
+     "link": "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/YBVjRLWY/s6/max-verstappen-red-bull-racing.jpg",
+     "date": "2026-11-15T09:39:16+00:00",
+     "author": "",
+     "id": "b79dd0ed06",
+     "lead": [
+      "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one hand, and delivering the spectacle F1 wants to offer younger fans on the other, with a constant stream of overtaking moves for, let’s say, the TikTok generation.",
+      "But that balancing act also applies to the calendar and the venues F1 visits. Many of the recently added destinations are temporary circuits in glamorous locations such as Miami, Las Vegas and Madrid, but these are not necessarily the tracks that get diehard fans excited.",
+      "Next year, however, a race will return to the calendar that has the potential to combine the best of both worlds. Istanbul is a global city – the bridge between Europe and Asia – and therefore the kind of destination F1 likes to have on its calendar. But the circuit, located on the Asian side of the Bosphorus, is also one that appeals to drivers and fans, particularly because of its famous Turn 8."
+     ],
+     "leadKo": [
+      "현대 포뮬러원에서는 적절한 균형을 찾는 것이 종종 어려운 과제입니다. 이는 기술 규정에 적용됩니다. 한편으로는 드라이버와 순수주의자를 만족시키고, 다른 한편으로는 F1이 젊은 팬들에게 선사하고자 하는 볼거리를 제공하는 것, 즉 틱톡 세대를 위한 끊임없는 추월 장면을 제공하는 것 사이에서 균형을 이루는 것입니다.",
+      "하지만 이러한 균형 잡기 노력은 F1이 방문하는 일정과 장소에도 적용됩니다. 최근에 추가된 목적지 중 다수는 마이애미, 라스베이거스, 마드리드와 같은 화려한 장소에 있는 임시 서킷이지만, 이 서킷들이 열성적인 팬들을 열광시키는 서킷은 아닙니다.",
+      "하지만 내년에는 두 세계의 장점을 모두 결합할 수 있는 잠재력을 지닌 레이스가 다시 캘린더에 포함될 예정입니다. 이스탄불은 유럽과 아시아를 잇는 다리 역할을 하는 글로벌 도시이므로 F1이 캘린더에 포함하고 싶어 하는 유형의 목적지입니다. 하지만 보스포루스 해협의 아시아 쪽에 위치한 이 서킷은 특히 유명한 8번 코너 덕분에 드라이버와 팬들의 관심을 끄는 곳이기도 합니다."
+     ],
+     "titleKo": "이스탄불이 장기적인 미래를 확보하기 위해 F1 서킷을 개조하는 방법",
+     "descKo": "현대 포뮬러원에서는 적절한 균형을 찾는 것이 종종 어려운 과제입니다. 이는 기술 규정에 적용됩니다. 한편으로는 드라이버와 순수주의자를 만족시키고, 다른 한편으로는..."
+    },
+    {
+     "title": "Mercedes technical director details the psychological toll of F1 underperformance",
+     "desc": "In Formula 1, PR-trained executives routinely frame losing seasons as \"learning opportunities\" and promise that the team will quickly bounce back. But Mercedes technical director…",
+     "link": "https://www.motorsport.com/f1/news/mercedes-technical-director-details-the-brutal-psychological-toll-of-f1-underperformance/10874429/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/2y7Qrj96/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "date": "2026-11-15T09:33:19+00:00",
+     "author": "",
+     "id": "f35d4411ca",
+     "lead": [
+      "In Formula 1, PR-trained executives routinely frame losing seasons as \"learning opportunities\" and promise that the team will quickly bounce back. But Mercedes technical director James Allison recently stripped away that polished narrative to reveal the psychological reality of a championship drought.",
+      "Following a historic run of eight consecutive constructors' championships, Mercedes endured four difficult seasons of underperformance. Now, after Mercedes officially reclaimed the title in 2026, Allison opened up about the internal atmosphere inside the Brackley factory during those intervening years.",
+      "George Russell, Mercedes, Andrea Kimi Antonelli, Mercedes"
+     ],
+     "leadKo": [
+      "포뮬러원(F1)에서는 홍보 훈련을 받은 경영진이 패배한 시즌을 \"학습 기회\"로 포장하고 팀이 곧 반등할 것이라고 약속하는 것이 일상적입니다. 하지만 메르세데스의 기술 책임자인 제임스 앨리슨(James Allison)은 최근 이러한 세련된 서술을 벗어던지고 챔피언십 우승 가뭄의 심리적 현실을 드러냈습니다.",
+      "8년 연속 컨스트럭터스 챔피언십을 차지한 역사적인 기록에 이어, 메르세데스는 4시즌 동안 부진한 성적을 거두며 어려운 시기를 보냈습니다. 이제 메르세데스가 2026년에 공식적으로 타이틀을 되찾은 후, 앨리슨은 그 사이의 몇 년 동안 브래클리 공장 내부의 분위기에 대해 솔직하게 이야기했습니다.",
+      "조지 러셀, 메르세데스, 안드레아 키미 안토넬리, 메르세데스"
+     ],
+     "titleKo": "메르세데스 기술 책임자가 F1 성과 부진으로 인한 심리적 타격에 대해 상세히 설명",
+     "descKo": "포뮬러원(F1)에서는 홍보 교육을 받은 임원들이 패배한 시즌을 \"학습 기회\"로 포장하고 팀이 곧 반등할 것이라고 약속하는 것이 일상적입니다. 하지만 메르세데스의 기술 책임자는..."
+    },
+    {
      "title": "James Allison admits flawed “Update 18” made the Mercedes W17 a “handful”",
      "desc": "Mercedes stormed out of the gates in 2026, quickly establishing a dominant lead that ultimately secured both the drivers' and constructors' championships. But as the season nears…",
      "link": "https://www.motorsport.com/f1/news/james-allison-admits-flawed-update-18-made-the-mercedes-w17-a-handful/10874437/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0Zq8VQo6/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0Zq8VQo6/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-14T23:12:53+00:00",
      "author": "",
      "id": "cdbc944183",
+     "titleKo": "제임스 앨리슨은 결함이 있는 \"업데이트 18\"이 메르세데스 W17을 \"소수\"로 만들었다고 인정했습니다.",
+     "descKo": "Mercedes는 2026년에 성문 밖으로 뛰쳐나와 빠르게 압도적인 선두를 차지했고 궁극적으로 드라이버와 컨스트럭터 챔피언십을 모두 확보했습니다. 하지만 시즌이 다가오면서...",
      "lead": [
       "Mercedes stormed out of the gates in 2026, quickly establishing a dominant lead that ultimately secured both the drivers' and constructors' championships. But as the season nears its conclusion, the performance gap between the W17 and the rest of the grid has visibly shrunk.",
       "According to Mercedes technical director James Allison, this convergence was not just a natural result of rivals catching up. Speaking on the NU Silver Arrows Radio Show , Allison confessed that Mercedes' own development path actively hampered the car's driveability late in the year.",
@@ -1868,15 +1912,13 @@
       "Mercedes는 2026년에 성문 밖으로 뛰쳐나와 빠르게 압도적인 선두를 차지했고 궁극적으로 드라이버와 컨스트럭터 챔피언십을 모두 확보했습니다. 그러나 시즌이 거의 끝나가면서 W17과 나머지 그리드 사이의 성능 격차가 눈에 띄게 줄어들었습니다.",
       "메르세데스 기술 이사인 제임스 앨리슨(James Allison)에 따르면, 이러한 융합은 단지 경쟁업체들이 따라잡는 자연스러운 결과가 아니었습니다. NU Silver Arrows 라디오 쇼에서 Allison은 Mercedes의 자체 개발 경로가 연말에 자동차의 주행성을 적극적으로 방해했다고 고백했습니다.",
       "경쟁사와의 격차가 줄어드는 것에 대해 논의하면서 Allison은 팀의 최신 주요 공기역학적 패키지를 지적했습니다."
-     ],
-     "titleKo": "제임스 앨리슨은 결함이 있는 \"업데이트 18\"이 메르세데스 W17을 \"소수\"로 만들었다고 인정했습니다.",
-     "descKo": "Mercedes는 2026년에 성문 밖으로 뛰쳐나와 빠르게 압도적인 선두를 차지했고 궁극적으로 드라이버와 컨스트럭터 챔피언십을 모두 확보했습니다. 하지만 시즌이 다가오면서..."
+     ]
     },
     {
      "title": "Oscar Piastri: You've got to \"manhandle\" McLaren's F1 car to find its potential",
      "desc": "Oscar Piastri says McLaren's 2026 Formula 1 car has to be \"manhandled\" to be quick, describing the MCL40 as a car that punishes drivers the moment they are not at the limit. The…",
      "link": "https://www.motorsport.com/f1/news/oscar-piastri-youve-got-to-manhandle-mclarens-f1-car-to-find-its-potential/10874559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-14T17:39:40+00:00",
      "author": "",
      "id": "37161d91af",
@@ -1897,7 +1939,7 @@
      "title": "‘Lewis suspected a conspiracy’ – Nico Rosberg explains how Lewis Hamilton F1 rivalry went awry at Mercedes",
      "desc": "When Lewis Hamilton joined Nico Rosberg at Mercedes for the 2013 Formula 1 season, it was a feel-good story: two long-time friends becoming team-mates. However, their amicable…",
      "link": "https://www.motorsport.com/f1/news/lewis-suspected-a-conspiracy-nico-rosberg-explains-how-hamilton-f1-rivalry-went-awry-at-mercedes/10874271/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg",
      "date": "2026-11-14T16:30:03+00:00",
      "author": "",
      "id": "889a2d292f",
@@ -1918,7 +1960,7 @@
      "title": "Topps celebrates Lewis Hamilton’s 400th F1 start with limited NOW card",
      "desc": "Topps has released a Topps NOW trading card in celebration of Lewis Hamilton's 400th Formula 1 start, which came at the São Paulo Grand Prix last weekend. The Ferrari driver…",
      "link": "https://www.motorsport.com/f1/news/topps-celebrates-lewis-hamiltons-400th-f1-start-with-limited-now-card/10874547/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YE9EV1qY/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/YE9EV1qY/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-14T16:24:23+00:00",
      "author": "",
      "id": "d9abd5b189",
@@ -1939,7 +1981,7 @@
      "title": "Mercedes technical director warns F1 teams won’t “lie down” over 2027 downforce cuts",
      "desc": "Formula 1's transition to the new 2026 engine and chassis regulations completely reshuffled the competitive order, but the rulebook is far from finalised. As teams prepare for…",
      "link": "https://www.motorsport.com/f1/news/mercedes-tech-boss-warns-f1-teams-wont-lie-down-over-massive-2027-downforce-cuts/10874433/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/6lmARXD0/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/6lmARXD0/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-14T12:14:36+00:00",
      "author": "",
      "id": "bf0828cdad",
@@ -1997,48 +2039,6 @@
       "더치맨은 앞으로 회사의 국제적인 브랜딩에서 중요한 역할을 담당할 것이며 커뮤니케이션 및 마케팅 캠페인에 등장할 것입니다.",
       "VDK는 2013년 네덜란드 기술 회사 그룹으로 설립되었으며 현재 네덜란드, 독일, 스웨덴, 오스트리아, 스위스 및 벨기에에서 사업을 운영하고 있습니다."
      ]
-    },
-    {
-     "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
-     "desc": "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli. The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for…",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0R7BEaE2/s6/il-presidente-sergio-mattarell.jpg",
-     "date": "2026-11-14T10:37:42+00:00",
-     "author": "",
-     "id": "d4afaa4dc9",
-     "titleKo": "키미 안토넬리(Kimi Antonelli)가 세르지오 마타렐라(Sergio Mattarella) 이탈리아 대통령을 만났습니다.",
-     "descKo": "키미 안토넬리(Kimi Antonelli)는 \"마타렐라 대통령에게 깊은 존경을 표합니다\"라고 서명했습니다. 새로운 포뮬러 1 세계 챔피언은 회의, 이벤트, 축하 행사의 소용돌이 속에 있습니다…",
-     "lead": [
-      "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli .",
-      "The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for the world title he won two weeks ago at the Mexico Grand Prix, with which he ended a title drought for an Italian driver to win the world championship dating back to 1953.",
-      "Antonelli, together with his parents Marco and Veronica and his sister Maggie, was received on Friday by the president of the Italian Republic, Sergio Mattarella."
-     ],
-     "leadKo": [
-      "키미 안토넬리(Kimi Antonelli)는 \"마타렐라 대통령에게 깊은 존경을 표합니다\"라고 서명했습니다.",
-      "새로운 포뮬러 1 세계 챔피언은 2주 전 멕시코 그랑프리에서 획득한 세계 타이틀을 위한 회의, 이벤트, 축하 행사의 소용돌이 속에 있습니다. 이로써 그는 1953년부터 거슬러 올라가는 세계 챔피언십 우승을 향한 이탈리아 드라이버의 타이틀 가뭄을 끝냈습니다.",
-      "Antonelli는 그의 부모 Marco, Veronica 및 그의 여동생 Maggie와 함께 금요일 이탈리아 공화국 대통령 Sergio Mattarella의 영접을 받았습니다."
-     ]
-    },
-    {
-     "title": "George Russell is “looking down the barrel” of Kimi Antonelli’s raw pace, says James Allison",
-     "desc": "For an established Formula 1 driver, being beaten by a 20-year-old team-mate can sometimes lead to garage politics and excuses. For George Russell, the 2026 season delivered…",
-     "link": "https://www.motorsport.com/f1/news/george-russell-is-looking-down-the-barrel-of-kimi-antonellis-raw-pace-says-allison/10874424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/63QaO7J2/s6/motorsport-com-graphics-2026-1-2.jpg",
-     "date": "2026-11-14T10:10:30+00:00",
-     "author": "",
-     "id": "157af94616",
-     "titleKo": "George Russell은 Kimi Antonelli의 원시 속도에 대해 \"통을 내려다보고\" 있다고 James Allison은 말합니다.",
-     "descKo": "확고한 포뮬러 1 드라이버의 경우, 20세의 팀 동료에게 구타당하는 것은 때때로 차고 정치와 변명으로 이어질 수 있습니다. 조지 러셀에게 2026년 시즌은…",
-     "lead": [
-      "For an established Formula 1 driver, being beaten by a 20-year-old team-mate can sometimes lead to garage politics and excuses. For George Russell , the 2026 season delivered exactly that high-pressure scenario as Kimi Antonelli stormed to the world championship in the sister Mercedes W17.",
-      "But rather than deflecting blame after a season marred by mechanical misfortune and driving errors, Russell is confronting the reality of Antonelli's raw speed head-on.",
-      "Speaking on the Nu Silver Arrows Radio Show , Mercedes technical director James Allison provided a glimpse into the intra-team dynamic at Brackley, praising Russell for his brutal self-awareness in the face of defeat."
-     ],
-     "leadKo": [
-      "확고한 포뮬러 1 드라이버의 경우, 20세의 팀 동료에게 구타당하는 것은 때때로 차고 정치와 변명으로 이어질 수 있습니다. George Russell에게 2026년 시즌은 자매 Mercedes W17을 타고 Kimi Antonelli가 세계 챔피언십에 돌입하면서 바로 그 고압적인 시나리오를 전달했습니다.",
-      "그러나 기계적인 불운과 운전 실수로 시즌이 망가진 후 비난을 회피하는 대신, 러셀은 안토넬리의 순수한 속도의 현실에 정면으로 직면하고 있습니다.",
-      "Nu Silver Arrows 라디오 쇼에서 Mercedes 기술 디렉터인 James Allison은 Brackley의 팀 내 역동성을 엿볼 수 있었고, 패배에 직면한 러셀의 잔인한 자기 인식을 칭찬했습니다."
-     ]
     }
    ]
   },
@@ -2046,6 +2046,27 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "Why Williams has turned Sainz and Albon into test drivers",
+     "desc": "Williams duo Carlos Sainz and Alex Albon have become arguably the most overqualified test drivers in the world as the team in recent weeks",
+     "link": "https://www.the-race.com/formula-1/why-williams-has-turned-sainz-and-albon-into-test-drivers/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1451432_HiRes.jpg",
+     "date": "2026-11-15T09:12:56+00:00",
+     "author": "Scott Mitchell-Malm",
+     "id": "6b5590e6bf",
+     "lead": [
+      "Williams duo Carlos Sainz and Alex Albon have become arguably the most overqualified test drivers in the world as the team has sacrificed parts of the final Formula 1 weekends this season to help its 2027 car.",
+      "As the Williams narrative has turned almost entirely to making progress for next year, Sainz and Albon have been conducting very different programmes in Friday practice to other drivers, and talking more about the value of experimental work outweighing that of absolutely nailing the preparation of a given weekend.",
+      "Asked by The Race if that made him a test driver for this part of the year, Sainz said: \"I am. And I told the team that I don't care about finishing 15th or 17th."
+     ],
+     "leadKo": [
+      "윌리엄스 팀의 카를로스 사인츠와 알렉스 알본 듀오는 아마도 세계에서 가장 과잉 자격을 갖춘 테스트 드라이버가 되었을 것입니다. 팀은 이번 시즌 마지막 포뮬러원 주말의 일부를 희생하여 2027년 머신을 지원했기 때문입니다.",
+      "윌리엄스의 이야기가 거의 전적으로 내년의 발전을 위한 것으로 전환되면서, 사인츠와 알본은 금요일 연습 주행에서 다른 드라이버들과는 매우 다른 프로그램을 진행하고 있으며, 특정 주말의 준비를 완벽하게 마무리하는 것보다 실험적인 작업의 가치가 더 크다고 말하고 있습니다.",
+      "The Race가 올해 이 시기에 그가 테스트 드라이버가 되었는지 묻자, 사인츠는 \"그렇다\"고 답했습니다. 그리고 저는 팀에 15위나 17위로 완주하는 것은 신경 쓰지 않는다고 말했습니다."
+     ],
+     "titleKo": "윌리엄스가 사인츠와 알본을 테스트 드라이버로 전환한 이유",
+     "descKo": "윌리엄스 듀오인 카를로스 사인츠와 알렉스 알본은 최근 몇 주 동안 팀에서 아마도 세계에서 가장 자격이 높은 테스트 드라이버가 되었습니다."
+    },
     {
      "title": "'ADUO for teams' plan to be discussed by F1",
      "desc": "Sweeping changes to cost cap rules look set to become a key area of discussion on Monday when an “ADUO for teams” proposal is debated at the Formula 1 Commission",
@@ -2212,27 +2233,6 @@
       "리암 로슨은 팀이 2027년 포뮬러 1 라인업을 변경하지 않고 발표한 후 다음 시즌에도 레이싱 불스에 남을 예정입니다.",
       "뉴질랜드인의 미래는 몇 주 동안 불확실했습니다. Red Bull 소유 팀은 그를 Arvid Lindblad와 함께 유지할 것인지 아니면 주니어 드라이버 Nikola Tsolov를 승진시킬 것인지 고민했습니다.",
       "그러나 이번 주 초 보도된 바와 같이, 로슨의 최근 멕시코와 브라질에서의 강력한 활약은 그를 새로운 계약의 길로 이끌었고 레이싱 불스에게 그가 최고의 후보라고 확신시킨 것으로 이해되었습니다."
-     ]
-    },
-    {
-     "title": "Russell launches fully-funded new karting academy",
-     "desc": "Mercedes driver launches the GR63 Karting Academy to uncover young talent",
-     "link": "https://www.the-race.com/extra/russell-launches-karting-academy-to-find-next-generation-of-talent/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/ef265f93-5a8d-3d01-35f8-d53b568c07d0--1-.jpeg",
-     "date": "2026-11-12T09:35:42+00:00",
-     "author": "Fleur Mealing",
-     "id": "1a3b911b2f",
-     "titleKo": "러셀, 전액 자금을 지원받는 새로운 카트 아카데미 출범",
-     "descKo": "메르세데스 드라이버, 젊은 인재 발굴을 위해 GR63 카트 아카데미 출범",
-     "lead": [
-      "Mercedes Formula 1 driver George Russell has launched a new karting academy at Silverstone aimed at developing the next generation of motorsport talent, with 25 young drivers set to receive a fully funded championship opportunity in 2027.",
-      "The GR63 Karting Academy will be open to boys and girls aged eight and nine, with Russell hoping to provide a route into motorsport for talented youngsters who might otherwise be held back by the financial demands of the sport.",
-      "Based at Silverstone's karting circuit, the initiative will run across four stages, beginning with open-access qualifying sessions in December 2026."
-     ],
-     "leadKo": [
-      "메르세데스 포뮬러 1(Mercedes Formula 1) 드라이버 조지 러셀(George Russell)은 차세대 모터스포츠 재능 개발을 목표로 실버스톤에 새로운 카트 아카데미를 개설했으며, 25명의 젊은 드라이버가 2027년에 전액 지원을 받아 챔피언십 기회를 받을 예정입니다.",
-      "GR63 카트 아카데미(GR63 Karting Academy)는 8세와 9세의 소년 소녀들에게 열려 있으며, 러셀은 스포츠의 재정적 수요로 인해 제약을 받을 수 있는 재능 있는 젊은이들에게 모터스포츠에 입문할 수 있는 길을 제공하기를 희망하고 있습니다.",
-      "Silverstone의 카트 서킷을 기반으로 하는 이 계획은 2026년 12월 공개 액세스 적격 세션을 시작으로 4단계에 걸쳐 실행됩니다."
      ]
     }
    ]
