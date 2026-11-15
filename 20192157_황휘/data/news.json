@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-15T10:59:20+00:00",
- "failed": [
-  "column"
- ],
+ "updated": "2026-11-15T17:45:11+00:00",
+ "failed": [],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1852,13 +1850,57 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Christian Horner blames Red Bull leadership structure for missing F1’s future stars",
+     "desc": "For years, Red Bull Racing's dual-leadership structure between team principal Christian Horner and motorsport advisor Dr. Helmut Marko was praised as a ruthless but highly…",
+     "link": "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/0Zq8V7L6/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "date": "2026-11-15T16:01:16+00:00",
+     "author": "",
+     "id": "2281dc961b",
+     "lead": [
+      "For years, Red Bull Racing's dual-leadership structure between team principal Christian Horner and motorsport advisor Dr. Helmut Marko was praised as a ruthless but highly effective system. But Horner is now pointing to that exact management style as the primary reason the Milton Keynes squad lost out on Lando Norris , George Russell , and Oscar Piastri .",
+      "Speaking on the High Performance podcast, Horner distanced himself from one of the organisation's scouting blunders. Rather than simply admitting the team missed the mark, Horner highlighted his lack of jurisdiction over the Red Bull Junior Team, arguing the corporate dynamic meant he had no say in his own future driver line-up.",
+      "\"I never had responsibility for the young driver programme,\" Horner explicitly stated."
+     ],
+     "leadKo": [
+      "수년간, 크리스티안 호너 팀 대표와 헬무트 마르코 박사 모터스포츠 고문 간의 레드불 레이싱의 이원적 리더십 구조는 냉혹하지만 매우 효과적인 시스템으로 평가받았습니다. 하지만 호너는 이제 바로 그 관리 스타일을 밀턴 케인스 팀이 랜도 노리스, 조지 러셀, 오스카 피아스트리를 놓친 주된 이유로 지목하고 있습니다.",
+      "호너는 하이 퍼포먼스 팟캐스트에서 팀의 스카우트 실수 중 하나에 대해 선을 그었습니다. 호너는 팀이 목표를 달성하지 못했다고 단순히 인정하는 대신, 레드불 주니어 팀에 대한 자신의 권한이 없음을 강조하며, 기업의 역학 관계상 자신의 미래 드라이버 라인업에 대해 발언권이 없었다고 주장했습니다.",
+      "호너는 \"저는 영 드라이버 프로그램에 대한 책임이 전혀 없었습니다\"라고 명확히 밝혔습니다."
+     ],
+     "titleKo": "크리스티안 호너, F1의 미래 스타를 놓친 것에 대해 레드불 경영진 구조를 비난",
+     "descKo": "수년간, 레드불 레이싱의 팀 대표인 크리스티안 호너와 모터스포츠 고문인 헬무트 마르코 박사 간의 이원적 리더십 구조는 무자비하지만 매우..."
+    },
+    {
+     "title": "Mercedes pitwall admits floundering Ferraris relieved title pressure in São Paulo",
+     "desc": "When the rain falls at Interlagos, chaos usually follows. For Mercedes, the 2026 São Paulo Grand Prix was a turbulent affair. The Brackley-based squad arrived in Brazil needing to…",
+     "link": "https://www.motorsport.com/f1/news/mercedes-pit-wall-admits-floundering-ferraris-relieved-all-title-pressure-in-sao-paulo/10874440/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/Y9lNzKA2/s6/motorsport-com-graphics-2026-1-3.jpg",
+     "date": "2026-11-15T13:00:02+00:00",
+     "author": "",
+     "id": "996a520454",
+     "lead": [
+      "When the rain falls at Interlagos, chaos usually follows. For Mercedes , the 2026 São Paulo Grand Prix was a turbulent affair. The Brackley-based squad arrived in Brazil needing to execute a clean race to officially wrap up the constructors' championship, but quickly found themselves battling a highly unpredictable wet-dry track.",
+      "Both George Russell and newly crowned drivers' champion Kimi Antonelli suffered spins during the race, leading to a stressful environment inside the cockpits. But on the Mercedes pitwall, the focus remained surprisingly clear of title permutations.",
+      "Speaking on the NU Silver Arrows Radio Show podcast, Mercedes technical director James Allison and deputy team principal Bradley Lord revealed that the team never felt pressured to conservatively points-watch. The reason was simple: their closest rival, Ferrari , was putting in a disastrous performance further down the order."
+     ],
+     "leadKo": [
+      "인터라고스에 비가 내리면 보통 혼돈이 뒤따릅니다. 메르세데스에게 2026년 상파울루 그랑프리는 혼란스러운 레이스였습니다. 브래클리에 본사를 둔 이 팀은 컨스트럭터 챔피언십을 공식적으로 마무리하기 위해 깔끔한 레이스를 펼쳐야 하는 상황에서 브라질에 도착했지만, 곧 매우 예측 불가능한 젖었다 말랐다 하는 트랙과 씨름하게 되었습니다.",
+      "조지 러셀과 새로 드라이버 챔피언에 오른 키미 안토넬리 모두 레이스 도중 스핀을 겪었고, 이로 인해 두 드라이버의 콕핏 내 분위기는 긴장감이 감돌았습니다. 하지만 메르세데스 피트월에서는 챔피언십 순위 변동에 대한 관심이 놀라울 정도로 적었습니다.",
+      "NU 실버 애로 라디오 쇼 팟캐스트에서 메르세데스의 제임스 앨리슨(James Allison) 기술 책임자와 브래들리 로드(Bradley Lord) 부팀장은 팀이 보수적으로 포인트 관리를 해야 한다는 압박감을 전혀 느끼지 않았다고 밝혔습니다. 그 이유는 간단했습니다. 가장 가까운 경쟁자인 페라리 가 순위가 더 낮은 곳에서 형편없는 성적을 거두고 있었기 때문입니다."
+     ],
+     "titleKo": "메르세데스 피트월, 페라리의 부진이 상파울루에서 타이틀 경쟁 부담을 덜어줬다고 인정",
+     "descKo": "인터라고스에 비가 내리면 보통 혼란이 뒤따릅니다. 메르세데스에게 2026년 상파울루 그랑프리는 혼란스러운 대회였습니다. 브래클리에 본사를 둔 이 팀은 브라질에 도착했을 때..."
+    },
+    {
      "title": "How Istanbul is revamping its F1 circuit to clinch long-term future",
      "desc": "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one…",
      "link": "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YBVjRLWY/s6/max-verstappen-red-bull-racing.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/YBVjRLWY/s6/max-verstappen-red-bull-racing.jpg",
      "date": "2026-11-15T09:39:16+00:00",
      "author": "",
      "id": "b79dd0ed06",
+     "titleKo": "이스탄불이 장기적인 미래를 확보하기 위해 F1 서킷을 개조하는 방법",
+     "descKo": "현대 포뮬러원에서는 적절한 균형을 찾는 것이 종종 어려운 과제입니다. 이는 기술 규정에 적용됩니다. 한편으로는 드라이버와 순수주의자를 만족시키고, 다른 한편으로는...",
      "lead": [
       "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one hand, and delivering the spectacle F1 wants to offer younger fans on the other, with a constant stream of overtaking moves for, let’s say, the TikTok generation.",
       "But that balancing act also applies to the calendar and the venues F1 visits. Many of the recently added destinations are temporary circuits in glamorous locations such as Miami, Las Vegas and Madrid, but these are not necessarily the tracks that get diehard fans excited.",
@@ -1868,18 +1910,18 @@
       "현대 포뮬러원에서는 적절한 균형을 찾는 것이 종종 어려운 과제입니다. 이는 기술 규정에 적용됩니다. 한편으로는 드라이버와 순수주의자를 만족시키고, 다른 한편으로는 F1이 젊은 팬들에게 선사하고자 하는 볼거리를 제공하는 것, 즉 틱톡 세대를 위한 끊임없는 추월 장면을 제공하는 것 사이에서 균형을 이루는 것입니다.",
       "하지만 이러한 균형 잡기 노력은 F1이 방문하는 일정과 장소에도 적용됩니다. 최근에 추가된 목적지 중 다수는 마이애미, 라스베이거스, 마드리드와 같은 화려한 장소에 있는 임시 서킷이지만, 이 서킷들이 열성적인 팬들을 열광시키는 서킷은 아닙니다.",
       "하지만 내년에는 두 세계의 장점을 모두 결합할 수 있는 잠재력을 지닌 레이스가 다시 캘린더에 포함될 예정입니다. 이스탄불은 유럽과 아시아를 잇는 다리 역할을 하는 글로벌 도시이므로 F1이 캘린더에 포함하고 싶어 하는 유형의 목적지입니다. 하지만 보스포루스 해협의 아시아 쪽에 위치한 이 서킷은 특히 유명한 8번 코너 덕분에 드라이버와 팬들의 관심을 끄는 곳이기도 합니다."
-     ],
-     "titleKo": "이스탄불이 장기적인 미래를 확보하기 위해 F1 서킷을 개조하는 방법",
-     "descKo": "현대 포뮬러원에서는 적절한 균형을 찾는 것이 종종 어려운 과제입니다. 이는 기술 규정에 적용됩니다. 한편으로는 드라이버와 순수주의자를 만족시키고, 다른 한편으로는..."
+     ]
     },
     {
      "title": "Mercedes technical director details the psychological toll of F1 underperformance",
      "desc": "In Formula 1, PR-trained executives routinely frame losing seasons as \"learning opportunities\" and promise that the team will quickly bounce back. But Mercedes technical director…",
      "link": "https://www.motorsport.com/f1/news/mercedes-technical-director-details-the-brutal-psychological-toll-of-f1-underperformance/10874429/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2y7Qrj96/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/2y7Qrj96/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-15T09:33:19+00:00",
      "author": "",
      "id": "f35d4411ca",
+     "titleKo": "메르세데스 기술 책임자가 F1 성과 부진으로 인한 심리적 타격에 대해 상세히 설명",
+     "descKo": "포뮬러원(F1)에서는 홍보 교육을 받은 임원들이 패배한 시즌을 \"학습 기회\"로 포장하고 팀이 곧 반등할 것이라고 약속하는 것이 일상적입니다. 하지만 메르세데스의 기술 책임자는...",
      "lead": [
       "In Formula 1, PR-trained executives routinely frame losing seasons as \"learning opportunities\" and promise that the team will quickly bounce back. But Mercedes technical director James Allison recently stripped away that polished narrative to reveal the psychological reality of a championship drought.",
       "Following a historic run of eight consecutive constructors' championships, Mercedes endured four difficult seasons of underperformance. Now, after Mercedes officially reclaimed the title in 2026, Allison opened up about the internal atmosphere inside the Brackley factory during those intervening years.",
@@ -1889,15 +1931,13 @@
       "포뮬러원(F1)에서는 홍보 훈련을 받은 경영진이 패배한 시즌을 \"학습 기회\"로 포장하고 팀이 곧 반등할 것이라고 약속하는 것이 일상적입니다. 하지만 메르세데스의 기술 책임자인 제임스 앨리슨(James Allison)은 최근 이러한 세련된 서술을 벗어던지고 챔피언십 우승 가뭄의 심리적 현실을 드러냈습니다.",
       "8년 연속 컨스트럭터스 챔피언십을 차지한 역사적인 기록에 이어, 메르세데스는 4시즌 동안 부진한 성적을 거두며 어려운 시기를 보냈습니다. 이제 메르세데스가 2026년에 공식적으로 타이틀을 되찾은 후, 앨리슨은 그 사이의 몇 년 동안 브래클리 공장 내부의 분위기에 대해 솔직하게 이야기했습니다.",
       "조지 러셀, 메르세데스, 안드레아 키미 안토넬리, 메르세데스"
-     ],
-     "titleKo": "메르세데스 기술 책임자가 F1 성과 부진으로 인한 심리적 타격에 대해 상세히 설명",
-     "descKo": "포뮬러원(F1)에서는 홍보 교육을 받은 임원들이 패배한 시즌을 \"학습 기회\"로 포장하고 팀이 곧 반등할 것이라고 약속하는 것이 일상적입니다. 하지만 메르세데스의 기술 책임자는..."
+     ]
     },
     {
      "title": "James Allison admits flawed “Update 18” made the Mercedes W17 a “handful”",
      "desc": "Mercedes stormed out of the gates in 2026, quickly establishing a dominant lead that ultimately secured both the drivers' and constructors' championships. But as the season nears…",
      "link": "https://www.motorsport.com/f1/news/james-allison-admits-flawed-update-18-made-the-mercedes-w17-a-handful/10874437/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0Zq8VQo6/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/0Zq8VQo6/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-14T23:12:53+00:00",
      "author": "",
      "id": "cdbc944183",
@@ -1918,7 +1958,7 @@
      "title": "Oscar Piastri: You've got to \"manhandle\" McLaren's F1 car to find its potential",
      "desc": "Oscar Piastri says McLaren's 2026 Formula 1 car has to be \"manhandled\" to be quick, describing the MCL40 as a car that punishes drivers the moment they are not at the limit. The…",
      "link": "https://www.motorsport.com/f1/news/oscar-piastri-youve-got-to-manhandle-mclarens-f1-car-to-find-its-potential/10874559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-14T17:39:40+00:00",
      "author": "",
      "id": "37161d91af",
@@ -1939,7 +1979,7 @@
      "title": "‘Lewis suspected a conspiracy’ – Nico Rosberg explains how Lewis Hamilton F1 rivalry went awry at Mercedes",
      "desc": "When Lewis Hamilton joined Nico Rosberg at Mercedes for the 2013 Formula 1 season, it was a feel-good story: two long-time friends becoming team-mates. However, their amicable…",
      "link": "https://www.motorsport.com/f1/news/lewis-suspected-a-conspiracy-nico-rosberg-explains-how-hamilton-f1-rivalry-went-awry-at-mercedes/10874271/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg",
+     "image": "https://cdn-9.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg",
      "date": "2026-11-14T16:30:03+00:00",
      "author": "",
      "id": "889a2d292f",
@@ -1997,48 +2037,6 @@
       "초기 보도에 따르면, 관리 기구는 2027시즌에 다운포스를 20~50포인트 줄이는 것을 목표로 하고 있습니다. 이를 위해 FIA는 하이브리드 에너지 관리를 개선하고 차량이 서로 밀착하여 주행하는 것을 방해하는 난류 '더티 에어'를 줄이기 위해 몇 가지 주요 리어 에어로다이내믹 요소를 금지할 계획입니다.",
       "하지만 메르세데스의 제임스 앨리슨(James Allison) 기술 책임자는 최근 포뮬러원 머신의 속도를 늦추기 위한 규정을 마련해도 그리드의 최고 엔지니어들이 이를 우회할 방법을 찾지 못하는 경우는 드물다고 경고했습니다."
      ]
-    },
-    {
-     "title": "Mercedes and Audi unveil adidas collections for F1 Las Vegas Grand Prix",
-     "desc": "Mercedes and Audi have unveiled special adidas fan collections for the upcoming Formula 1 Las Vegas Grand Prix. Mercedes' range is called \"Neon Lights\", while Audi's is named…",
-     "link": "https://www.motorsport.com/f1/news/mercedes-and-audi-unveil-adidas-collections-for-f1-las-vegas-grand-prix/10874493/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/0o5AVbPY/s6/motorsport-com-graphics-2026-1.jpg",
-     "date": "2026-11-14T11:32:50+00:00",
-     "author": "",
-     "id": "f7d299a844",
-     "titleKo": "메르세데스-벤츠와 아우디, F1 라스베이거스 그랑프리 아디다스 컬렉션 공개",
-     "descKo": "메르세데스와 아우디가 다가오는 포뮬러원 라스베이거스 그랑프리를 맞아 특별한 아디다스 팬 컬렉션을 공개했습니다. 메르세데스의 컬렉션은 '네온 라이트'라고 불리며, 아우디의 컬렉션은...",
-     "lead": [
-      "Mercedes and Audi have unveiled special adidas fan collections for the upcoming Formula 1 Las Vegas Grand Prix.",
-      "Mercedes' range is called \"Neon Lights\", while Audi's is named \"After Hours\". Both collections are available now through adidas.com, and the pieces listed on the brand's US store range in price from $30 to $200.",
-      "The most expensive items are the outerwear. Mercedes' Las Vegas jacket and Audi's Las Vegas bomber jacket both cost $200."
-     ],
-     "leadKo": [
-      "메르세데스와 아우디가 다가오는 포뮬러원 라스베이거스 그랑프리를 맞아 특별한 아디다스 팬 컬렉션을 공개했습니다.",
-      "메르세데스의 컬렉션은 'Neon Lights'라고 불리며, 아우디의 컬렉션은 'After Hours'라고 불립니다. 두 컬렉션 모두 현재 adidas.com에서 구매할 수 있으며, 브랜드의 미국 스토어에 등록된 제품의 가격은 $30~$200입니다.",
-      "가장 비싼 아이템은 아우터웨어입니다. 메르세데스의 라스베이거스 재킷과 아우디의 라스베이거스 보머 재킷은 모두 200달러입니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen signs ambassador deal with Dutch technical group VDK",
-     "desc": "Four-time Formula 1 champion Max Verstappen has become the new ambassador of the VDK Group, a Dutch group of installation and technical companies that is expanding across Europe.…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-signs-ambassador-deal-with-dutch-technical-group-vdk/10874486/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/YN7vzaP6/s6/motorsport-com-graphics-2026-1.jpg",
-     "date": "2026-11-14T11:03:24+00:00",
-     "author": "",
-     "id": "fcf98b82e0",
-     "titleKo": "Max Verstappen, 네덜란드 기술 그룹 VDK와 대사 계약 체결",
-     "descKo": "4차례 포뮬러 1 챔피언인 Max Verstappen이 유럽 전역으로 확장하고 있는 네덜란드 설치 및 기술 회사 그룹인 VDK 그룹의 새로운 홍보대사가 되었습니다.…",
-     "lead": [
-      "Four-time Formula 1 champion Max Verstappen has become the new ambassador of the VDK Group, a Dutch group of installation and technical companies that is expanding across Europe.",
-      "The Dutchman will play a prominent role in the company's international branding over the coming years and will feature in its communications and marketing campaigns.",
-      "VDK was founded in 2013 as a Dutch group of technical companies and now has businesses in the Netherlands, Germany, Sweden, Austria, Switzerland and Belgium."
-     ],
-     "leadKo": [
-      "4차례 포뮬러 1 챔피언인 Max Verstappen이 유럽 전역으로 확장하고 있는 네덜란드 설치 및 기술 회사 그룹인 VDK 그룹의 새로운 홍보대사가 되었습니다.",
-      "더치맨은 앞으로 회사의 국제적인 브랜딩에서 중요한 역할을 담당할 것이며 커뮤니케이션 및 마케팅 캠페인에 등장할 것입니다.",
-      "VDK는 2013년 네덜란드 기술 회사 그룹으로 설립되었으며 현재 네덜란드, 독일, 스웨덴, 오스트리아, 스위스 및 벨기에에서 사업을 운영하고 있습니다."
-     ]
     }
    ]
   },
@@ -2054,6 +2052,8 @@
      "date": "2026-11-15T09:12:56+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "6b5590e6bf",
+     "titleKo": "윌리엄스가 사인츠와 알본을 테스트 드라이버로 전환한 이유",
+     "descKo": "윌리엄스 듀오인 카를로스 사인츠와 알렉스 알본은 최근 몇 주 동안 팀에서 아마도 세계에서 가장 자격이 높은 테스트 드라이버가 되었습니다.",
      "lead": [
       "Williams duo Carlos Sainz and Alex Albon have become arguably the most overqualified test drivers in the world as the team has sacrificed parts of the final Formula 1 weekends this season to help its 2027 car.",
       "As the Williams narrative has turned almost entirely to making progress for next year, Sainz and Albon have been conducting very different programmes in Friday practice to other drivers, and talking more about the value of experimental work outweighing that of absolutely nailing the preparation of a given weekend.",
@@ -2063,9 +2063,7 @@
       "윌리엄스 팀의 카를로스 사인츠와 알렉스 알본 듀오는 아마도 세계에서 가장 과잉 자격을 갖춘 테스트 드라이버가 되었을 것입니다. 팀은 이번 시즌 마지막 포뮬러원 주말의 일부를 희생하여 2027년 머신을 지원했기 때문입니다.",
       "윌리엄스의 이야기가 거의 전적으로 내년의 발전을 위한 것으로 전환되면서, 사인츠와 알본은 금요일 연습 주행에서 다른 드라이버들과는 매우 다른 프로그램을 진행하고 있으며, 특정 주말의 준비를 완벽하게 마무리하는 것보다 실험적인 작업의 가치가 더 크다고 말하고 있습니다.",
       "The Race가 올해 이 시기에 그가 테스트 드라이버가 되었는지 묻자, 사인츠는 \"그렇다\"고 답했습니다. 그리고 저는 팀에 15위나 17위로 완주하는 것은 신경 쓰지 않는다고 말했습니다."
-     ],
-     "titleKo": "윌리엄스가 사인츠와 알본을 테스트 드라이버로 전환한 이유",
-     "descKo": "윌리엄스 듀오인 카를로스 사인츠와 알렉스 알본은 최근 몇 주 동안 팀에서 아마도 세계에서 가장 자격이 높은 테스트 드라이버가 되었습니다."
+     ]
     },
     {
      "title": "'ADUO for teams' plan to be discussed by F1",
