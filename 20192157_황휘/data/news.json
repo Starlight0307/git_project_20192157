@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-14T22:27:55+00:00",
- "failed": [],
+ "updated": "2026-11-15T02:43:01+00:00",
+ "failed": [
+  "video"
+ ],
  "tabs": {
   "report": {
    "source": "Wikipedia",
@@ -1850,10 +1852,31 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "James Allison admits flawed “Update 18” made the Mercedes W17 a “handful”",
+     "desc": "Mercedes stormed out of the gates in 2026, quickly establishing a dominant lead that ultimately secured both the drivers' and constructors' championships. But as the season nears…",
+     "link": "https://www.motorsport.com/f1/news/james-allison-admits-flawed-update-18-made-the-mercedes-w17-a-handful/10874437/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/0Zq8VQo6/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "date": "2026-11-14T23:12:53+00:00",
+     "author": "",
+     "id": "cdbc944183",
+     "lead": [
+      "Mercedes stormed out of the gates in 2026, quickly establishing a dominant lead that ultimately secured both the drivers' and constructors' championships. But as the season nears its conclusion, the performance gap between the W17 and the rest of the grid has visibly shrunk.",
+      "According to Mercedes technical director James Allison, this convergence was not just a natural result of rivals catching up. Speaking on the NU Silver Arrows Radio Show , Allison confessed that Mercedes' own development path actively hampered the car's driveability late in the year.",
+      "While discussing the shrinking gap to the competition, Allison pointed to the team's latest major aerodynamic package."
+     ],
+     "leadKo": [
+      "Mercedes는 2026년에 성문 밖으로 뛰쳐나와 빠르게 압도적인 선두를 차지했고 궁극적으로 드라이버와 컨스트럭터 챔피언십을 모두 확보했습니다. 그러나 시즌이 거의 끝나가면서 W17과 나머지 그리드 사이의 성능 격차가 눈에 띄게 줄어들었습니다.",
+      "메르세데스 기술 이사인 제임스 앨리슨(James Allison)에 따르면, 이러한 융합은 단지 경쟁업체들이 따라잡는 자연스러운 결과가 아니었습니다. NU Silver Arrows 라디오 쇼에서 Allison은 Mercedes의 자체 개발 경로가 연말에 자동차의 주행성을 적극적으로 방해했다고 고백했습니다.",
+      "경쟁사와의 격차가 줄어드는 것에 대해 논의하면서 Allison은 팀의 최신 주요 공기역학적 패키지를 지적했습니다."
+     ],
+     "titleKo": "제임스 앨리슨은 결함이 있는 \"업데이트 18\"이 메르세데스 W17을 \"소수\"로 만들었다고 인정했습니다.",
+     "descKo": "Mercedes는 2026년에 성문 밖으로 뛰쳐나와 빠르게 압도적인 선두를 차지했고 궁극적으로 드라이버와 컨스트럭터 챔피언십을 모두 확보했습니다. 하지만 시즌이 다가오면서..."
+    },
+    {
      "title": "Oscar Piastri: You've got to \"manhandle\" McLaren's F1 car to find its potential",
      "desc": "Oscar Piastri says McLaren's 2026 Formula 1 car has to be \"manhandled\" to be quick, describing the MCL40 as a car that punishes drivers the moment they are not at the limit. The…",
      "link": "https://www.motorsport.com/f1/news/oscar-piastri-youve-got-to-manhandle-mclarens-f1-car-to-find-its-potential/10874559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/6zoD8ea0/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-14T17:39:40+00:00",
      "author": "",
      "id": "37161d91af",
@@ -1916,7 +1939,7 @@
      "title": "Mercedes technical director warns F1 teams won’t “lie down” over 2027 downforce cuts",
      "desc": "Formula 1's transition to the new 2026 engine and chassis regulations completely reshuffled the competitive order, but the rulebook is far from finalised. As teams prepare for…",
      "link": "https://www.motorsport.com/f1/news/mercedes-tech-boss-warns-f1-teams-wont-lie-down-over-massive-2027-downforce-cuts/10874433/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/6lmARXD0/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/6lmARXD0/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-14T12:14:36+00:00",
      "author": "",
      "id": "bf0828cdad",
@@ -1937,7 +1960,7 @@
      "title": "Mercedes and Audi unveil adidas collections for F1 Las Vegas Grand Prix",
      "desc": "Mercedes and Audi have unveiled special adidas fan collections for the upcoming Formula 1 Las Vegas Grand Prix. Mercedes' range is called \"Neon Lights\", while Audi's is named…",
      "link": "https://www.motorsport.com/f1/news/mercedes-and-audi-unveil-adidas-collections-for-f1-las-vegas-grand-prix/10874493/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0o5AVbPY/s6/motorsport-com-graphics-2026-1.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/0o5AVbPY/s6/motorsport-com-graphics-2026-1.jpg",
      "date": "2026-11-14T11:32:50+00:00",
      "author": "",
      "id": "f7d299a844",
@@ -2000,7 +2023,7 @@
      "title": "George Russell is “looking down the barrel” of Kimi Antonelli’s raw pace, says James Allison",
      "desc": "For an established Formula 1 driver, being beaten by a 20-year-old team-mate can sometimes lead to garage politics and excuses. For George Russell, the 2026 season delivered…",
      "link": "https://www.motorsport.com/f1/news/george-russell-is-looking-down-the-barrel-of-kimi-antonellis-raw-pace-says-allison/10874424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/63QaO7J2/s6/motorsport-com-graphics-2026-1-2.jpg",
+     "image": "https://cdn-5.motorsport.com/images/amp/63QaO7J2/s6/motorsport-com-graphics-2026-1-2.jpg",
      "date": "2026-11-14T10:10:30+00:00",
      "author": "",
      "id": "157af94616",
@@ -2015,27 +2038,6 @@
       "확고한 포뮬러 1 드라이버의 경우, 20세의 팀 동료에게 구타당하는 것은 때때로 차고 정치와 변명으로 이어질 수 있습니다. George Russell에게 2026년 시즌은 자매 Mercedes W17을 타고 Kimi Antonelli가 세계 챔피언십에 돌입하면서 바로 그 고압적인 시나리오를 전달했습니다.",
       "그러나 기계적인 불운과 운전 실수로 시즌이 망가진 후 비난을 회피하는 대신, 러셀은 안토넬리의 순수한 속도의 현실에 정면으로 직면하고 있습니다.",
       "Nu Silver Arrows 라디오 쇼에서 Mercedes 기술 디렉터인 James Allison은 Brackley의 팀 내 역동성을 엿볼 수 있었고, 패배에 직면한 러셀의 잔인한 자기 인식을 칭찬했습니다."
-     ]
-    },
-    {
-     "title": "McLaren to upgrade MCL40 car at its bogey F1 track Las Vegas",
-     "desc": "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”. The team launched its 2027…",
-     "link": "https://www.motorsport.com/f1/news/mclaren-to-upgrade-mcl40-car-at-its-bogey-f1-track-las-vegas/10874307/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/01QNp9q0/s6/leonardo-fornaroli-mclaren.jpg",
-     "date": "2026-11-14T09:09:51+00:00",
-     "author": "",
-     "id": "fa96191159",
-     "titleKo": "McLaren, 보기 F1 트랙 라스베이거스에서 MCL40 차량 업그레이드",
-     "descKo": "McLaren은 Formula 1의 라스베이거스 그랑프리에서 MCL40의 업그레이드를 선보일 예정이며, 새로운 부품은 \"내년 자동차의 기반\"이라는 라벨이 붙어 있습니다. 팀은 2027년을 시작했습니다…",
-     "lead": [
-      "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”.",
-      "The team launched its 2027 front wing concept in Brazil, with team principal Andrea Stella describing it as an improvement for driveability and predictability ; McLaren returned to form at Interlagos, with Lando Norris clinching pole position and victory in wet conditions. This ended a five-round podium-less streak, the squad’s worst since the first half of the 2023 campaign.",
-      "“After the upgrades in Hungary, it was encouraging that we were in a position to win – we should have won Madrid, really,” Stella said, referring to the unfortunate timing of the Virtual Safety Car in Spain, which likely cost Norris the victory at Madring."
-     ],
-     "leadKo": [
-      "McLaren은 Formula 1의 라스베이거스 그랑프리에서 MCL40의 업그레이드를 선보일 예정이며, 새로운 부품은 \"내년 자동차의 기반\"이라는 라벨이 붙어 있습니다.",
-      "팀은 브라질에서 2027년 프론트 윙 컨셉을 출시했으며, 팀장인 Andrea Stella는 이를 주행 가능성과 예측 가능성의 개선이라고 설명했습니다. McLaren은 Lando Norris가 젖은 환경에서 폴 포지션을 차지하고 승리를 거두면서 Interlagos로 돌아왔습니다. 이로 인해 2023년 캠페인 전반기 이후 팀 최악의 5라운드 연승 행진이 끝났습니다.",
-      "\"헝가리에서 업그레이드한 후 우리가 승리할 수 있는 위치에 있다는 것은 고무적이었습니다. 실제로 마드리드에서 승리했어야 했습니다.\" Stella는 스페인에서 Virtual Safety Car의 불행한 타이밍을 언급하면서 Norris가 Madring에서 승리할 수 없게 되었을 가능성이 있다고 말했습니다."
      ]
     }
    ]
