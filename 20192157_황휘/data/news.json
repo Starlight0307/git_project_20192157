@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:27:49+00:00",
+ "updated": "2026-11-16T22:10:07+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -8,20 +8,131 @@
    "license": "CC BY-SA 4.0",
    "items": [
     {
+     "id": "afab34b3db",
+     "wikiTitle": "2026 Las Vegas Grand Prix",
+     "title": "2026 Las Vegas Grand Prix",
+     "titleKo": "2026년 라스베이거스 그랑프리",
+     "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las…",
+     "descKo": "2026년 라스베이거스 그랑프리(공식 명칭: 2026년 포뮬러원 하이네켄 라스베이거스 그랑프리)는 2026년 11월 21일 네바다주 라스베이거스의 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러원 모터 레이스입니다. 이 경기는 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드가 될 것입니다.",
+     "link": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
+     "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
+     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+     "imageFile": "2023_Las_Vegas_street_circuit.svg",
+     "date": "2026-11-16T17:58:41Z",
+     "raceDate": "2026-11-22",
+     "author": "위키백과 편집자들",
+     "revid": 1386058583,
+     "license": "CC BY-SA 4.0",
+     "body": [
+      {
+       "h": "",
+       "level": 1,
+       "p": [
+        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It will be the twenty-first round of the 2026 Formula One World Championship."
+       ],
+       "hKo": "",
+       "pKo": [
+        "2026년 라스베이거스 그랑프리(공식 명칭: 2026년 포뮬러원 하이네켄 라스베이거스 그랑프리)는 2026년 11월 21일 네바다주 라스베이거스의 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러원 모터 레이스입니다. 이 경기는 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드가 될 것입니다."
+       ]
+      },
+      {
+       "h": "Background",
+       "level": 2,
+       "p": [
+        "The event will be held at the Las Vegas Strip Circuit in Paradise, Nevada, for the fourth time in the circuit's history, across the weekend of November 19–21. The Grand Prix will be the twenty-first round of the 2026 Formula One World Championship and the fourth running of the Las Vegas Grand Prix."
+       ],
+       "hKo": "배경",
+       "pKo": [
+        "이 이벤트는 11월 19일부터 21일까지 주말 동안 네바다주 파라다이스에 위치한 라스베이거스 스트립 서킷에서 서킷 역사상 네 번째로 개최됩니다. 그랑프리는 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드이자 라스베이거스 그랑프리의 4번째 개최가 될 것입니다."
+       ]
+      },
+      {
+       "h": "Championship standings before the race",
+       "level": 3,
+       "p": [
+        "Going into the weekend, Kimi Antonelli, who clinched the title at the Mexico City Grand Prix, led the Drivers' Championship with 390 points, 111 points ahead of Max Verstappen in second and 128 ahead of teammate George Russell in third. Mercedes, who won the Constructors' Championship at the preceding São Paulo Grand Prix, are ahead of Ferrari, who are second with 510 points and Red Bull Racing-Red Bull Ford, who are third with 415 points."
+       ],
+       "hKo": "경기 전 챔피언십 순위",
+       "pKo": [
+        "멕시코시티 그랑프리에서 우승을 차지한 키미 안토넬리는 이번 주말을 앞두고 드라이버 챔피언십에서 390점으로 선두를 달리고 있으며, 2위인 막스 페르스타펜보다 111점, 3위인 팀 동료 조지 러셀보다 128점 앞서 있습니다. 지난 상파울루 그랑프리에서 컨스트럭터 챔피언십을 차지한 메르세데스는 510점으로 2위를 차지한 페라리와 415점으로 3위를 차지한 레드불 레이싱-레드불 포드를 앞서고 있습니다."
+       ]
+      },
+      {
+       "h": "Entrants",
+       "level": 3,
+       "p": [
+        "The drivers and teams were the same as published in the season entry list with the exception of Rafael Câmara replacing Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
+        "During the first practice session, one team will field an alternate driver who has not raced in more than two Grands Prix, as required by the Formula One regulations:",
+        "Ryo Hirakawa for Haas in place of Oliver Bearman."
+       ],
+       "hKo": "출전 명단",
+       "pKo": [
+        "드라이버와 팀은 멕시코시티 그랑프리에서 팀과의 불화로 인해 라인업에서 제외된 에스테반 오콘을 대신하여 하스의 라파엘 카마라를 제외하고 시즌 참가자 명단에 발표된 것과 동일했습니다.",
+        "첫 번째 연습 세션에서는 포뮬러원 규정에 따라 2번 이상의 그랑프리에 출전한 적이 없는 대체 드라이버가 한 팀에 투입됩니다.",
+        "올리버 베어맨 대신 하스의 료 히라카와."
+       ]
+      },
+      {
+       "h": "Tyre choices",
+       "level": 3,
+       "p": [
+        "Tyre supplier Pirelli will bring the C3, C4, and C5 tyre compounds designated hard, medium, and soft, respectively, for teams to use at the event."
+       ],
+       "hKo": "타이어 선택",
+       "pKo": [
+        "타이어 공급사인 피렐리는 팀들이 대회에서 사용할 수 있도록 하드, 미디엄, 소프트로 각각 지정된 C3, C4, C5 타이어 컴파운드를 제공할 예정입니다."
+       ]
+      },
+      {
+       "h": "Practice",
+       "level": 2,
+       "p": [
+        "Three free practice sessions will be held for the event. The first free practice session will be held on November 19, 2026, at 16:30 local time (UTC-8). The second free practice session will be held on the same day, at 20:00 local time. The third practice session will be held on November 20, 2026, at 16:30 local time."
+       ],
+       "hKo": "연습 주행",
+       "pKo": [
+        "이 이벤트에서는 3회의 자유 연습 세션이 개최됩니다. 첫 번째 자유 연습 세션은 2026년 11월 19일 현지 시간(UTC-8) 오후 4시 30분에 열립니다. 두 번째 자유 연습 세션은 같은 날 현지 시간으로 오후 8시에 개최됩니다. 세 번째 연습 세션은 2026년 11월 20일 현지 시간 오후 4시 30분에 개최됩니다."
+       ]
+      },
+      {
+       "h": "Qualifying",
+       "level": 2,
+       "p": [
+        "Qualifying will be held on November 20, 2026, at 20:00 local time (UTC-8)."
+       ],
+       "hKo": "예선",
+       "pKo": [
+        "예선은 2026년 11월 20일 현지 시간(UTC-8) 오후 8시에 개최됩니다."
+       ]
+      },
+      {
+       "h": "Race",
+       "level": 2,
+       "p": [
+        "The race will be held on November 21, 2026, at 20:00 local time (UTC-8), and will be run for 50 laps."
+       ],
+       "hKo": "결승",
+       "pKo": [
+        "레이스는 2026년 11월 21일 현지 시간(UTC-8) 오후 8시에 개최되며, 50바퀴를 주행합니다."
+       ]
+      }
+     ]
+    },
+    {
      "id": "034b073722",
      "wikiTitle": "2026 São Paulo Grand Prix",
      "title": "2026 São Paulo Grand Prix",
-     "titleKo": "2026 상파울루 그랑프리",
+     "titleKo": "2026년 상파울루 그랑프리",
      "desc": "The 2026 São Paulo Grand Prix (officially known as the Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026) was a Formula One motor race that was held on 8 November 2026 at the…",
      "descKo": "2026년 상파울루 그랑프리(공식 명칭: Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026)는 2026년 11월 8일 브라질 상파울루의 인터라고스 서킷에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의 20번째 라운드였습니다. 루이스…",
      "link": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg/1280px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
-     "date": "2026-11-12T18:29:15Z",
+     "date": "2026-11-16T20:06:09Z",
      "raceDate": "2026-11-08",
      "author": "위키백과 편집자들",
-     "revid": 1385305692,
+     "revid": 1386077643,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -50,11 +161,11 @@
        "h": "Championship standings before the race",
        "level": 3,
        "p": [
-        "Going into the weekend, Kimi Antonelli, who clinched the title at the preceding Mexico City Grand Prix, led the Drivers' Championship with 380 points, 119 points ahead of Max Verstappen in second and 121 ahead of Lewis Hamilton in third. Mercedes, with 630 points, led the Constructors' Championship from Ferrari, who are second with 504 points, and Red Bull, who are third with 382 points."
+        "Going into the weekend, Kimi Antonelli, who clinched the title at the preceding Mexico City Grand Prix, led the Drivers' Championship with 380 points, 119 points ahead of Max Verstappen in second and 121 ahead of Lewis Hamilton in third. Mercedes, with 630 points, led the Constructors' Championship from Ferrari, who were second with 504 points, and Red Bull, who were third with 382 points."
        ],
        "hKo": "경기 전 챔피언십 순위",
        "pKo": [
-        "지난 주말 멕시코 시티 그랑프리에서 우승을 차지한 키미 안토넬리(Kimi Antonelli)는 380점으로 드라이버 챔피언십 1위를 차지했습니다. 2위는 맥스 페르스타펜(Max Verstappen)보다 119점 앞서고 3위는 루이스 해밀턴(Lewis Hamilton)보다 121점 앞선 것입니다. 컨스트럭터 챔피언십에서는 630점을 획득한 메르세데스가 504점으로 2위 페라리, 382점으로 3위 레드불에 이어 컨스트럭터 챔피언십을 이끌었습니다."
+        "지난 멕시코시티 그랑프리에서 우승을 차지한 키미 안토넬리는 이번 주말을 앞두고 380포인트로 드라이버 챔피언십 선두를 달리고 있으며, 2위인 막스 페르스타펜보다 119포인트, 3위인 루이스 해밀턴보다 121포인트 앞서 있습니다. 메르세데스는 630포인트로 컨스트럭터 챔피언십에서 선두를 달렸고, 페라리는 504포인트로 2위, 레드불은 382포인트로 3위를 차지했습니다."
        ]
       },
       {
@@ -212,10 +323,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_Hermanos_Rodríguez_2015.svg",
-     "date": "2026-11-14T00:11:32Z",
+     "date": "2026-11-16T16:45:11Z",
      "raceDate": "2026-11-01",
      "author": "위키백과 편집자들",
-     "revid": 1385569145,
+     "revid": 1386049927,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -423,17 +534,17 @@
      "id": "3fb1ad91c2",
      "wikiTitle": "2026 United States Grand Prix",
      "title": "2026 United States Grand Prix",
-     "titleKo": "2026 미국 그랑프리",
+     "titleKo": "2026년 미국 그랑프리",
      "desc": "The 2026 United States Grand Prix (officially known as the Formula 1 MSC Cruises United States Grand Prix 2026) was a Formula One motor race that was held on October 25, 2026, at…",
      "descKo": "2026년 미국 그랑프리(공식 명칭: Formula 1 MSC Cruises United States Grand Prix 2026)는 2026년 10월 25일 미국 텍사스주 오스틴에 있는 서킷 오브 더 아메리카스(Circuit of the Americas)에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원…",
      "link": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-11-09T22:53:21Z",
+     "date": "2026-11-16T20:49:10Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1384747918,
+     "revid": 1386083687,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1035,10 +1146,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Baku_Formula_One_circuit_map.svg/1280px-Baku_Formula_One_circuit_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Baku_Formula_One_circuit_map.svg",
-     "date": "2026-11-16T05:01:06Z",
+     "date": "2026-11-16T20:20:55Z",
      "raceDate": "2026-09-26",
      "author": "위키백과 편집자들",
-     "revid": 1385970082,
+     "revid": 1386079849,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1153,12 +1264,12 @@
        "level": 4,
        "p": [
         "George Russell (Mercedes) started on the medium-compound tyres, as did Max Verstappen (Red Bull) and the sixteenth-placed Kimi Antonelli (Mercedes). Charles Leclerc (Ferrari), Oscar Piastri (McLaren), Isack Hadjar (Red Bull) and Lewis Hamilton (Ferrari) started on soft tyres. Russell retained the lead at the start, while Piastri passed Leclerc for second and Lando Norris (McLaren) moved ahead of Hadjar. Verstappen gained places on Pierre Gasly (Alpine) and Hamilton during the opening exchanges. Antonelli initially dropped to seventeenth, while Russell completed the opening lap as the leader of the race.",
-        "Hadjar passed Norris for fourth and then passed Leclerc, with Verstappen also overtaking both drivers. Red Bull instructed Hadjar to allow Verstappen through into third, after which Piastri held off the two Red Bulls while Russell extended his lead. Verstappen subsequently reported difficulties with his medium tyres, while Hadjar indicated that he had more pace on softs. The team instructed Hadjar to hold position behind Verstappen. Red Bull team principal Laurent Mekies later explained that the team considered this its best opportunity to challenge Piastri and Russell, anticipating a safety car that would allow Verstappen to switch to soft tyres. Antonelli gradually recovered through the midfield, passing Oliver Bearman (Haas) to enter the top ten on lap 17. Norris lost a position to Hamilton after a braking error.  Both Aston Martin drivers retired; both with water pressure issues."
+        "Hadjar passed Norris for fourth and then passed Leclerc, with Verstappen also overtaking both drivers. Red Bull instructed Hadjar to allow Verstappen through into third, after which Piastri held off the two Red Bulls while Russell extended his lead. Verstappen subsequently reported difficulties with his medium tyres, while Hadjar indicated that he had more pace on softs. The team instructed Hadjar to hold position behind Verstappen. Red Bull team principal Laurent Mekies later explained that the team considered this its best opportunity to challenge Piastri and Russell, anticipating a safety car that would allow Verstappen to switch to soft tyres. Antonelli gradually recovered through the midfield, passing Oliver Bearman (Haas) to enter the top ten on lap 17. Norris lost a position to Hamilton after a braking error. Both Aston Martin drivers retired; both with water pressure issues."
        ],
        "hKo": "오프닝 기간",
        "pKo": [
         "George Russell(Mercedes)은 Max Verstappen(Red Bull)과 16위 Kimi Antonelli(Mercedes)와 마찬가지로 미디엄 타이어로 시작했습니다. Charles Leclerc(Ferrari), Oscar Piastri(McLaren), Isack Hadjar(Red Bull) 및 Lewis Hamilton(Ferrari)은 소프트 타이어로 시작했습니다. Russell은 처음부터 선두를 유지했고 Piatri는 Leclerc를 2위로 추월했고 Lando Norris(McLaren)는 Hadjar보다 앞서 나갔습니다. Verstappen은 첫 교환 기간 동안 Pierre Gasly(Alpine)와 Hamilton에서 자리를 얻었습니다. Antonelli는 처음에 17위로 떨어졌고 Russell은 레이스 리더로 오프닝 랩을 완료했습니다.",
-        "Hadjar는 Norris를 4위로 추월하고 Leclerc를 추월했으며 Verstappen도 두 드라이버를 모두 추월했습니다. Red Bull은 Hadjar에게 Verstappen을 3위로 허용하라고 지시했고, 그 후 Piastri는 두 Red Bulls를 막았고 Russell은 리드를 연장했습니다. Verstappen은 이후 중형 타이어에 어려움이 있다고 보고한 반면 Hadjar는 소프트 타이어에서 속도가 더 빠르다고 밝혔습니다. 팀은 Hadjar에게 Verstappen 뒤에 위치를 유지하도록 지시했습니다. Red Bull 팀장 Laurent Mekies는 나중에 팀이 Verstappen이 소프트 타이어로 전환할 수 있는 세이프티카을 기대하면서 이것이 Piatri와 Russell에 도전할 수 있는 가장 좋은 기회라고 생각했다고 설명했습니다. Antonelli는 미드필더를 통해 점차 회복하여 Oliver Bearman(Haas)을 제치고 랩 17에서 상위 10위 안에 들었습니다. Norris는 제동 오류로 해밀턴에게 위치를 잃었습니다.  두 Aston Martin 드라이버 모두 은퇴했습니다. 둘 다 수압 문제가 있습니다."
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
        ]
       },
       {
@@ -1579,280 +1690,6 @@
        ]
       }
      ]
-    },
-    {
-     "id": "b388646432",
-     "wikiTitle": "2026 Dutch Grand Prix",
-     "title": "2026 Dutch Grand Prix",
-     "titleKo": "2026 네덜란드 그랑프리",
-     "desc": "The 2026 Dutch Grand Prix (officially known as the Formula 1 Heineken Dutch Grand Prix 2026) was a Formula One motor race held on 23 August 2026 at Circuit Zandvoort in Zandvoort,…",
-     "descKo": "2026 네덜란드 그랑프리(공식 명칭: Formula 1 Heineken Dutch Grand Prix 2026)는 2026년 8월 23일 네덜란드 잔드보르트의 서킷 잔드보르트에서 열린 포뮬러 1 자동차 경주였습니다. 스프린트 형식을 활용한 2026년 포뮬러 원 월드 챔피언십의 12번째 라운드이자 시즌 6개 그랑프리 중…",
-     "link": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix",
-     "historyUrl": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix?action=history",
-     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Zandvoort_Circuit.png/1280px-Zandvoort_Circuit.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-     "imageFile": "Zandvoort_Circuit.png",
-     "date": "2026-10-19T14:43:59Z",
-     "raceDate": "2026-08-23",
-     "author": "위키백과 편집자들",
-     "revid": 1381025083,
-     "license": "CC BY-SA 4.0",
-     "body": [
-      {
-       "h": "",
-       "level": 1,
-       "p": [
-        "The 2026 Dutch Grand Prix (officially known as the Formula 1 Heineken Dutch Grand Prix 2026) was a Formula One motor race held on 23 August 2026 at Circuit Zandvoort in Zandvoort, the Netherlands. It was the twelfth round of the 2026 Formula One World Championship and the fifth of six Grands Prix in the season to utilise the sprint format. The event was the final scheduled running of the Dutch Grand Prix before its departure from the Formula One calendar.",
-        "George Russell (Mercedes) secured pole position for the sprint and converted it into victory ahead of Charles Leclerc (Ferrari) and Lando Norris (McLaren). Norris took pole position for the main race, ahead of Russell and Kimi Antonelli (Mercedes). The race began on a damp circuit following pre-race rain and was red-flagged at the end of the opening lap after Max Verstappen (Red Bull) lost control at the banked final corner and crashed heavily. Antonelli overtook Norris for the lead at the standing restart and led for much of the race, Norris extended his penultimate stint to gain a tyre-life advantage. After rejoining behind Antonelli and the out-of-sequence Lewis Hamilton (Ferrari), Norris overtook both drivers on lap 54 and retained the lead. He won ahead of Antonelli and Russell, securing his second consecutive victory following the Hungarian Grand Prix, the thirteenth victory of his Formula One career and his second at Zandvoort."
-       ],
-       "hKo": "",
-       "pKo": [
-        "2026 네덜란드 그랑프리(공식 명칭: Formula 1 Heineken Dutch Grand Prix 2026)는 2026년 8월 23일 네덜란드 잔드보르트의 서킷 잔드보르트에서 열린 포뮬러 1 자동차 경주였습니다. 스프린트 형식을 활용한 2026년 포뮬러 원 월드 챔피언십의 12번째 라운드이자 시즌 6개 그랑프리 중 5번째 라운드였습니다. 이 이벤트는 Formula One 달력에서 출발하기 전 네덜란드 그랑프리의 마지막 예정된 실행이었습니다.",
-        "조지 러셀(메르세데스)이 스프린트의 폴 포지션을 확보하며 찰스 르클레르(페라리), 란도 노리스(맥라렌)를 제치고 승리로 전환했다. Norris는 Russell과 Kimi Antonelli(Mercedes)보다 앞서 메인 레이스에서 폴 포지션을 차지했습니다. 레이스는 레이스 전 비가 내린 후 습기가 많은 서킷에서 시작되었고 Max Verstappen(Red Bull)이 뱅크에 있는 마지막 코너에서 통제력을 잃고 심하게 충돌한 후 오프닝 랩이 끝날 때 레드 플래그가 표시되었습니다. Antonelli는 스탠딩 재시작에서 Norris를 제치고 레이스의 대부분을 이끌었습니다. Norris는 타이어 수명 이점을 얻기 위해 마지막 두 번째 기간을 연장했습니다. Antonelli와 순서가 잘못된 Lewis Hamilton(Ferrari)의 뒤를 이어 다시 합류한 Norris는 랩 54에서 두 드라이버를 모두 제치고 선두를 유지했습니다. 그는 Antonelli와 Russell을 앞서며 헝가리 그랑프리에 이어 두 번째 연속 승리를 거두었으며 Formula One 경력의 13번째 승리이자 Zandvoort에서 두 번째 승리를 거두었습니다."
-       ]
-      },
-      {
-       "h": "Background",
-       "level": 2,
-       "p": [
-        "The event was held at Circuit Zandvoort in Zandvoort for the 36th time in the circuit's history, across the weekend of 21–23 August. It was the 36th running of the Dutch Grand Prix as a round of the Formula One World Championship. It was also the fifth of six Grands Prix in the season to utilise the sprint format and the first time that the Dutch Grand Prix featured it. This was the last scheduled Dutch Grand Prix, after the promoter elected against extending the contract in 2027."
-       ],
-       "hKo": "배경",
-       "pKo": [
-        "이 이벤트는 8월 21일부터 23일까지 주말 동안 서킷 역사상 36번째로 Zandvoort의 Circuit Zandvoort에서 열렸습니다. 이는 포뮬러 원 월드 챔피언십 라운드로서 네덜란드 그랑프리의 36번째 대회였습니다. 또한 스프린트 형식을 활용한 시즌 6개 그랑프리 중 5번째였으며 네덜란드 그랑프리에서 처음으로 도입했습니다. 이는 발기인이 2027년 계약 연장을 반대하기로 결정한 이후 마지막으로 예정된 네덜란드 그랑프리였습니다."
-       ]
-      },
-      {
-       "h": "Championship standings before the race",
-       "level": 3,
-       "p": [
-        "Following the previous round in Hungary, Kimi Antonelli led the Drivers' Championship with 219 points, 50 points ahead of Lewis Hamilton in second and 59 ahead of his teammate George Russell in third. Mercedes, with 379 points, led the Constructors' Championship from Ferrari and McLaren, which were second and third with 307 and 220 points, respectively."
-       ],
-       "hKo": "경기 전 챔피언십 순위",
-       "pKo": [
-        "헝가리에서 열린 이전 라운드에 이어 키미 안토넬리(Kimi Antonelli)는 219점으로 드라이버 챔피언십 1위를 차지했습니다. 2위는 루이스 해밀턴보다 50점, 3위는 팀 동료인 조지 러셀보다 59점 앞서는 것입니다. 메르세데스는 379점으로 컨스트럭터 챔피언십에서 페라리와 맥라렌에 이어 각각 307점과 220점으로 2위와 3위를 차지했습니다."
-       ]
-      },
-      {
-       "h": "Entrants",
-       "level": 3,
-       "p": [
-        "The drivers and teams were the same as published in the season entry list, with the exception of Isack Hadjar at Red Bull, who injured his wrist leading into the weekend and was therefore unable to compete. He was replaced by Liam Lawson, marking his first appearance with Red Bull since the 2025 Chinese Grand Prix. Red Bull reserve driver Yuki Tsunoda, who last raced at the 2025 Abu Dhabi Grand Prix as a Red Bull driver, replaced Lawson at Racing Bulls, his first appearance for Racing Bulls since swapping seats with Lawson after the first two rounds of 2025."
-       ],
-       "hKo": "출전 명단",
-       "pKo": [
-        "드라이버와 팀은 주말까지 손목 부상을 입어 경기에 출전할 수 없었던 Red Bull의 Isack Hadjar를 제외하고는 시즌 참가 목록에 게시된 것과 동일했습니다. 그는 Liam Lawson으로 교체되어 2025 중국 그랑프리 이후 Red Bull에 처음으로 등장했습니다. 2025년 아부다비 그랑프리에서 레드불 드라이버로 마지막으로 레이스를 펼친 Red Bull 예비 드라이버 Yuki Tsunoda가 Racing Bulls에서 Lawson을 대신하여 2025년 첫 두 라운드 이후 Lawson과 좌석을 바꾼 이후 처음으로 Racing Bulls에 출전했습니다."
-       ]
-      },
-      {
-       "h": "Tyre choices",
-       "level": 3,
-       "p": [
-        "Tyre supplier Pirelli selected its C2, C3, and C4 compounds—the middle three in its range—for the event, designating them as hard, medium, and soft, respectively."
-       ],
-       "hKo": "타이어 선택",
-       "pKo": [
-        "타이어 공급업체인 Pirelli는 이번 행사를 위해 C2, C3, C4 컴파운드(제품군 중 중간 3개)를 선택하여 각각 하드, 미디엄, 소프트로 지정했습니다."
-       ]
-      },
-      {
-       "h": "Practice",
-       "level": 2,
-       "p": [
-        "The sole free practice session was held on 21 August 2026, at 12:30 local time (UTC+2), and was topped by Kimi Antonelli (Mercedes) ahead of Lando Norris (McLaren) and teammate George Russell."
-       ],
-       "hKo": "연습 주행",
-       "pKo": [
-        "단독 무료 연습 세션은 2026년 8월 21일 현지 시간(UTC+2) 12시 30분에 열렸으며 키미 안토넬리(메르세데스)가 란도 노리스(맥라렌)와 팀 동료 조지 러셀에 앞서 1위를 차지했습니다."
-       ]
-      },
-      {
-       "h": "Sprint qualifying",
-       "level": 2,
-       "p": [
-        "Sprint qualifying was held on 21 August 2026, at 16:30 local time (UTC+2), and determined the starting grid order for the sprint."
-       ],
-       "hKo": "스프린트 예선",
-       "pKo": [
-        "스프린트 예선은 2026년 8월 21일 현지 시간(UTC+2) 16:30에 진행되었으며 스프린트의 스타팅 그리드 순서가 결정되었습니다."
-       ]
-      },
-      {
-       "h": "Sprint qualifying report",
-       "level": 3,
-       "p": [
-        "The 12-minute opening segment (SQ1) saw the medium compound tyres mandated. Kimi Antonelli and George Russell (Mercedes) set the opening timed laps. Antonelli carried too much speed into the penultimate corner on his first flying lap, lost the rear of his car and travelled through the gravel before returning to the pits. Although Mercedes initially reported that no damage was visible, Antonelli later revealed that the excursion had left holes in the floor and caused a substantial loss of downforce; the Mercedes mechanics repaired the floor sufficiently for him to continue, and he recovered to finish SQ1 in eighth place. Russell established the early benchmark before Charles Leclerc, Lewis Hamilton (Ferrari) and Lando Norris (McLaren) successively moved to the top. Leclerc ultimately finished SQ1 fastest, ahead of Norris, Oscar Piastri (McLaren), Hamilton and Russell. Liam Lawson (Red Bull), who had returned to the team in place of the injured Isack Hadjar, took sixth ahead of teammate Max Verstappen. At the other end of the order, Fernando Alonso (Aston Martin) locked his brakes at turn 1 and ran wide, while a malfunction of his car's straight-line mode contributed to him finishing last, despite receiving a tow from a Cadillac. Late improvements by Esteban Ocon (Haas) and Alexander Albon (Williams) displaced their respective teammates Oliver Bearman (Haas) and Carlos Sainz Jr. (Williams), who were eliminated in 17th and 18th, respectively. Lance Stroll (Aston Martin), the Cadillac drivers Valtteri Bottas and Sergio Pérez, and Alonso were also eliminated.",
-        "SQ2 (the second part of sprint qualifying) was again contested on medium tyres. Norris initially moved to the top before Piastri produced the fastest lap of the segment. Leclerc and Hamilton subsequently improved, but neither Ferrari nor the Mercedes drivers could displace Piastri. Ferrari and Mercedes returned to the pits after completing their runs, whereas McLaren remained on track and ended the segment first and second, with Leclerc third ahead of Russell, Hamilton and Antonelli. Pierre Gasly (Alpine), Verstappen, Arvid Lindblad (Racing Bulls) and Gabriel Bortoleto (Audi) secured the remaining four places in the final part of sprint qualifying (SQ3). Bortoleto's final improvement lifted him into the top ten and displaced Lawson into the elimination zone. Lawson finished 11th after failing to make the same improvement as the other drivers as track conditions evolved, narrowly ahead of Yuki Tsunoda (Racing Bulls), who had taken Lawson's regular seat for the weekend. Franco Colapinto (Alpine), Nico Hülkenberg (Audi), Ocon and Albon completed the group eliminated before SQ3.",
-        "The final eight-minute SQ3 segment was run on soft tyres and became a one-lap shootout, with all ten drivers remaining in their garages until the closing four minutes. Norris was the first to complete a representative lap and took provisional sprint pole. Antonelli was unable to improve on Norris's effort, Russell moved ahead. Leclerc subsequently qualified third ahead of Piastri, leaving the four fastest drivers separated by less than one tenth of a second. Antonelli finished fifth, with the earlier floor damage continuing to affect his performance. Verstappen qualified sixth, while Hamilton encountered oversteer at turn 1 and difficulty rotating his Ferrari through turn 9 on his way to seventh. Gasly headed the midfield runners in eighth, followed by Bortoleto and Lindblad. Russell had finished fifth in SQ1 and fourth in SQ2 without leading either segment, but secured his third sprint pole position of the season."
-       ],
-       "hKo": "스프린트 예선 리포트",
-       "pKo": [
-        "12분 오프닝 구간(SQ1)에서는 미디엄 컴파운드 타이어가 의무화되었습니다. Kimi Antonelli와 George Russell(Mercedes)이 오프닝 시간 랩을 설정했습니다. Antonelli는 첫 번째 비행 랩에서 두 번째 코너까지 너무 많은 속도를 냈고, 차의 뒤쪽을 잃어 구덩이로 돌아오기 전에 자갈을 통과했습니다. Mercedes는 처음에 눈에 띄는 손상이 없다고 보고했지만 Antonelli는 나중에 여행으로 인해 바닥에 구멍이 생겨 상당한 다운포스 손실이 발생했다고 밝혔습니다. Mercedes 정비사는 그가 계속할 수 있을 만큼 바닥을 수리했고, 그는 회복하여 SQ1을 8위로 마쳤습니다. 러셀은 찰스 르클레르, 루이스 해밀턴(페라리), 란도 노리스(맥라렌)가 차례로 정상에 오르기 전에 초기 벤치마크를 확립했다. Leclerc는 궁극적으로 Norris, Oscar Piatri(McLaren), Hamilton 및 Russell보다 앞서 SQ1을 가장 빠르게 완료했습니다. 부상당한 아이삭 하자르를 대신해 팀에 복귀한 리암 로슨(레드불)이 팀 동료인 막스 베르스타펜을 제치고 6위를 차지했다. 명령의 반대쪽 끝에 있는 Fernando Alonso(Aston Martin)는 1번 코너에서 브레이크를 잠그고 넓게 달렸으며, 그의 차의 직선 모드의 오작동으로 인해 Cadillac의 견인을 받았음에도 불구하고 그는 마지막으로 마무리했습니다. Esteban Ocon (Haas)과 Alexander Albon (Williams)의 후반 개선은 각각 17 위와 18 위로 탈락 한 각자의 팀 동료 Oliver Bearman (Haas)과 Carlos Sainz Jr. (Williams)를 대체했습니다. Lance Stroll(Aston Martin), Cadillac 드라이버 Valtteri Bottas 및 Sergio Pérez, Alonso도 탈락했습니다.",
-        "SQ2(스프린트 예선의 두 번째 부분)는 다시 중형 타이어를 놓고 경쟁했습니다. Norris는 Piastri가 해당 부문에서 가장 빠른 랩을 생성하기 전에 처음에 정상에 올랐습니다. 르클레르와 해밀턴은 이후 발전했지만 페라리나 메르세데스 드라이버 모두 피아스트리를 대체할 수 없었습니다. Ferrari와 Mercedes는 달리기를 마친 후 구덩이로 돌아 왔고 McLaren은 트랙을 유지하며 1, 2위 구간을 마쳤으며 Leclerc는 Russell, Hamilton, Antonelli보다 3위를 차지했습니다. Pierre Gasly(Alpine), Verstappen, Arvid Lindblad(Racing Bulls), Gabriel Bortoleto(Audi)가 스프린트 예선 마지막 부분(SQ3)에서 나머지 4위를 확보했습니다. Bortoleto의 최종 개선으로 그는 상위 10위 안에 들었고 Lawson은 제거 영역으로 옮겨졌습니다. Lawson은 트랙 상황이 발전함에 따라 다른 드라이버들과 동일한 개선을 이루지 못한 후 11위를 차지했으며, 주말 동안 Lawson의 정규 자리를 차지한 Yuki Tsunoda(Racing Bulls)를 근소하게 앞섰습니다. Franco Colapinto(Alpine), Nico Hülkenberg(Audi), Ocon 및 Albon은 SQ3 이전에 탈락한 그룹을 완성했습니다.",
-        "마지막 8분짜리 SQ3 구간은 소프트 타이어를 사용하여 진행되었으며 4분을 마감할 때까지 10명의 드라이버 모두가 차고에 남아 있는 1랩 총격전이 되었습니다. Norris는 대표 랩을 처음으로 완료하고 임시 스프린트 폴을 차지했습니다. Antonelli는 Norris의 노력을 향상시킬 수 없었고 Russell은 앞으로 나아갔습니다. Leclerc는 이후 Piastri보다 3위를 차지했으며, 가장 빠른 4명의 드라이버는 1/10초 미만의 차이를 보였습니다. Antonelli는 5위를 차지했으며, 초기 바닥 손상이 그의 성능에 계속 영향을 미쳤습니다. Verstappen은 6위를 차지했으며 Hamilton은 1번째 턴에서 오버스티어를 겪었고 7번째로 가는 도중 9번째 턴에서 Ferrari를 회전하는 데 어려움을 겪었습니다. Gasly가 8회에 미드필더 주자들을 이끌었고 Bortoleto와 Lindblad가 그 뒤를 이었습니다. Russell은 두 부문 모두 선두를 차지하지 못한 채 SQ1에서 5위, SQ2에서 4위를 차지했지만 시즌의 세 번째 스프린트 폴 포지션을 확보했습니다."
-       ]
-      },
-      {
-       "h": "Sprint",
-       "level": 2,
-       "p": [
-        "The sprint was held on 22 August 2026, at 12:00 local time (UTC+2), and was run for 24 laps."
-       ],
-       "hKo": "스프린트",
-       "pKo": [
-        "스프린트는 2026년 8월 22일 현지 시간(UTC+2) 12시에 진행되었으며 24랩 동안 진행되었습니다."
-       ]
-      },
-      {
-       "h": "Sprint report",
-       "level": 3,
-       "p": [
-        "George Russell (Mercedes) started from pole position, with Lando Norris (McLaren) alongside him and Charles Leclerc (Ferrari) and Oscar Piastri (McLaren) on the second row. Before the start, Carlos Sainz Jr. (Williams) and Fernando Alonso (Aston Martin) were required to begin from the pit lane after their teams made set up changes under parc fermé conditions. A technical problem on Sergio Pérez's (Cadillac) car was discovered before the formation lap, prompting the team to return it to the pit lane and leaving his grid position vacant. The sprint began in dry and overcast conditions, with most drivers using the medium compound tyres; Leclerc and Oliver Bearman (Haas) were the only drivers to select the soft compound.",
-        "Russell retained the lead at the start and resisted Norris's initial challenge. Behind them, Kimi Antonelli (Mercedes) swept around Piastri through the opening corners to take fourth place, the only change of position among the top ten on the opening lap, while Leclerc remained close behind Norris and Max Verstappen (Red Bull) followed by Piastri in sixth. Further back, Franco Colapinto (Alpine) passed Yuki Tsunoda (Racing Bulls) for twelfth, while Pérez joined the sprint from the pit lane after three laps. Nico Hülkenberg (Audi) encountered a power unit problem during the early stages and returned to the pits; although he later rejoined the track, he completed too few laps to be classified.",
-        "Norris remained within range of Russell during the opening laps, as Russell conserved his tyres through the high-speed corners. On lap 10, Mercedes told Russell that he could increase his pace, after which he opened a more secure advantage over Norris. Norris began to struggle with rear grip and came under sustained pressure from Leclerc, whose soft tyres continued to perform without the anticipated loss of pace, while Antonelli remained close behind. The order also remained closely contested further back: Piastri held off Verstappen for fifth, with Lewis Hamilton (Ferrari) behind, while Pierre Gasly (Alpine) defended the final points-paying position from Gabriel Bortoleto (Audi). Arvid Lindblad (Racing Bulls) stayed ahead of Liam Lawson (Red Bull) in the contest for tenth. Despite several cars running within overtaking range, the narrow circuit and the similar pace of the leading group limited changes of position.",
-        "On lap 18, Leclerc successfully overtook Norris around the outside of the first turn. Leclerc pulled away once ahead, while Russell increased his pace sufficiently to retain control of the sprint. Norris then came under pressure from Antonelli, who attempted to challenge into the first corner on the final lap but was unable to complete a pass. Piastri similarly resisted Verstappen for fifth, while Hamilton remained seventh and Gasly secured the final point in eighth. Russell won, giving him his third sprint victory of the season, ahead of Leclerc and Norris. Antonelli finished fourth and extended his championship lead over Hamilton to 53 points, while Russell reduced his deficit to Antonelli to 56 points."
-       ],
-       "hKo": "스프린트 리포트",
-       "pKo": [
-        "조지 러셀(메르세데스)이 폴 포지션에서 출발했고, 랜도 노리스(맥라렌)가 그와 나란히, 찰스 르클레르(페라리)와 오스카 피아스트리(맥라렌)가 두 번째 줄에 앉았습니다. 출발 전, Carlos Sainz Jr.(Williams)와 Fernando Alonso(Aston Martin)는 팀이 parc fermé 조건에서 셋업을 변경한 후 피트 레인에서 출발해야 ​​했습니다. Sergio Pérez(Cadillac)의 차량에서 기술적 문제가 포메이션 랩 전에 발견되어 팀은 해당 차량을 피트 레인으로 반환하고 그리드 위치를 비워 두었습니다. 스프린트는 건조하고 흐린 날씨에서 시작되었으며 대부분의 운전자는 중형 복합 타이어를 사용했습니다. Leclerc와 Oliver Bearman(Haas)은 소프트 컴파운드를 선택한 유일한 드라이버였습니다.",
-        "Russell은 처음부터 선두를 유지했고 Norris의 초기 도전에 저항했습니다. 그 뒤를 이어 키미 안토넬리(Mercedes)가 오프닝 코너를 통해 피아스트리를 휩쓸며 4위를 차지했습니다. 이는 오프닝 랩에서 상위 10위 안에 드는 유일한 위치 변화로, 르클레르(Leclerc)는 노리스(Norris)와 막스 베르스타펜(Red Bull)에 뒤처지지 않았고 피아스트리가 6위를 차지했습니다. 더 뒤로는 Franco Colapinto(Alpine)가 Yuki Tsunoda(Racing Bulls)를 12위로 추월했고 Pérez는 3바퀴를 돌린 후 피트 레인에서 스프린트에 합류했습니다. Nico Hülkenberg(Audi)는 초기 단계에서 동력 장치 문제에 직면하여 피트로 돌아왔습니다. 그는 나중에 트랙에 다시 합류했지만 분류되기에는 너무 적은 랩을 완료했습니다.",
-        "Norris는 오프닝 랩 동안 Russell의 범위 내에 머물렀고 Russell은 고속 코너를 통해 타이어를 보호했습니다. 랩 10에서 Mercedes는 Russell에게 자신의 속도를 높일 수 있다고 말한 후 Norris보다 더 안전한 이점을 열었습니다. Norris는 후방 그립으로 어려움을 겪기 시작했고 Leclerc의 지속적인 압력을 받았습니다. Leclerc의 소프트 타이어는 예상되는 속도 저하 없이 계속 성능을 발휘하는 반면 Antonelli는 바짝 뒤처졌습니다. 이 순서는 더 뒤쪽에서도 여전히 치열한 경쟁을 벌였습니다. Piastri는 Lewis Hamilton(Ferrari)이 뒤처진 Verstappen을 5위로 막았고 Pierre Gasly(Alpine)는 Gabriel Bortoleto(Audi)로부터 최종 포인트 지불 위치를 방어했습니다. 아르비드 린드블라드(레이싱불스)가 리암 로슨(레드불)을 제치고 10위를 기록했다. 추월 범위 내에서 여러 대의 자동차가 달리고 있음에도 불구하고 좁은 서킷과 선두 그룹의 비슷한 속도로 인해 위치 변경이 제한되었습니다.",
-        "랩 18에서 Leclerc는 첫 번째 턴 바깥 쪽에서 Norris를 성공적으로 추월했습니다. Leclerc는 한 번 앞서 나갔고 Russell은 스프린트 제어권을 유지할 수 있을 만큼 속도를 높였습니다. Norris는 마지막 랩에서 첫 번째 코너에 도전하려고 시도했지만 패스를 완료하지 못한 Antonelli의 압력을 받았습니다. Piatri는 마찬가지로 Verstappen에 저항하여 5위를 기록했고 Hamilton은 7위를 유지했으며 Gasly는 8위로 최종 점수를 확보했습니다. Russell이 승리하여 Leclerc와 Norris를 앞지르며 시즌 세 번째 스프린트 승리를 거두었습니다. Antonelli는 4위를 차지하여 해밀턴을 상대로 챔피언십 선두를 53점으로 늘렸으며 Russell은 Antonelli에 대한 적자를 56점으로 줄였습니다."
-       ]
-      },
-      {
-       "h": "Qualifying",
-       "level": 2,
-       "p": [
-        "Qualifying was held on 22 August 2026, at 16:00 local time (UTC+2), and determined the starting grid order for the main race."
-       ],
-       "hKo": "예선",
-       "pKo": [
-        "예선은 2026년 8월 22일 현지 시간(UTC+2) 16:00에 진행되었으며 본선의 스타팅 그리드 순서가 결정되었습니다."
-       ]
-      },
-      {
-       "h": "Qualifying report",
-       "level": 3,
-       "p": [
-        "Q1, the opening part of qualifying, began on a dry track, with all drivers using the soft-compound tyre. Nico Hülkenberg (Audi) led the field out of the pit lane, before Yuki Tsunoda (Racing Bulls) set the early pace. Lewis Hamilton (Ferrari) then moved to the top, only to be displaced in turn by Lando Norris and Oscar Piastri (both McLaren). George Russell (Mercedes) initially split the McLarens, while Hamilton briefly went through the gravel after locking up at turn 1. Gabriel Bortoleto (Audi) recovered from an error on his first attempt to move clear of the elimination zone, and Piastri ultimately headed Hamilton and Norris, with less than a tenth of a second covering the leading three. Alexander Albon (Williams) secured the final place in Q2 (the second part of qualifying) by little more than two hundredths of a second over Carlos Sainz Jr. (Williams), who was eliminated alongside Fernando Alonso and Lance Stroll (both Aston Martin), Oliver Bearman (Haas), and Valtteri Bottas and Sergio Pérez (both Cadillac).",
-        "Max Verstappen (Red Bull) led the field out at the start of Q2 and briefly set the pace before Russell established the first representative benchmark. McLaren then assumed control as the track evolved, with Norris narrowly beating Piastri to finish the segment fastest. Bortoleto's improvement into the top ten increased the pressure on the Red Bull drivers (Verstappen and Liam Lawson), and, with the leading 13 cars covered by approximately one second, every remaining driver completed a second run. Verstappen improved to third, ahead of Charles Leclerc (Ferrari), Kimi Antonelli (Mercedes), Russell and Hamilton, while Lawson advanced in eighth. Bortoleto and Arvid Lindblad (Racing Bulls) retained the final two places in Q3 (the final part of qualifying). Pierre Gasly (Alpine) was the fastest driver eliminated, missing Lindblad's time by less than a tenth of a second; he was followed by Tsunoda, Hülkenberg, Franco Colapinto (Alpine), Esteban Ocon (Haas) and Albon.",
-        "The threat of rain influenced the timing of the Q3 runs. Norris held provisional pole by more than a tenth of a second after the opening attempts, with Russell separating the McLaren drivers and Piastri in third; Leclerc was fourth ahead of Antonelli, Verstappen and Lawson, while Hamilton was eighth. As the first drops began to fall, the drivers returned to the circuit earlier than usual for their final attempts. Antonelli briefly took provisional pole, before Norris immediately surpassed him; Russell then improved to second, just over a tenth of a second behind Norris, with Antonelli third and Piastri fourth. Only four hundredths of a second separated Russell, Antonelli and Piastri. Ferrari's drivers were the last of the leading contenders to complete their laps, but neither challenged for pole; Hamilton moved ahead of Leclerc to form an all-Ferrari third row. Verstappen and Lawson occupied the fourth row, while Bortoleto and Lindblad completed the top ten. This marked Norris's second consecutive pole position and the 18th Grand Prix pole of his career."
-       ],
-       "hKo": "예선 리포트",
-       "pKo": [
-        "예선 시작 부분인 Q1은 모든 드라이버가 소프트 타이어를 사용하는 건조한 트랙에서 시작되었습니다. Nico Hülkenberg(Audi)가 피트 레인 밖으로 필드를 이끌었고 Yuki Tsunoda(Racing Bulls)가 초기 속도를 설정했습니다. 그 후 루이스 해밀턴(페라리)이 1위로 올라섰고, 그 자리를 랜도 노리스(Lando Norris)와 오스카 피아스트리(모두 맥라렌)가 차지했습니다. George Russell(Mercedes)은 처음에 McLarens를 분할했고 Hamilton은 턴 1에서 갇힌 후 잠시 자갈을 통과했습니다. Gabriel Bortoleto(Audi)는 제거 영역에서 벗어나려는 첫 번째 시도에서 오류에서 회복되었고 Piatri는 궁극적으로 Hamilton과 Norris를 이끌었고 선두 3개를 덮는 데 10분의 1초도 채 걸리지 않았습니다. Alexander Albon(Williams)은 Fernando Alonso 및 Lance Stroll(모두 Aston Martin), Oliver Bearman(Haas), Valtteri Bottas 및 Sergio Pérez(모두 Cadillac)와 함께 탈락한 Carlos Sainz Jr.(Williams)를 200분의 1초 남짓 차이로 제치고 2분기(예선 2부)에서 최종 순위를 차지했습니다.",
-        "Max Verstappen(Red Bull)은 2분기 초에 필드를 이끌었고 Russell이 첫 번째 대표 벤치마크를 설정하기 전에 잠시 속도를 설정했습니다. 그런 다음 McLaren은 트랙이 발전함에 따라 제어권을 맡았고 Norris는 Piatri를 간신히 이기고 세그먼트를 가장 빨리 완료했습니다. Bortoleto가 상위 10위 안에 진입하면서 Red Bull 드라이버(Verstappen 및 Liam Lawson)에 대한 압박이 가중되었으며 선두 13대의 차량이 약 1초 동안 커버되면서 나머지 모든 드라이버는 두 번째 주행을 완료했습니다. Verstappen은 Charles Leclerc(Ferrari), Kimi Antonelli(Mercedes), Russell 및 Hamilton을 제치고 3위를 차지했으며 Lawson은 8위를 차지했습니다. Bortoleto와 Arvid Lindblad(Racing Bulls)는 3분기(예선 마지막 부분)에서 마지막 2위를 유지했습니다. Pierre Gasly(Alpine)는 가장 빨리 탈락한 드라이버로 Lindblad의 시간을 10분의 1초도 안 되는 차이로 놓쳤습니다. 그 뒤를 이어 Tsunoda, Hülkenberg, Franco Colapinto (Alpine), Esteban Ocon (Haas) 및 Albon이 뒤를이었습니다.",
-        "비의 위협은 3분기 실행 시점에 영향을 미쳤습니다. Norris는 오프닝 시도 후 10분의 1초 이상 잠정 극점을 유지했으며 Russell은 McLaren 드라이버와 Piastri를 3위로 분리했습니다. Leclerc는 Antonelli, Verstappen 및 Lawson보다 4위를 차지했고 Hamilton은 8위를 차지했습니다. 첫 번째 방울이 떨어지기 시작하자 드라이버들은 마지막 시도를 위해 평소보다 일찍 서킷으로 돌아왔습니다. Antonelli는 Norris가 즉시 그를 능가하기 전에 잠시 임시 극점을 차지했습니다. 그 후 Russell은 Norris보다 10분의 1초가 조금 넘는 2위로 향상되었으며 Antonelli는 3위, Piatri는 4위를 차지했습니다. 러셀, 안토넬리, 피아스트리는 400분의 1초에 불과했습니다. Ferrari의 드라이버는 랩을 완료한 마지막 선두 경쟁자였지만 둘 다 폴에 도전하지 않았습니다. 해밀턴은 Leclerc보다 앞서서 All-Ferrari 3열을 구성했습니다. Verstappen과 Lawson이 4번째 줄을 차지했고 Bortoleto와 Lindblad가 상위 10위를 차지했습니다. 이는 Norris의 두 번째 연속 폴 포지션이자 그의 경력 중 18번째 그랑프리 폴을 기록했습니다."
-       ]
-      },
-      {
-       "h": "Race",
-       "level": 2,
-       "p": [
-        "The race was held on 23 August 2026 at 15:00 local time (UTC+2) and was run for 72 laps."
-       ],
-       "hKo": "결승",
-       "pKo": [
-        "경주는 2026년 8월 23일 현지 시간(UTC+2) 15:00에 열렸으며 72랩 동안 진행되었습니다."
-       ]
-      },
-      {
-       "h": "Pre-race",
-       "level": 4,
-       "p": [
-        "Heavy rain fell at Zandvoort during the hour preceding the race, leaving parts of the circuit damp and making the choice between slick and intermediate-wet tyres uncertain. The rain had stopped by the time the pit lane opened, and the field elected to start on dry-weather tyres. Pole-sitter Lando Norris (McLaren) was joined on the front row by George Russell (Mercedes), with Kimi Antonelli (Mercedes) and Oscar Piastri (McLaren) on the second row. Sergio Pérez (Cadillac) was required to start from the pit lane after suspension set-up changes were made to his car under parc fermé conditions. Norris, Russell, Antonelli and Piastri selected the medium compound for the start, as did Pierre Gasly (Alpine), Franco Colapinto (Alpine) and Esteban Ocon (Haas). Most of the remaining drivers chose soft tyres, while both Cadillac drivers started on hards. Owing to the circuit remaining partly wet, the formation lap was conducted behind the safety car, after which the cars lined up for a standing start."
-       ],
-       "hKo": "결승 전",
-       "pKo": [
-        "경주 전 한 시간 동안 잔드보르트(Zandvoort)에 폭우가 내렸기 때문에 서킷 일부가 젖어 슬릭 타이어와 중간 정도 젖은 타이어 사이의 선택이 불확실해졌습니다. 피트 레인이 열릴 때쯤 비는 그쳤고, 필드는 건기용 타이어로 출발하기로 결정했습니다. 폴 시터 랜도 노리스(맥라렌)가 앞줄에 조지 러셀(메르세데스), 키미 안토넬리(메르세데스)와 오스카 피아스트리(맥라렌)가 두 번째 줄에 합류했습니다. Sergio Pérez(Cadillac)는 parc fermé 조건에서 차량의 서스펜션 설정이 변경된 후 피트 레인에서 출발해야 ​​했습니다. Norris, Russell, Antonelli 및 Piastri는 Pierre Gasly(Alpine), Franco Colapinto(Alpine) 및 Esteban Ocon(Haas)과 마찬가지로 시작을 위해 중간 화합물을 선택했습니다. 나머지 드라이버 대부분은 소프트 타이어를 선택했고, 두 캐딜락 드라이버는 모두 하드 타이어로 출발했습니다. 서킷이 일부 젖어 있는 관계로 포메이션 랩은 세이프티카 뒤에서 진행되었고, 이후 차량들은 스탠딩 스타트를 위해 줄을 섰습니다."
-       ]
-      },
-      {
-       "h": "Start and red flag",
-       "level": 4,
-       "p": [
-        "Norris retained the lead at the start, while Antonelli passed Russell to take second place. Behind them, Charles Leclerc (Ferrari) overtook Piastri for fourth, and Max Verstappen (Red Bull) ran alongside Liam Lawson (Red Bull) through the opening sequence of corners. At the end of lap 1, Verstappen lost control on the damp inside edge of the banked final corner as he accelerated while part of his car remained on the painted line. His car struck the outside barrier heavily and rebounded towards the circuit; the rest of the field avoided him, and he was uninjured. The accident caused Verstappen's retirement and prompted a red flag. On the same lap, Gabriel Bortoleto (Audi) spun through a full rotation while attempting to avoid the slowing cars and dropped to 18th place, while Nico Hülkenberg (Audi) took evasive action to avoid contact. Verstappen later accepted responsibility for the accident, and Red Bull found no mechanical fault with his car."
-       ],
-       "hKo": "시작 및 레드 플래그",
-       "pKo": [
-        "Norris는 처음부터 선두를 유지했고 Antonelli는 Russell을 제치고 2위를 차지했습니다. 그 뒤를 이어 찰스 르클레르(페라리)가 피아스트리를 제치고 4위에 올랐고, 막스 베르스타펜(레드불)이 리암 로슨(레드불)과 나란히 코너킥 오프닝 시퀀스를 통과했다. 랩 1이 끝날 때 Verstappen은 차량의 일부가 페인트 라인에 남아 있는 동안 가속하면서 뱅크가 있는 마지막 코너의 축축한 내부 가장자리에서 제어력을 잃었습니다. 그의 차는 외부 장벽을 크게 쳤고 서킷쪽으로 반등했습니다. 나머지 현장은 그를 피했고 그는 부상을 입지 않았습니다. 이 사고로 인해 Verstappen은 은퇴하게 되었고 레드 플래그가 촉발되었습니다. 같은 랩에서 가브리엘 보르톨레토(아우디)는 속도가 느려지는 차들을 피하려다 풀 로테이션을 돌며 18위로 떨어졌고, 니코 훌켄베르그(아우디)는 접촉을 피하기 위해 회피 행동을 취했다. Verstappen은 나중에 사고에 대한 책임을 받아들였고 Red Bull은 그의 차에서 기계적 결함을 발견하지 못했습니다."
-       ]
-      },
-      {
-       "h": "Red-flag restart",
-       "level": 4,
-       "p": [
-        "The running order reverted to that recorded at the end of lap 1, and the teams used the stoppage to change tyres. Norris fitted soft tyres, while Piastri switched to hards. Oliver Bearman (Haas) suffered a power-unit problem while travelling to the grid and stopped between turns 10 and 11, ending his race and necessitating an additional formation lap. Arvid Lindblad (Racing Bulls) and Colapinto were investigated for overtaking under double yellow flags following Verstappen's accident; both subsequently received drive-through penalties. The race resumed with a standing start on lap 5. Antonelli made the better launch and passed Norris on the inside at Tarzan corner to take the lead, while Piastri overtook Russell at turn 7 for third. Russell dropped to fourth, ahead of Leclerc and Lewis Hamilton (Ferrari), with Lawson seventh as the sole remaining Red Bull driver.",
-        "Antonelli initially opened a gap of more than one second over Norris, keeping the McLaren driver out of Overtake Mode range, while Piastri remained close enough to keep the leading pair in sight. Russell, who reported balance problems, headed a closely grouped train containing Leclerc and Hamilton, with neither Ferrari driver able to attempt a pass without compromising their corner exits. Lawson consolidated seventh place ahead of Gasly, Hülkenberg and Yuki Tsunoda (Racing Bulls), while Lindblad and Colapinto served their drive-through penalties and dropped to the rear of the field. Norris gradually reduced Antonelli's advantage, although Antonelli remained more stable through the faster sections and repeatedly rebuilt his margin in the final sector."
-       ],
-       "hKo": "레드 플래그 재시작",
-       "pKo": [
-        "주행 순서는 랩 1이 끝날 때 기록된 순서로 되돌아갔고, 팀은 중단 시간을 활용하여 타이어를 교체했습니다. Norris는 소프트 타이어를 장착했고 Piastri는 하드 타이어로 교체했습니다. Oliver Bearman(Haas)은 그리드로 이동하는 동안 동력 장치 문제를 겪었고 10턴과 11턴 사이에 멈춰 레이스를 끝내고 추가 포메이션 랩이 필요했습니다. Arvid Lindblad(Racing Bulls)와 Colapinto는 Verstappen의 사고 이후 이중 노란색 깃발 아래 추월 혐의로 조사를 받았습니다. 이후 둘 다 드라이브 스루 페널티를 받았습니다. 레이스는 랩 5에서 스탠딩 스타트로 재개되었습니다. Antonelli는 더 나은 출발을했고 Tarzan 코너에서 Norris를 안쪽으로 통과하여 선두를 차지했으며 Piatri는 7 턴에서 Russell을 3 위로 추월했습니다. Russell은 Leclerc와 Lewis Hamilton(Ferrari)에 앞서 4위로 떨어졌고 Lawson은 유일한 Red Bull 드라이버로 7위를 차지했습니다.",
-        "Antonelli는 처음에 Norris보다 1초 이상의 간격을 벌려 McLaren 드라이버가 추월 모드 범위를 벗어나는 것을 막았고 Piatri는 선두 쌍을 시야에 유지할 수 있을 만큼 충분히 가깝게 유지했습니다. 균형 문제를 보고한 Russell은 Leclerc와 Hamilton이 포함된 밀집된 그룹의 열차를 향했고, Ferrari 운전자는 코너 출구를 타협하지 않고 패스를 시도할 수 없었습니다. Lawson은 Gasly, Hülkenberg 및 Yuki Tsunoda(Racing Bulls)를 제치고 7위를 굳혔고, Lindblad와 Colapinto는 드라이브 스루 페널티를 받고 필드 뒤쪽으로 떨어졌습니다. Norris는 Antonelli의 이점을 점차적으로 줄였지만 Antonelli는 더 빠른 섹션을 통해 더 안정적인 상태를 유지하고 최종 부문에서 마진을 반복적으로 재건했습니다."
-       ]
-      },
-      {
-       "h": "First pit stops",
-       "level": 4,
-       "p": [
-        "Russell was the first of the leading drivers to make a scheduled pit stop, changing from medium to hard tyres on lap 16 and rejoining in traffic. Piastri, who had restarted on hard tyres, stopped one lap later, but a slow service brought him back out behind Russell. Russell subsequently passed Gasly and Hülkenberg as he worked his way through the traffic. Antonelli and Norris stopped on lap 22 and fitted hard tyres; Antonelli retained the lead, although neither stop was especially quick. Leclerc pitted for mediums at the same stage, while Hamilton extended his stint and temporarily moved into first place. Hamilton remained on track until lap 26, when he fitted hard tyres and rejoined in sixth place, with clear air in which to close on the cars ahead. Once the first pit-stop cycle was complete, Antonelli led Norris, followed by Russell, Piastri, Leclerc and Hamilton.",
-        "The pit stops compressed several cars into a midfield group headed by Carlos Sainz Jr. (Williams). Lindblad, Hülkenberg, Gasly and Tsunoda ran in close succession behind him, and Hülkenberg made several passes in rapid succession as he recovered towards the points after starting 13th. Tsunoda also overtook Gasly, who was struggling for traction. At the front, Norris had moved back to within a second of Antonelli by lap 30, although a moment of oversteer briefly interrupted his progress. Leclerc simultaneously closed on Piastri and passed him around the outside of the banked turn 3 on lap 34; Hamilton followed by overtaking Piastri into turn 1 on the next lap. At half distance, Antonelli led Norris and Russell, with Leclerc, Hamilton and Piastri completing the top six; Lawson, Hülkenberg, Tsunoda and Gasly occupied the remaining points-paying positions."
-       ],
-       "hKo": "첫 번째 피트 스톱",
-       "pKo": [
-        "Russell은 랩 16에서 미디엄 타이어에서 하드 타이어로 변경하고 교통 상황에 다시 합류하여 예정된 피트 스탑을 만든 최초의 주요 드라이버였습니다. 단단한 타이어로 다시 출발한 Piastri는 한 바퀴 후에 멈췄지만 느린 서비스로 인해 그는 다시 Russell의 뒤를 따랐습니다. Russell은 교통 체증을 뚫고 일하면서 Gasly와 Hülkenberg를 지나쳤습니다. Antonelli와 Norris는 랩 22에서 멈추고 단단한 타이어를 장착했습니다. Antonelli는 선두를 유지했지만 어느 쪽도 특별히 빠르지는 않았습니다. Leclerc는 같은 단계에서 중간급 경쟁을 펼쳤고, Hamilton은 자신의 경력을 연장하여 일시적으로 1위를 차지했습니다. 해밀턴은 랩 26까지 트랙을 유지하다가 단단한 타이어를 장착하고 공기가 깨끗해 앞차를 따라잡을 수 있는 상태로 6위로 다시 합류했습니다. 첫 번째 피트 스톱 사이클이 완료되면 Antonelli가 Norris를 이끌었고 Russell, Piatri, Leclerc 및 Hamilton이 그 뒤를 이었습니다.",
-        "피트 스탑은 여러 대의 차량을 Carlos Sainz Jr.(Williams)가 이끄는 미드필더 그룹으로 압축했습니다. Lindblad, Hülkenberg, Gasly, Tsunoda가 그의 뒤를 바짝 연달아 달렸고, Hülkenberg는 13위로 선발 출발한 후 포인트를 향해 회복하면서 빠른 속도로 여러 패스를 연속으로 성공시켰습니다. Tsunoda는 또한 견인력을 위해 고군분투하는 Gasly를 추월했습니다. 선두에서 Norris는 랩 30에서 Antonelli의 1초 이내에 다시 이동했지만, 오버스티어의 순간으로 인해 그의 진행이 잠시 중단되었습니다. Leclerc는 동시에 Piatri를 닫고 랩 34에서 뱅크 턴 3 바깥쪽으로 그를 패스했습니다. Hamilton은 다음 랩에서 Piatri를 제치고 1턴에 진입했습니다. 절반 거리에서는 Antonelli가 Norris와 Russell을 이끌었고 Leclerc, Hamilton 및 Piatri가 상위 6위를 차지했습니다. Lawson, Hülkenberg, Tsunoda 및 Gasly가 나머지 포인트 지급 위치를 차지했습니다."
-       ]
-      },
-      {
-       "h": "Second pit stops",
-       "level": 4,
-       "p": [
-        "Mercedes initiated the second round of pit stops shortly after lap 40, bringing Antonelli in for another set of hard tyres before pitting Russell soon afterwards. Hamilton had by then caught Leclerc and asked Ferrari to reverse their order, but no exchange was made. Leclerc initially continued past the pit entry after being called in and stopped on the following lap, losing further time during the service; Hamilton expressed frustration over the radio as he remained behind his teammate. Piastri's stop was also slow, and he rejoined in sixth place. Norris extended his middle stint until lap 48, seven laps longer than Antonelli, before fitting fresh hard tyres. He rejoined approximately five seconds behind Antonelli, but the offset in tyre age enabled him to close quickly. Hamilton, whose own final stop had not yet been made, inherited the on-track lead, with Antonelli and Norris immediately behind him.",
-        "By lap 52, Norris was directly behind Antonelli, whose rear tyres were beginning to lose grip. Antonelli nevertheless remained close enough to Hamilton to use Overtake Mode and attempted to pass into turn 1 on lap 54. He moved towards the inside, leaving Norris the cleaner outside line; Norris braked later and swept around the outside of Antonelli to take second place. Later on the same lap, Hamilton ran wide at turn 10, allowing Norris to draw alongside and complete the pass for the lead through the following sequence of corners. Antonelli overtook Hamilton soon afterwards, but Norris had already begun to establish a margin at the front."
-       ],
-       "hKo": "두 번째 피트 스톱",
-       "pKo": [
-        "Mercedes는 랩 40 직후에 두 번째 피트 스탑 라운드를 시작했고 Antonelli는 또 다른 하드 타이어 세트를 구입하기 전에 곧 Russell에 피트를 가했습니다. 해밀턴은 그때까지 르클레르를 붙잡고 페라리에게 순서를 바꾸라고 요청했지만 교환은 이루어지지 않았습니다. Leclerc는 호출을 받은 후 처음에 피트 입구를지나 계속해서 다음 랩에서 멈춰 서비스 중에 더 많은 시간을 잃었습니다. 해밀턴은 팀 동료 뒤에 남아 라디오를 통해 좌절감을 표현했습니다. Piastri의 정지 속도도 느려서 6위로 다시 합류했습니다. Norris는 새로운 하드 타이어를 장착하기 전에 Antonelli보다 7랩 더 긴 랩 48까지 중간 기간을 연장했습니다. 그는 Antonelli보다 약 5초 늦게 다시 합류했지만 타이어 수명의 상쇄로 인해 빠르게 닫힐 수 있었습니다. 아직 최종 정차를 하지 않은 해밀턴이 트랙 선두를 이어받았고, 안토넬리와 노리스가 바로 뒤를 이었습니다.",
-        "랩 52에서 Norris는 뒷 타이어가 접지력을 잃기 시작한 Antonelli 바로 뒤에있었습니다. 그럼에도 불구하고 Antonelli는 추월 모드를 사용할 수 있을 만큼 해밀턴과 충분히 가까워졌고 랩 54에서 턴 1로 패스를 시도했습니다. 그는 안쪽으로 이동하여 Norris를 더 깔끔한 외부 라인으로 남겨 두었습니다. Norris는 나중에 브레이크를 밟고 Antonelli의 바깥쪽을 휩쓸며 2위를 차지했습니다. 나중에 같은 랩에서 해밀턴은 10번째 턴에서 넓게 달렸고, Norris는 옆으로 그림을 그리고 다음 코너 시퀀스를 통해 선두 패스를 완료할 수 있었습니다. Antonelli는 곧 해밀턴을 추월했지만 Norris는 이미 선두에서 마진을 확보하기 시작했습니다."
-       ]
-      },
-      {
-       "h": "Race conclusion",
-       "level": 4,
-       "p": [
-        "A virtual safety car was deployed on lap 55 to recover Ocon's car, which had stopped on track. Antonelli and Hamilton used the neutralisation to fit soft tyres, while Norris and Russell remained on their existing hards. The virtual safety car period ended before Norris could make a stop without relinquishing the lead, leaving him several seconds ahead of Russell at the restart, with Antonelli a similar distance behind Russell. Antonelli's newer soft tyres enabled him to close rapidly, and Mercedes instructed Russell to yield second place on lap 65 so that Antonelli could pursue Norris. Russell initially questioned the instruction because of the risk that Hamilton might also catch him, but complied; after the race, he accepted that the swap had been justified by Antonelli's tyre advantage. Antonelli initially reduced Norris's lead, but his soft tyres then began to fade and Norris again pulled clear.",
-        "A late collision between Williams teammates Sainz and Alexander Albon left debris at turn 5 and triggered a second virtual safety car period on lap 70. Sainz subsequently received a ten-second time penalty for causing the collision, while Albon retired. The interruption effectively ended Antonelli's opportunity to challenge for victory. Norris controlled the final restart and won by more than eleven seconds over Antonelli, while Russell resisted late pressure from Hamilton to complete the podium; Leclerc finished fifth and Piastri sixth. Lawson crossed the line seventh and retained the position despite receiving a ten-second penalty for failing to slow sufficiently under yellow flags. Hülkenberg finished eighth, while Fernando Alonso (Aston Martin) used a long one-stop strategy to rise from 18th on the grid to ninth, ahead of Gasly. Tsunoda, Lindblad and Bortoleto were the next three finishers. Colapinto also received a ten-second penalty for failing to slow under yellow flags, in addition to his earlier drive-through, but neither his final position nor Lawson's changed. Pérez and Sainz completed the classified finishers, while Albon, Valtteri Bottas (Cadillac), Ocon, Lance Stroll (Aston Martin), Bearman and Verstappen did not finish."
-       ],
-       "hKo": "레이스 결론",
-       "pKo": [
-        "궤도에 멈춘 오콘의 차를 복구하기 위해 랩 55에는 가상 안전차가 배치됐다. Antonelli와 Hamilton은 소프트 타이어를 장착하기 위해 중립화를 사용했고 Norris와 Russell은 기존 하드 타이어를 그대로 사용했습니다. 버추얼 세이프티카 기간은 Norris가 선두를 포기하지 않고 정지할 수 있기 전에 종료되어 다시 시작할 때 Russell보다 몇 초 앞서게 되었고 Antonelli는 Russell보다 비슷한 거리를 유지했습니다. Antonelli의 최신 소프트 타이어 덕분에 그는 빠르게 문을 닫을 수 있었고 Mercedes는 Antonelli가 Norris를 쫓을 수 있도록 Russell에게 랩 65에서 2위를 양보하라고 지시했습니다. Russell은 처음에 해밀턴이 그를 붙잡을 위험 때문에 지시에 의문을 제기했지만 따랐습니다. 경주가 끝난 후 그는 Antonelli의 타이어 이점으로 인해 교체가 정당화되었음을 인정했습니다. Antonelli는 처음에 Norris의 리드를 줄였지만, 그의 부드러운 타이어는 희미해지기 시작했고 Norris는 다시 클리어했습니다.",
-        "Williams 팀 동료인 Sainz와 Alexander Albon 사이의 늦은 충돌은 5번째 턴에서 잔해를 남겼고 랩 70에서 두 번째 버추얼 세이프티카 기간을 촉발했습니다. 이후 Sainz는 충돌을 일으킨 것에 대해 10초의 시간 페널티를 받았고 Albon은 은퇴했습니다. 중단으로 인해 Antonelli가 승리를 위해 도전할 기회가 효과적으로 종료되었습니다. Norris는 최종 재시작을 제어하고 Antonelli를 상대로 11초 이상 승리했으며 Russell은 연단을 완료하라는 해밀턴의 늦은 압력에 저항했습니다. Leclerc는 5위, Piastri는 6위를 차지했습니다. Lawson은 노란색 깃발 아래에서 충분히 속도를 늦추지 못해 10초의 페널티를 받았음에도 불구하고 7번째 선을 넘었고 그 위치를 유지했습니다. Hülkenberg는 8위를 차지했고, Fernando Alonso(Aston Martin)는 장거리 원스톱 전략을 사용하여 그리드 18위에서 Gasly를 앞지르는 9위로 올라섰습니다. Tsunoda, Lindblad 및 Bortoleto가 다음 세 명의 완주자였습니다. Colapinto는 또한 이전의 드라이브 스루에 더해 노란색 깃발 아래에서 속도를 늦추지 못한 것에 대해 10초의 페널티를 받았지만 그의 최종 위치나 Lawson은 바뀌지 않았습니다. Pérez와 Sainz는 분류된 완주자를 완료했지만 Albon, Valtteri Bottas(Cadillac), Ocon, Lance Stroll(Aston Martin), Bearman 및 Verstappen은 완주하지 못했습니다."
-       ]
-      },
-      {
-       "h": "Post-race and championship impact",
-       "level": 3,
-       "p": [
-        "The victory was Norris's second in succession following the Hungarian Grand Prix, his second at Zandvoort and the thirteenth of his Formula One career. It also gave McLaren a third consecutive Dutch Grand Prix victory. Antonelli retained the lead of the Drivers' Championship with 242 points, 59 ahead of both Russell and Hamilton. Russell moved ahead of Hamilton into second place on countback, having won two races to Hamilton's one, while Norris rose to fourth with 159 points, 83 behind Antonelli. Mercedes remained first in the Constructors' Championship with 425 points, 87 ahead of Ferrari, with McLaren third on 263."
-       ],
-       "hKo": "레이스 후 및 챔피언십에 미치는 영향",
-       "pKo": [
-        "이번 승리는 Norris가 헝가리 그랑프리에 이어 두 번째 연속 승리였으며, Zandvoort에서 두 번째이자 Formula One 경력 중 13번째 승리였습니다. 이는 또한 McLaren에게 3년 연속 네덜란드 그랑프리 우승을 안겨주었습니다. Antonelli는 Russell과 Hamilton보다 59점 앞서는 242점으로 드라이버 챔피언십 선두를 유지했습니다. Russell은 해밀턴보다 두 번의 경주에서 승리하여 카운트백에서 2위를 차지했으며 Norris는 Antonelli보다 83점 뒤진 159점으로 4위로 올랐습니다. 메르세데스는 컨스트럭터 챔피언십에서 425점으로 1위를 유지했으며 페라리보다 87점 앞서고 맥라렌은 263점으로 3위를 차지했습니다."
-       ]
-      },
-      {
-       "h": "Championship standings after the race",
-       "level": 2,
-       "p": [
-        "Note: Only the top five positions are included for both sets of standings."
-       ],
-       "hKo": "경기 후 챔피언십 순위",
-       "pKo": [
-        "참고: 두 세트의 순위에는 상위 5개 순위만 포함됩니다."
-       ]
-      }
-     ]
     }
    ]
   },
@@ -1861,193 +1698,193 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
-     "title": "Haas sticks with Rafael Camara for Las Vegas, Ryo Hirakawa in for FP1",
-     "desc": "Rafael Camara will race again for Haas at Formula 1's upcoming Las Vegas Grand Prix, as Ryo Hirakawa takes Ollie Bearman's seat for the opening practice session. Both Hirakawa and…",
-     "link": "https://www.motorsport.com/f1/news/haas-sticks-with-camara-for-las-vegas-hirakawa-in-for-fp1/10874778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg",
-     "date": "2026-11-16T09:51:16+00:00",
+     "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
+     "desc": "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix. F1 heads to Las Vegas for its third of three US…",
+     "link": "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/2GdKxKQY/s6/williams-las-vegas-livery.jpg",
+     "date": "2026-11-16T18:45:08+00:00",
      "author": "",
-     "id": "99892ed8fe",
+     "id": "82f863f3bc",
      "lead": [
-      "Rafael Camara will race again for Haas at Formula 1's upcoming Las Vegas Grand Prix, as Ryo Hirakawa takes Ollie Bearman's seat for the opening practice session.",
-      "Both Hirakawa and Camara have now raced for the team following the dismissal of Esteban Ocon , who was stood down during the Mexico City Grand Prix weekend.",
-      "Hirakawa, contesting the World Endurance Championship finale in Monza - later winning his third WEC title - was unavailable for the previous F1 round in Brazil and this presented Haas an opportunity to bring Camara in for an early debut."
+      "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix.",
+      "F1 heads to Las Vegas for its third of three US races, with the entertainment capital having quickly become one of the series' key commercial weekends for teams and their partners.",
+      "As a result, several teams are rolling out bespoke liveries this week, with Williams deploying a blue chrome livery on the FW48 races by Alex Albon and Carlos Sainz ."
      ],
      "leadKo": [
-      "라파엘 카마라가 포뮬러원(F1)의 다가오는 라스베이거스 그랑프리에서 하스를 위해 다시 레이싱에 나설 예정이며, 료 히라카와가 첫 번째 연습 세션에서 올리 베어먼의 자리를 대신할 예정입니다.",
-      "히라카와와 카마라는 에스테반 오콘이 해임된 후 팀에서 레이스를 펼쳤습니다. 오콘은 멕시코시티 그랑프리 주말 동안 경기에 출전하지 않았습니다.",
-      "몬자에서 열린 월드 내구레이스 챔피언십(WEC) 결승전에 출전하여 나중에 세 번째 WEC 타이틀을 획득한 히라카와는 브라질에서 열린 이전 F1 라운드에 출전할 수 없었으며, 이는 하스가 카마라를 일찍 데뷔시킬 수 있는 기회를 제공했습니다."
+      "윌리엄스와 애스턴 마틴은 이번 주말 라스베이거스 그랑프리를 맞아 머신 리버리를 새롭게 단장한 F1 팀 중 하나입니다.",
+      "F1이 미국에서 열리는 세 번의 레이스 중 세 번째 레이스를 위해 라스베이거스로 향합니다. 엔터테인먼트의 중심지인 라스베이거스는 빠르게 팀과 파트너사에게 F1 시리즈의 핵심적인 상업적 주말이 되는 곳으로 자리매김했습니다.",
+      "그 결과, 이번 주 여러 팀이 맞춤형 리버리를 선보이고 있으며, 윌리엄스는 알렉스 알본과 카를로스 사인츠가 출전하는 FW48 레이스에 블루 크롬 리버리를 적용했습니다."
      ],
-     "titleKo": "하스가 라스베이거스에서 라파엘 카마라와 함께하고, 료 히라카와가 FP1에 참가합니다.",
-     "descKo": "라파엘 카마라가 포뮬러원(F1)의 다가오는 라스베이거스 그랑프리에서 다시 하스를 위해 레이싱에 나설 예정이며, 료 히라카와가 첫 번째 연습 세션에서 올리 베어먼의 자리를 대신할 예정입니다. 히라카와와…"
+     "titleKo": "윌리엄스, 애스턴 마틴이 라스베이거스 GP를 위한 새로운 F1 리버리에 포함되고 아큐라가 혼다를 '대체'",
+     "descKo": "윌리엄스와 애스턴 마틴은 이번 주말 열리는 라스베이거스 그랑프리를 맞아 머신 리버리를 새롭게 단장한 F1 팀 중 하나입니다. F1이 미국에서 열리는 세 번의 그랑프리 중 세 번째 경기를 위해 라스베이거스로 향합니다..."
     },
     {
-     "title": "What is left to fight for in F1 2026?",
-     "desc": "A five-way battle for P2 in the drivers’ championship Kimi Antonelli romped to his maiden world title to become Formula 1’s youngest world champion, but behind him it’s all to…",
-     "link": "https://www.motorsport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874717/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/YWKAgaVY/s6/charles-leclerc-ferrari-2.jpg",
-     "date": "2026-11-16T09:29:36+00:00",
+     "title": "Lando Norris's LN4 Fusion signs former Red Bull junior Oliver Goethe as its first F2 driver",
+     "desc": "Lando Norris's new junior team LN4 Fusion has signed former Red Bull junior Oliver Goethe as its first driver for the 2027 Formula 2 season. The 22-year-old will make the move…",
+     "link": "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/0LdereN0/s6/motorsport-com-graphics.jpg",
+     "date": "2026-11-16T17:51:34+00:00",
      "author": "",
-     "id": "6b2e3a5e53",
+     "id": "74e6cbbaac",
      "lead": [
-      "Kimi Antonelli romped to his maiden world title to become Formula 1’s youngest world champion, but behind him it’s all to play for – and closer than ever.",
-      "As the highest-scoring driver across the latest eight rounds, Max Verstappen has climbed to second in the championship, but that doesn’t mean he’ll comfortably be this year’s runner-up. George Russell , Lewis Hamilton , Charles Leclerc and Lando Norris lie within 33 points of the Red Bull driver, with a maximum of 75 points still available.",
-      "Whoever takes second and third will then get the privilege to attend the FIA’s end-of-season gala as podium finishers – a prospect which typically is enjoyable to some drivers and daunting for others."
+      "Lando Norris's new junior team LN4 Fusion has signed former Red Bull junior Oliver Goethe as its first driver for the 2027 Formula 2 season.",
+      "The 22-year-old will make the move from MP Motorsport for his third season in F2, after celebrating two podium finishes so far this year.",
+      "LN4 Fusion was granted an entry to F2 last month, as the only new team for the championship's next three-year cycle. The McLaren Formula 1 driver launched the team in September, and it will also run cars in Formula 3, Italian Formula 4 and British F4."
      ],
      "leadKo": [
-      "키미 안토넬리가 첫 번째 월드 타이틀을 차지하며 포뮬러원(F1) 최연소 월드 챔피언이 되었지만, 그 뒤에서는 모든 것이 걸려 있고 그 어느 때보다 치열한 경쟁이 펼쳐지고 있습니다.",
-      "최근 8라운드에서 가장 높은 점수를 획득한 드라이버인 맥스 페르스타펜은 챔피언십에서 2위로 올라섰지만, 그렇다고 해서 올해 2위를 차지하는 것이 수월하다는 의미는 아닙니다. 조지 러셀, 루이스 해밀턴, 샤를 르클레르, 랜도 노리스가 레드불 드라이버와 33점 차로 뒤지고 있으며, 최대 75점을 획득할 수 있는 상황입니다.",
-      "2위와 3위를 차지한 드라이버는 포디움에 오른 선수 자격으로 FIA 시즌 종료 갈라에 참석할 수 있는 특권을 얻게 됩니다. 이는 일부 드라이버에게는 즐거운 일이지만 다른 드라이버에게는 부담스러운 일일 수 있습니다."
+      "랜도 노리스의 새로운 주니어 팀인 LN4 퓨전이 2027년 포뮬러 2 시즌의 첫 번째 드라이버로 전 레드불 주니어 올리버 괴테를 영입했습니다.",
+      "올해 두 차례의 포디움 피니시를 달성한 22세의 이 드라이버는 MP 모터스포츠에서 F2 3번째 시즌을 맞이하게 됩니다.",
+      "LN4 퓨전은 지난달 챔피언십의 다음 3년 주기에 유일한 신생 팀으로 F2에 출전할 수 있는 자격을 얻었습니다. 맥라렌 포뮬러원 드라이버는 9월에 팀을 출범했으며, 포뮬러3, 이탈리안 포뮬러4, 브리티시 F4에도 출전할 예정입니다."
      ],
-     "titleKo": "F1 2026에서 싸울 것이 무엇이 남았나요?",
-     "descKo": "드라이버 챔피언십 2위 자리를 놓고 펼쳐지는 5자 대결 키미 안토넬리가 첫 번째 월드 타이틀을 차지하며 포뮬러원(F1) 최연소 월드 챔피언이 되었지만, 그 뒤를 이은 드라이버들은 모두..."
+     "titleKo": "랜도 노리스의 LN4 퓨전, 전 레드불 주니어 올리버 괴테를 첫 F2 드라이버로 영입",
+     "descKo": "랜도 노리스의 새로운 주니어 팀인 LN4 퓨전이 2027년 포뮬러 2 시즌의 첫 번째 드라이버로 전 레드불 주니어 올리버 괴테와 계약했습니다. 22세의 그는 이적할 예정입니다..."
     },
     {
-     "title": "Christian Horner admits Red Bull prospects were thrown in against Max Verstappen too soon",
-     "desc": "The second seat at Red Bull Racing has long been viewed as one of the most high-pressure environments in Formula 1. While the Milton Keynes operation frequently cycled through…",
-     "link": "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/YpbAXRj0/s6/motorsport-com-graphics-2026-1-2.jpg",
-     "date": "2026-11-15T23:30:04+00:00",
+     "title": "Lando Norris: F1 needs better rain tyres as wet Las Vegas would be \"scary\"",
+     "desc": "World champion Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a…",
+     "link": "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/27No3ae0/s6/lando-norris-mclaren.jpg",
+     "date": "2026-11-16T17:30:42+00:00",
      "author": "",
-     "id": "87e83b4ac8",
-     "titleKo": "크리스티안 호너, 레드불이 맥스 페르스타펜에게 너무 일찍 기대를 걸었다고 인정",
-     "descKo": "레드불 레이싱의 두 번째 시트는 오랫동안 포뮬러원(F1)에서 가장 높은 압박감을 받는 환경 중 하나로 여겨져 왔습니다. 밀턴 케인스 팀은 자주 드라이버를 교체해 왔지만...",
+     "id": "4ed22a6b31",
      "lead": [
-      "The second seat at Red Bull Racing has long been viewed as one of the most high-pressure environments in Formula 1. While the Milton Keynes operation frequently cycled through highly rated prospects trying to find a match for Max Verstappen , former team principal Christian Horner is now openly questioning the logic of that ruthless driver pipeline.",
-      "Speaking on the High Performance podcast, Horner reflected on his tenure managing the team and admitted that he frequently disagreed with how quickly drivers were thrown into the deep end against a generational talent.",
-      "\"Some of these drivers were arriving too soon, and I didn't completely agree with the speed at which they were arriving into Red Bull Racing, but there was a determination to have them from the Red Bull Junior pool,\" Horner revealed."
+      "World champion Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a low-downforce circuit like Las Vegas.",
+      "Following partially rain-affected weekends in Malaysia and Singapore, F1's 2026 cars went through their first proper qualifying and grand prix held in wet conditions at the Brazilian Grand Prix, with both Pirelli's full wet and intermediate compounds being put to the test at Sao Paulo. Qualifying had to be halted for over an hour due to standing water in several corners, with the risk of aquaplaning prompting drivers to run full-wet tyres in Q1…",
+      "The race both started and finished on intermediates, with a dry middle spell, dispelling early fears over how the 2026 generation of cars would run in the wet. But while Brazil put on an entertaining spectacle and Pirelli's rain tyres largely worked as expected in the right operating window, drivers still felt this year's stiffer intermediates need work on how they perform in low temperatures as they struggled to keep their cars on the track at…"
      ],
      "leadKo": [
-      "레드불 레이싱의 두 번째 시트는 오랫동안 포뮬러원(F1)에서 가장 높은 압박을 받는 환경 중 하나로 여겨져 왔습니다. 밀턴 케인스 팀이 맥스 페르스타펜과 어울리는 선수를 찾기 위해 유망주들을 자주 교체하는 동안, 전 팀 대표인 크리스티안 호너는 이제 이러한 무자비한 드라이버 교체 정책의 논리에 대해 공개적으로 의문을 제기하고 있습니다.",
-      "하이 퍼포먼스 팟캐스트에서 호너는 팀을 이끌었던 자신의 임기에 대해 이야기하며, 드라이버들이 세대적 재능을 가진 선수에 맞서 얼마나 빨리 어려운 상황에 내몰렸는지에 대해 자주 동의하지 않았다고 인정했습니다.",
-      "호너는 \"이들 드라이버 중 일부는 너무 일찍 합류했고, 레드불 레이싱에 합류하는 속도에 전적으로 동의하지는 않았지만, 레드불 주니어 풀에서 이들을 영입하겠다는 결의가 있었다\"라고 밝혔다."
-     ]
+      "월드 챔피언 랜도 노리스는 포뮬러원 타이어 공급사인 피렐리가 2027년에 훨씬 개선된 레인 타이어를 선보이기를 기대하고 있습니다. 그는 현재의 타이어 라인업이 라스베이거스 같은 저다운포스 서킷에서 제대로 작동하지 않을 것으로 예상하고 있기 때문입니다.",
+      "말레이시아와 싱가포르에서 부분적으로 비가 내린 주말에 이어, F1 2026 머신은 브라질 그랑프리에서 빗길에서 열린 첫 번째 제대로 된 퀄리파잉 세션과 그랑프리를 치렀으며, 상파울루에서는 피렐리의 풀 웨트 컴파운드와 인터미디엇 컴파운드 모두 테스트를 거쳤습니다. 여러 코너에 고인 물로 인해 퀄리파잉 세션이 1시간 이상 중단되었으며, 수막현상 위험으로 인해 드라이버들이 Q1에서 풀-웻 타이어를 장착해야 했습니다...",
+      "레이스는 인터미디엇 타이어로 시작하여 인터미디엇 타이어로 끝났으며, 중간에는 건조한 구간이 있어 2026년형 차량이 젖은 노면에서 어떻게 주행할지에 대한 초기의 우려를 불식시켰습니다. 하지만 브라질 그랑프리가 흥미진진한 경기를 펼쳤고 피렐리의 레인 타이어가 적절한 작동 범위에서 대체로 예상대로 작동했지만, 드라이버들은 올해 더 단단해진 인터미디엇 타이어가 저온에서의 성능을 개선할 필요가 있다고 느꼈습니다. 드라이버들은 다음과 같은 상황에서 머신을 트랙에 유지하는 데 어려움을 겪었기 때문입니다..."
+     ],
+     "titleKo": "랜도 노리스: F1에는 더 나은 레인 타이어가 필요합니다. 젖은 라스베이거스는 \"무서울\" 것이기 때문입니다.",
+     "descKo": "월드 챔피언 랜도 노리스는 포뮬러원 타이어 공급사인 피렐리가 2027년에 훨씬 개선된 빗길용 타이어를 선보이기를 기대하고 있습니다. 그는 현재의 타이어 라인업이..."
     },
     {
-     "title": "Topps reveals Gem Mint 10 Lando Norris card with Coca-Cola suit patch",
-     "desc": "Topps has shared one of its rarest Lando Norris cards: a signed 2024 Dynasty Formula 1 card with two pieces of race suit, one of them cut from the Coca-Cola logo on the sleeve of…",
-     "link": "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/6b8ZMdv2/s6/motorsport-com-graphics-2026-1.jpg",
-     "date": "2026-11-15T22:47:39+00:00",
+     "title": "Toto Wolff predicts Kimi Antonelli will become more popular in Italy than Michael Schumacher",
+     "desc": "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari…",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-7.motorsport.com/images/amp/2dEoloBY/s6/motorsport-com-graphics-5-2.jpg",
+     "date": "2026-11-16T16:17:25+00:00",
      "author": "",
-     "id": "5cb32f367a",
-     "titleKo": "Topps, 코카콜라 수트 패치가 있는 Gem Mint 10 Lando Norris 카드 공개",
-     "descKo": "Topps는 가장 희귀한 랜도 노리스 카드 중 하나를 공개했습니다. 바로 2024년 다이너스티 포뮬러 1 카드에 랜도 노리스의 친필 서명이 담긴 카드인데요. 이 카드에는 레이싱 슈트 조각 2개가 포함되어 있으며, 그중 하나는 랜도 노리스가 2023년 싱가포르 그랑프리에서 착용한 레이싱 슈트의 소매에 있는 코카콜라 로고에서 잘라낸 것입니다.",
+     "id": "7beb77d45a",
      "lead": [
-      "Topps has shared one of its rarest Lando Norris cards: a signed 2024 Dynasty Formula 1 card with two pieces of race suit, one of them cut from the Coca-Cola logo on the sleeve of his McLaren race suit.",
-      "The Topps Racing account posted a short video of the card on Instagram on Friday, with the caption \"This Lando Norris patch auto goes CRAZY!\"",
-      "The card comes from the Single Driver Dual Relic Autograph set. Two windows of red fabric sit below Norris's signature. The left-hand piece shows part of the white Coca-Cola script."
+      "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari fanbase.",
+      "Following Antonelli's historic 2026 drivers' championship victory in Mexico City, Wolff sat down for an exclusive interview with the German publication BILD . When the conversation shifted to the 20-year-old prodigy's exploding star power, Wolff was asked if his young driver was destined to become more popular in Italy than seven-time world champion Michael Schumacher .",
+      "\"Absolutely! He is Italian,\" Wolff bluntly replied."
      ],
      "leadKo": [
-      "Topps는 가장 희귀한 랜도 노리스 카드 중 하나인 2024 Dynasty 포뮬러원 카드를 공개했습니다. 이 카드에는 레이싱 슈트 조각 2개가 포함되어 있으며, 그중 하나는 맥라렌 레이싱 슈트 소매의 코카콜라 로고에서 잘라낸 것입니다.",
-      "Topps Racing 계정은 금요일에 인스타그램에 카드 동영상을 짧게 게시하면서 \"이 랜도 노리스 패치 오토 카드가 대박입니다!\"라는 설명을 달았습니다.",
-      "이 카드는 싱글 드라이버 듀얼 렐릭 사인 세트에 속합니다. 노리스의 서명 아래에는 빨간색 원단으로 된 두 개의 창이 있습니다. 왼쪽 조각에는 흰색 코카콜라 로고의 일부가 보입니다."
-     ]
+      "메르세데스 팀 대표인 토토 볼프는 대담한 발언을 하는 데 익숙하지만, 키미 안토넬리의 인기에 대한 그의 최근 평가는 실제로 열성적인 페라리 팬층을 놀라게 할 수 있습니다.",
+      "안토넬리가 멕시코시티에서 2026년 드라이버 챔피언십 우승을 차지한 역사적인 순간 이후, 볼프는 독일 매체 빌트(BILD)와의 단독 인터뷰에 응했습니다. 대화가 20세 천재 드라이버의 폭발적인 스타성에 대한 내용으로 옮겨가자, 볼프는 자신의 젊은 드라이버가 7회 월드 챔피언인 미하엘 슈마허보다 이탈리아에서 더 인기를 끌 운명인지 묻는 질문을 받았습니다.",
+      "\"물론이죠! 그는 이탈리아인입니다.\" 볼프가 솔직하게 대답했습니다."
+     ],
+     "titleKo": "토토 볼프, 키미 안토넬리가 이탈리아에서 미하엘 슈마허보다 더 인기를 끌 것이라고 예측",
+     "descKo": "메르세데스 팀 대표인 토토 볼프는 대담한 발언을 하는 데 익숙하지만, 키미 안토넬리의 인기에 대한 그의 최근 평가는 실제로 헌신적인 페라리 팬들을 놀라게 할 수 있습니다."
     },
     {
-     "title": "Kimi Antonelli names biggest threat to 2027 title defence as he warns Mercedes advantage may fade",
-     "desc": "2026 Formula 1 champion Kimi Antonelli has chosen Red Bull's Max Verstappen as the driver most likely to stand in the way of his title defence in 2027. In only his second season…",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/6O7zrGw6/s6/motorsport-com-graphics-2026-1.jpg",
-     "date": "2026-11-15T22:26:14+00:00",
+     "title": "Christian Horner’s private message to Toto Wolff revealed after Kimi Antonelli's 2026 F1 title",
+     "desc": "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula…",
+     "link": "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-2.motorsport.com/images/amp/6O7zEzX6/s6/motorsport-com-graphics-4-2.jpg",
+     "date": "2026-11-16T16:02:29+00:00",
      "author": "",
-     "id": "6bec295028",
-     "titleKo": "키미 안토넬리, 2027년 챔피언십 타이틀 방어에 가장 큰 위협이 될 수 있는 요소로 메르세데스의 우위가 사라질 가능성을 언급",
-     "descKo": "2026년 포뮬러원 챔피언 키미 안토넬리는 2027년 자신의 타이틀 방어에 가장 큰 걸림돌이 될 드라이버로 레드불의 막스 페르스타펜을 꼽았습니다. 불과 두 번째 시즌 만에…",
+     "id": "8b7907a2da",
      "lead": [
-      "2026 Formula 1 champion Kimi Antonelli has chosen Red Bull's Max Verstappen as the driver most likely to stand in the way of his title defence in 2027.",
-      "In only his second season in the series, the Mercedes driver became F1's youngest world champion at the Mexican Grand Prix, at the age of 20 years and 68 days, and the first Italian to win the title since Alberto Ascari in 1953.",
-      "But speaking at a press conference in San Marino on Thursday, Antonelli made it clear that he expects a much tougher fight next season, and named the four-time champion as his main rival."
+      "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula 1 fans. But following Kimi Antonelli's historic 2026 title victory with Mercedes , the former Red Bull team principal reached out to his old adversary with high praise.",
+      "In an exclusive interview with the German publication BILD , Wolff was asked if he had heard from Horner amid the flood of recent congratulations.",
+      "Given that Horner was Wolff's fiercest rival for years before his dismissal from Red Bull in July 2025, the interviewer questioned if the Austrian was surprised by the gesture."
      ],
      "leadKo": [
-      "2026년 포뮬러원 챔피언 키미 안토넬리는 2027년 자신의 타이틀 방어에 가장 큰 걸림돌이 될 드라이버로 레드불의 막스 페르스타펜을 꼽았습니다.",
-      "시리즈에서 두 번째 시즌을 맞이한 메르세데스 소속 드라이버는 멕시코 그랑프리에서 만 20세 68일의 나이로 F1 최연소 월드 챔피언이 되었으며, 1953년 알베르토 아스카리(Alberto Ascari) 이후 최초의 이탈리아인 챔피언이 되었습니다.",
-      "하지만 목요일 산마리노에서 열린 기자회견에서 안토넬리는 다음 시즌에는 훨씬 더 치열한 경쟁이 펼쳐질 것으로 예상한다고 분명히 밝혔으며, 4회 챔피언인 베르타펠리를 자신의 주요 경쟁자로 지목했습니다."
-     ]
+      "치열한 챔피언십 경쟁이 한창이던 시기에 크리스티안 호너가 토토 볼프에게 따뜻한 축하 문자를 보낸다는 것은 대부분의 포뮬러원 팬들에게는 완전히 허구처럼 느껴졌을 것입니다. 하지만 키미 안토넬리가 메르세데스와 함께 2026년 역사적인 우승을 차지한 후, 전 레드불 팀 대표는 자신의 오랜 라이벌에게 연락해 극찬을 보냈습니다.",
+      "독일 매체 빌트(BILD)와의 단독 인터뷰에서 볼프는 최근 쏟아진 축하 메시지 속에서 호너로부터 연락을 받았는지 묻는 질문을 받았습니다.",
+      "호너가 2025년 7월 레드불에서 해고되기 전 몇 년 동안 볼프의 가장 강력한 라이벌이었음을 감안할 때, 인터뷰 진행자는 볼프가 이 제스처에 놀랐는지 질문했습니다."
+     ],
+     "titleKo": "키미 안토넬리의 2026년 F1 타이틀 획득 후 크리스티안 호너가 토토 볼프에게 보낸 개인 메시지가 공개되었습니다.",
+     "descKo": "치열한 챔피언십 경쟁이 한창이던 시기에 크리스티안 호너가 토토 볼프에게 따뜻한 축하 문자를 보내는 모습은 대부분의 포뮬러..."
     },
     {
-     "title": "Lewis Hamilton criticises ex-F1 drivers for \"talking smack\" about young stars",
-     "desc": "Seven-time Formula 1 champion Lewis Hamilton has criticised former drivers for \"talking smack\" about the young stars of the series, saying he has always been determined not to…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-criticises-ex-f1-drivers-for-talking-smack-and-young-stars/10874726/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/01QNXVQ0/s6/motorsport-com-graphics-2026-1.jpg",
-     "date": "2026-11-15T22:11:44+00:00",
+     "title": "Zak Brown recalls McLaren's \"very toxic environment\" after joining team in 2016",
+     "desc": "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the…",
+     "link": "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-6.motorsport.com/images/amp/YXyKXKd6/s6/motorsport-com-graphics-3.jpg",
+     "date": "2026-11-16T15:54:25+00:00",
      "author": "",
-     "id": "7518bd435e",
-     "titleKo": "루이스 해밀턴, 젊은 스타들에 대해 \"험담\"하는 전 F1 드라이버들을 비판하다",
-     "descKo": "7회 포뮬러원 챔피언인 루이스 해밀턴이 포뮬러원 시리즈의 젊은 스타들에 대해 \"험담\"을 한 전직 드라이버들을 비판하며, 자신은 항상 그렇게 하지 않기로 결심했다고 말했습니다.",
+     "id": "0e71029249",
      "lead": [
-      "Seven-time Formula 1 champion Lewis Hamilton has criticised former drivers for \"talking smack\" about the young stars of the series, saying he has always been determined not to become \"that type of driver\".",
-      "The Briton was asked at Interlagos whether Kimi Antonelli's title success had made him reflect on his own career. Mercedes signed Antonelli after Hamilton decided to move to Ferrari in 2025. In only his second season, the Italian driver became F1's youngest world champion.",
-      "\"I'm just really proud to see new people coming through, young drivers. I see a lot of these ex-Formula 1 drivers, older Formula 1 drivers, racing drivers just talking smack about young people all the time,\" Hamilton said."
+      "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the track.",
+      "The American arrived at McLaren a decade ago, after the team's shareholders parted ways with Ron Dennis, and went on to lead its recovery from the back of the grid to the 2024 and 2025 constructors' championships.",
+      "Speaking to RACER , Brown said he had not realised the scale of the problems when he first walked in."
      ],
      "leadKo": [
-      "7회 포뮬러원 챔피언인 루이스 해밀턴이 포뮬러원의 젊은 스타들에 대해 \"험담\"을 하는 전직 드라이버들을 비판하며, 자신은 항상 \"그런 유형의 드라이버\"가 되지 않기로 결심했다고 밝혔습니다.",
-      "영국인인 해밀턴은 인터라고스에서 키미 안토넬리의 우승이 자신의 경력에 대해 되돌아보게 했는지 질문을 받았습니다. 메르세데스는 해밀턴이 2025년에 페라리로 이적하기로 결정한 후 안토넬리와 계약했습니다. 이탈리아 출신의 이 드라이버는 불과 두 번째 시즌 만에 F1 최연소 월드 챔피언이 되었습니다.",
-      "\"저는 새로운 사람들, 젊은 드라이버들이 등장하는 것을 보며 정말 자랑스럽게 생각합니다. 저는 많은 전직 포뮬러원 드라이버, 나이가 많은 포뮬러원 드라이버, 레이싱 드라이버들이 항상 젊은 선수들을 비난하는 것을 봅니다.\"라고 해밀턴은 말했습니다."
-     ]
+      "맥라렌 레이싱의 CEO인 잭 브라운은 2016년에 합류한 팀을 \"매우 독성이 강한 환경\"이라고 표현하며, 수년간의 트랙 안팎에서의 부진한 성적에 대해 리더들의 잦은 교체를 비난했습니다.",
+      "이 미국인은 10년 전, 팀의 주주들이 론 데니스(Ron Dennis)와 결별한 후 맥라렌에 합류했으며, 2024년과 2025년 컨스트럭터 챔피언십에서 그리드 후미에서부터 팀을 재건하는 데 앞장섰습니다.",
+      "브라운은 RACER와의 인터뷰에서 자신이 처음 입사했을 때 문제의 심각성을 깨닫지 못했다고 말했다."
+     ],
+     "titleKo": "잭 브라운, 2016년 팀에 합류한 후 경험한 맥라렌의 \"매우 독한 분위기\"를 회상하다",
+     "descKo": "맥라렌 레이싱의 CEO인 잭 브라운은 2016년에 합류한 팀을 \"매우 독성이 강한 환경\"이라고 표현하며, 수년간의 부진한 성적에 대해 리더들의 잦은 교체를 비난했습니다."
     },
     {
-     "title": "Christian Horner explains why Max Verstappen’s “abnormal” driving style destroys his team-mates",
-     "desc": "The narrative surrounding Red Bull Racing over the last half-decade has consistently featured a rotating cast of drivers struggling - and often failing - to survive alongside Max…",
-     "link": "https://www.motorsport.com/f1/news/horner-explains-why-max-verstappens-abnormal-driving-style-destroys-his-teammates/10874636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/6DGg5JJY/s6/motorsport-com-graphics-2026-1-3.jpg",
-     "date": "2026-11-15T19:00:02+00:00",
+     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
+     "desc": "Seven-time Formula 1 champion Lewis Hamilton wants a Los Angeles base so he can spend more of the winter break with his partner Kim Kardashian and her children, according to a…",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/2jEAkAp0/s6/motorsport-com-graphics-2.jpg",
+     "date": "2026-11-16T15:08:51+00:00",
      "author": "",
-     "id": "0e6edd2fbe",
-     "titleKo": "크리스티안 호너, 맥스 페르스타펜의 \"비정상적인\" 드라이빙 스타일이 팀 동료를 파괴하는 이유를 설명하다",
-     "descKo": "지난 5년 동안 레드불 레이싱을 둘러싼 이야기는 맥스와 함께 살아남기 위해 고군분투하고 종종 실패하는 드라이버들이 돌아가면서 등장하는 것이 특징이었습니다...",
+     "id": "50c870cb5a",
      "lead": [
-      "The narrative surrounding Red Bull Racing over the last half-decade has consistently featured a rotating cast of drivers struggling - and often failing - to survive alongside Max Verstappen .",
-      "Former team principal Christian Horner recently provided a technical explanation for the phenomenon.",
-      "Speaking on the High Performance podcast, Horner revealed that the infamous \"curse\" of the second Red Bull seat is actually rooted in the engineering department's attempt to satisfy Verstappen's unique physical inputs."
+      "Seven-time Formula 1 champion Lewis Hamilton wants a Los Angeles base so he can spend more of the winter break with his partner Kim Kardashian and her children, according to a report from the Daily Mail .",
+      "The report says the Ferrari driver approached estate agents about houses in Malibu, Pacific Palisades and the Hollywood Hills, and is weighing up whether to rent or buy. His main home is in Monaco, while Kardashian lives in Hidden Hills, a gated community north-west of central Los Angeles.",
+      "The couple have been linked since January, and Hamilton later shared photos of them together on social media. Kardashian has since become a familiar face in the paddock, watching him race in Monaco in June and in Singapore last month."
      ],
      "leadKo": [
-      "지난 5년 동안 레드불 레이싱을 둘러싼 이야기는 맥스 페르스타펜과 함께 살아남기 위해 고군분투하고 종종 실패하는 드라이버들의 교체가 끊임없이 이어졌습니다.",
-      "전 팀 대표인 크리스티안 호너는 최근 이 현상에 대한 기술적 설명을 제공했습니다.",
-      "호너는 '하이 퍼포먼스' 팟캐스트에서 악명 높은 레드불의 두 번째 시트 '저주'가 사실은 베르스타펜의 독특한 신체적 요구를 충족시키려는 엔지니어링 부서의 시도에서 비롯되었다고 밝혔습니다."
-     ]
+      "데일리 메일 의 보도에 따르면, 7회 포뮬러원 챔피언인 루이스 해밀턴은 파트너인 킴 카다시안과 그녀의 자녀들과 함께 겨울 휴가를 더 많이 보낼 수 있도록 로스앤젤레스에 거점을 마련하고 싶어 한다고 합니다.",
+      "이 보도에 따르면, 페라리 드라이버는 말리부, 퍼시픽 팰리세이즈, 할리우드 힐스의 주택에 대해 부동산 중개인에게 문의했으며, 임차할지 매입할지 고민하고 있다고 합니다. 그의 주 거주는 모나코에 있으며, 카다시안은 로스앤젤레스 중심부 북서쪽에 위치한 게이티드 커뮤니티인 히든 힐스에 거주하고 있습니다.",
+      "이 커플은 1월부터 교제해 왔으며, 이후 해밀턴은 소셜 미디어에 두 사람이 함께 있는 사진을 올렸습니다. 그 이후로 카다시안은 패독에서 익숙한 얼굴이 되었으며, 6월 모나코와 지난달 싱가포르에서 그가 경주하는 모습을 지켜보았습니다."
+     ],
+     "titleKo": "루이스 해밀턴, 킴 카다시안과의 열애설 속에서 LA 주택 매입을 고려 중인 것으로 알려짐",
+     "descKo": "7회 포뮬러원 챔피언인 루이스 해밀턴이 겨울 휴가를 파트너인 킴 카다시안과 그녀의 자녀들과 함께 더 많이 보낼 수 있도록 로스앤젤레스에 거점을 마련하고 싶어한다고…"
     },
     {
-     "title": "Retaining Liam Lawson isn't enough – Red Bull must stop treating him like a failure",
-     "desc": "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson. Retaining his services for another year isn't just a logical decision, but perhaps…",
-     "link": "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-7.motorsport.com/images/amp/YpbAe4N0/s6/liam-lawson-racing-bulls.jpg",
-     "date": "2026-11-15T18:30:03+00:00",
+     "title": "F1 Las Vegas GP 2026: start time, schedule and how to watch",
+     "desc": "The Las Vegas Grand Prix starts at 8 pm PT on Saturday, November 21, which is 11 pm ET. The race runs at night along the Strip, and every session is live on Apple TV. Las Vegas…",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/YBVorJzY/s6/the-welcome-to-las-vegas-sign.jpg",
+     "date": "2026-11-16T15:02:24+00:00",
      "author": "",
-     "id": "2561bcdf37",
-     "titleKo": "리암 로슨을 계속 기용하는 것만으로는 충분하지 않습니다. 레드불은 그를 실패한 드라이버로 취급하는 것을 중단해야 합니다.",
-     "descKo": "2025년 리암 로슨은 레드불 레이싱에서 결코 실패하지 않았습니다. 리암 로슨을 실패하게 만든 것은 레드불이었습니다. 그를 1년 더 보유하는 것은 단순히 합리적인 결정일 뿐만 아니라, 어쩌면...",
+     "id": "fa8e939945",
      "lead": [
-      "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson.",
-      "Retaining his services for another year isn't just a logical decision, but perhaps the first sign that the organisation is changing the habits it developed under Helmut Marko. Yet there may be one more step it needs to take to avoid failing Lawson again.",
-      "It needs to stop treating its young drivers – Lawson included – like goods with an expiry date."
+      "The Las Vegas Grand Prix starts at 8 pm PT on Saturday, November 21, which is 11 pm ET. The race runs at night along the Strip, and every session is live on Apple TV.",
+      "In Alaska, every session starts one hour earlier than in the PT column, and in Hawaii two hours earlier. This is not a sprint weekend.",
+      "The race starts on Saturday, November 21, at 8 pm PT, 9 pm MT, 10 pm CT and 11 pm ET. In Alaska, it starts at 7 pm, and in Hawaii at 6 pm"
      ],
      "leadKo": [
-      "2025년, 리암 로슨은 레드불 레이싱에서 결코 실패하지 않았습니다. 리암 로슨을 실패하게 만든 것은 레드불이었습니다.",
-      "그를 1년 더 보유하는 것은 단순히 논리적인 결정일 뿐만 아니라, 아마도 이 조직이 헬무트 마르코 감독 아래에서 형성된 습관을 바꾸고 있다는 첫 번째 신호일 것입니다. 하지만 로슨을 다시 실망시키지 않기 위해 한 가지 더 필요한 조치가 있을 수 있습니다.",
-      "레드불은 로슨을 포함한 젊은 드라이버들을 유통기한이 있는 상품처럼 취급하는 것을 중단해야 합니다."
-     ]
+      "라스베이거스 그랑프리는 11월 21일 토요일 오후 8시(태평양 표준시, PT)에 시작되며, 이는 동부 표준시(ET) 기준으로는 오후 11시입니다. 레이스는 밤에 스트립을 따라 진행되며, 모든 세션은 Apple TV에서 생중계됩니다.",
+      "알래스카에서는 모든 세션이 태평양 표준시(PT) 열보다 1시간 일찍 시작되며, 하와이에서는 2시간 일찍 시작됩니다. 이번 주말은 스프린트 주말이 아닙니다.",
+      "레이스는 11월 21일 토요일 오후 8시(태평양 표준시), 오후 9시(산지 표준시), 오후 10시(중부 표준시), 오후 11시(동부 표준시)에 시작됩니다. 알래스카에서는 오후 7시에, 하와이에서는 오후 6시에 시작합니다."
+     ],
+     "titleKo": "2026년 F1 라스베이거스 GP: 시작 시간, 일정 및 시청 방법",
+     "descKo": "라스베이거스 그랑프리는 11월 21일 토요일 오후 8시(태평양 표준시, PT)에 시작되며, 이는 동부 표준시(ET)로 오후 11시에 해당합니다. 레이스는 밤에 스트립을 따라 진행되며, 모든 세션은 Apple TV에서 생중계됩니다. 라스베이거스..."
     },
     {
-     "title": "Christian Horner blames Red Bull leadership structure for missing F1’s future stars",
-     "desc": "For years, Red Bull Racing's dual-leadership structure between team principal Christian Horner and motorsport advisor Dr. Helmut Marko was praised as a ruthless but highly…",
-     "link": "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0Zq8V7L6/s6/motorsport-com-graphics-2026-1-2.jpg",
-     "date": "2026-11-15T16:01:16+00:00",
+     "title": "F1 Las Vegas GP 2026: UK times, schedule and how to watch",
+     "desc": "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. In Las Vegas it is still 8pm on Saturday, because the race runs at night along the Strip. Every session falls…",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-5.motorsport.com/images/amp/2y7AZ9g6/s6/a-rainbow-above-the-welcome-to.jpg",
+     "date": "2026-11-16T14:50:05+00:00",
      "author": "",
-     "id": "2281dc961b",
-     "titleKo": "크리스티안 호너, F1의 미래 스타를 놓친 것에 대해 레드불 경영진 구조를 비난",
-     "descKo": "수년간, 레드불 레이싱의 팀 대표인 크리스티안 호너와 모터스포츠 고문인 헬무트 마르코 박사 간의 이원적 리더십 구조는 무자비하지만 매우...",
+     "id": "27ad4b8d73",
      "lead": [
-      "For years, Red Bull Racing's dual-leadership structure between team principal Christian Horner and motorsport advisor Dr. Helmut Marko was praised as a ruthless but highly effective system. But Horner is now pointing to that exact management style as the primary reason the Milton Keynes squad lost out on Lando Norris , George Russell , and Oscar Piastri .",
-      "Speaking on the High Performance podcast, Horner distanced himself from one of the organisation's scouting blunders. Rather than simply admitting the team missed the mark, Horner highlighted his lack of jurisdiction over the Red Bull Junior Team, arguing the corporate dynamic meant he had no say in his own future driver line-up.",
-      "\"I never had responsibility for the young driver programme,\" Horner explicitly stated."
+      "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. In Las Vegas it is still 8pm on Saturday, because the race runs at night along the Strip. Every session falls overnight in the UK, and every one of them is live on Sky Sports F1.",
+      "Las Vegas is eight hours behind the UK. This is not a sprint weekend.",
+      "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. The race runs over 50 laps of the 6.201km (3.853-mile) street circuit, a total of 310km (192.7 miles). Without interruptions it finishes at around 5:30am. If the race runs longer than two hours, the chequered flag falls at the two-hour mark even if not all laps are completed."
      ],
      "leadKo": [
-      "수년간, 크리스티안 호너 팀 대표와 헬무트 마르코 박사 모터스포츠 고문 간의 레드불 레이싱의 이원적 리더십 구조는 냉혹하지만 매우 효과적인 시스템으로 평가받았습니다. 하지만 호너는 이제 바로 그 관리 스타일을 밀턴 케인스 팀이 랜도 노리스, 조지 러셀, 오스카 피아스트리를 놓친 주된 이유로 지목하고 있습니다.",
-      "호너는 하이 퍼포먼스 팟캐스트에서 팀의 스카우트 실수 중 하나에 대해 선을 그었습니다. 호너는 팀이 목표를 달성하지 못했다고 단순히 인정하는 대신, 레드불 주니어 팀에 대한 자신의 권한이 없음을 강조하며, 기업의 역학 관계상 자신의 미래 드라이버 라인업에 대해 발언권이 없었다고 주장했습니다.",
-      "호너는 \"저는 영 드라이버 프로그램에 대한 책임이 전혀 없었습니다\"라고 명확히 밝혔습니다."
-     ]
+      "라스베이거스 그랑프리는 11월 22일 일요일 영국 시간으로 오전 4시에 시작됩니다. 라스베이거스에서는 여전히 토요일 오후 8시입니다. 경주가 스트립을 따라 밤에 진행되기 때문입니다. 모든 세션은 영국 시간으로 밤에 진행되며, 모든 세션이 Sky Sports F1에서 생중계됩니다.",
+      "라스베이거스는 영국보다 8시간 늦습니다. 이번 주말은 스프린트 주말이 아닙니다.",
+      "라스베이거스 그랑프리는 11월 22일 일요일 영국 시간으로 오전 4시에 시작됩니다. 이 레이스는 6.201km(3.853마일) 길이의 스트리트 서킷을 50바퀴 도는 것으로, 총 거리는 310km(192.7마일)입니다. 중단 없이 진행될 경우 오전 5시 30분경에 종료됩니다. 레이스가 2시간 이상 진행되는 경우, 모든 랩을 완료하지 않았더라도 2시간이 되는 시점에 체크 플래그가 내려집니다."
+     ],
+     "titleKo": "2026년 F1 라스베이거스 GP: 영국 시간, 일정 및 시청 방법",
+     "descKo": "라스베이거스 그랑프리는 11월 22일 일요일 영국 시간으로 오전 4시에 시작됩니다. 라스베이거스에서는 아직 토요일 오후 8시입니다. 경주가 스트립을 따라 밤에 진행되기 때문입니다. 모든 세션은..."
     }
    ]
   },
@@ -2056,13 +1893,57 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
+     "desc": "Time for the most spectacular of all the recent additions to the F1 calendar: Las Vegas",
+     "link": "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1386236_HiRes.jpg",
+     "date": "2026-11-16T15:59:25+00:00",
+     "author": "The Race Team",
+     "id": "ee1df95677",
+     "lead": [
+      "The Formula 1® Heineken Las Vegas Grand Prix 2026 takes place at perhaps the most spectacular of all the recent additions to the F1 calendar - on the streets of Las Vegas, including the famous Strip.",
+      "And it has a completely unique Thursday-to-Saturday late night track schedule that combined with the high-speed track layout and off-track atmosphere makes this a stop on the calendar unlike any other.",
+      "Don't be surprised if the circuit configuration and likely cold late-night temperatures lead to a shock outcome too. Take Mercedes bursting out of a form slump to be unstoppable in Vegas in 2024, for instance. Now Mercedes arrives there as champion again, but very wary of a curveball this weekend."
+     ],
+     "leadKo": [
+      "2026년 포뮬러원® 하이네켄 라스베이거스 그랑프리는 최근 F1 일정에 추가된 서킷 중 아마도 가장 스펙터클한 곳, 바로 라스베이거스의 거리(유명한 스트립 포함)에서 개최됩니다.",
+      "그리고 목요일부터 토요일까지 늦은 밤에 진행되는 완전히 독특한 트랙 일정이 고속 트랙 레이아웃과 트랙 밖의 분위기와 어우러져 이 그랑프리를 다른 그랑프리와는 차별화된 일정으로 만들어 줍니다.",
+      "서킷 구성과 늦은 밤의 추운 기온이 충격적인 결과를 초래하더라도 놀라지 마세요. 예를 들어, 2024년 라스베이거스에서 메르세데스가 부진에서 벗어나 누구도 막을 수 없는 기세를 보인 것을 떠올려 보세요. 이제 메르세데스는 다시 챔피언 자격으로 그곳에 도착하지만, 이번 주말에는 예상치 못한 변수를 매우 경계하고 있습니다."
+     ],
+     "titleKo": "F1 2026 라스베이거스 그랑프리는 몇 시에 시작하나요? 주말 전체 일정",
+     "descKo": "F1 캘린더에 최근 추가된 레이스 중 가장 스펙터클한 레이스가 열리는 시간: 라스베이거스"
+    },
+    {
+     "title": "Las Vegas GP reveals neon-inspired trophy for 2026",
+     "desc": "Las Vegas has unveiled a new neon-inspired, V-shaped trophy for its 2026 Grand Prix, prompting fans to joke about a potential Verstappen connection",
+     "link": "https://www.the-race.com/extra/las-vegas-gp-reveals-neon-inspired-trophy-for-2026/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/20949FOR_2026_F1_Trophy206347.jpg",
+     "date": "2026-11-16T12:46:13+00:00",
+     "author": "Fleur Mealing",
+     "id": "faa896f711",
+     "lead": [
+      "The Las Vegas Grand Prix has unveiled a new trophy for its 2026 Formula 1 race, with a design inspired by the city's iconic neon signs and vintage illuminated marquees.",
+      "The trophy is the second design used since the event joined the F1 calendar in 2023 and features a distinctive V-shaped silhouette, representing both Vegas and victory.",
+      "However, fans on social media were quick to suggest a third meaning behind the V-shaped design: 'V for Verstappen', joking that the trophy could be tailor-made for Red Bull's Max Verstappen."
+     ],
+     "leadKo": [
+      "라스베이거스 그랑프리가 2026년 포뮬러원(F1) 레이스를 위한 새로운 트로피를 공개했습니다. 이 트로피는 라스베이거스의 상징적인 네온사인과 빈티지 조명 간판에서 영감을 받은 디자인입니다.",
+      "이 트로피는 2023년 F1 그랑프리가 F1 캘린더에 포함된 이후 사용된 두 번째 디자인으로, 라스베이거스와 승리를 모두 상징하는 독특한 V자형 실루엣이 특징입니다.",
+      "하지만 소셜 미디어의 팬들은 V자 모양의 디자인에 숨겨진 세 번째 의미를 신속하게 제시했습니다. 'V는 페르스타펜(Verstappen)'이라는 농담을 하면서 트로피가 레드불의 막스 페르스타펜을 위해 맞춤 제작된 것일 수 있다고 말했습니다."
+     ],
+     "titleKo": "라스베이거스 GP, 2026년 대회 트로피는 네온에서 영감을 받은 디자인으로 공개",
+     "descKo": "라스베이거스가 2026년 그랑프리를 위한 새로운 네온 사인에서 영감을 받은 V자형 트로피를 공개하자, 팬들은 베르스타펜과의 잠재적인 연관성에 대해 농담을 주고받았습니다."
+    },
+    {
      "title": "Vegas gives Camara chance to put messy debut behind him",
-     "desc": "Haas's new signing Rafael Camara will get a quick chance to move on from his messy F1 debut in Brazil as he will stay in the car for this weekend's Las Vegas Grand Prix",
+     "desc": "Rafael Camara will get a quick chance to move on from his messy Haas F1 debut in Brazil as he will stay in the car for this weekend's Las Vegas GP",
      "link": "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/",
      "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453194_HiRes.jpg",
      "date": "2026-11-16T09:10:12+00:00",
      "author": "Matt Beer",
      "id": "d6aca4769d",
+     "titleKo": "베가스, 카마라에게 엉망이었던 데뷔전을 잊을 기회를 준다",
+     "descKo": "하스의 새로운 드라이버인 라파엘 카마라는 이번 주말 라스베이거스 그랑프리에서 계속 경주에 참여할 예정이므로 브라질에서 겪은 혼란스러운 F1 데뷔전을 뒤로하고 빠르게 나아갈 기회를 얻게 될 것입니다.",
      "lead": [
       "Haas's new signing Rafael Camara will get a quick chance to move on from his messy Formula 1 debut in Brazil as he will stay in the car for this weekend's Las Vegas Grand Prix.",
       "Camara's debut was brought forward from 2027 following Haas's dramatic and abrupt split with Esteban Ocon, but the original announcement only committed to Camara racing at Interlagos.",
@@ -2072,9 +1953,7 @@
       "하스의 새로운 드라이버인 라파엘 카마라는 이번 주말 라스베이거스 그랑프리에서 계속 경주에 참여할 예정이므로 브라질에서 치른 혼란스러운 포뮬러원 데뷔전을 뒤로하고 빠르게 다음 단계로 나아갈 기회를 얻게 될 것입니다.",
       "카마라는 하스와 에스테반 오콘의 극적이고 갑작스러운 결별에 따라 2027년에서 데뷔가 앞당겨졌지만, 최초 발표에서는 카마라가 인터라구스에서 레이싱을 펼치는 것만 약속했습니다.",
       "이제 하스는 멕시코 GP 주말 중반에 오콘을 대신해 처음으로 출전했던 료 히라카와가 올리 베어먼의 차량으로 FP1에 다시 출전하면서 라스베이거스에도 계속 남을 것이라고 발표했습니다."
-     ],
-     "titleKo": "베가스, 카마라에게 엉망이었던 데뷔전을 잊을 기회를 준다",
-     "descKo": "하스의 새로운 드라이버인 라파엘 카마라는 이번 주말 라스베이거스 그랑프리에서 계속 경주에 참여할 예정이므로 브라질에서 겪은 혼란스러운 F1 데뷔전을 뒤로하고 빠르게 나아갈 기회를 얻게 될 것입니다."
+     ]
     },
     {
      "title": "F1 poised to take crucial step towards V8 engines' return",
@@ -2084,6 +1963,8 @@
      "date": "2026-11-16T07:11:53+00:00",
      "author": "Jon Noble",
      "id": "a01456fa5f",
+     "titleKo": "F1, V8 엔진 복귀를 위한 중요한 단계에 돌입",
+     "descKo": "F1이 V8 엔진으로 전환하려는 계획이 월요일에 큰 진전을 이룰 것으로 예상되며, 제조사들이 새로운 규정을 지지할 준비를 마쳤습니다.",
      "lead": [
       "Formula 1's plan to move to V8 engines is set for a major step forward on Monday, with manufacturers poised to back new regulations.",
       "Following months of discussions between the FIA, teams and drivers to gather feedback on a direction for F1's next ruleset, a formal proposal for the new power units is to be discussed at a gathering of the governing body and manufacturers.",
@@ -2093,9 +1974,7 @@
       "포뮬러원(F1)이 V8 엔진으로 전환하려는 계획이 월요일에 큰 진전을 이룰 것으로 예상되며, 제조사들이 새로운 규정을 지지할 준비를 마쳤습니다.",
       "F1의 다음 규정 방향에 대한 의견을 수렴하기 위해 FIA, 팀 및 드라이버 간의 수개월에 걸친 논의에 이어, 새로운 파워 유닛에 대한 공식 제안이 관리 기구와 제조업체 회의에서 논의될 예정입니다.",
       "소식통에 따르면, 향후 엔진이 더 저렴하고, 덜 복잡하며, 팬들에게 더 매력적으로 다가갈 수 있도록 하기 위한 규정 변경에 대해 F1의 현재 자동차 제조업체들 사이에서 폭넓은 합의가 이루어진 것으로 알려졌습니다."
-     ],
-     "titleKo": "F1, V8 엔진 복귀를 위한 중요한 단계에 돌입",
-     "descKo": "F1이 V8 엔진으로 전환하려는 계획이 월요일에 큰 진전을 이룰 것으로 예상되며, 제조사들이 새로운 규정을 지지할 준비를 마쳤습니다."
+     ]
     },
     {
      "title": "Why Williams has turned Sainz and Albon into test drivers",
@@ -2200,48 +2079,6 @@
       "FIA는 포뮬러 1 이탈리아 그랑프리에서 쓰노다 유키에 대한 아우디의 항소가 11월 25일 심리될 것이라고 발표했다.",
       "아우디는 Monza 경주가 끝난 후 다시 시작할 때 그리드 침해 혐의로 Tsunoda에 대한 규칙을 잘못 적용했다고 느꼈던 것에 대해 불평했습니다.",
       "Tsunoda는 14위로 라인업할 예정이었지만 처음에는 실수로 15위 그리드 슬롯으로 향하다가 마지막 순간에 오른쪽으로 방향을 틀었습니다."
-     ]
-    },
-    {
-     "title": "Tsolov gets twin F1 2027 reserve role to prepare him for race seat",
-     "desc": "Red Bull has named Nikola Tsolov the official reserve driver of both of its Formula 1 teams in 2027",
-     "link": "https://www.the-race.com/formula-1/tsolov-gets-twin-f1-2027-reserve-role-to-prepare-him-for-race-seat/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/SI202610300433_hires_jpeg_24bit_rgb.jpg",
-     "date": "2026-11-12T15:21:26+00:00",
-     "author": "Josh Suttill",
-     "id": "ff44410b4d",
-     "titleKo": "Tsolov는 경주 좌석을 준비하기 위해 트윈 F1 2027 예비 역할을 얻습니다.",
-     "descKo": "Red Bull은 Nikola Tsolov를 2027년 Formula 1 팀의 공식 예비 드라이버로 지명했습니다.",
-     "lead": [
-      "Red Bull has named Nikola Tsolov the official reserve driver of both of its Formula 1 teams in 2027 with a programme “designed to ensure he is fully prepared to race in F1 at the highest level”.",
-      "Tsolov missed out on a 2027 Racing Bulls seat as Liam Lawson and Arvid Lindblad were both handed extensions into next year.",
-      "But Red Bull has made clear Tsolov is still very much the next driver in line for an F1 seat, confirming on the same day Lawson and Lindblad were confirmed for 2027 that Tsolov would be made reserve."
-     ],
-     "leadKo": [
-      "Red Bull은 \"최고 수준의 F1 경주에 완벽하게 준비되도록 설계된\" 프로그램을 통해 Nikola Tsolov를 2027년 두 Formula 1 팀의 공식 예비 드라이버로 지명했습니다.",
-      "Tsolov는 Liam Lawson과 Arvid Lindblad가 둘 다 내년까지 연장을 받았기 때문에 2027 Racing Bulls 좌석을 놓쳤습니다.",
-      "그러나 Red Bull은 Tsolov가 여전히 F1 좌석을 확보할 다음 드라이버임을 분명히 밝혔으며, 같은 날 Lawson과 Lindblad가 Tsolov가 예비 선수가 될 것이라고 2027년에 확정했음을 확인했습니다."
-     ]
-    },
-    {
-     "title": "Our verdict on Lawson earning a 2027 F1 extension",
-     "desc": "Liam Lawson has secured another year with Racing Bulls - but is it the right move?",
-     "link": "https://www.the-race.com/formula-1/liam-lawson-2027-f1-extension-our-verdict/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/Spacesuit-CE-F1-BGP-06-11-26-0862.jpg",
-     "date": "2026-11-12T13:04:00+00:00",
-     "author": "Jon Noble",
-     "id": "4472d48971",
-     "titleKo": "Lawson이 2027 F1 연장을 획득한 것에 대한 우리의 평결",
-     "descKo": "Liam Lawson은 Racing Bulls에서 1년을 더 확보했습니다. 하지만 이것이 올바른 움직임일까요?",
-     "lead": [
-      "Liam Lawson and Arvid Lindblad will continue to race for Racing Bulls in 2027, with Red Bull electing against what would have been a huge Formula 1 driver sacking.",
-      "Here's what our team makes of the move to keep Lawson and Lindblad and not promote Formula 2 title contender Nikola Tsolov into a race seat.",
-      "Very few driver decisions have felt as right as Lawson getting a fresh contract with Racing Bulls."
-     ],
-     "leadKo": [
-      "Liam Lawson과 Arvid Lindblad는 2027년에도 계속해서 Racing Bulls에서 경쟁할 예정이며, Red Bull은 대규모 Formula 1 드라이버 해고에 맞서 싸울 것입니다.",
-      "다음은 Lawson과 Lindblad를 유지하고 Formula 2 타이틀 경쟁자인 Nikola Tsolov를 레이스 좌석으로 승격시키지 않기 위해 우리 팀이 취한 조치입니다.",
-      "Lawson이 Racing Bulls와 새로운 계약을 맺는 것만큼 드라이버 결정이 옳다고 느껴지는 경우는 거의 없습니다."
      ]
     }
    ]
@@ -2446,6 +2283,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Terry Crews Being Iconic As The F1 Cooldown Car Chauffeur 🤣",
+     "desc": "Terry ferried Max, Lando & George to the podium at the 2025 Las Vegas Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=HT1O4M7NFPE",
+     "image": "https://i.ytimg.com/vi/HT1O4M7NFPE/hqdefault.jpg",
+     "date": "2026-11-16T19:00:24+00:00",
+     "author": "FORMULA 1",
+     "videoId": "HT1O4M7NFPE",
+     "id": "dac5cf99bd",
+     "titleKo": "F1 쿨다운 카 운전사로 활약하는 아이콘 같은 테리 크루스 🤣",
+     "descKo": ""
+    },
+    {
      "title": "Drivers On A Mission + McLaren v Red Bull | Las Vegas GP Preview | F1 Nation",
      "desc": "AWS - Global AI Partner of Formula 1 - sponsors this episode of F1 Nation",
      "link": "https://www.youtube.com/watch?v=JJEu0HUDaVE",
@@ -2539,18 +2388,6 @@
      "videoId": "T1jiVD6emn8",
      "id": "19eb0b57e7",
      "titleKo": "포뮬러 2: F1 스타가 만들어지는 곳",
-     "descKo": ""
-    },
-    {
-     "title": "Bruno Senna: How Ayrton Inspires A New Generation | F1 Beyond The Grid Podcast",
-     "desc": "An icon of Formula 1, a three-time World Champion, and a hero even to those who never saw him race. More than three decades after his death, Ayrton Senna remains an inspiration…",
-     "link": "https://www.youtube.com/watch?v=zEpkNOpUQrQ",
-     "image": "https://i.ytimg.com/vi/zEpkNOpUQrQ/hqdefault.jpg",
-     "date": "2026-11-11T11:30:06+00:00",
-     "author": "FORMULA 1",
-     "videoId": "zEpkNOpUQrQ",
-     "id": "e43ec7fdab",
-     "titleKo": "Bruno Senna: Ayrton이 새로운 세대에게 영감을 주는 방법 | F1 비욘드 더 그리드 팟캐스트",
      "descKo": ""
     }
    ]
