@@ -4,3 +4,7 @@ mobile/3rd/music/videoplayback.mp4
 node_modules/
 .DS_Store
 mobile/3rd/posts.json
+
+# Android Studio가 android 폴더를 통째로 열 때 생기는 설정
+android/.gradle/
+android/.idea/
