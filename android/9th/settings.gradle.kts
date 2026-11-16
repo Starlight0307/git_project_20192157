@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "9th"
 include(":app")
- 
