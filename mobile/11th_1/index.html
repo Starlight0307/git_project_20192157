@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- 문서 언어를 한국어로 지정 (스크린리더가 한국어로 읽음) -->
+<html lang="ko">
+<head>
+  <!-- 한글이 깨지지 않도록 UTF-8 인코딩 사용 -->
+  <meta charset="UTF-8">
+  <!-- 모바일에서 화면 너비에 맞게 보이도록 설정 (반응형의 기본) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 브라우저 탭에 보이는 제목 -->
+  <title>무비차트 · 지금 상영 중인 영화 순위</title>
+  <!-- 검색엔진·공유 미리보기에 쓰이는 사이트 설명 -->
+  <meta name="description" content="공식 박스오피스 순위와 지금 극장에서 상영 중인 영화를 한눈에 확인하세요.">
+  <!-- 한글 웹폰트(Pretendard) 불러오기 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <!-- 화면 꾸미기 CSS 파일 연결 -->
+  <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+
+  <!-- ===== 1. 첫 접속 시 보이는 인트로 로딩 화면 (필름 릴 애니메이션) ===== -->
+  <div class="intro-loader" id="introLoader" aria-hidden="true">
+    <!-- 회전하는 필름 릴 -->
+    <div class="film-reel"><span></span><span></span><span></span><span></span><span></span></div>
+    <!-- 로딩 문구 -->
+    <p class="intro-text">MOVIE<b>CHART</b></p>
+  </div>
+
+  <!-- 마우스를 따라다니는 빛 효과 (PC 전용 장식) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- 스크롤 진행률 막대 (페이지 맨 위) -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===== 2. 상단 바: 왼쪽 메뉴 · 가운데 로고 · 오른쪽 바로가기 ===== -->
+  <header class="top-bar" id="topBar">
+    <!-- 모바일에서만 보이는 메뉴 열기/닫기 버튼 (햄버거 아이콘) -->
+    <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="메뉴 열기">
+      <!-- 햄버거 아이콘의 선 3개 -->
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- 메인 메뉴 (PC: 왼쪽 / 모바일: 접혀 있음) -->
+    <nav class="main-nav" id="mainNav" aria-label="주요 메뉴">
+      <!-- 각 메뉴 항목: 누르면 해당 영역으로 부드럽게 이동 -->
+      <a href="#ranking" class="nav-link">박스오피스</a>
+      <a href="#search" class="nav-link">영화 검색</a>
+      <a href="#theaters" class="nav-link">현재 상영작</a>
+    </nav>
+
+    <!-- 로고 (가운데, 누르면 맨 위로) -->
+    <a href="#ranking" class="brand">🎬 MOVIE<b>CHART</b></a>
+
+    <!-- 오른쪽 검색 바로가기 아이콘 -->
+    <a href="#search" class="header-search" aria-label="영화 검색으로 이동">🔍</a>
+  </header>
+
+  <main>
+    <!-- ===== 3. 박스오피스 (첫 화면: 1위 포스터를 흐리게 깐 배경 + 포스터 4장) ===== -->
+    <section class="boxoffice-stage" id="ranking">
+      <!-- 1위 영화 포스터로 채우는 흐린 배경 (JS가 이미지 설정) -->
+      <div class="stage-backdrop" id="stageBackdrop" aria-hidden="true"></div>
+
+      <div class="section">
+        <!-- 제목 줄: 왼쪽 제목 + 오른쪽 기간 탭 -->
+        <div class="stage-head">
+          <h1 class="stage-title">박스오피스</h1>
+          <!-- 순위 기간 선택 탭 -->
+          <div class="tab-group" role="tablist" aria-label="순위 기간 선택" id="rankingTabs">
+            <!-- 탭 버튼: data-period 값으로 어떤 기간의 순위를 불러올지 구분 -->
+            <button type="button" class="tab-button is-active" role="tab" aria-selected="true" data-period="daily">일별 (어제)</button>
+            <button type="button" class="tab-button" role="tab" aria-selected="false" data-period="weekly">주간 (지난주)</button>
+            <!-- 선택된 탭 뒤로 미끄러지는 표시 막대 -->
+            <span class="tab-indicator" aria-hidden="true"></span>
+          </div>
+          <!-- 영화관 순위는 공개 데이터가 없어 공식 페이지로 연결 (새 탭) -->
+          <div class="chain-links">
+            <a href="https://www.cgv.co.kr/movies/" target="_blank" rel="noopener" class="chain-link">CGV 무비차트 ↗</a>
+            <a href="https://www.megabox.co.kr/movie" target="_blank" rel="noopener" class="chain-link">메가박스 순위 ↗</a>
+          </div>
+        </div>
+
+        <!-- 출처·기준일·확인 시점·갱신 상태 표시줄 (JS가 채움) -->
+        <div class="data-meta" id="rankingMeta" role="status"></div>
+
+        <!-- 순위 포스터 목록 (처음엔 4편만, "더 많은 영화보기"로 펼침) -->
+        <ol class="boxoffice-list" id="rankingList" aria-live="polite"></ol>
+
+        <!-- 나머지 순위 펼치기/접기 버튼 -->
+        <button type="button" class="more-button" id="moreRankingButton" aria-controls="rankingList" aria-expanded="false" hidden>더 많은 영화보기 +</button>
+      </div>
+    </section>
+
+    <!-- ===== 4. 검색 + 빠른 메뉴 띠 ===== -->
+    <section class="quick-bar" id="search">
+      <div class="section quick-bar-inner">
+        <!-- 검색 입력 폼 (엔터 키로도 검색 가능) -->
+        <form class="search-form" id="movieSearchForm" role="search">
+          <!-- 화면에는 숨기고 스크린리더에만 읽히는 라벨 -->
+          <label for="movieSearchInput" class="visually-hidden">영화 제목</label>
+          <!-- 영화 제목 입력칸 -->
+          <input type="search" id="movieSearchInput" placeholder="상영 중인 영화명을 입력해 주세요" autocomplete="off">
+          <!-- 검색 실행 버튼 -->
+          <button type="submit" class="search-submit" aria-label="검색">🔍</button>
+        </form>
+
+        <!-- 빠른 메뉴 (아이콘 + 이름) -->
+        <nav class="quick-links" aria-label="빠른 메뉴">
+          <a href="#ranking" class="quick-link"><span>🏆</span>박스오피스</a>
+          <a href="#theaters" class="quick-link"><span>🎞️</span>현재 상영작</a>
+          <a href="https://www.cgv.co.kr/" target="_blank" rel="noopener" class="quick-link"><span>🎟️</span>CGV 예매</a>
+          <a href="https://www.megabox.co.kr/" target="_blank" rel="noopener" class="quick-link"><span>🍿</span>메가박스 예매</a>
+        </nav>
+      </div>
+
+      <!-- 검색 결과 영역 -->
+      <div class="section search-results">
+        <!-- 검색 상태 안내 문구 -->
+        <p class="status-text" id="searchStatusText" role="status"></p>
+        <!-- 검색 결과 카드 목록 -->
+        <div class="movie-grid" id="searchResultGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== 5. 현재 상영작 영역 ===== -->
+    <section class="section" id="theaters">
+      <!-- 영역 제목 -->
+      <div class="section-head reveal">
+        <p class="section-eyebrow">NOW SHOWING</p>
+        <h2>지금 극장에서 상영 중</h2>
+        <p class="section-desc">국내 현재 상영작이에요. 영화를 누르면 상세 정보와 영화관 바로가기를 볼 수 있어요.</p>
+      </div>
+
+      <!-- 상영 정보 출처·확인 시점 표시줄 -->
+      <div class="data-meta" id="nowPlayingMeta" role="status"></div>
+
+      <!-- 상영 영화 카드 목록 (화면 폭에 따라 열 수 자동 조절) -->
+      <div class="movie-grid" id="nowPlayingGrid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <!-- ===== 6. 하단 정보 ===== -->
+  <footer class="site-footer">
+    <!-- 데이터 안내 -->
+    <p>박스오피스·영화 기본정보: 영화진흥위원회 통합전산망 · 현재 상영작·포스터·줄거리: TMDB</p>
+    <!-- TMDB 이용 조건에 따른 출처 고지 -->
+    <p class="footer-tip">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+    <!-- 저작권 표시 -->
+    <p>© 2026 MOVIECHART</p>
+  </footer>
+
+  <!-- ===== 7. 영화 상세 정보 팝업 (dialog: Esc로 닫기·포커스 가두기를 브라우저가 처리) ===== -->
+  <dialog class="movie-dialog" id="movieDialog" aria-labelledby="dialogTitle">
+    <!-- 닫기 버튼 -->
+    <button type="button" class="dialog-close" id="dialogCloseButton" aria-label="닫기">✕</button>
+    <!-- 팝업 내용 (JS가 상세 정보를 그려 넣음) -->
+    <div class="dialog-body" id="dialogBody"></div>
+  </dialog>
+
+  <!-- API 키 설정 먼저 불러오기 (movie.js가 이 키를 사용) -->
+  <script src="js/config.js"></script>
+  <!-- 화면 동작 스크립트 -->
+  <script src="js/movie.js"></script>
+</body>
+</html>

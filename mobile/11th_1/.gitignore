@@ -1,0 +1,2 @@
+# API 키가 들어 있는 파일은 git에 올리지 않음 (견본은 js/config.example.js)
+js/config.js

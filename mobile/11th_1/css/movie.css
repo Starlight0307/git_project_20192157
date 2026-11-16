@@ -1,0 +1,883 @@
+/* =============================================================
+   movie.css : 영화 순위 사이트 디자인 + 모션 그래픽
+   순서: ① 색·기본값 → ② 인트로·장식 → ③ 상단 바·메뉴 → ④ 히어로
+        → ⑤ 마키 → ⑥ 섹션·탭·상태표시 → ⑦ 순위 목록 → ⑧ 포스터·카드
+        → ⑨ 상태 안내·스켈레톤 → ⑩ 검색·푸터 → ⑪ 상세 팝업
+        → ⑫ 키프레임(애니메이션) → ⑬ 반응형 → ⑭ 움직임 줄이기
+   ============================================================= */
+
+/* ===== ① 색·기본값 ===== */
+
+/* 사이트 전체에서 쓰는 색과 값 (한 곳에서 바꾸면 전체 반영) */
+:root {
+  /* 배경색 (아주 어두운 남보라) */
+  --color-bg: #0d0b1a;
+  /* 카드 등 한 단계 밝은 면 */
+  --color-surface: #17142a;
+  /* 더 밝은 면 (마우스 올렸을 때) */
+  --color-surface-hover: #221e3a;
+  /* 테두리 색 */
+  --color-border: rgba(255, 255, 255, 0.08);
+  /* 기본 글자색 */
+  --color-text: #f3f3f7;
+  /* 흐린 글자색 */
+  --color-muted: #9a9ab0;
+  /* 강조색 (보라) */
+  --color-accent: #7b4fe0;
+  /* 보조 강조색 (청록) */
+  --color-accent-2: #3cc8d8;
+  /* 상태 색: 정상 / 주의 / 오류 */
+  --color-ok: #3ddc97;
+  --color-warning: #ffb547;
+  --color-error: #ff5c5c;
+  /* 모서리 둥글기 */
+  --radius: 16px;
+  /* 부드러운 움직임 곡선 (튕기듯 멈춤) */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  /* 스프링처럼 살짝 튀는 곡선 */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* 모든 요소의 크기 계산에 테두리·여백 포함 */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* 메뉴 링크를 누르면 부드럽게 스크롤 + 상단 바에 가려지지 않도록 여유 공간 */
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
+/* 페이지 기본 글꼴·색·배경 */
+body {
+  /* 여백 제거 */
+  margin: 0;
+  /* 한글 웹폰트, 없으면 시스템 글꼴 */
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  /* 배경·글자색 */
+  background: var(--color-bg);
+  color: var(--color-text);
+  /* 줄 간격 */
+  line-height: 1.6;
+  /* 가로 스크롤 방지 (모바일 가로 넘침 방지) */
+  overflow-x: hidden;
+  /* 긴 단어도 줄바꿈 */
+  overflow-wrap: anywhere;
+  /* 글자를 부드럽게 */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 버튼이 페이지 글꼴을 쓰도록 */
+button, input { font: inherit; color: inherit; }
+
+/* 기울인 마키 띠 등이 화면 밖으로 삐져나와 가로 스크롤이 생기지 않도록 잘라냄 */
+main { overflow-x: clip; }
+
+/* 링크 기본 밑줄 제거 */
+a { color: inherit; text-decoration: none; }
+
+/* 키보드로 이동할 때 보이는 포커스 테두리 (접근성) */
+:focus-visible { outline: 2px solid var(--color-accent-2); outline-offset: 3px; border-radius: 8px; }
+
+/* 화면에서는 숨기고 스크린리더에서만 읽히게 하는 클래스 */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* 흐린 글자 */
+.muted { color: var(--color-muted); }
+
+/* ===== ② 인트로·장식 ===== */
+
+/* 첫 화면을 덮는 인트로 로딩 화면 */
+.intro-loader {
+  /* 화면 전체를 덮음 */
+  position: fixed; inset: 0; z-index: 100;
+  /* 가운데 정렬 */
+  display: grid; place-content: center; justify-items: center; gap: 20px;
+  /* 배경 */
+  background: var(--color-bg);
+  /* 걷힐 때 위로 접히는 애니메이션 */
+  transition: clip-path 0.9s var(--ease-out);
+  /* 처음에는 전체가 보임 */
+  clip-path: inset(0 0 0 0);
+}
+
+/* 인트로가 사라질 때: 아래에서 위로 걷힘 */
+.intro-loader.is-hidden { clip-path: inset(0 0 100% 0); }
+
+/* 회전하는 필름 릴 (가운데 원 + 구멍 5개) */
+.film-reel {
+  /* 크기와 원 모양 */
+  width: 72px; height: 72px; border-radius: 50%;
+  /* 릴 테두리 */
+  border: 6px solid var(--color-accent);
+  /* 구멍 배치 기준 */
+  position: relative;
+  /* 계속 회전 */
+  animation: spin 1.2s linear infinite;
+}
+
+/* 필름 릴의 구멍 5개 */
+.film-reel span {
+  /* 구멍 크기·모양 */
+  position: absolute; width: 14px; height: 14px; border-radius: 50%;
+  /* 구멍 색 */
+  background: var(--color-accent-2);
+  /* 가운데 기준으로 배치 */
+  top: 50%; left: 50%; margin: -7px;
+}
+
+/* 구멍 5개를 72도씩 돌려 원형으로 배치 */
+.film-reel span:nth-child(1) { transform: rotate(0deg) translateY(-20px); }
+.film-reel span:nth-child(2) { transform: rotate(72deg) translateY(-20px); }
+.film-reel span:nth-child(3) { transform: rotate(144deg) translateY(-20px); }
+.film-reel span:nth-child(4) { transform: rotate(216deg) translateY(-20px); }
+.film-reel span:nth-child(5) { transform: rotate(288deg) translateY(-20px); }
+
+/* 팝업 안에서 쓰는 작은 필름 릴 */
+.film-reel.small { transform: scale(0.6); }
+
+/* 인트로 로고 글자 (글자 간격이 벌어지며 등장) */
+.intro-text { margin: 0; font-size: 1.4rem; font-weight: 800; letter-spacing: 0.4em; animation: letter-expand 1.2s var(--ease-out) both; }
+
+/* 로고 강조 부분 */
+.intro-text b, .brand b { color: var(--color-accent); }
+
+/* 마우스를 따라다니는 빛 */
+.cursor-glow {
+  /* 화면에 고정, 클릭 방해하지 않음 */
+  position: fixed; top: -200px; left: -200px; z-index: 0; pointer-events: none;
+  /* 크기와 둥근 빛 */
+  width: 400px; height: 400px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(123, 79, 224, 0.12), transparent 65%);
+  /* 따라올 때 살짝 늦게 (부드럽게) */
+  transition: transform 0.25s var(--ease-out);
+}
+
+/* 스크롤 진행률 막대 */
+.scroll-progress {
+  /* 화면 맨 위에 고정 */
+  position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 60;
+  /* 그라데이션 색 */
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2));
+  /* 왼쪽부터 늘어남 (JS가 scaleX 값 변경) */
+  transform-origin: left; transform: scaleX(0);
+}
+
+/* ===== ③ 상단 바·메뉴 ===== */
+
+/* 상단 바 */
+.top-bar {
+  /* 화면 위에 고정 */
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  /* 왼쪽 메뉴 · 가운데 로고 · 오른쪽 아이콘 3칸 배치 */
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+  /* 안쪽 여백 */
+  padding: 16px clamp(16px, 5vw, 48px);
+  /* 스크롤 시 배경 변화 애니메이션 */
+  transition: background 0.3s, padding 0.3s, backdrop-filter 0.3s;
+}
+
+/* 스크롤을 내리면 반투명 유리 배경 */
+.top-bar.is-scrolled {
+  background: rgba(13, 11, 26, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding-top: 10px; padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* 로고 */
+.brand { grid-column: 2; font-size: 1.25rem; font-weight: 800; letter-spacing: 0.08em; }
+
+/* 메뉴 (PC에서는 왼쪽에 가로로 나열) */
+.main-nav { display: flex; gap: 8px; justify-self: start; }
+
+/* 오른쪽 검색 아이콘 (마우스 올리면 살짝 회전) */
+.header-search { justify-self: end; font-size: 1.2rem; padding: 8px; transition: transform 0.35s var(--ease-spring); }
+.header-search:hover { transform: rotate(-12deg) scale(1.15); }
+
+/* 메뉴 항목 */
+.nav-link {
+  /* 밑줄 애니메이션 기준 */
+  position: relative;
+  /* 여백·글자 */
+  padding: 8px 14px; color: var(--color-muted); font-weight: 600;
+  /* 색 변화 */
+  transition: color 0.2s;
+}
+
+/* 메뉴 항목 밑에서 늘어나는 밑줄 */
+.nav-link::after {
+  content: ''; position: absolute; left: 14px; right: 14px; bottom: 2px; height: 2px;
+  background: var(--color-accent);
+  /* 처음에는 0 크기 → 마우스 올리면 커짐 */
+  transform: scaleX(0); transition: transform 0.3s var(--ease-out);
+}
+
+/* 메뉴 항목에 마우스 올렸을 때 */
+.nav-link:hover { color: var(--color-text); }
+.nav-link:hover::after { transform: scaleX(1); }
+
+/* 햄버거 버튼 (PC에서는 숨김) */
+.menu-toggle {
+  display: none;
+  /* 버튼 모양 */
+  width: 44px; height: 44px; border: 0; background: transparent; cursor: pointer;
+  /* 선 3개 세로 배치 */
+  flex-direction: column; justify-content: center; align-items: center; gap: 5px;
+}
+
+/* 햄버거 선 */
+.menu-toggle span { width: 22px; height: 2px; background: var(--color-text); border-radius: 2px; transition: transform 0.3s var(--ease-out), opacity 0.2s; }
+
+/* 메뉴가 열리면 선 3개가 X 모양으로 변신 */
+.menu-open .menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.menu-open .menu-toggle span:nth-child(2) { opacity: 0; }
+.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ===== ④ 버튼 ===== */
+
+/* 주 버튼 (보라색) */
+.primary-button {
+  /* 모양 */
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 12px 24px; border: 0; border-radius: 999px; cursor: pointer;
+  /* 색 */
+  background: linear-gradient(135deg, var(--color-accent), #5a2fc2); color: #fff; font-weight: 700;
+  /* 빛나는 그림자 */
+  box-shadow: 0 8px 24px rgba(123, 79, 224, 0.35);
+  /* 눌림·자석 효과 */
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s;
+}
+
+/* 주 버튼 마우스 올림 */
+.primary-button:hover { box-shadow: 0 12px 32px rgba(123, 79, 224, 0.55); }
+
+/* 주 버튼 누를 때 살짝 작아짐 */
+.primary-button:active { transform: scale(0.96); }
+
+/* 보조 버튼 (테두리만) */
+.ghost-button {
+  display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2); font-weight: 700;
+  transition: transform 0.25s var(--ease-out), background 0.25s;
+}
+
+/* 보조 버튼 마우스 올림 */
+.ghost-button:hover { background: rgba(255, 255, 255, 0.08); }
+
+/* ===== ⑤ 박스오피스 무대 + 검색 띠 ===== */
+
+/* 박스오피스 영역 (첫 화면) */
+.boxoffice-stage { position: relative; overflow: hidden; padding-top: 70px; background: linear-gradient(180deg, #1c1438 0%, var(--color-bg) 100%); }
+
+/* 1위 포스터를 크게 흐려서 깐 배경 (처음엔 투명 → 포스터가 오면 서서히 나타남) */
+.stage-backdrop {
+  position: absolute; inset: -60px; z-index: 0;
+  background-size: cover; background-position: center 25%;
+  filter: blur(48px) saturate(1.4); transform: scale(1.1);
+  opacity: 0; transition: opacity 0.9s var(--ease-out);
+}
+
+/* 배경이 보이는 상태 */
+.stage-backdrop.is-visible { opacity: 0.4; }
+
+/* 배경 아래쪽을 페이지 색으로 자연스럽게 덮음 */
+.stage-backdrop::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13, 11, 26, 0.2), var(--color-bg) 92%); }
+
+/* 박스오피스 내용은 배경 위에 */
+.boxoffice-stage .section { z-index: 1; padding-top: 36px; padding-bottom: 64px; }
+
+/* 제목 줄: 왼쪽 제목, 오른쪽 탭 */
+.stage-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+
+/* "박스오피스" 큰 제목 (밑줄이 왼쪽부터 그려짐) */
+.stage-title { position: relative; margin: 0; font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -0.02em; }
+.stage-title::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2)); transform-origin: left; transform: scaleX(0); }
+.is-loaded .stage-title::after { animation: draw-line 0.9s var(--ease-out) 0.3s forwards; }
+
+/* 탭은 제목 바로 옆, 영화관 바로가기는 오른쪽 끝으로 */
+.stage-head .tab-group { margin-right: auto; }
+
+/* 영화관 공식 순위 바로가기 묶음 */
+.chain-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* 영화관 바로가기 버튼 (마우스 올리면 청록 테두리 + 살짝 떠오름) */
+.chain-link { padding: 9px 16px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 999px; font-size: 0.88rem; font-weight: 700; background: rgba(255, 255, 255, 0.04); transition: border-color 0.25s, color 0.25s, transform 0.25s var(--ease-spring); }
+.chain-link:hover { border-color: var(--color-accent-2); color: var(--color-accent-2); transform: translateY(-2px); }
+
+/* 순위 포스터 목록 (PC: 한 줄에 4편) */
+.boxoffice-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px 24px; }
+
+/* 접힌 상태에서는 5위부터 숨김 */
+.boxoffice-list:not(.is-expanded) > .boxoffice-card:nth-child(n+5) { display: none; }
+
+/* 순위 카드 하나 (아래에서 순서대로 떠오름) */
+.boxoffice-card { display: grid; gap: 4px; align-content: start; animation: fade-up 0.7s var(--ease-out) var(--delay) both; }
+
+/* 포스터 버튼 (마우스 올리면 위로 떠오르며 보라 테두리) */
+.boxoffice-poster-button {
+  position: relative; display: block; width: 100%; padding: 0; border: 0; border-radius: 12px; overflow: hidden;
+  background: none; cursor: pointer;
+  transition: transform 0.45s var(--ease-out), box-shadow 0.45s;
+}
+.boxoffice-poster-button:hover, .boxoffice-poster-button:focus-visible { transform: translateY(-10px); box-shadow: 0 26px 50px rgba(0, 0, 0, 0.6), 0 0 0 2px var(--color-accent); }
+
+/* 카드 안 포스터는 버튼 모서리를 따름 */
+.boxoffice-poster-button .poster { border-radius: 0; }
+
+/* 포스터 왼쪽 아래 큰 순위 숫자 */
+.rank-badge {
+  position: absolute; left: 14px; bottom: 2px; z-index: 2;
+  font-size: clamp(3rem, 6vw, 4.6rem); font-weight: 900; font-style: italic; line-height: 1;
+  color: #fff; text-shadow: 0 4px 18px rgba(0, 0, 0, 0.75);
+  transition: opacity 0.3s;
+}
+
+/* 마우스를 올리면 덮이는 줄거리 막 */
+.poster-overlay {
+  position: absolute; inset: 0; z-index: 3;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 12px; padding: 22px 18px;
+  background: rgba(13, 11, 26, 0.9); text-align: left;
+  opacity: 0; transition: opacity 0.35s;
+}
+
+/* 줄거리 글 (아래에서 살짝 올라오며 나타남) */
+.overlay-synopsis { font-size: 0.88rem; line-height: 1.7; color: #e4e2f0; display: -webkit-box; -webkit-line-clamp: 9; -webkit-box-orient: vertical; overflow: hidden; transform: translateY(14px); transition: transform 0.5s var(--ease-out); }
+
+/* "상세정보 보기" 안내 */
+.overlay-more { font-size: 0.85rem; font-weight: 700; color: var(--color-accent-2); }
+
+/* 마우스 올림/키보드 선택 시 줄거리 막 표시, 순위 숫자 숨김 */
+.boxoffice-poster-button:hover .poster-overlay, .boxoffice-poster-button:focus-visible .poster-overlay { opacity: 1; }
+.boxoffice-poster-button:hover .overlay-synopsis, .boxoffice-poster-button:focus-visible .overlay-synopsis { transform: none; }
+.boxoffice-poster-button:hover .rank-badge, .boxoffice-poster-button:focus-visible .rank-badge { opacity: 0; }
+
+/* 카드 아래 영화 제목 */
+.boxoffice-title { margin: 10px 0 0; font-weight: 800; font-size: 1.05rem; line-height: 1.35; }
+
+/* 관객 수·순위 변동 */
+.boxoffice-sub { margin: 0; font-size: 0.82rem; color: var(--color-muted); }
+.boxoffice-sub b { color: var(--color-text); font-variant-numeric: tabular-nums; }
+
+/* 순위 변동 표시 */
+.rank-change { font-weight: 700; }
+.rank-change.is-new { color: var(--color-accent-2); }
+.rank-change.is-up { color: var(--color-error); }
+.rank-change.is-down { color: #5aa9ff; }
+
+/* 카드 아래 "상세정보" 버튼 */
+.detail-button { margin-top: 8px; padding: 9px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 6px; background: transparent; cursor: pointer; font-weight: 700; transition: background 0.25s, border-color 0.25s; }
+.detail-button:hover { background: var(--color-accent); border-color: var(--color-accent); }
+
+/* "더 많은 영화보기 +" 버튼 */
+.more-button { display: block; margin: 40px auto 0; padding: 12px 36px; border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 999px; background: rgba(255, 255, 255, 0.04); cursor: pointer; font-weight: 700; transition: background 0.25s, transform 0.25s var(--ease-spring); }
+.more-button:hover { background: rgba(255, 255, 255, 0.12); transform: scale(1.04); }
+.more-button[hidden] { display: none; }
+
+/* 검색 + 빠른 메뉴 띠 */
+.quick-bar { background: linear-gradient(90deg, #241a4d, #123447); border-block: 1px solid var(--color-border); }
+
+/* 띠 안쪽: 왼쪽 검색창, 오른쪽 빠른 메뉴 */
+.section.quick-bar-inner { display: grid; grid-template-columns: minmax(240px, 1fr) auto; align-items: center; gap: 24px; padding-top: 28px; padding-bottom: 28px; }
+
+/* 검색 버튼 (돋보기 아이콘) */
+.search-submit { width: 46px; border: 0; border-radius: 999px; background: var(--color-accent); cursor: pointer; font-size: 1.05rem; transition: transform 0.25s var(--ease-spring); }
+.search-submit:hover { transform: scale(1.08); }
+
+/* 빠른 메뉴 묶음 */
+.quick-links { display: flex; gap: 6px; }
+
+/* 빠른 메뉴 하나 (아이콘 위, 글자 아래) */
+.quick-link { display: grid; justify-items: center; gap: 4px; min-width: 92px; padding: 10px 8px; border-radius: 12px; font-size: 0.82rem; color: var(--color-muted); transition: background 0.25s, color 0.25s; }
+.quick-link span { font-size: 1.6rem; transition: transform 0.45s var(--ease-spring); }
+.quick-link:hover { color: var(--color-text); background: rgba(255, 255, 255, 0.07); }
+.quick-link:hover span { transform: translateY(-4px) scale(1.15); }
+
+/* 검색 결과 영역 (공통 .section 여백보다 우선하도록 두 클래스로 지정) */
+.section.search-results { padding-top: 0; padding-bottom: 24px; }
+
+/* 아직 검색하지 않았으면 결과 영역을 숨김 */
+.search-results:has(.status-text:empty) { display: none; }
+
+/* ===== ⑥ 섹션·탭·상태표시 ===== */
+
+/* 각 영역 공통 */
+.section { position: relative; max-width: 1200px; margin: 0 auto; padding: 100px clamp(16px, 5vw, 48px) 40px; }
+
+/* 영역 제목 묶음 */
+.section-head { margin-bottom: 28px; }
+
+/* 영역 위 작은 영문 라벨 */
+.section-eyebrow { margin: 0; color: var(--color-accent); font-weight: 800; letter-spacing: 0.3em; font-size: 0.8rem; }
+
+/* 영역 제목 */
+.section-head h2 { margin: 6px 0; font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: -0.02em; }
+
+/* 영역 설명 */
+.section-desc { margin: 0; color: var(--color-muted); }
+
+/* 스크롤 등장 효과: 처음엔 아래에 투명하게 */
+.reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); }
+
+/* 화면에 들어오면 제자리로 */
+.reveal.is-visible { opacity: 1; transform: none; }
+
+/* 탭 묶음 (알약 모양 배경) */
+.tab-group {
+  /* 표시 막대 위치 기준 */
+  position: relative;
+  /* 탭 가로 배치 */
+  display: inline-flex; max-width: 100%; overflow-x: auto; padding: 5px; gap: 2px;
+  border-radius: 999px; background: var(--color-surface); border: 1px solid var(--color-border);
+}
+
+/* 탭 버튼 */
+.tab-button {
+  /* 표시 막대 위에 글자가 오도록 */
+  position: relative; z-index: 1;
+  padding: 10px 22px; border: 0; border-radius: 999px; background: transparent; cursor: pointer;
+  color: var(--color-muted); font-weight: 700; white-space: nowrap;
+  transition: color 0.3s;
+}
+
+/* 선택된 탭 글자색 */
+.tab-button.is-active { color: #fff; }
+
+/* 선택된 탭 뒤로 미끄러지는 배경 막대 */
+.tab-indicator {
+  position: absolute; top: 5px; bottom: 5px; left: 0; border-radius: 999px;
+  background: linear-gradient(135deg, var(--color-accent), #5a2fc2);
+  box-shadow: 0 4px 16px rgba(123, 79, 224, 0.4);
+  /* 스프링처럼 튀며 이동 */
+  transition: transform 0.5s var(--ease-spring), width 0.5s var(--ease-spring);
+}
+
+/* 출처·확인 시점 표시줄 */
+.data-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; min-height: 32px; }
+
+/* 팝업 안의 작은 표시줄 */
+.data-meta.compact { margin: 8px 0 14px; min-height: 0; }
+
+/* 정보 칩 하나 */
+.meta-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px; border-radius: 999px; font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.05); border: 1px solid var(--color-border); color: var(--color-muted);
+  /* 바뀔 때 살짝 튀어 나옴 */
+  animation: pop-in 0.4s var(--ease-spring) both;
+}
+
+/* 상태별 칩 색 */
+.meta-chip.is-ok { color: var(--color-ok); border-color: rgba(61, 220, 151, 0.35); }
+.meta-chip.is-warning { color: var(--color-warning); border-color: rgba(255, 181, 71, 0.4); background: rgba(255, 181, 71, 0.08); }
+.meta-chip.is-error { color: var(--color-error); border-color: rgba(255, 92, 92, 0.4); background: rgba(255, 92, 92, 0.08); }
+.meta-chip.is-muted { color: var(--color-muted); }
+.meta-chip.is-loading { color: var(--color-text); }
+
+/* 칩 안의 깜빡이는 점 */
+.pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.4s infinite; }
+
+/* ===== ⑧ 포스터·카드 ===== */
+
+/* 포스터 (이미지 대신 그라데이션 + 아이콘) */
+.poster {
+  position: relative; display: grid; place-items: center; aspect-ratio: 2 / 3; overflow: hidden;
+  border-radius: 12px;
+  background: linear-gradient(160deg, var(--poster-from), var(--poster-to));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* 포스터 위 빛 반사 줄무늬 (천천히 지나감) */
+.poster::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.25) 50%, transparent 65%);
+  transform: translateX(-100%); animation: shine 5s ease-in-out infinite;
+}
+
+/* 포스터 아이콘 */
+.poster-icon { font-size: 3.5rem; filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3)); }
+
+/* 포스터 아래쪽 제목 */
+.poster-title { position: absolute; left: 10px; right: 10px; bottom: 12px; font-weight: 800; font-size: 0.95rem; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); line-height: 1.3; }
+
+/* 실제 포스터 이미지 (포스터 칸을 꽉 채우고, 다 불러오면 서서히 나타남) */
+.poster-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.6s var(--ease-out); }
+.poster-image.is-loaded { opacity: 1; }
+
+/* 관람등급 아이콘 (포스터 왼쪽 위, 톡 튀어나오며 등장) */
+.grade-badge {
+  position: absolute; top: 8px; left: 8px; z-index: 2;
+  display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 5px; border-radius: 6px;
+  font-size: 0.78rem; font-weight: 900; color: #fff; letter-spacing: -0.02em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  animation: pop-in 0.4s var(--ease-spring) both;
+}
+
+/* 등급별 색: 전체(초록) · 12세(노랑) · 15세(주황) · 청소년 관람불가(빨강) */
+.grade-all { background: #1f9d55; }
+.grade-12 { background: #e8a900; }
+.grade-15 { background: #ec6b0c; }
+.grade-19 { background: #d6262b; }
+
+/* 상세 팝업 제목 앞에서는 글자 옆에 나란히 */
+.detail-title .grade-badge { position: static; margin-right: 10px; vertical-align: 0.25em; font-size: 0.9rem; }
+
+/* 순위 목록용 작은 포스터 (제목·배지 숨김) */
+.poster-small { border-radius: 8px; }
+.poster-small .poster-icon { font-size: 1.6rem; }
+.poster-small .poster-title { display: none; }
+
+/* 상세 팝업용 큰 포스터 */
+.poster-large { width: 100%; max-width: 260px; }
+.poster-large .poster-icon { font-size: 5rem; }
+
+/* 영화 카드 목록 (화면 폭에 따라 열 수 자동 조절) */
+.movie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+
+/* 영화 카드 하나 (아래에서 순서대로 떠오름) */
+.movie-card { animation: fade-up 0.7s var(--ease-out) var(--delay) both; perspective: 900px; }
+
+/* 카드 전체가 버튼 */
+.movie-card-button {
+  position: relative; display: grid; width: 100%; height: 100%; padding: 0; text-align: left; cursor: pointer;
+  border-radius: var(--radius); border: 1px solid var(--color-border); background: var(--color-surface); overflow: hidden;
+  /* 마우스 방향으로 기울어지는 3D 효과 (JS가 --tilt 값 설정) */
+  transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transition: transform 0.2s ease-out, border-color 0.3s, box-shadow 0.3s;
+}
+
+/* 카드 위 마우스 위치를 따라다니는 빛 */
+.movie-card-button::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0;
+  background: radial-gradient(circle at var(--shine-x, 50%) var(--shine-y, 50%), rgba(255, 255, 255, 0.18), transparent 50%);
+  transition: opacity 0.3s;
+}
+
+/* 카드에 마우스 올림 */
+.movie-card-button:hover { border-color: rgba(123, 79, 224, 0.5); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); }
+.movie-card-button:hover::after { opacity: 1; }
+
+/* 카드 안 포스터는 모서리 없이 꽉 차게 */
+.movie-card-button .poster { border-radius: 0; box-shadow: none; }
+
+/* 카드 포스터 아이콘이 마우스 올리면 커짐 */
+.movie-card-button .poster-icon { transition: transform 0.5s var(--ease-spring); }
+.movie-card-button:hover .poster-icon { transform: scale(1.2) rotate(-6deg); }
+
+/* 카드 글자 영역 */
+.card-body { display: grid; gap: 4px; padding: 14px 16px 18px; }
+
+/* 카드 제목 */
+.card-title { font-weight: 800; font-size: 1.05rem; }
+
+/* 카드 부가정보 */
+.card-sub { font-size: 0.8rem; color: var(--color-accent-2); }
+
+/* 카드 줄거리 (3줄까지만) */
+.card-synopsis { font-size: 0.85rem; color: var(--color-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ===== ⑨ 상태 안내·스켈레톤 ===== */
+
+/* 로딩 중 회색 뼈대 (반짝이는 빛이 지나감) */
+.skeleton {
+  border-radius: var(--radius);
+  background: linear-gradient(90deg, var(--color-surface) 25%, var(--color-surface-hover) 50%, var(--color-surface) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.3s infinite;
+}
+
+
+/* 카드 모양 뼈대 */
+.skeleton-card { aspect-ratio: 2 / 3.6; }
+
+/* 오류·빈 상태 안내 상자 (카드 목록 안에서는 전체 폭 차지) */
+.status-box {
+  grid-column: 1 / -1; display: grid; justify-items: center; gap: 8px; padding: 48px 20px; text-align: center;
+  border-radius: var(--radius); border: 1px dashed rgba(255, 255, 255, 0.15); background: rgba(255, 255, 255, 0.02);
+  animation: pop-in 0.5s var(--ease-spring) both;
+}
+
+/* 안내 아이콘 (흔들림) */
+.status-icon { font-size: 2.6rem; animation: wobble 2.4s ease-in-out infinite; }
+
+/* 안내 제목 */
+.status-title { margin: 0; font-weight: 800; font-size: 1.1rem; }
+
+/* 안내 설명 */
+.status-desc { margin: 0 0 8px; color: var(--color-muted); max-width: 420px; }
+
+/* ===== ⑩ 검색·푸터 ===== */
+
+/* 검색 폼 (입력칸 + 버튼) */
+.search-form {
+  display: flex; gap: 8px; max-width: 560px; padding: 6px;
+  border-radius: 999px; background: var(--color-surface); border: 1px solid var(--color-border);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* 입력칸에 커서가 있으면 폼 테두리가 빛남 */
+.search-form:focus-within { border-color: var(--color-accent); box-shadow: 0 0 0 4px rgba(123, 79, 224, 0.15); }
+
+/* 검색 입력칸 */
+.search-form input { flex: 1; min-width: 0; padding: 10px 16px; border: 0; background: transparent; outline: none; }
+
+/* 검색 상태 문구 */
+.status-text { min-height: 1.6em; color: var(--color-muted); margin: 18px 0; }
+
+/* 하단 정보 */
+.site-footer { margin-top: 80px; padding: 40px clamp(16px, 5vw, 48px); border-top: 1px solid var(--color-border); text-align: center; font-size: 0.85rem; color: var(--color-muted); }
+
+
+/* ===== ⑪ 상세 팝업 ===== */
+
+/* 팝업 창 */
+.movie-dialog {
+  width: min(860px, calc(100% - 32px)); max-height: calc(100% - 48px); padding: 0;
+  border: 1px solid var(--color-border); border-radius: 24px;
+  background: var(--color-surface); color: var(--color-text);
+  /* 열릴 때 아래에서 커지며 등장 */
+  animation: dialog-in 0.45s var(--ease-spring);
+}
+
+/* 팝업 뒤 어두운 배경 (흐림 효과) */
+.movie-dialog::backdrop { background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); animation: fade-in 0.3s; }
+
+/* 닫힐 때 작아지며 사라짐 */
+.movie-dialog.is-closing { animation: dialog-out 0.25s var(--ease-out) forwards; }
+.movie-dialog.is-closing::backdrop { animation: fade-out 0.25s forwards; }
+
+/* 팝업이 열려 있으면 뒤 페이지 스크롤 막기 */
+body:has(.movie-dialog[open]) { overflow: hidden; }
+
+/* 닫기 버튼 */
+.dialog-close {
+  position: absolute; top: 14px; right: 14px; z-index: 2; width: 40px; height: 40px;
+  border: 0; border-radius: 50%; background: rgba(0, 0, 0, 0.4); cursor: pointer; font-size: 1rem;
+  transition: transform 0.3s var(--ease-spring), background 0.2s;
+}
+
+/* 닫기 버튼에 마우스 올리면 회전 */
+.dialog-close:hover { transform: rotate(90deg); background: var(--color-accent); }
+
+/* 팝업 내용 여백 */
+.dialog-body { position: relative; padding: 32px; }
+
+/* 팝업 로딩 표시 */
+.dialog-loading { display: grid; justify-items: center; gap: 8px; padding: 60px 0; color: var(--color-muted); }
+
+/* 화면 전환 시 옆에서 미끄러져 들어옴 */
+.view-enter { animation: view-slide 0.45s var(--ease-out); }
+
+/* 상세 화면 뒤 영화 색 번짐 배경 */
+.detail-backdrop { position: absolute; inset: 0 0 auto; height: 260px; background: linear-gradient(180deg, var(--poster-from), transparent); opacity: 0.35; border-radius: 24px 24px 0 0; pointer-events: none; }
+
+/* 포스터 + 정보 가로 배치 */
+.detail-layout { position: relative; display: grid; grid-template-columns: 240px 1fr; gap: 28px; align-items: start; }
+
+/* 상세 포스터 살짝 회전하며 등장 */
+.detail-layout .poster-large { animation: poster-pop 0.7s var(--ease-spring); }
+
+/* 상세 배지 묶음 */
+.detail-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* 상세 제목 */
+.detail-title { margin: 10px 0 14px; font-size: clamp(1.5rem, 4vw, 2.2rem); letter-spacing: -0.02em; line-height: 1.2; }
+
+/* 기본 정보 표 (2열) */
+.detail-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 0 0 18px; }
+
+/* 정보 한 칸 */
+.detail-facts div { padding: 10px 14px; border-radius: 12px; background: rgba(255, 255, 255, 0.04); }
+
+/* 정보 이름 */
+.detail-facts dt { font-size: 0.75rem; color: var(--color-muted); }
+
+/* 정보 값 */
+.detail-facts dd { margin: 0; font-weight: 700; }
+
+/* 줄거리 소제목 */
+.detail-subtitle { margin: 0 0 6px; font-size: 0.95rem; color: var(--color-muted); }
+
+/* 줄거리 */
+.detail-synopsis { margin: 0 0 22px; }
+
+/* 영화관 바로가기 링크 묶음 */
+.theater-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* 예고편 영역 (상세 정보 아래 전체 폭) */
+.trailer-section { position: relative; margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--color-border); }
+
+/* 예고편 제목 줄: 왼쪽 제목, 오른쪽 유튜브 링크 */
+.trailer-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+
+/* "유튜브에서 더 찾아보기" 링크 */
+.youtube-search-link { font-size: 0.85rem; font-weight: 700; color: #ff4e45; transition: opacity 0.2s; }
+.youtube-search-link:hover { opacity: 0.8; }
+
+/* 예고편 카드 목록 (화면 폭에 따라 2~3열) */
+.trailer-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+
+/* 예고편 카드 하나 (순서대로 떠오름) */
+.trailer-card { display: grid; gap: 6px; animation: fade-up 0.5s var(--ease-out) var(--delay) both; }
+
+/* 썸네일 버튼 (16:9 비율) */
+.trailer-thumb { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0; border-radius: 10px; overflow: hidden; background: #000; cursor: pointer; }
+
+/* 썸네일 이미지 (마우스 올리면 살짝 확대) */
+.trailer-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s var(--ease-out), filter 0.3s; filter: brightness(0.8); }
+.trailer-thumb:hover img { transform: scale(1.06); filter: brightness(1); }
+
+/* 가운데 재생 아이콘 (마우스 올리면 커짐) */
+.trailer-play {
+  position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; margin: -26px 0 0 -26px;
+  display: grid; place-items: center; padding-left: 4px; border-radius: 50%;
+  background: rgba(255, 0, 0, 0.88); color: #fff; font-size: 1.1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.35s var(--ease-spring);
+}
+.trailer-thumb:hover .trailer-play { transform: scale(1.18); }
+
+/* 영상 종류 표시 (예고편 / 티저 등) */
+.trailer-type { position: absolute; top: 8px; left: 8px; padding: 2px 8px; border-radius: 6px; background: rgba(0, 0, 0, 0.7); font-size: 0.72rem; font-weight: 700; }
+
+/* 영상 제목 (두 줄까지) */
+.trailer-name { font-size: 0.85rem; color: var(--color-muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* 재생 중인 유튜브 플레이어 (썸네일과 같은 크기) */
+.trailer-player { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 10px; animation: pop-in 0.4s var(--ease-spring); }
+
+/* 예고편 로딩 뼈대 */
+.trailer-skeleton { aspect-ratio: 16 / 9; border-radius: 10px; }
+
+/* 작은 안내 글자 */
+.small-text { font-size: 0.85rem; margin: 0 0 10px; }
+
+/* ===== ⑫ 키프레임 (애니메이션 동작 정의) ===== */
+
+/* 밑줄이 왼쪽부터 그려짐 */
+@keyframes draw-line { to { transform: scaleX(1); } }
+
+/* 한 바퀴 회전 */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* 글자 간격이 좁았다가 넓어지며 등장 */
+@keyframes letter-expand { from { letter-spacing: -0.2em; opacity: 0; } to { opacity: 1; } }
+
+/* 점이 커졌다 작아지며 깜빡임 */
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(1.5); } }
+
+/* 아래에서 위로 떠오르며 나타남 */
+@keyframes fade-up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+
+/* 단순히 나타남 / 사라짐 */
+@keyframes fade-in { from { opacity: 0; } }
+@keyframes fade-out { to { opacity: 0; } }
+
+
+
+/* 작게 시작해서 톡 튀어나옴 */
+@keyframes pop-in { from { opacity: 0; transform: scale(0.85); } to { opacity: 1; transform: none; } }
+
+
+
+
+
+/* 포스터 빛 반사가 지나감 */
+@keyframes shine { 0%, 60% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+
+/* 스켈레톤 반짝임 */
+@keyframes skeleton-shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+/* 아이콘 좌우 흔들림 */
+@keyframes wobble { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-8deg); } 75% { transform: rotate(8deg); } }
+
+/* 팝업 열림 / 닫힘 */
+@keyframes dialog-in { from { opacity: 0; transform: translateY(40px) scale(0.94); } }
+@keyframes dialog-out { to { opacity: 0; transform: translateY(20px) scale(0.96); } }
+
+/* 팝업 안 화면 전환 (오른쪽에서 들어옴) */
+@keyframes view-slide { from { opacity: 0; transform: translateX(30px); } }
+
+/* 상세 포스터 회전하며 등장 */
+@keyframes poster-pop { from { opacity: 0; transform: rotate(-8deg) scale(0.8); } }
+
+/* ===== ⑬ 반응형 (화면 폭에 따라 배치 변경) ===== */
+
+/* 태블릿 이하 (900px 이하): 히어로를 한 열로 */
+@media (max-width: 900px) {
+  /* 박스오피스 포스터 한 줄에 2편 */
+  .boxoffice-list { grid-template-columns: repeat(2, 1fr); }
+  /* 검색창과 빠른 메뉴를 위아래로 */
+  .section.quick-bar-inner { grid-template-columns: 1fr; }
+  .quick-links { justify-content: space-between; }
+  .quick-link { flex: 1; min-width: 0; }
+}
+
+/* 모바일 (720px 이하): 메뉴 접기 + 목록 한 열 */
+@media (max-width: 720px) {
+  /* 햄버거 버튼 보이기 */
+  .menu-toggle { display: flex; }
+
+  /* 메뉴를 화면 위쪽 패널로 바꾸고 처음엔 접어 둠 */
+  .main-nav {
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; gap: 0; padding: 8px 16px 16px;
+    background: rgba(13, 11, 26, 0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--color-border);
+    /* 접힌 상태: 위로 말려 올라가 안 보임 */
+    clip-path: inset(0 0 100% 0); visibility: hidden;
+    transition: clip-path 0.45s var(--ease-out), visibility 0.45s;
+  }
+
+  /* 메뉴 열림: 아래로 펼쳐짐 */
+  .menu-open .main-nav { clip-path: inset(0 0 0 0); visibility: visible; }
+
+  /* 메뉴 항목 크게 + 순서대로 내려옴 */
+  .nav-link { padding: 14px 4px; font-size: 1.1rem; border-bottom: 1px solid var(--color-border); opacity: 0; transform: translateY(-10px); transition: opacity 0.3s, transform 0.3s var(--ease-out); }
+  .menu-open .nav-link { opacity: 1; transform: none; }
+  .menu-open .nav-link:nth-child(2) { transition-delay: 0.06s; }
+  .menu-open .nav-link:nth-child(3) { transition-delay: 0.12s; }
+
+  /* 모바일에서는 메뉴 밑줄 효과 없음 */
+  .nav-link::after { display: none; }
+
+  /* 메뉴가 열리면 상단 바에 배경 */
+  .menu-open .top-bar { background: rgba(13, 11, 26, 0.96); }
+
+  /* 박스오피스 한 열: 포스터 왼쪽, 정보 오른쪽 */
+  .boxoffice-list { grid-template-columns: 1fr; gap: 16px; }
+  .boxoffice-card { grid-template-columns: 110px 1fr; column-gap: 14px; }
+  .boxoffice-poster-button { grid-row: span 4; }
+  .boxoffice-title { margin-top: 2px; }
+  .detail-button { justify-self: start; padding: 7px 16px; }
+  .rank-badge { font-size: 2.6rem; left: 8px; }
+  /* 터치 화면에서는 줄거리 막을 쓰지 않음 (누르면 바로 상세로) */
+  .poster-overlay { display: none; }
+  .boxoffice-poster-button:hover { transform: none; }
+
+  /* 영화 카드 한 열 (포스터 왼쪽, 글자 오른쪽) */
+  .movie-grid { grid-template-columns: 1fr; gap: 12px; }
+  .movie-card-button { grid-template-columns: 110px 1fr; }
+  .movie-card-button .poster-icon { font-size: 2.4rem; }
+  .movie-card-button .poster-title { display: none; }
+
+  /* 스켈레톤 카드도 한 열에 맞게 */
+  .skeleton-card { aspect-ratio: auto; height: 165px; }
+
+  /* 팝업: 포스터 위, 정보 아래 */
+  .dialog-body { padding: 24px 18px; }
+  .detail-layout { grid-template-columns: 1fr; justify-items: center; }
+  .detail-layout .poster-large { max-width: 180px; }
+  .detail-info { width: 100%; }
+
+  /* 탭이 화면 폭을 다 쓰도록 */
+  .tab-group { display: flex; }
+  .tab-button { flex: 1; padding: 10px 12px; }
+
+}
+
+/* ===== ⑭ 움직임 줄이기 설정을 켠 사용자 배려 (접근성) ===== */
+@media (prefers-reduced-motion: reduce) {
+  /* 모든 애니메이션·전환을 거의 즉시 끝냄 */
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  /* 숨어 있다 나타나는 요소는 처음부터 보이게 */
+  .reveal { opacity: 1; transform: none; }
+  .stage-title::after { transform: none; }
+}
