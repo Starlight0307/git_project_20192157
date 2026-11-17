@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:29:13+00:00",
+ "updated": "2026-11-17T22:55:18+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -18,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "2023_Las_Vegas_street_circuit.svg",
-     "date": "2026-11-17T10:48:35Z",
+     "date": "2026-11-17T18:22:57Z",
      "raceDate": "2026-11-22",
      "author": "위키백과 편집자들",
-     "revid": 1386230600,
+     "revid": 1386282526,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -50,70 +50,72 @@
        "h": "Championship standings before the race",
        "level": 3,
        "p": [
-        "Going into the weekend, Kimi Antonelli, who clinched the title at the Mexico City Grand Prix, led the Drivers' Championship with 390 points, 111 points ahead of Max Verstappen in second and 128 ahead of teammate George Russell in third. Mercedes, who won the Constructors' Championship at the preceding São Paulo Grand Prix, are ahead of Ferrari, who are second with 510 points and Red Bull Racing-Red Bull Ford, who are third with 415 points."
+        "Going into the weekend, Kimi Antonelli, who clinched the title at the Mexico City Grand Prix, leads the Drivers' Championship with 390 points, 111 points ahead of Max Verstappen in second and 128 ahead of teammate George Russell in third. Mercedes, who won the Constructors' Championship at the preceding São Paulo Grand Prix, are ahead of Ferrari, who are second with 510 points, and Red Bull, who are third with 415 points."
        ],
        "hKo": "경기 전 챔피언십 순위",
        "pKo": [
-        "멕시코시티 그랑프리에서 우승을 차지한 키미 안토넬리는 이번 주말을 앞두고 드라이버 챔피언십에서 390점으로 선두를 달리고 있으며, 2위인 막스 페르스타펜보다 111점, 3위인 팀 동료 조지 러셀보다 128점 앞서 있습니다. 지난 상파울루 그랑프리에서 컨스트럭터 챔피언십을 차지한 메르세데스는 510점으로 2위를 차지한 페라리와 415점으로 3위를 차지한 레드불 레이싱-레드불 포드를 앞서고 있습니다."
+        "멕시코시티 그랑프리에서 우승을 차지한 키미 안토넬리가 이번 주말을 앞두고 드라이버 챔피언십에서 390점으로 선두를 달리고 있으며, 2위인 맥스 페르스타펜보다 111점, 3위인 팀 동료 조지 러셀보다 128점 앞서 있습니다. 지난 상파울루 그랑프리에서 컨스트럭터 챔피언십을 차지한 메르세데스는 510점으로 2위를 차지한 페라리와 415점으로 3위를 차지한 레드불을 앞서고 있습니다."
        ]
       },
       {
        "h": "Entrants",
        "level": 3,
        "p": [
-        "The drivers and teams were the same as published in the season entry list with the exception of Rafael Câmara replacing Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
-        "During the first practice session, one team will field an alternate driver who has not raced in more than two Grands Prix, as required by the Formula One regulations:",
-        "Ryo Hirakawa for Haas in place of Oliver Bearman."
+        "The drivers and teams are set to be the same as published in the season entry list with the only exception of Rafael Câmara, who will again replace Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
+        "During the first practice session, two teams will field alternate drivers who have not raced in more than two Grands Prix, as required by the Formula One regulations:",
+        "Ryo Hirakawa for Haas in place of Oliver Bearman.",
+        "Dino Beganovic for Ferrari in place of Lewis Hamilton."
        ],
        "hKo": "출전 명단",
        "pKo": [
-        "드라이버와 팀은 멕시코시티 그랑프리에서 팀과의 불화로 인해 라인업에서 제외된 에스테반 오콘을 대신하여 하스의 라파엘 카마라를 제외하고 시즌 참가자 명단에 발표된 것과 동일했습니다.",
-        "첫 번째 연습 세션에서는 포뮬러원 규정에 따라 2번 이상의 그랑프리에 출전한 적이 없는 대체 드라이버가 한 팀에 투입됩니다.",
-        "올리버 베어맨 대신 하스의 료 히라카와."
+        "드라이버와 팀은 시즌 참가자 명단에 발표된 것과 동일할 예정입니다. 단, 멕시코시티 그랑프리에서 팀과 의견 충돌이 있어 라인업에서 제외된 에스테반 오콘을 하스의 라파엘 카마라가 다시 대체할 예정입니다.",
+        "첫 번째 연습 세션에서는 포뮬러원 규정에 따라 2개 팀이 2회 이상의 그랑프리에 출전한 적이 없는 대체 드라이버를 투입합니다.",
+        "올리버 베어맨 대신 하스의 료 히라카와.",
+        "루이스 해밀턴 대신 페라리의 디노 베가노비치."
        ]
       },
       {
        "h": "Tyre choices",
        "level": 3,
        "p": [
-        "Tyre supplier Pirelli will bring the C3, C4, and C5 tyre compounds designated hard, medium, and soft, respectively, for teams to use at the event."
+        "Tyre supplier Pirelli selected the C3, C4, and C5 tyre compounds (the softest three in their range) designated hard, medium, and soft, respectively, for teams to use at the event."
        ],
        "hKo": "타이어 선택",
        "pKo": [
-        "타이어 공급사인 피렐리는 팀들이 대회에서 사용할 수 있도록 하드, 미디엄, 소프트로 각각 지정된 C3, C4, C5 타이어 컴파운드를 제공할 예정입니다."
+        "타이어 공급업체 Pirelli는 팀이 이벤트에서 사용할 수 있도록 각각 하드, 미디엄, 소프트로 지정된 C3, C4 및 C5 타이어 컴파운드(해당 제품군에서 가장 부드러운 3개)를 선택했습니다."
        ]
       },
       {
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions will be held for the event. The first free practice session will be held on November 19, 2026, at 16:30 local time (UTC-8). The second free practice session will be held on the same day, at 20:00 local time. The third practice session will be held on November 20, 2026, at 16:30 local time."
+        "Three free practice sessions will be held for the event. The first free practice session will be held on November 19, 2026, at 16:30 local time (UTC–8). The second free practice session will be held on the same day, at 20:00 local time. The third practice session will be held on November 20, 2026, at 16:30 local time."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "이 이벤트에서는 3회의 자유 연습 세션이 개최됩니다. 첫 번째 자유 연습 세션은 2026년 11월 19일 현지 시간(UTC-8) 오후 4시 30분에 열립니다. 두 번째 자유 연습 세션은 같은 날 현지 시간으로 오후 8시에 개최됩니다. 세 번째 연습 세션은 2026년 11월 20일 현지 시간 오후 4시 30분에 개최됩니다."
+        "이 이벤트에서는 3회의 자유 연습 세션이 개최됩니다. 첫 번째 자유 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 오후 4시 30분에 열립니다. 두 번째 자유 연습 세션은 같은 날 현지 시간으로 오후 8시에 개최됩니다. 세 번째 연습 세션은 2026년 11월 20일 현지 시간 오후 4시 30분에 개최됩니다."
        ]
       },
       {
        "h": "Qualifying",
        "level": 2,
        "p": [
-        "Qualifying will be held on November 20, 2026, at 20:00 local time (UTC-8)."
+        "Qualifying will be held on November 20, 2026, at 20:00 local time (UTC–8), and will determine the starting grid order for the race."
        ],
        "hKo": "예선",
        "pKo": [
-        "예선은 2026년 11월 20일 현지 시간(UTC-8) 오후 8시에 개최됩니다."
+        "예선은 2026년 11월 20일 현지 시간(UTC–8) 오후 8시에 개최되며, 이를 통해 레이스 출발 그리드 순서가 결정됩니다."
        ]
       },
       {
        "h": "Race",
        "level": 2,
        "p": [
-        "The race will be held on November 21, 2026, at 20:00 local time (UTC-8), and will be run for 50 laps."
+        "The race will be held on November 21, 2026, at 20:00 local time (UTC–8), and will be run for 50 laps."
        ],
        "hKo": "결승",
        "pKo": [
-        "레이스는 2026년 11월 21일 현지 시간(UTC-8) 오후 8시에 개최되며, 50바퀴를 주행합니다."
+        "레이스는 2026년 11월 21일 현지 시간(UTC–8) 오후 8시에 개최되며, 50바퀴를 주행합니다."
        ]
       }
      ]
@@ -541,10 +543,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_circuit.svg/1280px-Austin_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Austin_circuit.svg",
-     "date": "2026-11-16T20:49:10Z",
+     "date": "2026-11-17T20:45:01Z",
      "raceDate": "2026-10-25",
      "author": "위키백과 편집자들",
-     "revid": 1386083687,
+     "revid": 1386302181,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -552,12 +554,12 @@
        "level": 1,
        "p": [
         "The 2026 United States Grand Prix (officially known as the Formula 1 MSC Cruises United States Grand Prix 2026) was a Formula One motor race that was held on October 25, 2026, at the Circuit of the Americas in Austin, Texas, United States. It was the eighteenth round of the 2026 Formula One World Championship. Championship leader Kimi Antonelli (Mercedes) took his seventh pole position which he converted into his ninth Grand Prix victory. Charles Leclerc (Ferrari) and Max Verstappen (Red Bull) came in second and third place, respectively.",
-        "This was the last race for Esteban Ocon who was removed from the Haas line-up midway through the following race in Mexico due to disagreements with the team."
+        "This was the last race start for Esteban Ocon who was removed from the Haas line-up midway through the following race in Mexico due to disagreements with the team."
        ],
        "hKo": "",
        "pKo": [
         "2026년 미국 그랑프리(공식 명칭: Formula 1 MSC Cruises United States Grand Prix 2026)는 2026년 10월 25일 미국 텍사스주 오스틴에 있는 서킷 오브 더 아메리카스(Circuit of the Americas)에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의 18번째 라운드였습니다. 챔피언십 리더인 키미 안토넬리(Mercedes)는 7번째 폴 포지션을 차지하여 9번째 그랑프리 우승을 달성했습니다. 찰스 르클레르(페라리)와 막스 베르스타펜(레드불)이 각각 2위와 3위를 차지했다.",
-        "이것은 팀과의 불일치로 인해 멕시코에서 열린 다음 레이스 중간에 Haas 라인업에서 제외된 Esteban Ocon의 마지막 레이스였습니다."
+        "이것은 에스테반 오콘의 마지막 레이스 스타트였습니다. 그는 팀과의 의견 차이로 인해 다음 레이스인 멕시코 그랑프리 중반에 하스 팀에서 제외되었습니다."
        ]
       },
       {
@@ -1698,13 +1700,36 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "“He’s beaten Alpine on his own” - Racing Bulls on why it kept Liam Lawson",
+     "desc": "Racing Bulls Formula 1 chief Alan Permane says Liam Lawson's improved 2026 form has been a \"revelation\", and addressed suggestions of a difference in vision within Red Bull. In a…",
+     "link": "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/YXyKl5x6/s6/liam-lawson-racing-bulls.jpg",
+     "date": "2026-11-17T17:02:37+00:00",
+     "author": "",
+     "id": "f46712250a",
+     "lead": [
+      "Racing Bulls Formula 1 chief Alan Permane says Liam Lawson's improved 2026 form has been a \"revelation\", and addressed suggestions of a difference in vision within Red Bull.",
+      "In a wide-ranging interview with Motorsport.com , Permane addressed why the decision between incumbent Lawson and Red Bull junior Nikola Tsolov to partner Arvid Lindblad had taken so long, and why backing Lawson doesn't have to go against the team's manta to bring up young talent.",
+      "\"Having Liam is great for our team, there's no doubt. He's been immense,\" Permane said. \"He's beaten Alpine on his own, if you like. But it's not just about that. It is about developing young talent. And honestly, that is incredibly difficult to do without having a benchmark."
+     ],
+     "leadKo": [
+      "레이싱 불스 포뮬러원 팀의 알랭 페르망 팀 대표는 리암 로슨이 2026년 시즌에 보여준 향상된 기량이 \"놀라움\"이었다고 말하며, 레드불 내에서 시각 차이가 있다는 주장에 대해 언급했습니다.",
+      "모터스포츠닷컴과의 광범위한 인터뷰에서 페르마네는 현역 드라이버인 로슨과 레드불 주니어 드라이버인 니콜라 졸로프 중 아르비드 린드블라드의 파트너로 누가 선정될지 결정하는 데 왜 그렇게 오래 걸렸는지, 그리고 왜 로슨을 후원하는 것이 젊은 인재를 육성하려는 팀의 방침에 위배되지 않는지 설명했습니다.",
+      "\"리암이 우리 팀에 있다는 것은 의심할 여지 없이 훌륭한 일입니다. 그는 정말 대단했습니다.\"라고 페르마네는 말했습니다. \"그는 혼자서 알파인 팀을 이겼다고 할 수 있습니다. 하지만 중요한 것은 그것만이 아닙니다. 젊은 인재를 육성하는 것이 중요합니다. 솔직히 말해서, 벤치마크가 없으면 그렇게 하는 것이 매우 어렵습니다."
+     ],
+     "titleKo": "\"그는 혼자서 알파인 팀을 이겼습니다\" - 레이싱 불스, 리암 로슨을 계속 기용한 이유",
+     "descKo": "레이싱 불스 포뮬러원(F1) 팀의 알랭 페르망(Alan Permane) 팀장이 리암 로슨(Liam Lawson)의 2026년 시즌 성적이 향상된 것이 \"놀라운 일\"이었다고 말하며, 레드불 내에서 비전에 차이가 있다는 주장에 대해 언급했습니다."
+    },
+    {
      "title": "Toto Wolff is not afraid of losing Kimi Antonelli to Ferrari",
      "desc": "Mercedes team principal Toto Wolff is “0.0%” afraid that Kimi Antonelli could switch to Ferrari in Formula 1. Many Italians would love to see the new world champion in a red…",
      "link": "https://www.motorsport.com/f1/news/toto-wolff-is-not-afraid-of-losing-kimi-antonelli-to-ferrari/10875044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/Y9lNjD72/s6/lewis-hamilton-ferrari-andrea-.jpg",
+     "image": "https://cdn-2.motorsport.com/images/amp/Y9lNjD72/s6/lewis-hamilton-ferrari-andrea-.jpg",
      "date": "2026-11-17T11:45:10+00:00",
      "author": "",
      "id": "ee081101f2",
+     "titleKo": "토토 볼프, 키미 안토넬리를 페라리에 빼앗길까 봐 두렵지 않다",
+     "descKo": "메르세데스 팀 대표 토토 볼프는 키미 안토넬리가 포뮬러원(F1)에서 페라리로 이적할 가능성에 대해 \"0.0%\"의 우려를 표명했습니다. 많은 이탈리아인들이 새로운 월드 챔피언이 빨간색 유니폼을 입는 것을 보고 싶어 합니다...",
      "lead": [
       "Mercedes team principal Toto Wolff is “0.0%” afraid that Kimi Antonelli could switch to Ferrari in Formula 1.",
       "Many Italians would love to see the new world champion in a red cockpit one day, but according to Wolff, that will not happen in the foreseeable future.",
@@ -1714,18 +1739,18 @@
       "메르세데스 팀 대표 토토 볼프는 키미 안토넬리가 포뮬러원(F1)에서 페라리로 이적할 가능성을 \"0.0%\"로 보고 있습니다.",
       "많은 이탈리아인들은 언젠가 새로운 월드 챔피언이 레드 코크핏에 앉는 모습을 보고 싶어 하지만, 볼프에 따르면 가까운 미래에는 그런 일이 일어나지 않을 것입니다.",
       "볼프는 빌트에 \"키미와 그의 가족은 충성스러운 사람들\"이라며 안토넬리가 갑자기 메르세데스를 외면하지 않을 것이라고 \"확신\"한다고 분명히 밝혔습니다. “하지만 우리는 충성심에만 의존하지는 않습니다."
-     ],
-     "titleKo": "토토 볼프, 키미 안토넬리를 페라리에 빼앗길까 봐 두렵지 않다",
-     "descKo": "메르세데스 팀 대표 토토 볼프는 키미 안토넬리가 포뮬러원(F1)에서 페라리로 이적할 가능성에 대해 \"0.0%\"의 우려를 표명했습니다. 많은 이탈리아인들이 새로운 월드 챔피언이 빨간색 유니폼을 입는 것을 보고 싶어 합니다..."
+     ]
     },
     {
      "title": "Fernando Alonso to return to Dakar Rally with Aston Martin in 2027",
      "desc": "Two-time Formula 1 champion Fernando Alonso will headline Aston Martin’s factory entry into the Dakar Rally in 2027, joining Sebastien Loeb and Lucas Moraes as part of a…",
      "link": "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/63QaLLb2/s6/fernando-alonso-aston-martin-r-2.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/63QaLLb2/s6/fernando-alonso-aston-martin-r-2.jpg",
      "date": "2026-11-17T09:01:40+00:00",
      "author": "",
      "id": "73e9600126",
+     "titleKo": "페르난도 알론소, 2027년 아스톤 마틴과 함께 다카르 랠리에 복귀",
+     "descKo": "2회 포뮬러원 챔피언인 페르난도 알론소가 2027년 다카르 랠리에 애스턴 마틴 팩토리 팀으로 출전하며, 세바스티앙 뢰브와 루카스 모라이스와 함께…",
      "lead": [
       "Two-time Formula 1 champion Fernando Alonso will headline Aston Martin’s factory entry into the Dakar Rally in 2027, joining Sebastien Loeb and Lucas Moraes as part of a star-studded line-up.",
       "Alonso will drive a Prodrive-built Aston Martin Dreadnought in the 49th edition of Dakar, which will take place in Portugal and Morocco from 9-23 January 2027 after being relocated from its original location in Saudi Arabia.",
@@ -1735,9 +1760,7 @@
       "포뮬러원(F1) 2회 챔피언인 페르난도 알론소가 2027년 다카르 랠리에 애스턴 마틴 팩토리 팀으로 출전하며, 세바스티앙 뢰브와 루카스 모라이스와 함께 스타 드라이버 라인업을 이룰 예정입니다.",
       "알론소는 2027년 1월 9일부터 23일까지 포르투갈과 모로코에서 열리는 제49회 다카르 랠리에서 프로드라이브가 제작한 애스턴 마틴 드레드노트를 운전할 예정입니다. 다카르 랠리는 원래 사우디아라비아에서 열렸으나 개최지가 변경되었습니다.",
       "이번 대회는 2020년 토요타와 함께 인상적인 데뷔를 치른 후 스페인 선수가 세계에서 가장 인기 있는 랠리-레이드에 처음으로 출전하는 것이며, 당시 그는 종합 13위를 차지하고 8번째 스테이지에서 2위를 기록한 바 있습니다."
-     ],
-     "titleKo": "페르난도 알론소, 2027년 아스톤 마틴과 함께 다카르 랠리에 복귀",
-     "descKo": "2회 포뮬러원 챔피언인 페르난도 알론소가 2027년 다카르 랠리에 애스턴 마틴 팩토리 팀으로 출전하며, 세바스티앙 뢰브와 루카스 모라이스와 함께…"
+     ]
     },
     {
      "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
@@ -1764,7 +1787,7 @@
      "title": "Lando Norris's LN4 Fusion signs former Red Bull junior Oliver Goethe as its first F2 driver",
      "desc": "Lando Norris's new junior team LN4 Fusion has signed former Red Bull junior Oliver Goethe as its first driver for the 2027 Formula 2 season. The 22-year-old will make the move…",
      "link": "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-9.motorsport.com/images/amp/0LdereN0/s6/motorsport-com-graphics.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/0LdereN0/s6/motorsport-com-graphics.jpg",
      "date": "2026-11-16T17:51:34+00:00",
      "author": "",
      "id": "74e6cbbaac",
@@ -1806,7 +1829,7 @@
      "title": "Toto Wolff predicts Kimi Antonelli will become more popular in Italy than Michael Schumacher",
      "desc": "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari…",
      "link": "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/2dEoloBY/s6/motorsport-com-graphics-5-2.jpg",
+     "image": "https://cdn-1.motorsport.com/images/amp/2dEoloBY/s6/motorsport-com-graphics-5-2.jpg",
      "date": "2026-11-16T16:17:25+00:00",
      "author": "",
      "id": "7beb77d45a",
@@ -1827,7 +1850,7 @@
      "title": "Christian Horner’s private message to Toto Wolff revealed after Kimi Antonelli's 2026 F1 title",
      "desc": "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula…",
      "link": "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-5.motorsport.com/images/amp/6O7zEzX6/s6/motorsport-com-graphics-4-2.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/6O7zEzX6/s6/motorsport-com-graphics-4-2.jpg",
      "date": "2026-11-16T16:02:29+00:00",
      "author": "",
      "id": "8b7907a2da",
@@ -1848,7 +1871,7 @@
      "title": "Zak Brown recalls McLaren's \"very toxic environment\" after joining team in 2016",
      "desc": "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the…",
      "link": "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/YXyKXKd6/s6/motorsport-com-graphics-3.jpg",
+     "image": "https://cdn-6.motorsport.com/images/amp/YXyKXKd6/s6/motorsport-com-graphics-3.jpg",
      "date": "2026-11-16T15:54:25+00:00",
      "author": "",
      "id": "0e71029249",
@@ -1864,27 +1887,6 @@
       "이 미국인은 10년 전, 팀의 주주들이 론 데니스(Ron Dennis)와 결별한 후 맥라렌에 합류했으며, 2024년과 2025년 컨스트럭터 챔피언십에서 그리드 후미에서부터 팀을 재건하는 데 앞장섰습니다.",
       "브라운은 RACER와의 인터뷰에서 자신이 처음 입사했을 때 문제의 심각성을 깨닫지 못했다고 말했다."
      ]
-    },
-    {
-     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
-     "desc": "Seven-time Formula 1 champion Lewis Hamilton wants a Los Angeles base so he can spend more of the winter break with his partner Kim Kardashian and her children, according to a…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-2.motorsport.com/images/amp/2jEAkAp0/s6/motorsport-com-graphics-2.jpg",
-     "date": "2026-11-16T15:08:51+00:00",
-     "author": "",
-     "id": "50c870cb5a",
-     "titleKo": "루이스 해밀턴, 킴 카다시안과의 열애설 속에서 LA 주택 매입을 고려 중인 것으로 알려짐",
-     "descKo": "7회 포뮬러원 챔피언인 루이스 해밀턴이 겨울 휴가를 파트너인 킴 카다시안과 그녀의 자녀들과 함께 더 많이 보낼 수 있도록 로스앤젤레스에 거점을 마련하고 싶어한다고…",
-     "lead": [
-      "Seven-time Formula 1 champion Lewis Hamilton wants a Los Angeles base so he can spend more of the winter break with his partner Kim Kardashian and her children, according to a report from the Daily Mail .",
-      "The report says the Ferrari driver approached estate agents about houses in Malibu, Pacific Palisades and the Hollywood Hills, and is weighing up whether to rent or buy. His main home is in Monaco, while Kardashian lives in Hidden Hills, a gated community north-west of central Los Angeles.",
-      "The couple have been linked since January, and Hamilton later shared photos of them together on social media. Kardashian has since become a familiar face in the paddock, watching him race in Monaco in June and in Singapore last month."
-     ],
-     "leadKo": [
-      "데일리 메일 의 보도에 따르면, 7회 포뮬러원 챔피언인 루이스 해밀턴은 파트너인 킴 카다시안과 그녀의 자녀들과 함께 겨울 휴가를 더 많이 보낼 수 있도록 로스앤젤레스에 거점을 마련하고 싶어 한다고 합니다.",
-      "이 보도에 따르면, 페라리 드라이버는 말리부, 퍼시픽 팰리세이즈, 할리우드 힐스의 주택에 대해 부동산 중개인에게 문의했으며, 임차할지 매입할지 고민하고 있다고 합니다. 그의 주 거주는 모나코에 있으며, 카다시안은 로스앤젤레스 중심부 북서쪽에 위치한 게이티드 커뮤니티인 히든 힐스에 거주하고 있습니다.",
-      "이 커플은 1월부터 교제해 왔으며, 이후 해밀턴은 소셜 미디어에 두 사람이 함께 있는 사진을 올렸습니다. 그 이후로 카다시안은 패독에서 익숙한 얼굴이 되었으며, 6월 모나코와 지난달 싱가포르에서 그가 경주하는 모습을 지켜보았습니다."
-     ]
     }
    ]
   },
@@ -1893,6 +1895,48 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "All the special liveries for F1's Las Vegas Grand Prix",
+     "desc": "It's time for the Las Vegas Grand Prix - and with it, a host of special liveries for F1 teams",
+     "link": "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/dee86a48-2c8c-42c2-9414-09f4380e5ba9-1.jpg",
+     "date": "2026-11-17T15:56:37+00:00",
+     "author": "Josh Suttill",
+     "id": "728e5c38c7",
+     "lead": [
+      "As has become tradition, multiple Formula 1 teams are bringing special liveries for the Las Vegas Grand Prix this weekend.",
+      "Below you'll find a summary of all of them revealed so far.",
+      "For the final three races of its time with title sponsor BWT (before Gucci replaces it), Alpine will race with BWT pink sidepods."
+     ],
+     "leadKo": [
+      "이제 전통이 된 것처럼, 여러 포뮬러원(F1) 팀들이 이번 주말 라스베이거스 그랑프리를 위해 특별한 리버리를 선보입니다.",
+      "지금까지 공개된 모든 내용을 아래에서 요약해 확인하실 수 있습니다.",
+      "타이틀 스폰서 BWT(구찌가 대체하기 전)와 함께하는 마지막 3번의 레이스에서 알파인(Alpine)은 BWT 핑크 사이드포드를 장착하고 레이스를 펼칠 예정입니다."
+     ],
+     "titleKo": "F1 라스베이거스 그랑프리의 모든 특별 리버리",
+     "descKo": "라스베이거스 그랑프리가 열리는 시기입니다. F1 팀의 다양한 특별 리버리가 등장합니다."
+    },
+    {
+     "title": "Mercedes plans to debut ADUO upgrade on Antonelli's car only",
+     "desc": "Mercedes is planning to introduce its long-awaited ADUO-assisted turbo on Kimi Antonelli's F1 car at the Las Vegas GP",
+     "link": "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/Spacesuit-CE-F1-BGP-06-11-26-3829.jpg",
+     "date": "2026-11-17T15:05:38+00:00",
+     "author": "Josh Suttill",
+     "id": "e5710052ee",
+     "lead": [
+      "Mercedes is planning to introduce its long-awaited Additional Development and Upgrade Opportunities-assisted turbo on Kimi Antonelli's Formula 1 car in Las Vegas this weekend.",
+      "Mercedes has been judged to be between 2% and 4% adrift of F1 2026's benchmark Red Bull engine, meaning it is allowed one additional upgrade during 2026 and another for 2027 under F1's ADUO engine catch-up system.",
+      "The upgrade is a modified turbo, which Mercedes has been preparing for months."
+     ],
+     "leadKo": [
+      "메르세데스는 이번 주말 라스베이거스에서 키미 안토넬리의 포뮬러원(F1) 차량에 오랫동안 기다려온 추가 개발 및 업그레이드 기회(ADUO) 지원 터보를 도입할 계획입니다.",
+      "메르세데스는 F1 2026년의 벤치마크인 레드불 엔진보다 2~4% 뒤처진 것으로 평가되었으며, 이는 F1의 ADUO 엔진 따라잡기 시스템에 따라 2026년에 한 번, 2027년에 한 번 더 업그레이드가 허용된다는 것을 의미합니다.",
+      "업그레이드는 메르세데스가 수개월 동안 준비해 온 수정된 터보입니다."
+     ],
+     "titleKo": "메르세데스, 안토넬리 차량에만 ADUO 업그레이드 적용 계획",
+     "descKo": "메르세데스가 키미 안토넬리의 F1 머신에 오랫동안 기다려온 ADUO 지원 터보를 도입할 계획입니다."
+    },
+    {
      "title": "F1's 'stupid' speed limit to change in 2027? What you need to know",
      "desc": "The FIA is looking at changing what Lewis Hamilton calls a 'stupid' F1 speed limit rule - one that will likely get more painful in 2027",
      "link": "https://www.the-race.com/formula-1/what-f1-looking-to-change-about-stupid-speed-limit-rule/",
@@ -1900,6 +1944,8 @@
      "date": "2026-11-17T12:34:58+00:00",
      "author": "Jon Noble",
      "id": "94134fe804",
+     "titleKo": "F1의 '멍청한' 속도 제한이 2027년에 변경될까요? 알아두어야 할 사항",
+     "descKo": "FIA는 루이스 해밀턴이 '멍청한' F1 속도 제한 규정이라고 부르는 것을 변경하려고 합니다. 이 규정은 2027년에 더욱 고통스러워질 가능성이 높습니다.",
      "lead": [
       "The FIA will discuss ideas with teams to improve overtaking in Formula 1 after Lewis Hamilton led criticism of a \"stupid\" speed limit that is likely to get even more painful in 2027.",
       "While the start of the 2026 season witnessed plenty of passing with 'yo-yo racing', this has calmed down considerably since, outside of chaotic races such as Monza and a rain-affected Interlagos.",
@@ -1909,9 +1955,7 @@
       "루이스 해밀턴이 2027년에 더욱 심해질 가능성이 높은 \"멍청한\" 속도 제한에 대해 비판한 후, FIA는 포뮬러원 추월을 개선하기 위한 아이디어를 팀들과 논의할 예정입니다.",
       "2026년 시즌 초반에는 '요요 레이싱'으로 인한 추월이 많았지만, 이후 몬차와 비가 내린 인터라고스 같은 혼돈의 레이스를 제외하면 추월이 상당히 줄어들었습니다.",
       "이는 초기의 순위 변동이 차량 간의 큰 에너지 차이에서 비롯되었기 때문입니다. 팀과 드라이버가 배터리 관리를 더 잘 이해하게 되면서 이러한 차이는 사라졌습니다."
-     ],
-     "titleKo": "F1의 '멍청한' 속도 제한이 2027년에 변경될까요? 알아두어야 할 사항",
-     "descKo": "FIA는 루이스 해밀턴이 '멍청한' F1 속도 제한 규정이라고 부르는 것을 변경하려고 합니다. 이 규정은 2027년에 더욱 고통스러워질 가능성이 높습니다."
+     ]
     },
     {
      "title": "Alonso to contest 2027 Dakar Rally with new Aston Martin project",
@@ -1921,6 +1965,8 @@
      "date": "2026-11-17T09:01:53+00:00",
      "author": "Matt Beer",
      "id": "fe8f4c57e9",
+     "titleKo": "알론소, 새로운 애스턴 마틴 프로젝트로 2027년 다카르 랠리 출전 예정",
+     "descKo": "페르난도 알론소가 2027년 F1 시즌 개막에 앞서 애스턴 마틴과 함께 다카르 랠리에 출전합니다.",
      "lead": [
       "Fernando Alonso will contest the Dakar Rally with Aston Martin ahead of the 2027 Formula 1 season starting.",
       "Alonso competed on the legendary desert marathon in 2020 while on his break from F1, finishing 13th with Toyota.",
@@ -1930,9 +1976,7 @@
       "페르난도 알론소가 2027년 포뮬러원 시즌이 시작되기 전에 애스턴 마틴과 함께 다카르 랠리에 출전합니다.",
       "알론소는 F1에서 휴식을 취하던 2020년에 전설적인 사막 마라톤에 출전하여 도요타와 함께 13위를 차지했습니다.",
       "그는 오랫동안 다카르 랠리에 다시 출전하고 싶다고 공개적으로 인정해 왔지만, 불과 지난달에는 다가오는 복귀에 대한 언급을 축소하며 \"특히 같은 해에 포뮬러원과 다카르 랠리라는 두 가지 도전을 모두 소화하기는 어려울 것\"이라고 말했습니다."
-     ],
-     "titleKo": "알론소, 새로운 애스턴 마틴 프로젝트로 2027년 다카르 랠리 출전 예정",
-     "descKo": "페르난도 알론소가 2027년 F1 시즌 개막에 앞서 애스턴 마틴과 함께 다카르 랠리에 출전합니다."
+     ]
     },
     {
      "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
@@ -2037,48 +2081,6 @@
       "윌리엄스 팀의 카를로스 사인츠와 알렉스 알본 듀오는 아마도 세계에서 가장 과잉 자격을 갖춘 테스트 드라이버가 되었을 것입니다. 팀은 이번 시즌 마지막 포뮬러원 주말의 일부를 희생하여 2027년 머신을 지원했기 때문입니다.",
       "윌리엄스의 이야기가 거의 전적으로 내년의 발전을 위한 것으로 전환되면서, 사인츠와 알본은 금요일 연습 주행에서 다른 드라이버들과는 매우 다른 프로그램을 진행하고 있으며, 특정 주말의 준비를 완벽하게 마무리하는 것보다 실험적인 작업의 가치가 더 크다고 말하고 있습니다.",
       "The Race가 올해 이 시기에 그가 테스트 드라이버가 되었는지 묻자, 사인츠는 \"그렇다\"고 답했습니다. 그리고 저는 팀에 15위나 17위로 완주하는 것은 신경 쓰지 않는다고 말했습니다."
-     ]
-    },
-    {
-     "title": "'ADUO for teams' plan to be discussed by F1",
-     "desc": "Sweeping changes to cost cap rules look set to become a key area of discussion on Monday when an “ADUO for teams” proposal is debated at the Formula 1 Commission",
-     "link": "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454062_HiRes.jpg",
-     "date": "2026-11-14T08:47:00+00:00",
-     "author": "Jon Noble",
-     "id": "19cd8def6d",
-     "titleKo": "F1에서 '팀을 위한 ADUO' 방안 논의 예정",
-     "descKo": "월요일 포뮬러 1 위원회에서 \"팀을 위한 ADUO\" 제안이 논의될 때 비용 상한선에 대한 전면적인 변경이 주요 논의 영역이 될 것으로 보입니다.",
-     "lead": [
-      "Sweeping changes to cost cap rules look set to become a key area of discussion on Monday when an “ADUO for teams” proposal is debated at the Formula 1 Commission.",
-      "As first revealed by The Race, Williams team boss James Vowles has tabled the idea of a spending catch-up mechanism to help F1 teams escape what he thinks has become a “cost cap trap”.",
-      "Vowles argues that while the cost cap has done a great job making all teams financially viable, it has also locked in legacy advantages that make it difficult for smaller teams to catch up with the bigger squads."
-     ],
-     "leadKo": [
-      "월요일 포뮬러 1 위원회에서 \"팀을 위한 ADUO\" 제안이 논의될 때 비용 상한선에 대한 전면적인 변경이 주요 논의 영역이 될 것으로 보입니다.",
-      "The Race에서 처음 공개한 바와 같이 Williams 팀 보스인 James Vowles는 F1 팀이 \"비용 상한 함정\"이 되었다고 생각하는 상황에서 벗어날 수 있도록 지출 보충 메커니즘에 대한 아이디어를 제시했습니다.",
-      "Vowles는 비용 상한제가 모든 팀을 재정적으로 생존 가능하게 만드는 데 큰 도움이 되었지만 소규모 팀이 더 큰 팀을 따라잡는 것을 어렵게 만드는 레거시 이점도 가두었다고 주장합니다."
-     ]
-    },
-    {
-     "title": "Was Madrid F1 race an economic upgrade on Barcelona?",
-     "desc": "The inaugural 2026 Spanish Formula 1 Grand Prix at the Madring created €544 million in economic activity, supported 10,948 jobs, and generated €95m in tax revenue, according to…",
-     "link": "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1436818_HiRes.jpg",
-     "date": "2026-11-13T11:24:59+00:00",
-     "author": "Samarth Kanal",
-     "id": "69785e1deb",
-     "titleKo": "마드리드 F1 레이스는 바르셀로나에 비해 경제적으로 더 나은 선택이었을까요?",
-     "descKo": "...에 따르면, 마드링에서 열린 2026년 스페인 포뮬러원 그랑프리 개막전은 5억 4,400만 유로의 경제 활동을 창출하고 10,948개의 일자리를 지원했으며 9,500만 유로의 세수를 창출했습니다.",
-     "lead": [
-      "The inaugural 2026 Spanish Formula 1 Grand Prix at the Madring created €544 million in economic activity, supported 10,948 jobs, and generated €95m in tax revenue, according to its organiser.",
-      "The Madring is a part-street circuit built around the IFEMA conference centre - with the track layout set to be changed for 2027 to improve the quality of racing and frequency of overtaking.",
-      "The grand prix promoter ran a study conducted by PwC showing that, for every €1 of economic activity directly linked to the event, €4.60 was generated across Madrid’s wider economy."
-     ],
-     "leadKo": [
-      "주최 측에 따르면, 마드링에서 열린 2026년 첫 스페인 포뮬러원 그랑프리는 5억 4,400만 유로의 경제 활동을 창출하고 10,948개의 일자리를 지원했으며 9,500만 유로의 세수를 창출했습니다.",
-      "마드링은 IFEMA 컨퍼런스 센터 주변에 조성된 부분 가로형 서킷으로, 레이싱의 품질과 추월 빈도를 높이기 위해 2027년에 트랙 레이아웃이 변경될 예정입니다.",
-      "그랑프리 주최사는 PwC가 실시한 연구를 통해 이벤트와 직접적으로 연관된 경제 활동 1유로당 마드리드 전체 경제에서 4.60유로가 창출되었음을 보여주었습니다."
      ]
     }
    ]
