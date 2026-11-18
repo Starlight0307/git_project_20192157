@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:55:18+00:00",
+ "updated": "2026-11-18T04:26:15+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -1700,6 +1700,90 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house",
+     "desc": "The Formula 1 paddock is notoriously cutthroat, but Mercedes team principal Toto Wolff operates his driver management pipeline with a distinctly paternal approach. After guiding…",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-8.motorsport.com/images/amp/2jEAk7g0/s6/motorsport-com-graphics-4-2.jpg",
+     "date": "2026-11-18T01:00:03+00:00",
+     "author": "",
+     "id": "318ec4fb39",
+     "lead": [
+      "The Formula 1 paddock is notoriously cutthroat, but Mercedes team principal Toto Wolff operates his driver management pipeline with a distinctly paternal approach. After guiding Kimi Antonelli from the junior karting ranks all the way to his historic 2026 world championship, Wolff recently shed light on just how deeply the 20-year-old is integrated into his actual family.",
+      "In a recent exclusive interview with the German publication BILD , Wolff was asked to share his most beautiful personal memory of the young star.",
+      "Rather than pointing to a specific race or a karting championship, Wolff recalled the time Antonelli spent living at his house in the United Kingdom."
+     ],
+     "leadKo": [
+      "포뮬러원 패독은 악명 높게도 치열한 경쟁이 펼쳐지는 곳이지만, 메르세데스 팀 대표인 토토 볼프는 자신의 드라이버 관리 체계를 명백히 부드럽고 따뜻한 접근 방식으로 운영합니다. 키미 안토넬리를 주니어 카트 레이싱 무대에서부터 역사적인 2026년 월드 챔피언십까지 이끈 볼프는 최근 20세의 안토넬리가 자신의 실제 가족에 얼마나 깊이 녹아들어 있는지에 대해 설명했습니다.",
+      "최근 독일 매체 빌트(BILD)와의 단독 인터뷰에서 볼프는 젊은 스타에 대한 가장 아름다운 개인적 추억을 이야기해 달라는 요청을 받았습니다.",
+      "울프는 특정 레이스나 카트 챔피언십을 언급하는 대신, 안토넬리가 영국에 있는 자신의 집에서 지냈던 시간을 회상했습니다."
+     ],
+     "titleKo": "토토 볼프, 10대 시절 자신의 집에 살았던 키미 안토넬리에 대한 감동적인 추억을 공개하다",
+     "descKo": "포뮬러원(F1) 패독은 악명 높은 경쟁이 치열한 곳이지만, 메르세데스 팀 대표인 토토 볼프는 명백히 부드러운 접근 방식으로 드라이버 관리 파이프라인을 운영합니다."
+    },
+    {
+     "title": "Oscar Piastri set for grid penalty at F1 Las Vegas GP",
+     "desc": "McLaren driver Oscar Piastri is set for a 10-place grid drop at F1's Las Vegas GP for exceeding his engine allowance for the season. Piastri was already on the limit of four…",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875180/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-4.motorsport.com/images/amp/YpbAXoM0/s6/oscar-piastri-mclaren.jpg",
+     "date": "2026-11-18T00:21:42+00:00",
+     "author": "",
+     "id": "521f1e4145",
+     "lead": [
+      "McLaren driver Oscar Piastri is set for a 10-place grid drop at F1's Las Vegas GP for exceeding his engine allowance for the season.",
+      "Piastri was already on the limit of four internal combustion engines for the year, but will need a fifth Mercedes V6 engine to finish the 2026 season.",
+      "As it is the first time he is exceeding his ICE allowance, the Australian will be docked 10 places on Las Vegas' starting grid."
+     ],
+     "leadKo": [
+      "맥라렌 소속 드라이버 오스카 피아스트리가 시즌 엔진 사용 한도를 초과하여 F1 라스베이거스 GP에서 그리드 10위 하락 페널티를 받게 되었습니다.",
+      "피아스트리는 이미 올해 내연기관 엔진 4개 한도에 도달했지만, 2026년 시즌을 마치기 위해서는 5번째 메르세데스 V6 엔진이 필요합니다.",
+      "ICE 할당량을 초과한 것은 이번이 처음이므로, 호주 출신의 이 드라이버는 라스베이거스 그리드에서 10위가 밀려난 위치에 서게 됩니다."
+     ],
+     "titleKo": "오스카 피아스트리, F1 라스베이거스 GP에서 그리드 페널티 예정",
+     "descKo": "맥라렌 소속 드라이버 오스카 피아스트리가 시즌 엔진 사용 한도를 초과한 탓에 F1 라스베이거스 GP에서 그리드 10위 페널티를 받게 되었습니다. 피아스트리는 이미 4개의 한계에 도달해 있었습니다..."
+    },
+    {
+     "title": "Toto Wolff details subdued Mercedes F1 celebrations after securing 2026 double",
+     "desc": "Mercedes officially completed its return to the top of Formula 1 at the chaotic 2026 São Paulo Grand Prix, successfully locking down the constructors' world championship one week…",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-celebrated-mercedes-title-with-a-vodka-shot-on-the-plane-with-hamilton-and-russell/10874816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-3.motorsport.com/images/amp/0R7By5O2/s6/motorsport-com-graphics-3-2.jpg",
+     "date": "2026-11-18T00:00:22+00:00",
+     "author": "",
+     "id": "9aac108919",
+     "lead": [
+      "Mercedes officially completed its return to the top of Formula 1 at the chaotic 2026 São Paulo Grand Prix, successfully locking down the constructors' world championship one week after Kimi Antonelli secured the drivers' title. But for team principal and CEO Toto Wolff, the historic milestone was not met with an explosive nightclub celebration in Brazil.",
+      "In a recent interview with the German publication BILD , Wolff revealed exactly how subdued his championship celebrations actually were.",
+      "When asked if he had a go-to celebratory drink like Michael Schumacher's famous Bacardi and Cola, Wolff said he usually avoids alcohol entirely."
+     ],
+     "leadKo": [
+      "메르세데스는 혼돈의 2026년 상파울루 그랑프리에서 공식적으로 포뮬러 원 정상에 복귀했으며, 키미 안토넬리가 드라이버 타이틀을 차지한 지 일주일 만에 컨스트럭터 월드 챔피언십을 성공적으로 확정했습니다. 하지만 팀 대표이자 CEO인 토토 볼프에게 이 역사적인 성과는 브라질의 나이트클럽에서 폭발적인 축하를 받으며 맞이한 것이 아니었습니다.",
+      "최근 독일 매체 빌트(BILD)와의 인터뷰에서 볼프는 자신의 챔피언십 축하 행사가 실제로 얼마나 조용했는지 정확히 밝혔습니다.",
+      "미하엘 슈마허의 유명한 바카디와 콜라처럼 즐겨 마시는 축하 음료가 있냐는 질문에 볼프는 보통 술을 아예 피한다고 답했습니다."
+     ],
+     "titleKo": "토토 볼프, 2026년 더블 챔피언십 확보 후 메르세데스 F1의 조용한 축하 행사에 대해 상세히 설명",
+     "descKo": "메르세데스가 2026년 상파울루 그랑프리에서 공식적으로 포뮬러원 정상에 복귀하며, 1주일 만에 컨스트럭터 월드 챔피언십을 성공적으로 차지했습니다..."
+    },
+    {
+     "title": "Toto Wolff explains why George Russell won't get Mercedes’ new turbo in Las Vegas",
+     "desc": "Having officially wrapped up both the 2026 constructors' and drivers' world championships in Brazil, Mercedes arrives at the Las Vegas Grand Prix with a dual mandate: test…",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-explains-why-george-russell-is-being-denied-mercedes-new-turbo-in-las-vegas/10875150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-9.motorsport.com/images/amp/2y7Q8Zg6/s6/motorsport-com-graphics-1-2.jpg",
+     "date": "2026-11-17T23:30:27+00:00",
+     "author": "",
+     "id": "ab634f5d06",
+     "lead": [
+      "Having officially wrapped up both the 2026 constructors' and drivers' world championships in Brazil, Mercedes arrives at the Las Vegas Grand Prix with a dual mandate: test development parts for 2027 and secure the runner-up spot in the drivers' standings for George Russell .",
+      "To accomplish the first goal, the Silver Arrows are finally introducing a new turbo specification developed under Formula 1's ADUO (Additional Development and Upgrade Opportunities) framework. But only half the garage will get to use it.",
+      "In the team's official Las Vegas preview, team principal Toto Wolff explained the decision to deny Russell the upgrade, confirming that the new turbo simply is not worth the grid penalty it would incur."
+     ],
+     "leadKo": [
+      "브라질에서 2026년 컨스트럭터 및 드라이버 월드 챔피언십을 공식적으로 마무리한 메르세데스는 2027년 개발 부품을 테스트하고 조지 러셀이 드라이버 순위에서 2위를 차지하도록 하는 이중 임무를 안고 라스베이거스 그랑프리에 참가합니다.",
+      "첫 번째 목표를 달성하기 위해 실버 애로우는 마침내 포뮬러원 ADUO(추가 개발 및 업그레이드 기회) 프레임워크에 따라 개발된 새로운 터보 사양을 도입합니다. 하지만 차고의 절반만 사용할 수 있습니다.",
+      "팀의 공식 라스베이거스 프리뷰에서 토토 볼프 팀 대표는 러셀에게 업그레이드를 거부한 결정을 설명하며, 새로운 터보가 그로 인해 초래될 그리드 페널티를 감수할 가치가 없다고 확인했습니다."
+     ],
+     "titleKo": "토토 볼프, 조지 러셀이 라스베이거스에서 메르세데스의 새로운 터보를 사용하지 않는 이유를 설명하다",
+     "descKo": "브라질에서 2026년 컨스트럭터 및 드라이버 월드 챔피언십을 공식적으로 마무리한 메르세데스는 다음과 같은 두 가지 임무를 안고 라스베이거스 그랑프리에 참가합니다."
+    },
+    {
      "title": "“He’s beaten Alpine on his own” - Racing Bulls on why it kept Liam Lawson",
      "desc": "Racing Bulls Formula 1 chief Alan Permane says Liam Lawson's improved 2026 form has been a \"revelation\", and addressed suggestions of a difference in vision within Red Bull. In a…",
      "link": "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1707,6 +1791,8 @@
      "date": "2026-11-17T17:02:37+00:00",
      "author": "",
      "id": "f46712250a",
+     "titleKo": "\"그는 혼자서 알파인 팀을 이겼습니다\" - 레이싱 불스, 리암 로슨을 계속 기용한 이유",
+     "descKo": "레이싱 불스 포뮬러원(F1) 팀의 알랭 페르망(Alan Permane) 팀장이 리암 로슨(Liam Lawson)의 2026년 시즌 성적이 향상된 것이 \"놀라운 일\"이었다고 말하며, 레드불 내에서 비전에 차이가 있다는 주장에 대해 언급했습니다.",
      "lead": [
       "Racing Bulls Formula 1 chief Alan Permane says Liam Lawson's improved 2026 form has been a \"revelation\", and addressed suggestions of a difference in vision within Red Bull.",
       "In a wide-ranging interview with Motorsport.com , Permane addressed why the decision between incumbent Lawson and Red Bull junior Nikola Tsolov to partner Arvid Lindblad had taken so long, and why backing Lawson doesn't have to go against the team's manta to bring up young talent.",
@@ -1716,9 +1802,7 @@
       "레이싱 불스 포뮬러원 팀의 알랭 페르망 팀 대표는 리암 로슨이 2026년 시즌에 보여준 향상된 기량이 \"놀라움\"이었다고 말하며, 레드불 내에서 시각 차이가 있다는 주장에 대해 언급했습니다.",
       "모터스포츠닷컴과의 광범위한 인터뷰에서 페르마네는 현역 드라이버인 로슨과 레드불 주니어 드라이버인 니콜라 졸로프 중 아르비드 린드블라드의 파트너로 누가 선정될지 결정하는 데 왜 그렇게 오래 걸렸는지, 그리고 왜 로슨을 후원하는 것이 젊은 인재를 육성하려는 팀의 방침에 위배되지 않는지 설명했습니다.",
       "\"리암이 우리 팀에 있다는 것은 의심할 여지 없이 훌륭한 일입니다. 그는 정말 대단했습니다.\"라고 페르마네는 말했습니다. \"그는 혼자서 알파인 팀을 이겼다고 할 수 있습니다. 하지만 중요한 것은 그것만이 아닙니다. 젊은 인재를 육성하는 것이 중요합니다. 솔직히 말해서, 벤치마크가 없으면 그렇게 하는 것이 매우 어렵습니다."
-     ],
-     "titleKo": "\"그는 혼자서 알파인 팀을 이겼습니다\" - 레이싱 불스, 리암 로슨을 계속 기용한 이유",
-     "descKo": "레이싱 불스 포뮬러원(F1) 팀의 알랭 페르망(Alan Permane) 팀장이 리암 로슨(Liam Lawson)의 2026년 시즌 성적이 향상된 것이 \"놀라운 일\"이었다고 말하며, 레드불 내에서 비전에 차이가 있다는 주장에 대해 언급했습니다."
+     ]
     },
     {
      "title": "Toto Wolff is not afraid of losing Kimi Antonelli to Ferrari",
@@ -1745,7 +1829,7 @@
      "title": "Fernando Alonso to return to Dakar Rally with Aston Martin in 2027",
      "desc": "Two-time Formula 1 champion Fernando Alonso will headline Aston Martin’s factory entry into the Dakar Rally in 2027, joining Sebastien Loeb and Lucas Moraes as part of a…",
      "link": "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/63QaLLb2/s6/fernando-alonso-aston-martin-r-2.jpg",
+     "image": "https://cdn-4.motorsport.com/images/amp/63QaLLb2/s6/fernando-alonso-aston-martin-r-2.jpg",
      "date": "2026-11-17T09:01:40+00:00",
      "author": "",
      "id": "73e9600126",
@@ -1766,7 +1850,7 @@
      "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
      "desc": "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix. F1 heads to Las Vegas for its third of three US…",
      "link": "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-3.motorsport.com/images/amp/2GdKxKQY/s6/williams-las-vegas-livery.jpg",
+     "image": "https://cdn-8.motorsport.com/images/amp/2GdKxKQY/s6/williams-las-vegas-livery.jpg",
      "date": "2026-11-16T18:45:08+00:00",
      "author": "",
      "id": "82f863f3bc",
@@ -1787,7 +1871,7 @@
      "title": "Lando Norris's LN4 Fusion signs former Red Bull junior Oliver Goethe as its first F2 driver",
      "desc": "Lando Norris's new junior team LN4 Fusion has signed former Red Bull junior Oliver Goethe as its first driver for the 2027 Formula 2 season. The 22-year-old will make the move…",
      "link": "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/0LdereN0/s6/motorsport-com-graphics.jpg",
+     "image": "https://cdn-3.motorsport.com/images/amp/0LdereN0/s6/motorsport-com-graphics.jpg",
      "date": "2026-11-16T17:51:34+00:00",
      "author": "",
      "id": "74e6cbbaac",
@@ -1802,90 +1886,6 @@
       "랜도 노리스의 새로운 주니어 팀인 LN4 퓨전이 2027년 포뮬러 2 시즌의 첫 번째 드라이버로 전 레드불 주니어 올리버 괴테를 영입했습니다.",
       "올해 두 차례의 포디움 피니시를 달성한 22세의 이 드라이버는 MP 모터스포츠에서 F2 3번째 시즌을 맞이하게 됩니다.",
       "LN4 퓨전은 지난달 챔피언십의 다음 3년 주기에 유일한 신생 팀으로 F2에 출전할 수 있는 자격을 얻었습니다. 맥라렌 포뮬러원 드라이버는 9월에 팀을 출범했으며, 포뮬러3, 이탈리안 포뮬러4, 브리티시 F4에도 출전할 예정입니다."
-     ]
-    },
-    {
-     "title": "Lando Norris: F1 needs better rain tyres as wet Las Vegas would be \"scary\"",
-     "desc": "World champion Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a…",
-     "link": "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-4.motorsport.com/images/amp/27No3ae0/s6/lando-norris-mclaren.jpg",
-     "date": "2026-11-16T17:30:42+00:00",
-     "author": "",
-     "id": "4ed22a6b31",
-     "titleKo": "랜도 노리스: F1에는 더 나은 레인 타이어가 필요합니다. 젖은 라스베이거스는 \"무서울\" 것이기 때문입니다.",
-     "descKo": "월드 챔피언 랜도 노리스는 포뮬러원 타이어 공급사인 피렐리가 2027년에 훨씬 개선된 빗길용 타이어를 선보이기를 기대하고 있습니다. 그는 현재의 타이어 라인업이...",
-     "lead": [
-      "World champion Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a low-downforce circuit like Las Vegas.",
-      "Following partially rain-affected weekends in Malaysia and Singapore, F1's 2026 cars went through their first proper qualifying and grand prix held in wet conditions at the Brazilian Grand Prix, with both Pirelli's full wet and intermediate compounds being put to the test at Sao Paulo. Qualifying had to be halted for over an hour due to standing water in several corners, with the risk of aquaplaning prompting drivers to run full-wet tyres in Q1…",
-      "The race both started and finished on intermediates, with a dry middle spell, dispelling early fears over how the 2026 generation of cars would run in the wet. But while Brazil put on an entertaining spectacle and Pirelli's rain tyres largely worked as expected in the right operating window, drivers still felt this year's stiffer intermediates need work on how they perform in low temperatures as they struggled to keep their cars on the track at…"
-     ],
-     "leadKo": [
-      "월드 챔피언 랜도 노리스는 포뮬러원 타이어 공급사인 피렐리가 2027년에 훨씬 개선된 레인 타이어를 선보이기를 기대하고 있습니다. 그는 현재의 타이어 라인업이 라스베이거스 같은 저다운포스 서킷에서 제대로 작동하지 않을 것으로 예상하고 있기 때문입니다.",
-      "말레이시아와 싱가포르에서 부분적으로 비가 내린 주말에 이어, F1 2026 머신은 브라질 그랑프리에서 빗길에서 열린 첫 번째 제대로 된 퀄리파잉 세션과 그랑프리를 치렀으며, 상파울루에서는 피렐리의 풀 웨트 컴파운드와 인터미디엇 컴파운드 모두 테스트를 거쳤습니다. 여러 코너에 고인 물로 인해 퀄리파잉 세션이 1시간 이상 중단되었으며, 수막현상 위험으로 인해 드라이버들이 Q1에서 풀-웻 타이어를 장착해야 했습니다...",
-      "레이스는 인터미디엇 타이어로 시작하여 인터미디엇 타이어로 끝났으며, 중간에는 건조한 구간이 있어 2026년형 차량이 젖은 노면에서 어떻게 주행할지에 대한 초기의 우려를 불식시켰습니다. 하지만 브라질 그랑프리가 흥미진진한 경기를 펼쳤고 피렐리의 레인 타이어가 적절한 작동 범위에서 대체로 예상대로 작동했지만, 드라이버들은 올해 더 단단해진 인터미디엇 타이어가 저온에서의 성능을 개선할 필요가 있다고 느꼈습니다. 드라이버들은 다음과 같은 상황에서 머신을 트랙에 유지하는 데 어려움을 겪었기 때문입니다..."
-     ]
-    },
-    {
-     "title": "Toto Wolff predicts Kimi Antonelli will become more popular in Italy than Michael Schumacher",
-     "desc": "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari…",
-     "link": "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2dEoloBY/s6/motorsport-com-graphics-5-2.jpg",
-     "date": "2026-11-16T16:17:25+00:00",
-     "author": "",
-     "id": "7beb77d45a",
-     "titleKo": "토토 볼프, 키미 안토넬리가 이탈리아에서 미하엘 슈마허보다 더 인기를 끌 것이라고 예측",
-     "descKo": "메르세데스 팀 대표인 토토 볼프는 대담한 발언을 하는 데 익숙하지만, 키미 안토넬리의 인기에 대한 그의 최근 평가는 실제로 헌신적인 페라리 팬들을 놀라게 할 수 있습니다.",
-     "lead": [
-      "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari fanbase.",
-      "Following Antonelli's historic 2026 drivers' championship victory in Mexico City, Wolff sat down for an exclusive interview with the German publication BILD . When the conversation shifted to the 20-year-old prodigy's exploding star power, Wolff was asked if his young driver was destined to become more popular in Italy than seven-time world champion Michael Schumacher .",
-      "\"Absolutely! He is Italian,\" Wolff bluntly replied."
-     ],
-     "leadKo": [
-      "메르세데스 팀 대표인 토토 볼프는 대담한 발언을 하는 데 익숙하지만, 키미 안토넬리의 인기에 대한 그의 최근 평가는 실제로 열성적인 페라리 팬층을 놀라게 할 수 있습니다.",
-      "안토넬리가 멕시코시티에서 2026년 드라이버 챔피언십 우승을 차지한 역사적인 순간 이후, 볼프는 독일 매체 빌트(BILD)와의 단독 인터뷰에 응했습니다. 대화가 20세 천재 드라이버의 폭발적인 스타성에 대한 내용으로 옮겨가자, 볼프는 자신의 젊은 드라이버가 7회 월드 챔피언인 미하엘 슈마허보다 이탈리아에서 더 인기를 끌 운명인지 묻는 질문을 받았습니다.",
-      "\"물론이죠! 그는 이탈리아인입니다.\" 볼프가 솔직하게 대답했습니다."
-     ]
-    },
-    {
-     "title": "Christian Horner’s private message to Toto Wolff revealed after Kimi Antonelli's 2026 F1 title",
-     "desc": "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula…",
-     "link": "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/6O7zEzX6/s6/motorsport-com-graphics-4-2.jpg",
-     "date": "2026-11-16T16:02:29+00:00",
-     "author": "",
-     "id": "8b7907a2da",
-     "titleKo": "키미 안토넬리의 2026년 F1 타이틀 획득 후 크리스티안 호너가 토토 볼프에게 보낸 개인 메시지가 공개되었습니다.",
-     "descKo": "치열한 챔피언십 경쟁이 한창이던 시기에 크리스티안 호너가 토토 볼프에게 따뜻한 축하 문자를 보내는 모습은 대부분의 포뮬러...",
-     "lead": [
-      "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula 1 fans. But following Kimi Antonelli's historic 2026 title victory with Mercedes , the former Red Bull team principal reached out to his old adversary with high praise.",
-      "In an exclusive interview with the German publication BILD , Wolff was asked if he had heard from Horner amid the flood of recent congratulations.",
-      "Given that Horner was Wolff's fiercest rival for years before his dismissal from Red Bull in July 2025, the interviewer questioned if the Austrian was surprised by the gesture."
-     ],
-     "leadKo": [
-      "치열한 챔피언십 경쟁이 한창이던 시기에 크리스티안 호너가 토토 볼프에게 따뜻한 축하 문자를 보낸다는 것은 대부분의 포뮬러원 팬들에게는 완전히 허구처럼 느껴졌을 것입니다. 하지만 키미 안토넬리가 메르세데스와 함께 2026년 역사적인 우승을 차지한 후, 전 레드불 팀 대표는 자신의 오랜 라이벌에게 연락해 극찬을 보냈습니다.",
-      "독일 매체 빌트(BILD)와의 단독 인터뷰에서 볼프는 최근 쏟아진 축하 메시지 속에서 호너로부터 연락을 받았는지 묻는 질문을 받았습니다.",
-      "호너가 2025년 7월 레드불에서 해고되기 전 몇 년 동안 볼프의 가장 강력한 라이벌이었음을 감안할 때, 인터뷰 진행자는 볼프가 이 제스처에 놀랐는지 질문했습니다."
-     ]
-    },
-    {
-     "title": "Zak Brown recalls McLaren's \"very toxic environment\" after joining team in 2016",
-     "desc": "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the…",
-     "link": "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-6.motorsport.com/images/amp/YXyKXKd6/s6/motorsport-com-graphics-3.jpg",
-     "date": "2026-11-16T15:54:25+00:00",
-     "author": "",
-     "id": "0e71029249",
-     "titleKo": "잭 브라운, 2016년 팀에 합류한 후 경험한 맥라렌의 \"매우 독한 분위기\"를 회상하다",
-     "descKo": "맥라렌 레이싱의 CEO인 잭 브라운은 2016년에 합류한 팀을 \"매우 독성이 강한 환경\"이라고 표현하며, 수년간의 부진한 성적에 대해 리더들의 잦은 교체를 비난했습니다.",
-     "lead": [
-      "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the track.",
-      "The American arrived at McLaren a decade ago, after the team's shareholders parted ways with Ron Dennis, and went on to lead its recovery from the back of the grid to the 2024 and 2025 constructors' championships.",
-      "Speaking to RACER , Brown said he had not realised the scale of the problems when he first walked in."
-     ],
-     "leadKo": [
-      "맥라렌 레이싱의 CEO인 잭 브라운은 2016년에 합류한 팀을 \"매우 독성이 강한 환경\"이라고 표현하며, 수년간의 트랙 안팎에서의 부진한 성적에 대해 리더들의 잦은 교체를 비난했습니다.",
-      "이 미국인은 10년 전, 팀의 주주들이 론 데니스(Ron Dennis)와 결별한 후 맥라렌에 합류했으며, 2024년과 2025년 컨스트럭터 챔피언십에서 그리드 후미에서부터 팀을 재건하는 데 앞장섰습니다.",
-      "브라운은 RACER와의 인터뷰에서 자신이 처음 입사했을 때 문제의 심각성을 깨닫지 못했다고 말했다."
      ]
     }
    ]
@@ -1902,6 +1902,8 @@
      "date": "2026-11-17T15:56:37+00:00",
      "author": "Josh Suttill",
      "id": "728e5c38c7",
+     "titleKo": "F1 라스베이거스 그랑프리의 모든 특별 리버리",
+     "descKo": "라스베이거스 그랑프리가 열리는 시기입니다. F1 팀의 다양한 특별 리버리가 등장합니다.",
      "lead": [
       "As has become tradition, multiple Formula 1 teams are bringing special liveries for the Las Vegas Grand Prix this weekend.",
       "Below you'll find a summary of all of them revealed so far.",
@@ -1911,9 +1913,7 @@
       "이제 전통이 된 것처럼, 여러 포뮬러원(F1) 팀들이 이번 주말 라스베이거스 그랑프리를 위해 특별한 리버리를 선보입니다.",
       "지금까지 공개된 모든 내용을 아래에서 요약해 확인하실 수 있습니다.",
       "타이틀 스폰서 BWT(구찌가 대체하기 전)와 함께하는 마지막 3번의 레이스에서 알파인(Alpine)은 BWT 핑크 사이드포드를 장착하고 레이스를 펼칠 예정입니다."
-     ],
-     "titleKo": "F1 라스베이거스 그랑프리의 모든 특별 리버리",
-     "descKo": "라스베이거스 그랑프리가 열리는 시기입니다. F1 팀의 다양한 특별 리버리가 등장합니다."
+     ]
     },
     {
      "title": "Mercedes plans to debut ADUO upgrade on Antonelli's car only",
@@ -1923,6 +1923,8 @@
      "date": "2026-11-17T15:05:38+00:00",
      "author": "Josh Suttill",
      "id": "e5710052ee",
+     "titleKo": "메르세데스, 안토넬리 차량에만 ADUO 업그레이드 적용 계획",
+     "descKo": "메르세데스가 키미 안토넬리의 F1 머신에 오랫동안 기다려온 ADUO 지원 터보를 도입할 계획입니다.",
      "lead": [
       "Mercedes is planning to introduce its long-awaited Additional Development and Upgrade Opportunities-assisted turbo on Kimi Antonelli's Formula 1 car in Las Vegas this weekend.",
       "Mercedes has been judged to be between 2% and 4% adrift of F1 2026's benchmark Red Bull engine, meaning it is allowed one additional upgrade during 2026 and another for 2027 under F1's ADUO engine catch-up system.",
@@ -1932,9 +1934,7 @@
       "메르세데스는 이번 주말 라스베이거스에서 키미 안토넬리의 포뮬러원(F1) 차량에 오랫동안 기다려온 추가 개발 및 업그레이드 기회(ADUO) 지원 터보를 도입할 계획입니다.",
       "메르세데스는 F1 2026년의 벤치마크인 레드불 엔진보다 2~4% 뒤처진 것으로 평가되었으며, 이는 F1의 ADUO 엔진 따라잡기 시스템에 따라 2026년에 한 번, 2027년에 한 번 더 업그레이드가 허용된다는 것을 의미합니다.",
       "업그레이드는 메르세데스가 수개월 동안 준비해 온 수정된 터보입니다."
-     ],
-     "titleKo": "메르세데스, 안토넬리 차량에만 ADUO 업그레이드 적용 계획",
-     "descKo": "메르세데스가 키미 안토넬리의 F1 머신에 오랫동안 기다려온 ADUO 지원 터보를 도입할 계획입니다."
+     ]
     },
     {
      "title": "F1's 'stupid' speed limit to change in 2027? What you need to know",
