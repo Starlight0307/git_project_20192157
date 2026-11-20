@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:58:57+00:00",
+ "updated": "2026-11-20T21:09:36+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -18,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "2023_Las_Vegas_street_circuit.svg",
-     "date": "2026-11-20T10:23:19Z",
+     "date": "2026-11-20T19:46:02Z",
      "raceDate": "2026-11-22",
      "author": "위키백과 편집자들",
-     "revid": 1386756164,
+     "revid": 1386814853,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -66,7 +66,7 @@
         "Ryo Hirakawa for Haas in place of Oliver Bearman.",
         "Dino Beganovic for Ferrari in place of Lewis Hamilton.",
         "Jak Crawford for Aston Martin in place of Fernando Alonso.",
-        "As wet conditions limited the running of the first free practice session, Hirakawa, Beganovic, and Crawford made only installation laps."
+        "As wet conditions limited the running of the first free practice session, Hirakawa, Beganovic, and Crawford did not choose to complete an entire lap."
        ],
        "hKo": "출전 명단",
        "pKo": [
@@ -75,7 +75,7 @@
         "올리버 베어맨 대신 하스의 료 히라카와.",
         "루이스 해밀턴 대신 페라리의 디노 베가노비치.",
         "Fernando Alonso 대신 Aston Martin의 Jak Crawford가 등장합니다.",
-        "습한 조건으로 인해 첫 번째 무료 연습 세션의 진행이 제한되었으므로 Hirakawa, Beganovic 및 Crawford는 설치 랩만 수행했습니다."
+        "습한 조건으로 인해 첫 번째 무료 연습 세션의 진행이 제한되었기 때문에 Hirakawa, Beganovic 및 Crawford는 전체 랩을 완료하기로 선택하지 않았습니다."
        ]
       },
       {
@@ -93,11 +93,11 @@
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions are being held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). No times were set during the session due to rain. The second free practice session was held on the same day, at 20:00 local time, and was topped by George Russell (Mercedes) ahead of Pierre Gasly (Alpine) and Charles Leclerc (Ferrari). A red flag was observed due to debris on track. The third practice session will be held on November 20, 2026, at 16:30 local time."
+        "Three free practice sessions are being held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). Due to rain, no driver chose to complete an entire lap and no official times were set. The second free practice session was held on the same day, at 20:00 local time, and was topped by George Russell (Mercedes) ahead of Pierre Gasly (Alpine) and Charles Leclerc (Ferrari). A red flag was observed due to debris on track. The third practice session will be held on November 20, 2026, at 16:30 local time."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인해 세션 중 시간이 설정되지 않았습니다. 같은 날 현지시간 20시 20분에 열린 2차 자유연습 세션에서는 조지 러셀(메르세데스)이 피에르 가슬리(알파인), 찰스 르클레르(페라리)에 앞서 1위를 차지했다. 선로의 잔해로 인해 레드 플래그가 관찰되었습니다. 세 번째 연습 세션은 현지 시간으로 2026년 11월 20일 16시 30분에 진행됩니다."
+        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인해 전체 랩을 완료하기로 선택한 운전자는 없었으며 공식 시간도 설정되지 않았습니다. 같은 날 현지시간 20시 20분에 열린 2차 자유연습 세션에서는 조지 러셀(메르세데스)이 피에르 가슬리(알파인), 찰스 르클레르(페라리)에 앞서 1위를 차지했다. 선로의 잔해로 인해 레드 플래그가 관찰되었습니다. 세 번째 연습 세션은 현지 시간으로 2026년 11월 20일 16시 30분에 진행됩니다."
        ]
       },
       {
@@ -1704,6 +1704,27 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Formula 1 set for V8 turbo return in 2030",
+     "desc": "Formula 1 has moved closer to a return to V8 engines from the 2030 season as the FIA announced that a unanimous agreement has been reached between the governing body, F1…",
+     "link": "https://www.motorsport.com/f1/news/f1-set-for-v8-turbo-move-by-2030-season/10875113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/24QerjAY/s6/start-action-3.jpg",
+     "date": "2026-11-20T18:55:35+00:00",
+     "author": "",
+     "id": "9a6d767f84",
+     "lead": [
+      "Formula 1 has moved closer to a return to V8 engines from the 2030 season as the FIA announced that a unanimous agreement has been reached between the governing body, F1 management and the power unit manufacturers.",
+      "F1 has long worked towards cheaper and simpler engines for the next regulation cycle, which starts in 2031, having recognised the current formula is too complex and physically heavy, and a relic of a different direction in the road car industry.",
+      "The FIA could have set the series’ future power-unit regulations for 2031, when the current cycle ends, but there has been broad alignment within the sport to bring that timeline forward by one year, driven by both president Mohammed Ben Sulayem and F1 CEO Stefano Domenicali."
+     ],
+     "leadKo": [
+      "FIA가 관리 기관, F1 경영진 및 동력 장치 제조업체 간에 만장일치로 합의했다고 발표하면서 Formula 1은 2030 시즌부터 V8 엔진으로의 복귀에 가까워졌습니다.",
+      "F1은 2031년에 시작되는 다음 규제 주기를 위해 더 저렴하고 단순한 엔진을 만들기 위해 오랫동안 노력해 왔으며, 현재의 공식이 너무 복잡하고 물리적으로 무겁고 도로용 자동차 산업에서 다른 방향의 유물이라는 것을 인식했습니다.",
+      "FIA는 현재 주기가 끝나는 2031년에 시리즈의 미래 동력 장치 규정을 설정할 수 있었지만, Mohammed Ben Sulayem 회장과 F1 CEO Stefano Domenicali가 추진하는 대로 해당 일정을 1년 앞당기도록 스포츠 내에서 광범위한 조정이 이루어졌습니다."
+     ],
+     "titleKo": "2030년 V8 터보 복귀를 위한 포뮬러 1 설정",
+     "descKo": "FIA가 운영 기관인 F1 사이에 만장일치로 합의했다고 발표하면서 포뮬러 1은 2030년 시즌부터 V8 엔진으로의 복귀에 가까워졌습니다."
+    },
+    {
      "title": "Max Verstappen: “I really thought that we would not win a race this year”",
      "desc": "Heading into the Las Vegas Grand Prix on a run of eight consecutive podiums, Max Verstappen looks every bit the force who dominated Formula 1 earlier this decade. Back in March,…",
      "link": "https://www.motorsport.com/f1/news/max-verstappen-i-really-thought-that-we-would-not-win-a-race-this-year/10875990/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1711,6 +1732,8 @@
      "date": "2026-11-20T12:43:44+00:00",
      "author": "",
      "id": "4e08519199",
+     "titleKo": "Max Verstappen: “올해는 우리가 경주에서 우승하지 못할 거라고 정말 생각했어요.”",
+     "descKo": "8회 연속 시상대에 오르며 라스베거스 그랑프리를 향해 나아가는 Max Verstappen은 모든 면에서 지난 10년 초 Formula 1을 지배했던 힘으로 보입니다. 지난 3월,…",
      "lead": [
       "Heading into the Las Vegas Grand Prix on a run of eight consecutive podiums, Max Verstappen looks every bit the force who dominated Formula 1 earlier this decade. Back in March, however, the four-time world champion was braced for his first winless campaign since 2015.",
       "Speaking during Las Vegas media day, Verstappen reflected on the scale of Red Bull Racing ’s mid-season recovery during Formula 1’s sweeping 2026 chassis and engine overhaul - the team’s first year running its in-house Red Bull Ford power unit.",
@@ -1720,9 +1743,7 @@
       "8회 연속 시상대에 오르며 라스베거스 그랑프리를 향해 나아가는 Max Verstappen은 모든 면에서 지난 10년 초 Formula 1을 지배했던 힘으로 보입니다. 하지만 지난 3월, 4차례 세계 챔피언을 차지한 이 선수는 2015년 이후 처음으로 무승부 캠페인을 벌일 준비가 되어 있었습니다.",
       "Verstappen은 라스베거스 미디어 데이에서 연설하면서 Formula 1의 2026년 섀시 및 엔진 정비 기간 중 Red Bull Racing의 시즌 중반 회복 규모에 대해 회상했습니다. 이는 팀이 사내 Red Bull Ford 동력 장치를 운영한 첫해였습니다.",
       "Verstappen은 \"처음 몇 라운드 이후에 이렇게 될 것이라고 개인적으로 예상했나요? 물론 그렇지는 않습니다.\"라고 말했습니다. \"나는 올해 우리가 경주에서 이기지 못할 것이라고 정말로 생각했고 지금 우리는 승리를 위해 끊임없이 싸우고 있습니다.\""
-     ],
-     "titleKo": "Max Verstappen: “올해는 우리가 경주에서 우승하지 못할 거라고 정말 생각했어요.”",
-     "descKo": "8회 연속 시상대에 오르며 라스베거스 그랑프리를 향해 나아가는 Max Verstappen은 모든 면에서 지난 10년 초 Formula 1을 지배했던 힘으로 보입니다. 지난 3월,…"
+     ]
     },
     {
      "title": "Fernando Alonso returns to Dakar: Why his first rally-raid experience was a shock to the system",
@@ -1732,6 +1753,8 @@
      "date": "2026-11-20T12:15:03+00:00",
      "author": "",
      "id": "a44ef0fb69",
+     "titleKo": "페르난도 알론소(Fernando Alonso)가 다카르로 돌아왔습니다: 그의 첫 랠리 레이드 경험이 시스템에 충격을 준 이유",
+     "descKo": "페르난도 알론소(Fernando Alonso)는 라스베거스에서 자신의 견해로 포뮬러 1이 2030년 V8 엔진이 복귀하기 전까지 16년간의 순수한 경주를 버렸다고 반복했지만, 이 스페인 사람은 계속해서…",
      "lead": [
       "While Fernando Alonso reiterated in Las Vegas that, in his view, Formula 1 has thrown away 16 years of pure racing before the return of V8 engines in 2030, the Spaniard continues to seek those pure challenges outside the pinnacle of motorsport as well.",
       "It had been known in the paddock for some time that Alonso would return to the Dakar Rally this winter for the first time since 2020, although the two-time F1 world champion still played games with the media ahead of the official announcement.",
@@ -1741,9 +1764,7 @@
       "페르난도 알론소(Fernando Alonso)는 라스베가스에서 포뮬러 1이 2030년 V8 엔진이 복귀하기 전까지 16년간의 순수한 경주를 버렸다고 거듭 강조했지만, 이 스페인 사람은 모터스포츠의 정점 밖에서도 계속해서 순수한 도전을 추구하고 있습니다.",
       "Alonso가 2020년 이후 처음으로 이번 겨울 다카르 랠리에 복귀할 것이라는 사실은 오랫동안 패독에서 알려졌지만, 두 차례 F1 세계 챔피언을 차지한 알론소는 공식 발표에 앞서 여전히 언론과 경기를 펼쳤습니다.",
       "실제로 다카르로 향할 것인지 묻는 질문에 알론소는 특히 이 도전이 F1과 너무 다르기 때문에 \"거의 불가능\"하다고 생각한다고 답했습니다."
-     ],
-     "titleKo": "페르난도 알론소(Fernando Alonso)가 다카르로 돌아왔습니다: 그의 첫 랠리 레이드 경험이 시스템에 충격을 준 이유",
-     "descKo": "페르난도 알론소(Fernando Alonso)는 라스베거스에서 자신의 견해로 포뮬러 1이 2030년 V8 엔진이 복귀하기 전까지 16년간의 순수한 경주를 버렸다고 반복했지만, 이 스페인 사람은 계속해서…"
+     ]
     },
     {
      "title": "How the F1 2026 regulations neutered Oscar Piastri's \"real strength\"",
@@ -1753,6 +1774,8 @@
      "date": "2026-11-20T11:30:03+00:00",
      "author": "",
      "id": "5fafcf945d",
+     "titleKo": "F1 2026 규정이 어떻게 오스카 피아스트리의 \"진정한 힘\"을 무력화시켰는가?",
+     "descKo": "McLaren의 Zak Brown 감독은 2026년 Formula 1 시즌에서 Oscar Piastri의 부진이 고속 코너링에서 비롯되었다고 생각합니다. 그러나 새로운 자동차에는 다른 것이 필요합니다...",
      "lead": [
       "McLaren boss Zak Brown reckons Oscar Piastri ’s struggles in the 2026 Formula 1 season stem from high-speed corners being his strength - but the new cars require a different technique.",
       "F1 introduced its latest regulation overhaul this year with power units being more electrical, causing battery management to contentiously play a key role in the racing.",
@@ -1762,9 +1785,7 @@
       "McLaren의 사장 Zak Brown은 2026년 Formula 1 시즌에서 Oscar Piastri의 부진이 고속 코너링에서 비롯되었다고 생각합니다. 하지만 새 자동차에는 다른 기술이 필요합니다.",
       "F1은 올해 최신 규제 정비를 도입했습니다. 동력 장치가 더욱 전기화되면서 배터리 관리가 경주에서 핵심적인 역할을 하게 되었습니다.",
       "이는 자동차가 항상 이전처럼 평탄하게 주행할 수는 없으며, 대신 고속 코너가 있는 랩의 다른 부분을 위해 배터리를 절약하기 위해 때로는 느리게 주행하는 경우가 이에 대한 대표적인 예입니다."
-     ],
-     "titleKo": "F1 2026 규정이 어떻게 오스카 피아스트리의 \"진정한 힘\"을 무력화시켰는가?",
-     "descKo": "McLaren의 Zak Brown 감독은 2026년 Formula 1 시즌에서 Oscar Piastri의 부진이 고속 코너링에서 비롯되었다고 생각합니다. 그러나 새로운 자동차에는 다른 것이 필요합니다..."
+     ]
     },
     {
      "title": "What Flavio Briatore takes from McLaren after Fernando Alonso \"disaster\"",
@@ -1774,6 +1795,8 @@
      "date": "2026-11-20T10:45:02+00:00",
      "author": "",
      "id": "69039dbe2f",
+     "titleKo": "페르난도 알론소의 '재난' 이후 플라비오 브리아토레가 맥라렌에서 가져간 것",
+     "descKo": "2015년 말 르노가 엔스톤 기반 팀을 인수한 후 알파인의 '잃어버린 10년'은 실망, 내분, 고위 인사의 회전문으로 특징지어졌습니다.…",
      "lead": [
       "Disappointment, infighting, and a revolving door of senior personnel have characterised Alpine's ‘lost decade' after Renault acquired the Enstone-based team at the end of 2015.",
       "Current boss Flavio Briatore says Alpine can take some inspiration from McLaren , which claimed the constructors' championship in 2024 and '25, and helped Lando Norris to the drivers' title last year. McLaren endured a long fallow period in the 2010s, going eight seasons without a win and twice finishing ninth in the constructors' standings.",
@@ -1783,9 +1806,7 @@
       "2015년 말 르노가 엔스톤 기반 팀을 인수한 후 알파인의 '잃어버린 10년'은 실망, 내분, 고위 인사의 회전문으로 특징지어졌습니다.",
       "현 사장인 플라비오 브리아토레(Flavio Briatore)는 알파인이 2024년과 2025년에 컨스트럭터 챔피언십을 차지했고 지난해 랜도 노리스(Lando Norris)가 드라이버 타이틀을 차지하도록 도운 맥라렌에게서 영감을 얻을 수 있다고 말했습니다. McLaren은 2010년대에 긴 휴경 기간을 견뎌내며 8시즌을 무승부로 보냈고 두 번이나 건설사 순위에서 9위를 기록했습니다.",
       "알파인은 여러 시즌 동안 미드필더에서 활약한 끝에 2025년 최하위에 머물렀습니다. 현재 6위입니다."
-     ],
-     "titleKo": "페르난도 알론소의 '재난' 이후 플라비오 브리아토레가 맥라렌에서 가져간 것",
-     "descKo": "2015년 말 르노가 엔스톤 기반 팀을 인수한 후 알파인의 '잃어버린 10년'은 실망, 내분, 고위 인사의 회전문으로 특징지어졌습니다.…"
+     ]
     },
     {
      "title": "\"It was scary at 100km/h\" - F1 drivers shocked by Las Vegas 'ice rink'",
@@ -1795,6 +1816,8 @@
      "date": "2026-11-20T10:08:40+00:00",
      "author": "",
      "id": "53a454901d",
+     "titleKo": "\"시속 100㎞ 무서웠다\" - 라스베이거스 '아이스링크'에 충격받은 F1 드라이버들",
+     "descKo": "스트립 주변의 접지력이 낮은 서킷에서 진행되는 목요일 라스베거스 그랑프리에 비가 내리는 가운데 가장 중요한 점은 누가 가장 빠른가가 아니라 인상적인 사실이었습니다.",
      "lead": [
       "With rain affecting Thursday's Las Vegas Grand Prix running on the low-grip street circuit around the Strip, the biggest takeaway was not who was fastest, but the impressive fact that every Formula 1 driver kept it out of the barriers.",
       "Following F1's first proper wet weekend of the year in Brazil, using both the full wets and intermediates tyres in qualifying and race conditions, drivers were concerned over how Pirelli's wet weather range would work on a circuit without high-speed corners, where tyres are much harder to get up to temperature.",
@@ -1804,9 +1827,7 @@
       "목요일 라스베거스 그랑프리가 스트립 주변의 접지력이 낮은 서킷에서 진행되는 동안 비가 내리는 상황에서 가장 중요한 점은 누가 가장 빠른가가 아니라 모든 Formula 1 드라이버가 장애물을 피했다는 인상적인 사실이었습니다.",
       "브라질에서 열린 F1의 첫 번째 적절한 젖은 주말에 이어 예선 및 경주 조건에서 전체 젖은 타이어와 중간 타이어를 모두 사용하면서 운전자는 타이어가 온도에 도달하기 훨씬 어려운 고속 코너가 없는 서킷에서 Pirelli의 습한 날씨 범위가 어떻게 작동할지에 대해 우려했습니다.",
       "McLaren의 Lando Norris는 상파울루 경주가 끝난 후 \"베가스에 갔을 때 타이어 온도를 전혀 얻을 수 없을 때 무서운 시기라고 생각합니다.\"라고 말했고, Racing Bulls 드라이버 Liam Lawson은 이렇게 덧붙였습니다. \"만약 우리가 베가스 같은 트랙에서 비가 오면 솔직히 우리는 곤경에 처한 것 같습니다.\""
-     ],
-     "titleKo": "\"시속 100㎞ 무서웠다\" - 라스베이거스 '아이스링크'에 충격받은 F1 드라이버들",
-     "descKo": "스트립 주변의 접지력이 낮은 서킷에서 진행되는 목요일 라스베거스 그랑프리에 비가 내리는 가운데 가장 중요한 점은 누가 가장 빠른가가 아니라 인상적인 사실이었습니다."
+     ]
     },
     {
      "title": "George Russell impressed by \"exceptionally fast\" McLaren as rain delays Lando Norris' floor test",
@@ -1816,6 +1837,8 @@
      "date": "2026-11-20T09:31:14+00:00",
      "author": "",
      "id": "99c13b12df",
+     "titleKo": "비로 인해 Lando Norris의 바닥 테스트가 지연된 가운데 George Russell은 \"예외적으로 빠른\" McLaren에 깊은 인상을 받았습니다.",
+     "descKo": "조지 러셀(George Russell)은 라스베이거스에서 열린 두 번째 포뮬러 1 연습 세션의 마지막 단계에서 가장 빠른 기록을 세우기 위해 갑자기 나타났습니다. 알파인 드라이버 피에르 가슬리(Pierre Gasly)는…",
      "lead": [
       "George Russell came out of nowhere to set the fastest time in the closing stages of the second Formula 1 practice session in Las Vegas, although Alpine driver Pierre Gasly almost caused a major surprise by beating him.",
       "The Frenchman ultimately fell just 0.071 seconds short, leaving the Mercedes works team at the top of the timesheets.",
@@ -1825,9 +1848,7 @@
       "조지 러셀(George Russell)은 라스베이거스에서 열린 두 번째 포뮬러 1 연습 세션의 마지막 단계에서 가장 빠른 기록을 세우기 위해 갑자기 등장했지만, 알파인 드라이버 피에르 가슬리(Pierre Gasly)는 그를 이기며 큰 놀라움을 불러일으킬 뻔했습니다.",
       "이 프랑스인은 결국 0.071초밖에 부족해 메르세데스 작업 팀이 작업표의 맨 위에 남게 되었습니다.",
       "그러나 러셀에 따르면 그 결과는 실제 상황을 반영하지 않습니다. 두 번째 연습 세션의 대부분은 완전 습식 및 중급 모두에서 McLaren이 속도를 설정한 반면 Mercedes 듀오는 더 많은 어려움을 겪었습니다."
-     ],
-     "titleKo": "비로 인해 Lando Norris의 바닥 테스트가 지연된 가운데 George Russell은 \"예외적으로 빠른\" McLaren에 깊은 인상을 받았습니다.",
-     "descKo": "조지 러셀(George Russell)은 라스베이거스에서 열린 두 번째 포뮬러 1 연습 세션의 마지막 단계에서 가장 빠른 기록을 세우기 위해 갑자기 나타났습니다. 알파인 드라이버 피에르 가슬리(Pierre Gasly)는…"
+     ]
     },
     {
      "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
@@ -1837,6 +1858,8 @@
      "date": "2026-11-20T08:21:28+00:00",
      "author": "",
      "id": "7bd0a9ba84",
+     "titleKo": "피렐리(Pirelli), F1 카타르 GP에 제한 한도 다시 도입",
+     "descKo": "Formula 1 팀은 품질 저하가 심한 트랙에서 Pirelli 타이어를 보호하기 위해 카타르 그랑프리에서 각 차량에 대해 규정된 제한 한도를 다시 따라야 합니다. 드라이버…",
      "lead": [
       "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track.",
       "Drivers must complete no more than 27 laps per stint at Lusail International Circuit, meaning teams will likely opt for a two-stop strategy in the 57-lap race.",
@@ -1846,9 +1869,7 @@
       "Formula 1 팀은 품질 저하가 심한 트랙에서 Pirelli 타이어를 보호하기 위해 카타르 그랑프리에서 각 차량에 대해 규정된 제한 한도를 다시 따라야 합니다.",
       "드라이버는 루사일 인터내셔널 서킷(Lusail International Circuit)에서 한 번에 27랩을 넘지 않아야 합니다. 이는 팀이 57랩 레이스에서 2스톱 전략을 선택할 가능성이 높다는 것을 의미합니다.",
       "2024년 대회 분석에 따라 “여러 타이어, 특히 왼쪽 앞부분이 최대 마모에 도달했다”는 분석에 따라 제한 랩이 25랩으로 제한되었던 작년과 유사한 상황입니다. 2023년 이벤트도 제한 제한의 대상이었는데, 그 해에 시행된 제한은 18랩에 불과했습니다."
-     ],
-     "titleKo": "피렐리(Pirelli), F1 카타르 GP에 제한 한도 다시 도입",
-     "descKo": "Formula 1 팀은 품질 저하가 심한 트랙에서 Pirelli 타이어를 보호하기 위해 카타르 그랑프리에서 각 차량에 대해 규정된 제한 한도를 다시 따라야 합니다. 드라이버…"
+     ]
     },
     {
      "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Max Verstappen's complaints",
@@ -1858,6 +1879,8 @@
      "date": "2026-11-20T07:50:43+00:00",
      "author": "",
      "id": "0337d029af",
+     "titleKo": "\"브라질과 동일\" – Red Bull은 Max Verstappen의 불만의 근본 원인을 \"이해하려고 노력 중\"입니다.",
+     "descKo": "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 4위를 차지했습니다.",
      "lead": [
       "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means very little given that no more rain is forecast for the remainder of the weekend.",
       "The conditions were therefore not representative during the practice day, and that was precisely why Max Verstappen stayed in the garage for so long. It was only in the final five minutes, following the late red flag, that the Dutchman set his first timed lap. There was simply very little to learn.",
@@ -1867,30 +1890,7 @@
       "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 시간표에서 4위를 차지했지만 남은 주말 동안 더 이상 비가 내리지 않을 것이라는 점을 고려하면 이는 거의 의미가 없습니다.",
       "따라서 연습 당일의 조건은 대표성이 없었으며 이것이 바로 Max Verstappen이 차고에 오랫동안 머물렀던 이유였습니다. 네덜란드인이 처음으로 시간 제한 랩을 설정한 것은 늦은 위험 신호 이후 마지막 5분이었습니다. 배울 것이 거의 없었습니다.",
       "그럼에도 불구하고 Verstappen은 트랙에 잠시 등장하는 동안 RB22에 만족하지 않았습니다."
-     ],
-     "titleKo": "\"브라질과 동일\" – Red Bull은 Max Verstappen의 불만의 근본 원인을 \"이해하려고 노력 중\"입니다.",
-     "descKo": "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 4위를 차지했습니다."
-    },
-    {
-     "title": "Lewis Hamilton plans \"GTA VI\" session after Vegas FP2: \"I'm like a big kid\"",
-     "desc": "Lewis Hamilton finished sixth in a slippery second practice for the Las Vegas Grand Prix, before what he had promised fans would be an early night at his hotel with the newly…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-plans-gta-vi-session-after-vegas-fp2-im-like-a-big-kid/10875895/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0rVPkN70/s6/lewis-hamilton-ferrari-a10875895-b708-2.jpg",
-     "date": "2026-11-20T06:37:05+00:00",
-     "author": "",
-     "id": "3e21244f30",
-     "lead": [
-      "Lewis Hamilton finished sixth in a slippery second practice for the Las Vegas Grand Prix, before what he had promised fans would be an early night at his hotel with the newly released Grand Theft Auto VI .",
-      "The seven-time world champion was speaking on stage at PUMA's Under the Lights fan event at its Las Vegas store on Tuesday night, two days before the game's release.",
-      "\"There's a new game coming out in two days,\" Hamilton told the crowd, before setting out his plans for Thursday, when second practice finished at 9pm local time."
-     ],
-     "leadKo": [
-      "루이스 해밀턴은 Las Vegas Grand Prix의 미끄러운 두 번째 연습에서 6위를 차지했으며, 팬들에게 새로 출시된 Grand Theft Auto VI를 가지고 그의 호텔에서 이른 밤을 보내겠다고 약속했습니다.",
-      "7차례 세계 챔피언을 차지한 그는 게임 출시 이틀 전인 화요일 밤, PUMA 라스베이거스 매장에서 열린 PUMA Under the Lights 팬 이벤트 무대에서 연설했습니다.",
-      "해밀턴은 현지 시간으로 오후 9시에 두 번째 연습이 끝나는 목요일 계획을 세우기 전에 관중들에게 \"이틀 뒤에 새로운 게임이 나올 예정입니다\"라고 말했습니다."
-     ],
-     "titleKo": "루이스 해밀턴은 Vegas FP2 이후 \"GTA VI\" 세션을 계획하고 있습니다: \"나는 큰 아이와 같습니다\"",
-     "descKo": "루이스 해밀턴은 라스베거스 그랑프리의 미끄러운 두 번째 연습에서 6위를 차지했으며, 팬들에게 약속한 바에 따르면 새로 개장한 선수와 함께 그의 호텔에서 이른 밤을 보내게 될 것입니다."
+     ]
     }
    ]
   },
@@ -1899,6 +1899,48 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "F1's new V8 engine agreed – five things you need to know",
+     "desc": "F1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on key details that will underpin the new rules",
+     "link": "https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/WhatsApp-Image-2026-11-20-at-10.32.05.jpeg",
+     "date": "2026-11-20T20:08:47+00:00",
+     "author": "Scott Mitchell-Malm",
+     "id": "1cb38a8483",
+     "lead": [
+      "Formula 1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on the key details that will underpin the new regulations.",
+      "A framework has been unanimously agreed by the FIA, Formula 1, the teams and the engine manufacturers to bring in a 2.1-litre, turbocharged V8 with a reduced electric element.",
+      "This switch will be made one year earlier than planned, bringing an early end to the V6 turbo-hybrid rules that only started a controversial new era this season with a switch to a near 50-50 split between internal combustion and electric power."
+     ],
+     "leadKo": [
+      "Formula 1은 2030년에 V8 엔진을 채택할 예정이며, 이제 주요 이해관계자들이 새로운 규정을 뒷받침할 주요 세부 사항에 만장일치로 동의했습니다.",
+      "FIA, 포뮬러 1, 팀 및 엔진 제조업체는 전기 요소를 줄인 2.1리터 터보차지 V8 엔진을 도입하기로 만장일치로 합의했습니다.",
+      "이 스위치는 계획보다 1년 일찍 이루어지며, 내연기관과 전력을 거의 50-50으로 분할하는 스위치로 이번 시즌 논란의 여지가 있는 새로운 시대를 열었던 V6 터보 하이브리드 규칙을 조기에 종료할 것입니다."
+     ],
+     "titleKo": "F1의 새로운 V8 엔진에 동의 – 당신이 알아야 할 5가지",
+     "descKo": "F1은 2030년에 V8 엔진을 채택할 예정입니다. 이제 주요 이해관계자들이 새로운 규칙을 뒷받침할 주요 세부 사항에 만장일치로 동의했습니다."
+    },
+    {
+     "title": "Forbes releases 2026 F1 team valuations",
+     "desc": "The value of each Formula 1 team has jumped 47% from $3.6billion USD in 2025 to $5.2bn in 2026 according to Forbes' 2026 report",
+     "link": "https://www.the-race.com/business/formula-1-team-values-jump-47-in-2026-as-they-near-10bn/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454753_HiRes.jpg",
+     "date": "2026-11-20T16:30:31+00:00",
+     "author": "Samarth Kanal",
+     "id": "4566f06d18",
+     "lead": [
+      "The value of each Formula 1 team has jumped 47% from $3.6billion USD in 2025 to $5.2bn in 2026 according to Forbes' 2026 report .",
+      "The report puts Ferrari highest at $9.5bn to Mercedes's $9.2bn, putting those two most valuable F1 teams on par with the top half of the NFL's teams, the three most valuable NBA teams, and Real Madrid.",
+      "F1's 11 teams are therefore valued at an average of $5.2bn and, not including Cadillac - which was absent from the 2025 rankings - the average is up to $5.4bn, a gain of 53% from last year."
+     ],
+     "leadKo": [
+      "Forbes의 2026년 보고서에 따르면 각 Formula 1 팀의 가치는 2025년 36억 달러에서 2026년 52억 달러로 47% 증가했습니다.",
+      "보고서는 페라리가 95억 달러로 가장 높았고 메르세데스는 92억 달러로 가장 가치 있는 두 F1 팀을 NFL 팀의 상위 절반, 가장 가치 있는 NBA 3개 팀, 레알 마드리드와 동등하게 평가했습니다.",
+      "따라서 F1의 11개 팀의 가치는 평균 52억 달러로 평가되며, 2025년 순위에 포함되지 않은 캐딜락을 제외하면 평균은 최대 54억 달러로 작년보다 53% 증가했습니다."
+     ],
+     "titleKo": "Forbes, 2026년 F1 팀 평가 발표",
+     "descKo": "Forbes의 2026년 보고서에 따르면 각 Formula 1 팀의 가치는 2025년 36억 달러에서 2026년 52억 달러로 47% 증가했습니다."
+    },
+    {
      "title": "Everything we learned from F1's wet Las Vegas GP practice running",
      "desc": "A wet Las Vegas GP practice day wasn't what F1 teams or drivers would've wanted. But it told us enough about some current limitations",
      "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-wet-practice-everything-we-learned/",
@@ -1906,6 +1948,8 @@
      "date": "2026-11-20T08:14:34+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "ecad2b49d5",
+     "titleKo": "F1의 라스베거스 GP 연습 달리기에서 배운 모든 것",
+     "descKo": "젖은 라스베거스 GP 연습일은 F1 팀이나 드라이버가 원했던 것이 아니었습니다. 하지만 이는 현재의 몇 가지 제한 사항에 대해 충분히 알려주었습니다.",
      "lead": [
       "A day of (very) wet running at the start of a Las Vegas Grand Prix weekend that's otherwise expected to be dry wasn't really what Formula 1 teams or drivers were looking for.",
       "Still, the lack of running and limited feedback told us plenty about some current limitations - and just how representative some surprises in the FP2 order are likely to be of what follows.",
@@ -1915,9 +1959,7 @@
       "라스베거스 그랑프리 주말이 시작될 때 건조할 것으로 예상되는 (매우) 젖은 달리기의 날은 실제로 Formula 1 팀이나 드라이버가 찾고 있던 것이 아니었습니다.",
       "그럼에도 불구하고 실행이 부족하고 피드백이 제한되어 있어 현재의 일부 제한 사항에 대해 많은 정보를 제공했으며 FP2 주문의 몇 가지 놀라움이 다음과 같이 얼마나 대표적인지 설명합니다.",
       "금요일의 첫 번째 연습 세션에서 전례 없는 시간 제한 랩의 부재는 라스베가스가 올해 습기로 인해 얼마나 더 악화되었는지를 슬프게 반영했습니다."
-     ],
-     "titleKo": "F1의 라스베거스 GP 연습 달리기에서 배운 모든 것",
-     "descKo": "젖은 라스베거스 GP 연습일은 F1 팀이나 드라이버가 원했던 것이 아니었습니다. 하지만 이는 현재의 몇 가지 제한 사항에 대해 충분히 알려주었습니다."
+     ]
     },
     {
      "title": "What next for Herta after 'disappointing' Bottas 2027 decision",
@@ -1927,6 +1969,8 @@
      "date": "2026-11-20T05:20:39+00:00",
      "author": "Ben Anderson",
      "id": "599f9185aa",
+     "titleKo": "Bottas 2027 결정에 '실망스러운' Herta의 다음 단계는 무엇입니까?",
+     "descKo": "캐딜락은 Valtteri Bottas를 고수한 후 \"실망한\" Colton Herta에게 2027년 예비 드라이버 역할을 제안했습니다.",
      "lead": [
       "The Cadillac Formula 1 team has offered a \"disappointed\" Colton Herta a reserve driver role for 2027, after choosing Valtteri Bottas to continue racing for the team next season.",
       "Cadillac ended speculation that Herta could replace Bottas by confirming ahead of the 2026 Las Vegas Grand Prix that Bottas would remain Sergio Perez's team-mate for at least one more season.",
@@ -1936,9 +1980,7 @@
       "Cadillac Formula 1 팀은 다음 시즌 팀을 위해 계속 경주하기 위해 Valtteri Bottas를 선택한 후 \"실망한\" Colton Herta에게 2027년 예비 드라이버 역할을 제안했습니다.",
       "캐딜락은 2026년 라스베이거스 그랑프리를 앞두고 보타스가 적어도 한 시즌 더 세르히오 페레즈의 팀 동료로 남을 것임을 확인함으로써 헤르타가 보타스를 대체할 수 있다는 추측을 끝냈습니다.",
       "Bottas는 이미 계약을 맺었지만 Cadillac은 Bottas가 종종 Perez와 대결하기 위해 고군분투하는 힘든 시즌을 보낸 후 Bottas가 보상을 받고 Herta로 교체될 수 있다는 추측을 누그러뜨리기를 거부했습니다."
-     ],
-     "titleKo": "Bottas 2027 결정에 '실망스러운' Herta의 다음 단계는 무엇입니까?",
-     "descKo": "캐딜락은 Valtteri Bottas를 고수한 후 \"실망한\" Colton Herta에게 2027년 예비 드라이버 역할을 제안했습니다."
+     ]
     },
     {
      "title": "What happened in wet Las Vegas Grand Prix FP2",
@@ -1948,6 +1990,8 @@
      "date": "2026-11-20T05:17:01+00:00",
      "author": "Matt Beer",
      "id": "35acc1c180",
+     "titleKo": "젖은 라스베거스 그랑프리 FP2에서 일어난 일",
+     "descKo": "Mercedes의 George Russell은 F1의 Las Vegas GP의 두 번째 연습에서 Pierre Gasly와 Alpine의 당황스러운 결과를 간신히 부인했습니다.",
      "lead": [
       "Mercedes' George Russell narrowly denied Pierre Gasly and Alpine an upset result in second practice for Formula 1's Las Vegas Grand Prix.",
       "Conditions remained wet for Thursday night's second session but were much more amenable than they had been in the puddle-strewn practice one in which no one even tried a flying lap and the most laps any driver completed was two.",
@@ -1957,9 +2001,7 @@
       "Mercedes의 George Russell은 Formula 1의 Las Vegas Grand Prix의 두 번째 연습에서 Pierre Gasly와 Alpine의 당황스러운 결과를 간신히 부인했습니다.",
       "목요일 밤의 두 번째 세션에서는 조건이 여전히 습했지만 아무도 플라잉 랩을 시도하지 않았고 완료한 최대 랩은 2랩이었던 웅덩이가 흩뿌려진 연습 세션보다 훨씬 더 순조로웠습니다.",
       "Lando Norris는 세션의 3분의 1 지점에서 습식 타이어에서 중간 타이어로의 전환을 이끌었고, 트랙이 끝까지 건조해지면서 시간은 계속해서 떨어졌습니다."
-     ],
-     "titleKo": "젖은 라스베거스 그랑프리 FP2에서 일어난 일",
-     "descKo": "Mercedes의 George Russell은 F1의 Las Vegas GP의 두 번째 연습에서 Pierre Gasly와 Alpine의 당황스러운 결과를 간신히 부인했습니다."
+     ]
     },
     {
      "title": "F1 2026 Las Vegas Grand Prix practice results",
@@ -1990,6 +2032,8 @@
      "date": "2026-11-20T04:48:23+00:00",
      "author": "Matt Beer",
      "id": "d9daada020",
+     "titleKo": "F1의 라스베거스 GP에서 최소 5명의 드라이버가 그리드 페널티를 받고 있습니다.",
+     "descKo": "2026년 F1 세계 챔피언 키미 안토넬리(Kimi Antonelli)를 포함한 최소 5명의 드라이버가 라스베거스 GP에서 그리드 페널티를 받게 됩니다.",
      "lead": [
       "At least five drivers, including 2026 world champion Kimi Antonelli, will take grid penalties for Formula 1's Las Vegas Grand Prix.",
       "The majority of those declared so far are related to drivers taking the updated power unit components Mercedes has made available for this event under its Additional Development and Upgrade Opportunities allowance.",
@@ -1999,9 +2043,7 @@
       "2026년 세계 챔피언 키미 안토넬리(Kimi Antonelli)를 포함해 최소 5명의 드라이버가 포뮬러 1 라스베이거스 그랑프리에서 그리드 페널티를 받게 됩니다.",
       "지금까지 선언된 것의 대부분은 Mercedes가 추가 개발 및 업그레이드 기회 수당에 따라 이 이벤트에 사용할 수 있는 업데이트된 동력 장치 구성 요소를 사용하는 운전자와 관련이 있습니다.",
       "6대의 자동차 중 5대가 업그레이드를 받고 있습니다. 여기에는 수정된 터보차저가 포함되지만 특별히 큰 성능 향상이 있을 것으로 예상되지는 않습니다."
-     ],
-     "titleKo": "F1의 라스베거스 GP에서 최소 5명의 드라이버가 그리드 페널티를 받고 있습니다.",
-     "descKo": "2026년 F1 세계 챔피언 키미 안토넬리(Kimi Antonelli)를 포함한 최소 5명의 드라이버가 라스베거스 GP에서 그리드 페널티를 받게 됩니다."
+     ]
     },
     {
      "title": "No times set at all in Las Vegas FP1 washout",
@@ -2043,48 +2085,6 @@
       "나이키는 모터스포츠에서 벗어난 지 24년 만에 포뮬러 1의 공식 파트너가 되어 2026년 라스베이거스 그랑프리 기간 동안 첫 콜라보레이션을 시작합니다.",
       "미국 패션 및 스포츠웨어 브랜드는 독일 브랜드 Puma를 대체하여 장기적인 파트너십을 통해 F1의 공식 의류 및 유니폼 공급업체가 될 것이며 팬들에게 공식 Nike F1 상품을 구매할 기회도 제공할 것입니다.",
       "첫 번째 Formula 1 x Nike 컬렉션은 한정판 Las Vegas GP 브랜드 컬렉션이 도시의 Venetian Hotel에 있는 F1 Hub와 Nike의 Las Vegas 매장에 상륙하는 11월 20일에 출시될 예정입니다."
-     ]
-    },
-    {
-     "title": "Major F1 stewarding revamp coming for 2027",
-     "desc": "Full-time stewards will be used in Formula 1 for the first time from the 2027 F1 season",
-     "link": "https://www.the-race.com/formula-1/f1-to-use-full-time-stewards-from-2027/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1439729_HiRes.jpg",
-     "date": "2026-11-19T20:23:09+00:00",
-     "author": "Samarth Kanal",
-     "id": "842c1b71c1",
-     "titleKo": "2027년에 주요 F1 스튜어딩 개편 예정",
-     "descKo": "2027년 F1 시즌부터 처음으로 포뮬러 1에 풀타임 스튜어드가 투입된다.",
-     "lead": [
-      "Full-time stewards will be used in Formula 1 for the first time from the 2027 F1 season, the FIA has announced.",
-      "The FIA will recruit a \"small number\" of full-time stewards for the new season and ramp up its programme in 2028, eventually establishing 12-15 full-time stewards.",
-      "A mix of full-time and part-time stewards will therefore be used for the \"foreseeable future\"."
-     ],
-     "leadKo": [
-      "FIA는 2027년 F1 시즌부터 처음으로 포뮬러 1에 풀타임 스튜어드가 투입될 것이라고 발표했다.",
-      "FIA는 새 시즌을 위해 \"소수\"의 풀타임 스튜어드를 모집하고 2028년에 프로그램을 강화하여 최종적으로 12~15명의 풀타임 스튜어드를 구성할 예정입니다.",
-      "따라서 \"가까운 미래\"에는 풀타임 및 파트타임 관리인이 혼합되어 사용될 것입니다."
-     ]
-    },
-    {
-     "title": "New F1 season ticket winner revealed",
-     "desc": "Czech fan Lukas Chalabala has been revealed as the winner of the Heineken x F1 Season Ticket for 2027 at the Las Vegas Grand Prix",
-     "link": "https://www.the-race.com/extra/new-f1-season-ticket-winner-revealed/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/Heineken_F1_LasVegas_SeasonTicket2027-1.jpg",
-     "date": "2026-11-19T14:01:51+00:00",
-     "author": "Glenn Freeman",
-     "id": "0a53dae314",
-     "titleKo": "새로운 F1 시즌 티켓 당첨자 공개",
-     "descKo": "체코 팬 루카스 찰라발라(Lukas Chalabala)가 라스베이거스 그랑프리의 2027년 하이네켄 x F1 시즌 티켓 당첨자로 공개됐다.",
-     "lead": [
-      "Czech fan Lukas Chalabala has been revealed as the winner of the Heineken x F1 Season Ticket for 2027 at the Las Vegas Grand Prix. Chalabala was presented with his prize by inaugural winner Brandon Burgess, and the pair were then surprised by four-time F1 champion Max Verstappen who gatecrashed the presentation, having also presented Burgess with his prize in late-2025. The winner of the Heineken x F1 Season Ticket gets to attend every race on…",
-      "“It’s a truly special way to experience Formula 1, both on and off the track.”",
-      "00:00 Skip ad Latest Extra Stories Lego launches F1 Speed Champions collection featuring all 22 2026 drivers Verstappen isn't a fan of F1's 2027 biometric data plan McLaren to sell 2027 F1 car before it races Article tags:"
-     ],
-     "leadKo": [
-      "체코 팬 루카스 찰라발라(Lukas Chalabala)가 라스베이거스 그랑프리에서 2027년 하이네켄 x F1 시즌 티켓 당첨자로 공개됐다. Chalabala는 창립 우승자 Brandon Burgess로부터 상을 받았고, 두 사람은 2025년 말에 Burgess에게 상을 수여한 후 프레젠테이션을 성황리에 마친 4회 F1 챔피언 Max Verstappen에게 놀랐습니다. Heineken x F1 시즌 티켓의 우승자는 다음의 모든 레이스에 참석할 수 있습니다.",
-      "\"트랙 안팎에서 Formula 1을 경험할 수 있는 정말 특별한 방법입니다.\"",
-      "00:00 광고 건너뛰기 최신 추가 스토리 레고, 2026년 드라이버 22명 전원이 포함된 F1 스피드 챔피언 컬렉션 출시 Verstappen은 F1의 2027년 생체 인식 데이터 계획 McLaren이 2027년 F1 자동차를 경주하기 전에 판매하는 것을 좋아하지 않습니다. 기사 태그:"
      ]
     }
    ]
