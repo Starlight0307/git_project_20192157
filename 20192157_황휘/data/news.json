@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:21:23+00:00",
+ "updated": "2026-11-20T12:58:57+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -13,26 +13,26 @@
      "title": "2026 Las Vegas Grand Prix",
      "titleKo": "2026 라스베거스 그랑프리",
      "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las…",
-     "descKo": "2026년 라스베이거스 그랑프리(공식 명칭: 2026년 포뮬러원 하이네켄 라스베이거스 그랑프리)는 2026년 11월 21일 네바다주 라스베이거스의 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러원 모터 레이스입니다. 이 경기는 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드가 될 것입니다.",
+     "descKo": "2026 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다.",
      "link": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "2023_Las_Vegas_street_circuit.svg",
-     "date": "2026-11-20T01:47:26Z",
+     "date": "2026-11-20T10:23:19Z",
      "raceDate": "2026-11-22",
      "author": "위키백과 편집자들",
-     "revid": 1386701564,
+     "revid": 1386756164,
      "license": "CC BY-SA 4.0",
      "body": [
       {
        "h": "",
        "level": 1,
        "p": [
-        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It will be the twenty-first round of the 2026 Formula One World Championship."
+        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It is the twenty-first round of the 2026 Formula One World Championship."
        ],
        "hKo": "",
        "pKo": [
-        "2026년 라스베이거스 그랑프리(공식 명칭: 2026년 포뮬러원 하이네켄 라스베이거스 그랑프리)는 2026년 11월 21일 네바다주 라스베이거스의 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러원 모터 레이스입니다. 이 경기는 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드가 될 것입니다."
+        "2026 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다."
        ]
       },
       {
@@ -61,19 +61,21 @@
        "h": "Entrants",
        "level": 3,
        "p": [
-        "The drivers and teams are set to be the same as published in the season entry list with the only exception of Rafael Câmara, who will again replace Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
-        "During the first practice session, three teams will field alternate drivers who have not raced in more than two Grands Prix, as required by the Formula One regulations:",
+        "The drivers and teams are the same as published in the season entry list with the only exception of Rafael Câmara, who is again replacing Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
+        "During the first practice session, three teams fielded alternate drivers who had not raced in more than two Grands Prix, as required by the Formula One regulations:",
         "Ryo Hirakawa for Haas in place of Oliver Bearman.",
         "Dino Beganovic for Ferrari in place of Lewis Hamilton.",
-        "Jak Crawford for Aston Martin in place of Fernando Alonso."
+        "Jak Crawford for Aston Martin in place of Fernando Alonso.",
+        "As wet conditions limited the running of the first free practice session, Hirakawa, Beganovic, and Crawford made only installation laps."
        ],
        "hKo": "출전 명단",
        "pKo": [
-        "드라이버와 팀은 시즌 참가자 명단에 발표된 것과 동일할 예정입니다. 단, 멕시코시티 그랑프리에서 팀과 의견 충돌이 있어 라인업에서 제외된 에스테반 오콘을 하스의 라파엘 카마라가 다시 대체할 예정입니다.",
-        "첫 번째 연습 세션 동안 세 팀은 Formula One 규정에 따라 두 번 이상 그랑프리에 참가하지 않은 대체 드라이버를 배치하게 됩니다.",
+        "드라이버와 팀은 Haas에서 다시 Esteban Ocon을 교체하는 Rafael Câmara를 제외하고는 시즌 참가 목록에 게시된 것과 동일합니다. 그는 멕시코 시티 그랑프리에서 팀과의 불일치로 인해 라인업에서 제외되었습니다.",
+        "첫 번째 연습 세션 동안 세 팀은 Formula One 규정에 따라 두 번 이상 그랑프리에 참가하지 않은 대체 드라이버를 배치했습니다.",
         "올리버 베어맨 대신 하스의 료 히라카와.",
         "루이스 해밀턴 대신 페라리의 디노 베가노비치.",
-        "Fernando Alonso 대신 Aston Martin의 Jak Crawford가 등장합니다."
+        "Fernando Alonso 대신 Aston Martin의 Jak Crawford가 등장합니다.",
+        "습한 조건으로 인해 첫 번째 무료 연습 세션의 진행이 제한되었으므로 Hirakawa, Beganovic 및 Crawford는 설치 랩만 수행했습니다."
        ]
       },
       {
@@ -91,11 +93,11 @@
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions will be held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). No times were set during the session due to delays caused by rain. The second free practice session will be held on the same day, at 20:00 local time. The third practice session will be held on November 20, 2026, at 16:30 local time."
+        "Three free practice sessions are being held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). No times were set during the session due to rain. The second free practice session was held on the same day, at 20:00 local time, and was topped by George Russell (Mercedes) ahead of Pierre Gasly (Alpine) and Charles Leclerc (Ferrari). A red flag was observed due to debris on track. The third practice session will be held on November 20, 2026, at 16:30 local time."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인한 지연으로 인해 세션 중 시간이 설정되지 않았습니다. 두 번째 무료 연습 세션은 같은 날 현지 시간 20:00에 진행됩니다. 세 번째 연습 세션은 현지 시간으로 2026년 11월 20일 16시 30분에 진행됩니다."
+        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인해 세션 중 시간이 설정되지 않았습니다. 같은 날 현지시간 20시 20분에 열린 2차 자유연습 세션에서는 조지 러셀(메르세데스)이 피에르 가슬리(알파인), 찰스 르클레르(페라리)에 앞서 1위를 차지했다. 선로의 잔해로 인해 레드 플래그가 관찰되었습니다. 세 번째 연습 세션은 현지 시간으로 2026년 11월 20일 16시 30분에 진행됩니다."
        ]
       },
       {
@@ -1702,193 +1704,193 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
-     "title": "F1 Las Vegas GP: Rain ruins FP1 running",
-     "desc": "\"If we're on a track like Vegas and it rains, honestly, I think we're in trouble,\" Racing Bulls driver Liam Lawson predicted after sampling this year's rain tyres in Brazil. His…",
-     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-rain-washes-out-fp1/10875778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6grQkG7Y/s6/isack-hadjar-red-bull-racing-3.jpg",
-     "date": "2026-11-20T01:46:06+00:00",
+     "title": "Max Verstappen: “I really thought that we would not win a race this year”",
+     "desc": "Heading into the Las Vegas Grand Prix on a run of eight consecutive podiums, Max Verstappen looks every bit the force who dominated Formula 1 earlier this decade. Back in March,…",
+     "link": "https://www.motorsport.com/f1/news/max-verstappen-i-really-thought-that-we-would-not-win-a-race-this-year/10875990/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YXyKX156/s6/max-verstappen-red-bull-racing-a10875990-b707-2.jpg",
+     "date": "2026-11-20T12:43:44+00:00",
      "author": "",
-     "id": "3699c899c5",
+     "id": "4e08519199",
      "lead": [
-      "\"If we're on a track like Vegas and it rains, honestly, I think we're in trouble,\" Racing Bulls driver Liam Lawson predicted after sampling this year's rain tyres in Brazil.",
-      "His comments reflected the general mood in the paddock, as the Pirelli tyres are difficult to bring up to temperature, especially at a circuit with low cornering speeds and glacial temperatures like the 6km street circuit in the gambling haven.",
-      "Lawson's comments proved relevant as the heavens opened intermittently in Nevada on Thursday morning, and more rain arrived right before the start of FP1 at 4:30 pm local time."
+      "Heading into the Las Vegas Grand Prix on a run of eight consecutive podiums, Max Verstappen looks every bit the force who dominated Formula 1 earlier this decade. Back in March, however, the four-time world champion was braced for his first winless campaign since 2015.",
+      "Speaking during Las Vegas media day, Verstappen reflected on the scale of Red Bull Racing ’s mid-season recovery during Formula 1’s sweeping 2026 chassis and engine overhaul - the team’s first year running its in-house Red Bull Ford power unit.",
+      "\"Did I personally expect it to be like this after the first few rounds? For sure not,\" Verstappen said. \"I really thought that we would not win a race this year and now we are constantly fighting for a win or close to it.\""
      ],
      "leadKo": [
-      "Racing Bulls 드라이버 Liam Lawson은 올해 브라질에서 레인 타이어를 샘플링한 후 \"우리가 라스베가스 같은 트랙에 있는데 비가 오면 솔직히 문제가 된다고 생각합니다\"라고 예측했습니다.",
-      "그의 발언은 피렐리 타이어의 온도를 올리기가 어렵기 때문에 목장의 일반적인 분위기를 반영했습니다. 특히 도박장에 있는 6km 거리 서킷과 같이 낮은 코너링 속도와 빙하 온도를 지닌 서킷에서는 더욱 그렇습니다.",
-      "Lawson의 발언은 목요일 아침 네바다에서 간헐적으로 하늘이 열렸고 현지 시간으로 오후 4시 30분에 FP1이 시작되기 직전에 더 많은 비가 내렸기 때문에 관련성이 있음이 입증되었습니다."
+      "8회 연속 시상대에 오르며 라스베거스 그랑프리를 향해 나아가는 Max Verstappen은 모든 면에서 지난 10년 초 Formula 1을 지배했던 힘으로 보입니다. 하지만 지난 3월, 4차례 세계 챔피언을 차지한 이 선수는 2015년 이후 처음으로 무승부 캠페인을 벌일 준비가 되어 있었습니다.",
+      "Verstappen은 라스베거스 미디어 데이에서 연설하면서 Formula 1의 2026년 섀시 및 엔진 정비 기간 중 Red Bull Racing의 시즌 중반 회복 규모에 대해 회상했습니다. 이는 팀이 사내 Red Bull Ford 동력 장치를 운영한 첫해였습니다.",
+      "Verstappen은 \"처음 몇 라운드 이후에 이렇게 될 것이라고 개인적으로 예상했나요? 물론 그렇지는 않습니다.\"라고 말했습니다. \"나는 올해 우리가 경주에서 이기지 못할 것이라고 정말로 생각했고 지금 우리는 승리를 위해 끊임없이 싸우고 있습니다.\""
      ],
-     "titleKo": "F1 Las Vegas GP: 비가 FP1의 달리기를 망쳤습니다.",
-     "descKo": "Racing Bulls 드라이버 Liam Lawson은 올해 브라질에서 레인 타이어를 샘플링한 후 \"우리가 라스베가스 같은 트랙에 있는데 비가 오면 솔직히 문제가 된다고 생각합니다\"라고 예측했습니다. 그의…"
+     "titleKo": "Max Verstappen: “올해는 우리가 경주에서 우승하지 못할 거라고 정말 생각했어요.”",
+     "descKo": "8회 연속 시상대에 오르며 라스베거스 그랑프리를 향해 나아가는 Max Verstappen은 모든 면에서 지난 10년 초 Formula 1을 지배했던 힘으로 보입니다. 지난 3월,…"
     },
     {
-     "title": "Lando Norris confident F1 would not \"put us at risk\" in the Middle East",
-     "desc": "2025 Formula 1 champion Lando Norris says he has no concerns about the final two races of the season in the Middle East, insisting the championship would not put its drivers and…",
-     "link": "https://www.motorsport.com/f1/news/lando-norris-confident-f1-would-not-put-us-at-risk-in-the-middle-east/10875771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6grQk1aY/s6/lando-norris-mclaren-a10875771-b706-2.jpg",
-     "date": "2026-11-20T01:19:15+00:00",
+     "title": "Fernando Alonso returns to Dakar: Why his first rally-raid experience was a shock to the system",
+     "desc": "While Fernando Alonso reiterated in Las Vegas that, in his view, Formula 1 has thrown away 16 years of pure racing before the return of V8 engines in 2030, the Spaniard continues…",
+     "link": "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin.jpg",
+     "date": "2026-11-20T12:15:03+00:00",
      "author": "",
-     "id": "172830d227",
+     "id": "a44ef0fb69",
      "lead": [
-      "2025 Formula 1 champion Lando Norris says he has no concerns about the final two races of the season in the Middle East, insisting the championship would not put its drivers and teams at risk.",
-      "After this weekend's race in Las Vegas, the championship heads to Qatar from 27-29 November and then Abu Dhabi from 4-6 December.",
-      "F1 has had to adapt its calendar this year because of the situation in the region, with the Bahrain Grand Prix moved to Malaysia and the Saudi Arabian Grand Prix cancelled. Imola had been considered as a replacement venue if the final two races in Qatar and Abu Dhabi were unable to go ahead, but the Italian venue has now been ruled out."
+      "While Fernando Alonso reiterated in Las Vegas that, in his view, Formula 1 has thrown away 16 years of pure racing before the return of V8 engines in 2030, the Spaniard continues to seek those pure challenges outside the pinnacle of motorsport as well.",
+      "It had been known in the paddock for some time that Alonso would return to the Dakar Rally this winter for the first time since 2020, although the two-time F1 world champion still played games with the media ahead of the official announcement.",
+      "Asked whether he would actually head to the Dakar, Alonso replied that he considered it “almost impossible”, particularly because the challenge is so different from F1."
      ],
      "leadKo": [
-      "2025년 포뮬러 1 챔피언 랜도 노리스(Lando Norris)는 중동에서 열리는 시즌의 마지막 두 레이스에 대해 걱정하지 않으며 챔피언십이 드라이버와 팀을 위험에 빠뜨리지 않을 것이라고 주장했습니다.",
-      "이번 주말 라스베이거스에서 열리는 경주가 끝난 후 챔피언십은 11월 27~29일 카타르, 12월 4~6일 아부다비로 향합니다.",
-      "F1은 바레인 그랑프리가 말레이시아로 옮겨지고 사우디아라비아 그랑프리가 취소되는 등 지역 상황으로 인해 올해 일정을 조정해야 했습니다. 이몰라(Imola)는 카타르와 아부다비에서 열리는 마지막 두 경주가 진행될 수 없을 경우 대체 장소로 고려됐지만, 이제 이탈리아 장소는 제외됐다."
+      "페르난도 알론소(Fernando Alonso)는 라스베가스에서 포뮬러 1이 2030년 V8 엔진이 복귀하기 전까지 16년간의 순수한 경주를 버렸다고 거듭 강조했지만, 이 스페인 사람은 모터스포츠의 정점 밖에서도 계속해서 순수한 도전을 추구하고 있습니다.",
+      "Alonso가 2020년 이후 처음으로 이번 겨울 다카르 랠리에 복귀할 것이라는 사실은 오랫동안 패독에서 알려졌지만, 두 차례 F1 세계 챔피언을 차지한 알론소는 공식 발표에 앞서 여전히 언론과 경기를 펼쳤습니다.",
+      "실제로 다카르로 향할 것인지 묻는 질문에 알론소는 특히 이 도전이 F1과 너무 다르기 때문에 \"거의 불가능\"하다고 생각한다고 답했습니다."
      ],
-     "titleKo": "Lando Norris는 F1이 중동에서 \"우리를 위험에 빠뜨리지 않을 것\"이라고 확신했습니다.",
-     "descKo": "2025년 포뮬러 1 챔피언 랜도 노리스(Lando Norris)는 중동에서 열리는 이번 시즌의 마지막 두 레이스에 대해 걱정하지 않는다고 말하며 챔피언십이 드라이버를 투입하지 않을 것이라고 주장했습니다."
+     "titleKo": "페르난도 알론소(Fernando Alonso)가 다카르로 돌아왔습니다: 그의 첫 랠리 레이드 경험이 시스템에 충격을 준 이유",
+     "descKo": "페르난도 알론소(Fernando Alonso)는 라스베거스에서 자신의 견해로 포뮬러 1이 2030년 V8 엔진이 복귀하기 전까지 16년간의 순수한 경주를 버렸다고 반복했지만, 이 스페인 사람은 계속해서…"
     },
     {
-     "title": "Nike joins F1 as apparel partner",
-     "desc": "Athletic apparel giant Nike has joined F1 as its official partner and uniform supplier, taking over from Puma at the start of 2027. As was long rumoured, Nike will start supplying…",
-     "link": "https://www.motorsport.com/f1/news/nike-joins-f1-as-apparel-partner/10875754/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6O7zEMP6/s6/nike-x-formula-1.jpg",
-     "date": "2026-11-20T00:22:25+00:00",
+     "title": "How the F1 2026 regulations neutered Oscar Piastri's \"real strength\"",
+     "desc": "McLaren boss Zak Brown reckons Oscar Piastri’s struggles in the 2026 Formula 1 season stem from high-speed corners being his strength - but the new cars require a different…",
+     "link": "https://www.motorsport.com/f1/news/how-the-f1-2026-regulations-neutered-oscar-piastris-real-strength/10875907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0qgKkE4Y/s6/oscar-piastri-mclaren.jpg",
+     "date": "2026-11-20T11:30:03+00:00",
      "author": "",
-     "id": "97c5604cdc",
+     "id": "5fafcf945d",
      "lead": [
-      "Athletic apparel giant Nike has joined F1 as its official partner and uniform supplier, taking over from Puma at the start of 2027.",
-      "As was long rumoured, Nike will start supplying F1 personnel with apparel and footwear form the start of next season, a partnership that also extends to F1 Academy, which had both been using Puma kit until this year.",
-      "The athletic company will also come up with F1-inspired retail collections, the first of which will go on sale on Friday and be centred around the Las Vegas Grand Prix."
+      "McLaren boss Zak Brown reckons Oscar Piastri ’s struggles in the 2026 Formula 1 season stem from high-speed corners being his strength - but the new cars require a different technique.",
+      "F1 introduced its latest regulation overhaul this year with power units being more electrical, causing battery management to contentiously play a key role in the racing.",
+      "It means cars can’t always go as flat out like before, instead sometimes going slower to preserve battery for another part of a lap with high-speed corners a prime example of this."
      ],
      "leadKo": [
-      "운동복 거대 기업인 나이키(Nike)가 F1의 공식 파트너이자 유니폼 공급업체로 합류해 2027년 초 푸마(Puma)를 인수하게 되었습니다.",
-      "오랜 소문에 따르면 나이키는 다음 시즌부터 F1 직원들에게 의류와 신발을 공급하기 시작할 예정이며, 이는 올해까지 푸마 키트를 사용해 온 F1 아카데미에도 적용되는 파트너십입니다.",
-      "스포츠 회사는 또한 F1에서 영감을 받은 소매 컬렉션을 선보일 예정이며, 그 중 첫 번째 컬렉션은 금요일에 판매될 예정이며 라스베거스 그랑프리를 중심으로 진행됩니다."
+      "McLaren의 사장 Zak Brown은 2026년 Formula 1 시즌에서 Oscar Piastri의 부진이 고속 코너링에서 비롯되었다고 생각합니다. 하지만 새 자동차에는 다른 기술이 필요합니다.",
+      "F1은 올해 최신 규제 정비를 도입했습니다. 동력 장치가 더욱 전기화되면서 배터리 관리가 경주에서 핵심적인 역할을 하게 되었습니다.",
+      "이는 자동차가 항상 이전처럼 평탄하게 주행할 수는 없으며, 대신 고속 코너가 있는 랩의 다른 부분을 위해 배터리를 절약하기 위해 때로는 느리게 주행하는 경우가 이에 대한 대표적인 예입니다."
      ],
-     "titleKo": "나이키, F1 의류 파트너로 합류",
-     "descKo": "운동복 거대 기업인 나이키(Nike)가 F1의 공식 파트너이자 유니폼 공급업체로 합류해 2027년 초 푸마(Puma)를 인수했습니다. 오랜 소문에 따르면 나이키는 유니폼 공급을 시작할 예정입니다."
+     "titleKo": "F1 2026 규정이 어떻게 오스카 피아스트리의 \"진정한 힘\"을 무력화시켰는가?",
+     "descKo": "McLaren의 Zak Brown 감독은 2026년 Formula 1 시즌에서 Oscar Piastri의 부진이 고속 코너링에서 비롯되었다고 생각합니다. 그러나 새로운 자동차에는 다른 것이 필요합니다..."
     },
     {
-     "title": "Lewis Hamilton backs V8 return, hits out at 2026 engines “dying” on straights",
-     "desc": "Lewis Hamilton has raced through every season of Formula 1's V6 turbo-hybrid era, and he is not shy about what the latest rules are getting wrong. Speaking on Las Vegas Grand Prix…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/Y9lNEBG2/s6/lewis-hamilton-ferrari-a10875488-b704-4.jpg",
-     "date": "2026-11-19T22:50:25+00:00",
+     "title": "What Flavio Briatore takes from McLaren after Fernando Alonso \"disaster\"",
+     "desc": "Disappointment, infighting, and a revolving door of senior personnel have characterised Alpine's ‘lost decade' after Renault acquired the Enstone-based team at the end of 2015.…",
+     "link": "https://www.motorsport.com/f1/news/what-flavio-briatore-takes-from-mclaren-after-fernando-alonso-disaster/10875964/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/6lmAlV80/s6/flavio-briatore-alpine.jpg",
+     "date": "2026-11-20T10:45:02+00:00",
      "author": "",
-     "id": "74d804e1b1",
+     "id": "69039dbe2f",
      "lead": [
-      "Lewis Hamilton has raced through every season of Formula 1's V6 turbo-hybrid era, and he is not shy about what the latest rules are getting wrong. Speaking on Las Vegas Grand Prix media day, the seven-time world champion welcomed the FIA's push to bring back V8 engines - while taking a blunt jab at how the current 2026 power units fade down the straights.",
-      "V8 talk took over the Nevada paddock after FIA President Mohammed Ben Sulayem posted an Instagram teaser on Tuesday featuring V8 audio and the caption, \"You spoke, we listened. V8s coming soon.\" Official FIA channels briefly published and deleted graphics referencing an agreement in principle for 2030, following a meeting between the governing body, Formula One Management, and engine manufacturers.",
-      "Asked in Las Vegas how he felt about a potential V8 comeback in 2030 or 2031, Hamilton pointed straight to the acoustic drop-off since F1 retired its naturally aspirated 2.4-litre V8s after 2013."
+      "Disappointment, infighting, and a revolving door of senior personnel have characterised Alpine's ‘lost decade' after Renault acquired the Enstone-based team at the end of 2015.",
+      "Current boss Flavio Briatore says Alpine can take some inspiration from McLaren , which claimed the constructors' championship in 2024 and '25, and helped Lando Norris to the drivers' title last year. McLaren endured a long fallow period in the 2010s, going eight seasons without a win and twice finishing ninth in the constructors' standings.",
+      "Alpine finished at the bottom of the table in 2025 after several seasons of bumping around in the midfield. It is currently sixth."
      ],
      "leadKo": [
-      "루이스 해밀턴은 Formula 1의 V6 터보 하이브리드 시대의 모든 시즌을 경주해 왔으며 최신 규칙이 무엇에 잘못되었는지에 대해 부끄러워하지 않았습니다. 라스베거스 그랑프리 미디어 데이에서 7회 세계 챔피언에 빛나는 그는 V8 엔진을 다시 가져오려는 FIA의 추진을 환영하는 동시에 현재의 2026년형 동력 장치가 직선로에서 어떻게 사라지고 있는지에 대해 직설적으로 비난했습니다.",
-      "V8 토크는 FIA 회장 Mohammed Ben Sulayem이 화요일에 V8 오디오가 포함된 인스타그램 티저와 \"당신이 말했고 우리는 들었습니다. V8이 곧 출시됩니다.\"라는 캡션을 게시한 후 네바다 방목장을 인수했습니다. 공식 FIA 채널은 운영 기관, Formula One 경영진 및 엔진 제조업체 간의 회의 후 2030년 원칙에 대한 합의를 참조하는 그래픽을 간략하게 게시하고 삭제했습니다.",
-      "라스베거스에서 2030년이나 2031년에 V8이 다시 돌아올 가능성에 대해 어떻게 생각하느냐는 질문에 해밀턴은 F1이 2013년 이후 자연 흡기 2.4리터 V8 엔진을 폐기한 이후 음향 감소를 직접적으로 지적했습니다."
+      "2015년 말 르노가 엔스톤 기반 팀을 인수한 후 알파인의 '잃어버린 10년'은 실망, 내분, 고위 인사의 회전문으로 특징지어졌습니다.",
+      "현 사장인 플라비오 브리아토레(Flavio Briatore)는 알파인이 2024년과 2025년에 컨스트럭터 챔피언십을 차지했고 지난해 랜도 노리스(Lando Norris)가 드라이버 타이틀을 차지하도록 도운 맥라렌에게서 영감을 얻을 수 있다고 말했습니다. McLaren은 2010년대에 긴 휴경 기간을 견뎌내며 8시즌을 무승부로 보냈고 두 번이나 건설사 순위에서 9위를 기록했습니다.",
+      "알파인은 여러 시즌 동안 미드필더에서 활약한 끝에 2025년 최하위에 머물렀습니다. 현재 6위입니다."
      ],
-     "titleKo": "루이스 해밀턴, V8 복귀 지지, 직선 주행에서 \"죽어가는\" 2026개 엔진 공격",
-     "descKo": "루이스 해밀턴은 Formula 1의 V6 터보 하이브리드 시대의 모든 시즌을 경주해 왔으며 최신 규칙이 무엇에 잘못되었는지에 대해 부끄러워하지 않았습니다. 라스베거스 그랑프리에 대해 말하다…"
+     "titleKo": "페르난도 알론소의 '재난' 이후 플라비오 브리아토레가 맥라렌에서 가져간 것",
+     "descKo": "2015년 말 르노가 엔스톤 기반 팀을 인수한 후 알파인의 '잃어버린 10년'은 실망, 내분, 고위 인사의 회전문으로 특징지어졌습니다.…"
     },
     {
-     "title": "FIA to introduce full-time F1 stewards from 2027 to improve consistency",
-     "desc": "The consistency of stewards’ decisions has been a topic of discussion in the Formula 1 paddock for years. While the complexity of the sporting regulations and racing guidelines is…",
-     "link": "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/25dLdEQ0/s6/race-start-2.jpg",
-     "date": "2026-11-19T20:48:50+00:00",
+     "title": "\"It was scary at 100km/h\" - F1 drivers shocked by Las Vegas 'ice rink'",
+     "desc": "With rain affecting Thursday's Las Vegas Grand Prix running on the low-grip street circuit around the Strip, the biggest takeaway was not who was fastest, but the impressive fact…",
+     "link": "https://www.motorsport.com/f1/news/it-was-scary-at-100km-h-f1-drivers-shocked-by-las-vegas-ice-rink/10875954/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YMXb8El2/s6/arvid-lindblad-racing-bulls.jpg",
+     "date": "2026-11-20T10:08:40+00:00",
      "author": "",
-     "id": "e82ed17e13",
-     "titleKo": "FIA, 일관성 향상을 위해 2027년부터 풀타임 F1 스튜어드 도입",
-     "descKo": "스튜어드 결정의 일관성은 Formula 1 패독에서 수년간 논의의 주제였습니다. 스포츠 규정과 경주 지침은 복잡하지만…",
+     "id": "53a454901d",
      "lead": [
-      "The consistency of stewards’ decisions has been a topic of discussion in the Formula 1 paddock for years. While the complexity of the sporting regulations and racing guidelines is one factor, another question keeps coming up: would a permanent panel of stewards improve consistency?",
-      "From 2027, the FIA will take a step in that direction. The governing body announced on Thursday that it will gradually move towards full-time stewards, with the first phase beginning in 2027.",
-      "The intention is to recruit a panel of 12 to 15 full-time stewards, although that number will only be reached over time. The first full-time stewards will be recruited during the 2027 season, who will be joined at each race by the usual part-time stewards and a driver’s steward, whose specialist knowledge and perspective as a former racing driver will remain part of the process."
+      "With rain affecting Thursday's Las Vegas Grand Prix running on the low-grip street circuit around the Strip, the biggest takeaway was not who was fastest, but the impressive fact that every Formula 1 driver kept it out of the barriers.",
+      "Following F1's first proper wet weekend of the year in Brazil, using both the full wets and intermediates tyres in qualifying and race conditions, drivers were concerned over how Pirelli's wet weather range would work on a circuit without high-speed corners, where tyres are much harder to get up to temperature.",
+      "\"I think the scary times are if you go to Vegas and you can't get any tyre temperature,\" McLaren's Lando Norris said after the Sao Paulo race, with Racing Bulls driver Liam Lawson adding: \"If we're on a track like Vegas and it rains, honestly, I think we're in trouble.\""
      ],
      "leadKo": [
-      "스튜어드 결정의 일관성은 Formula 1 패독에서 수년간 논의의 주제였습니다. 스포츠 규정과 경주 지침의 복잡성이 하나의 요인이기는 하지만, 또 다른 질문이 계속 제기됩니다. 영구 관리인 패널이 일관성을 향상시킬 수 있을까요?",
-      "2027년부터 FIA는 그 방향으로 한 걸음 나아갈 것입니다. 치리회는 목요일에 2027년부터 첫 번째 단계를 시작으로 점진적으로 전임 청지기로 전환할 것이라고 발표했습니다.",
-      "목표는 12~15명의 풀타임 관리인으로 구성된 패널을 모집하는 것이지만, 그 숫자는 시간이 지나면서 도달하게 됩니다. 첫 번째 풀타임 스튜어드는 2027년 시즌에 모집될 예정이며, 각 레이스에는 일반적인 파트타임 스튜어드와 드라이버 스튜어드가 합류하게 됩니다. 이들의 전직 레이싱 드라이버로서의 전문 지식과 관점은 이 과정의 일부로 남게 됩니다."
-     ]
+      "목요일 라스베거스 그랑프리가 스트립 주변의 접지력이 낮은 서킷에서 진행되는 동안 비가 내리는 상황에서 가장 중요한 점은 누가 가장 빠른가가 아니라 모든 Formula 1 드라이버가 장애물을 피했다는 인상적인 사실이었습니다.",
+      "브라질에서 열린 F1의 첫 번째 적절한 젖은 주말에 이어 예선 및 경주 조건에서 전체 젖은 타이어와 중간 타이어를 모두 사용하면서 운전자는 타이어가 온도에 도달하기 훨씬 어려운 고속 코너가 없는 서킷에서 Pirelli의 습한 날씨 범위가 어떻게 작동할지에 대해 우려했습니다.",
+      "McLaren의 Lando Norris는 상파울루 경주가 끝난 후 \"베가스에 갔을 때 타이어 온도를 전혀 얻을 수 없을 때 무서운 시기라고 생각합니다.\"라고 말했고, Racing Bulls 드라이버 Liam Lawson은 이렇게 덧붙였습니다. \"만약 우리가 베가스 같은 트랙에서 비가 오면 솔직히 우리는 곤경에 처한 것 같습니다.\""
+     ],
+     "titleKo": "\"시속 100㎞ 무서웠다\" - 라스베이거스 '아이스링크'에 충격받은 F1 드라이버들",
+     "descKo": "스트립 주변의 접지력이 낮은 서킷에서 진행되는 목요일 라스베거스 그랑프리에 비가 내리는 가운데 가장 중요한 점은 누가 가장 빠른가가 아니라 인상적인 사실이었습니다."
     },
     {
-     "title": "Oscar Piastri addresses management plans after Mark Webber split",
-     "desc": "McLaren Formula 1 driver Oscar Piastri says his upcoming management structure is yet to be defined, after his partnership with managers Ann and Mark Webber was terminated. Piastri…",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-addresses-management-plans-after-mark-webber-split/10875654/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6zoDBPe0/s6/oscar-piastri-mclaren-2.jpg",
-     "date": "2026-11-19T19:08:32+00:00",
+     "title": "George Russell impressed by \"exceptionally fast\" McLaren as rain delays Lando Norris' floor test",
+     "desc": "George Russell came out of nowhere to set the fastest time in the closing stages of the second Formula 1 practice session in Las Vegas, although Alpine driver Pierre Gasly almost…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-impressed-by-exceptionally-fast-mclaren-as-rain-delays-lando-norris-floor-test/10875966/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/2dEolNeY/s6/lando-norris-mclaren.jpg",
+     "date": "2026-11-20T09:31:14+00:00",
      "author": "",
-     "id": "732cc2895a",
-     "titleKo": "Oscar Piastri는 Mark Webber의 분할 후 경영 계획을 언급합니다.",
-     "descKo": "McLaren Formula 1 드라이버 Oscar Piastri는 매니저 Ann 및 Mark Webber와의 파트너십이 종료된 후 향후 그의 경영 구조가 아직 정의되지 않았다고 말했습니다. 피아스트리…",
+     "id": "99c13b12df",
      "lead": [
-      "McLaren Formula 1 driver Oscar Piastri says his upcoming management structure is yet to be defined, after his partnership with managers Ann and Mark Webber was terminated.",
-      "Piastri put out a joint press release on 9 November, indicating he and the Webbers had “mutually ended their agreement”.",
-      "Their seven-year partnership saw the youngster’s meteoric rise in junior formulae, with back-to-back Formula Renault Eurocup, Formula 3 and Formula 2 titles; his managers then played a key role in Piastri’s career-defining move as he stunningly walked away from his Alpine team and signed for McLaren as an F1 race driver."
+      "George Russell came out of nowhere to set the fastest time in the closing stages of the second Formula 1 practice session in Las Vegas, although Alpine driver Pierre Gasly almost caused a major surprise by beating him.",
+      "The Frenchman ultimately fell just 0.071 seconds short, leaving the Mercedes works team at the top of the timesheets.",
+      "According to Russell, however, that result does not reflect the true picture. For most of the second practice session, on both full wets and intermediates, McLaren set the pace, while the Mercedes duo struggled more."
      ],
      "leadKo": [
-      "McLaren Formula 1 드라이버 Oscar Piastri는 매니저 Ann 및 Mark Webber와의 파트너십이 종료된 후 향후 그의 경영 구조가 아직 정의되지 않았다고 말했습니다.",
-      "Piastri는 11월 9일 공동 보도 자료를 발표하여 그와 Webbers가 \"상호 계약을 종료했다\"고 밝혔습니다.",
-      "7년간의 파트너십을 통해 주니어 포뮬러에서 젊은이들이 연속적으로 포뮬러 르노 유로컵, 포뮬러 3, 포뮬러 2 타이틀을 차지하며 눈부시게 성장했습니다. 그의 매니저는 Piastri가 알파인 팀을 놀랍게 떠나 F1 레이스 드라이버로 McLaren과 계약하면서 경력을 정의하는 움직임에 핵심적인 역할을 했습니다."
-     ]
+      "조지 러셀(George Russell)은 라스베이거스에서 열린 두 번째 포뮬러 1 연습 세션의 마지막 단계에서 가장 빠른 기록을 세우기 위해 갑자기 등장했지만, 알파인 드라이버 피에르 가슬리(Pierre Gasly)는 그를 이기며 큰 놀라움을 불러일으킬 뻔했습니다.",
+      "이 프랑스인은 결국 0.071초밖에 부족해 메르세데스 작업 팀이 작업표의 맨 위에 남게 되었습니다.",
+      "그러나 러셀에 따르면 그 결과는 실제 상황을 반영하지 않습니다. 두 번째 연습 세션의 대부분은 완전 습식 및 중급 모두에서 McLaren이 속도를 설정한 반면 Mercedes 듀오는 더 많은 어려움을 겪었습니다."
+     ],
+     "titleKo": "비로 인해 Lando Norris의 바닥 테스트가 지연된 가운데 George Russell은 \"예외적으로 빠른\" McLaren에 깊은 인상을 받았습니다.",
+     "descKo": "조지 러셀(George Russell)은 라스베이거스에서 열린 두 번째 포뮬러 1 연습 세션의 마지막 단계에서 가장 빠른 기록을 세우기 위해 갑자기 나타났습니다. 알파인 드라이버 피에르 가슬리(Pierre Gasly)는…"
     },
     {
-     "title": "Lewis Hamilton opens up on \"isolating\" feeling after seeing his own F1 Las Vegas grandstand",
-     "desc": "Nearly two decades into his Formula 1 career, Lewis Hamilton still is not taking the scale of his following for granted. Speaking on media day ahead of the 2026 Las Vegas Grand…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-opens-up-on-f1-feeling-isolating-and-lonely-after-seeing-his-own-las-vegas-grandstand/10875545/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0Zq85G46/s6/lewis-hamilton-ferrari-a10875545-b704-2.jpg",
-     "date": "2026-11-19T13:06:36+00:00",
+     "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
+     "desc": "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track. Drivers…",
+     "link": "https://www.motorsport.com/f1/news/pirelli-introduces-stint-limit-for-f1-qatar-gp-but-increases-total-from-2025/10875950/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0kZAZnV6/s6/lusail-city-qatar-november-30-.jpg",
+     "date": "2026-11-20T08:21:28+00:00",
      "author": "",
-     "id": "d772e57869",
-     "titleKo": "루이스 해밀턴은 자신의 F1 라스베가스 관람석을 본 후 \"고립된\" 느낌을 받았습니다.",
-     "descKo": "포뮬러 1 경력이 거의 20년이 된 루이스 해밀턴은 여전히 ​​자신의 추종자 규모를 당연하게 여기지 않습니다. 2026년 라스베이거스 그랜드를 앞두고 미디어데이 연설…",
+     "id": "7bd0a9ba84",
      "lead": [
-      "Nearly two decades into his Formula 1 career, Lewis Hamilton still is not taking the scale of his following for granted. Speaking on media day ahead of the 2026 Las Vegas Grand Prix, the seven-time world champion offered a rare glimpse into the emotional toll of paddock life when asked what it meant to see fans packing his own dedicated grandstand at the circuit.",
-      "\"I never in a million years thought that, honestly, I never ever thought that I’d ever have my own grandstand,\" Hamilton said. \"Also, I didn’t know that I would have such an amazing community of support that have kept me going all these years, and to see them here this weekend and in full force supporting... their energy makes the world of difference in a world that can sometimes be quite isolating and lonely, so it’s great when you get to see…",
-      "The Lewis Hamilton Grandstand has returned to the Las Vegas Strip Circuit for a second consecutive season after debuting in 2025. Located near Turn 17 along the Harmon Straight inside The Performance Zone by WHOOP - formerly the West Harmon Zone - the stand has drawn heavy demand again in 2026, with Thursday and Friday single-day tickets already sold out on the official race portal. Organisers also expanded the package this year to grant ticket…"
+      "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track.",
+      "Drivers must complete no more than 27 laps per stint at Lusail International Circuit, meaning teams will likely opt for a two-stop strategy in the 57-lap race.",
+      "It is a similar situation to last year when stints were limited to 25 laps following analysis of the 2024 contest, where “several tyres, particularly the left front, had reached the maximum wear”. The 2023 event was also the subject of stint limits, though that year, the enforced limit was just 18 laps."
      ],
      "leadKo": [
-      "포뮬러 1 경력이 거의 20년이 된 루이스 해밀턴은 여전히 ​​자신의 추종자 규모를 당연하게 여기지 않습니다. 2026년 라스베이거스 그랑프리를 앞두고 미디어 데이에서 7차례 세계 챔피언에 오른 그는 팬들이 서킷에서 자신의 전용 관람석을 포장하는 것을 보는 것이 무엇을 의미하는지 물었을 때 패독 생활의 감정적 희생에 대한 보기 드문 모습을 보여주었습니다.",
-      "해밀턴은 \"나는 지난 백만 년 동안 단 한 번도 내 자신만의 관람석을 가지게 되리라고는 생각해본 적이 없었다\"고 말했다. \"또한 제가 지난 몇 년간 저를 계속해서 버틸 수 있게 해준 놀라운 지원 커뮤니티가 있을 줄은 몰랐고, 이번 주말에 그들이 여기에서 전폭적으로 지원하는 모습을 볼 수 있게 되었습니다... 그들의 에너지는 때로 상당히 고립되고 외로울 수 있는 세상에서 변화의 세상을 만들어 주므로 보게 되면 정말 좋습니다...",
-      "루이스 해밀턴 그랜드스탠드는 2025년에 데뷔한 후 두 번째 시즌 연속으로 라스베이거스 스트립 서킷으로 돌아왔습니다. The Performance Zone by WHOOP(이전 West Harmon Zone) 내 Harmon Straight를 따라 17번 턴 근처에 위치한 이 스탠드는 공식 경주 포털에서 목요일과 금요일 1일 티켓이 이미 매진되는 등 2026년에 다시 큰 수요를 불러일으켰습니다. 주최측은 또한 올해 티켓을 부여하기 위해 패키지를 확장했습니다…"
-     ]
+      "Formula 1 팀은 품질 저하가 심한 트랙에서 Pirelli 타이어를 보호하기 위해 카타르 그랑프리에서 각 차량에 대해 규정된 제한 한도를 다시 따라야 합니다.",
+      "드라이버는 루사일 인터내셔널 서킷(Lusail International Circuit)에서 한 번에 27랩을 넘지 않아야 합니다. 이는 팀이 57랩 레이스에서 2스톱 전략을 선택할 가능성이 높다는 것을 의미합니다.",
+      "2024년 대회 분석에 따라 “여러 타이어, 특히 왼쪽 앞부분이 최대 마모에 도달했다”는 분석에 따라 제한 랩이 25랩으로 제한되었던 작년과 유사한 상황입니다. 2023년 이벤트도 제한 제한의 대상이었는데, 그 해에 시행된 제한은 18랩에 불과했습니다."
+     ],
+     "titleKo": "피렐리(Pirelli), F1 카타르 GP에 제한 한도 다시 도입",
+     "descKo": "Formula 1 팀은 품질 저하가 심한 트랙에서 Pirelli 타이어를 보호하기 위해 카타르 그랑프리에서 각 차량에 대해 규정된 제한 한도를 다시 따라야 합니다. 드라이버…"
     },
     {
-     "title": "Lando Norris: “A hell of a lot of money” riding on McLaren’s fight for third",
-     "desc": "With Mercedes having already sealed the 2026 constructors' championship and Ferrari sitting clear in second, McLaren's remaining focus across Las Vegas, Qatar, and Abu Dhabi comes…",
-     "link": "https://www.motorsport.com/f1/news/lando-norris-a-hell-of-a-lot-of-money-riding-on-mclarens-fight-for-third/10875499/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/68VwLvB2/s6/lando-norris-mclaren-a10875499-b706-2.jpg",
-     "date": "2026-11-19T11:50:02+00:00",
+     "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Max Verstappen's complaints",
+     "desc": "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the…",
+     "link": "https://www.motorsport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-max-verstappens-complaints/10875939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/6x7LrbjY/s6/max-verstappen-red-bull-racing.jpg",
+     "date": "2026-11-20T07:50:43+00:00",
      "author": "",
-     "id": "911cf1f48e",
-     "titleKo": "랜도 노리스: 맥라렌의 3위 경쟁에 “엄청나게 많은 돈”이 걸렸다",
-     "descKo": "Mercedes가 이미 2026년 컨스트럭터 챔피언십을 확정하고 Ferrari가 2위를 확실히 차지한 가운데, McLaren이 라스베가스, 카타르, 아부다비에서 남은 초점은…",
+     "id": "0337d029af",
      "lead": [
-      "With Mercedes having already sealed the 2026 constructors' championship and Ferrari sitting clear in second, McLaren's remaining focus across Las Vegas, Qatar, and Abu Dhabi comes down to one battle: overturning a 17-point deficit to Red Bull Racing for third place.",
-      "Red Bull enters the Las Vegas Grand Prix on 415 points to McLaren's 398. Beyond bragging rights, the gap between third and fourth in Formula 1's commercial payout structure carries serious weight, with The Independent estimating 2026 prize money at $122million for third compared to $113million for fourth - roughly a $9million swing that directly feeds year-end employee bonuses.",
-      "Speaking during Las Vegas media day, Lando Norris made clear that the people back at the Woking factory are front of mind as the season wraps up."
+      "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means very little given that no more rain is forecast for the remainder of the weekend.",
+      "The conditions were therefore not representative during the practice day, and that was precisely why Max Verstappen stayed in the garage for so long. It was only in the final five minutes, following the late red flag, that the Dutchman set his first timed lap. There was simply very little to learn.",
+      "Nevertheless, Verstappen was not happy with the RB22 during his brief appearance on track."
      ],
      "leadKo": [
-      "Mercedes가 이미 2026년 컨스트럭터 챔피언십을 확정하고 Ferrari가 2위를 확실히 차지한 상황에서 McLaren이 라스베가스, 카타르, 아부다비에서 남은 집중력은 단 한 번의 전투로 귀결됩니다. Red Bull Racing에 17점 차이로 뒤진 적자를 3위로 뒤집는 것입니다.",
-      "Red Bull은 McLaren의 398점에 대해 415점으로 라스베거스 그랑프리에 진출했습니다. 자랑할 권리 외에도 Formula 1의 상업용 지급 구조에서 3위와 4위 사이의 격차는 심각합니다. The Independent는 2026년 상금을 3위는 1억 2,200만 달러, 4위는 1억 1,300만 달러로 추정합니다. 이는 대략 900만 달러로 연말 직원 보너스를 직접적으로 충당하는 금액입니다.",
-      "라스베거스 미디어 데이에서 Lando Norris는 시즌이 마무리되면서 Woking 공장으로 돌아온 사람들이 가장 먼저 떠오른다는 점을 분명히 했습니다."
-     ]
+      "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 시간표에서 4위를 차지했지만 남은 주말 동안 더 이상 비가 내리지 않을 것이라는 점을 고려하면 이는 거의 의미가 없습니다.",
+      "따라서 연습 당일의 조건은 대표성이 없었으며 이것이 바로 Max Verstappen이 차고에 오랫동안 머물렀던 이유였습니다. 네덜란드인이 처음으로 시간 제한 랩을 설정한 것은 늦은 위험 신호 이후 마지막 5분이었습니다. 배울 것이 거의 없었습니다.",
+      "그럼에도 불구하고 Verstappen은 트랙에 잠시 등장하는 동안 RB22에 만족하지 않았습니다."
+     ],
+     "titleKo": "\"브라질과 동일\" – Red Bull은 Max Verstappen의 불만의 근본 원인을 \"이해하려고 노력 중\"입니다.",
+     "descKo": "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 4위를 차지했습니다."
     },
     {
-     "title": "Lewis Hamilton addresses speculation around Ferrari \"trust\" issues",
-     "desc": "Lewis Hamilton has insisted there are zero “trust” problems at Ferrari despite him overruling strategic calls becoming a repeated occurrence across recent Formula 1 grands prix.…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-insists-there-are-no-trust-problems-at-ferrari/10875582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/68VwM4l2/s6/lewis-hamilton-ferrari.jpg",
-     "date": "2026-11-19T11:48:39+00:00",
+     "title": "Lewis Hamilton plans \"GTA VI\" session after Vegas FP2: \"I'm like a big kid\"",
+     "desc": "Lewis Hamilton finished sixth in a slippery second practice for the Las Vegas Grand Prix, before what he had promised fans would be an early night at his hotel with the newly…",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-plans-gta-vi-session-after-vegas-fp2-im-like-a-big-kid/10875895/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0rVPkN70/s6/lewis-hamilton-ferrari-a10875895-b708-2.jpg",
+     "date": "2026-11-20T06:37:05+00:00",
      "author": "",
-     "id": "31030df861",
-     "titleKo": "루이스 해밀턴, 페라리의 '신뢰' 문제에 대한 추측을 언급하다",
-     "descKo": "루이스 해밀턴은 최근 포뮬러 1 그랑프리에서 반복적으로 발생하는 전략적 요구를 무시했음에도 불구하고 페라리에는 \"신뢰\" 문제가 전혀 없다고 주장했습니다.",
+     "id": "3e21244f30",
      "lead": [
-      "Lewis Hamilton has insisted there are zero “trust” problems at Ferrari despite him overruling strategic calls becoming a repeated occurrence across recent Formula 1 grands prix.",
-      "The seven-time world champion has ignored calls to pit in two of the last four rounds - Singapore and Brazil - with both backfiring on the Scuderia driver.",
-      "In Singapore he elected to keep track position under a virtual safety car, but on worn tyres he dropped from podium contention to sixth late on - for which he apologised afterwards."
+      "Lewis Hamilton finished sixth in a slippery second practice for the Las Vegas Grand Prix, before what he had promised fans would be an early night at his hotel with the newly released Grand Theft Auto VI .",
+      "The seven-time world champion was speaking on stage at PUMA's Under the Lights fan event at its Las Vegas store on Tuesday night, two days before the game's release.",
+      "\"There's a new game coming out in two days,\" Hamilton told the crowd, before setting out his plans for Thursday, when second practice finished at 9pm local time."
      ],
      "leadKo": [
-      "루이스 해밀턴은 최근 포뮬러 1 그랑프리에서 반복적으로 발생하고 있는 전략적 요구를 무시했음에도 불구하고 페라리에는 \"신뢰\" 문제가 전혀 없다고 주장했습니다.",
-      "7차례 세계 챔피언에 오른 이 선수는 지난 4라운드 중 2차례(싱가포르와 브라질)에서 피트 요청을 무시했으며 둘 다 스쿠데리아 드라이버에게 역효과를 냈습니다.",
-      "싱가포르에서 그는 가상 안전 차량 아래에서 트랙 위치를 유지하기로 결정했지만 마모된 타이어로 인해 시상대 경쟁에서 늦게 6위로 떨어졌고 나중에 사과했습니다."
-     ]
+      "루이스 해밀턴은 Las Vegas Grand Prix의 미끄러운 두 번째 연습에서 6위를 차지했으며, 팬들에게 새로 출시된 Grand Theft Auto VI를 가지고 그의 호텔에서 이른 밤을 보내겠다고 약속했습니다.",
+      "7차례 세계 챔피언을 차지한 그는 게임 출시 이틀 전인 화요일 밤, PUMA 라스베이거스 매장에서 열린 PUMA Under the Lights 팬 이벤트 무대에서 연설했습니다.",
+      "해밀턴은 현지 시간으로 오후 9시에 두 번째 연습이 끝나는 목요일 계획을 세우기 전에 관중들에게 \"이틀 뒤에 새로운 게임이 나올 예정입니다\"라고 말했습니다."
+     ],
+     "titleKo": "루이스 해밀턴은 Vegas FP2 이후 \"GTA VI\" 세션을 계획하고 있습니다: \"나는 큰 아이와 같습니다\"",
+     "descKo": "루이스 해밀턴은 라스베거스 그랑프리의 미끄러운 두 번째 연습에서 6위를 차지했으며, 팬들에게 약속한 바에 따르면 새로 개장한 선수와 함께 그의 호텔에서 이른 밤을 보내게 될 것입니다."
     }
    ]
   },
@@ -1897,34 +1899,78 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
-     "title": "No times set at all in Las Vegas FP1 washout",
-     "desc": "Heavy rain meant Formula 1's Las Vegas Grand Prix got off to a bizarre start with no actual laptimes set at all in the first of Thursday evening's practice sessions",
-     "link": "https://www.the-race.com/formula-1/no-times-set-at-all-in-las-vegas-fp1-washout/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454628_HiRes.jpg",
-     "date": "2026-11-20T01:31:48+00:00",
-     "author": "Matt Beer",
-     "id": "f0822dcc73",
+     "title": "Everything we learned from F1's wet Las Vegas GP practice running",
+     "desc": "A wet Las Vegas GP practice day wasn't what F1 teams or drivers would've wanted. But it told us enough about some current limitations",
+     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-wet-practice-everything-we-learned/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/2305992339.jpg",
+     "date": "2026-11-20T08:14:34+00:00",
+     "author": "Scott Mitchell-Malm",
+     "id": "ecad2b49d5",
      "lead": [
-      "Heavy rain meant Formula 1's Las Vegas Grand Prix got off to a bizarre start with no actual laptimes set at all in the first of Thursday evening's practice sessions.",
-      "Although 17 drivers went out on full wets to explore the conditions, none actual tried a flying lap amid the standing water, frequent aquaplaning and very low temperatures.",
-      "Only Haas's new recruit Rafael Camara went out twice, and he and the two Alpines (which did a two lap out/in run right at the end) jointly topped the lap count on a mere two. The Alpines carried out practice starts by themselves at the very end."
+      "A day of (very) wet running at the start of a Las Vegas Grand Prix weekend that's otherwise expected to be dry wasn't really what Formula 1 teams or drivers were looking for.",
+      "Still, the lack of running and limited feedback told us plenty about some current limitations - and just how representative some surprises in the FP2 order are likely to be of what follows.",
+      "An unprecedented absence of timed laps in Friday's first practice session was a sad reflection of how Las Vegas has been made even worse in the wet this year."
      ],
      "leadKo": [
-      "폭우로 인해 Formula 1의 라스베거스 그랑프리는 목요일 저녁 첫 번째 연습 세션에서 실제 랩타임이 전혀 설정되지 않은 채 기이한 출발을 했습니다.",
-      "17명의 운전자가 조건을 탐색하기 위해 완전 젖은 상태로 나갔지만 실제로 고여 있는 물, 잦은 수상 활주 및 매우 낮은 기온 속에서 플라잉 랩을 시도한 사람은 아무도 없었습니다.",
-      "Haas의 신입생인 Rafael Camara만이 두 번 나갔고 그와 두 명의 Alpines(마지막에 2랩 아웃/인 런을 기록)가 공동으로 단 2랩으로 1위를 차지했습니다. 알파인들은 맨 마지막에 스스로 연습을 시작했다."
+      "라스베거스 그랑프리 주말이 시작될 때 건조할 것으로 예상되는 (매우) 젖은 달리기의 날은 실제로 Formula 1 팀이나 드라이버가 찾고 있던 것이 아니었습니다.",
+      "그럼에도 불구하고 실행이 부족하고 피드백이 제한되어 있어 현재의 일부 제한 사항에 대해 많은 정보를 제공했으며 FP2 주문의 몇 가지 놀라움이 다음과 같이 얼마나 대표적인지 설명합니다.",
+      "금요일의 첫 번째 연습 세션에서 전례 없는 시간 제한 랩의 부재는 라스베가스가 올해 습기로 인해 얼마나 더 악화되었는지를 슬프게 반영했습니다."
      ],
-     "titleKo": "라스베가스 FP1 워시아웃에는 시간이 전혀 설정되지 않았습니다.",
-     "descKo": "폭우로 인해 Formula 1의 라스베거스 그랑프리가 목요일 저녁 첫 번째 연습 세션에서 실제 랩타임이 전혀 설정되지 않은 채 기이한 출발을 하게 되었습니다."
+     "titleKo": "F1의 라스베거스 GP 연습 달리기에서 배운 모든 것",
+     "descKo": "젖은 라스베거스 GP 연습일은 F1 팀이나 드라이버가 원했던 것이 아니었습니다. 하지만 이는 현재의 몇 가지 제한 사항에 대해 충분히 알려주었습니다."
+    },
+    {
+     "title": "What next for Herta after 'disappointing' Bottas 2027 decision",
+     "desc": "Cadillac has offered a \"disappointed\" Colton Herta a reserve driver role for 2027 after sticking with Valtteri Bottas",
+     "link": "https://www.the-race.com/formula-1/what-next-for-herta-after-disappointing-bottas-2027-decision/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1452203_HiRes.jpg",
+     "date": "2026-11-20T05:20:39+00:00",
+     "author": "Ben Anderson",
+     "id": "599f9185aa",
+     "lead": [
+      "The Cadillac Formula 1 team has offered a \"disappointed\" Colton Herta a reserve driver role for 2027, after choosing Valtteri Bottas to continue racing for the team next season.",
+      "Cadillac ended speculation that Herta could replace Bottas by confirming ahead of the 2026 Las Vegas Grand Prix that Bottas would remain Sergio Perez's team-mate for at least one more season.",
+      "Bottas was already under contract, but Cadillac refused to dampen speculation Bottas could be paid off and replaced by Herta after a tough season in which Bottas has often struggled to match Perez."
+     ],
+     "leadKo": [
+      "Cadillac Formula 1 팀은 다음 시즌 팀을 위해 계속 경주하기 위해 Valtteri Bottas를 선택한 후 \"실망한\" Colton Herta에게 2027년 예비 드라이버 역할을 제안했습니다.",
+      "캐딜락은 2026년 라스베이거스 그랑프리를 앞두고 보타스가 적어도 한 시즌 더 세르히오 페레즈의 팀 동료로 남을 것임을 확인함으로써 헤르타가 보타스를 대체할 수 있다는 추측을 끝냈습니다.",
+      "Bottas는 이미 계약을 맺었지만 Cadillac은 Bottas가 종종 Perez와 대결하기 위해 고군분투하는 힘든 시즌을 보낸 후 Bottas가 보상을 받고 Herta로 교체될 수 있다는 추측을 누그러뜨리기를 거부했습니다."
+     ],
+     "titleKo": "Bottas 2027 결정에 '실망스러운' Herta의 다음 단계는 무엇입니까?",
+     "descKo": "캐딜락은 Valtteri Bottas를 고수한 후 \"실망한\" Colton Herta에게 2027년 예비 드라이버 역할을 제안했습니다."
+    },
+    {
+     "title": "What happened in wet Las Vegas Grand Prix FP2",
+     "desc": "Mercedes' George Russell narrowly denied Pierre Gasly and Alpine an upset result in second practice for F1's Las Vegas GP",
+     "link": "https://www.the-race.com/formula-1/george-russell-denies-pierre-gasly-wet-las-vegas-gp-fp2/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454771_HiRes-1.jpg",
+     "date": "2026-11-20T05:17:01+00:00",
+     "author": "Matt Beer",
+     "id": "35acc1c180",
+     "lead": [
+      "Mercedes' George Russell narrowly denied Pierre Gasly and Alpine an upset result in second practice for Formula 1's Las Vegas Grand Prix.",
+      "Conditions remained wet for Thursday night's second session but were much more amenable than they had been in the puddle-strewn practice one in which no one even tried a flying lap and the most laps any driver completed was two.",
+      "Lando Norris led a move from wet to intermediate tyres a third of the way into the session, and times kept falling as the track kept drying through to the end."
+     ],
+     "leadKo": [
+      "Mercedes의 George Russell은 Formula 1의 Las Vegas Grand Prix의 두 번째 연습에서 Pierre Gasly와 Alpine의 당황스러운 결과를 간신히 부인했습니다.",
+      "목요일 밤의 두 번째 세션에서는 조건이 여전히 습했지만 아무도 플라잉 랩을 시도하지 않았고 완료한 최대 랩은 2랩이었던 웅덩이가 흩뿌려진 연습 세션보다 훨씬 더 순조로웠습니다.",
+      "Lando Norris는 세션의 3분의 1 지점에서 습식 타이어에서 중간 타이어로의 전환을 이끌었고, 트랙이 끝까지 건조해지면서 시간은 계속해서 떨어졌습니다."
+     ],
+     "titleKo": "젖은 라스베거스 그랑프리 FP2에서 일어난 일",
+     "descKo": "Mercedes의 George Russell은 F1의 Las Vegas GP의 두 번째 연습에서 Pierre Gasly와 Alpine의 당황스러운 결과를 간신히 부인했습니다."
     },
     {
      "title": "F1 2026 Las Vegas Grand Prix practice results",
      "desc": "All the results from F1's 2026 Las Vegas Grand Prix practice sessions",
      "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-practice-results/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454643_HiRes.jpg",
-     "date": "2026-11-20T01:30:00+00:00",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454646_HiRes.jpg",
+     "date": "2026-11-20T05:00:00+00:00",
      "author": "The Race Team",
      "id": "be81071504",
+     "titleKo": "F1 2026 라스베거스 그랑프리 연습 결과",
+     "descKo": "F1의 2026년 라스베이거스 그랑프리 연습 세션의 모든 결과",
      "lead": [
       "All the practice session results from Formula 1's 2026 Las Vegas Grand Prix will appear here.",
       "Heavy rain in the first Thursday night practice session meant no one attempted a flying lap at all and only 17 drivers ventured out of the pits.",
@@ -1934,9 +1980,49 @@
       "Formula 1의 2026년 라스베이거스 그랑프리의 모든 연습 세션 결과가 여기에 표시됩니다.",
       "첫 번째 목요일 밤 연습 세션에 폭우가 내렸기 때문에 아무도 플라잉 랩을 시도하지 않았고 17명의 드라이버만이 구덩이에서 나왔습니다.",
       "그중 두 명의 Alpines와 Haas의 Rafael Camara만이 각각 2랩씩 1랩 이상을 완주했습니다."
+     ]
+    },
+    {
+     "title": "At least five drivers carrying grid penalties at F1's Las Vegas GP",
+     "desc": "At least five drivers, including 2026 F1 world champion Kimi Antonelli, will take grid penalties for the Las Vegas GP",
+     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-at-least-five-drivers-carrying-grid-penalties/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454607_HiRes-1.jpg",
+     "date": "2026-11-20T04:48:23+00:00",
+     "author": "Matt Beer",
+     "id": "d9daada020",
+     "lead": [
+      "At least five drivers, including 2026 world champion Kimi Antonelli, will take grid penalties for Formula 1's Las Vegas Grand Prix.",
+      "The majority of those declared so far are related to drivers taking the updated power unit components Mercedes has made available for this event under its Additional Development and Upgrade Opportunities allowance.",
+      "Five of its six cars are taking the upgrade - which includes a modified turbocharger, but which is not expected to be a particularly large outright performance gain."
      ],
-     "titleKo": "F1 2026 라스베거스 그랑프리 연습 결과",
-     "descKo": "F1의 2026년 라스베이거스 그랑프리 연습 세션의 모든 결과"
+     "leadKo": [
+      "2026년 세계 챔피언 키미 안토넬리(Kimi Antonelli)를 포함해 최소 5명의 드라이버가 포뮬러 1 라스베이거스 그랑프리에서 그리드 페널티를 받게 됩니다.",
+      "지금까지 선언된 것의 대부분은 Mercedes가 추가 개발 및 업그레이드 기회 수당에 따라 이 이벤트에 사용할 수 있는 업데이트된 동력 장치 구성 요소를 사용하는 운전자와 관련이 있습니다.",
+      "6대의 자동차 중 5대가 업그레이드를 받고 있습니다. 여기에는 수정된 터보차저가 포함되지만 특별히 큰 성능 향상이 있을 것으로 예상되지는 않습니다."
+     ],
+     "titleKo": "F1의 라스베거스 GP에서 최소 5명의 드라이버가 그리드 페널티를 받고 있습니다.",
+     "descKo": "2026년 F1 세계 챔피언 키미 안토넬리(Kimi Antonelli)를 포함한 최소 5명의 드라이버가 라스베거스 GP에서 그리드 페널티를 받게 됩니다."
+    },
+    {
+     "title": "No times set at all in Las Vegas FP1 washout",
+     "desc": "Heavy rain meant Formula 1's Las Vegas Grand Prix got off to a bizarre start with no actual laptimes set at all in the first of Thursday evening's practice sessions",
+     "link": "https://www.the-race.com/formula-1/no-times-set-at-all-in-las-vegas-fp1-washout/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454628_HiRes.jpg",
+     "date": "2026-11-20T01:31:48+00:00",
+     "author": "Matt Beer",
+     "id": "f0822dcc73",
+     "titleKo": "라스베가스 FP1 워시아웃에는 시간이 전혀 설정되지 않았습니다.",
+     "descKo": "폭우로 인해 Formula 1의 라스베거스 그랑프리가 목요일 저녁 첫 번째 연습 세션에서 실제 랩타임이 전혀 설정되지 않은 채 기이한 출발을 하게 되었습니다.",
+     "lead": [
+      "Heavy rain meant Formula 1's Las Vegas Grand Prix got off to a bizarre start with no actual laptimes set at all in the first of Thursday evening's practice sessions.",
+      "Although 17 drivers went out on full wets to explore the conditions, none actual tried a flying lap amid the standing water, frequent aquaplaning and very low temperatures.",
+      "Only Haas's new recruit Rafael Camara went out twice, and he and the two Alpines (which did a two lap out/in run right at the end) jointly topped the lap count on a mere two. The Alpines carried out practice starts by themselves at the very end."
+     ],
+     "leadKo": [
+      "폭우로 인해 Formula 1의 라스베거스 그랑프리는 목요일 저녁 첫 번째 연습 세션에서 실제 랩타임이 전혀 설정되지 않은 채 기이한 출발을 했습니다.",
+      "17명의 운전자가 조건을 탐색하기 위해 완전 젖은 상태로 나갔지만 실제로 고여 있는 물, 잦은 수상 활주 및 매우 낮은 기온 속에서 플라잉 랩을 시도한 사람은 아무도 없었습니다.",
+      "Haas의 신입생인 Rafael Camara만이 두 번 나갔고 그와 두 명의 Alpines(마지막에 2랩 아웃/인 런을 기록)가 공동으로 단 2랩으로 1위를 차지했습니다. 알파인들은 맨 마지막에 스스로 연습을 시작했다."
+     ]
     },
     {
      "title": "Nike to return to F1 after 24 years",
@@ -1946,6 +2032,8 @@
      "date": "2026-11-20T00:00:06+00:00",
      "author": "Samarth Kanal",
      "id": "28ae87f1ba",
+     "titleKo": "나이키, 24년 만에 F1 복귀",
+     "descKo": "나이키는 새로운 파트너십의 일환으로 F1 직원을 공급하고 F1 브랜드 상품을 출시할 예정입니다.",
      "lead": [
       "Nike will become an official partner to Formula 1 after 24 years away from the motorsport and launch its first collaboration during the 2026 Las Vegas Grand Prix.",
       "The American fashion and sportswear brand will replace German brand Puma to become F1's official apparel and uniform supplier in a long-term partnership that also offers fans the chance to buy official Nike F1 merchandise.",
@@ -1955,9 +2043,7 @@
       "나이키는 모터스포츠에서 벗어난 지 24년 만에 포뮬러 1의 공식 파트너가 되어 2026년 라스베이거스 그랑프리 기간 동안 첫 콜라보레이션을 시작합니다.",
       "미국 패션 및 스포츠웨어 브랜드는 독일 브랜드 Puma를 대체하여 장기적인 파트너십을 통해 F1의 공식 의류 및 유니폼 공급업체가 될 것이며 팬들에게 공식 Nike F1 상품을 구매할 기회도 제공할 것입니다.",
       "첫 번째 Formula 1 x Nike 컬렉션은 한정판 Las Vegas GP 브랜드 컬렉션이 도시의 Venetian Hotel에 있는 F1 Hub와 Nike의 Las Vegas 매장에 상륙하는 11월 20일에 출시될 예정입니다."
-     ],
-     "titleKo": "나이키, 24년 만에 F1 복귀",
-     "descKo": "나이키는 새로운 파트너십의 일환으로 F1 직원을 공급하고 F1 브랜드 상품을 출시할 예정입니다."
+     ]
     },
     {
      "title": "Major F1 stewarding revamp coming for 2027",
@@ -1999,90 +2085,6 @@
       "체코 팬 루카스 찰라발라(Lukas Chalabala)가 라스베이거스 그랑프리에서 2027년 하이네켄 x F1 시즌 티켓 당첨자로 공개됐다. Chalabala는 창립 우승자 Brandon Burgess로부터 상을 받았고, 두 사람은 2025년 말에 Burgess에게 상을 수여한 후 프레젠테이션을 성황리에 마친 4회 F1 챔피언 Max Verstappen에게 놀랐습니다. Heineken x F1 시즌 티켓의 우승자는 다음의 모든 레이스에 참석할 수 있습니다.",
       "\"트랙 안팎에서 Formula 1을 경험할 수 있는 정말 특별한 방법입니다.\"",
       "00:00 광고 건너뛰기 최신 추가 스토리 레고, 2026년 드라이버 22명 전원이 포함된 F1 스피드 챔피언 컬렉션 출시 Verstappen은 F1의 2027년 생체 인식 데이터 계획 McLaren이 2027년 F1 자동차를 경주하기 전에 판매하는 것을 좋아하지 않습니다. 기사 태그:"
-     ]
-    },
-    {
-     "title": "The Cadillac 'weakness' still frustrating Perez",
-     "desc": "Sergio Perez was in a mood to offer his Cadillac F1 team some home truths at the start of its last home grand prix weekend of the season in Las Vegas",
-     "link": "https://www.the-race.com/formula-1/the-cadillac-weakness-still-frustrating-perez/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1451966_HiRes.jpg",
-     "date": "2026-11-19T12:20:15+00:00",
-     "author": "Matt Beer",
-     "id": "08fed88569",
-     "titleKo": "페레즈를 여전히 좌절시키는 캐딜락 '약점'",
-     "descKo": "Sergio Perez는 라스베거스에서 열린 시즌 마지막 홈 그랑프리 주말이 시작될 때 그의 Cadillac F1 팀에게 몇 가지 홈 진실을 제공할 기분이었습니다.",
-     "lead": [
-      "Sergio Perez was in a mood to offer his Cadillac Formula 1 team some home truths at the start of its last home grand prix weekend of the season in Las Vegas.",
-      "Cadillac still propping up the grid at the end of its first year in F1 is no surprise, or even really a disappointment, given the scale of the challenge involved in building up a new team.",
-      "What is frustrating Perez is the operations side, which he hoped would be “a lot sharper” by now and has been “weak” recently."
-     ],
-     "leadKo": [
-      "세르히오 페레즈(Sergio Perez)는 라스베거스에서 열린 시즌 마지막 홈 그랑프리 주말이 시작될 때 그의 캐딜락 포뮬러 1 팀에게 몇 가지 홈 진실을 제공할 기분이었습니다.",
-      "캐딜락이 F1 첫 해가 끝날 때까지 여전히 그리드를 지탱하고 있는 것은 새로운 팀 구성과 관련된 도전의 규모를 고려할 때 놀라운 일이 아니며 심지어 실망스럽기까지 합니다.",
-      "페레즈가 실망스러운 것은 운영 측면이다. 그는 지금쯤은 \"훨씬 더 날카로워졌으면 좋겠다\"고 바랐지만 최근에는 \"약하다\"고 말했다."
-     ]
-    },
-    {
-     "title": "The most valuable F1 sponsors in 2026",
-     "desc": "Where does Williams F1 backer Anthropic rank in the most valuable F1 sponsors after its November 2026 IPO?",
-     "link": "https://www.the-race.com/business/most-valuable-f1-sponsors-2026-anthropic-microsoft-google-aramco-meta-amd-visa/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453879_HiRes.jpg",
-     "date": "2026-11-19T10:09:52+00:00",
-     "author": "Samarth Kanal",
-     "id": "92ef0e8689",
-     "titleKo": "2026년 가장 귀중한 F1 스폰서: Anthropic의 순위는 어디입니까?",
-     "descKo": "Williams F1 후원자 Anthropic은 2026년 11월 IPO 이후 가장 가치 있는 F1 스폰서 중 어디에 속합니까?",
-     "lead": [
-      "Williams Formula 1 sponsor Anthropic’s Initial Public Offering (IPO) on the NASDAQ stock market index gives it a market capitalisation of $1.5 trillion USD - making it one of the most valuable F1 sponsors on the grid in 2026.",
-      "But how does it rank compared to other F1 sponsors?",
-      "Here are the seven most valuable F1 sponsors in terms of estimated market cap, before markets opened on November 19, 2026 - when Anthropic filed for its IPO. The list omits privately held companies, and valuations are in USD."
-     ],
-     "leadKo": [
-      "Williams Formula 1 후원자 Anthropic의 NASDAQ 주식 시장 지수 상장(IPO)으로 Anthropic의 시가총액은 1조 5천억 달러에 달해 2026년 그리드에서 가장 가치 있는 F1 후원자 중 하나가 되었습니다.",
-      "하지만 다른 F1 스폰서와 비교하면 순위가 어떻게 되나요?",
-      "다음은 Anthropic이 IPO를 신청한 2026년 11월 19일 시장이 개장하기 전 추정 시가총액 기준으로 가장 가치 있는 7명의 F1 스폰서입니다. 이 목록에는 비상장 기업이 생략되어 있으며 평가액은 USD 기준입니다."
-     ]
-    },
-    {
-     "title": "Ex-Red Bull hire Cadillac stole from Alpine finally joins",
-     "desc": "Cadillac's ex-Red Bull recruit has started working for it, three months after it stopped him from joining Alpine at the last minute",
-     "link": "https://www.the-race.com/formula-1/ex-red-bull-hire-cadillac-stole-from-alpine-finally-joins/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1429216_HiRes.jpg",
-     "date": "2026-11-19T08:09:19+00:00",
-     "author": "Scott Mitchell-Malm",
-     "id": "bedd3ce0a7",
-     "titleKo": "전 Red Bull 고용 캐딜락이 알파인에서 훔쳐 마침내 합류했습니다.",
-     "descKo": "Cadillac의 전 Red Bull 채용 담당자가 마지막 순간에 Alpine 합류를 중단한 지 3개월 만에 이 일을 시작했습니다.",
-     "lead": [
-      "Cadillac’s ex-Red Bull recruit Craig Skinner has finally started working for the team three months after it stopped him from joining rival Alpine at the last minute in the summer.",
-      "Skinner, who had a 20-year stint at Red Bull culminating in the role of chief designer, officially joined Cadillac as chief development engineer on Wednesday ahead of the Las Vegas Grand Prix weekend.",
-      "He left Red Bull in February and went on gardening leave, after which he was due to join Alpine in August and was even announced internally as a new hire."
-     ],
-     "leadKo": [
-      "캐딜락의 전 레드불 영입 크레이그 스키너(Craig Skinner)는 여름 막바지 라이벌 알파인 합류가 중단된 지 3개월 만에 마침내 팀에서 일하기 시작했습니다.",
-      "레드불에서 20년 동안 근무하며 수석 디자이너 역할을 맡았던 스키너는 라스베거스 그랑프리 주말을 앞두고 수요일 공식적으로 캐딜락에 수석 개발 엔지니어로 합류했습니다.",
-      "그는 지난 2월 레드불을 떠나 정원 가꾸기 휴가를 냈고, 이후 8월 알파인에 합류할 예정이었고 내부적으로는 신입사원으로 발표되기도 했다."
-     ]
-    },
-    {
-     "title": "Everything we learned from day one at F1's Las Vegas GP",
-     "desc": "F1's Las Vegas Grand Prix weekend kicked off with a 2027 driver announcement and plenty of revelations",
-     "link": "https://www.the-race.com/formula-1/everything-we-learned-from-day-one-at-f1s-las-vegas-gp/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454383_HiRes.jpg",
-     "date": "2026-11-19T07:09:32+00:00",
-     "author": "Josh Suttill",
-     "id": "030dbc13b6",
-     "titleKo": "F1 라스베거스 GP 첫날부터 우리가 배운 모든 것",
-     "descKo": "F1의 라스베이거스 그랑프리 주말은 2027년 드라이버 발표와 수많은 폭로로 시작되었습니다.",
-     "lead": [
-      "Formula 1's Las Vegas Grand Prix weekend kicked off with a 2027 driver announcement and plenty of revelations.",
-      "Here's everything we learned from the first day in Las Vegas.",
-      "Three weeks after seven-time champion Lewis Hamilton, 41, declared \"I'm built differently\" and could see himself continuing in F1 into the 2030s and therefore competing in Rwanda’s first African Grand Prix and F1’s new V8 era, two of his peers have ruled out doing the same."
-     ],
-     "leadKo": [
-      "Formula 1의 라스베이거스 그랑프리 주말은 2027년 드라이버 발표와 수많은 폭로로 시작되었습니다.",
-      "라스베거스 첫날부터 우리가 배운 모든 것이 여기에 있습니다.",
-      "7회 챔피언 루이스 해밀턴(41세)이 \"나는 다르게 태어났다\"고 선언하고 2030년대까지 F1에서 계속 활동하여 르완다 최초의 아프리카 그랑프리와 F1의 새로운 V8 시대에 경쟁할 수 있게 된 지 3주 후, 그의 동료 두 명도 같은 일을 하는 것을 배제했습니다."
      ]
     }
    ]
@@ -2287,15 +2289,63 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
-     "title": "Ja Rule and Two Friends LIVE Performance | T-Mobile Stage: 2026 Las Vegas Grand Prix",
-     "desc": "Join us LIVE at the T-Mobile stage from Las Vegas as Ja Rule and Two Friends perform on stage in the T-Mobile Zone at Sphere.",
-     "link": "https://www.youtube.com/watch?v=O7X9RdaEjPg",
-     "image": "https://i.ytimg.com/vi/O7X9RdaEjPg/hqdefault.jpg",
-     "date": "2026-11-11T10:18:22+00:00",
+     "title": "\"No Way, Jose!\" 😆📻",
+     "desc": "George Russell with another great radio moment in FP2 in Las Vegas!",
+     "link": "https://www.youtube.com/watch?v=9RuCz3Z9vB0",
+     "image": "https://i.ytimg.com/vi/9RuCz3Z9vB0/hqdefault.jpg",
+     "date": "2026-11-20T12:00:15+00:00",
      "author": "FORMULA 1",
-     "videoId": "O7X9RdaEjPg",
-     "id": "1c21ed498f",
-     "titleKo": "Ja Rule과 두 친구의 라이브 공연 | T-모바일 스테이지: 2026년 라스베이거스 그랑프리",
+     "videoId": "9RuCz3Z9vB0",
+     "id": "9b06816c1b",
+     "titleKo": "\"안돼, 호세!\" 😆📻",
+     "descKo": ""
+    },
+    {
+     "title": "Some New Looks In Las Vegas! 🎨",
+     "desc": "A number of special liveries on display in Vegas!",
+     "link": "https://www.youtube.com/watch?v=GoHPMq2UU50",
+     "image": "https://i.ytimg.com/vi/GoHPMq2UU50/hqdefault.jpg",
+     "date": "2026-11-20T10:00:16+00:00",
+     "author": "FORMULA 1",
+     "videoId": "GoHPMq2UU50",
+     "id": "a631e62265",
+     "titleKo": "라스베거스의 새로운 모습! 🎨",
+     "descKo": ""
+    },
+    {
+     "title": "Lewis Bringing The Sparkle To The Strip! ✨",
+     "desc": "The Ferrari driver is sporting a special helmet for the Las Vegas Grand Prix.",
+     "link": "https://www.youtube.com/watch?v=n0ITfarROF4",
+     "image": "https://i.ytimg.com/vi/n0ITfarROF4/hqdefault.jpg",
+     "date": "2026-11-20T09:00:36+00:00",
+     "author": "FORMULA 1",
+     "videoId": "n0ITfarROF4",
+     "id": "202065ec3f",
+     "titleKo": "루이스가 스트립에 스파클을 선사합니다! ✨",
+     "descKo": ""
+    },
+    {
+     "title": "A Closer Look At All The Upgrades In Las Vegas | F1 TV Tech Talk",
+     "desc": "F1 technical expert Sam Collins looks at the upgrades and changes the teams have been making to their cars ahead of round 21 in Las Vegas.",
+     "link": "https://www.youtube.com/watch?v=vN6_-REjRVA",
+     "image": "https://i.ytimg.com/vi/vN6_-REjRVA/hqdefault.jpg",
+     "date": "2026-11-20T08:30:30+00:00",
+     "author": "FORMULA 1",
+     "videoId": "vN6_-REjRVA",
+     "id": "7e94857eb6",
+     "titleKo": "라스베가스의 모든 업그레이드를 자세히 살펴보세요 | F1 TV 테크 토크",
+     "descKo": ""
+    },
+    {
+     "title": "FP2 Highlights | 2026 Las Vegas Grand Prix",
+     "desc": "After a substantially wet FP1, drivers and teams took to the track for FP2 to make up for a lack of running around the street circuit in the first hour!",
+     "link": "https://www.youtube.com/watch?v=sKe57Zn66FU",
+     "image": "https://i.ytimg.com/vi/sKe57Zn66FU/hqdefault.jpg",
+     "date": "2026-11-20T06:20:02+00:00",
+     "author": "FORMULA 1",
+     "videoId": "sKe57Zn66FU",
+     "id": "86037a6c41",
+     "titleKo": "FP2 하이라이트 | 2026 라스베거스 그랑프리",
      "descKo": ""
     },
     {
@@ -2344,54 +2394,6 @@
      "videoId": "qRmeneNErEk",
      "id": "0ec2a6f2ed",
      "titleKo": "당신은 그것을 깨뜨렸다, 랜도 😆",
-     "descKo": ""
-    },
-    {
-     "title": "Drivers Look Ahead To Race Weekend | 2026 Las Vegas Grand Prix",
-     "desc": "Round 21 is on the horizon as F1 arrives to the streets of Las Vegas. Get all the thoughts from the grid ahead of race day on the strip.",
-     "link": "https://www.youtube.com/watch?v=_S_PbjvHOcs",
-     "image": "https://i.ytimg.com/vi/_S_PbjvHOcs/hqdefault.jpg",
-     "date": "2026-11-19T06:45:37+00:00",
-     "author": "FORMULA 1",
-     "videoId": "_S_PbjvHOcs",
-     "id": "3e23b186c0",
-     "titleKo": "드라이버는 주말 경주를 앞두고 | 2026년 라스베이거스 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "Rob Marshall: Designing Winners At McLaren | F1 Beyond The Grid Podcast",
-     "desc": "This episode is brought to you by Edward Jones.",
-     "link": "https://www.youtube.com/watch?v=nEOZ7YDqob0",
-     "image": "https://i.ytimg.com/vi/nEOZ7YDqob0/hqdefault.jpg",
-     "date": "2026-11-18T16:00:25+00:00",
-     "author": "FORMULA 1",
-     "videoId": "nEOZ7YDqob0",
-     "id": "e17c5ec7b6",
-     "titleKo": "롭 마샬: 맥라렌의 우승 머신 설계 | F1 비욘드 더 그리드 팟캐스트",
-     "descKo": ""
-    },
-    {
-     "title": "Extended Highlights | 2025 Las Vegas Grand Prix",
-     "desc": "Re-live highlights from 2025's trip to the Las Vegas Strip, where the three-way fight for the title between Norris, Piastri and Verstappen took an unexpected turn...",
-     "link": "https://www.youtube.com/watch?v=t7HnDon9ICA",
-     "image": "https://i.ytimg.com/vi/t7HnDon9ICA/hqdefault.jpg",
-     "date": "2026-11-18T14:00:04+00:00",
-     "author": "FORMULA 1",
-     "videoId": "t7HnDon9ICA",
-     "id": "afceeb630d",
-     "titleKo": "확장 하이라이트 | 2025 라스베이거스 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "Sphere Being the Main Character in Vegas 🌐",
-     "desc": "The iconic Sphere in Las Vegas watches over all the action...",
-     "link": "https://www.youtube.com/watch?v=Z0zjCF7j4rQ",
-     "image": "https://i.ytimg.com/vi/Z0zjCF7j4rQ/hqdefault.jpg",
-     "date": "2026-11-18T11:00:23+00:00",
-     "author": "FORMULA 1",
-     "videoId": "Z0zjCF7j4rQ",
-     "id": "b606e98cf5",
-     "titleKo": "라스베이거스의 주인공이 된 스피어 🌐",
      "descKo": ""
     }
    ]
