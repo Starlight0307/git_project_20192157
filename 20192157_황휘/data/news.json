@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:09:36+00:00",
+ "updated": "2026-11-21T02:20:04+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -11,28 +11,28 @@
      "id": "afab34b3db",
      "wikiTitle": "2026 Las Vegas Grand Prix",
      "title": "2026 Las Vegas Grand Prix",
-     "titleKo": "2026 라스베거스 그랑프리",
-     "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las…",
-     "descKo": "2026 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다.",
+     "titleKo": "2026년 라스베이거스 그랑프리",
+     "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that will be held on November 21, 2026 at the Las…",
+     "descKo": "2026년 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 열리는 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다.",
      "link": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "2023_Las_Vegas_street_circuit.svg",
-     "date": "2026-11-20T19:46:02Z",
+     "date": "2026-11-21T01:55:00Z",
      "raceDate": "2026-11-22",
      "author": "위키백과 편집자들",
-     "revid": 1386814853,
+     "revid": 1386859665,
      "license": "CC BY-SA 4.0",
      "body": [
       {
        "h": "",
        "level": 1,
        "p": [
-        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race set to be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It is the twenty-first round of the 2026 Formula One World Championship."
+        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that will be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It is the twenty-first round of the 2026 Formula One World Championship."
        ],
        "hKo": "",
        "pKo": [
-        "2026 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 개최될 예정인 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다."
+        "2026년 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 열리는 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다."
        ]
       },
       {
@@ -61,7 +61,7 @@
        "h": "Entrants",
        "level": 3,
        "p": [
-        "The drivers and teams are the same as published in the season entry list with the only exception of Rafael Câmara, who is again replacing Esteban Ocon at Haas, who was removed from the line-up following a disagreement with his team at the Mexico City Grand Prix.",
+        "The drivers and teams are the same as published in the season entry list with the only exception of Rafael Câmara, who again replaced Esteban Ocon at Haas. Ocon was removed from the team following a disagreement at the Mexico City Grand Prix.",
         "During the first practice session, three teams fielded alternate drivers who had not raced in more than two Grands Prix, as required by the Formula One regulations:",
         "Ryo Hirakawa for Haas in place of Oliver Bearman.",
         "Dino Beganovic for Ferrari in place of Lewis Hamilton.",
@@ -70,7 +70,7 @@
        ],
        "hKo": "출전 명단",
        "pKo": [
-        "드라이버와 팀은 Haas에서 다시 Esteban Ocon을 교체하는 Rafael Câmara를 제외하고는 시즌 참가 목록에 게시된 것과 동일합니다. 그는 멕시코 시티 그랑프리에서 팀과의 불일치로 인해 라인업에서 제외되었습니다.",
+        "드라이버와 팀은 Haas에서 Esteban Ocon을 다시 교체한 Rafael Câmara를 제외하고 시즌 참가 목록에 게시된 것과 동일합니다. 오콘은 멕시코 시티 그랑프리에서 의견 불일치로 인해 팀에서 제외되었습니다.",
         "첫 번째 연습 세션 동안 세 팀은 Formula One 규정에 따라 두 번 이상 그랑프리에 참가하지 않은 대체 드라이버를 배치했습니다.",
         "올리버 베어맨 대신 하스의 료 히라카와.",
         "루이스 해밀턴 대신 페라리의 디노 베가노비치.",
@@ -93,11 +93,11 @@
        "h": "Practice",
        "level": 2,
        "p": [
-        "Three free practice sessions are being held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). Due to rain, no driver chose to complete an entire lap and no official times were set. The second free practice session was held on the same day, at 20:00 local time, and was topped by George Russell (Mercedes) ahead of Pierre Gasly (Alpine) and Charles Leclerc (Ferrari). A red flag was observed due to debris on track. The third practice session will be held on November 20, 2026, at 16:30 local time."
+        "Three free practice sessions were held for the event. The first free practice session was held on November 19, 2026, at 16:30 local time (UTC–8). Due to rain, no driver chose to complete an entire lap and no official times were set. The second free practice session was held on the same day, at 20:00 local time, and was topped by George Russell (Mercedes) ahead of Pierre Gasly (Alpine) and Charles Leclerc (Ferrari). A red flag was observed due to debris on track. The third practice session was held on November 20, 2026, at 16:30 local time, and was topped by Russell ahead of his teammate Kimi Antonelli and Lando Norris (McLaren)."
        ],
        "hKo": "연습 주행",
        "pKo": [
-        "행사를 위해 3번의 무료 연습 세션이 진행됩니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인해 전체 랩을 완료하기로 선택한 운전자는 없었으며 공식 시간도 설정되지 않았습니다. 같은 날 현지시간 20시 20분에 열린 2차 자유연습 세션에서는 조지 러셀(메르세데스)이 피에르 가슬리(알파인), 찰스 르클레르(페라리)에 앞서 1위를 차지했다. 선로의 잔해로 인해 레드 플래그가 관찰되었습니다. 세 번째 연습 세션은 현지 시간으로 2026년 11월 20일 16시 30분에 진행됩니다."
+        "행사를 위해 세 번의 무료 연습 세션이 열렸습니다. 첫 번째 무료 연습 세션은 2026년 11월 19일 현지 시간(UTC–8) 16:30에 진행되었습니다. 비로 인해 전체 랩을 완료하기로 선택한 운전자는 없었으며 공식 시간도 설정되지 않았습니다. 같은 날 현지시간 20시 20분에 열린 2차 자유연습 세션에서는 조지 러셀(메르세데스)이 피에르 가슬리(알파인), 찰스 르클레르(페라리)에 앞서 1위를 차지했다. 선로의 잔해로 인해 레드 플래그가 관찰되었습니다. 세 번째 연습 세션은 2026년 11월 20일 현지 시간 16시 30분에 진행됐으며, 팀 동료 키미 안토넬리(Kimi Antonelli)와 란도 노리스(맥라렌)를 제치고 러셀이 1위를 차지했다."
        ]
       },
       {
@@ -1704,6 +1704,27 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "F1 Las Vegas GP: George Russell tops final practice after Max Verstappen collision",
+     "desc": "George Russell collided with Max Verstappen in a tense third practice session at the Las Vegas Grand Prix as the Mercedes Formula 1 driver topped the timesheets. After both of…",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-george-russell-tops-final-practice-after-max-verstappen-collision/10876181/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/01QNxvm0/s6/george-russell-mercedes-2.jpg",
+     "date": "2026-11-21T01:44:36+00:00",
+     "author": "",
+     "id": "0c48cf2e64",
+     "lead": [
+      "George Russell collided with Max Verstappen in a tense third practice session at the Las Vegas Grand Prix as the Mercedes Formula 1 driver topped the timesheets.",
+      "After both of Thursday's practice sessions had been derailed by rain, the Las Vegas Strip was buzzing with activity at dusk on Friday. The sole remaining practice session became crucial as it presented the only dry running heading into qualifying and the race, as all 22 cars sprinted out of the pitlane in short order.",
+      "Amid chilly 14C temperatures, the Thursday rainfall only made the 6.2km circuit around the Las Vegas Strip even more difficult to drive, with surface grip extremely limited."
+     ],
+     "leadKo": [
+      "George Russell은 Mercedes Formula 1 드라이버가 타임시트에서 1위를 차지하자 Las Vegas Grand Prix의 긴장된 세 번째 연습 세션에서 Max Verstappen과 충돌했습니다.",
+      "목요일의 두 연습 세션이 모두 비로 인해 중단된 후, 금요일 황혼 무렵 라스베거스 스트립은 활기가 넘쳤습니다. 유일하게 남은 연습 세션은 예선과 레이스로 향하는 유일한 드라이 러닝을 제시하면서 22대의 자동차 모두가 짧은 순서로 피트레인에서 질주했기 때문에 매우 중요했습니다.",
+      "영하 14도의 쌀쌀한 기온 속에서 목요일 비가 내린 라스베가스 스트립 주변 6.2km 서킷은 운전하기 더욱 어려워졌으며 표면 접지력도 극도로 제한되었습니다."
+     ],
+     "titleKo": "F1 Las Vegas GP: George Russell이 Max Verstappen 충돌 후 최종 연습에서 1위를 차지했습니다.",
+     "descKo": "George Russell은 Mercedes Formula 1 드라이버가 타임시트에서 1위를 차지하자 Las Vegas Grand Prix의 긴장된 세 번째 연습 세션에서 Max Verstappen과 충돌했습니다. 둘 다 후에…"
+    },
+    {
      "title": "Formula 1 set for V8 turbo return in 2030",
      "desc": "Formula 1 has moved closer to a return to V8 engines from the 2030 season as the FIA announced that a unanimous agreement has been reached between the governing body, F1…",
      "link": "https://www.motorsport.com/f1/news/f1-set-for-v8-turbo-move-by-2030-season/10875113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1711,6 +1732,8 @@
      "date": "2026-11-20T18:55:35+00:00",
      "author": "",
      "id": "9a6d767f84",
+     "titleKo": "2030년 V8 터보 복귀를 위한 포뮬러 1 설정",
+     "descKo": "FIA가 운영 기관인 F1 사이에 만장일치로 합의했다고 발표하면서 포뮬러 1은 2030년 시즌부터 V8 엔진으로의 복귀에 가까워졌습니다.",
      "lead": [
       "Formula 1 has moved closer to a return to V8 engines from the 2030 season as the FIA announced that a unanimous agreement has been reached between the governing body, F1 management and the power unit manufacturers.",
       "F1 has long worked towards cheaper and simpler engines for the next regulation cycle, which starts in 2031, having recognised the current formula is too complex and physically heavy, and a relic of a different direction in the road car industry.",
@@ -1720,9 +1743,7 @@
       "FIA가 관리 기관, F1 경영진 및 동력 장치 제조업체 간에 만장일치로 합의했다고 발표하면서 Formula 1은 2030 시즌부터 V8 엔진으로의 복귀에 가까워졌습니다.",
       "F1은 2031년에 시작되는 다음 규제 주기를 위해 더 저렴하고 단순한 엔진을 만들기 위해 오랫동안 노력해 왔으며, 현재의 공식이 너무 복잡하고 물리적으로 무겁고 도로용 자동차 산업에서 다른 방향의 유물이라는 것을 인식했습니다.",
       "FIA는 현재 주기가 끝나는 2031년에 시리즈의 미래 동력 장치 규정을 설정할 수 있었지만, Mohammed Ben Sulayem 회장과 F1 CEO Stefano Domenicali가 추진하는 대로 해당 일정을 1년 앞당기도록 스포츠 내에서 광범위한 조정이 이루어졌습니다."
-     ],
-     "titleKo": "2030년 V8 터보 복귀를 위한 포뮬러 1 설정",
-     "descKo": "FIA가 운영 기관인 F1 사이에 만장일치로 합의했다고 발표하면서 포뮬러 1은 2030년 시즌부터 V8 엔진으로의 복귀에 가까워졌습니다."
+     ]
     },
     {
      "title": "Max Verstappen: “I really thought that we would not win a race this year”",
@@ -1870,27 +1891,6 @@
       "드라이버는 루사일 인터내셔널 서킷(Lusail International Circuit)에서 한 번에 27랩을 넘지 않아야 합니다. 이는 팀이 57랩 레이스에서 2스톱 전략을 선택할 가능성이 높다는 것을 의미합니다.",
       "2024년 대회 분석에 따라 “여러 타이어, 특히 왼쪽 앞부분이 최대 마모에 도달했다”는 분석에 따라 제한 랩이 25랩으로 제한되었던 작년과 유사한 상황입니다. 2023년 이벤트도 제한 제한의 대상이었는데, 그 해에 시행된 제한은 18랩에 불과했습니다."
      ]
-    },
-    {
-     "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Max Verstappen's complaints",
-     "desc": "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the…",
-     "link": "https://www.motorsport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-max-verstappens-complaints/10875939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6x7LrbjY/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-11-20T07:50:43+00:00",
-     "author": "",
-     "id": "0337d029af",
-     "titleKo": "\"브라질과 동일\" – Red Bull은 Max Verstappen의 불만의 근본 원인을 \"이해하려고 노력 중\"입니다.",
-     "descKo": "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 4위를 차지했습니다.",
-     "lead": [
-      "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means very little given that no more rain is forecast for the remainder of the weekend.",
-      "The conditions were therefore not representative during the practice day, and that was precisely why Max Verstappen stayed in the garage for so long. It was only in the final five minutes, following the late red flag, that the Dutchman set his first timed lap. There was simply very little to learn.",
-      "Nevertheless, Verstappen was not happy with the RB22 during his brief appearance on track."
-     ],
-     "leadKo": [
-      "목요일 라스베거스에서 열린 연습 세션 이후 Red Bull은 다른 모든 Formula 1 팀과 마찬가지로 답변이 거의 남지 않았습니다. Isack Hadjar는 결국 시간표에서 4위를 차지했지만 남은 주말 동안 더 이상 비가 내리지 않을 것이라는 점을 고려하면 이는 거의 의미가 없습니다.",
-      "따라서 연습 당일의 조건은 대표성이 없었으며 이것이 바로 Max Verstappen이 차고에 오랫동안 머물렀던 이유였습니다. 네덜란드인이 처음으로 시간 제한 랩을 설정한 것은 늦은 위험 신호 이후 마지막 5분이었습니다. 배울 것이 거의 없었습니다.",
-      "그럼에도 불구하고 Verstappen은 트랙에 잠시 등장하는 동안 RB22에 만족하지 않았습니다."
-     ]
     }
    ]
   },
@@ -1899,6 +1899,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Russell and Verstappen make contact in final Vegas F1 practice",
+     "desc": "George Russell was fastest in the final practice session at F1’s Las Vegas Grand Prix, despite a bizarre late-session run-in with Max Verstappen",
+     "link": "https://www.the-race.com/formula-1/russell-and-verstappen-make-contact-in-final-vegas-f1-practice/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455105_HiRes.jpg",
+     "date": "2026-11-21T01:53:50+00:00",
+     "author": "Josh Suttill",
+     "id": "93bea18ea2",
+     "lead": [
+      "George Russell was fastest in the final practice session at Formula 1’s Las Vegas Grand Prix, despite a bizarre late-session run-in with Max Verstappen.",
+      "Russell and Verstappen were fighting tooth and nail into Turn 14 in the dying moments of the session and were quickly noted by the stewards, who will investigate the incident after FP3.",
+      "Verstappen passed Russell, who then tried to re-pass Verstappen, with the duo banging wheels through Turn 14."
+     ],
+     "leadKo": [
+      "George Russell은 세션 후반에 Max Verstappen과의 기이한 충돌에도 불구하고 Formula 1의 Las Vegas Grand Prix 마지막 연습 세션에서 가장 빨랐습니다.",
+      "Russell과 Verstappen은 세션이 끝나가는 순간 14번 코너까지 필사적으로 싸우고 있었고 FP3 이후 사건을 조사할 관리인이 이를 빠르게 알아냈습니다.",
+      "Verstappen은 Russell을 추월했고 Russell은 Verstappen을 다시 추월하려고 시도했으며 두 사람은 14번 턴에서 바퀴를 두드렸습니다."
+     ],
+     "titleKo": "Russell과 Verstappen이 Vegas F1 최종 연습에서 접촉합니다.",
+     "descKo": "George Russell은 세션 후반에 Max Verstappen과의 기이한 충돌에도 불구하고 F1 라스베가스 그랑프리의 마지막 연습 세션에서 가장 빨랐습니다."
+    },
+    {
      "title": "F1's new V8 engine agreed – five things you need to know",
      "desc": "F1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on key details that will underpin the new rules",
      "link": "https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/",
@@ -1906,6 +1927,8 @@
      "date": "2026-11-20T20:08:47+00:00",
      "author": "Scott Mitchell-Malm",
      "id": "1cb38a8483",
+     "titleKo": "F1의 새로운 V8 엔진에 동의 – 당신이 알아야 할 5가지",
+     "descKo": "F1은 2030년에 V8 엔진을 채택할 예정입니다. 이제 주요 이해관계자들이 새로운 규칙을 뒷받침할 주요 세부 사항에 만장일치로 동의했습니다.",
      "lead": [
       "Formula 1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on the key details that will underpin the new regulations.",
       "A framework has been unanimously agreed by the FIA, Formula 1, the teams and the engine manufacturers to bring in a 2.1-litre, turbocharged V8 with a reduced electric element.",
@@ -1915,9 +1938,7 @@
       "Formula 1은 2030년에 V8 엔진을 채택할 예정이며, 이제 주요 이해관계자들이 새로운 규정을 뒷받침할 주요 세부 사항에 만장일치로 동의했습니다.",
       "FIA, 포뮬러 1, 팀 및 엔진 제조업체는 전기 요소를 줄인 2.1리터 터보차지 V8 엔진을 도입하기로 만장일치로 합의했습니다.",
       "이 스위치는 계획보다 1년 일찍 이루어지며, 내연기관과 전력을 거의 50-50으로 분할하는 스위치로 이번 시즌 논란의 여지가 있는 새로운 시대를 열었던 V6 터보 하이브리드 규칙을 조기에 종료할 것입니다."
-     ],
-     "titleKo": "F1의 새로운 V8 엔진에 동의 – 당신이 알아야 할 5가지",
-     "descKo": "F1은 2030년에 V8 엔진을 채택할 예정입니다. 이제 주요 이해관계자들이 새로운 규칙을 뒷받침할 주요 세부 사항에 만장일치로 동의했습니다."
+     ]
     },
     {
      "title": "Forbes releases 2026 F1 team valuations",
@@ -1927,6 +1948,8 @@
      "date": "2026-11-20T16:30:31+00:00",
      "author": "Samarth Kanal",
      "id": "4566f06d18",
+     "titleKo": "Forbes, 2026년 F1 팀 평가 발표",
+     "descKo": "Forbes의 2026년 보고서에 따르면 각 Formula 1 팀의 가치는 2025년 36억 달러에서 2026년 52억 달러로 47% 증가했습니다.",
      "lead": [
       "The value of each Formula 1 team has jumped 47% from $3.6billion USD in 2025 to $5.2bn in 2026 according to Forbes' 2026 report .",
       "The report puts Ferrari highest at $9.5bn to Mercedes's $9.2bn, putting those two most valuable F1 teams on par with the top half of the NFL's teams, the three most valuable NBA teams, and Real Madrid.",
@@ -1936,9 +1959,7 @@
       "Forbes의 2026년 보고서에 따르면 각 Formula 1 팀의 가치는 2025년 36억 달러에서 2026년 52억 달러로 47% 증가했습니다.",
       "보고서는 페라리가 95억 달러로 가장 높았고 메르세데스는 92억 달러로 가장 가치 있는 두 F1 팀을 NFL 팀의 상위 절반, 가장 가치 있는 NBA 3개 팀, 레알 마드리드와 동등하게 평가했습니다.",
       "따라서 F1의 11개 팀의 가치는 평균 52억 달러로 평가되며, 2025년 순위에 포함되지 않은 캐딜락을 제외하면 평균은 최대 54억 달러로 작년보다 53% 증가했습니다."
-     ],
-     "titleKo": "Forbes, 2026년 F1 팀 평가 발표",
-     "descKo": "Forbes의 2026년 보고서에 따르면 각 Formula 1 팀의 가치는 2025년 36억 달러에서 2026년 52억 달러로 47% 증가했습니다."
+     ]
     },
     {
      "title": "Everything we learned from F1's wet Las Vegas GP practice running",
@@ -2007,7 +2028,7 @@
      "title": "F1 2026 Las Vegas Grand Prix practice results",
      "desc": "All the results from F1's 2026 Las Vegas Grand Prix practice sessions",
      "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-practice-results/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1454646_HiRes.jpg",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455053_HiRes.jpg",
      "date": "2026-11-20T05:00:00+00:00",
      "author": "The Race Team",
      "id": "be81071504",
@@ -2064,27 +2085,6 @@
       "폭우로 인해 Formula 1의 라스베거스 그랑프리는 목요일 저녁 첫 번째 연습 세션에서 실제 랩타임이 전혀 설정되지 않은 채 기이한 출발을 했습니다.",
       "17명의 운전자가 조건을 탐색하기 위해 완전 젖은 상태로 나갔지만 실제로 고여 있는 물, 잦은 수상 활주 및 매우 낮은 기온 속에서 플라잉 랩을 시도한 사람은 아무도 없었습니다.",
       "Haas의 신입생인 Rafael Camara만이 두 번 나갔고 그와 두 명의 Alpines(마지막에 2랩 아웃/인 런을 기록)가 공동으로 단 2랩으로 1위를 차지했습니다. 알파인들은 맨 마지막에 스스로 연습을 시작했다."
-     ]
-    },
-    {
-     "title": "Nike to return to F1 after 24 years",
-     "desc": "Nike will supply F1 staff and release F1-branded merchandise as part of its new partnership",
-     "link": "https://www.the-race.com/business/nike-to-return-to-f1-after-24-years/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/nike-f1-1.jpg",
-     "date": "2026-11-20T00:00:06+00:00",
-     "author": "Samarth Kanal",
-     "id": "28ae87f1ba",
-     "titleKo": "나이키, 24년 만에 F1 복귀",
-     "descKo": "나이키는 새로운 파트너십의 일환으로 F1 직원을 공급하고 F1 브랜드 상품을 출시할 예정입니다.",
-     "lead": [
-      "Nike will become an official partner to Formula 1 after 24 years away from the motorsport and launch its first collaboration during the 2026 Las Vegas Grand Prix.",
-      "The American fashion and sportswear brand will replace German brand Puma to become F1's official apparel and uniform supplier in a long-term partnership that also offers fans the chance to buy official Nike F1 merchandise.",
-      "The first Formula 1 x Nike collection will be launched on November 20 when a limited-edition Las Vegas GP-branded collection lands at the F1 Hub in the city's Venetian Hotel, plus Nike's Las Vegas stores."
-     ],
-     "leadKo": [
-      "나이키는 모터스포츠에서 벗어난 지 24년 만에 포뮬러 1의 공식 파트너가 되어 2026년 라스베이거스 그랑프리 기간 동안 첫 콜라보레이션을 시작합니다.",
-      "미국 패션 및 스포츠웨어 브랜드는 독일 브랜드 Puma를 대체하여 장기적인 파트너십을 통해 F1의 공식 의류 및 유니폼 공급업체가 될 것이며 팬들에게 공식 Nike F1 상품을 구매할 기회도 제공할 것입니다.",
-      "첫 번째 Formula 1 x Nike 컬렉션은 한정판 Las Vegas GP 브랜드 컬렉션이 도시의 Venetian Hotel에 있는 F1 Hub와 Nike의 Las Vegas 매장에 상륙하는 11월 20일에 출시될 예정입니다."
      ]
     }
    ]
@@ -2289,6 +2289,18 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
+     "title": "Disclosure and Gorgon City LIVE Performance | T-Mobile Stage: 2026 Las Vegas Grand Prix",
+     "desc": "Join us LIVE at the T-Mobile stage from Las Vegas as Disclosure and Gorgon City performed on stage in the T-Mobile Zone at Sphere.",
+     "link": "https://www.youtube.com/watch?v=RphVyNQfgMU",
+     "image": "https://i.ytimg.com/vi/RphVyNQfgMU/hqdefault.jpg",
+     "date": "2026-11-11T10:19:39+00:00",
+     "author": "FORMULA 1",
+     "videoId": "RphVyNQfgMU",
+     "id": "4ac577b2a7",
+     "titleKo": "공개 및 고르곤 시티 라이브 공연 | T-모바일 스테이지: 2026 라스베이거스 그랑프리",
+     "descKo": ""
+    },
+    {
      "title": "\"No Way, Jose!\" 😆📻",
      "desc": "George Russell with another great radio moment in FP2 in Las Vegas!",
      "link": "https://www.youtube.com/watch?v=9RuCz3Z9vB0",
@@ -2382,18 +2394,6 @@
      "videoId": "Q5jFoRT3fCM",
      "id": "1ba972d968",
      "titleKo": "주말 워밍업 | 2026년 라스베이거스 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "You Smashed It, Lando 😆",
-     "desc": "Do we have a new celebration on its way for Lando Norris?!",
-     "link": "https://www.youtube.com/watch?v=qRmeneNErEk",
-     "image": "https://i.ytimg.com/vi/qRmeneNErEk/hqdefault.jpg",
-     "date": "2026-11-19T07:00:02+00:00",
-     "author": "FORMULA 1",
-     "videoId": "qRmeneNErEk",
-     "id": "0ec2a6f2ed",
-     "titleKo": "당신은 그것을 깨뜨렸다, 랜도 😆",
      "descKo": ""
     }
    ]
