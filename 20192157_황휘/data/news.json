@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:21:32+00:00",
+ "updated": "2026-11-22T06:55:16+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -11,28 +11,28 @@
      "id": "afab34b3db",
      "wikiTitle": "2026 Las Vegas Grand Prix",
      "title": "2026 Las Vegas Grand Prix",
-     "titleKo": "2026 라스베거스 그랑프리",
-     "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that will be held on November 21, 2026 at the Las…",
-     "descKo": "2026년 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 열리는 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다. 키미 안토넬리(메르세데스)는 예선에서 가장 빠른 성적을…",
+     "titleKo": "2026년 라스베이거스 그랑프리",
+     "desc": "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that was held on November 21, 2026 at the Las…",
+     "descKo": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
      "link": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1280px-2023_Las_Vegas_street_circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "2023_Las_Vegas_street_circuit.svg",
-     "date": "2026-11-21T11:54:35Z",
+     "date": "2026-11-22T06:52:19Z",
      "raceDate": "2026-11-22",
      "author": "위키백과 편집자들",
-     "revid": 1386918003,
+     "revid": 1387061756,
      "license": "CC BY-SA 4.0",
      "body": [
       {
        "h": "",
        "level": 1,
        "p": [
-        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that will be held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It is the twenty-first round of the 2026 Formula One World Championship. Kimi Antonelli (Mercedes) finished fastest in qualifying, but could not take pole position due to a grid penalty for exceeding his engine components. Max Verstappen (Red Bull), who finished second in qualifying, was promoted to pole position as a result."
+        "The 2026 Las Vegas Grand Prix (officially known as the Formula 1 Heineken Las Vegas Grand Prix 2026) is a Formula One motor race that was held on November 21, 2026 at the Las Vegas Strip Circuit in Las Vegas, Nevada. It is the twenty-first round of the 2026 Formula One World Championship. Kimi Antonelli (Mercedes) finished fastest in qualifying, but could not take pole position due to a grid penalty for exceeding his engine components. Max Verstappen (Red Bull), who finished second in qualifying, was promoted to pole position as a result. He went on to win the race, with the two McLaren drivers Lando Norris and Oscar Piastri finishing second and third respectively."
        ],
        "hKo": "",
        "pKo": [
-        "2026년 라스베이거스 그랑프리(공식 명칭: 포뮬러 1 하이네켄 라스베이거스 그랑프리 2026)는 2026년 11월 21일 네바다주 라스베이거스 스트립 서킷에서 열리는 포뮬러 원 자동차 경주입니다. 2026년 포뮬러 원 월드 챔피언십의 21번째 라운드입니다. 키미 안토넬리(메르세데스)는 예선에서 가장 빠른 성적을 거두었지만 엔진 부품 초과로 인한 그리드 페널티로 인해 폴 포지션을 차지하지 못했습니다. 예선 2위인 막스 베르스타펜(레드불)은 이에 따라 폴포지션으로 승격됐다."
+        "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
        ]
       },
       {
@@ -115,11 +115,35 @@
        "h": "Race",
        "level": 2,
        "p": [
-        "The race will be held on November 21, 2026, at 20:00 local time (UTC–8), and will be run for 50 laps."
+        "The race was held on November 21, 2026, at 20:00 local time (UTC–8), and was ran for 50 laps."
        ],
        "hKo": "결승",
        "pKo": [
-        "레이스는 2026년 11월 21일 현지 시간(UTC–8) 오후 8시에 개최되며, 50바퀴를 주행합니다."
+        "이 레이스는 2026년 11월 21일 현지 시간(UTC-8) 오후 8시에 개최되었으며, 50바퀴를 주행했습니다."
+       ]
+      },
+      {
+       "h": "Race classification",
+       "level": 3,
+       "p": [
+        "A new record for overtakes was set at this race, with 352 overtakes; nearly double of the previous record set by the 2023 Dutch Grand Prix of 186 overtakes, with 35 alone being lead changes."
+       ],
+       "hKo": "결승 결과",
+       "pKo": [
+        "이 레이스에서는 352회의 추월이 이루어져 추월 신기록이 수립되었습니다. 이는 2023년 네덜란드 그랑프리에서 세운 이전 기록인 186회의 추월의 거의 두 배에 달하는 수치이며, 이 중 35회는 선두 변경이었습니다."
+       ]
+      },
+      {
+       "h": "Championship standings after the race",
+       "level": 2,
+       "p": [
+        "Note: Only the top five positions are included for both sets of standings.",
+        "Competitors marked in bold are the 2026 World Champions."
+       ],
+       "hKo": "경기 후 챔피언십 순위",
+       "pKo": [
+        "참고: 두 세트의 순위에는 상위 5개 순위만 포함됩니다.",
+        "굵은 글씨로 표시된 경쟁자는 2026년 세계 챔피언입니다."
        ]
       }
      ]
@@ -1704,6 +1728,111 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "George Russell: “I don’t regret it” after crashing out of second at Las Vegas GP",
+     "desc": "George Russell could have played it safe and walked away from the 2026 Las Vegas Grand Prix with a podium. Instead, the Mercedes driver gambled on a late lunge for second - and…",
+     "link": "https://www.motorsport.com/f1/news/russell-i-dont-regret-it-after-hitting-las-vegas-wall-in-late-lunge-for-second/10876720/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/6b8ZArn2/s6/george-russell-mercedes-a10876720-b705-2.jpg",
+     "date": "2026-11-22T06:46:08+00:00",
+     "author": "",
+     "id": "80a5007bef",
+     "lead": [
+      "George Russell could have played it safe and walked away from the 2026 Las Vegas Grand Prix with a podium. Instead, the Mercedes driver gambled on a late lunge for second - and watched both his shot at victory and his championship cushion slide into the Turn 5 barrier.",
+      "Running third on Lap 48 of 50 behind leader Max Verstappen and team-mate Kimi Antonelli, Russell locked his brakes while trying to clear Antonelli heading into Turn 5. His W17 slid nose-first into the wall, forcing him to reverse back onto the circuit and dropping him to ninth at the chequered flag - 13.192 seconds adrift of Verstappen.",
+      "Even so, Russell refused to second-guess going for the win."
+     ],
+     "leadKo": [
+      "조지 러셀은 무리하지 않고 2026년 라스베이거스 그랑프리에서 포디움에 오를 수 있었습니다. 대신, 메르세데스 드라이버는 2위를 차지하기 위해 늦은 시점에 과감한 추월을 시도했고, 그 결과 우승 기회와 챔피언십 선두 자리를 모두 5번 코너 배리어에 부딪히며 놓치게 되었습니다.",
+      "러셀은 50바퀴 중 48바퀴째에 선두인 막스 페르스타펜과 팀 동료인 키미 안토넬리 뒤에서 3위를 달리고 있었습니다. 5번 코너로 진입하면서 안토넬리를 추월하려던 러셀은 브레이크가 잠기는 실수를 저질렀습니다. 그의 W17이 앞부분부터 벽에 부딪혔고, 그는 서킷으로 후진해야 했으며 체커 플래그가 내려졌을 때 9위로 밀려났습니다. 베르스타펜과는 13.192초 차이가 났습니다.",
+      "그럼에도 불구하고 러셀은 우승을 향한 결정을 재고하지 않았습니다."
+     ],
+     "titleKo": "조지 러셀: \"후회하지 않습니다\" - 라스베이거스 GP에서 2위로 달리다 충돌 사고로 리타이어",
+     "descKo": "조지 러셀은 안전하게 레이스를 펼치며 2026년 라스베이거스 그랑프리에서 포디움에 오를 수 있었습니다. 대신, 메르세데스 드라이버는 늦은 시점에 2위를 차지하기 위해 도박을 걸었고..."
+    },
+    {
+     "title": "George Russell explains late-race crash in Las Vegas F1 victory bid",
+     "desc": "George Russell has admitted to making “a high-risk move” after crashing with three laps remaining in Formula 1’s Las Vegas Grand Prix in an attempt to clinch victory. As ‘yo-yo’…",
+     "link": "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YWKA391Y/s6/george-russell-mercedes.jpg",
+     "date": "2026-11-22T06:37:21+00:00",
+     "author": "",
+     "id": "b499906c81",
+     "lead": [
+      "George Russell has admitted to making “a high-risk move” after crashing with three laps remaining in Formula 1’s Las Vegas Grand Prix in an attempt to clinch victory.",
+      "As ‘yo-yo’ racing returned to F1, polesitter Max Verstappen and Russell frequently traded the lead throughout the race, occasionally challenged by the sister cars of Isack Hadjar in the first half of the race and Kimi Antonelli later on.",
+      "On lap 48 of 50, Russell had dropped down to third behind Verstappen and Antonelli and dived down the inside of his team-mate’s Silver Arrow, but locked up and hit the wall. Minimal damage meant he was able to finish the race, albeit down in ninth."
+     ],
+     "leadKo": [
+      "조지 러셀은 포뮬러원 라스베이거스 그랑프리에서 3랩을 남기고 우승을 차지하기 위해 시도하다가 충돌한 후 \"위험이 큰 움직임\"을 보였다고 인정했습니다.",
+      "'요요' 레이싱이 F1에 다시 등장하면서, 폴 포지션을 차지한 막스 페르스타펜과 러셀은 레이스 내내 선두 자리를 자주 주고받았으며, 레이스 전반부에는 이작 하자르의 팀 동료 차량이, 후반부에는 키미 안토넬리의 팀 동료 차량이 가끔 선두를 위협했습니다.",
+      "50바퀴 중 48바퀴째에 러셀은 페르스타펜과 안토넬리에 이어 3위로 밀려났고, 팀 동료의 실버 애로우 안쪽으로 파고들었지만 타이어가 잠기면서 벽에 부딪혔습니다. 데미지가 거의 없었기 때문에 9위로 밀려났지만 경주를 완주할 수 있었습니다."
+     ],
+     "titleKo": "조지 러셀, 라스베이거스 F1 우승 도전 중 후반부 충돌 사고에 대해 설명",
+     "descKo": "조지 러셀이 포뮬러원(F1) 라스베이거스 그랑프리에서 우승을 차지하기 위해 3랩을 남기고 충돌한 후 \"위험이 큰 행동\"을 했다고 인정했습니다. '요요'처럼…"
+    },
+    {
+     "title": "Five quick takeaways from Las Vegas GP",
+     "desc": "Las Vegas gets the pack race it craved In America's artificial entertainment capital, F1 put the most artificial and entertaining spectacle. How fitting. The yo-yo racing from the…",
+     "link": "https://www.motorsport.com/f1/news/five-quick-takeaways-from-las-vegas-gp/10876667/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YN7vj146/s6/max-verstappen-red-bull-racing-2.jpg",
+     "date": "2026-11-22T05:47:45+00:00",
+     "author": "",
+     "id": "fd81bdc22e",
+     "lead": [
+      "In America's artificial entertainment capital, F1 put the most artificial and entertaining spectacle. How fitting.",
+      "The yo-yo racing from the early days of the 2026 season was back on full display, with the lack of electric energy available on the Strip's mile long straight bring back battery driven overtaking. For a while it felt like we were watching the Indy 500, with the top cars trading the lead without being able to break away from the rest of the pack.",
+      "It led to numerous position changes and plenty of wheel-to-wheel races, much to the delight of the soldout crowd and event officials."
+     ],
+     "leadKo": [
+      "미국의 인공적인 엔터테인먼트의 중심지에서 F1은 가장 인공적이고 흥미로운 볼거리를 선사했습니다. 정말 잘 어울립니다.",
+      "2026시즌 초반부터 이어진 요요 레이싱이 다시 한 번 펼쳐졌습니다. 스트립의 1마일 길이 직선 구간에서 가용 전력 부족으로 인해 배터리 구동 추월이 다시 등장했습니다. 잠시 동안은 마치 인디 500을 보는 듯했습니다. 선두를 달리는 차량들이 서로 선두 자리를 주고받았지만 나머지 차량들과의 간격을 벌리지 못했거든요.",
+      "이로 인해 수많은 순위 변동과 많은 휠투휠 레이스가 펼쳐졌으며, 매진된 관중과 대회 관계자들은 이를 매우 즐거워했습니다."
+     ],
+     "titleKo": "라스베이거스 GP에서 얻은 다섯 가지 핵심 사항",
+     "descKo": "라스베이스가 갈망하던 팩 레이스를 개최하게 되었습니다. 미국의 인공적인 엔터테인먼트의 중심지에서 F1은 가장 인공적이고 흥미로운 스펙터클을 선보였습니다. 정말 잘 어울립니다. …에서 펼쳐지는 요요 레이싱."
+    },
+    {
+     "title": "F1 Las Vegas GP: Max Verstappen wins thriller as Ferraris come to blows",
+     "desc": "Max Verstappen won an eventful Las Vegas Grand Prix, holding off both Mercedes as Formula 1’s novel ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium. With…",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YvKBePn6/s6/max-verstappen-red-bull-racing-2.jpg",
+     "date": "2026-11-22T05:44:11+00:00",
+     "author": "",
+     "id": "3e6988731e",
+     "lead": [
+      "Max Verstappen won an eventful Las Vegas Grand Prix, holding off both Mercedes as Formula 1’s novel ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium.",
+      "With qualifying pacesetter Kimi Antonelli taking a five-place grid penalty for exceeding his engine allocation, Max Verstappen inherited pole position and retained the lead from George Russell at the start with an unchanged top five: Lando Norris, Isack Hadjar and Arvid Lindblad followed – though Hadjar swiftly found a way past the McLaren on lap one.",
+      "The only top-10 driver starting on mediums, Antonelli lost two spots to the Alpines at lights out, finding himself eighth ahead of the Ferraris, who were out in Q2 – though Franco Colapinto would soon collapse from seventh to 10th, then out of the points-paying positions."
+     ],
+     "leadKo": [
+      "맥스 페르스타펜이 다사다난했던 라스베이거스 그랑프리에서 우승을 차지했습니다. 포뮬러원(F1)의 새로운 '요요' 레이싱이 다시 펼쳐졌지만, 실버 애로우는 최종 포디움에 오르지 못했습니다.",
+      "퀄리파잉에서 선두를 차지한 키미 안토넬리가 엔진 할당량을 초과하여 그리드 5위 페널티를 받으면서, 막스 페르스타펜이 폴 포지션을 차지했고, 스타트에서 조지 러셀을 제치고 선두를 유지했습니다. 상위 5위는 변동이 없었습니다. 랜도 노리스, 이삭 하자르, 아르비드 린드블라드가 뒤를 이었지만, 하자르는 1랩에서 맥라렌을 빠르게 추월했습니다.",
+      "미디엄 타이어로 출발한 유일한 상위 10위 드라이버인 안토넬리는 신호가 꺼지자 알파인에게 두 자리를 내주었고, Q2에서 탈락한 페라리보다 앞선 8위를 차지했습니다. 하지만 프랑코 콜라핀토는 곧 7위에서 10위로 추락한 후 포인트 획득권 밖으로 밀려났습니다."
+     ],
+     "titleKo": "F1 라스베이거스 GP: 막스 페르스타펜이 스릴 넘치는 레이스에서 우승, 페라리 드라이버 간 충돌 발생",
+     "descKo": "막스 페르스타펜이 다사다난했던 라스베이거스 그랑프리에서 우승을 차지했습니다. 포뮬러원(F1)의 새로운 '요요' 레이싱이 돌아왔지만, 실버 애로우는 최종 포디움에 오르지 못했습니다."
+    },
+    {
+     "title": "Lewis Hamilton questions stewards in unaired radio message after F1 Vegas penalty",
+     "desc": "Lewis Hamilton’s recovery drive at the 2026 Las Vegas Grand Prix hit a major snag in the opening half of the race - and prompted a pointed complaint over Ferrari team radio…",
+     "link": "https://www.motorsport.com/f1/news/hamilton-questions-stewards-consistency-over-unaired-las-vegas-radio-after-10-second-penalty/10876678/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0rVPkN70/s6/lewis-hamilton-ferrari-a10876678-b704-2.jpg",
+     "date": "2026-11-22T05:07:03+00:00",
+     "author": "",
+     "id": "498cde9bdf",
+     "lead": [
+      "Lewis Hamilton ’s recovery drive at the 2026 Las Vegas Grand Prix hit a major snag in the opening half of the race - and prompted a pointed complaint over Ferrari team radio regarding FIA stewarding consistency.",
+      "Starting 11th after both Ferraris were eliminated in Q2 on Friday night, Hamilton climbed into the points during a fiercely contested opening stint alongside team-mate Charles Leclerc and McLaren ’s Lando Norris . Around Lap 13, while fighting for seventh place through the Turn 7–8 chicane, Hamilton ran into the run-off area and cut the corner while duelling Norris.",
+      "Although space at the apex appeared tight as the McLaren occupied the racing line, stewards determined Hamilton left the track and gained a lasting advantage, imposing a 10-second time penalty."
+     ],
+     "leadKo": [
+      "2026년 라스베이거스 그랑프리에서 루이스 해밀턴의 추격 주행은 레이스 전반에 걸쳐 큰 차질을 빚었고, 페라리 팀 라디오를 통해 FIA 스튜어드의 일관성에 대한 날카로운 불만이 제기되었습니다.",
+      "금요일 밤 Q2에서 두 대의 페라리 차량이 모두 탈락한 후 11위로 출발한 해밀턴은 팀 동료인 샤를 르클레르와 맥라렌의 랜도 노리스와 치열한 접전을 펼치며 포인트를 획득했습니다. 13랩 즈음에 7~8번 코너 시케인을 통과하며 7위를 놓고 경쟁하던 중, 해밀턴은 노리스와 접전을 벌이던 중 런오프 영역으로 진입하여 코너를 가로질렀습니다.",
+      "맥라렌이 레이싱 라인을 차지하고 있어 아펙스(코너의 가장 안쪽 지점)의 공간이 좁아 보였지만, 심사위원들은 해밀턴이 트랙을 벗어나 지속적인 이점을 얻었다고 판단하고 10초의 시간 페널티를 부과했습니다."
+     ],
+     "titleKo": "루이스 해밀턴, F1 라스베이거스 그랑프리 페널티 이후 방송되지 않은 무선 메시지에서 심사위원에게 이의 제기",
+     "descKo": "2026년 라스베이거스 그랑프리에서 루이스 해밀턴의 추격 주행은 레이스 전반에 큰 차질을 빚었고, 페라리 팀 라디오를 통해 날카로운 불만이 제기되었습니다..."
+    },
+    {
      "title": "Oscar Piastri questions \"strange\" pace deficit to other Mercedes-powered cars in Las Vegas",
      "desc": "Oscar Piastri stopped short of echoing the verdict of team-mate Lando Norris that McLaren's straightline speed in Las Vegas was \"just shocking\". But he did acknowledge that the…",
      "link": "https://www.motorsport.com/f1/news/piastri-questions-strange-pace-deficit-to-other-mercedes-powered-cars-in-las-vegas/10876516/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1711,6 +1840,8 @@
      "date": "2026-11-21T19:00:03+00:00",
      "author": "",
      "id": "52a3f63f57",
+     "titleKo": "오스카 피아스트리(Oscar Piastri)는 라스베거스에서 다른 메르세데스 구동 차량의 \"이상한\" 속도 부족에 대해 의문을 제기했습니다.",
+     "descKo": "오스카 피아스트리는 라스베거스에서 맥라렌의 직선 속도가 \"그냥 충격적\"이었다는 팀 동료 랜도 노리스의 평결을 반영하지 못했습니다. 하지만 그는 그 사실을 인정했습니다.",
      "lead": [
       "Oscar Piastri stopped short of echoing the verdict of team-mate Lando Norris that McLaren's straightline speed in Las Vegas was \"just shocking\". But he did acknowledge that the margin of the deficit to rivals was surprising – especially relative to those using the same Mercedes power units.",
       "Piastri set the seventh-quickest time in final qualifying with what he described as a \"messy\" lap, while Norris was fifth. The former will take a 10-place penalty anyway for fitting a fifth new internal combustion engine (ICE) this season, exceeding the quota of four, although he benefits from a new turbocharger specification which has been developed by Mercedes under the FIA's Additional Development and Upgrade Oppportunities (ADUO) framework.",
@@ -1720,9 +1851,7 @@
       "오스카 피아스트리는 라스베거스에서 맥라렌의 직선 속도가 \"그냥 충격적\"이었다는 팀 동료 랜도 노리스의 평결을 반영하지 못했습니다. 그러나 그는 경쟁사에 대한 적자 마진이 놀랍다는 점을 인정했습니다. 특히 동일한 Mercedes 동력 장치를 사용하는 경쟁사에 비해 더욱 그렇습니다.",
       "Piastri는 \"지저분한\" 랩으로 최종 예선에서 7번째로 빠른 기록을 세웠고 Norris는 5위를 기록했습니다. 전자는 FIA의 ADUO(추가 개발 및 업그레이드 기회) 프레임워크에 따라 Mercedes가 개발한 새로운 터보차저 사양의 혜택을 누리지만 이번 시즌에 5번째 새로운 내연 기관(ICE)을 장착하면 4위 할당량을 초과하여 10위의 벌점을 받게 됩니다.",
       "\"2분기 이후에는 진행 상황에 매우 만족했습니다.\"라고 그는 말했습니다."
-     ],
-     "titleKo": "오스카 피아스트리(Oscar Piastri)는 라스베거스에서 다른 메르세데스 구동 차량의 \"이상한\" 속도 부족에 대해 의문을 제기했습니다.",
-     "descKo": "오스카 피아스트리는 라스베거스에서 맥라렌의 직선 속도가 \"그냥 충격적\"이었다는 팀 동료 랜도 노리스의 평결을 반영하지 못했습니다. 하지만 그는 그 사실을 인정했습니다."
+     ]
     },
     {
      "title": "Max Verstappen takes Las Vegas pole despite “weird issues” since Brazil",
@@ -1732,6 +1861,8 @@
      "date": "2026-11-21T18:21:40+00:00",
      "author": "",
      "id": "c91dc6408f",
+     "titleKo": "Max Verstappen은 브라질 이후 \"이상한 문제\"에도 불구하고 라스베가스 폴을 차지했습니다.",
+     "descKo": "Max Verstappen은 토요일 밤 라스베거스 그랑프리를 위해 필드를 청신호로 이끌 예정이지만, 4회 세계 챔피언인 그는 금요일 저녁 자신의 차와 싸우는 데 시간을 보냈습니다.",
      "lead": [
       "Max Verstappen will lead the field to the green light for Saturday night’s Las Vegas Grand Prix, yet the four-time world champion spent Friday evening fighting his own car as much as his rivals.",
       "Verstappen clocked a 1m34.151s in Q3 - 0.258 seconds behind newly crowned world champion Kimi Antonelli’s 1m33.893s - to inherit pole position after Mercedes fitted Antonelli’s sixth internal combustion engine of the year, dropping the Italian to sixth. Still, qualifying proved an unexpected reprieve after a rocky build-up.",
@@ -1741,9 +1872,7 @@
       "Max Verstappen은 토요일 밤 라스베거스 그랑프리를 위해 필드를 청신호로 이끌 예정이지만, 4회 세계 챔피언인 그는 금요일 저녁 자신의 라이벌과 마찬가지로 자신의 자동차와 싸우며 시간을 보냈습니다.",
       "Verstappen은 3분기에 1분 34초 151초를 기록했습니다. 이는 새로 왕관을 쓴 세계 챔피언인 키미 안토넬리(Kimi Antonelli)의 1분 33초 893보다 0.258초 뒤진 것입니다. 메르세데스가 안토넬리의 올해 6번째 내연 기관을 장착한 후 폴 포지션을 이어받아 이탈리아 선수는 6위로 떨어졌습니다. 그럼에도 불구하고, 예선에서는 험난한 빌드업 이후 예상치 못한 유예가 이루어졌습니다.",
       "Verstappen은 예선 후 기자 회견에서 \"아마도 이번 주말 최고의 경기가 될 것입니다. 브라질 이후 기본적으로 차에 이상한 문제가 생겼고 이번 주말에도 그런 문제가 계속됐기 때문입니다\"라고 말했습니다."
-     ],
-     "titleKo": "Max Verstappen은 브라질 이후 \"이상한 문제\"에도 불구하고 라스베가스 폴을 차지했습니다.",
-     "descKo": "Max Verstappen은 토요일 밤 라스베거스 그랑프리를 위해 필드를 청신호로 이끌 예정이지만, 4회 세계 챔피언인 그는 금요일 저녁 자신의 차와 싸우는 데 시간을 보냈습니다."
+     ]
     },
     {
      "title": "Why Mercedes' tow plan for George Russell fell apart in Las Vegas",
@@ -1753,6 +1882,8 @@
      "date": "2026-11-21T18:15:21+00:00",
      "author": "",
      "id": "4d564a0c38",
+     "titleKo": "메르세데스의 조지 러셀 견인 계획이 라스베거스에서 무산된 이유",
+     "descKo": "라스베거스 그랑프리 출전 자격은 실제 차량과 운전자의 성능 못지않게 슬립스트림에 의해 결정되는데, 이는 메르세데스를 보면 매우 분명해졌습니다. 키미…",
      "lead": [
       "Qualifying for the Las Vegas Grand Prix was decided as much by slipstreams as it was by actual car and driver performance, and this was very clear when looking at Mercedes .",
       "Kimi Antonelli went fastest with a 1m33.893s at the chequered flag, but takes a five-place grid penalty for an engine change. George Russell , who needed the better grid slot in his fight with Max Verstappen for second in the championship, was third and missed out on the tow he wanted.",
@@ -1762,9 +1893,7 @@
       "라스베거스 그랑프리 출전 자격은 실제 차량과 운전자의 성능 못지않게 슬립스트림에 의해 결정되는데, 이는 메르세데스를 보면 매우 분명해졌습니다.",
       "키미 안토넬리(Kimi Antonelli)는 체크무늬 깃발에서 1분 33.893초로 가장 빠른 기록을 세웠지만 엔진 교체로 인해 5단계 그리드 페널티를 받았습니다. 챔피언십 2위를 차지하기 위해 Max Verstappen과의 싸움에서 더 나은 그리드 슬롯이 필요했던 George Russell은 3위를 차지했고 그가 원하는 견인차를 놓쳤습니다.",
       "네온 조명이 켜진 라스베거스 서킷은 긴 직선 도로가 지배하고 있으며, 운전자들은 차가 통과해야 하는 차갑고 짙은 공기 덕분에 올해 다른 차를 따라가는 효과가 이전에 본 적이 없는 것과 같다고 말합니다."
-     ],
-     "titleKo": "메르세데스의 조지 러셀 견인 계획이 라스베거스에서 무산된 이유",
-     "descKo": "라스베거스 그랑프리 출전 자격은 실제 차량과 운전자의 성능 못지않게 슬립스트림에 의해 결정되는데, 이는 메르세데스를 보면 매우 분명해졌습니다. 키미…"
+     ]
     },
     {
      "title": "Isack Hadjar: “We looked stupid” in Las Vegas as I don’t like slipstreaming",
@@ -1786,111 +1915,6 @@
       "Hadjar는 2분기에 Red Bull 팀 동료인 Max Verstappen보다 0.67초 느렸고 3분기에는 0.44초 더 느려서 5위를 기록했습니다. Sky Sports F1에 그가 \"그냥 견인력을 갖는 데 별로 집중하지 않았다\"고 말한 것처럼 그 격차는 부분적으로 그의 개인적인 선호도에 달려 있을 수 있습니다.",
       "“우리는 견인차가 없었습니다.”라고 2학년생은 서면 매체에 말했습니다. \"마지막 주행에서 우리는 조금 멍청해 보였지만 다른 팀은 매우 영리하게 플레이했습니다. 우리가 피트에서 나가는 동안 1번 턴에 차를 주차했습니다. 결국 저는 혼자였습니다. [내 마지막] 랩은 좋았지만 직선에서는 쓸모가 없어서 그냥 중단하는 것이 더 좋았습니다.\""
      ]
-    },
-    {
-     "title": "How McLaren tried to mitigate its Las Vegas F1 top speed deficit",
-     "desc": "Despite what was a respectable result on a circuit that accentuated the MCL40's flaws without rewarding its virtues, Lando Norris was not best pleased with how Friday at the Las…",
-     "link": "https://www.motorsport.com/f1/news/how-mclaren-tried-to-mitigate-its-las-vegas-f1-top-speed-deficit/10876451/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0arEGwP2/s6/oscar-piastri-mclaren-lando-no.jpg",
-     "date": "2026-11-21T11:41:02+00:00",
-     "author": "",
-     "id": "9ea11e6242",
-     "titleKo": "McLaren이 라스베가스 F1 최고 속도 부족을 완화하기 위해 노력한 방법",
-     "descKo": "MCL40의 장점을 보상하지 않고 결점만 강조한 서킷에서 훌륭한 결과를 얻었음에도 불구하고 Lando Norris는 Friday at the Las…",
-     "lead": [
-      "Despite what was a respectable result on a circuit that accentuated the MCL40's flaws without rewarding its virtues, Lando Norris was not best pleased with how Friday at the Las Vegas Grand Prix weekend.",
-      "“We're just shocking on the straights,” said Norris shortly after qualifying fifth, just under eight tenths behind polesitter Kimi Antonelli, who is set to drop five places for an engine penalty, elevating Norris to fourth on the grid.",
-      "The long straights and low downforce demands meant the Las Vegas Strip circuit was never going to be the strongest track for this car, as foreshadowed by McLaren's muted form on the circuit's nearest comparisons in Monza and Baku."
-     ],
-     "leadKo": [
-      "장점을 보상하지 않고 MCL40의 결점을 강조한 서킷에서 훌륭한 결과였음에도 불구하고 Lando Norris는 금요일 라스베거스 그랑프리 주말의 모습에 가장 만족하지 않았습니다.",
-      "Norris는 5위를 차지한 직후 \"우리는 직선 코스에서 충격을 받았습니다.\"라고 말했습니다. 이는 엔진 페널티로 인해 5계단 하락할 예정인 폴시터 Kimi Antonelli보다 8/10도 뒤처져 Norris를 그리드에서 4위로 끌어올렸습니다.",
-      "긴 직선과 낮은 다운포스 요구는 라스베거스 스트립 서킷이 결코 이 자동차의 가장 강력한 트랙이 될 수 없다는 것을 의미했습니다. 이는 Monza와 Baku에서 서킷을 가장 가까운 비교에서 McLaren의 음소거 형태가 예고한 것처럼 말입니다."
-     ]
-    },
-    {
-     "title": "Kimi Antonelli and George Russell set for Mercedes talks over Las Vegas GP qualifying woes",
-     "desc": "George Russell and Kimi Antonelli will discuss the fallout from Formula 1’s Las Vegas Grand Prix qualifying “offline” following confusion over team orders and track position.…",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-and-george-russell-to-discuss-traffic-woes-in-las-vegas-gp-qualifying/10876431/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg",
-     "date": "2026-11-21T11:02:55+00:00",
-     "author": "",
-     "id": "8903538745",
-     "titleKo": "키미 안토넬리(Kimi Antonelli)와 조지 러셀(George Russell)은 라스베거스 GP 예선 문제에 대해 메르세데스 회담에 나섰습니다.",
-     "descKo": "조지 러셀(George Russell)과 키미 안토넬리(Kimi Antonelli)는 팀 주문과 트랙 위치에 대한 혼란으로 인해 포뮬러 1의 라스베이거스 그랑프리 예선 \"오프라인\"이 가져온 결과에 대해 논의할 것입니다.…",
-     "lead": [
-      "George Russell and Kimi Antonelli will discuss the fallout from Formula 1’s Las Vegas Grand Prix qualifying “offline” following confusion over team orders and track position.",
-      "Traffic played a significant role in qualifying on Friday night with drivers reluctant to go first, considering the advantage of a tow is huge around the low-downforce street circuit.",
-      "There was the added complexity of five drivers taking a grid penalty , so their primary role was to help their team-mate like Haas’ Oliver Bearman giving Rafael Camara a tow in Q1."
-     ],
-     "leadKo": [
-      "조지 러셀(George Russell)과 키미 안토넬리(Kimi Antonelli)는 포뮬러 1의 라스베거스 그랑프리 예선 “오프라인”에서 팀 오더와 트랙 위치에 대한 혼란이 가져온 결과에 대해 논의할 것입니다.",
-      "견인력이 낮은 거리 서킷 주변에서 견인의 이점이 크다는 점을 고려하면 운전자가 먼저 가기를 꺼리는 금요일 밤 예선에서 교통 상황이 중요한 역할을 했습니다.",
-      "그리드 페널티를 받는 5명의 드라이버로 인해 복잡성이 추가되었으므로 이들의 주요 역할은 Q1에서 Rafael Camara를 견인하는 Haas의 Oliver Bearman과 같은 팀 동료를 돕는 것이었습니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen shares theory on Ferrari's lack of top speed in F1 2026",
-     "desc": "Although Max Verstappen was not entirely satisfied with his second-fastest time in qualifying for the Formula 1 Las Vegas Grand Prix – pointing to a mysterious issue with the RB22…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-shares-theory-on-ferraris-lack-of-top-speed-in-f1-2026/10876424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0mXykW56/s6/charles-leclerc-ferrari.jpg",
-     "date": "2026-11-21T10:31:10+00:00",
-     "author": "",
-     "id": "967da40109",
-     "titleKo": "Max Verstappen은 F1 2026에서 페라리의 최고 속도가 부족하다는 이론을 공유합니다.",
-     "descKo": "Max Verstappen은 Formula 1 Las Vegas Grand Prix 예선에서 두 번째로 빠른 기록에 전적으로 만족하지 않았지만 RB22에 신비한 문제가 있음을 지적했습니다…",
-     "lead": [
-      "Although Max Verstappen was not entirely satisfied with his second-fastest time in qualifying for the Formula 1 Las Vegas Grand Prix – pointing to a mysterious issue with the RB22 – a glance at Ferrari shows that things could have been considerably worse.",
-      "For the first time since Imola 2025, the Scuderia saw both cars eliminated in Q2, after which Lewis Hamilton explained that floor damage and deployment issues had hampered him. He estimated that the missing section of the floor had cost him three to four tenths, while the deployment issue had cost him another six tenths.",
-      "That said, Ferrari already knew beforehand that the Las Vegas circuit would pose a considerable challenge for the SF-26. This is partly related to deliberate design choices. Ferrari runs a smaller turbo than most other power unit manufacturers, which gave the Maranello-based team an advantage off the line, particularly at the start of this year, but also has implications for outright power."
-     ],
-     "leadKo": [
-      "Max Verstappen은 Formula 1 Las Vegas Grand Prix 예선에서 두 번째로 빠른 기록에 전적으로 만족하지 않았지만(RB22의 알 수 없는 문제를 지적함) Ferrari를 한 눈에 보면 상황이 훨씬 더 나빴을 수도 있음을 알 수 있습니다.",
-      "Imola 2025 이후 처음으로 Scuderia는 2분기에 두 차량이 모두 탈락하는 것을 목격했으며, 그 후 Lewis Hamilton은 바닥 손상과 배치 문제로 인해 방해를 받았다고 설명했습니다. 그는 바닥의 누락된 부분으로 인해 3~4/10의 비용이 들었고 배포 문제로 인해 추가로 6/10의 비용이 발생했다고 추산했습니다.",
-      "그렇긴 하지만, 페라리는 이미 라스베거스 서킷이 SF-26에 상당한 도전이 될 것임을 미리 알고 있었습니다. 이는 부분적으로 의도적인 디자인 선택과 관련이 있습니다. Ferrari는 대부분의 다른 동력 장치 제조업체보다 더 작은 터보를 사용하므로 Maranello 기반 팀은 특히 올해 초에 라인 밖에서 이점을 얻었지만 완전한 전력에도 영향을 미칩니다."
-     ]
-    },
-    {
-     "title": "Fernando Alonso: Honda lacks so much power that rivals take extra margin behind us",
-     "desc": "Fernando Alonso says Honda’s power deficit is so dire that other cars are taking extra margin around the Aston Martins at Formula 1’s Las Vegas Grand Prix. The Nevadan street…",
-     "link": "https://www.motorsport.com/f1/news/fernando-alonso-honda-lacks-so-much-power-that-rivals-take-extra-margin-behind-us/10876414/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8pK6/s6/fernando-alonso-aston-martin-r.jpg",
-     "date": "2026-11-21T09:43:39+00:00",
-     "author": "",
-     "id": "4e92beb15e",
-     "titleKo": "페르난도 알론소: 혼다는 힘이 너무 부족해서 라이벌들이 우리보다 더 많은 마진을 차지합니다",
-     "descKo": "페르난도 알론소(Fernando Alonso)는 혼다의 전력 부족이 너무 심해서 다른 자동차들이 포뮬러 1 라스베거스 그랑프리에서 애스턴 마틴스 주변에서 추가 마진을 차지하고 있다고 말했습니다. 네바다 거리…",
-     "lead": [
-      "Fernando Alonso says Honda’s power deficit is so dire that other cars are taking extra margin around the Aston Martins at Formula 1’s Las Vegas Grand Prix.",
-      "The Nevadan street circuit was expected to expose the Japanese power unit’s deficiencies, with a near-2km full-throttle portion. Alonso and Lance Stroll unsurprisingly failed to escape Q1, where the two-time world champion was 1.251s down on the Q2 cut-off time.",
-      "Interestingly, Alonso also was 2.736s away from pacesetter George Russell , and his assessment implied that he could have been right at the front with a top engine."
-     ],
-     "leadKo": [
-      "페르난도 알론소(Fernando Alonso)는 혼다의 전력 부족이 너무 심해서 다른 자동차들이 포뮬러 1 라스베거스 그랑프리에서 애스턴 마틴스 주변에서 추가 마진을 차지하고 있다고 말했습니다.",
-      "네바다 스트리트 서킷에서는 풀 스로틀 부분이 거의 2km에 달하는 등 일본 동력 장치의 결함이 드러날 것으로 예상되었습니다. Alonso와 Lance Stroll은 당연히 Q1에서 탈출하지 못했습니다. 두 번의 세계 챔피언은 Q2 마감 시간에 1.251초 뒤쳐졌습니다.",
-      "흥미롭게도 Alonso는 선두주자인 George Russell과 2.736초 떨어져 있었으며, 그의 평가에 따르면 그가 최고의 엔진을 사용했다면 바로 선두에 설 수도 있었을 것입니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen reveals mysterious Red Bull issue that cannot be fixed in Las Vegas",
-     "desc": "Thanks to Kimi Antonelli's grid penalty, Max Verstappen will start Formula 1's Las Vegas Grand Prix from pole position, but that is not necessarily a reason for the Dutchman to be…",
-     "link": "https://www.motorsport.com/f1/news/max-verstappen-reveals-mysterious-red-bull-issue-that-cannot-be-fixed-in-las-vegas/10876399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/6DGgOAVY/s6/max-verstappen-red-bull-racing.jpg",
-     "date": "2026-11-21T08:52:06+00:00",
-     "author": "",
-     "id": "6afdc3879b",
-     "titleKo": "Max Verstappen은 라스베거스에서 해결할 수 없는 신비한 Red Bull 문제를 공개합니다.",
-     "descKo": "Kimi Antonelli의 그리드 페널티 덕분에 Max Verstappen은 Formula 1의 Las Vegas Grand Prix를 폴 포지션에서 시작할 것입니다. 그러나 이것이 반드시 Dutchman이…",
-     "lead": [
-      "Thanks to Kimi Antonelli's grid penalty, Max Verstappen will start Formula 1's Las Vegas Grand Prix from pole position, but that is not necessarily a reason for the Dutchman to be satisfied.",
-      "Yes, Red Bull has made significant progress with its power unit on energy-poor circuits and, following the balance problems during free practice, the team also managed to make effective set-up changes, but the feeling behind the wheel was still not what Verstappen believes it should be.",
-      "“Already since Brazil I have some weird issues in the car and that continued this weekend. I'm just trying to get my head around how to deal with that for the remainder of the weekend,” Verstappen said."
-     ],
-     "leadKo": [
-      "Kimi Antonelli의 그리드 페널티 덕분에 Max Verstappen은 Formula 1의 Las Vegas Grand Prix를 폴 포지션에서 시작할 것이지만 이것이 반드시 네덜란드인이 만족할 이유는 아닙니다.",
-      "예, Red Bull은 에너지가 부족한 서킷에서 동력 장치를 사용하여 상당한 진전을 이루었으며 자유 연습 중 균형 문제에 따라 팀도 효과적인 설정 변경을 수행했지만 운전석 뒤의 느낌은 여전히 ​​Verstappen이 생각하는 것과 같지 않았습니다.",
-      "\"이미 브라질 이후로 차에 이상한 문제가 생겼고 이번 주말에도 문제가 계속되었습니다. 남은 주말 동안 이 문제를 어떻게 처리할지 고민 중입니다.\"라고 Verstappen은 말했습니다."
-     ]
     }
    ]
   },
@@ -1898,6 +1922,69 @@
    "source": "The Race",
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
+    {
+     "title": "Our verdict on crazy Las Vegas GP with 20-plus lead changes",
+     "desc": "Our verdict on a wild Las Vegas F1 race, which will go down as a thriller for the right - and the wrong - reasons",
+     "link": "https://www.the-race.com/formula-1/our-verdict-f1-crazy-las-vegas-gp-20-plus-lead-changes/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1456085_HiRes.jpg",
+     "date": "2026-11-22T06:18:34+00:00",
+     "author": "The Race Team",
+     "id": "c713d07529",
+     "lead": [
+      "A wild Las Vegas Grand Prix offered plenty for any fan to get their teeth into.",
+      "A stunning Max Verstappen win and the most obvious case of Formula 1's bizarre 2026 rules intervening in the racing meant lots of drama.",
+      "Our team give their verdicts on what stood out to them in this race, which will go down as a thriller for the right - and wrong - reasons."
+     ],
+     "leadKo": [
+      "격렬했던 라스베이거스 그랑프리는 모든 팬에게 즐길 거리를 풍부하게 선사했습니다.",
+      "막스 페르스타펜의 놀라운 우승과 포뮬러원 2026년 bizar 규정이 레이스에 개입한 가장 명백한 사례는 많은 극적인 장면을 연출했습니다.",
+      "저희 팀은 이 레이스에서 눈에 띄었던 점에 대해 의견을 제시합니다. 이 레이스는 좋은 이유와 나쁜 이유로 모두 스릴 넘치는 레이스로 기록될 것입니다."
+     ],
+     "titleKo": "선두가 20번 이상 바뀐 혼돈의 라스베이거스 GP에 대한 우리의 평가",
+     "descKo": "정당한 이유와 부당한 이유로 스릴러로 기록될 와일드한 라스베이거스 F1 레이스에 대한 우리의 평가"
+    },
+    {
+     "title": "Verstappen wins breathless Las Vegas GP as Ferraris collide",
+     "desc": "Max Verstappen delivered a masterclass to win a peloton-style Las Vegas GP, while George Russell crashed and the Ferrari drivers collided",
+     "link": "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1456027_HiRes-1.jpg",
+     "date": "2026-11-22T05:58:27+00:00",
+     "author": "Jack Benyon",
+     "id": "3237558459",
+     "lead": [
+      "Max Verstappen delivered a masterclass in defensive driving to win a peloton-style Las Vegas Grand Prix for Red Bull, while main challenger George Russell crashed and the Ferrari drivers collided amid their recent struggles.",
+      "The first 15 laps were manic with the slipstream proving so powerful that constant changes of position took place, as Russell took the lead three times at the Turn 14 chicane only to be repassed before or into Turn 1 by Verstappen each time.",
+      "Isack Hadjar had also ran second and attacked Verstappen, and begged Red Bull to instruct Verstappen not to defend so that they could pass and repass each other to try to break away, but he predicted on the radio he was about to be passed by Russell and so it proved."
+     ],
+     "leadKo": [
+      "맥스 페르스타펜이 방어 운전의 진수를 선보이며 레드불에 라스베이거스 그랑프리 우승을 안겼습니다. 한편, 가장 강력한 경쟁자인 조지 러셀은 충돌 사고를 당했고, 최근 부진을 겪고 있는 페라리 드라이버들은 서로 충돌했습니다.",
+      "첫 15바퀴는 슬립스트림이 매우 강력하여 끊임없이 순위가 바뀌는 혼돈의 상황이었습니다. 러셀이 14번 코너 시케인에서 세 번이나 선두를 차지했지만, 매번 베르스타펜이 1번 코너 전이나 1번 코너에서 다시 추월했습니다.",
+      "이삭 하지아르도 2위를 차지하고 페르스타펜을 공격했으며, 레드불에게 페르스타펜이 방어하지 않도록 지시해 달라고 간청했습니다. 그래야 서로 추월하고 재추월하면서 선두권을 벗어날 수 있었기 때문입니다. 하지만 그는 무전으로 러셀에게 추월당할 것 같다고 예측했고, 실제로 그렇게 되었습니다."
+     ],
+     "titleKo": "페라리 드라이버들이 충돌한 가운데 베르스타펜이 숨 막히는 라스베이거스 GP에서 우승",
+     "descKo": "맥스 페르스타펜이 마스터 클래스를 선보이며 펠로톤 스타일의 라스베이거스 GP에서 우승을 차지한 반면, 조지 러셀은 충돌 사고를 당했고 페라리 드라이버들은 서로 충돌했습니다."
+    },
+    {
+     "title": "F1 2026 Las Vegas Grand Prix race result",
+     "desc": "The complete race result from the 50-lap F1 2026 Las Vegas GP",
+     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455918_HiRes.jpg",
+     "date": "2026-11-22T05:39:05+00:00",
+     "author": "The Race Team",
+     "id": "b498a657dc",
+     "lead": [
+      "Max Verstappen won a breathless Las Vegas Grand Prix, with just three seconds covering the top-five finishers in a race where the Ferrari Formula 1 drivers also collided.",
+      "1 Max Verstappen (Red Bull) 50 laps 2 Lando Norris (McLaren) +0.639s 3 Oscar Piastri (McLaren) +1.529s 4 Kimi Antonelli (Mercedes) +2.574s 5 Pierre Gasly (Alpine) +2.927s 6 Franco Colapinto (Alpine) +7.955s 7 Lewis Hamilton (Ferrari) +12.795s 8 Carlos Sainz (Williams) +12.938s 9 George Russell (Mercedes) +13.192s 10 Charles Leclerc (Ferrari) +17.554s 11 Nico Hulkenberg (Audi) +22.720s 12 Gabriel Bortoleto (Audi) +28.602s 13 Ollie Bearman (Haas)…",
+      "00:00 Skip ad Latest Formula 1 Stories Our verdict on crazy Las Vegas GP with 20-plus lead changes Verstappen wins breathless Las Vegas GP as Ferraris collide F1 still 'very small' in US - Domenicali Article tags:"
+     ],
+     "leadKo": [
+      "맥스 페르스타펜이 숨 막히는 라스베이거스 그랑프리에서 우승을 차지했습니다. 페라리 포뮬러원 드라이버들이 충돌하기도 했던 이 레이스에서 상위 5명의 완주자 간 격차는 단 3초에 불과했습니다.",
+      "1 막스 페르스타펜(레드불) 50랩 2 랜도 노리스(맥라렌) +0.639초 3 오스카 피아스트리(맥라렌) +1.529초 4 키미 안토넬리(메르세데스) +2.574초 5 피에르 가슬리(알파인) +2.927초 6 프랑코 콜라핀토(알파인) +7.955초 7 루이스 해밀턴(페라리) +12.795초 8 카를로스 사인츠(윌리엄스) +12.938초 9 조지 러셀(메르세데스) +13.192초 10 샤를 르클레르(페라리) +17.554초 11 니코 휠켄베르그(아우디) +22.720초 12 가브리엘 보르톨레토(아우디) +28.602초 13 올리 비어맨(하스)…",
+      "00:00 광고 건너뛰기 최신 포뮬러원 소식 20번 이상의 선두 교체가 있었던 혼돈의 라스베이거스 GP에 대한 우리의 평가 페라리 팀의 충돌 사고가 있었던 숨 막히는 라스베이거스 GP에서 베르스타펜 우승 F1은 여전히 미국에서 '매우 작다' - 도메니칼리 기사 태그:"
+     ],
+     "titleKo": "F1 2026 라스베이거스 그랑프리 레이스 결과",
+     "descKo": "50랩 F1 2026 라스베이거스 GP의 전체 레이스 결과"
+    },
     {
      "title": "F1 still 'very small' in US - Domenicali",
      "desc": "F1 CEO Stefano Domenicali believes the championship is still “very small in the US” despite huge growth.",
@@ -2022,69 +2109,6 @@
       "Lando Norris는 Formula 1의 2026 Las Vegas Grand Prix에서 폴 포지션을 놓친 후 McLaren의 직선 속도를 \"충격적\"이고 \"끔찍하다\"고 말했습니다.",
       "Norris는 3분기에 4번째로 빠르며 새로운 세계 챔피언이자 폴 우승자 Kimi Antonelli의 그리드 페널티 덕분에 그리드에서 3번째로 레이스를 시작할 예정이지만 속도가 0.351초 느려서 좌절했습니다.",
       "노리스는 \"우리는 직선적으로 충격을 받고 있다\"고 말했다. \"마치 직선에서는 끔찍해요."
-     ]
-    },
-    {
-     "title": "Winners and losers from F1 2026 Las Vegas Grand Prix qualifying",
-     "desc": "Who nailed it when it mattered most in F1 qualifying at the Las Vegas GP, and who was left wanting?",
-     "link": "https://www.the-race.com/formula-1/winners-and-losers-from-f1-2026-las-vegas-grand-prix-qualifying/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455210_HiRes.jpg",
-     "date": "2026-11-21T07:18:43+00:00",
-     "author": "Jack Benyon",
-     "id": "2219cd7be0",
-     "titleKo": "F1 2026 라스베거스 그랑프리 예선의 승자와 패자",
-     "descKo": "라스베거스 GP의 F1 예선에서 가장 중요한 순간에 누가 성공했고, 누가 부족했습니까?",
-     "lead": [
-      "The rain-affected Formula 1 practice sessions meant there was added emphasis on hitting the ground running in FP3 and carrying that through into Las Vegas Grand Prix qualifying.",
-      "Who nailed it when it mattered most, and who failed to deliver on their earlier promise?",
-      "It's been a rollercoaster year for Ferrari, but a double-Q2 exit in Las Vegas has to be one of the lowest moments - even if the intricacies of this track make it a bit of an outlier."
-     ],
-     "leadKo": [
-      "비의 영향을 받은 Formula 1 연습 세션은 FP3에서 성공적으로 달리고 이를 라스베거스 그랑프리 예선까지 통과시키는 데 더 중점을 두었음을 의미합니다.",
-      "가장 중요한 순간에 성공을 거둔 사람은 누구이며, 이전 약속을 지키지 못한 사람은 누구입니까?",
-      "올해는 페라리에게 있어서 롤러코스터 같은 한 해였습니다. 하지만 라스베거스에서 2분기에 두 배로 탈출한 것은 가장 낮은 순간 중 하나여야 합니다. 비록 이 트랙의 복잡함으로 인해 약간 이상하게 느껴지더라도 말이죠."
-     ]
-    },
-    {
-     "title": "What explains Ferrari’s worst F1 2026 qualifying",
-     "desc": "A double Q2 exit is Ferrari's worst qualifying of the year - how did it go so wrong?",
-     "link": "https://www.the-race.com/formula-1/what-explains-ferrari-worst-f1-2026-qualifying/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455606_HiRes.jpg",
-     "date": "2026-11-21T06:56:55+00:00",
-     "author": "Jon Noble",
-     "id": "5c908ca9fb",
-     "titleKo": "페라리의 최악의 F1 2026 예선을 설명하는 것은 무엇입니까?",
-     "descKo": "더블 Q2 퇴출은 페라리의 올해 최악의 예선이다. 어떻게 그렇게 잘못됐나?",
-     "lead": [
-      "Ferrari braced for a tough time on the long straights of Las Vegas, but neither driver making it into Q3 marked its worst qualifying showing of the Formula 1 season so far.",
-      "Charles Leclerc had wrecked his chances when he was forced to abort his second Q2 run after a mistake at Turn 7. He ended up 11th fastest (he starts 10th thanks to Oscar Piastri's penalty), while right behind him Lewis Hamilton was not helped by deployment problems and some car damage that he picked up in Q1.",
-      "But Ferrari’s problems ran much deeper because a combination of its lack of top speed allied to the ongoing issues its drivers have faced in firing tyres up for qualifying that consigned them to their fate."
-     ],
-     "leadKo": [
-      "Ferrari는 라스베거스의 긴 직선 도로에서 힘든 시간을 보냈지만, Q3에 진출한 드라이버 중 두 드라이버 모두 지금까지 Formula 1 시즌 중 최악의 예선 성적을 기록했습니다.",
-      "Charles Leclerc는 7번째 턴에서 실수로 인해 두 번째 Q2 실행을 중단해야 했을 때 기회를 망쳤습니다. 그는 11번째로 빠른 기록을 세웠고(그는 Oscar Piatri의 페널티 덕분에 10번째로 시작했습니다), 그 바로 뒤의 Lewis Hamilton은 배치 문제와 그가 Q1에서 발견한 일부 차량 손상으로 인해 도움을 받지 못했습니다.",
-      "그러나 페라리의 문제는 훨씬 더 심각했습니다. 최고 속도의 부족과 드라이버가 자격을 얻기 위해 타이어를 발사하는 과정에서 직면한 지속적인 문제와 결합되어 그들을 운명에 맡겼기 때문입니다."
-     ]
-    },
-    {
-     "title": "Russell won't accept being 'screwed over' by Verstappen",
-     "desc": "George Russell says he refuses to be 'screwed over' by Max Verstappen after they clashed in practice at F1’s Las Vegas Grand Prix",
-     "link": "https://www.the-race.com/formula-1/russell-wont-accept-being-screwed-over-by-verstappen/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455467_HiRes.jpg",
-     "date": "2026-11-21T06:26:18+00:00",
-     "author": "Josh Suttill",
-     "id": "1e35f47bea",
-     "titleKo": "Russell은 Verstappen의 '망신'을 받아들이지 않을 것입니다.",
-     "descKo": "조지 러셀(George Russell)은 F1 라스베거스 그랑프리에서 Max Verstappen이 연습 중 충돌한 후 '망가진' 것을 거부했다고 말했습니다.",
-     "lead": [
-      "George Russell has accused Max Verstappen of “walking around like they’re bigger and better than everyone else” after they clashed in practice at Formula 1’s Las Vegas Grand Prix.",
-      "Russell and Verstappen banged wheels at Turn 14 during FP3 with the stewards issuing Verstappen with a warning for moving under braking.",
-      "Whoa! George ⚔️ Max #F1 #LasVegasGP pic.twitter.com/GDA3BZafAC"
-     ],
-     "leadKo": [
-      "조지 러셀(George Russell)은 맥스 베르스타펜(Max Verstappen)이 포뮬러 1 라스베거스 그랑프리(Las Vegas Grand Prix)에서 연습 중 충돌한 후 \"다른 사람들보다 더 크고 더 나은 것처럼 돌아다닌다\"고 비난했습니다.",
-      "Russell과 Verstappen은 FP3 중 Turn 14에서 바퀴를 세게 쳤고 청지기는 Verstappen에게 제동 상태에서 움직일 것을 경고했습니다.",
-      "와! 조지 ⚔️ Max #F1 #LasVegasGP pic.twitter.com/GDA3BZafAC"
      ]
     }
    ]
@@ -2289,15 +2313,51 @@
    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg",
    "items": [
     {
-     "title": "Collect 200, Natasha Bedingfield and Sean Paul LIVE Performance | T-Mobile Stage: 2026 Las Vegas GP",
-     "desc": "Join us LIVE at the T-Mobile stage from Las Vegas as Collect 200, Natasha Bedingfield and Sean Paul perform on stage in the T-Mobile Zone at Sphere.",
-     "link": "https://www.youtube.com/watch?v=C6lUkh_2_eU",
-     "image": "https://i.ytimg.com/vi/C6lUkh_2_eU/hqdefault.jpg",
-     "date": "2026-11-11T10:21:05+00:00",
+     "title": "LIVE: Las Vegas Grand Prix Post-Race Show",
+     "desc": "Join us from Las Vegas as the team discuss all the action from the Las Vegas Grand Prix!",
+     "link": "https://www.youtube.com/watch?v=Q017RPSWImU",
+     "image": "https://i.ytimg.com/vi/Q017RPSWImU/hqdefault.jpg",
+     "date": "2026-11-19T03:11:44+00:00",
      "author": "FORMULA 1",
-     "videoId": "C6lUkh_2_eU",
-     "id": "9909d63b89",
-     "titleKo": "200개 수집, 나타샤 베딩필드와 션 폴 라이브 공연 | T-모바일 스테이지: 2026 라스베거스 GP",
+     "videoId": "Q017RPSWImU",
+     "id": "7a3e7ccbbe",
+     "titleKo": "라이브: 라스베이거스 그랑프리 포스트 레이스 쇼",
+     "descKo": ""
+    },
+    {
+     "title": "This Battle Between George & Max 🤯",
+     "desc": "An epic battle between George Russell and Max Verstappen in Las Vegas!",
+     "link": "https://www.youtube.com/watch?v=n5P3CsCxdWE",
+     "image": "https://i.ytimg.com/vi/n5P3CsCxdWE/hqdefault.jpg",
+     "date": "2026-11-22T06:32:21+00:00",
+     "author": "FORMULA 1",
+     "videoId": "n5P3CsCxdWE",
+     "id": "cf3ad1be24",
+     "titleKo": "조지와 맥스의 대결 🤯",
+     "descKo": ""
+    },
+    {
+     "title": "Lewis & Charles Give LISA Racing Tips! 💪",
+     "desc": "The Ferrari duo give advice to LISA ahead of the LEGO race in Las Vegas.",
+     "link": "https://www.youtube.com/watch?v=DInmDXk_O3c",
+     "image": "https://i.ytimg.com/vi/DInmDXk_O3c/hqdefault.jpg",
+     "date": "2026-11-22T03:12:37+00:00",
+     "author": "FORMULA 1",
+     "videoId": "DInmDXk_O3c",
+     "id": "350ca0ed28",
+     "titleKo": "루이스와 찰스가 리사에게 레이싱 팁을 알려줍니다! 💪",
+     "descKo": ""
+    },
+    {
+     "title": "LIVE: Las Vegas Grand Prix Build-Up, Drivers' Parade & LEGO Race",
+     "desc": "Join us in Las Vegas as we build up to the Grand Prix!",
+     "link": "https://www.youtube.com/watch?v=XawJHpDkuPE",
+     "image": "https://i.ytimg.com/vi/XawJHpDkuPE/hqdefault.jpg",
+     "date": "2026-11-22T02:42:02+00:00",
+     "author": "FORMULA 1",
+     "videoId": "XawJHpDkuPE",
+     "id": "12c1845509",
+     "titleKo": "라이브: 라스베이거스 그랑프리 준비, 드라이버 퍼레이드 및 레고 레이스",
      "descKo": ""
     },
     {
@@ -2358,42 +2418,6 @@
      "videoId": "R-85gge3_i4",
      "id": "802db49002",
      "titleKo": "드라이버들은 누구를 최고의 남자로 선택할까요? 💒",
-     "descKo": ""
-    },
-    {
-     "title": "Drivers React To Qualifying | 2026 Las Vegas Grand Prix",
-     "desc": "After a surprise early exit from the Ferrari duo, and a last second lap to record the fastest time from Kimi Antonelli, the grid reacts to Qualifying in Las Vegas.",
-     "link": "https://www.youtube.com/watch?v=3QgJip5ljEk",
-     "image": "https://i.ytimg.com/vi/3QgJip5ljEk/hqdefault.jpg",
-     "date": "2026-11-21T08:00:15+00:00",
-     "author": "FORMULA 1",
-     "videoId": "3QgJip5ljEk",
-     "id": "3c735750ab",
-     "titleKo": "드라이버는 예선에 반응 | 2026년 라스베이거스 그랑프리",
-     "descKo": ""
-    },
-    {
-     "title": "Kimi Antonelli Sets The Fastest Qualifying Time In Las Vegas | Pirelli",
-     "desc": "Ride onboard as Kimi Antonelli sets the fastest time in Qualifying. Due to a 5-place grid penalty, he will line-up P6 on the grid, with Max Verstappen inheriting pole position for…",
-     "link": "https://www.youtube.com/watch?v=WILHYHpbOy4",
-     "image": "https://i.ytimg.com/vi/WILHYHpbOy4/hqdefault.jpg",
-     "date": "2026-11-21T07:00:24+00:00",
-     "author": "FORMULA 1",
-     "videoId": "WILHYHpbOy4",
-     "id": "1de2db472a",
-     "titleKo": "Kimi Antonelli가 라스베가스에서 가장 빠른 예선 기록을 세웠습니다 | 피렐리",
-     "descKo": ""
-    },
-    {
-     "title": "Qualifying Highlights | 2026 Las Vegas Grand Prix",
-     "desc": "Catch up on all the action from Qualifying in Las Vegas. With a number of grid penalties at play, who will secure the top spot for the Grand Prix?",
-     "link": "https://www.youtube.com/watch?v=jiBlTDJ-mFw",
-     "image": "https://i.ytimg.com/vi/jiBlTDJ-mFw/hqdefault.jpg",
-     "date": "2026-11-21T05:51:41+00:00",
-     "author": "FORMULA 1",
-     "videoId": "jiBlTDJ-mFw",
-     "id": "0874a801e1",
-     "titleKo": "예선 하이라이트 | 2026년 라스베이거스 그랑프리",
      "descKo": ""
     }
    ]
