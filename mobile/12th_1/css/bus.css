@@ -1,0 +1,599 @@
+/* =============================================================
+   bus.css : 경기 버스 도착정보 디자인 (밝은 리퀴드 글래스 + 모션)
+   순서: ① 색·기본값 → ② 배경 → ③ 유리 창 → ④ 상단 바·배치
+        → ⑤ 검색·즐겨찾기 → ⑥ 정류소 목록 → ⑦ 도착정보
+        → ⑧ 상태 표시·알림 → ⑨ 애니메이션 → ⑩ 반응형 → ⑪ 움직임 줄이기
+   ============================================================= */
+
+/* ===== ① 색·기본값 ===== */
+
+:root {
+  /* 기본 글자 (진한 남색) */
+  --color-text: #13203b;
+  /* 흐린 글자 */
+  --color-muted: #5b6b86;
+  /* 강조 (맑은 파랑) */
+  --color-accent: #2f6bff;
+  /* 보조 강조 (민트) */
+  --color-accent-2: #14b8a6;
+  /* 상태 색 */
+  --color-ok: #0f9d6b;
+  --color-warn: #d97706;
+  --color-error: #e5484d;
+  /* 노선 종류 색 (배지 바탕) */
+  --route-red: #e5484d;
+  --route-blue: #2f6bff;
+  --route-green: #16a34a;
+  --route-yellow: #e0a100;
+  --route-purple: #8b5cf6;
+  --route-sky: #0ea5e9;
+  --route-gray: #64748b;
+  /* 유리 창 공통 값 */
+  --glass-bg: rgba(255, 255, 255, 0.42);
+  --glass-border: rgba(255, 255, 255, 0.75);
+  --glass-blur: blur(22px) saturate(180%);
+  /* 둥글기 */
+  --radius: 26px;
+  /* 움직임 곡선 */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* 크기 계산에 테두리·여백 포함 */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* 페이지 기본값 */
+body {
+  margin: 0;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  color: var(--color-text); line-height: 1.55;
+  /* 밝은 하늘색 → 연보라 바탕 */
+  background: linear-gradient(160deg, #e0f0ff 0%, #eef2ff 45%, #fdf2f8 100%);
+  overflow-x: hidden; overflow-wrap: anywhere;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 버튼·입력칸이 페이지 글꼴 사용 */
+button, input { font: inherit; color: inherit; }
+
+/* 키보드 포커스 테두리 (접근성) */
+:focus-visible { outline: 2.5px solid var(--color-accent); outline-offset: 3px; }
+
+/* 스크린리더 전용 */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* hidden 속성은 항상 숨김 */
+[hidden] { display: none !important; }
+
+/* 직접 그린 아이콘 공통: 선으로 그린 24×24 아이콘, 글자 크기·색을 따라감 */
+.icon { width: 1.2em; height: 1.2em; flex-shrink: 0; vertical-align: -0.22em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* 흐린 작은 글자 */
+.muted { color: var(--color-muted); }
+.small { font-size: 0.85rem; }
+
+/* ===== ② 배경 (유리 뒤로 비치는 파스텔 빛 덩어리) ===== */
+
+/* 화면에 고정된 배경 층 */
+.background-blobs { position: fixed; inset: 0; z-index: -1; overflow: hidden; }
+
+/* 빛 덩어리 공통: 흐릿하게, 천천히 떠다님 */
+.background-blobs i { position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.75; animation: drift 18s ease-in-out infinite alternate; }
+
+/* 각각의 색·크기·위치·속도 */
+.background-blobs i:nth-child(1) { width: 460px; height: 460px; top: -120px; left: -80px; background: #93c5fd; }
+.background-blobs i:nth-child(2) { width: 380px; height: 380px; top: 30%; right: -100px; background: #99f6e4; animation-duration: 22s; }
+.background-blobs i:nth-child(3) { width: 420px; height: 420px; bottom: -140px; left: 20%; background: #c4b5fd; animation-duration: 26s; }
+.background-blobs i:nth-child(4) { width: 260px; height: 260px; top: 12%; left: 45%; background: #fbcfe8; animation-duration: 15s; }
+
+/* ===== ③ 유리 창 (리퀴드 글래스) ===== */
+
+/* 유리 창 공통: 반투명 흰색 + 뒤 배경 흐림 + 밝은 테두리 + 안쪽 하이라이트 */
+.glass {
+  position: relative; isolation: isolate;
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.3),
+    0 10px 40px rgba(31, 64, 128, 0.12);
+}
+
+/* 유리 위쪽의 매끈한 반사광 (위가 더 밝은 곡면 느낌) */
+.glass::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 45%);
+}
+
+/* 마우스를 따라 움직이는 둥근 빛 (JS가 --shine-x/y 설정) */
+.glass::after {
+  content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: radial-gradient(260px circle at var(--shine-x, -300px) var(--shine-y, -300px), rgba(255, 255, 255, 0.55), transparent 60%);
+  opacity: 0; transition: opacity 0.4s;
+}
+.glass:hover::after { opacity: 1; }
+
+/* ===== ④ 대시보드 큰 틀 ===== */
+
+/* 큰 틀: 화면 높이에 꽉 맞는 유리 창 하나 (PC에서는 페이지 대신 안쪽 칸들이 스크롤) */
+.app-shell {
+  display: grid; grid-template-columns: 340px 1fr;
+  width: min(1440px, calc(100% - 32px)); height: calc(100vh - 32px); height: calc(100dvh - 32px);
+  margin: 16px auto; border-radius: 32px; overflow: hidden;
+  animation: rise 0.8s var(--ease-out) both;
+}
+
+/* ----- 왼쪽 사이드바 ----- */
+
+/* 사이드바 (위에서 아래로 쌓고, 결과 목록이 남은 높이를 차지) */
+.sidebar {
+  display: flex; flex-direction: column; gap: 22px; min-height: 0; padding: 26px 22px 18px;
+  background: rgba(255, 255, 255, 0.28); border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+/* 로고 */
+.brand { display: flex; align-items: center; gap: 10px; margin: 0; font-weight: 800; font-size: 1.05rem; letter-spacing: -0.01em; }
+.brand b { color: var(--color-accent); }
+
+/* 로고 마크 (파란 사각형 안 버스 아이콘) */
+.brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 10px; background: linear-gradient(135deg, var(--color-accent), #5b8cff); color: #fff; box-shadow: 0 4px 12px rgba(47, 107, 255, 0.35); }
+.brand-mark .icon { width: 19px; height: 19px; }
+
+/* 사이드바 칸 공통 */
+.side-section { display: grid; gap: 10px; }
+
+/* 사이드바 칸 제목 */
+.side-title { margin: 0; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.06em; color: var(--color-muted); }
+
+/* 검색 결과 칸: 남은 높이를 다 쓰고, 목록만 스크롤 */
+.result-card { flex: 1; min-height: 0; grid-template-rows: auto 1fr; }
+
+/* 사이드바 맨 아래 출처 */
+.side-footer { margin: auto 0 0; font-size: 0.72rem; line-height: 1.5; color: var(--color-muted); }
+
+/* ----- 오른쪽 메인 ----- */
+
+/* 메인: 머리 / 요약 숫자 / 지도·목록 (마지막 줄이 남은 높이를 차지) */
+.dashboard { display: grid; grid-template-rows: auto auto 1fr; gap: 18px; min-height: 0; padding: 26px 28px 24px; }
+
+/* 메인 머리: 왼쪽 정류소 이름, 오른쪽 시계·버튼 */
+.dash-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+
+/* 시계 + 버튼 묶음 */
+.dash-tools { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+
+/* 시계 */
+.clock { margin: 0; padding: 8px 14px; border-radius: 999px; background: rgba(255, 255, 255, 0.55); border: 1px solid rgba(255, 255, 255, 0.9); font-weight: 700; font-size: 0.9rem; font-variant-numeric: tabular-nums; color: var(--color-muted); }
+
+/* 요약 숫자 4칸 */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+
+/* 요약 카드 하나 (작은 유리 판, 순서대로 떠오름) */
+.stat-card {
+  display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 12px; align-items: center;
+  padding: 14px 16px; border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55); border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 6px 18px rgba(31, 64, 128, 0.07);
+  animation: rise 0.6s var(--ease-out) both;
+}
+.stat-card:nth-child(2) { animation-delay: 0.05s; }
+.stat-card:nth-child(3) { animation-delay: 0.1s; }
+.stat-card:nth-child(4) { animation-delay: 0.15s; }
+
+/* 요약 아이콘 (색 동그라미) */
+.stat-icon { grid-row: span 2; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px; background: rgba(47, 107, 255, 0.12); color: var(--color-accent); }
+.stat-icon.is-mint { background: rgba(20, 184, 166, 0.14); color: #0f766e; }
+.stat-icon.is-amber { background: rgba(245, 164, 0, 0.15); color: #b45309; }
+.stat-icon.is-violet { background: rgba(139, 92, 246, 0.14); color: #6d28d9; }
+
+/* 요약 이름 */
+.stat-label { margin: 0; font-size: 0.78rem; font-weight: 600; color: var(--color-muted); }
+
+/* 요약 숫자 */
+.stat-value { display: flex; align-items: baseline; gap: 6px; min-width: 0; margin: 0; font-size: 1.35rem; font-weight: 900; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.stat-value small { font-size: 0.78rem; font-weight: 600; color: var(--color-muted); letter-spacing: 0; }
+
+/* 가장 먼저 오는 버스의 노선 번호 (노선 색 작은 배지) */
+.stat-route { padding: 1px 8px; border-radius: 8px; background: var(--route-color); color: #fff; font-size: 0.85rem; }
+
+/* 지도 | 도착 목록 */
+.dash-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 18px; min-height: 0; }
+
+/* 칸 공통 (작은 유리 판, 안쪽 내용이 칸 높이를 넘지 않게) */
+.panel {
+  display: flex; flex-direction: column; min-height: 0; padding: 16px; border-radius: 24px;
+  background: rgba(255, 255, 255, 0.4); border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  animation: rise 0.7s var(--ease-out) 0.15s both;
+}
+
+/* 칸 제목 */
+.panel-title { display: flex; align-items: center; gap: 6px; margin: 0 0 12px; font-size: 0.85rem; font-weight: 800; color: var(--color-muted); }
+.panel-title .icon { color: var(--color-accent); }
+
+/* 지도 액자 (칸의 남은 높이를 다 씀, 지도가 없으면 안내가 보임) */
+.map-frame { position: relative; flex: 1; min-height: 220px; border-radius: 18px; overflow: hidden; background: rgba(255, 255, 255, 0.45); }
+
+/* 지도 없을 때 안내 */
+.map-empty { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 10px; color: var(--color-muted); font-size: 0.88rem; }
+.map-empty .icon { width: 40px; height: 40px; stroke-width: 1.5; color: rgba(47, 107, 255, 0.55); }
+
+/* 도착 목록 칸: 목록만 스크롤 (행 높이를 내용만큼 고정해야 칸이 좁아도 카드가 눌리지 않음) */
+.arrivals-panel .bus-list { grid-auto-rows: max-content; flex: 1; min-height: 0; overflow-y: auto; padding: 2px 4px 4px 2px; margin: 0 -4px 0 -2px; }
+
+/* ===== ⑤ 검색·즐겨찾기 ===== */
+
+/* 검색 카드 제목 */
+
+/* 검색 폼 (알약 모양 유리 입력칸) */
+.search-form {
+  display: flex; gap: 6px; padding: 6px; border-radius: 999px;
+  background: rgba(255, 255, 255, 0.65); border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 2px 6px rgba(31, 64, 128, 0.08);
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+/* 입력 중이면 파란 빛 */
+.search-form:focus-within { background: rgba(255, 255, 255, 0.85); box-shadow: inset 0 2px 6px rgba(31, 64, 128, 0.08), 0 0 0 4px rgba(47, 107, 255, 0.18); }
+
+/* 입력칸 */
+.search-form input { flex: 1; min-width: 0; padding: 10px 14px; border: 0; background: transparent; outline: none; font-size: 1rem; }
+
+/* 검색 버튼 (동그란 파란 버튼) */
+.search-button { width: 46px; height: 46px; border: 0; border-radius: 50%; background: linear-gradient(135deg, var(--color-accent), #5b8cff); color: #fff; cursor: pointer; box-shadow: 0 6px 16px rgba(47, 107, 255, 0.35); transition: transform 0.3s var(--ease-spring); }
+.search-button { display: grid; place-items: center; }
+.search-button .icon { width: 20px; height: 20px; stroke-width: 2.4; }
+.search-button:hover { transform: scale(1.08) rotate(-8deg); }
+
+/* "내 주변 정류장 찾기" 버튼 (폭 전체, 민트 유리) */
+.nearby-button {
+  display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: 10px; padding: 12px;
+  border: 1px solid rgba(20, 184, 166, 0.35); border-radius: 999px; cursor: pointer;
+  background: rgba(204, 251, 241, 0.55); color: #0f766e; font-weight: 700;
+  transition: transform 0.25s var(--ease-spring), background 0.2s;
+}
+.nearby-button:hover { transform: translateY(-2px); background: rgba(204, 251, 241, 0.85); }
+.nearby-button:disabled { cursor: wait; }
+
+/* 위치를 찾는 동안 핀이 통통 튀며, 아래에 퍼지는 원 */
+.nearby-icon { position: relative; display: inline-grid; }
+.small-label .icon { color: #f5a400; }
+.nearby-button.is-locating .nearby-icon { animation: pin-drop 0.7s ease-in-out infinite; }
+.nearby-button.is-locating .nearby-icon::after { content: ''; position: absolute; left: 50%; bottom: -3px; width: 16px; height: 6px; margin-left: -8px; border-radius: 50%; border: 2px solid var(--color-accent-2); animation: pin-wave 1.2s ease-out infinite; }
+
+/* 정류소까지 거리 (오른쪽) */
+.station-distance { grid-column: 2; grid-row: 1 / span 2; padding: 3px 10px; border-radius: 999px; background: rgba(204, 251, 241, 0.7); color: #0f766e; font-size: 0.8rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+/* 작은 제목 글자 */
+.small-label { margin: 0 0 10px; font-size: 0.85rem; font-weight: 700; color: var(--color-muted); }
+
+/* 즐겨찾기 버튼 묶음 */
+.favorite-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.favorite-list .muted { margin: 0; }
+
+/* 즐겨찾기 정류소 버튼 (작은 유리 알약) */
+.favorite-chip {
+  padding: 8px 14px; border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 999px; cursor: pointer;
+  background: rgba(255, 255, 255, 0.6); font-weight: 700; font-size: 0.88rem;
+  transition: transform 0.3s var(--ease-spring), background 0.2s;
+  animation: pop 0.4s var(--ease-spring) both;
+}
+.favorite-chip small { color: var(--color-muted); font-weight: 500; }
+.favorite-chip:hover { transform: translateY(-2px); background: rgba(255, 255, 255, 0.9); }
+
+/* ===== ⑥ 정류소 목록 ===== */
+
+/* 목록 (스크롤 가능, 최대 높이 제한) */
+.station-list { list-style: none; margin: 0 -4px; padding: 0 4px; display: grid; grid-auto-rows: max-content; align-content: start; gap: 6px; min-height: 0; overflow-y: auto; }
+
+/* 목록 한 줄 (순서대로 떠오름) */
+.station-list li { animation: rise 0.5s var(--ease-out) var(--delay, 0ms) both; }
+
+/* 정류소 버튼 */
+.station-button {
+  display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 8px;
+  width: 100%; padding: 12px 14px; border: 1px solid transparent; border-radius: 16px; cursor: pointer;
+  background: rgba(255, 255, 255, 0.35); text-align: left;
+  transition: background 0.2s, border-color 0.2s, transform 0.25s var(--ease-out);
+}
+.station-button:hover { background: rgba(255, 255, 255, 0.75); transform: translateX(4px); }
+
+/* 선택된 정류소 */
+.station-button.is-selected { background: rgba(255, 255, 255, 0.85); border-color: rgba(47, 107, 255, 0.45); }
+
+/* 정류소 이름 */
+.station-name { font-weight: 700; }
+
+/* 정류소 번호·지역 */
+.station-sub { grid-column: 1; font-size: 0.8rem; color: var(--color-muted); font-variant-numeric: tabular-nums; }
+
+/* 오른쪽 화살표 */
+.station-arrow { grid-column: 2; grid-row: 1 / span 2; display: grid; color: var(--color-muted); transition: transform 0.25s var(--ease-out); }
+.station-button:hover .station-arrow { transform: translateX(3px); color: var(--color-accent); }
+
+/* ===== ⑦ 도착정보 ===== */
+
+/* 정류소 이름 */
+.arrival-title { margin: 0; font-size: 1.6rem; line-height: 1.25; letter-spacing: -0.02em; }
+
+/* 정류소 번호 */
+.arrival-sub { margin: 4px 0 0; color: var(--color-muted); font-size: 0.9rem; }
+
+/* 버튼 묶음 */
+.arrival-actions { display: flex; gap: 8px; flex-shrink: 0; }
+
+/* 동그란 유리 아이콘 버튼 */
+.icon-button {
+  position: relative; display: grid; place-items: center; width: 48px; height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 50%; cursor: pointer;
+  background: rgba(255, 255, 255, 0.6); font-size: 1.3rem; color: var(--color-text);
+  box-shadow: 0 4px 14px rgba(31, 64, 128, 0.1);
+  transition: transform 0.3s var(--ease-spring), background 0.2s;
+}
+.icon-button:hover { transform: scale(1.08); background: rgba(255, 255, 255, 0.9); }
+
+/* 즐겨찾기 켜짐 (노란 별) */
+#favoriteButton.is-active { color: #f5a400; }
+#favoriteButton.is-active .icon { fill: currentColor; }
+
+/* 별이 톡 튀는 애니메이션 */
+#favoriteButton.is-popping { animation: star-pop 0.5s var(--ease-spring); }
+
+/* 새로고침 아이콘 (갱신 중에는 회전) */
+.refresh-icon { display: grid; transition: transform 0.4s; }
+.refresh-button.is-spinning .refresh-icon { animation: spin 0.8s linear infinite; }
+
+/* 새로고침 버튼 둘레 원 (다음 자동 새로고침까지 남은 시간만큼 줄어듦) */
+.refresh-ring { position: absolute; inset: -1px; width: calc(100% + 2px); height: calc(100% + 2px); transform: rotate(-90deg); pointer-events: none; }
+.refresh-ring circle { fill: none; stroke: var(--color-accent); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 119.4; stroke-dashoffset: 119.4; }
+.refresh-button.is-counting .refresh-ring circle { animation: ring-countdown var(--refresh-seconds, 30s) linear forwards; }
+
+/* 정류소 지도 (액자를 꽉 채우고, 나타날 때 서서히 보임) */
+.station-map {
+  position: absolute; inset: 0; z-index: 0;
+  animation: fade-in 0.6s var(--ease-out) both;
+}
+
+/* 지도 그림을 살짝 밝고 부드럽게 (밝은 화면 분위기에 맞춤) */
+.station-map .leaflet-tile-pane { filter: saturate(0.85) brightness(1.04); }
+
+/* 확대/축소 버튼을 유리 느낌으로 */
+.station-map .leaflet-bar { border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 14px rgba(31, 64, 128, 0.15); }
+.station-map .leaflet-bar a { background: rgba(255, 255, 255, 0.8); color: var(--color-text); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+
+/* 선택한 정류소 핀 (흰 원 + 아래에서 퍼지는 파란 원) */
+.map-pin { display: grid; place-items: center; }
+.map-pin .icon { width: 20px; height: 20px; color: #fff; }
+.map-pin span { position: relative; z-index: 1; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 3px solid #fff; background: linear-gradient(135deg, var(--color-accent), #5b8cff); box-shadow: 0 6px 16px rgba(47, 107, 255, 0.45); font-size: 1.1rem; animation: pin-land 0.6s var(--ease-spring) both; }
+.map-pin::after { content: ''; position: absolute; left: 50%; bottom: -6px; width: 22px; height: 10px; margin-left: -11px; border-radius: 50%; border: 2px solid var(--color-accent); animation: pin-wave 1.6s ease-out infinite; }
+
+/* 다른 정류소 (작은 흰 점, 마우스 올리면 커짐) */
+.map-dot { border-radius: 50%; background: #fff; border: 3px solid var(--color-accent-2); box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); transition: transform 0.2s var(--ease-spring); }
+.map-dot:hover { transform: scale(1.3); }
+
+/* 내 위치 (파란 점 + 은은하게 퍼지는 빛) */
+.map-me { border-radius: 50%; background: #2563eb; border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.2), 0 2px 6px rgba(0, 0, 0, 0.3); }
+
+/* "내 위치 보기" 버튼 (지도 오른쪽 위 유리 버튼) */
+.locate-button { display: grid; place-items: center; width: 36px; height: 36px; padding: 0; cursor: pointer; background: rgba(255, 255, 255, 0.85) !important; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); font-size: 1.15rem; color: var(--color-text); transition: color 0.2s, transform 0.25s var(--ease-spring); }
+.locate-button:hover { transform: scale(1.08); }
+
+/* 내 위치를 보여주는 중이면 파란색 */
+.locate-button.is-active { color: #2563eb; }
+
+/* 위치를 찾는 동안 깜빡임 */
+.locate-button.is-locating { color: #2563eb; animation: soon-blink 0.8s ease-in-out infinite; cursor: wait; }
+
+/* 선택한 정류소 이름 말풍선 */
+.map-label { padding: 4px 10px; border: 0; border-radius: 999px; background: rgba(255, 255, 255, 0.92); font-weight: 800; font-family: inherit; box-shadow: 0 4px 12px rgba(31, 64, 128, 0.18); }
+
+/* 상태 표시줄 */
+.data-meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0; }
+
+/* 버스 목록 */
+.bus-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); align-content: start; gap: 12px; }
+
+/* 버스 노선 카드 (작은 유리 판) */
+.bus-card {
+  position: relative; display: grid; gap: 10px; padding: 16px 18px 16px 22px; border-radius: 20px; overflow: hidden;
+  background: rgba(255, 255, 255, 0.55); border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 6px 20px rgba(31, 64, 128, 0.08);
+  transition: transform 0.35s var(--ease-out), box-shadow 0.35s;
+}
+.bus-card:hover { transform: translateY(-3px); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 14px 30px rgba(31, 64, 128, 0.14); }
+
+/* 처음 그릴 때만 순서대로 떠오름 */
+.bus-card.is-entering { animation: rise 0.6s var(--ease-out) var(--delay, 0ms) both; }
+
+/* 카드 왼쪽 세로 색 띠 (노선 종류 색) */
+.bus-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--route-color); }
+
+/* 노선 종류별 색 지정 */
+.route-red { --route-color: var(--route-red); }
+.route-blue { --route-color: var(--route-blue); }
+.route-green { --route-color: var(--route-green); }
+.route-yellow { --route-color: var(--route-yellow); }
+.route-purple { --route-color: var(--route-purple); }
+.route-sky { --route-color: var(--route-sky); }
+.route-gray { --route-color: var(--route-gray); }
+
+/* 노선 번호 + 방면 */
+.route-info { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+
+/* 노선 번호 배지 (노선 종류 색 바탕) */
+.route-badge { display: inline-flex; align-items: baseline; gap: 6px; padding: 4px 12px 4px 10px; border-radius: 12px; background: var(--route-color); color: #fff; font-size: 1.25rem; font-weight: 900; letter-spacing: -0.02em; }
+.route-badge small { font-size: 0.68rem; font-weight: 700; opacity: 0.9; }
+
+/* 방면 */
+.route-dest { font-size: 0.85rem; color: var(--color-muted); }
+
+/* 첫 버스 도착 시간 */
+.eta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+
+/* 남은 시간 큰 글자 */
+.eta-time { font-size: 1.55rem; font-weight: 900; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; color: var(--color-accent); }
+
+/* 1분 이내면 빨갛게 깜빡임 */
+.eta-time.is-soon, .next-bus b.is-soon { color: var(--color-error); animation: soon-blink 1.2s ease-in-out infinite; }
+
+/* 몇 정류장 전 · 현재 위치 */
+.eta-detail { font-size: 0.85rem; color: var(--color-muted); }
+
+/* 도착 정보 없음 */
+.eta-none { margin: 0; font-weight: 700; color: var(--color-muted); }
+
+/* 버스가 정류소로 다가오는 작은 길 */
+.bus-track { position: relative; height: 26px; }
+
+/* 길 선 (점선) */
+.track-line { position: absolute; left: 0; right: 14px; top: 50%; border-top: 2px dashed rgba(91, 107, 134, 0.35); }
+
+/* 길 위의 버스 (--progress 만큼 오른쪽으로, 위치가 바뀌면 부드럽게 이동하며 살짝 들썩임) */
+.track-bus { position: absolute; top: 0; left: calc(var(--progress) * (100% - 50px)); display: grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; background: var(--route-color); color: #fff; box-shadow: 0 3px 8px rgba(19, 32, 59, 0.2); transition: left 1.2s var(--ease-out); animation: bus-bob 0.9s ease-in-out infinite; }
+
+/* 오른쪽 끝 정류소 표지 */
+.track-bus .icon { width: 16px; height: 16px; }
+.track-stop { position: absolute; right: 0; top: 2px; display: grid; color: var(--color-muted); }
+
+/* 작은 표시들 (저상·좌석·혼잡도) */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { padding: 3px 9px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; background: rgba(255, 255, 255, 0.75); border: 1px solid rgba(19, 32, 59, 0.08); }
+.tag { display: inline-flex; align-items: center; gap: 3px; }
+.tag-low { color: var(--color-accent); }
+.tag-warn { color: var(--color-warn); }
+
+/* 혼잡도 색 */
+.crowd-여유 { color: var(--color-ok); }
+.crowd-보통 { color: var(--color-accent); }
+.crowd-혼잡 { color: var(--color-warn); }
+.crowd-매우혼잡 { color: var(--color-error); }
+
+/* 다음 버스 줄 */
+.next-bus { margin: 0; padding-top: 8px; border-top: 1px solid rgba(19, 32, 59, 0.07); font-size: 0.85rem; color: var(--color-muted); }
+.next-bus b { color: var(--color-text); font-variant-numeric: tabular-nums; }
+
+/* 빈 상태 (가운데 큰 그림 + 안내) */
+.empty-state { grid-column: 1 / -1; display: grid; justify-items: center; gap: 4px; padding: 56px 16px; text-align: center; color: var(--color-muted); animation: rise 0.6s var(--ease-out) both; }
+.empty-state p { margin: 0; }
+
+/* 빈 상태 그림 (둥둥 떠다님) */
+.empty-illustration { display: grid; place-items: center; width: 84px; height: 84px; margin-bottom: 8px; border-radius: 50%; background: rgba(255, 255, 255, 0.7); border: 1px solid rgba(255, 255, 255, 0.95); box-shadow: inset 0 1px 0 #fff, 0 8px 24px rgba(31, 64, 128, 0.12); color: var(--color-accent); animation: float 3s ease-in-out infinite; }
+.empty-illustration .icon { width: 38px; height: 38px; stroke-width: 1.6; }
+.empty-illustration.is-error { color: var(--color-error); }
+
+/* 알약 모양 버튼 (다시 시도) */
+.pill-button { margin-top: 12px; padding: 10px 22px; border: 0; border-radius: 999px; cursor: pointer; background: var(--color-accent); color: #fff; font-weight: 700; box-shadow: 0 6px 16px rgba(47, 107, 255, 0.3); }
+
+/* 로딩 뼈대 (반짝이는 빛이 지나감) */
+.skeleton { height: 58px; border-radius: 16px; list-style: none; background: linear-gradient(90deg, rgba(255, 255, 255, 0.35) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.35) 75%); background-size: 200% 100%; animation: shimmer 1.3s infinite; }
+.bus-skeleton { height: 150px; border-radius: 20px; }
+
+/* ===== ⑧ 상태 표시·알림 ===== */
+
+/* 상태 칩 */
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 11px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; background: rgba(255, 255, 255, 0.6); border: 1px solid rgba(255, 255, 255, 0.9); color: var(--color-muted); animation: pop 0.35s var(--ease-spring) both; }
+.chip.is-ok { color: var(--color-ok); }
+.chip.is-loading { color: var(--color-accent); }
+.chip.is-error { color: var(--color-error); background: rgba(255, 235, 235, 0.8); }
+
+/* 깜빡이는 점 */
+.pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.4s infinite; }
+
+
+/* 아래 알림 (유리 알약) */
+.toast { position: fixed; left: 50%; bottom: 24px; z-index: 30; max-width: calc(100% - 32px); padding: 12px 22px; border-radius: 999px; font-weight: 700; font-size: 0.9rem; transform: translate(-50%, 120px); opacity: 0; transition: transform 0.45s var(--ease-spring), opacity 0.3s; }
+.toast.is-visible { transform: translate(-50%, 0); opacity: 1; }
+
+/* ===== ⑨ 애니메이션 정의 ===== */
+
+/* 아래에서 떠오르며 나타남 */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } }
+
+/* 서서히 보임 */
+@keyframes fade-in { from { opacity: 0; } }
+
+/* 작게 시작해 톡 튀어나옴 */
+@keyframes pop { from { opacity: 0; transform: scale(0.85); } }
+
+/* 별이 크게 튀었다 돌아옴 */
+@keyframes star-pop { 40% { transform: scale(1.35) rotate(-12deg); } }
+
+/* 빛 덩어리가 떠다님 */
+@keyframes drift { to { transform: translate(80px, 60px) scale(1.15); } }
+
+
+/* 길 위 버스가 들썩임 */
+@keyframes bus-bob { 50% { transform: translateY(-2px); } }
+
+/* 빈 상태 그림이 둥둥 */
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+
+/* 위치 핀이 통통 튐 */
+@keyframes pin-drop { 50% { transform: translateY(-5px); } }
+
+/* 핀 아래 원이 퍼지며 사라짐 */
+@keyframes pin-wave { from { transform: scale(0.4); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
+
+/* 핀이 위에서 떨어지며 꽂힘 */
+@keyframes pin-land { from { opacity: 0; transform: translateY(-18px); } }
+
+/* 회전 */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* 새로고침 원이 채워짐 (남은 시간 표시) */
+@keyframes ring-countdown { to { stroke-dashoffset: 0; } }
+
+/* 곧 도착 깜빡임 */
+@keyframes soon-blink { 50% { opacity: 0.45; } }
+
+/* 점이 커졌다 작아짐 */
+@keyframes pulse { 50% { opacity: 0.4; transform: scale(1.5); } }
+
+/* 뼈대 반짝임 */
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+/* ===== ⑩ 반응형 ===== */
+
+/* 노트북 (1180px 이하): 높이가 부족하므로 배치는 그대로 두고 사이드바·요약 칸만 날씬하게 */
+@media (max-width: 1180px) {
+  .app-shell { grid-template-columns: 300px 1fr; }
+  .stat-card { grid-template-columns: 1fr; padding: 12px 14px; }
+  .stat-icon { display: none; }
+  .dash-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+
+/* 태블릿·휴대폰 (900px 이하): 큰 틀을 풀어 페이지 전체가 위아래로 스크롤 */
+@media (max-width: 900px) {
+  .app-shell { grid-template-columns: 1fr; height: auto; width: calc(100% - 20px); margin: 10px auto; border-radius: 26px; }
+  .sidebar { border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.7); padding: 20px 16px; }
+  .station-list { max-height: 40vh; }
+  .side-footer { display: none; }
+  .dashboard { padding: 20px 16px; scroll-margin-top: 10px; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat-card { grid-template-columns: auto 1fr; }
+  .stat-icon { display: grid; }
+  .dash-grid { grid-template-columns: 1fr; }
+  .map-frame { min-height: 240px; }
+  .arrivals-panel .bus-list { overflow: visible; }
+}
+
+/* 휴대폰 (520px 이하): 머리 줄 세로 정렬, 글자·여백 줄임 */
+@media (max-width: 520px) {
+  .dash-header { flex-direction: column; }
+  .dash-tools { width: 100%; justify-content: space-between; }
+  .arrival-title { font-size: 1.3rem; }
+  .stats { gap: 10px; }
+  .stat-card { padding: 12px; column-gap: 10px; }
+  .stat-icon { width: 36px; height: 36px; border-radius: 12px; }
+  .stat-value { font-size: 1.1rem; }
+  .bus-list { grid-template-columns: 1fr; }
+  .icon-button { width: 44px; height: 44px; }
+}
+
+/* ===== ⑪ 움직임 줄이기 설정을 켠 사용자 배려 ===== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  /* 새로고침 남은 시간 원은 정보이므로 유지 */
+  .refresh-button.is-counting .refresh-ring circle { animation-duration: var(--refresh-seconds, 30s) !important; }
+}

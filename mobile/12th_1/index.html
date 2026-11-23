@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- 문서 언어를 한국어로 지정 (스크린리더가 한국어로 읽음) -->
+<html lang="ko">
+<head>
+  <!-- 한글이 깨지지 않도록 UTF-8 인코딩 사용 -->
+  <meta charset="UTF-8">
+  <!-- 모바일에서 화면 너비에 맞게 보이도록 설정 (반응형의 기본) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 브라우저 탭에 보이는 제목 -->
+  <title>경기 버스 도착정보</title>
+  <!-- 검색엔진·공유 미리보기에 쓰이는 사이트 설명 -->
+  <meta name="description" content="경기도 정류소를 검색하고 버스가 몇 분 후에 도착하는지 실시간으로 확인하세요.">
+  <!-- 휴대폰 주소창 색 -->
+  <meta name="theme-color" content="#dbeafe">
+  <!-- 한글 웹폰트(Pretendard) 불러오기 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <!-- 화면 꾸미기 CSS 파일 연결 -->
+  <!-- 지도 프로그램(Leaflet) 디자인 -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <!-- 화면 꾸미기 CSS 파일 연결 (Leaflet 다음에 불러와 지도 모양을 덮어씀) -->
+  <link rel="stylesheet" href="css/bus.css">
+</head>
+<body>
+  <!-- ===== 0. 직접 그린 아이콘 묶음 (화면에는 안 보이고, <use href="#i-이름">으로 불러 씀) =====
+       모든 아이콘은 24×24 칸에 선으로 그렸고, 글자색(currentColor)을 따라 색이 바뀜 -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <!-- 버스: 몸체 + 앞유리 + 창 구분선 + 전조등 + 바퀴 -->
+    <symbol id="i-bus" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M7 6.5h10M4 11.5h16M8 18v2.5M16 18v2.5"/><path d="M7.5 15h.01M16.5 15h.01" stroke-width="2.6"/></symbol>
+    <!-- 돋보기 -->
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></symbol>
+    <!-- 위치 핀 -->
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.8-6.5-11a6.5 6.5 0 0 1 13 0c0 5.2-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <!-- 별 (즐겨찾기, 켜지면 CSS가 속을 채움) -->
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.8l2.5 5.1 5.6.8-4 3.9.9 5.6-5-2.6-5 2.6.9-5.6-4-3.9 5.6-.8z"/></symbol>
+    <!-- 새로고침 (돌아가는 화살표) -->
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v4.5H15"/></symbol>
+    <!-- 버스 정류장 표지판 (기둥 + 판) -->
+    <symbol id="i-stop" viewBox="0 0 24 24"><path d="M12 12v9M9 21h6"/><rect x="6" y="3" width="12" height="9" rx="2.5"/><path d="M9.5 7.5h5"/></symbol>
+    <!-- 경고 삼각형 -->
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 4.6 2.9 17.5A2 2 0 0 0 4.6 20.5h14.8a2 2 0 0 0 1.7-3L13.7 4.6a2 2 0 0 0-3.4 0z"/><path d="M12 9.5v4M12 17h.01"/></symbol>
+    <!-- 신호 끊김 (전파 + 사선) -->
+    <symbol id="i-offline" viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M9 16a4.5 4.5 0 0 1 6 0M12 19.5h.01"/><path d="M4 4l16 16"/></symbol>
+    <!-- 달 (운행 시간 아님) -->
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.5A7.5 7.5 0 1 1 9.5 4.5a6 6 0 0 0 10 10z"/></symbol>
+    <!-- 내 위치 (과녁 모양) -->
+    <symbol id="i-locate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/></symbol>
+    <!-- 오른쪽 꺾쇠 -->
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></symbol>
+    <!-- 휠체어 (저상버스) -->
+    <symbol id="i-wheelchair" viewBox="0 0 24 24"><circle cx="11" cy="4.5" r="1.6"/><path d="M11 8v5.5h5l2 5"/><path d="M8 11.2a5 5 0 1 0 6.8 6.3"/></symbol>
+    <!-- 노선 (갈라지는 길) -->
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/></symbol>
+    <!-- 시계 -->
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <!-- 접힌 지도 -->
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4.5 3.5 6.5v13l5.5-2 6 2 5.5-2v-13l-5.5 2z"/><path d="M9 4.5v13M15 6.5v13"/></symbol>
+  </svg>
+  <!-- 배경에서 천천히 움직이는 파스텔 빛 덩어리 (유리 창 뒤로 비쳐 보임) -->
+  <div class="background-blobs" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+  <!-- ===== 대시보드 큰 틀 (유리 창 하나 안에 모든 화면이 들어감) ===== -->
+  <div class="app-shell glass">
+
+    <!-- ===== 1. 왼쪽 사이드바: 로고 · 검색 · 즐겨찾기 · 결과 목록 ===== -->
+    <aside class="sidebar" aria-label="정류소 찾기">
+      <!-- 로고 -->
+      <p class="brand"><span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-bus"></use></svg></span><span>경기 버스 <b>도착정보</b></span></p>
+
+      <!-- 검색 영역 -->
+      <section class="side-section" aria-labelledby="searchTitle">
+        <h1 class="side-title" id="searchTitle">정류소 검색</h1>
+        <!-- 정류소 검색 폼 (엔터 키로도 검색) -->
+        <form class="search-form" id="stationSearchForm" role="search">
+          <!-- 화면에는 숨기고 스크린리더에만 읽히는 라벨 -->
+          <label for="stationSearchInput" class="visually-hidden">정류소 이름</label>
+          <!-- 정류소 이름 입력칸 -->
+          <input type="search" id="stationSearchInput" placeholder="정류소 이름 (예: 수원역)" autocomplete="off" enterkeyhint="search">
+          <!-- 검색 버튼 -->
+          <button type="submit" class="search-button" aria-label="검색"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+        </form>
+        <!-- 현재 위치 주변 정류소 찾기 버튼 (누르면 브라우저가 위치 권한을 물어봄) -->
+        <button type="button" class="nearby-button" id="nearbyButton"><span class="nearby-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg></span> 내 주변 정류장 찾기</button>
+      </section>
+
+      <!-- 즐겨찾기 정류소 (없으면 안내 문구) -->
+      <section class="side-section favorites">
+        <p class="small-label"><svg class="icon" aria-hidden="true"><use href="#i-star"></use></svg> 즐겨찾기</p>
+        <div class="favorite-list" id="favoriteList"></div>
+      </section>
+
+      <!-- 검색 결과 (검색 전엔 숨김, 사이드바 남은 높이 안에서만 스크롤) -->
+      <section class="side-section result-card" id="resultCard" hidden>
+        <!-- 결과 개수 안내 -->
+        <p class="small-label" id="resultSummary" role="status"></p>
+        <!-- 정류소 목록 -->
+        <ul class="station-list" id="stationList"></ul>
+      </section>
+
+      <!-- 자료 출처 (사이드바 맨 아래) -->
+      <p class="side-footer">자료 출처: 경기도 버스정보 (공공데이터포털)<br>도착 예정 시간은 교통 상황에 따라 달라질 수 있어요.</p>
+    </aside>
+
+    <!-- ===== 2. 오른쪽 메인: 정류소 정보 · 요약 숫자 · 지도 · 도착 목록 ===== -->
+    <main class="dashboard" id="arrivalColumn" aria-labelledby="arrivalTitle">
+
+      <!-- 메인 머리: 정류소 이름 + 시계 + 버튼 -->
+      <header class="dash-header">
+        <div class="arrival-heading">
+          <h2 class="arrival-title" id="arrivalTitle">정류소를 선택하세요</h2>
+          <p class="arrival-sub" id="arrivalSub">왼쪽에서 정류소를 검색하면 도착 예정 버스가 여기에 나와요.</p>
+        </div>
+        <div class="dash-tools">
+          <!-- 현재 시각 (JS가 1초마다 갱신) -->
+          <p class="clock" id="clock" aria-hidden="true"></p>
+          <div class="arrival-actions" id="arrivalActions" hidden>
+            <!-- 즐겨찾기 추가/해제 버튼 -->
+            <button type="button" class="icon-button" id="favoriteButton" aria-pressed="false" aria-label="즐겨찾기에 추가"><svg class="icon" aria-hidden="true"><use href="#i-star"></use></svg></button>
+            <!-- 새로고침 버튼 (둘레의 원이 다음 자동 새로고침까지 남은 시간을 보여줌) -->
+            <button type="button" class="icon-button refresh-button" id="refreshButton" aria-label="지금 새로고침">
+              <svg class="refresh-ring" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19"></circle></svg>
+              <span class="refresh-icon"><svg class="icon" aria-hidden="true"><use href="#i-refresh"></use></svg></span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- 요약 숫자 4칸 (JS가 도착정보로 채움, 정류소를 고르기 전엔 "—") -->
+      <section class="stats" aria-label="요약">
+        <div class="stat-card">
+          <span class="stat-icon"><svg class="icon" aria-hidden="true"><use href="#i-route"></use></svg></span>
+          <p class="stat-label">도착 예정 노선</p>
+          <p class="stat-value" id="statRoutes">—</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon is-mint"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+          <p class="stat-label">5분 안에 도착</p>
+          <p class="stat-value" id="statSoon">—</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon is-amber"><svg class="icon" aria-hidden="true"><use href="#i-bus"></use></svg></span>
+          <p class="stat-label">가장 먼저 오는 버스</p>
+          <p class="stat-value" id="statFirst">—</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon is-violet"><svg class="icon" aria-hidden="true"><use href="#i-locate"></use></svg></span>
+          <p class="stat-label">내 위치에서</p>
+          <p class="stat-value" id="statDistance">—</p>
+        </div>
+      </section>
+
+      <!-- 지도 + 도착 목록 나란히 -->
+      <div class="dash-grid">
+        <!-- 지도 칸 -->
+        <section class="panel map-panel" aria-label="정류소 위치 지도">
+          <p class="panel-title"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> 정류소 위치</p>
+          <div class="map-frame">
+            <!-- 지도가 없을 때 보이는 안내 -->
+            <div class="map-empty"><svg class="icon" aria-hidden="true"><use href="#i-map"></use></svg><span>정류소를 고르면 지도가 나와요</span></div>
+            <!-- 정류소 위치 지도 (좌표가 있는 정류소를 고르면 나타남) -->
+            <div class="station-map" id="stationMap" hidden></div>
+          </div>
+        </section>
+
+        <!-- 도착 목록 칸 (칸 안에서만 스크롤) -->
+        <section class="panel arrivals-panel" aria-label="도착 예정 버스">
+          <p class="panel-title"><svg class="icon" aria-hidden="true"><use href="#i-bus"></use></svg> 도착 예정 버스</p>
+          <!-- 출처·마지막 확인 시각·갱신 상태 -->
+          <div class="data-meta" id="arrivalMeta" role="status"></div>
+          <!-- 버스 도착 목록 (로딩·빈 상태·오류 안내도 여기에) -->
+          <ul class="bus-list" id="busList">
+            <!-- 처음 화면: 빈 상태 그림 -->
+            <li class="empty-state">
+              <div class="empty-illustration"><svg class="icon" aria-hidden="true"><use href="#i-stop"></use></svg></div>
+              <p>정류소를 검색해 보세요</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- 화면 아래에서 잠깐 나타났다 사라지는 알림 -->
+  <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- API 키 설정 먼저 불러오기 (bus.js가 이 키를 사용) -->
+  <script src="js/config.js"></script>
+  <!-- 지도 프로그램(Leaflet, 키 없이 쓰는 오픈소스 지도) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- 화면 동작 스크립트 -->
+  <script src="js/bus.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- 문서 언어를 한국어로 지정 (스크린리더가 한국어로 읽음) -->
+<html lang="ko">
+<head>
+  <!-- 한글이 깨지지 않도록 UTF-8 인코딩 사용 -->
+  <meta charset="UTF-8">
+  <!-- 모바일에서 화면 너비에 맞게 보이도록 설정 (반응형의 기본) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 브라우저 탭에 보이는 제목 -->
+  <title>로그인 · HOMEPAGE</title>
+  <!-- 한글 웹폰트(Pretendard) 불러오기 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <!-- 화면 꾸미기 CSS 파일 연결 -->
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <!-- 화면 전체: 왼쪽 그림 영역 + 오른쪽 로그인 영역 -->
+  <main class="login-page">
+
+    <!-- ===== 1. 왼쪽 그림 영역 (장식) ===== -->
+    <section class="visual-panel" aria-hidden="true">
+      <!-- 천천히 떠다니는 빛 덩어리 -->
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <!-- 비스듬히 흐르는 색 카드 3줄 (JS가 채움) -->
+      <div class="card-wall" id="cardWall"></div>
+      <!-- 그림 위 문구 -->
+      <div class="visual-copy">
+        <p class="visual-eyebrow">HOME<b>PAGE</b></p>
+        <h2 class="visual-title">로그인하고<br>더 많이 누려보세요.</h2>
+        <p class="visual-desc">내 정보와 저장한 내용을 어느 기기에서든 이어서 볼 수 있어요.</p>
+      </div>
+    </section>
+
+    <!-- ===== 2. 오른쪽 로그인 영역 ===== -->
+    <section class="form-panel">
+      <!-- 로그인 카드 -->
+      <div class="login-card" id="loginCard">
+        <!-- 로고 -->
+        <p class="brand">✦ HOME<b>PAGE</b></p>
+        <!-- 제목 -->
+        <h1 class="card-title">다시 만나서 반가워요</h1>
+        <!-- 부제목 -->
+        <p class="card-subtitle">이메일과 비밀번호로 로그인하세요.</p>
+
+        <!-- 로그인 폼 (novalidate: 브라우저 기본 말풍선 대신 직접 만든 안내 문구 사용) -->
+        <form class="login-form" id="loginForm" novalidate>
+
+          <!-- 이메일 입력 묶음 -->
+          <div class="field">
+            <!-- 입력칸 (placeholder=" " 는 글자가 있는지 CSS가 알아내기 위한 빈칸) -->
+            <input type="email" id="emailInput" name="email" placeholder=" " autocomplete="username" aria-describedby="emailError" required>
+            <!-- 입력칸 안에 있다가 글자를 쓰면 위로 떠오르는 라벨 -->
+            <label for="emailInput">이메일</label>
+            <!-- 잘못 입력했을 때 안내 문구 -->
+            <p class="field-error" id="emailError" aria-live="polite"></p>
+          </div>
+
+          <!-- 비밀번호 입력 묶음 -->
+          <div class="field">
+            <!-- 비밀번호 입력칸 -->
+            <input type="password" id="passwordInput" name="password" placeholder=" " autocomplete="current-password" aria-describedby="passwordError capsLockNotice" required>
+            <!-- 떠오르는 라벨 -->
+            <label for="passwordInput">비밀번호</label>
+            <!-- 비밀번호 보이기/숨기기 버튼 -->
+            <button type="button" class="toggle-password" id="togglePasswordButton" aria-label="비밀번호 보이기" aria-pressed="false">👁️</button>
+            <!-- Caps Lock 이 켜져 있을 때 안내 -->
+            <p class="caps-notice" id="capsLockNotice" hidden>⇪ Caps Lock이 켜져 있어요</p>
+            <!-- 잘못 입력했을 때 안내 문구 -->
+            <p class="field-error" id="passwordError" aria-live="polite"></p>
+          </div>
+
+          <!-- 아이디 저장 + 비밀번호 찾기 줄 -->
+          <div class="form-options">
+            <!-- 아이디(이메일) 저장 체크박스 -->
+            <label class="remember">
+              <input type="checkbox" id="rememberCheckbox">
+              <!-- 직접 그린 체크 모양 -->
+              <span class="checkmark" aria-hidden="true"></span>
+              아이디 저장
+            </label>
+            <!-- 비밀번호 찾기 (서버가 없어 안내만 표시) -->
+            <button type="button" class="text-button" id="findPasswordButton">비밀번호 찾기</button>
+          </div>
+
+          <!-- 로그인 결과 안내 (실패 이유 등) -->
+          <p class="form-message" id="formMessage" role="alert"></p>
+
+          <!-- 로그인 버튼 (누르면 물결 퍼짐 + 로딩 표시) -->
+          <button type="submit" class="login-button" id="loginButton">
+            <span class="button-text">로그인</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <!-- 데모 계정 안내 (서버가 없어서 체험용 계정만 로그인됨) -->
+        <div class="demo-box">
+          <p>체험용 계정 <span class="muted">· 실제 서버가 없는 연습용 화면이에요</span></p>
+          <p><code>demo@example.com</code> / <code>demo1234</code></p>
+          <button type="button" class="text-button" id="fillDemoButton">자동으로 채우기</button>
+        </div>
+
+        <!-- 회원가입 안내 -->
+        <p class="signup-line">아직 회원이 아니신가요? <button type="button" class="text-button strong" id="signupButton">회원가입</button></p>
+      </div>
+
+      <!-- 로그인 성공 화면 (처음엔 숨김) -->
+      <div class="success-card" id="successCard" hidden>
+        <!-- 그려지는 체크 표시 -->
+        <svg class="success-check" viewBox="0 0 52 52" aria-hidden="true">
+          <circle cx="26" cy="26" r="24"></circle>
+          <path d="M15 27 l7 7 l15 -15"></path>
+        </svg>
+        <!-- 환영 문구 -->
+        <h1 class="card-title" id="welcomeTitle">환영해요!</h1>
+        <p class="card-subtitle">로그인에 성공했어요.</p>
+        <!-- 로그아웃(처음 화면으로) 버튼 -->
+        <button type="button" class="login-button" id="logoutButton"><span class="button-text">로그아웃</span></button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 화면 아래에서 잠깐 나타났다 사라지는 알림 -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- 화면 동작 스크립트 -->
+  <script src="js/login.js"></script>
+</body>
+</html>
