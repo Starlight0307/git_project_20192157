@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:17:08+00:00",
+ "updated": "2026-11-25T04:18:44+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -1778,6 +1778,27 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Lando Norris expects 2030 F1 racing to surpass Las Vegas GP spectacle",
+     "desc": "Formula 1’s Las Vegas Grand Prix delivered a headline statistic built for highlight reels: 352 overtakes and 35 lead changes across 50 laps, shattering the championship’s all-time…",
+     "link": "https://www.motorsport.com/f1/news/lando-norris-admits-some-of-the-overtakes-werent-overtakes-in-vegas-thriller-and-explains-why-2030-/10877443/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/2wlKznbY/s6/lando-norris-mclaren-a10877443-b706-2.jpg",
+     "date": "2026-11-24T23:30:01+00:00",
+     "author": "",
+     "id": "bfc49c5ea4",
+     "lead": [
+      "Formula 1’s Las Vegas Grand Prix delivered a headline statistic built for highlight reels: 352 overtakes and 35 lead changes across 50 laps, shattering the championship’s all-time passing record.",
+      "Yet runner-up Lando Norris was not fully sold on what that figure meant from inside the cockpit. Speaking in the FIA post-race press conference after finishing 0.639 seconds behind Max Verstappen , the McLaren driver pushed back on the raw count - arguing that battery-driven speed deltas made plenty of Saturday night’s passes feel far from genuine racing moves.",
+      "\"Max explained it well,\" Norris said, echoing Verstappen’s earlier dismissal of the Strip’s yo-yo drafting as \"playing Mario Kart \". \"From a racing point of view, from the outside, I'm sure it probably was the best race ever in Formula 1. You never know what's going to happen. There were overtakes out of nowhere.\""
+     ],
+     "leadKo": [
+      "Formula 1의 라스베이거스 그랑프리는 하이라이트 장면을 위해 만들어진 헤드라인 통계를 제공했습니다. 50랩 동안 352번의 추월과 35번의 리드 변경으로 챔피언십의 역대 통과 기록을 경신했습니다.",
+      "그러나 준우승자 Lando Norris는 그 수치가 조종석 내부에서 무엇을 의미하는지 완전히 이해하지 못했습니다. Max Verstappen보다 0.639초 뒤처진 후 FIA 레이스 후 기자 회견에서 McLaren 드라이버는 원래 수치를 뒤로 밀었습니다. 배터리 구동 속도 델타로 인해 토요일 밤의 많은 패스가 실제 레이싱 동작과 거리가 멀게 느껴진다고 주장했습니다.",
+      "Norris는 \"Max가 잘 설명했습니다. \"라고 Verstappen이 이전에 Strip의 요요 드래프트를 \"Mario Kart를 플레이하는 것\"으로 일축했던 것을 되풀이하면서 말했습니다. \"레이싱의 관점에서 볼 때, 외부에서 볼 때 아마도 포뮬러 1 역사상 최고의 레이스였을 것이라고 확신합니다. 무슨 일이 일어날지 전혀 알 수 없습니다. 갑자기 추월이 일어났습니다.\""
+     ],
+     "titleKo": "Lando Norris는 2030년 F1 경주가 라스베거스 GP 광경을 능가할 것으로 예상합니다.",
+     "descKo": "Formula 1의 라스베거스 그랑프리는 하이라이트 영상을 위한 헤드라인 통계를 제공했습니다. 50랩 동안 352번의 추월과 35번의 리드 변경으로 챔피언십 역대 기록을 경신했습니다."
+    },
+    {
      "title": "Unaired Las Vegas radio reveals Red Bull considered giving up Max Verstappen's lead",
      "desc": "In almost any other Formula 1 race, suggesting a race leader deliberately surrender first place with one lap left would sound unthinkable. At the 2026 Las Vegas Grand Prix, Red…",
      "link": "https://www.motorsport.com/f1/news/unaired-radio-reveals-red-bull-told-max-verstappen-to-consider-giving-antonelli-the-lead-before-las/10877450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1785,6 +1806,8 @@
      "date": "2026-11-24T21:08:35+00:00",
      "author": "",
      "id": "505f47c144",
+     "titleKo": "방송되지 않은 라스베이거스 라디오에서 레드불이 막스 페르스타펜의 선두 자리를 포기하는 것을 고려했다고 밝힘",
+     "descKo": "다른 거의 모든 포뮬러원(F1) 레이스에서, 레이스 선두 주자가 한 바퀴를 남기고 의도적으로 1위를 포기하겠다고 제안하는 것은 상상할 수 없는 일입니다. 2026년 라스베이거스 그랑프리에서 레드...",
      "lead": [
       "In almost any other Formula 1 race, suggesting a race leader deliberately surrender first place with one lap left would sound unthinkable. At the 2026 Las Vegas Grand Prix, Red Bull’s pitwall genuinely floated the idea to Max Verstappen .",
       "Team radio messages revealed just how intensely Verstappen and race engineer Tom Hart calculated the closing stages of Saturday night’s 35-lead-change thriller. As early as Lap 39, Verstappen sensed Mercedes had deciphered his deployment pattern down the Strip and pressed his pitwall for a fresh plan.",
@@ -1794,9 +1817,7 @@
       "다른 거의 모든 포뮬러원(F1) 레이스에서, 레이스 선두 주자가 한 바퀴를 남기고 의도적으로 1위를 포기하라는 제안은 상상할 수 없는 일로 들릴 것입니다. 2026년 라스베이거스 그랑프리에서 레드불의 피트월은 실제로 맥스 페르스타펜에게 이러한 아이디어를 제시했습니다.",
       "팀 무전 메시지를 통해 페르스타펜과 레이스 엔지니어 톰 하트가 토요일 밤 35번의 선두 교체가 있었던 스릴 넘치는 레이스의 막바지 구간을 얼마나 치밀하게 계산했는지 알 수 있었습니다. 벌써 39번째 랩에서 베르스타펜은 메르세데스가 스트립에서 그의 배포 패턴을 파악했다고 느끼고 피트월에 새로운 계획을 요구했습니다.",
       "페르스타펜은 무전을 통해 \"여러분은 마지막 랩에 대한 계획을 살펴봐야 합니다. 그들이 여전히 라인을 [불명확]할 수 있다는 것을 알아냈기 때문입니다.\"라고 말했습니다. \"그러니 마지막 랩에서만 무엇을 해야 하는지 봐야 합니다.\""
-     ],
-     "titleKo": "방송되지 않은 라스베이거스 라디오에서 레드불이 막스 페르스타펜의 선두 자리를 포기하는 것을 고려했다고 밝힘",
-     "descKo": "다른 거의 모든 포뮬러원(F1) 레이스에서, 레이스 선두 주자가 한 바퀴를 남기고 의도적으로 1위를 포기하겠다고 제안하는 것은 상상할 수 없는 일입니다. 2026년 라스베이거스 그랑프리에서 레드..."
+     ]
     },
     {
      "title": "Jolyon Palmer: No rival could match Max Verstappen's fight against George Russell in Las Vegas",
@@ -1806,6 +1827,8 @@
      "date": "2026-11-24T20:05:06+00:00",
      "author": "",
      "id": "693e03528e",
+     "titleKo": "졸리언 파머: 어떤 라이벌도 라스베이거스에서 조지 러셀과 맞붙은 맥스 페르스타펜의 싸움에 필적할 수 없었습니다.",
+     "descKo": "352번의 추월과 35번의 선두 교체가 있었던 라스베이거스 그랑프리에서도, 막스 페르스타펜의 승리를 결정지은 순간은...이 아닌, 치열한 배틀에서 드러난 대담함이었습니다.",
      "lead": [
       "Even in a Las Vegas Grand Prix packed with 352 overtakes and 35 lead changes, the defining moments of Max Verstappen ’s victory came down to raw wheel-to-wheel nerve rather than battery spreadsheets.",
       "Speaking on F1 TV’s post-race broadcast, former Formula 1 driver Jolyon Palmer hailed Verstappen’s defensive fight against George Russell as a display no rival on the current grid could have matched - singling out a string of mid-race counterattacks after Mercedes finally cracked Red Bull’s early energy playbook.",
@@ -1815,9 +1838,7 @@
       "352번의 추월과 35번의 선두 교체가 있었던 라스베이거스 그랑프리에서도 맥스 페르스타펜의 우승을 결정지은 순간은 배터리 스프레드시트가 아닌 순수한 휠투휠 대결의 긴장감에 달려 있었습니다.",
       "F1 TV의 포스트 레이스 방송에서 전 F1 드라이버인 졸리언 팔머는 베르스타펜이 조지 러셀을 상대로 펼친 방어전을 현재 그리드에서 어떤 라이벌도 따라잡을 수 없는 수준이라고 평가하며, 메르세데스가 마침내 레드불의 초반 에너지 전략을 파훼한 후 펼쳐진 일련의 미드 레이스 역습을 특히 언급했습니다.",
       "프론트 로우 듀얼은 신호등이 꺼지기도 전에 이미 무거운 짐을 안고 있었습니다. 페르스타펜과 러셀은 토요일 밤, 최종 연습 주행에서 14번 코너에서 충돌한 후 심기가 불편한 상태로 도착했습니다. 이 충돌로 인해 심사위원들로부터 공식 경고를 받았으며, 러셀은 페르스타펜을 \"다른 모든 사람보다 더 대단하고 더 잘난 척하는\" 사람이라고 비난했습니다. 그럼에도 불구하고 시속 300km에 달하는 속도로 50바퀴를 치열하게 주행하는 동안 두 사람은 서로 몇 밀리미터밖에 떨어지지 않은 채로 서로를 견제했지만 접촉은 없었습니다."
-     ],
-     "titleKo": "졸리언 파머: 어떤 라이벌도 라스베이거스에서 조지 러셀과 맞붙은 맥스 페르스타펜의 싸움에 필적할 수 없었습니다.",
-     "descKo": "352번의 추월과 35번의 선두 교체가 있었던 라스베이거스 그랑프리에서도, 막스 페르스타펜의 승리를 결정지은 순간은...이 아닌, 치열한 배틀에서 드러난 대담함이었습니다."
+     ]
     },
     {
      "title": "Decision time looms for Colton Herta after 2027 Cadillac F1 snub",
@@ -1827,6 +1848,8 @@
      "date": "2026-11-24T17:57:03+00:00",
      "author": "",
      "id": "8325ee4be6",
+     "titleKo": "2027년 캐딜락 F1 거절 후 콜튼 허타의 결정 시기가 다가오다",
+     "descKo": "세르지오 페레스의 파트너로 베테랑인 발테리 보타스를 계속 기용하기로 한 캐딜락의 결정은...",
      "lead": [
       "Cadillac's decision to stick with veteran incumbent Valtteri Bottas to partner Sergio Perez is a choice for continuity and stability after a debut campaign plagued with issues for Formula 1's 11th team in 2026. It also raises key questions over what's next for Colton Herta.",
       "With Cadillac's majority owner TWG enamoured with the prospect of having an American driver in one of its cars before too long, the team spared no expense on bringing Herta over, leaving the comfort of his IndyCar seat with sister team Andretti Global for a now-or-never shot at making it to F1.",
@@ -1836,9 +1859,7 @@
       "캐딜락이 베테랑 드라이버 발테리 보타스를 유지하여 세르히오 페레스와 파트너를 이루기로 한 결정은 2026년 포뮬러원 11번째 팀의 데뷔 시즌이 문제로 얼룩진 후 연속성과 안정성을 위한 선택입니다. 또한 콜턴 허타의 향후 행보에 대한 중요한 의문을 제기합니다.",
       "캐딜락의 지분 과반수를 보유한 TWG는 조만간 자사 차량에 미국인 드라이버를 탑승시킬 수 있다는 전망에 매료되었고, 팀은 허타를 영입하기 위해 비용을 아끼지 않았습니다. 허타는 자매 팀인 안드레티 글로벌의 인디카 시트라는 안락함을 뒤로하고, F1에 진출할 수 있는 '지금 아니면 영영 없는' 기회를 잡았습니다.",
       "인디카 레이스에서 9번 우승하고 최연소 우승 기록을 보유한 헤르타는 F1에서도 사용되는 독특한 피렐리 타이어를 숙달하는 것을 포함하여 포뮬러 2의 유럽 레이스에 적응하는 어려운 과제에 직면했습니다."
-     ],
-     "titleKo": "2027년 캐딜락 F1 거절 후 콜튼 허타의 결정 시기가 다가오다",
-     "descKo": "세르지오 페레스의 파트너로 베테랑인 발테리 보타스를 계속 기용하기로 한 캐딜락의 결정은..."
+     ]
     },
     {
      "title": "The issue that cost Pierre Gasly a potential \"win\" at F1's Las Vegas GP",
@@ -1848,6 +1869,8 @@
      "date": "2026-11-24T15:38:33+00:00",
      "author": "",
      "id": "e2e5622858",
+     "titleKo": "피에르 가슬리에게 F1 라스베이거스 GP에서 잠재적인 '우승'을 놓치게 한 문제",
+     "descKo": "피에르 가슬리는 레이스 막바지에 알핀 포뮬러원 머신에 냉각 문제가 발생하지 않았다면 라스베이거스 그랑프리에서 우승할 수 있는 페이스를 갖췄을 것이라고 생각합니다. 프랑스인인 가슬리는...",
      "lead": [
       "Pierre Gasly reckons he potentially had the pace to win the Las Vegas Grand Prix, had a cooling issue not affected his Alpine Formula 1 car in the closing stages.",
       "The Frenchman finished fifth from eighth on the grid, but after 31 of the scheduled 50 laps, Gasly was third behind Red Bull’s eventual winner Max Verstappen and Mercedes ’ George Russell .",
@@ -1857,9 +1880,7 @@
       "피에르 가슬리는 레이스 막바지에 알핀 포뮬러원 머신에 냉각 문제가 발생하지 않았다면 라스베이거스 그랑프리에서 우승할 수 있는 페이스를 갖췄을 것이라고 생각합니다.",
       "이 프랑스 출신 드라이버는 그리드 8위에서 출발하여 5위를 차지했지만, 예정된 50랩 중 31랩을 마친 후 가슬리는 레드불의 최종 우승자인 막스 페르스타펜과 메르세데스의 조지 러셀에 이어 3위를 차지했습니다.",
       "그러나 가슬리는 이후 4바퀴 만에 갑자기 5위를 하락하여 란도 노리스, 오스카 피아스트리, 키미 안토넬리, 루이스 해밀턴, 샤를 르클레르에 뒤진 8위로 떨어졌습니다."
-     ],
-     "titleKo": "피에르 가슬리에게 F1 라스베이거스 GP에서 잠재적인 '우승'을 놓치게 한 문제",
-     "descKo": "피에르 가슬리는 레이스 막바지에 알핀 포뮬러원 머신에 냉각 문제가 발생하지 않았다면 라스베이거스 그랑프리에서 우승할 수 있는 페이스를 갖췄을 것이라고 생각합니다. 프랑스인인 가슬리는..."
+     ]
     },
     {
      "title": "F1 pundit calls for real consequences at Ferrari: \"I'd chuck Ollie Bearman in for a race\"",
@@ -1869,6 +1890,8 @@
      "date": "2026-11-24T13:00:03+00:00",
      "author": "",
      "id": "62c6ce873b",
+     "titleKo": "F1 전문가, 페라리에 실질적인 조치 요구: \"올리 베어먼을 한 번 레이스에 투입하겠다\"",
+     "descKo": "2026년 라스베이거스 그랑프리에서 3번의 레이스 중 두 번째로 샤를 르클레르와 루이스 해밀턴이 충돌한 후, 패독에서는 누가 코너를 잘못 판단했는지에 대한 논의가 빠르게 진행되었습니다...",
      "lead": [
       "After Charles Leclerc and Lewis Hamilton collided for the second time in three races during the 2026 Las Vegas Grand Prix, the paddock debate quickly moved past who misjudged Turn 7 and onto a harder question: how can Ferrari actually stop it from happening again?",
       "Speaking on F1 TV’s post-race show, former IndyCar driver James Hinchcliffe suggested team principal Fred Vasseur may need to reach for the ultimate deterrent - handing a race seat to Ferrari protege Oliver Bearman .",
@@ -1878,9 +1901,7 @@
       "2026년 라스베이거스 그랑프리에서 3번의 레이스 중 두 번째로 샤를 르클레르와 루이스 해밀턴이 충돌한 후, 패독의 논쟁은 7번 코너에서 누가 판단을 잘못했는지에 대한 논의를 빠르게 지나쳐 더 어려운 질문으로 옮겨갔습니다. 바로 페라리가 실제로 이러한 일이 다시 발생하지 않도록 어떻게 막을 수 있는가 하는 것입니다.",
       "F1 TV의 포스트 레이스 쇼에서 전 인디카 드라이버인 제임스 힌클리프는 팀 대표인 프레드 바쇠르가 궁극적인 억제 수단, 즉 페라리의 유망주인 올리버 베어맨에게 레이스 시트를 넘겨주는 방안을 고려해야 할지도 모른다고 제안했습니다.",
       "\"여기서 어디로 가시나요? 제 말은, 두 선수 중 한 명을 벤치에 앉힐 수는 없다는 겁니다. 그렇게 하고 싶으시겠죠.\" 힌치클리프가 말문을 열자 공동 분석가인 졸리언 파머가 \"어쩌면 가능할지도 모르죠.\"라고 끼어들었습니다."
-     ],
-     "titleKo": "F1 전문가, 페라리에 실질적인 조치 요구: \"올리 베어먼을 한 번 레이스에 투입하겠다\"",
-     "descKo": "2026년 라스베이거스 그랑프리에서 3번의 레이스 중 두 번째로 샤를 르클레르와 루이스 해밀턴이 충돌한 후, 패독에서는 누가 코너를 잘못 판단했는지에 대한 논의가 빠르게 진행되었습니다..."
+     ]
     },
     {
      "title": "Juan Pablo Montoya explains how Red Bull outsmarted Mercedes at F1 Las Vegas GP",
@@ -1890,6 +1911,8 @@
      "date": "2026-11-24T12:28:59+00:00",
      "author": "",
      "id": "4697a05b06",
+     "titleKo": "후안 파블로 몬토야, 레드불이 F1 라스베이거스 GP에서 메르세데스를 어떻게 능가했는지 설명",
+     "descKo": "메르세데스가 라스베이거스 스트립에 가장 빠른 단일 랩 패키지를 선보였습니다. 새로 2026년 월드 챔피언에 등극한 키미 안토넬리가 5그리드 엔진 페널티를 받기 전 퀄리파잉 세션에서 1위를 차지했습니다...",
      "lead": [
       "Mercedes brought the fastest single-lap package to the Las Vegas Strip - newly crowned 2026 world champion Kimi Antonelli topped qualifying before a five-place engine penalty dropped him to sixth, while George Russell lined up alongside polesitter Max Verstappen .",
       "Yet after 50 chaotic laps and 35 lead changes, Red Bull collected the trophy while neither Silver Arrow reached the podium.",
@@ -1899,9 +1922,7 @@
       "메르세데스가 라스베이거스 스트립에 가장 빠른 단일 랩 패키지를 선보였습니다. 새로 2026년 월드 챔피언으로 등극한 키미 안토넬리가 퀄리파잉에서 1위를 차지했지만, 엔진 페널티로 5위가 하락하여 6위로 밀려났고, 조지 러셀은 폴 포지션을 차지한 막스 페르스타펜과 나란히 출발 그리드에 섰습니다.",
       "그러나 50바퀴의 혼돈스러운 레이스와 35번의 선두 교체 끝에 레드불이 트로피를 차지했고, 실버 애로우는 포디움에 오르지 못했습니다.",
       "F1 TV의 레이스 후 방송에서 7번의 그랑프리 우승자인 후안 파블로 몬토야는 레드불이 라이벌을 능가한 이유를 정확히 짚어냈습니다."
-     ],
-     "titleKo": "후안 파블로 몬토야, 레드불이 F1 라스베이거스 GP에서 메르세데스를 어떻게 능가했는지 설명",
-     "descKo": "메르세데스가 라스베이거스 스트립에 가장 빠른 단일 랩 패키지를 선보였습니다. 새로 2026년 월드 챔피언에 등극한 키미 안토넬리가 5그리드 엔진 페널티를 받기 전 퀄리파잉 세션에서 1위를 차지했습니다..."
+     ]
     },
     {
      "title": "Isack Hadjar frustrated – What really happened on Red Bull's team radio in Las Vegas",
@@ -1944,27 +1965,6 @@
       "레드불 소속 드라이버인 베르스타펜은 352번의 추월과 35번의 선두 교체가 이뤄진 레이스에서 폴 포지션을 75번째 그랑프리 우승, 그리고 라스베이거스에서 3번째 우승으로 연결시켰습니다.",
       "경기 후 기자회견에서 언제 마지막으로 이런 경주에서 우승했는지 묻자, 네덜란드 선수는 처음에는 대답하기를 꺼렸습니다. \"아마 말하지 않는 것이 좋을 것 같습니다. 아마 말하지 않는 것이 좋을 것 같습니다. 제가 마리오 카트를 플레이할 때 이런 식으로 우승했던 기억이 납니다."
      ]
-    },
-    {
-     "title": "Laurent Mekies: Keeping his emotions in check is giving Isack Hadjar “lap time”",
-     "desc": "Isack Hadjar left the 2026 Las Vegas Grand Prix empty-handed after a Lap 26 front wing failure and a post-race 10-second safety car penalty relegated him to 15th, yet Red Bull…",
-     "link": "https://www.motorsport.com/f1/news/laurent-mekies-keeping-his-emotions-in-check-is-giving-isack-hadjar-lap-time/10877211/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2wlKzrKY/s6/isack-hadjar-red-bull-racing-a10877211-b707-2.jpg",
-     "date": "2026-11-23T19:30:02+00:00",
-     "author": "",
-     "id": "477e9181c9",
-     "titleKo": "로랑 메키스: 감정을 잘 다스리는 것이 이삭 하지아르에게 \"랩 타임\"을 선사하고 있습니다.",
-     "descKo": "이삭 하지아르는 26랩에서 프론트 윙 고장으로 인해 2026년 라스베이거스 그랑프리에서 빈손으로 돌아섰고, 레이스 후 10초 세이프티 카 페널티로 인해 15위로 밀려났지만, 레드불은...",
-     "lead": [
-      "Isack Hadjar left the 2026 Las Vegas Grand Prix empty-handed after a Lap 26 front wing failure and a post-race 10-second safety car penalty relegated him to 15th, yet Red Bull team principal Laurent Mekies saw something far more encouraging on the Strip.",
-      "Having qualified fourth and briefly led on Lap 9 during an early one–two run alongside eventual winner Max Verstappen , the 22-year-old earned glowing praise from Mekies - who believes Hadjar’s growing emotional composure is now translating directly into speed.",
-      "Asked in his post-race media session about the fearless approach Hadjar showed after declaring on Thursday he had \"nothing to lose\" in chasing a win across the final three rounds, Mekies credited both his pace and tactical discipline."
-     ],
-     "leadKo": [
-      "이사크 하지아르(Isack Hadjar)는 26랩에서 프런트 윙 고장으로 인해 2026년 라스베이거스 그랑프리에서 빈손으로 돌아섰고, 레이스 후 10초 세이프티 카 페널티로 인해 15위로 밀려났지만, 레드불 팀 대표인 로랑 메키에스(Laurent Mekies)는 스트립에서 훨씬 더 고무적인 모습을 보았습니다.",
-      "예선 4위를 차지하고 9랩에서 잠시 선두를 달리며 최종 우승자인 막스 페르스타펜과 함께 초반 1-2위를 차지한 22세의 아드자르는 메키스 감독으로부터 찬사를 받았습니다. 메키스 감독은 아드자르의 감정적 침착성이 이제 속도로 직결되고 있다고 믿습니다.",
-      "목스는 마지막 3라운드에서 우승을 차지하기 위해 \"잃을 것이 없다\"고 선언한 후 하자가 보여준 대담한 접근 방식에 대해 레이스 후 기자회견에서 질문을 받았을 때, 하자의 페이스와 전술적 규율을 모두 높이 평가했습니다."
-     ]
     }
    ]
   },
@@ -1973,6 +1973,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "What time is F1's 2026 Qatar Grand Prix? Full weekend schedule",
+     "desc": "All the times you need to know for Formula 1's next race - the 2026 Qatar Grand Prix",
+     "link": "https://www.the-race.com/promoted/what-time-is-f1s-2026-qatar-grand-prix-full-weekend-schedule/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1389214_HiRes.jpg",
+     "date": "2026-11-24T21:27:10+00:00",
+     "author": "The Race Team",
+     "id": "1d3715f816",
+     "lead": [
+      "The Formula 1® Qatar Airways Qatar Grand Prix 2026 is the first of the pair of Middle East races that bring this epic season to a close, and a return to a more traditional circuit after the wild events of the streets of Las Vegas.",
+      "Below you'll find the all-important session times for the weekend, as well as all the information on where to watch the action on Apple TV .",
+      "Practice 1: 5.30am (PT), 8.30am (ET) Practice 2: 9am (PT), 12pm (ET)"
+     ],
+     "leadKo": [
+      "Formula 1® 카타르항공 카타르 그랑프리 2026은 이번 장대한 시즌을 마무리하고 라스베거스 거리의 거친 이벤트 이후 더욱 전통적인 서킷으로 복귀하는 두 개의 중동 경주 중 첫 번째 대회입니다.",
+      "아래에서는 주말의 가장 중요한 세션 시간과 Apple TV에서 해당 경기를 시청할 수 있는 위치에 대한 모든 정보를 확인할 수 있습니다.",
+      "연습 1: 오전 5시 30분(PT), 오전 8시 30분(ET) 연습 2: 오전 9시(PT), 오후 12시(ET)"
+     ],
+     "titleKo": "F1의 2026 카타르 그랑프리는 몇시입니까? 주말 전체 일정",
+     "descKo": "포뮬러 1의 다음 경주인 2026년 카타르 그랑프리에 대해 당신이 알아야 할 모든 시간"
+    },
+    {
      "title": "F1's 'cultural relevance' beats its US motorsport competition",
      "desc": "F1 might have a smaller audience in the US than NASCAR and IndyCar, but Will Buxton feels it has a unique spot in the country's sporting landscape",
      "link": "https://www.the-race.com/business/f1-cultural-relevance-beats-us-competition-nascar-indycar/",
@@ -1980,6 +2001,8 @@
      "date": "2026-11-24T12:33:09+00:00",
      "author": "Samarth Kanal",
      "id": "be2d04fbf4",
+     "titleKo": "F1의 '문화적 영향력'이 미국 모터스포츠 경쟁에서 우위를 점하다",
+     "descKo": "F1은 미국에서 NASCAR와 인디카(IndyCar)보다 관중이 적을 수 있지만, 윌 벅스턴(Will Buxton)은 F1이 미국 스포츠계에서 독보적인 위치를 차지하고 있다고 생각합니다.",
      "lead": [
       "Even though Formula 1 is less popular in the United States than NASCAR and IndyCar, its \"cultural relevance\" gives it a unique spot in the country's sports landscape, according to broadcaster Will Buxton.",
       "Buxton presented on the in-house F1TV channel from 2018-24 before joining Fox Sports as lead IndyCar commentator in 2025.",
@@ -1989,9 +2012,7 @@
       "포뮬러원은 미국에서 NASCAR와 인디카보다 인기가 덜하지만, 방송인 윌 벅스턴(Will Buxton)에 따르면 그 '문화적 관련성' 덕분에 미국 스포츠계에서 독보적인 위치를 차지하고 있습니다.",
       "벅스턴은 2018년부터 2024년까지 F1TV 사내 채널에서 활동하다가 2025년 폭스 스포츠에 입사하여 인디카 시리즈의 메인 해설자로 활동했습니다.",
       "라스베이거스에서 열린 The Race x Axios의 '레이스 너머: 혁신과 리더십에 대한 투자' 행사에서 벅스턴은 F1이 미국에서 Apple TV로 이전한 것이 옳은 결정이었는지에 대한 질문을 받았습니다."
-     ],
-     "titleKo": "F1의 '문화적 영향력'이 미국 모터스포츠 경쟁에서 우위를 점하다",
-     "descKo": "F1은 미국에서 NASCAR와 인디카(IndyCar)보다 관중이 적을 수 있지만, 윌 벅스턴(Will Buxton)은 F1이 미국 스포츠계에서 독보적인 위치를 차지하고 있다고 생각합니다."
+     ]
     },
     {
      "title": "Gary Anderson's alternative F1 V8 engine proposal",
@@ -2001,6 +2022,8 @@
      "date": "2026-11-24T12:06:48+00:00",
      "author": "Gary Anderson",
      "id": "c5c7d62435",
+     "titleKo": "게리 앤더슨의 F1 V8 엔진 대체 제안",
+     "descKo": "F1은 2030년 V8 엔진을 통해 팬과 이해관계자의 의견을 경청했음을 입증할 기회를 얻었습니다. 게리 앤더슨이 이러한 규정을 어떻게 만들지 알아보겠습니다.",
      "lead": [
       "I have just finished reading this article written by Jon Noble and Scott Mitchell-Malm, which is taken from an interview with Formula 1 CEO Stefano Domenicali at an event in Las Vegas, and I didn't know whether to laugh or cry.",
       "Speaking to The Race co-founder Darren Cox at the Axios x The Race Beyond the Race: Investments in Innovation and Leadership event in Las Vegas on Friday, Domenicali offered insight into why new engines make sense.",
@@ -2010,9 +2033,7 @@
       "저는 방금 존 노블(Jon Noble)과 스콧 미첼-말름(Scott Mitchell-Malm)이 쓴 이 기사를 읽었습니다. 이 기사는 라스베이거스에서 열린 행사에서 포뮬러원 CEO 스테파노 도메니칼리(Stefano Domenicali)와 나눈 인터뷰를 바탕으로 작성되었습니다. 기사를 읽고 나니 웃어야 할지 울어야 할지 모르겠더군요.",
       "도메니칼리는 지난 15일 라스베이거스에서 열린 Axios x The Race Beyond the Race: Investments in Innovation and Leadership 행사에서 The Race의 공동 창립자인 대런 콕스(Darren Cox)와 대화를 나누며 새로운 엔진이 필요한 이유에 대한 통찰을 제시했습니다.",
       "도메니칼리는 2026년 규정에 영향을 미쳤던 '생존'을 위한 싸움이 더 이상 필요하지 않기 때문에 V8 엔진으로의 복귀가 신속하게 추진된 이유를 설명했습니다."
-     ],
-     "titleKo": "게리 앤더슨의 F1 V8 엔진 대체 제안",
-     "descKo": "F1은 2030년 V8 엔진을 통해 팬과 이해관계자의 의견을 경청했음을 입증할 기회를 얻었습니다. 게리 앤더슨이 이러한 규정을 어떻게 만들지 알아보겠습니다."
+     ]
     },
     {
      "title": "F1's just had a warning about a push-to-pass future",
@@ -2138,27 +2159,6 @@
       "Formula 1의 거친 추월 축제 라스베이거스 그랑프리에서 실제로 최고의(그리고 최악의) 일을 한 사람은 누구입니까?",
       "새로운 티어 목록 드라이버 순위 형식에 대한 Edd Straw의 판단은 다음과 같습니다.",
       "평소와 마찬가지로 The Race Members' Club의 이 게시물에 댓글을 달아 Edd의 순위에 대해 질문할 수 있으며 편리한 시각적 도구를 사용하여 자신만의 브라질 GP 티어 목록을 작성해 볼 수 있습니다!"
-     ]
-    },
-    {
-     "title": "Camara to complete F1 season with Haas, sacrificing F2 title shot",
-     "desc": "Rafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot",
-     "link": "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455562_HiRes.jpg",
-     "date": "2026-11-22T18:12:46+00:00",
-     "author": "Matt Beer",
-     "id": "aad6f7aeca",
-     "titleKo": "Camara, Haas와 함께 F1 시즌 마무리, F2 타이틀 샷 희생",
-     "descKo": "Rafael Camara는 Haas와 함께 2026년 Formula 1 시즌을 마무리하여 그의 Formula 2 우승 기회를 효과적으로 희생할 것입니다.",
-     "lead": [
-      "Rafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot to continue getting a headstart on his relationship with his 2027 F1 team.",
-      "Though Camara contested the Brazilian and Las Vegas Grands Prix for Haas after its sudden split with Esteban Ocon midway through the Mexican GP weekend, Camara had been on a race-by-race arrangement.",
-      "He currently leads the F2 standings by seven points over Red Bull reserve Nikola Tsolov, but the last two rounds are on the F1 bill in Qatar and Abu Dhabi and drivers are barred from trying to compete in both series at the same event (which would in any case be impractical with the timetables even if it was permitted)."
-     ],
-     "leadKo": [
-      "Rafael Camara는 Haas와 함께 2026년 Formula 1 시즌을 마무리하고 Formula 2 챔피언십 기회를 효과적으로 희생하여 2027년 F1 팀과의 관계를 계속해서 주도할 것입니다.",
-      "Camara는 멕시코 GP 주말 중간에 Esteban Ocon과 갑자기 헤어진 후 Haas를 위해 브라질 및 라스베거스 그랑프리에 참가했지만 Camara는 경주별로 배열했습니다.",
-      "그는 현재 Red Bull 예비 Nikola Tsolov보다 F2 순위에서 7점 앞서 있지만, 마지막 두 라운드는 카타르와 아부다비의 F1 청구서에 있으며 드라이버는 동일한 이벤트에서 두 시리즈 모두에 참가하려는 시도가 금지되어 있습니다(허용되더라도 시간표 상으로는 비현실적입니다)."
      ]
     }
    ]
