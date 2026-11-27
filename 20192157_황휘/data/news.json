@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:53:26+00:00",
+ "updated": "2026-11-27T12:27:51+00:00",
  "failed": [],
  "tabs": {
   "report": {
@@ -18,10 +18,10 @@
      "historyUrl": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lusail_International_Circuit_2023.svg/1280px-Lusail_International_Circuit_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Lusail_International_Circuit_2023.svg",
-     "date": "2026-11-25T17:55:33Z",
+     "date": "2026-11-27T08:14:48Z",
      "raceDate": "2026-11-29",
      "author": "위키백과 편집자들",
-     "revid": 1387835140,
+     "revid": 1388255823,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -373,17 +373,17 @@
      "id": "034b073722",
      "wikiTitle": "2026 São Paulo Grand Prix",
      "title": "2026 São Paulo Grand Prix",
-     "titleKo": "2026년 상파울루 그랑프리",
+     "titleKo": "2026 상파울루 그랑프리",
      "desc": "The 2026 São Paulo Grand Prix (officially known as the Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026) was a Formula One motor race that was held on 8 November 2026 at the…",
      "descKo": "2026년 상파울루 그랑프리(공식 명칭: Formula 1 MSC Cruises Grande Prêmio de São Paulo 2026)는 2026년 11월 8일 브라질 상파울루의 인터라고스 서킷에서 열린 포뮬러 1 자동차 경주였습니다. 2026년 포뮬러 원 월드 챔피언십의 20번째 라운드였습니다. 루이스…",
      "link": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
      "historyUrl": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix?action=history",
      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg/1280px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_%28AKA_Interlagos%29_track_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
      "imageFile": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
-     "date": "2026-11-25T11:10:33Z",
+     "date": "2026-11-27T12:04:43Z",
      "raceDate": "2026-11-08",
      "author": "위키백과 편집자들",
-     "revid": 1387775675,
+     "revid": 1388284874,
      "license": "CC BY-SA 4.0",
      "body": [
       {
@@ -1787,6 +1787,69 @@
    "sourceUrl": "https://www.motorsport.com/rss/f1/news/",
    "items": [
     {
+     "title": "Carlos Sainz explains his intriguing DRS proposal for F1 2030",
+     "desc": "With F1 close to signing off on the overarching tenets of its 2030 return to V8 power units, some of its leading drivers have fleshed out ideas of how to make those into a…",
+     "link": "https://www.motorsport.com/f1/news/carlos-sainz-explains-his-intriguing-drs-proposal-for-f1-2030/10878146/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YMXb8zv2/s6/carlos-sainz-williams.jpg",
+     "date": "2026-11-27T11:47:59+00:00",
+     "author": "",
+     "id": "1edb926a44",
+     "lead": [
+      "With F1 close to signing off on the overarching tenets of its 2030 return to V8 power units, some of its leading drivers have fleshed out ideas of how to make those into a compelling product.",
+      "F1 is set to move to all-new turbo V8 engines in 2030, with a smaller electric unit of up to 200kW and sustainable fuel. That should make engines simpler, cheaper and lighter, and therefore reduce the reliance on energy from the battery compared to today's oft-criticised formula.",
+      "By signing off the V8 move at the next FIA World Motor Sport Council gathering in Shanghai on 12 December, F1 and the FIA are giving themselves time to properly flesh out the chassis and aerodynamic regulations that should work in unison with the V8 power units to produce a better on-track show."
+     ],
+     "leadKo": [
+      "F1이 2030년 V8 엔진으로의 복귀에 대한 중요한 원칙을 승인하는 데 가까워짐에 따라 F1의 주요 드라이버 중 일부는 이를 매력적인 제품으로 만드는 방법에 대한 아이디어를 구체화했습니다.",
+      "F1은 2030년에 최대 200kW의 더 작은 전기 장치와 지속 가능한 연료를 갖춘 완전히 새로운 터보 V8 엔진으로 전환할 예정입니다. 이는 엔진을 더 단순하고 저렴하며 가볍게 만들어 오늘날 자주 비판받는 방식에 비해 배터리 에너지에 대한 의존도를 줄여야 합니다.",
+      "F1과 FIA는 12월 12일 상하이에서 열리는 다음 FIA 세계 모터 스포츠 협의회 모임에서 V8 이동을 승인함으로써 더 나은 트랙 쇼를 만들기 위해 V8 동력 장치와 조화롭게 작동해야 하는 섀시 및 공기 역학 규정을 적절하게 구체화할 시간을 갖습니다."
+     ],
+     "titleKo": "Carlos Sainz가 F1 2030에 대한 흥미로운 DRS 제안을 설명합니다.",
+     "descKo": "F1이 2030년 V8 동력 장치로의 복귀에 대한 중요한 원칙을 승인하는 데 가까워짐에 따라 일부 주요 드라이버는 이를 구체화하는 방법에 대한 아이디어를 구체화했습니다."
+    },
+    {
+     "title": "Why Fernando Alonso reported a \"broken engine\" in Las Vegas – but Honda can’t find an issue",
+     "desc": "On his final lap of the Formula 1 Las Vegas Grand Prix, Fernando Alonso called it a day. The two-time world champion locked up at the end of the long straight before telling the…",
+     "link": "https://www.motorsport.com/f1/news/why-fernando-alonso-reported-a-broken-engine-in-las-vegas-but-honda-cant-find-an-issue/10878119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/YK15zBk0/s6/fernando-alonso-aston-martin-r.jpg",
+     "date": "2026-11-27T11:03:25+00:00",
+     "author": "",
+     "id": "840d132ab5",
+     "lead": [
+      "On his final lap of the Formula 1 Las Vegas Grand Prix, Fernando Alonso called it a day. The two-time world champion locked up at the end of the long straight before telling the team over the radio: “Box, box, broken engine.”",
+      "In the media pen afterwards, the Spaniard reiterated that something was wrong with the power unit in his Aston Martin: “The engine was down from the beginning of the race, I think. We saw already in qualifying that the engine was down and I think it was down the whole race as well.",
+      "“So I was losing a lot of time on the straights, not only to the rest of the field but also to Lance. I think in the last two laps the engine completely gave up.”"
+     ],
+     "leadKo": [
+      "Formula 1 Las Vegas Grand Prix의 마지막 랩에서 Fernando Alonso는 이를 하루라고 불렀습니다. 두 차례 세계 챔피언에 오른 그는 긴 직선 끝에 멈춰 서서 라디오를 통해 팀에게 \"박스, 박스, 엔진 고장\"이라고 말했습니다.",
+      "이후 미디어 펜에서 스페인 선수는 자신의 Aston Martin의 동력 장치에 문제가 있음을 반복하여 다음과 같이 말했습니다: \"제 생각에는 경주 시작부터 엔진이 꺼진 것 같습니다. 우리는 예선에서 이미 엔진이 꺼진 것을 보았고 전체 경주에서도 엔진이 꺼진 것 같습니다.\"",
+      "\"그래서 나머지 필드뿐만 아니라 Lance에게도 직선 구간에서 많은 시간을 허비하고 있었습니다. 마지막 두 랩에서 엔진이 완전히 포기한 것 같습니다.\""
+     ],
+     "titleKo": "페르난도 알론소(Fernando Alonso)가 라스베거스에서 \"엔진 고장\"을 보고했지만 혼다는 문제를 찾을 수 없는 이유",
+     "descKo": "Formula 1 Las Vegas Grand Prix의 마지막 랩에서 Fernando Alonso는 이를 하루라고 불렀습니다. 두 번이나 세계 챔피언에 오른 그는 긴 직선 끝에 갇혀서 다음과 같이 말했습니다."
+    },
+    {
+     "title": "How Nico Rosberg beat Lewis Hamilton – and his demons – to clinch F1 world title",
+     "desc": "“My superpower was preparation.” This may not make for a fascinating storyline but perfectly encapsulates how Nico Rosberg surpassed Lewis Hamilton on his way the 2016 Formula 1…",
+     "link": "https://www.motorsport.com/f1/news/how-nico-rosberg-beat-lewis-hamilton-and-his-demon-to-clinch-f1-world-title/10877499/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "image": "https://cdn-1.motorsport.com/images/amp/0mXyxz46/s6/nico-rosberg-mercedes.jpg",
+     "date": "2026-11-27T09:34:17+00:00",
+     "author": "",
+     "id": "a926a806d8",
+     "lead": [
+      "This may not make for a fascinating storyline but perfectly encapsulates how Nico Rosberg surpassed Lewis Hamilton on his way the 2016 Formula 1 world title.",
+      "You won’t often hear drivers downplay their natural ability, but 10 years on from his triumph with Mercedes , Rosberg was very open about it in the latest Beyond The Grid podcast. He couldn’t match Hamilton’s talent – “Lewis is the GOAT,” he candidly admitted – so he had to dig deep in every other field to come out on top.",
+      "“It’s just extracting 110% of my potential,” Rosberg explained. “That’s what it’s about. And that means every single area that there is – and there are many: there’s food, there’s sleep, there’s working with the engineers, there’s car development, there’s media, there’s fitness, there’s body weight.”"
+     ],
+     "leadKo": [
+      "이것은 매혹적인 스토리라인이 아닐 수도 있지만 니코 로즈버그가 2016 포뮬러 1 월드 타이틀을 획득하는 과정에서 어떻게 루이스 해밀턴을 능가했는지 완벽하게 요약합니다.",
+      "운전자가 자신의 타고난 능력을 경시하는 경우는 흔하지 않지만, Mercedes에서 우승한 지 10년이 지난 Rosberg는 최신 Beyond The Grid 팟캐스트에서 이에 대해 매우 개방적이었습니다. 그는 해밀턴의 재능을 따라잡을 수 없었습니다. “루이스는 GOAT입니다.” 그는 솔직하게 인정했습니다. 그래서 그는 정상에 오르기 위해 다른 모든 분야를 깊이 파고들어야 했습니다.",
+      "Rosberg는 “내 잠재력의 110%를 끌어내는 것뿐입니다.”라고 설명했습니다. \"그게 바로 그거예요. 그리고 그것은 존재하는 모든 단일 영역을 의미합니다. 음식이 있고, 잠이 있고, 엔지니어와 협력하고, 자동차 개발이 있고, 미디어가 있고, 피트니스가 있고, 체중이 있습니다.\""
+     ],
+     "titleKo": "니코 로즈버그(Nico Rosberg)가 루이스 해밀턴(Lewis Hamilton)과 그의 악마들을 이기고 F1 세계 타이틀을 획득한 방법",
+     "descKo": "“나의 초능력은 준비였다.” 이것은 매혹적인 스토리라인이 아닐 수도 있지만 니코 로즈버그가 어떻게 2016년 포뮬러 1에서 루이스 해밀턴을 능가했는지 완벽하게 요약하고 있습니다."
+    },
+    {
      "title": "Mercedes boss Toto Wolff reveals why rival F1 teams never try to hire him",
      "desc": "Toto Wolff has just added to his legendary resume by securing Mercedes' return to the top of Formula 1 in 2026, officially tying former McLaren boss Ron Dennis with a record 17…",
      "link": "https://www.motorsport.com/f1/news/mercedes-boss-toto-wolff-reveals-why-rival-f1-teams-never-try-to-hire-him/10874986/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -1794,6 +1857,8 @@
      "date": "2026-11-27T00:30:04+00:00",
      "author": "",
      "id": "b44d926665",
+     "titleKo": "메르세데스 팀 대표 토토 볼프, 경쟁 F1 팀이 자신을 영입하려 하지 않는 이유를 밝히다",
+     "descKo": "토토 볼프는 2026년 메르세데스의 포뮬러원 정상 복귀를 확정하며 전설적인 이력에 또 한 줄을 추가했습니다. 이는 전 맥라렌 사장 론 데니스가 보유한 17회 우승 기록과 공식적으로 동률을 이루는…",
      "lead": [
       "Toto Wolff has just added to his legendary resume by securing Mercedes' return to the top of Formula 1 in 2026, officially tying former McLaren boss Ron Dennis with a record 17 world championship titles across drivers' and constructors' campaigns.",
       "With that level of historical dominance, logic dictates that rival constructors and corporate conglomerates would be throwing blank cheques at the 54-year-old Austrian to rebuild their own struggling operations. But the reality of the paddock is surprisingly quiet.",
@@ -1803,9 +1868,7 @@
       "토토 볼프는 2026년 메르세데스의 포뮬러원 정상 복귀를 확정하며 자신의 전설적인 이력에 또 한 줄을 추가했습니다. 이로써 그는 드라이버와 컨스트럭터 부문에서 총 17회의 월드 챔피언십 타이틀을 획득한 전 맥라렌 보스 론 데니스의 기록과 공식적으로 동률을 이루게 되었습니다.",
       "이러한 수준의 역사적 우위를 감안할 때, 경쟁 팀과 기업 연합이 어려움을 겪고 있는 자신들의 팀을 재건하기 위해 54세의 오스트리아인에게 무제한의 자금을 제공할 것이라는 것은 당연한 이치입니다. 하지만 패독의 현실은 놀라울 정도로 조용합니다.",
       "독일 매체 빌트(BILD)와의 단독 인터뷰에서 볼프는 정확히 몇 건의 외부 채용 제안이 들어오는지 질문을 받았습니다."
-     ],
-     "titleKo": "메르세데스 팀 대표 토토 볼프, 경쟁 F1 팀이 자신을 영입하려 하지 않는 이유를 밝히다",
-     "descKo": "토토 볼프는 2026년 메르세데스의 포뮬러원 정상 복귀를 확정하며 전설적인 이력에 또 한 줄을 추가했습니다. 이는 전 맥라렌 사장 론 데니스가 보유한 17회 우승 기록과 공식적으로 동률을 이루는…"
+     ]
     },
     {
      "title": "Toto Wolff responds to Kimi Antonelli salary questions after F1 title success",
@@ -1815,6 +1878,8 @@
      "date": "2026-11-26T23:00:02+00:00",
      "author": "",
      "id": "2be954b875",
+     "titleKo": "토토 볼프, F1 타이틀 획득 후 키미 안토넬리의 연봉 관련 질문에 답변",
+     "descKo": "포뮬러 1 팀이 10대 선수를 포뮬러 2에서 바로 최고 수준의 팩토리 시트로 승격시킬 때, 최초 계약은 대형 스타급 계약처럼 구성되는 경우가 거의 없습니다. 하지만...",
      "lead": [
       "When a Formula 1 team elevates a teenager from Formula 2 directly into a top-tier factory seat, the initial contract is rarely structured like a blockbuster superstar deal. But when that kid wins the drivers' world championship in his sophomore season, the original financial terms quickly become drastically outdated.",
       "That is exactly the scenario currently playing out at Mercedes with 20-year-old Kimi Antonelli .",
@@ -1824,9 +1889,7 @@
       "포뮬러 1 팀이 포뮬러 2에 있던 10대 선수를 바로 최고 수준의 팩토리 시트로 승격시킬 때, 최초 계약이 대형 스타급 계약처럼 구성되는 경우는 거의 없습니다. 하지만 그 선수가 두 번째 시즌에 드라이버 월드 챔피언십에서 우승하면, 기존의 재정적 조건은 빠르게 크게 뒤떨어지게 됩니다.",
       "이것이 바로 현재 메르세데스에서 20세의 키미 안토넬리에게 펼쳐지고 있는 시나리오입니다.",
       "최근 독일 매체 빌트(BILD)와의 단독 인터뷰에서 토토 볼프(Toto Wolff) 팀 대표는 젊은 챔피언의 재정적 현실에 대해 집중적인 질문을 받았습니다."
-     ],
-     "titleKo": "토토 볼프, F1 타이틀 획득 후 키미 안토넬리의 연봉 관련 질문에 답변",
-     "descKo": "포뮬러 1 팀이 10대 선수를 포뮬러 2에서 바로 최고 수준의 팩토리 시트로 승격시킬 때, 최초 계약은 대형 스타급 계약처럼 구성되는 경우가 거의 없습니다. 하지만..."
+     ]
     },
     {
      "title": "Max Verstappen details his ideal 2030 F1 Formula",
@@ -1836,6 +1899,8 @@
      "date": "2026-11-26T22:13:25+00:00",
      "author": "",
      "id": "bc57a26e33",
+     "titleKo": "맥스 페르스타펜이 말하는 이상적인 2030년 F1 포뮬러",
+     "descKo": "맥스 페르스타펜은 \"마리오 카트를 하는 것 같다\"고 솔직하게 말하며 혼돈스러운 352번의 추월이 있었던 라스베이거스 그랑프리에서 우승한 직후, 포뮬러 원이 무엇이라고 생각하는지 밝혔다.",
      "lead": [
       "Fresh off winning a chaotic, 352-overtake Las Vegas Grand Prix that he bluntly dismissed as feeling like \"playing Mario Kart \", Max Verstappen has laid out what he believes Formula 1 should actually chase when its next major regulation overhaul arrives in 2030.",
       "Speaking to the media ahead of the Qatar Grand Prix at Losail, the four-time world champion was asked what a \"pure\" Formula 1 looks like - and whether F1 should lean on DRS, overtake modes, or push-to-pass once the current rules cycle wraps up.",
@@ -1845,9 +1910,7 @@
       "맥스 페르스타펜은 \"마리오 카트를 하는 것 같다\"고 솔직하게 말하며 혼돈스러운 352번의 추월이 있었던 라스베이거스 그랑프리에서 우승한 직후, 2030년에 다음 주요 규정 개정이 있을 때 포뮬러원이 실제로 추구해야 할 것이 무엇이라고 생각하는지 밝혔다.",
       "로사일에서 열리는 카타르 그랑프리를 앞두고 언론과 가진 인터뷰에서 4회 월드 챔피언인 그는 \"순수한\" 포뮬러원(F1)이 어떤 모습인지, 그리고 현재의 규정 주기가 끝나면 F1이 DRS, 추월 모드 또는 푸시-투-패스에 의존해야 하는지 질문을 받았습니다.",
       "페르스타펜의 출발점은 명확했습니다. 무게를 줄이고, 인위적인 직선 주행 트릭을 버리고, 전기 에너지 회수가 드라이버의 랩 주행 방식을 좌우하지 못하도록 하는 것이었습니다."
-     ],
-     "titleKo": "맥스 페르스타펜이 말하는 이상적인 2030년 F1 포뮬러",
-     "descKo": "맥스 페르스타펜은 \"마리오 카트를 하는 것 같다\"고 솔직하게 말하며 혼돈스러운 352번의 추월이 있었던 라스베이거스 그랑프리에서 우승한 직후, 포뮬러 원이 무엇이라고 생각하는지 밝혔다."
+     ]
     },
     {
      "title": "Kimi Antonelli teases Nordschleife race with Max Verstappen, but there is one condition",
@@ -1857,6 +1920,8 @@
      "date": "2026-11-26T20:56:51+00:00",
      "author": "",
      "id": "5d8b48fd4d",
+     "titleKo": "키미 안토넬리, 막스 페르스타펜과의 노르트슐라이페 레이스에 대해 언급하며 한 가지 조건을 제시",
+     "descKo": "2026년 포뮬러원 챔피언 키미 안토넬리는 노르트슐라이페에서 4회 챔피언인 막스 페르스타펜과 함께 레이스를 펼치고 싶다고 말했지만, 먼저...",
      "lead": [
       "2026 Formula 1 champion Kimi Antonelli says he would love to race alongside four-time champion Max Verstappen at the Nordschleife, but admits he would first have to win the support of Mercedes team principal Toto Wolff.",
       "Verstappen has made no secret of his love of endurance racing, and has raced GT3 cars at the Nurburgring alongside his F1 commitments.",
@@ -1866,9 +1931,7 @@
       "2026년 포뮬러원 챔피언 키미 안토넬리는 노르츠슐라이페에서 4회 챔피언인 막스 페르스타펜과 함께 레이스를 펼치고 싶다고 말했지만, 먼저 메르세데스 팀 대표인 토토 볼프의 지지를 얻어야 한다고 인정했습니다.",
       "페르스타펜은 내구 레이싱에 대한 자신의 사랑을 숨기지 않았으며, F1 출전과 함께 뉘르부르크링에서 GT3 차량으로 레이싱을 펼쳤습니다.",
       "카타르 그랑프리 전에 언론과 대화를 나누던 중, 이탈리아 출신 드라이버인 지오비나치에게 페르스타펜의 내구 레이싱 프로그램에 합류하는 것을 고려할지 여부에 대한 질문이 있었습니다."
-     ],
-     "titleKo": "키미 안토넬리, 막스 페르스타펜과의 노르트슐라이페 레이스에 대해 언급하며 한 가지 조건을 제시",
-     "descKo": "2026년 포뮬러원 챔피언 키미 안토넬리는 노르트슐라이페에서 4회 챔피언인 막스 페르스타펜과 함께 레이스를 펼치고 싶다고 말했지만, 먼저..."
+     ]
     },
     {
      "title": "Max Verstappen without Gianpiero Lambiase at Qatar GP as Tom Hart steps in",
@@ -1878,6 +1941,8 @@
      "date": "2026-11-26T19:55:34+00:00",
      "author": "",
      "id": "d0ae3eaffc",
+     "titleKo": "카타르 GP에서 지안피에로 람비아세 없이 맥스 페르스타펜 출전, 톰 하트가 대신 투입",
+     "descKo": "맥스 페르스타펜은 이번 주말 루사일 인터내셔널 서킷에서 평소 자신의 오른팔 역할을 하는 지안피에로 람비아세 없이 경기에 임하게 됩니다. 레드불은 이미 ...에 대한 교대 시스템을 채택했습니다.",
      "lead": [
       "Max Verstappen will be without his regular right-hand man Gianpiero Lambiase this weekend at the Lusail International Circuit. Red Bull had already opted for a rotation system for the latter part of this Formula 1 season, primarily to allow Tom Hart to settle into the role ahead of his expected permanent appointment while Lambiase is still with the team.",
       "The initial plan was for Lambiase to cover the final two grands prix of the season as Verstappen's race engineer, besides his duties as Red Bull’s head of racing, but he will be absent in Qatar due to personal circumstances. The team told Motorsport.com that Lambiase is expected to return in Abu Dhabi, provided his personal circumstances allow.",
@@ -1887,9 +1952,7 @@
       "맥스 페르스타펜은 이번 주말 루사일 인터내셔널 서킷에서 평소 자신의 오른팔 역할을 하는 지안피에로 람비아세 없이 경기를 치르게 됩니다. 레드불은 이미 이번 포뮬러원 시즌 후반부에 로테이션 시스템을 도입하기로 결정했습니다. 이는 주로 람비아제가 여전히 팀에 있는 동안 톰 하트가 예상되는 정규 임명에 앞서 해당 역할에 적응할 수 있도록 하기 위한 것입니다.",
       "당초 계획은 람비아제가 레드불의 레이싱 책임자로서의 임무 외에도 베르스타펜의 레이스 엔지니어로 시즌 마지막 두 번의 그랑프리에 참여하는 것이었지만, 개인적인 사정으로 카타르에는 불참하게 되었습니다. 팀은 Motorsport.com에 람비아제가 개인적인 사정이 허락하는 한 아부다비로 복귀할 것으로 예상된다고 밝혔습니다.",
       "람비아세는 맥라렌으로 이적하기에 앞서 2027년에 정직 처분을 받을 것으로 예상됩니다. 레드불이 아직 공식적으로 발표하지는 않았지만, 이로 인해 하트가 이르면 2027시즌 초부터 페르스타펜의 상임 레이스 엔지니어가 될 가능성이 매우 높아졌습니다."
-     ],
-     "titleKo": "카타르 GP에서 지안피에로 람비아세 없이 맥스 페르스타펜 출전, 톰 하트가 대신 투입",
-     "descKo": "맥스 페르스타펜은 이번 주말 루사일 인터내셔널 서킷에서 평소 자신의 오른팔 역할을 하는 지안피에로 람비아세 없이 경기에 임하게 됩니다. 레드불은 이미 ...에 대한 교대 시스템을 채택했습니다."
+     ]
     },
     {
      "title": "Why Max Verstappen has ruled out Indy 500 entry",
@@ -1911,69 +1974,6 @@
       "페르스타펜의 파트너인 켈리 피케의 아버지인 피케는 1992년 인디 500 연습 주행 중 충돌 사고로 다리와 발에 심각한 부상을 입었고, 몇 달간의 재활 치료가 필요했습니다.",
       "지난 주말 라스베이거스 그랑프리에서 우승한 페르스타펜은 카타르 그랑프리 주말을 앞두고 언론과 가진 인터뷰에서 이 상징적인 레이스에 출전할 가능성에 대한 질문을 받았습니다. 라스베이거스의 거리에서 펼쳐진 이 레이스는 인디카 시리즈와 비교될 만큼 수준 높은 레이싱을 선보였습니다."
      ]
-    },
-    {
-     "title": "Lewis Hamilton confirms \"positive\" talks with Charles Leclerc after Las Vegas clash",
-     "desc": "Seven-time Formula 1 champion Lewis Hamilton says Ferrari's talks since the Las Vegas Grand Prix have been \"positive\", and believes he and his team-mate Charles Leclerc can move…",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-confirms-positive-talks-with-charles-leclerc-after-las-vegas-clash/10878021/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0mXyxxk6/s6/lewis-hamilton-ferrari-a10878021-b704-2.jpg",
-     "date": "2026-11-26T18:42:43+00:00",
-     "author": "",
-     "id": "cedba46189",
-     "titleKo": "루이스 해밀턴, 라스베이거스 충돌 후 샤를 르클레르와 '긍정적인' 대화 확인",
-     "descKo": "포뮬러원 7회 챔피언인 루이스 해밀턴은 라스베이거스 그랑프리 이후 페라리와의 협상이 \"긍정적\"이었다고 말하며, 자신과 팀 동료인 샤를 르클레르가...",
-     "lead": [
-      "Seven-time Formula 1 champion Lewis Hamilton says Ferrari's talks since the Las Vegas Grand Prix have been \"positive\", and believes he and his team-mate Charles Leclerc can move forward together after their latest clash.",
-      "Leclerc spun Hamilton around while the team-mates fought over sixth place in Las Vegas, three weeks after another clash at the Mexican Grand Prix. Leclerc was given a 10-second penalty and finished 10th, while Hamilton recovered to seventh.",
-      "Team principal Fred Vasseur called the incident \"a lack of respect for the team\", and said Ferrari's message after Mexico had been clear."
-     ],
-     "leadKo": [
-      "포뮬러원 7회 챔피언인 루이스 해밀턴은 라스베이거스 그랑프리 이후 페라리의 대화가 \"긍정적\"이었다고 말하며, 자신과 팀 동료인 샤를 르클레르가 최근 충돌 이후 함께 나아갈 수 있을 것이라고 믿는다고 밝혔습니다.",
-      "르클레르는 라스베이거스에서 팀 동료들이 6위를 놓고 경쟁하는 동안 해밀턴을 스핀시켰습니다. 이는 멕시코 그랑프리에서 또 다른 충돌이 있었던 지 3주 만에 일어난 일입니다. 르클레르는 10초 페널티를 받고 10위로 경기를 마쳤으며, 해밀턴은 7위로 복귀했습니다.",
-      "프레드 바수르(Fred Vasseur) 팀 대표는 이 사건을 \"팀에 대한 존중심 부족\"이라고 표현했으며, 멕시코 그랑프리 이후 페라리의 메시지가 명확했다고 밝혔습니다."
-     ]
-    },
-    {
-     "title": "Christian Horner and Geri Halliwell reportedly snap up \"Pride and Prejudice\" mansion",
-     "desc": "Former Red Bull Racing team principal and CEO Christian Horner and his wife, Spice Girl Geri Halliwell, are understood to have bought Edgcote House, the historic Northamptonshire…",
-     "link": "https://www.motorsport.com/f1/news/christian-horner-and-geri-halliwell-reportedly-snap-up-pride-and-prejudice-mansion/10878015/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/2d1k3zDY/s6/geri-horner-and-christian-horn-a10878015-b708-2.jpg",
-     "date": "2026-11-26T18:20:23+00:00",
-     "author": "",
-     "id": "b02b0bd441",
-     "titleKo": "크리스티안 호너와 제리 할리웰이 '오만과 편견'의 저택을 매입했다고 전해집니다.",
-     "descKo": "레드불 레이싱 팀의 전 대표이자 CEO인 크리스티안 호너와 그의 아내인 스파이스 걸스의 멤버 제리 할리웰이 노샘프턴셔의 유서 깊은 저택인 에지코트 하우스를 매입한 것으로 알려졌습니다.",
-     "lead": [
-      "Former Red Bull Racing team principal and CEO Christian Horner and his wife, Spice Girl Geri Halliwell, are understood to have bought Edgcote House, the historic Northamptonshire estate that appeared in the BBC's Pride and Prejudice .",
-      "The couple are said to have secured the 1,700-acre estate after beating a rival bid of around £52million, according to the Daily Mail . An earlier offer of £45million was reportedly turned down in the summer, when another buyer bid higher, before the Horners returned with a bigger offer. The final price has not been confirmed.",
-      "The Grade I-listed house was used as Netherfield in the BBC's 1995 adaptation of the Jane Austen novel, and was once given to Anne of Cleves as part of her divorce settlement from Henry VIII."
-     ],
-     "leadKo": [
-      "레드불 레이싱 팀의 전 대표이자 CEO인 크리스티안 호너와 그의 아내이자 스파이스 걸스의 멤버인 제리 할리웰이 BBC의 '오만과 편견'에 등장한 노샘프턴셔의 유서 깊은 저택인 에지코트 하우스를 매입한 것으로 알려졌습니다.",
-      "데일리 메일 에 따르면, 이 부부는 약 5,200만 파운드의 경쟁 입찰가를 이기고 1,700에이커 규모의 부동산을 매입한 것으로 알려졌습니다. 앞서 4,500만 파운드의 제안이 여름에 거절된 것으로 알려졌는데, 당시 다른 구매자가 더 높은 가격을 제시했고, 이후 호너 부부가 더 높은 가격을 제시했습니다. 최종 가격은 아직 확정되지 않았습니다.",
-      "1등급 문화재로 지정된 이 저택은 BBC가 1995년에 제작한 제인 오스틴 소설의 각색판에서 네더필드 저택으로 사용되었으며, 한때 헨리 8세와의 이혼 합의의 일환으로 클리브스의 앤에게 주어졌던 곳이기도 합니다."
-     ]
-    },
-    {
-     "title": "Max Verstappen and George Russell rivalry \"really cool for the sport\", says F1 pundit",
-     "desc": "The Las Vegas Grand Prix weekend reignited the long-running tension between Red Bull and Mercedes drivers, Max Verstappen and George Russell, and it was the talking point of Sky's…",
-     "link": "https://www.motorsport.com/f1/news/george-russell-gets-under-max-verstappens-skin-more-than-any-other-driver-says-f1-pundit/10877980/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "image": "https://cdn-1.motorsport.com/images/amp/0JXRmkBY/s6/max-verstappen-red-bull-racing-a10877980-b707-2.jpg",
-     "date": "2026-11-26T17:06:54+00:00",
-     "author": "",
-     "id": "6f27c879e5",
-     "titleKo": "F1 전문가, \"맥스 페르스타펜과 조지 러셀의 라이벌 구도는 스포츠에 정말 좋은 일\"이라고 말함",
-     "descKo": "라스베이거스 그랑프리 주말에는 레드불과 메르세데스의 드라이버인 맥스 페르스타펜과 조지 러셀 사이에 오랫동안 지속되어 온 긴장이 다시 불붙었고, 이는 스카이의 화제가 되었습니다...",
-     "lead": [
-      "The Las Vegas Grand Prix weekend reignited the long-running tension between Red Bull and Mercedes drivers, Max Verstappen and George Russell , and it was the talking point of Sky's F1 Show podcast this week.",
-      "Three-time W Series champion and Sky Sports pundit Jamie Chadwick discussed the reignited rivalry on the podcast, claiming that no other driver gets under Verstappen's skin as much as Russell.",
-      "The row began in final practice and continued after the race, which Verstappen won while Russell hit the wall trying to pass his Mercedes team-mate. Russell had told Sky Italia that \"someone's got to stand up to that guy\". Verstappen's response was that Russell was \"so far below my level\" that it did not bother him."
-     ],
-     "leadKo": [
-      "라스베이거스 그랑프리 주말은 레드불과 메르세데스의 드라이버인 맥스 페르스타펜과 조지 러셀 사이의 오랜 긴장을 다시 불러일켰으며, 이번 주 스카이의 F1 쇼 팟캐스트의 화제가 되었습니다.",
-      "W 시리즈 3회 챔피언이자 스카이 스포츠 해설자인 제이미 채드윅은 팟캐스트에서 재점화된 라이벌 관계에 대해 이야기하며, 다른 어떤 드라이버도 러셀만큼 페르스타펜의 신경을 건드리지 못한다고 주장했습니다.",
-      "이 논쟁은 최종 연습 주행에서 시작되어 베르스타펜이 우승하고 러셀이 메르세데스 팀 동료를 추월하려다 벽에 부딪힌 레이스 이후에도 계속되었습니다. 러셀은 스카이 이탈리아에 \"누군가는 저 사람에게 맞서야 한다\"고 말했습니다. 페르스타펜은 러셀이 \"내 수준보다 훨씬 낮아서\" 신경 쓰이지 않는다고 답했습니다."
-     ]
     }
    ]
   },
@@ -1982,6 +1982,27 @@
    "sourceUrl": "https://the-race.com/category/formula-1/feed/",
    "items": [
     {
+     "title": "Drivers divided on how F1's 2030 overtaking aid should work",
+     "desc": "The Las Vegas GP put overtaking in F1 into a fresh spotlight, but the drivers aren't aligned on how the 2030 V8 overtaking aid should be defined",
+     "link": "https://www.the-race.com/formula-1/drivers-divided-on-how-f1s-2030-overtaking-aid-should-work/",
+     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1456003_HiRes.jpg",
+     "date": "2026-11-27T09:20:19+00:00",
+     "author": "Jon Noble",
+     "id": "282174791c",
+     "lead": [
+      "The Las Vegas Grand Prix spectacle might not have silenced critics over the artificial elements of Formula 1’s current rules, but there was one element to it that even staunch critic Max Verstappen thinks should be carried forward to the new 2030 cars.",
+      "Despite his perfectly judged execution in Las Vegas that helped pull off a memorable triumph, Verstappen was not impressed with how things played out in a race he likened to Mario Kart.",
+      "Yet there was one underlying aspect to Las Vegas that contributed a lot to its 352 passes, and is something that Verstappen suggests should be pondered as F1 begins pulling together its vision for 2030."
+     ],
+     "leadKo": [
+      "라스베이거스 그랑프리의 광경은 포뮬러 1의 현재 규칙의 인위적인 요소에 대한 비판을 잠재우지 못했을 수도 있지만, 여기에는 확고한 비평가인 Max Verstappen조차 새로운 2030년 자동차에도 적용해야 한다고 생각하는 한 가지 요소가 있었습니다.",
+      "기억에 남는 승리를 거두는 데 도움이 된 라스베가스에서의 완벽하게 판단된 실행에도 불구하고 Verstappen은 자신이 Mario Kart에 비유한 경주에서 상황이 어떻게 진행되었는지에 깊은 인상을 받지 못했습니다.",
+      "그러나 라스베거스에는 352번의 패스에 많은 기여를 한 근본적인 측면이 하나 있었으며, Verstappen은 F1이 2030년에 대한 비전을 통합하기 시작할 때 이를 숙고해야 한다고 제안했습니다."
+     ],
+     "titleKo": "F1의 2030년 추월 보조 장치가 어떻게 작동해야 하는지에 대해 운전자들이 나뉘었습니다.",
+     "descKo": "Las Vegas GP는 F1의 추월을 새로운 주목을 받았지만 드라이버들은 2030 V8 추월 지원을 어떻게 정의해야 하는지에 대해 의견이 일치하지 않습니다."
+    },
+    {
      "title": "Everything we learned on day one of F1's 2026 Qatar Grand Prix",
      "desc": "More Las Vegas fallout drama, the last 2027 driver line-up question settled and some surprising admissions at Lusail",
      "link": "https://www.the-race.com/formula-1/everything-we-learned-on-day-one-of-f1s-2026-qatar-grand-prix/",
@@ -1989,6 +2010,8 @@
      "date": "2026-11-26T21:17:07+00:00",
      "author": "Josh Suttill",
      "id": "01da0d3d11",
+     "titleKo": "F1 2026 카타르 그랑프리 첫날에 알게 된 모든 것",
+     "descKo": "더 많은 라스베이거스 여파 드라마, 마지막 2027년 드라이버 라인업 문제가 해결되고 루사일에서 놀라운 인정이 있었습니다.",
      "lead": [
       "The various flavours of Las Vegas fallout took some new twists as Formula 1 arrived at the Qatar Grand Prix, the final 2027 driver line-up question was answered and we had some surprising admissions from George Russell.",
       "Here's everything we learned on day one at Lusail.",
@@ -1998,9 +2021,7 @@
       "포뮬러원이 카타르 그랑프리에 도착하면서 라스베이거스 사태의 다양한 양상이 새로운 국면을 맞이했습니다. 2027년 최종 드라이버 라인업에 대한 의문이 해소되었고, 조지 러셀로부터 놀라운 고백이 있었습니다.",
       "루사일에서 첫날에 알게 된 모든 내용을 소개해드립니다.",
       "하스와 에스테반 오콘 간의 내부 긴장이 최고조에 달했던 시기에, 팀 보스인 아야오 코마츠는 인터넷을 통해 산불처럼 번지는 근거 없는 소문에 대해 한탄했습니다. 그리고 최근 루이스 해밀턴과 샤를 르클레르 간의 충돌이 라스베이거스에서 발생한 이후, 페라리가 이 현상의 피해를 입은 최신 팀인 것으로 보입니다."
-     ],
-     "titleKo": "F1 2026 카타르 그랑프리 첫날에 알게 된 모든 것",
-     "descKo": "더 많은 라스베이거스 여파 드라마, 마지막 2027년 드라이버 라인업 문제가 해결되고 루사일에서 놀라운 인정이 있었습니다."
+     ]
     },
     {
      "title": "F1 drivers just played Kahoot! on real stewards' decisions",
@@ -2010,6 +2031,8 @@
      "date": "2026-11-26T21:14:24+00:00",
      "author": "Jon Noble",
      "id": "6a6862199f",
+     "titleKo": "F1 드라이버들이 실제 스튜어드들의 판정에 대해 Kahoot! 게임을 했습니다.",
+     "descKo": "올해 카타르에서 열린 F1 연례 드라이버 및 스튜어드 회의는 이례적인 국면을 맞이했습니다.",
      "lead": [
       "Formula 1's annual get-together between drivers and the FIA stewards to discuss racing rules played out in an unusual way in Qatar on Thursday, as a game of Kahoot! was rolled out.",
       "The gathering has become an established fixture to help drivers and FIA race stewards discuss decisions made over the year to date and debate whether improvements need to be made to either racing guidelines or the imposition of sanctions in the future.",
@@ -2019,9 +2042,7 @@
       "포뮬러원(F1) 드라이버와 FIA 스튜어드들이 레이싱 규정을 논의하기 위해 매년 모이는 자리가 목요일 카타르에서 이례적인 방식으로 진행되었습니다. 바로 퀴즈 게임인 '카훗!(Kahoot!)'이 도입된 것입니다.",
       "이 회의는 드라이버와 FIA 레이스 스튜어드가 올해 지금까지 내린 결정을 논의하고 향후 레이스 가이드라인이나 제재 부과에 개선이 필요한지 여부를 논의하는 자리로 자리매김했습니다.",
       "올해 회의는 FIA가 드라이버들을 대상으로 인터랙티브 퀴즈 게임인 Kahoot!를 활용하여 이번 시즌에 부과된 페널티에 대한 의견을 수렴했다는 점에서 색다른 점이 있었습니다."
-     ],
-     "titleKo": "F1 드라이버들이 실제 스튜어드들의 판정에 대해 Kahoot! 게임을 했습니다.",
-     "descKo": "올해 카타르에서 열린 F1 연례 드라이버 및 스튜어드 회의는 이례적인 국면을 맞이했습니다."
+     ]
     },
     {
      "title": "'I was overconfident' - Antonelli battling post-title hangover",
@@ -2031,6 +2052,8 @@
      "date": "2026-11-26T20:29:36+00:00",
      "author": "Josh Suttill",
      "id": "33f9469da4",
+     "titleKo": "'자신감이 과했다' - 챔피언 타이틀 획득 후 부진에 시달리는 안토넬리",
+     "descKo": "키미 안토넬리가 포뮬러 1 타이틀을 차지한 후 \"자신감이 과했다\"고 인정했으며, 이것이 실수로 이어졌다고 밝혔습니다.",
      "lead": [
       "Kimi Antonelli admitted he was \"overconfident\" after sealing his Formula 1 title, and has since made at least one costly error he wouldn't have made had he still been in a championship fight.",
       "Antonelli hasn't been on the podium since he won the title in Mexico a month ago due to two different errors; the first time he's gone two consecutive races without a podium in an otherwise sublime 2026.",
@@ -2040,9 +2063,7 @@
       "키미 안토넬리는 포뮬러 1 타이틀을 차지한 후 \"자신감이 과했다\"고 인정했으며, 이후에도 여전히 챔피언십 경쟁을 하고 있었다면 저지르지 않았을 실수를 적어도 한 번은 저질렀습니다.",
       "안토넬리는 한 달 전 멕시코에서 챔피언십 타이틀을 획득한 이후 두 번의 다른 실수로 인해 포디움에 오르지 못했습니다. 2026년 시즌에서 그가 두 번 연속으로 포디움에 오르지 못한 것은 이번이 처음입니다.",
       "안토넬리는 이전에 오스틴에서 챔피언 타이틀 획득을 앞두고 있었기 때문에 평소보다 긴장한 상태로 주행했으며, 그 주말에 병에서 회복 중이었던 사실도 도움이 되지 않았다고 말한 바 있습니다. 그리고 그날 일요일, 그는 실망스러운 퀄리파잉에서 회복하여 우승을 차지했습니다."
-     ],
-     "titleKo": "'자신감이 과했다' - 챔피언 타이틀 획득 후 부진에 시달리는 안토넬리",
-     "descKo": "키미 안토넬리가 포뮬러 1 타이틀을 차지한 후 \"자신감이 과했다\"고 인정했으며, 이것이 실수로 이어졌다고 밝혔습니다."
+     ]
     },
     {
      "title": "Why Ferrari's coy on 'solution' to Hamilton-Leclerc problem",
@@ -2147,27 +2168,6 @@
       "올리 비어맨이 2027년 포뮬러원 시즌에 하스에 잔류하는 것이 장기적인 계약 연장 끝에 마침내 확정되었습니다.",
       "페라리 주니어인 베어맨은 내년에 하스와 함께 세 번째 풀 시즌을 치르게 됩니다.",
       "그는 2024년 사우디아라비아에서 페라리의 카를로스 사인츠를 대신해 갑작스럽게 F1에 데뷔한 후, 같은 시즌에 하스의 리저브 드라이버로 두 차례 레이스를 펼쳤습니다."
-     ]
-    },
-    {
-     "title": "F1 drivers face highest tyre pressure orders yet in Qatar",
-     "desc": "Qatar brings the highest minimum front tyre pressures of 2026 - and the highest ever stipulated at the start of a race weekend",
-     "link": "https://www.the-race.com/formula-1/f1-drivers-face-highest-tyre-pressure-orders-yet-in-qatar/",
-     "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1388625_HiRes.jpg",
-     "date": "2026-11-26T07:17:49+00:00",
-     "author": "Jon Noble",
-     "id": "cd7aa288fb",
-     "titleKo": "F1 드라이버, 카타르에서 사상 최고 타이어 공기압 지시 받다",
-     "descKo": "카타르에서는 2026년 중 가장 높은 최소 프런트 타이어 공기압이 적용되며, 이는 레이스 주말 시작 시 규정된 공기압 중 사상 최고치입니다.",
-     "lead": [
-      "Formula 1 drivers are to face the highest minimum front tyre pressures of the 2026 season - and the highest ever stipulated at the start of a race weekend - at the Qatar Grand Prix.",
-      "The unique characteristics of the Lusail circuit, which features sequences of high-speed corners and aggressive pyramid-style kerbs, makes it one of the most challenging for tyres.",
-      "It is one of the highest lateral-energy circuits of the season, with the bias of fast right handers meaning the front left is punished particularly hard."
-     ],
-     "leadKo": [
-      "포뮬러원 드라이버들은 2026년 시즌 중 가장 높은 최소 전륜 타이어 압력, 그리고 레이스 주말 시작 시 규정된 사상 최고치를 카타르 그랑프리에서 맞이하게 됩니다.",
-      "고속 코너와 공격적인 피라미드 스타일의 턱이 연속적으로 이어지는 루사일 서킷의 독특한 특성으로 인해 이 서킷은 타이어에 가장 까다로운 서킷 중 하나입니다.",
-      "이곳은 시즌 중 가장 높은 측면 에너지가 가해지는 서킷 중 하나이며, 빠른 우측 코너가 많아 좌측 전륜 타이어에 특히 큰 부담이 가해집니다."
      ]
     }
    ]
